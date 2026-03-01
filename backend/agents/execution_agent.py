@@ -17,6 +17,7 @@ from backend.agents.career_agent import run_career_agent
 from backend.agents.skill_agent import run_skill_agent
 from backend.agents.cover_letter_agent import run_cover_letter_agent
 from backend.agents.resume_optimization_agent import run_resume_optimization_agent
+from backend.agents.auto_apply_agent import run_auto_apply_agent
 from backend.github_yaml_db import read_yaml_from_github, append_log_entry
 
 logger = logging.getLogger("OrchestrAI.ExecutionAgent")
@@ -80,11 +81,15 @@ def run_orchestrai_pipeline():
     # STEP 2.6: Optimize Resumes
     run_resume_optimization_agent()
 
+    # STEP 2.7: Generate Application Packages
+    run_auto_apply_agent()
+
     # STEP 3: Read GitHub database
     jobs_data = read_yaml_from_github("database/jobs.yaml")
     skill_gap_data = read_yaml_from_github("database/skill_gap_per_job.yaml")
     cover_letter_data = read_yaml_from_github("database/cover_letter_index.yaml")
     optimization_data = read_yaml_from_github("database/resume_optimizations.yaml")
+    apply_packages_data = read_yaml_from_github("database/application_packages.yaml")
 
     jobs = jobs_data.get("jobs", []) if isinstance(jobs_data, dict) else []
     skill_analysis = skill_gap_data.get("job_skill_analysis", []) if isinstance(skill_gap_data, dict) else []
@@ -105,6 +110,12 @@ def run_orchestrai_pipeline():
     opt_lookup = {
         (item.get("company", ""), item.get("role", "")): item.get("optimized_resume_link", "#")
         for item in opt_records if isinstance(item, dict)
+    }
+
+    apply_packages = apply_packages_data if isinstance(apply_packages_data, list) else []
+    app_pkg_lookup = {
+        (item.get("company", ""), item.get("role", "")): item.get("status", "Not Generated")
+        for item in apply_packages if isinstance(item, dict)
     }
 
     # STEP 5: Generate HTML table rows
@@ -131,6 +142,9 @@ def run_orchestrai_pipeline():
             opt_html = f'<a href="{opt_link}" style="background:#0277bd; color:white; padding:6px 12px; text-decoration:none; border-radius:6px; display:inline-block;">Optimized Resume</a>'
         else:
             opt_html = "Not Generated"
+            
+        app_status = app_pkg_lookup.get(key, "Not Generated")
+        status_color = "#f29900" if app_status == "Not Generated" else "#1a73e8"
 
         rows += f"""
         <tr>
@@ -138,7 +152,7 @@ def run_orchestrai_pipeline():
             <td>{job.get('role', '')}</td>
             <td>{job.get('location', '')}</td>
             <td>{', '.join(job.get('technical_skills', []))}</td>
-            <td><a href="{job.get('apply_link','#')}">Apply</a></td>
+            <td><a href="{job.get('apply_link','#')}" style="font-weight:bold;">Apply</a><br><br><span style="padding:4px 8px; border-radius:4px; font-weight:bold; color:white; background-color:{status_color}; font-size:11px;">{app_status}</span></td>
             <td>{missing_skills}</td>
             <td>{roadmap}</td>
             <td>{cl_html}<br><br>{opt_html}</td>
