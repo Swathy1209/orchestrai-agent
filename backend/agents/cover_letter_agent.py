@@ -123,8 +123,9 @@ def save_cover_letter_to_github(company: str, role: str, letter_text: str) -> st
             f"feat: generate cover letter for {company} {role} — {ts}"
         )
         
-        # Build GitHub URL
-        github_link = f"https://github.com/{GITHUB_USERNAME}/{GITHUB_REPO}/blob/main/{file_path}"
+        # Build GitHub URL safely without duplicate username
+        repo_slug = GITHUB_REPO if "/" in GITHUB_REPO else f"{GITHUB_USERNAME}/{GITHUB_REPO}"
+        github_link = f"https://github.com/{repo_slug}/blob/main/{file_path}"
         return github_link
     except Exception as exc:
         logger.error("CoverLetterAgent: save_cover_letter_to_github failed - %s", exc)
