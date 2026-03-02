@@ -20,7 +20,9 @@ load_dotenv()
 
 logger = logging.getLogger("OrchestrAI.AIEngine")
 
-OPENAI_API_KEY: str = os.getenv("OPENAI_API_KEY", "")
+OPENAI_API_KEY: str = os.getenv("GEMINI_API_KEY", os.getenv("OPENAI_API_KEY", ""))
+GEMINI_BASE_URL = "https://generativelanguage.googleapis.com/v1beta/openai/"
+GEMINI_MODEL = "gemini-1.5-flash"
 
 # ── Known technical skill keywords for fallback extraction ────────────────────
 _KNOWN_SKILLS: list[str] = [
@@ -79,7 +81,7 @@ def extract_skills_using_ai(resume_text: str) -> list[str]:
     if OPENAI_API_KEY:
         try:
             from openai import OpenAI
-            client = OpenAI(api_key=OPENAI_API_KEY)
+            client = OpenAI(api_key=OPENAI_API_KEY, base_url=GEMINI_BASE_URL)
 
             # Truncate to ~6000 chars to stay within token limits
             truncated = resume_text[:6000]
@@ -95,7 +97,7 @@ def extract_skills_using_ai(resume_text: str) -> list[str]:
             )
 
             response = client.chat.completions.create(
-                model="gpt-3.5-turbo",
+                model=GEMINI_MODEL,
                 messages=[
                     {
                         "role": "system",
@@ -168,7 +170,7 @@ def generate_per_job_roadmap(
     if OPENAI_API_KEY:
         try:
             from openai import OpenAI
-            client = OpenAI(api_key=OPENAI_API_KEY)
+            client = OpenAI(api_key=OPENAI_API_KEY, base_url=GEMINI_BASE_URL)
 
             prompt = (
                 f"User skills: {', '.join(user_skills)}\n\n"
@@ -179,7 +181,7 @@ def generate_per_job_roadmap(
             )
 
             response = client.chat.completions.create(
-                model="gpt-3.5-turbo",
+                model=GEMINI_MODEL,
                 messages=[
                     {
                         "role": "system",
@@ -226,7 +228,7 @@ def generate_learning_roadmap(
     if OPENAI_API_KEY:
         try:
             from openai import OpenAI
-            client = OpenAI(api_key=OPENAI_API_KEY)
+            client = OpenAI(api_key=OPENAI_API_KEY, base_url=GEMINI_BASE_URL)
 
             prompt = (
                 f"User's current skills: {', '.join(user_skills)}\n\n"
@@ -239,7 +241,7 @@ def generate_learning_roadmap(
             )
 
             response = client.chat.completions.create(
-                model="gpt-3.5-turbo",
+                model=GEMINI_MODEL,
                 messages=[
                     {
                         "role": "system",

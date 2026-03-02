@@ -42,8 +42,11 @@ from backend.github_yaml_db import (
 load_dotenv()
 logger = logging.getLogger("OrchestrAI.ResumeOptimizationAgent")
 
-OPENAI_API_KEY = os.getenv("OPENAI_API_KEY", "")
-openai_client = OpenAI(api_key=OPENAI_API_KEY) if OPENAI_API_KEY else None
+OPENAI_API_KEY = os.getenv("GEMINI_API_KEY", os.getenv("OPENAI_API_KEY", ""))
+openai_client = OpenAI(
+    api_key=OPENAI_API_KEY,
+    base_url="https://generativelanguage.googleapis.com/v1beta/openai/"
+) if OPENAI_API_KEY else None
 
 JOBS_FILE = "database/jobs.yaml"
 USERS_FILE = "database/users.yaml"
@@ -85,7 +88,7 @@ def extract_skills_from_pdf(local_path: str = "temp_resume.pdf") -> list[str]:
 
         prompt = f"Extract a comma-separated list of technical skills, tools, and technologies from the following resume text:\n\n{text}"
         response = openai_client.chat.completions.create(
-            model="gpt-4o-mini",
+            model="gemini-1.5-flash",
             messages=[{"role": "user", "content": prompt}],
             max_tokens=200,
             temperature=0.2
@@ -134,7 +137,7 @@ def generate_suggestions(job: dict, resume_skills: list[str], missing_skills: li
             f"Do not include conversational filler."
         )
         response = openai_client.chat.completions.create(
-            model="gpt-4o-mini",
+            model="gemini-1.5-flash",
             messages=[
                 {"role": "system", "content": "You are an expert resume optimizer. Return ONLY the bullet points."},
                 {"role": "user", "content": prompt}

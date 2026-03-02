@@ -46,8 +46,12 @@ from backend.utils.resume_parser import download_and_extract
 load_dotenv()
 logger = logging.getLogger("OrchestrAI.PracticeAgent")
 
-OPENAI_API_KEY = os.getenv("OPENAI_API_KEY", "")
-openai_client = OpenAI(api_key=OPENAI_API_KEY) if OPENAI_API_KEY else None
+OPENAI_API_KEY = os.getenv("GEMINI_API_KEY", os.getenv("OPENAI_API_KEY", ""))
+GEMINI_BASE_URL = "https://generativelanguage.googleapis.com/v1beta/openai/"
+openai_client = OpenAI(
+    api_key=OPENAI_API_KEY,
+    base_url=GEMINI_BASE_URL,
+) if OPENAI_API_KEY else None
 
 JOBS_FILE = "database/jobs.yaml"
 USERS_FILE = "database/users.yaml"
@@ -79,7 +83,7 @@ def _ai_chat(system_prompt: str, user_prompt: str, max_tokens: int = 800) -> str
         return ""
     try:
         resp = openai_client.chat.completions.create(
-            model="gpt-3.5-turbo",
+            model="gemini-1.5-flash",
             messages=[
                 {"role": "system", "content": system_prompt},
                 {"role": "user", "content": user_prompt},

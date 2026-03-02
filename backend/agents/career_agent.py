@@ -61,8 +61,11 @@ logging.basicConfig(
 )
 logger = logging.getLogger("CareerAgent")
 
-OPENAI_API_KEY: str = os.getenv("OPENAI_API_KEY", "")
-openai_client: Optional[OpenAI] = OpenAI(api_key=OPENAI_API_KEY) if OPENAI_API_KEY else None
+OPENAI_API_KEY: str = os.getenv("GEMINI_API_KEY", os.getenv("OPENAI_API_KEY", ""))
+openai_client: Optional[OpenAI] = OpenAI(
+    api_key=OPENAI_API_KEY,
+    base_url="https://generativelanguage.googleapis.com/v1beta/openai/"
+) if OPENAI_API_KEY else None
 
 # ──────────────────────────────────────────────────────────────────────────────
 # Domain configuration
@@ -573,7 +576,7 @@ def _is_relevant_via_ai(job: dict) -> bool:
 
     try:
         response = openai_client.chat.completions.create(
-            model="gpt-3.5-turbo",
+            model="gemini-1.5-flash",
             messages=[
                 {
                     "role": "system",
