@@ -140,6 +140,168 @@ def load_resume_text() -> str:
 
 
 # ==============================================================================
+# REAL-TIME INTERACTIVE INTERVIEW COACH  (API-facing functions)
+# ==============================================================================
+
+INTERACTIONS_FILE = "database/interview_interactions.yaml"
+
+
+def _detect_language(text: str) -> str:
+    """
+    Detect whether the input is Tamil (Unicode range U+0B80–U+0BFF)
+    or Romanised Tamil / English.
+    Returns 'Tamil' or 'English'.
+    """
+    tamil_chars = sum(1 for ch in text if "\u0B80" <= ch <= "\u0BFF")
+    # Also catch common romanised Tamil words
+    romanised_tamil = [
+        "epdi", "enna", "theriyum", "pannuven", "kudukurathu",
+        "solluven", "pannrom", "ingae", "avanga", "apparam",
+        "nan ", "naan ", "oru ", "enakku", "irukku",
+    ]
+    text_lower = text.lower()
+    has_romanised = any(kw in text_lower for kw in romanised_tamil)
+
+    if tamil_chars > 0 or has_romanised:
+        return "Tamil"
+    return "English"
+
+
+def generate_interview_response(company: str, role: str, user_input: str) -> dict:
+    """
+    Real-time AI interview coaching function.
+
+    1. Detects if input is Tamil (Unicode or Romanised).
+    2. If Tamil → translates to professional English first.
+    3. Generates:
+        - professional_answer: Strong, interview-ready answer.
+        - practice_version:    Simplified version for rehearsal.
+        - confidence_tips:     2 actionable speaking/confidence tips.
+    4. Returns structured dict.
+
+    Raises RuntimeError if Gemini fails.
+    """
+    if not user_input or not user_input.strip():
+        raise ValueError("User input cannot be empty.")
+
+    detected_lang = _detect_language(user_input)
+
+    system = (
+        "You are an expert AI interview coach helping candidates prepare for internship interviews. "
+        "Your job is to:\n"
+        "1. If the user wrote in Tamil (Unicode or Romanised), first convert it to a clear English question.\n"
+        "2. Provide a PROFESSIONAL interview answer (3-4 confident, polished sentences) tailored to the company and role.\n"
+        "3. Provide a SIMPLIFIED PRACTICE VERSION of the same answer (short, easy to memorise, natural English).\n"
+        "4. Provide exactly 2 CONFIDENCE TIPS specific to this type of question.\n\n"
+        "Format your response STRICTLY as:\n"
+        "PROFESSIONAL_ANSWER: <answer>\n"
+        "PRACTICE_VERSION: <simplified version>\n"
+        "TIP1: <first tip>\n"
+        "TIP2: <second tip>"
+    )
+
+    prompt = (
+        f"Internship Role: {role}\n"
+        f"Company: {company}\n"
+        f"Detected Language: {detected_lang}\n\n"
+        f"User Input:\n{user_input}\n\n"
+        "Generate the professional answer, practice version, and 2 confidence tips."
+    )
+
+    raw = _ai_chat(system, prompt, max_tokens=800)
+    if not raw:
+        raise RuntimeError("Gemini API is unavailable. Please try again in a moment.")
+
+    # ── Parse structured response ─────────────────────────────────────────────
+    result = {
+        "professional_answer": "",
+        "practice_version": "",
+        "confidence_tips": [],
+        "detected_language": detected_lang,
+    }
+
+    for line in raw.split("\n"):
+        line = line.strip()
+        if line.upper().startswith("PROFESSIONAL_ANSWER:"):
+            result["professional_answer"] = line.split(":", 1)[1].strip()
+        elif line.upper().startswith("PRACTICE_VERSION:"):
+            result["practice_version"] = line.split(":", 1)[1].strip()
+        elif line.upper().startswith("TIP1:"):
+            result["confidence_tips"].append(line.split(":", 1)[1].strip())
+        elif line.upper().startswith("TIP2:"):
+            result["confidence_tips"].append(line.split(":", 1)[1].strip())
+
+    # Fallback: if parsing failed, use raw as professional answer
+    if not result["professional_answer"] and raw:
+        result["professional_answer"] = raw
+        result["practice_version"] = raw
+        result["confidence_tips"] = ["Speak clearly and confidently.", "Pause before answering to collect your thoughts."]
+
+    logger.info(
+        "PracticeAgent: Real-time response generated for %s — %s [lang=%s]",
+        company, role, detected_lang
+    )
+    return result
+
+
+def validate_company_role(company: str, role: str) -> bool:
+    """
+    Security check: verify the company+role exists in the live jobs database
+    before generating a response. Prevents abuse of the endpoint.
+    Returns True if found, False otherwise.
+    """
+    try:
+        data = read_yaml_from_github(JOBS_FILE)
+        jobs = data.get("jobs", []) if isinstance(data, dict) else []
+        company_lower = company.lower()
+        role_lower = role.lower()
+        for job in jobs:
+            if isinstance(job, dict):
+                if (job.get("company", "").lower() == company_lower and
+                        job.get("role", "").lower() == role_lower):
+                    return True
+        return False
+    except Exception as exc:
+        logger.warning("PracticeAgent: validate_company_role failed — %s", exc)
+        return True  # Fail open (don't block if DB is unreachable)
+
+
+def log_interview_interaction(company: str, role: str, user_input: str) -> None:
+    """
+    Append the user interaction to database/interview_interactions.yaml on GitHub.
+
+    YAML structure:
+      - company: NVIDIA
+        role:    AI Intern
+        user_input: "HR kita epdi sollanum"
+        timestamp: 2026-03-02T21:00:00
+    """
+    try:
+        existing = read_yaml_from_github(INTERACTIONS_FILE)
+        if isinstance(existing, dict):
+            interactions = existing.get("interactions", [])
+        elif isinstance(existing, list):
+            interactions = existing
+        else:
+            interactions = []
+
+        interactions.append({
+            "company":    company,
+            "role":       role,
+            "user_input": user_input[:500],   # Truncate for storage
+            "timestamp":  datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%S"),
+        })
+
+        write_yaml_to_github(
+            INTERACTIONS_FILE,
+            {"interactions": interactions},
+        )
+        logger.info("PracticeAgent: Interaction logged for %s — %s", company, role)
+    except Exception as exc:
+        logger.warning("PracticeAgent: log_interview_interaction failed — %s", exc)
+
+
+# ==============================================================================
 # FEATURE 1 — Interview Questions & Answers
 # ==============================================================================
 
@@ -742,6 +904,172 @@ def _render_practice_html(
             <h2 class="section-title">📚 Course Recommendations</h2>
             {courses_html}
         </div>
+
+        <!-- Section 8: Interactive Interview Coach -->
+        <div class="section" id="interactive-coach">
+            <h2 class="section-title">🤖 Real-Time Interview Coach</h2>
+            <p class="section-subtitle">Ask me anything in <strong>Tamil</strong> or <strong>English</strong> — I'll give you a professional, interview-ready answer instantly.</p>
+
+            <div class="coach-box">
+                <textarea
+                    id="questionInput"
+                    class="coach-input"
+                    rows="4"
+                    placeholder="Type your question here... e.g. 'HR kita epdi sollanum nan fresher nu' or 'How do I explain my projects?'"
+                    maxlength="2000"
+                ></textarea>
+                <div class="coach-meta">
+                    <span id="charCount" class="char-count">0 / 2000</span>
+                    <button id="askBtn" class="ask-btn" onclick="askCoach()">
+                        <span id="askBtnText">🎯 Ask Coach</span>
+                    </button>
+                </div>
+                <div id="langBadge" class="lang-badge" style="display:none;"></div>
+            </div>
+
+            <div id="coachResponse" class="coach-response" style="display:none;">
+                <div class="response-panel professional-panel">
+                    <div class="panel-header">💼 Professional Interview Answer</div>
+                    <div id="professionalAnswer" class="panel-content"></div>
+                </div>
+                <div class="response-panel practice-panel">
+                    <div class="panel-header">🗣️ Practice Version (Simple English)</div>
+                    <div id="practiceVersion" class="panel-content"></div>
+                </div>
+                <div class="response-panel tips-panel">
+                    <div class="panel-header">⚡ Confidence Tips</div>
+                    <ul id="confidenceTips" class="tips-list"></ul>
+                </div>
+            </div>
+
+            <div id="coachError" class="coach-error" style="display:none;"></div>
+            <div id="loadingSpinner" class="loading-spinner" style="display:none;">
+                <div class="spinner"></div>
+                <span>Gemini AI is thinking...</span>
+            </div>
+
+            <style>
+                .section-subtitle {{ color: #a0b0c8; margin-bottom: 1.5rem; font-size: 0.95rem; }}
+                .coach-box {{ background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.1); border-radius: 16px; padding: 1.5rem; margin-bottom: 1rem; }}
+                .coach-input {{
+                    width: 100%; background: rgba(0,0,0,0.3); border: 1px solid rgba(255,255,255,0.15);
+                    border-radius: 12px; color: #e0e0e0; padding: 1rem; font-size: 1rem;
+                    font-family: 'Inter', sans-serif; resize: vertical; transition: border 0.2s;
+                }}
+                .coach-input:focus {{ outline: none; border-color: #667eea; box-shadow: 0 0 0 3px rgba(102,126,234,0.2); }}
+                .coach-meta {{ display: flex; justify-content: space-between; align-items: center; margin-top: 0.75rem; }}
+                .char-count {{ color: #6b7a99; font-size: 0.8rem; }}
+                .ask-btn {{
+                    background: linear-gradient(135deg, #667eea, #764ba2); color: white;
+                    border: none; padding: 0.7rem 2rem; border-radius: 50px; cursor: pointer;
+                    font-size: 0.95rem; font-weight: 600; transition: all 0.2s; font-family: 'Inter', sans-serif;
+                }}
+                .ask-btn:hover {{ transform: translateY(-2px); box-shadow: 0 8px 20px rgba(102,126,234,0.4); }}
+                .ask-btn:disabled {{ opacity: 0.6; cursor: not-allowed; transform: none; }}
+                .lang-badge {{ display: inline-block; padding: 0.3rem 0.9rem; border-radius: 50px; font-size: 0.8rem; font-weight: 600; margin-top: 0.5rem; }}
+                .lang-tamil {{ background: rgba(255,107,107,0.2); color: #ff6b6b; border: 1px solid rgba(255,107,107,0.3); }}
+                .lang-english {{ background: rgba(102,234,175,0.2); color: #66eaaf; border: 1px solid rgba(102,234,175,0.3); }}
+                .coach-response {{ margin-top: 1.5rem; display: flex; flex-direction: column; gap: 1rem; animation: slideIn 0.4s ease; }}
+                @keyframes slideIn {{ from {{ opacity:0; transform:translateY(10px); }} to {{ opacity:1; transform:translateY(0); }} }}
+                .response-panel {{ background: rgba(255,255,255,0.05); border-radius: 14px; overflow: hidden; border: 1px solid rgba(255,255,255,0.08); }}
+                .professional-panel {{ border-left: 3px solid #667eea; }}
+                .practice-panel {{ border-left: 3px solid #66eaaf; }}
+                .tips-panel {{ border-left: 3px solid #f7dc6f; }}
+                .panel-header {{ background: rgba(255,255,255,0.05); padding: 0.75rem 1.25rem; font-weight: 600; font-size: 0.9rem; color: #c0cfe8; }}
+                .panel-content {{ padding: 1.25rem; color: #d0dff0; line-height: 1.7; font-size: 0.95rem; }}
+                .tips-list {{ padding: 1.25rem 1.25rem 1.25rem 2rem; margin: 0; color: #d0dff0; line-height: 1.8; }}
+                .tips-list li {{ margin-bottom: 0.3rem; }}
+                .coach-error {{ background: rgba(255,82,82,0.1); border: 1px solid rgba(255,82,82,0.3); color: #ff8080; padding: 1rem; border-radius: 12px; margin-top: 1rem; }}
+                .loading-spinner {{ display: flex; align-items: center; gap: 1rem; margin-top: 1rem; color: #a0b0c8; }}
+                .spinner {{ width: 24px; height: 24px; border: 3px solid rgba(102,126,234,0.3); border-top-color: #667eea; border-radius: 50%; animation: spin 0.8s linear infinite; }}
+                @keyframes spin {{ to {{ transform: rotate(360deg); }} }}
+            </style>
+
+            <script>
+                const COMPANY_SLUG = "{_slugify(company)}";
+                const ROLE_SLUG    = "{_slugify(role)}";
+                const API_BASE     = "http://localhost:8000";
+
+                const questionInput = document.getElementById("questionInput");
+                questionInput.addEventListener("input", () => {{
+                    document.getElementById("charCount").textContent = questionInput.value.length + " / 2000";
+                }});
+
+                async function askCoach() {{
+                    const question = questionInput.value.trim();
+                    if (!question) {{
+                        showError("Please type a question before submitting.");
+                        return;
+                    }}
+
+                    // Reset UI
+                    document.getElementById("coachError").style.display = "none";
+                    document.getElementById("coachResponse").style.display = "none";
+                    document.getElementById("loadingSpinner").style.display = "flex";
+                    document.getElementById("askBtn").disabled = true;
+                    document.getElementById("askBtnText").textContent = "⏳ Thinking...";
+
+                    try {{
+                        const res = await fetch(`${{API_BASE}}/practice/${{COMPANY_SLUG}}/${{ROLE_SLUG}}/ask`, {{
+                            method: "POST",
+                            headers: {{ "Content-Type": "application/json" }},
+                            body: JSON.stringify({{ question }})
+                        }});
+
+                        if (!res.ok) {{
+                            const err = await res.json();
+                            throw new Error(err.detail || "API error " + res.status);
+                        }}
+
+                        const data = await res.json();
+
+                        // Populate panels
+                        document.getElementById("professionalAnswer").textContent = data.professional_answer;
+                        document.getElementById("practiceVersion").textContent    = data.practice_version;
+
+                        const tipsList = document.getElementById("confidenceTips");
+                        tipsList.innerHTML = "";
+                        (data.confidence_tips || []).forEach(tip => {{
+                            const li = document.createElement("li");
+                            li.textContent = tip;
+                            tipsList.appendChild(li);
+                        }});
+
+                        // Language badge
+                        const badge = document.getElementById("langBadge");
+                        badge.textContent = data.detected_language === "Tamil"
+                            ? "🇮🇳 Tamil detected — translated to professional English"
+                            : "🇬🇧 English detected";
+                        badge.className = "lang-badge " + (data.detected_language === "Tamil" ? "lang-tamil" : "lang-english");
+                        badge.style.display = "inline-block";
+
+                        document.getElementById("coachResponse").style.display = "flex";
+
+                    }} catch (err) {{
+                        showError("❌ " + err.message + ". Make sure the OrchestrAI server is running (uvicorn backend.server:app --port 8000).");
+                    }} finally {{
+                        document.getElementById("loadingSpinner").style.display = "none";
+                        document.getElementById("askBtn").disabled = false;
+                        document.getElementById("askBtnText").textContent = "🎯 Ask Coach";
+                    }}
+                }}
+
+                function showError(msg) {{
+                    const el = document.getElementById("coachError");
+                    el.textContent = msg;
+                    el.style.display = "block";
+                }}
+
+                // Allow Enter to submit (Shift+Enter for newline)
+                questionInput.addEventListener("keydown", (e) => {{
+                    if (e.key === "Enter" && !e.shiftKey) {{
+                        e.preventDefault();
+                        askCoach();
+                    }}
+                }});
+            </script>
+        </div>
+
     </div>
 
     <div class="footer">
