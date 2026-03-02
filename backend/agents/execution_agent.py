@@ -18,6 +18,7 @@ from backend.agents.skill_agent import run_skill_agent
 from backend.agents.cover_letter_agent import run_cover_letter_agent
 from backend.agents.resume_optimization_agent import run_resume_optimization_agent
 from backend.agents.auto_apply_agent import run_auto_apply_agent
+from backend.agents.opportunity_matching_agent import run_opportunity_matching_agent
 from backend.github_yaml_db import read_yaml_from_github, append_log_entry
 
 logger = logging.getLogger("OrchestrAI.ExecutionAgent")
@@ -84,12 +85,16 @@ def run_orchestrai_pipeline():
     # STEP 2.7: Generate Application Packages
     run_auto_apply_agent()
 
+    # STEP 2.8: Compute Opportunity Matching
+    run_opportunity_matching_agent()
+
     # STEP 3: Read GitHub database
     jobs_data = read_yaml_from_github("database/jobs.yaml")
     skill_gap_data = read_yaml_from_github("database/skill_gap_per_job.yaml")
     cover_letter_data = read_yaml_from_github("database/cover_letter_index.yaml")
     optimization_data = read_yaml_from_github("database/resume_optimizations.yaml")
     apply_packages_data = read_yaml_from_github("database/application_packages.yaml")
+    scores_data = read_yaml_from_github("database/opportunity_scores.yaml")
 
     jobs = jobs_data.get("jobs", []) if isinstance(jobs_data, dict) else []
     skill_analysis = skill_gap_data.get("job_skill_analysis", []) if isinstance(skill_gap_data, dict) else []
@@ -116,6 +121,12 @@ def run_orchestrai_pipeline():
     app_pkg_lookup = {
         (item.get("company", ""), item.get("role", "")): item
         for item in apply_packages if isinstance(item, dict)
+    }
+
+    scores_list = scores_data if isinstance(scores_data, list) else []
+    score_lookup = {
+        (item.get("company", ""), item.get("role", "")): item
+        for item in scores_list if isinstance(item, dict)
     }
 
     # STEP 5: Generate HTML table rows
@@ -154,6 +165,19 @@ def run_orchestrai_pipeline():
         else:
             app_html = f'<br><br><span style="padding:4px 8px; border-radius:4px; font-weight:bold; color:white; background-color:{status_color}; font-size:11px; display:inline-block;">{app_status}</span>'
 
+        score_info = score_lookup.get(key, {})
+        match_score = score_info.get("match_score", 0)
+        prob = score_info.get("selection_probability", "Unknown")
+        priority = score_info.get("priority", "Unknown")
+        
+        prob_color = "#2e7d32" if prob == "High" else "#f29900" if prob == "Medium" else "#d32f2f"
+        
+        score_html = f"""
+        <b>Score:</b> {match_score}/100<br>
+        <span style="color:{prob_color}; font-weight:bold; font-size:12px;">{prob} Probability</span><br>
+        <span style="font-size:11px; background:#f1f3f4; padding:2px 4px; border-radius:3px;">{priority}</span>
+        """
+
         rows += f"""
         <tr>
             <td>{job.get('company', '')}</td>
@@ -161,6 +185,7 @@ def run_orchestrai_pipeline():
             <td>{job.get('location', '')}</td>
             <td>{', '.join(job.get('technical_skills', []))}</td>
             <td><a href="{job.get('apply_link','#')}" style="font-weight:bold;">Apply</a>{app_html}</td>
+            <td>{score_html}</td>
             <td>{missing_skills}</td>
             <td>{roadmap}</td>
             <td>{cl_html}<br><br>{opt_html}</td>
@@ -180,6 +205,7 @@ def run_orchestrai_pipeline():
                 <th>Location</th>
                 <th>Technical Skills</th>
                 <th>Apply</th>
+                <th>Match Score</th>
                 <th>Skill Gap</th>
                 <th>Learning Roadmap</th>
                 <th>Generated Assets</th>
