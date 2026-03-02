@@ -77,8 +77,10 @@ def copy_resume_to_app_packages(repo_path: str = "resumes/swathiga_resume.pdf") 
     new_path = "application_packages/resume.pdf"
     
     try:
-        repo_slug = GITHUB_REPO if "/" in GITHUB_REPO else f"{GITHUB_USERNAME}/{GITHUB_REPO}"
-        url = f"https://api.github.com/repos/{repo_slug}/contents/{repo_path}"
+        source_repo_slug = "Swathy1209/orchestrai-agent"
+        target_repo_slug = GITHUB_REPO if "/" in GITHUB_REPO else f"{GITHUB_USERNAME}/{GITHUB_REPO}"
+        
+        url = f"https://api.github.com/repos/{source_repo_slug}/contents/{repo_path}"
         resp = requests.get(url, headers=_auth_headers(), params={"ref": GITHUB_BRANCH}, timeout=15)
         
         if resp.status_code == 200:
@@ -91,7 +93,7 @@ def copy_resume_to_app_packages(repo_path: str = "resumes/swathiga_resume.pdf") 
             decoded_bytes = base64.b64decode(content_b64)
             # Since _put_raw_file requires text, we bypass it for binary upload.
             
-            put_url = f"https://api.github.com/repos/{repo_slug}/contents/{new_path}"
+            put_url = f"https://api.github.com/repos/{target_repo_slug}/contents/{new_path}"
             headers = _auth_headers()
             
             # check if exists to get sha

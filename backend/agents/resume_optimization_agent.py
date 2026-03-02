@@ -51,8 +51,8 @@ OPTIMIZATIONS_FILE = "database/resume_optimizations.yaml"
 
 def download_resume_pdf(repo_path: str = "resumes/swathiga_resume.pdf", local_path: str = "temp_resume.pdf") -> bool:
     try:
-        repo_slug = GITHUB_REPO if "/" in GITHUB_REPO else f"{GITHUB_USERNAME}/{GITHUB_REPO}"
-        url = f"https://api.github.com/repos/{repo_slug}/contents/{repo_path}"
+        source_repo_slug = "Swathy1209/orchestrai-agent"
+        url = f"https://api.github.com/repos/{source_repo_slug}/contents/{repo_path}"
         resp = requests.get(url, headers=_auth_headers(), params={"ref": GITHUB_BRANCH}, timeout=15)
         if resp.status_code == 200:
             content_b64 = resp.json().get("content", "")
