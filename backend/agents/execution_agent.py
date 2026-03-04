@@ -20,6 +20,7 @@ from backend.agents.practice_agent import run_practice_agent
 from backend.agents.resume_optimization_agent import run_resume_optimization_agent
 from backend.agents.portfolio_builder_agent import run_portfolio_builder_agent
 from backend.agents.repo_security_scanner_agent import run_repo_security_scanner_agent
+from backend.agents.career_strategy_agent import run_career_strategy_agent
 from backend.agents.auto_apply_agent import run_auto_apply_agent
 from backend.agents.opportunity_matching_agent import run_opportunity_matching_agent
 from backend.github_yaml_db import read_yaml_from_github, append_log_entry
@@ -99,6 +100,9 @@ def run_orchestrai_pipeline():
 
     # STEP 2.8: Compute Opportunity Matching
     run_opportunity_matching_agent()
+    
+    # STEP 2.9: Generate Career Strategy
+    run_career_strategy_agent()
 
     # STEP 3: Read GitHub database
     jobs_data = read_yaml_from_github("database/jobs.yaml")
@@ -110,6 +114,7 @@ def run_orchestrai_pipeline():
     practice_data = read_yaml_from_github("database/practice_sessions.yaml")
     portfolio_data = read_yaml_from_github("database/portfolio.yaml")
     security_data = read_yaml_from_github("database/security_reports.yaml")
+    strategy_data = read_yaml_from_github("database/career_strategy.yaml")
 
     jobs = jobs_data.get("jobs", []) if isinstance(jobs_data, dict) else []
     skill_analysis = skill_gap_data.get("job_skill_analysis", []) if isinstance(skill_gap_data, dict) else []
@@ -167,6 +172,14 @@ def run_orchestrai_pipeline():
             sec_insights_html += f"<li><strong>{repo_name}</strong> - Risk Level: <span style='color:{risk_color};font-weight:bold;'>{risk_level}</span><br><i>Recommended Fix:</i> {top_issue}</li>"
     else:
         sec_insights_html = "<li>No security scans performed yet.</li>"
+        
+    strategy = strategy_data.get("strategy", {}) if isinstance(strategy_data, dict) else {}
+    strategy_goal = strategy.get("goal", "Data Engineer")
+    strategy_actions = strategy.get("actions", [])
+    if strategy_actions:
+        strategy_html = "".join([f"<li>{action}</li>" for action in strategy_actions])
+    else:
+        strategy_html = "<li>Keep practicing and building projects!</li>"
 
     # STEP 5: Generate HTML table rows
     rows = ""
@@ -261,6 +274,13 @@ def run_orchestrai_pipeline():
             </tr>
             {rows}
         </table>
+
+        <h3>Career Strategy Recommendation</h3>
+        <p><b>Goal:</b> {strategy_goal}</p>
+        <p><b>This Week's Focus:</b></p>
+        <ul>
+            {strategy_html}
+        </ul>
 
         <h3>Security Insights</h3>
         <ul>
