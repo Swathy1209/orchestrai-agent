@@ -262,12 +262,34 @@ def run_orchestrai_pipeline():
         overall_sec_html = '<span style="color:#999;font-size:12px">Not Scanned</span>'
         
     strategy = strategy_data.get("strategy", {}) if isinstance(strategy_data, dict) else {}
-    strategy_goal = strategy.get("goal", "Data Engineer")
+    strategy_goal = strategy.get("goal", "Data Engineering Internship")
     strategy_actions = strategy.get("actions", [])
+    strategy_analysis = strategy.get("analysis", {})
+
+    # Build rich strategy HTML for email
     if strategy_actions:
-        strategy_html = "".join([f"<li>{action}</li>" for action in strategy_actions])
+        strategy_action_html = "".join(
+            f'<li style="margin:6px 0;padding:4px 8px;background:#e8f5e9;border-left:3px solid #2e7d32;border-radius:3px">'
+            f'{action}</li>'
+            for action in strategy_actions
+        )
     else:
-        strategy_html = "<li>Keep practicing and building projects!</li>"
+        strategy_action_html = "<li>Keep practicing and building projects!</li>"
+
+    # Analysis summary badges
+    top_skills = strategy_analysis.get("top_missing_skills", [])
+    portfolio_str = strategy_analysis.get("portfolio_strength", "")
+    practice_str = strategy_analysis.get("practice_status", "")
+    top_opps = strategy_analysis.get("top_opportunities", [])
+
+    skill_badges = "".join(
+        f'<span style="background:#ffebee;color:#c62828;padding:3px 8px;border-radius:12px;font-size:11px;margin:2px;display:inline-block">{s}</span>'
+        for s in top_skills[:5]
+    ) if top_skills else '<span style="color:green">✓ No critical skill gaps</span>'
+
+    opp_list = "".join(f"<li style='font-size:12px;margin:3px 0'>{o}</li>" for o in top_opps[:3]) if top_opps else "<li>Run pipeline to identify top matches</li>"
+
+
 
     # STEP 5: Generate HTML table rows
     rows = ""
@@ -379,12 +401,31 @@ def run_orchestrai_pipeline():
         </table>
 
         <h3>&#x1F9ED; Career Strategy Recommendation</h3>
-        <p><b>Goal:</b> {strategy_goal}</p>
-        <p><b>This Week's Focus:</b></p>
-        <ul>{strategy_html}</ul>
+        <div style="background:white;border-radius:10px;padding:20px;box-shadow:0 2px 8px rgba(0,0,0,0.08);margin-bottom:20px">
+          <p style="font-size:15px;margin:0 0 12px 0">&#x1F3AF; <b>Goal:</b> {strategy_goal}</p>
+
+          <div style="display:flex;gap:20px;flex-wrap:wrap;margin-bottom:16px">
+            <div style="flex:1;min-width:200px">
+              <p style="font-weight:bold;color:#c62828;margin:0 0 6px 0">&#x26A0;&#xFE0F; Top Skill Gaps to Close:</p>
+              <div>{skill_badges}</div>
+            </div>
+            <div style="flex:1;min-width:200px">
+              <p style="font-weight:bold;color:#1565c0;margin:0 0 6px 0">&#x1F4BC; Portfolio:</p>
+              <span style="font-size:12px;color:#555">{portfolio_str}</span>
+              <br><p style="font-weight:bold;color:#2e7d32;margin:6px 0 4px 0">&#x1F3A4; Practice Status:</p>
+              <span style="font-size:12px;color:#555">{practice_str}</span>
+            </div>
+          </div>
+
+          <p style="font-weight:bold;color:#1565c0;margin:12px 0 6px 0">&#x1F31F; Top Matching Opportunities to Apply Now:</p>
+          <ul style="margin:0;padding-left:20px">{opp_list}</ul>
+
+          <p style="font-weight:bold;margin:16px 0 8px 0">&#x1F4CB; This Week's Action Plan:</p>
+          <ol style="margin:0;padding-left:20px">{strategy_action_html}</ol>
+        </div>
 
         <h3>&#x1F510; Security Insights &mdash; All GitHub Repos</h3>
-        <ul>{sec_insights_html}</ul>
+        <ul style="line-height:1.8">{sec_insights_html}</ul>
     </body>
     </html>
     """
