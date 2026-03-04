@@ -56,17 +56,18 @@ DATA_DIR = os.getenv("DATA_DIR", ".")
 
 # Ensure directories exist
 try:
-    for directory in ["database", "application_packages", "frontend/practice", "optimized_resumes", "cover_letters"]:
+    for directory in ["database", "application_packages", "frontend/practice", "frontend/portfolio", "optimized_resumes", "cover_letters"]:
         os.makedirs(os.path.join(DATA_DIR, directory), exist_ok=True)
 except PermissionError:
     logger.warning(f"Permission denied writing to DATA_DIR '{DATA_DIR}'. Falling back to local './data' directory.")
     DATA_DIR = "./data"
-    for directory in ["database", "application_packages", "frontend/practice", "optimized_resumes", "cover_letters"]:
+    for directory in ["database", "application_packages", "frontend/practice", "frontend/portfolio", "optimized_resumes", "cover_letters"]:
         os.makedirs(os.path.join(DATA_DIR, directory), exist_ok=True)
 
 app.mount("/database", StaticFiles(directory=os.path.join(DATA_DIR, "database")), name="database")
 app.mount("/application_packages", StaticFiles(directory=os.path.join(DATA_DIR, "application_packages")), name="application_packages")
 app.mount("/frontend/practice", StaticFiles(directory=os.path.join(DATA_DIR, "frontend/practice")), name="practice")
+app.mount("/portfolio", StaticFiles(directory=os.path.join(DATA_DIR, "frontend/portfolio"), html=True), name="portfolio")
 app.mount("/optimized_resumes", StaticFiles(directory=os.path.join(DATA_DIR, "optimized_resumes")), name="optimized_resumes")
 app.mount("/cover_letters", StaticFiles(directory=os.path.join(DATA_DIR, "cover_letters")), name="cover_letters")
 

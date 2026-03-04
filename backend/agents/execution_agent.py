@@ -18,6 +18,7 @@ from backend.agents.skill_agent import run_skill_agent
 from backend.agents.cover_letter_agent import run_cover_letter_agent
 from backend.agents.practice_agent import run_practice_agent
 from backend.agents.resume_optimization_agent import run_resume_optimization_agent
+from backend.agents.portfolio_builder_agent import run_portfolio_builder_agent
 from backend.agents.auto_apply_agent import run_auto_apply_agent
 from backend.agents.opportunity_matching_agent import run_opportunity_matching_agent
 from backend.github_yaml_db import read_yaml_from_github, append_log_entry
@@ -77,6 +78,9 @@ def run_orchestrai_pipeline():
     # STEP 2: Generate per-job skill gap analysis
     run_skill_agent()
 
+    # STEP 2.45: Generate Portfolio Website
+    run_portfolio_builder_agent()
+
     # STEP 2.5: Generate cover letters
     run_cover_letter_agent()
 
@@ -100,6 +104,7 @@ def run_orchestrai_pipeline():
     apply_packages_data = read_yaml_from_github("database/application_packages.yaml")
     scores_data = read_yaml_from_github("database/opportunity_scores.yaml")
     practice_data = read_yaml_from_github("database/practice_sessions.yaml")
+    portfolio_data = read_yaml_from_github("database/portfolio.yaml")
 
     jobs = jobs_data.get("jobs", []) if isinstance(jobs_data, dict) else []
     skill_analysis = skill_gap_data.get("job_skill_analysis", []) if isinstance(skill_gap_data, dict) else []
@@ -139,6 +144,9 @@ def run_orchestrai_pipeline():
         (item.get("company", ""), item.get("role", "")): item.get("practice_link", "")
         for item in practice_list if isinstance(item, dict)
     }
+
+    portfolio_url = portfolio_data.get("portfolio", {}).get("url", "#") if isinstance(portfolio_data, dict) else "#"
+    portfolio_html = f'<a href="{portfolio_url}" style="background:#2e7d32;color:white;padding:8px 14px;border-radius:6px;text-decoration:none;display:inline-block;font-weight:600;min-width:max-content;">View Portfolio</a>' if portfolio_url != "#" else "Not Generated"
 
     # STEP 5: Generate HTML table rows
     rows = ""
@@ -207,6 +215,7 @@ def run_orchestrai_pipeline():
             <td>{roadmap}</td>
             <td>{cl_html}<br><br>{opt_html}</td>
             <td>{practice_html}</td>
+            <td>{portfolio_html}</td>
         </tr>
         """
 
@@ -228,6 +237,7 @@ def run_orchestrai_pipeline():
                 <th>Learning Roadmap</th>
                 <th>Generated Assets</th>
                 <th>Practice Time</th>
+                <th>Portfolio</th>
             </tr>
             {rows}
         </table>
@@ -235,18 +245,8 @@ def run_orchestrai_pipeline():
     </html>
     """
 
-    # STEP 7: Delay sending email until exactly 12:30 PM IST
-    import time
-    from zoneinfo import ZoneInfo
-    now = datetime.now(ZoneInfo('Asia/Kolkata'))
-    target = now.replace(hour=12, minute=30, second=0, microsecond=0)
-    
-    if now < target:
-        sleep_seconds = (target - now).total_seconds()
-        logging.info(f"Pipeline finished early. Waiting {sleep_seconds:.1f} seconds to send email at exactly 12:30 PM IST.")
-        time.sleep(sleep_seconds)
-    else:
-        logging.info("Current time is past 12:30 PM IST, sending email immediately.")
+    # Removing the sleep timezone delay to ensure email sends immediately
+    logging.info("Sending email immediately.")
 
     # Actually send email
     send_email(
