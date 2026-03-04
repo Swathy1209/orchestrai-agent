@@ -93,6 +93,45 @@ def trigger_pipeline(background_tasks: BackgroundTasks):
     background_tasks.add_task(run_full_pipeline)
     return "<h1>Pipeline Triggered! 🚀</h1><p>The AI agents are running in the background. Please check your Render logs! The email will arrive in your inbox in 5-10 minutes once all 100+ jobs and portfolios are processed.</p>"
 
+@app.get("/trigger-sync", response_class=HTMLResponse)
+def trigger_pipeline_sync():
+    """Runs the full pipeline synchronously and returns a status page. Useful for debugging."""
+    import traceback
+    logger.info("Sync HTTP trigger: running full pipeline synchronously...")
+    try:
+        run_full_pipeline()
+        return "<h1>Pipeline Completed ✅</h1><p>All agents ran successfully. Check your inbox!</p>"
+    except Exception as e:
+        err = traceback.format_exc()
+        logger.error("Sync trigger FAILED: %s", err)
+        return f"<h1>Pipeline FAILED ❌</h1><pre style='color:red'>{err}</pre>"
+
+@app.get("/test-email", response_class=HTMLResponse)
+def test_email_endpoint():
+    """Send a quick test email to verify SMTP credentials are working."""
+    import os, smtplib
+    from email.message import EmailMessage
+    eu = os.getenv("EMAIL_USER", "")
+    ep = os.getenv("EMAIL_PASS", "")
+    er = os.getenv("EMAIL_RECEIVER", eu)
+    sh = os.getenv("SMTP_HOST", "smtp.gmail.com")
+    sp = int(os.getenv("SMTP_PORT", 587))
+    if not eu or not ep:
+        return f"<h1>Test Failed ❌</h1><p>EMAIL_USER or EMAIL_PASS is not set in environment variables.</p><p>EMAIL_USER={eu!r}, EMAIL_PASS={('set' if ep else 'NOT SET')!r}</p>"
+    try:
+        msg = EmailMessage()
+        msg["Subject"] = "OrchestrAI Test Email 🚀"
+        msg["From"] = eu
+        msg["To"] = er
+        msg.set_content("This is a test email from OrchestrAI to confirm SMTP is working correctly.")
+        with smtplib.SMTP(sh, sp) as server:
+            server.starttls()
+            server.login(eu, ep)
+            server.send_message(msg)
+        return f"<h1>Test Email Sent ✅</h1><p>Successfully sent a test email to <b>{er}</b>. Check your inbox!</p>"
+    except Exception as e:
+        return f"<h1>Test Email FAILED ❌</h1><p style='color:red'><b>Error:</b> {e}</p><p>Check that EMAIL_USER, EMAIL_PASS are correct in your Render Environment Variables.</p>"
+
 if __name__ == "__main__":
     if len(sys.argv) > 1 and sys.argv[1] == "--now":
         logger.info("Manual trigger: running full pipeline immediately...")
