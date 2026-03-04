@@ -93,5 +93,6 @@ if __name__ == "__main__":
         run_once_now(run_full_pipeline)
     else:
         import uvicorn
-        port = int(os.getenv("PORT", 10000))
+        port = int(os.environ.get("PORT", "10000"))
+        logger.info(f"Main block executing: Starting Uvicorn on 0.0.0.0:{port}")
         uvicorn.run("main:app", host="0.0.0.0", port=port, reload=False)
