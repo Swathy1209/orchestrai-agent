@@ -26,6 +26,7 @@ from backend.agents.repo_security_scanner_agent import run_repo_security_scanner
 from backend.agents.auto_fix_pr_agent import run_auto_fix_pr_agent
 from backend.agents.career_strategy_agent import run_career_strategy_agent
 from backend.agents.career_readiness_agent import run_career_readiness_agent
+from backend.agents.interview_coach_agent import run_interview_coach_agent
 from backend.agents.auto_apply_agent import run_auto_apply_agent
 from backend.agents.opportunity_matching_agent import run_opportunity_matching_agent
 from backend.github_yaml_db import read_yaml_from_github, append_log_entry
@@ -150,6 +151,9 @@ def run_orchestrai_pipeline():
     # STEP 2.92: Compute Career Readiness Score (uses security + skills + portfolio + practice)
     run_career_readiness_agent()
 
+    # STEP 2.94: Generate per-internship mock interview pages
+    run_interview_coach_agent()
+
     # STEP 2.95: Generate per-internship customized portfolio pages
     run_per_internship_portfolio_agent()
 
@@ -165,6 +169,7 @@ def run_orchestrai_pipeline():
     security_data = read_yaml_from_github("database/security_reports.yaml")
     strategy_data = read_yaml_from_github("database/career_strategy.yaml")
     readiness_data = read_yaml_from_github("database/career_readiness.yaml")
+    interview_data = read_yaml_from_github("database/interview_sessions.yaml")
     per_internship_portfolio_data = read_yaml_from_github("database/per_internship_portfolios.yaml")
 
     jobs = jobs_data.get("jobs", []) if isinstance(jobs_data, dict) else []
@@ -210,6 +215,12 @@ def run_orchestrai_pipeline():
     per_internship_lookup = {
         (item.get("company", ""), item.get("role", "")): item.get("portfolio_url", "")
         for item in per_internship_list if isinstance(item, dict)
+    }
+
+    interview_list = interview_data.get("interview_sessions", []) if isinstance(interview_data, dict) else []
+    interview_lookup = {
+        (item.get("company", ""), item.get("role", "")): item.get("interview_link", "")
+        for item in interview_list if isinstance(item, dict)
     }
 
     portfolio_url = portfolio_data.get("portfolio", {}).get("url", "#") if isinstance(portfolio_data, dict) else "#"
@@ -396,6 +407,13 @@ def run_orchestrai_pipeline():
         else:
             custom_portfolio_html = '<span style="color:#999;font-size:12px">Not Generated</span>'
 
+        # Interview Sim column
+        interview_url = interview_lookup.get(key, "")
+        if interview_url:
+            interview_html = f'<a href="{interview_url}" style="background:#7c3aed;color:white;padding:8px 14px;border-radius:6px;text-decoration:none;font-weight:600;display:inline-block;font-size:12px">🎤 Start Mock Interview</a>'
+        else:
+            interview_html = '<span style="color:#999;font-size:12px">Not Generated</span>'
+
         rows += f"""
         <tr>
             <td style='padding:8px;border:1px solid #ddd'>{job.get('company', '')}</td>
@@ -408,8 +426,8 @@ def run_orchestrai_pipeline():
             <td style='padding:8px;border:1px solid #ddd;font-size:12px;color:#1565c0'>{roadmap or '—'}</td>
             <td style='padding:8px;border:1px solid #ddd'>{cl_html}<br><br>{opt_html}</td>
             <td style='padding:8px;border:1px solid #ddd;text-align:center'>{overall_sec_html}</td>
-            <td style='padding:8px;border:1px solid #ddd;text-align:center'>{portfolio_html}</td>
             <td style='padding:8px;border:1px solid #ddd;text-align:center'>{custom_portfolio_html}</td>
+            <td style='padding:8px;border:1px solid #ddd;text-align:center'>{interview_html}</td>
         </tr>
         """
 
@@ -457,8 +475,8 @@ def run_orchestrai_pipeline():
                 <th>Learning Roadmap</th>
                 <th>Generated Assets</th>
                 <th>&#x1F512; Security Risk</th>
-                <th>&#x1F310; Main Portfolio</th>
                 <th>&#x1F3AF; Custom Portfolio</th>
+                <th>&#x1F3A4; Interview Sim</th>
             </tr>
             {rows}
         </table>
