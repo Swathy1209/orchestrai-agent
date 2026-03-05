@@ -45,8 +45,11 @@ logger = logging.getLogger("OrchestrAI.ResumeOptimizationAgent")
 OPENAI_API_KEY = os.getenv("GEMINI_API_KEY", os.getenv("OPENAI_API_KEY", ""))
 openai_client = OpenAI(
     api_key=OPENAI_API_KEY,
-    base_url="https://generativelanguage.googleapis.com/v1beta/openai/"
+    base_url="https://generativelanguage.googleapis.com/v1beta/openai/",
+    max_retries=0,
 ) if OPENAI_API_KEY else None
+
+from backend.utils.ai_engine import safe_llm_call as _cb_llm_call
 
 JOBS_FILE = "database/jobs.yaml"
 USERS_FILE = "database/users.yaml"
@@ -83,13 +86,15 @@ def extract_skills_from_pdf(local_path: str = "temp_resume.pdf") -> list[str]:
             return [] 
 
         prompt = f"Extract a comma-separated list of technical skills, tools, and technologies from the following resume text:\n\n{text}"
-        response = openai_client.chat.completions.create(
-            model="gemini-2.0-flash",
+        response_text = _cb_llm_call(
             messages=[{"role": "user", "content": prompt}],
             max_tokens=200,
-            temperature=0.2
+            temperature=0.2,
+            context="pdf_skills",
         )
-        skills_str = response.choices[0].message.content.strip()
+        if not response_text:
+            return []
+        skills_str = response_text.strip()
         skills = [s.strip() for s in skills_str.split(",") if s.strip()]
         return skills
     except Exception as exc:
@@ -132,16 +137,19 @@ def generate_suggestions(job: dict, resume_skills: list[str], missing_skills: li
             f"Return a clean bulleted list of 3-5 concise, specific suggestions. "
             f"Do not include conversational filler."
         )
-        response = openai_client.chat.completions.create(
-            model="gemini-2.0-flash",
+        content = _cb_llm_call(
             messages=[
                 {"role": "system", "content": "You are an expert resume optimizer. Return ONLY the bullet points."},
                 {"role": "user", "content": prompt}
             ],
             max_tokens=300,
-            temperature=0.7
+            temperature=0.7,
+            context=f"resume_opt:{company[:20]}",
         )
-        content = response.choices[0].message.content.strip()
+        if not content:
+            raise Exception("LLM call returned None")
+        
+        content = content.strip()
         
         suggestions = []
         for line in content.split("\n"):

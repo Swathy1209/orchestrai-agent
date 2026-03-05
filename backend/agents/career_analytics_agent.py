@@ -448,9 +448,9 @@ def run_career_analytics_agent() -> str:
         generated_at=generated_at,
     )
 
-    # ── Save file ─────────────────────────────────────────────────────────────
-    DATA_DIR      = os.getenv("DATA_DIR", ".")
-    analytics_dir = os.path.join(DATA_DIR, "frontend", "analytics")
+    # Always write to ./data/... (cwd-relative, writable on Render)
+    # DATA_DIR=/data is READ-ONLY on Render free tier — never use it
+    analytics_dir = os.path.join(".", "data", "frontend", "analytics")
     os.makedirs(analytics_dir, exist_ok=True)
 
     local_path = os.path.join(analytics_dir, "dashboard.html")

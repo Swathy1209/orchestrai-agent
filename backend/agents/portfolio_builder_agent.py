@@ -34,7 +34,10 @@ GEMINI_BASE_URL = "https://generativelanguage.googleapis.com/v1beta/openai/"
 openai_client = OpenAI(
     api_key=OPENAI_API_KEY,
     base_url=GEMINI_BASE_URL,
+    max_retries=0,
 ) if OPENAI_API_KEY else None
+
+from backend.utils.ai_engine import safe_llm_call as _cb_llm_call
 
 USERS_FILE = "database/users.yaml"
 PORTFOLIO_FILE = "database/portfolio.yaml"
@@ -144,12 +147,14 @@ def _generate_summary(name: str, skills: list, career_goals: list) -> str:
     
     prompt = f"Write a professional, impressive 2-3 sentence portfolio introduction for a software engineer named {name} with skills in {skills} and career goals {career_goals}."
     try:
-        resp = openai_client.chat.completions.create(
-            model="gemini-2.0-flash",
+        response_text = _cb_llm_call(
             messages=[{"role": "user", "content": prompt}],
-            temperature=0.7
+            max_tokens=200,
+            temperature=0.7,
+            context="portfolio_summary"
         )
-        return resp.choices[0].message.content.strip().replace('"', '')
+        if response_text:
+            return response_text.strip().replace('"', '')
     except Exception:
         return f"I am a passionate software engineer specializing in {', '.join(skills[:3])}."
 

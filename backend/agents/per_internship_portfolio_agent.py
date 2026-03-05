@@ -201,9 +201,8 @@ def run_per_internship_portfolio_agent() -> list[dict]:
     cl_list = cl_data.get("cover_letters", []) if isinstance(cl_data, dict) else []
     cl_lookup = {(item.get("company"), item.get("role")): item.get("link", "") for item in cl_list if isinstance(item, dict)}
 
-    # Write HTML to Render's local filesystem — served by /portfolio static mount
-    DATA_DIR = os.getenv("DATA_DIR", ".")
-    internships_dir = os.path.join(DATA_DIR, "frontend", "portfolio", "internships")
+    # Always write to ./data/... (cwd-relative, writable on Render)
+    internships_dir = os.path.join(".", "data", "frontend", "portfolio", "internships")
     os.makedirs(internships_dir, exist_ok=True)
 
     base_url = os.getenv("RENDER_EXTERNAL_URL", "https://orchestrai-agent.onrender.com")

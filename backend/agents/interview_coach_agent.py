@@ -455,9 +455,9 @@ def run_interview_coach_agent() -> list[dict]:
     user_name  = user.get("name", DEFAULT_USER_NAME)
     user_skills = user.get("resume_skills", DEFAULT_SKILLS)
 
-    # Prepare output directory on Render's filesystem
-    DATA_DIR     = os.getenv("DATA_DIR", ".")
-    interview_dir = os.path.join(DATA_DIR, "frontend", "interview")
+    # Always write to ./data/... (cwd-relative, writable on Render)
+    # DATA_DIR=/data is READ-ONLY on Render free tier — never use it
+    interview_dir = os.path.join(".", "data", "frontend", "interview")
     os.makedirs(interview_dir, exist_ok=True)
 
     base_url = os.getenv("RENDER_EXTERNAL_URL", "https://orchestrai-agent.onrender.com")
