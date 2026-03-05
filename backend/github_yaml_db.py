@@ -287,7 +287,12 @@ def append_log_entry(entry: dict) -> bool:
     """
     try:
         raw, sha = _get_raw_file(LOGS_FILE)
-        data: dict = yaml.safe_load(raw) if raw else {}
+        try:
+            data: dict = yaml.safe_load(raw) if raw else {}
+        except Exception as exc:
+            logger.warning("GitHubYAMLDB: Recovering corrupted %s — %s", LOGS_FILE, exc)
+            data = {}
+        
         if not isinstance(data, dict):
             data = {}
         data.setdefault("logs", [])
@@ -339,7 +344,12 @@ def append_execution_record(record: dict) -> bool:
     """
     try:
         raw, sha = _get_raw_file(HISTORY_FILE)
-        data: dict = yaml.safe_load(raw) if raw else {}
+        try:
+            data: dict = yaml.safe_load(raw) if raw else {}
+        except Exception as exc:
+            logger.warning("GitHubYAMLDB: Recovering corrupted %s — %s", HISTORY_FILE, exc)
+            data = {}
+            
         if not isinstance(data, dict):
             data = {}
         data.setdefault("executions", [])
