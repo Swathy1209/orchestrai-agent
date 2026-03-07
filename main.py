@@ -249,6 +249,9 @@ def index():
           <li><b>EMAIL_USER:</b> {eu}</li>
           <li><b>EMAIL_RECEIVER:</b> {er}</li>
           <li><b>EMAIL_PASS:</b> {ep}</li>
+          <li><b>GITHUB_REPO:</b> {os.getenv("GITHUB_REPO", "orchestrai-db")}</li>
+          <li><b>GITHUB_USER:</b> {os.getenv("GITHUB_USERNAME", "NOT SET")}</li>
+          <li><b>GITHUB_TOKEN:</b> {"✅ SET" if os.getenv("GITHUB_TOKEN") else "❌ NOT SET"}</li>
         </ul>
         <hr/>
         <h3>🔧 Actions</h3>
