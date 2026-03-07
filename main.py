@@ -50,6 +50,7 @@ STATIC_DIRS = [
     "frontend/portfolio/internships",
     "frontend/interview",
     "frontend/analytics",
+    "frontend/dashboard",
     "optimized_resumes",
     "cover_letters",
 ]
@@ -83,6 +84,7 @@ _safe_mount("/application_packages", os.path.join(DATA_DIR, "application_package
 _safe_mount("/frontend/practice",   os.path.join(DATA_DIR, "frontend/practice"),    "practice")
 _safe_mount("/portfolio",           os.path.join(DATA_DIR, "frontend/portfolio"),   "portfolio", html=True)
 _safe_mount("/interview",           os.path.join(DATA_DIR, "frontend/interview"),   "interview", html=True)
+_safe_mount("/dashboard",           os.path.join(DATA_DIR, "frontend/dashboard"),   "dashboard", html=True)
 _safe_mount("/optimized_resumes",   os.path.join(DATA_DIR, "optimized_resumes"),    "optimized_resumes")
 _safe_mount("/cover_letters",       os.path.join(DATA_DIR, "cover_letters"),        "cover_letters")
 
@@ -100,6 +102,16 @@ async def serve_analytics():
          from fastapi.responses import FileResponse
          return FileResponse(path)
     return HTMLResponse("<h1>Hold on... 🤖</h1><p>The analytics dashboard is being synced from the cloud. Please refresh in 5 seconds.</p><script>setTimeout(()=>location.reload(), 5000)</script>", status_code=202)
+
+@app.get("/dashboard")
+@app.get("/dashboard/")
+async def serve_dashboard():
+    """Specific route for dashboard to ensure index.html is served without 404s."""
+    path = os.path.join(DATA_DIR, "frontend/dashboard/index.html")
+    if os.path.exists(path):
+        from fastapi.responses import FileResponse
+        return FileResponse(path)
+    return HTMLResponse("<h1>🤖 OrchestrAI Dashboard</h1><p>Loading your career intelligence dashboard...</p>", status_code=202)
 
 def sync_from_github_cloud():
     """Download all YAML and HTML files from GitHub to local DATA_DIR."""

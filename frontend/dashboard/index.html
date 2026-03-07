@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OrchestrAI - Career Intelligence Dashboard</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@800&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <div class="logo">
+                    <span class="logo-text">Orchestr</span>
+                    <span class="logo-accent">AI</span>
+                </div>
+                <span class="nav-tagline">Career Intelligence System</span>
+            </div>
+            <div class="nav-menu">
+                <a href="#dashboard" class="nav-link active" data-section="dashboard">Dashboard</a>
+                <a href="#email-report" class="nav-link" data-section="email-report">Email Report</a>
+                <a href="#internships" class="nav-link" data-section="internships">Internships</a>
+                <a href="#strategy" class="nav-link" data-section="strategy">Career Strategy</a>
+                <a href="#github" class="nav-link" data-section="github">GitHub Insights</a>
+                <a href="#interview" class="nav-link" data-section="interview">Mock Interview</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- Dashboard Section -->
+        <section id="dashboard" class="section active">
+            <div class="container">
+                <div class="section-header">
+                    <h1>Career Readiness Dashboard</h1>
+                    <p class="section-subtitle">Real-time analysis of your AI & Data Science career readiness</p>
+                </div>
+
+                <!-- Main Score Card -->
+                <div class="score-main-card">
+                    <div class="score-circle">
+                        <svg class="progress-ring" width="200" height="200">
+                            <circle class="progress-ring-bg" stroke="rgba(255,255,255,0.1)" stroke-width="12" fill="transparent" r="88" cx="100" cy="100"/>
+                            <circle class="progress-ring-fill" stroke="url(#gradient)" stroke-width="12" fill="transparent" r="88" cx="100" cy="100" stroke-dasharray="553" stroke-dashoffset="126"/>
+                            <defs>
+                                <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                                    <stop offset="0%" style="stop-color:#3b82f6;stop-opacity:1" />
+                                    <stop offset="100%" style="stop-color:#8b5cf6;stop-opacity:1" />
+                                </linearGradient>
+                            </defs>
+                        </svg>
+                        <div class="score-text">
+                            <div class="score-number">77.2</div>
+                            <div class="score-total">/ 100</div>
+                            <div class="score-label">Strong Candidate</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Score Metrics Grid -->
+                <div class="metrics-grid">
+                    <div class="metric-card">
+                        <div class="metric-icon">📊</div>
+                        <div class="metric-content">
+                            <div class="metric-label">Skill Coverage</div>
+                            <div class="metric-value">82%</div>
+                            <div class="metric-progress">
+                                <div class="progress-bar" style="width: 82%"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="metric-card">
+                        <div class="metric-icon">💼</div>
+                        <div class="metric-content">
+                            <div class="metric-label">Portfolio Strength</div>
+                            <div class="metric-value">75%</div>
+                            <div class="metric-progress">
+                                <div class="progress-bar" style="width: 75%"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="metric-card">
+                        <div class="metric-icon">🎯</div>
+                        <div class="metric-content">
+                            <div class="metric-label">Practice Score</div>
+                            <div class="metric-value">68%</div>
+                            <div class="metric-progress">
+                                <div class="progress-bar" style="width: 68%"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="metric-card">
+                        <div class="metric-icon">🔒</div>
+                        <div class="metric-content">
+                            <div class="metric-label">Security Score</div>
+                            <div class="metric-value">91%</div>
+                            <div class="metric-progress">
+                                <div class="progress-bar" style="width: 91%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Quick Stats -->
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <div class="stat-number">12</div>
+                        <div class="stat-label">Internship Matches</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">8</div>
+                        <div class="stat-label">Skills to Improve</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">3</div>
+                        <div class="stat-label">Security Issues</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">95%</div>
+                        <div class="stat-label">Match Probability</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Email Report Section -->
+        <section id="email-report" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <h1>Daily Internship Report</h1>
+                    <p class="section-subtitle">Complete email report with all internship opportunities</p>
+                </div>
+
+                <!-- Email Stats -->
+                <div class="email-stats-grid">
+                    <div class="email-stat-card">
+                        <div class="email-stat-icon">📊</div>
+                        <div class="email-stat-content">
+                            <div class="email-stat-number" id="total-jobs">12</div>
+                            <div class="email-stat-label">Total Jobs</div>
+                        </div>
+                    </div>
+                    <div class="email-stat-card">
+                        <div class="email-stat-icon">🏠</div>
+                        <div class="email-stat-content">
+                            <div class="email-stat-number" id="remote-jobs">8</div>
+                            <div class="email-stat-label">Remote</div>
+                        </div>
+                    </div>
+                    <div class="email-stat-card">
+                        <div class="email-stat-icon">🌐</div>
+                        <div class="email-stat-content">
+                            <div class="email-stat-number" id="sources-count">3</div>
+                            <div class="email-stat-label">Sources</div>
+                        </div>
+                    </div>
+                    <div class="email-stat-card">
+                        <div class="email-stat-icon">📅</div>
+                        <div class="email-stat-content">
+                            <div class="email-stat-number" id="report-date">Today</div>
+                            <div class="email-stat-label">Report Date</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Email Table -->
+                <div class="email-table-container">
+                    <div class="table-header">
+                        <h2>🤖 Daily AI & Data Science Internship Report</h2>
+                        <p>Generated by OrchestrAI Career Agent · <span id="email-date"></span></p>
+                    </div>
+                    
+                    <div class="modern-table-wrapper">
+                        <table class="modern-table" id="email-jobs-table">
+                            <thead>
+                                <tr>
+                                    <th>#</th>
+                                    <th>Company</th>
+                                    <th>Role</th>
+                                    <th>Location</th>
+                                    <th>Role Keywords</th>
+                                    <th>Technical Skills</th>
+                                    <th>Apply</th>
+                                </tr>
+                            </thead>
+                            <tbody id="email-jobs-tbody">
+                                <!-- Jobs will be loaded here -->
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <!-- Email Footer -->
+                <div class="email-footer">
+                    <p>OrchestrAI Career Agent · Auto-generated · Do not reply to this email</p>
+                    <p>Report time: <span id="email-report-time"></span> IST</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Internships Section -->
+        <section id="internships" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <h1>Internship Opportunities</h1>
+                    <p class="section-subtitle">Personalized internship matches based on your profile</p>
+                </div>
+
+                <!-- Filter Panel -->
+                <div class="filter-panel">
+                    <div class="filter-group">
+                        <label>Platform</label>
+                        <select id="platform-filter" class="filter-select">
+                            <option value="">All Platforms</option>
+                            <option value="internshala">Internshala</option>
+                            <option value="linkedin">LinkedIn</option>
+                            <option value="company">Company Website</option>
+                        </select>
+                    </div>
+
+                    <div class="filter-group">
+                        <label>Role Type</label>
+                        <select id="role-filter" class="filter-select">
+                            <option value="">All Roles</option>
+                            <option value="data-science">Data Science</option>
+                            <option value="machine-learning">Machine Learning</option>
+                            <option value="data-engineering">Data Engineering</option>
+                        </select>
+                    </div>
+
+                    <div class="filter-group">
+                        <label>Match Score</label>
+                        <input type="range" id="score-filter" min="0" max="100" value="0" class="filter-range">
+                        <span class="filter-value">0%</span>
+                    </div>
+
+                    <div class="filter-group">
+                        <label>Location</label>
+                        <select id="location-filter" class="filter-select">
+                            <option value="">All Locations</option>
+                            <option value="remote">Remote</option>
+                            <option value="onsite">On-site</option>
+                        </select>
+                    </div>
+
+                    <button class="filter-reset">Reset Filters</button>
+                </div>
+
+                <!-- Internships Grid -->
+                <div class="internships-grid" id="internships-container">
+                    <!-- Internship cards will be dynamically loaded here -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Career Strategy Section -->
+        <section id="strategy" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <h1>Career Strategy</h1>
+                    <p class="section-subtitle">Your personalized roadmap to success</p>
+                </div>
+
+                <!-- Target Goal -->
+                <div class="goal-card">
+                    <h2>Target Career Goal</h2>
+                    <div class="goal-content">
+                        <div class="goal-icon">🎯</div>
+                        <div class="goal-text">
+                            <h3>Data Engineering Internship</h3>
+                            <p>Focus on building robust data pipelines and cloud infrastructure skills</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Skill Gap Analysis -->
+                <div class="skill-gap-section">
+                    <h2>Skill Gap Analysis</h2>
+                    <div class="skill-gap-grid">
+                        <div class="skill-gap-item high-priority">
+                            <div class="skill-name">Git</div>
+                            <div class="skill-priority">High Priority</div>
+                            <div class="skill-progress">
+                                <div class="skill-bar" style="width: 30%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-gap-item high-priority">
+                            <div class="skill-name">AWS</div>
+                            <div class="skill-priority">High Priority</div>
+                            <div class="skill-progress">
+                                <div class="skill-bar" style="width: 25%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-gap-item medium-priority">
+                            <div class="skill-name">Airflow</div>
+                            <div class="skill-priority">Medium Priority</div>
+                            <div class="skill-progress">
+                                <div class="skill-bar" style="width: 45%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-gap-item medium-priority">
+                            <div class="skill-name">Azure</div>
+                            <div class="skill-priority">Medium Priority</div>
+                            <div class="skill-progress">
+                                <div class="skill-bar" style="width: 40%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-gap-item low-priority">
+                            <div class="skill-name">GCP</div>
+                            <div class="skill-priority">Low Priority</div>
+                            <div class="skill-progress">
+                                <div class="skill-bar" style="width: 60%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Weekly Action Plan -->
+                <div class="action-plan-section">
+                    <h2>Weekly Action Plan</h2>
+                    <div class="action-timeline">
+                        <div class="action-item">
+                            <div class="action-day">Day 1-2</div>
+                            <div class="action-content">
+                                <h4>Master Git Fundamentals</h4>
+                                <p>Dedicate 2 hours daily to learning Git commands and workflows</p>
+                                <div class="action-status pending">Pending</div>
+                            </div>
+                        </div>
+                        <div class="action-item">
+                            <div class="action-day">Day 3-4</div>
+                            <div class="action-content">
+                                <h4>Submit Applications</h4>
+                                <p>Apply to 5 Data Science Intern positions with optimized resume</p>
+                                <div class="action-status in-progress">In Progress</div>
+                            </div>
+                        </div>
+                        <div class="action-item">
+                            <div class="action-day">Day 5-7</div>
+                            <div class="action-content">
+                                <h4>Research Tech Stacks</h4>
+                                <p>Analyze company tech stacks and prepare targeted questions</p>
+                                <div class="action-status pending">Pending</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- GitHub Insights Section -->
+        <section id="github" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <h1>GitHub Security Insights</h1>
+                    <p class="section-subtitle">Security analysis of your repositories</p>
+                </div>
+
+                <div class="security-grid" id="security-container">
+                    <!-- Security cards will be dynamically loaded here -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Mock Interview Section -->
+        <section id="interview" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <h1>Mock Interview</h1>
+                    <p class="section-subtitle">Practice your interview skills with AI</p>
+                </div>
+
+                <div class="interview-setup">
+                    <div class="interview-card">
+                        <h2>Ready to practice?</h2>
+                        <p>Start a mock interview session tailored to your target role</p>
+                        <div class="interview-options">
+                            <select class="interview-select">
+                                <option>Data Science Interview</option>
+                                <option>Machine Learning Interview</option>
+                                <option>Data Engineering Interview</option>
+                            </select>
+                            <select class="interview-select">
+                                <option>Easy Difficulty</option>
+                                <option>Medium Difficulty</option>
+                                <option>Hard Difficulty</option>
+                            </select>
+                        </div>
+                        <button class="interview-start-btn">Start Mock Interview</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Loading Overlay -->
+    <div class="loading-overlay" id="loading">
+        <div class="loading-spinner"></div>
+        <div class="loading-text">Analyzing your career data...</div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

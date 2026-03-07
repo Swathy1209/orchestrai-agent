@@ -1,0 +1,44 @@
+services:
+  # Web Service for Backend API
+  - type: web
+    name: orchestrai-api
+    runtime: python
+    plan: free
+    autoDeploy: true
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "python main.py"
+    envVars:
+      - key: PYTHON_VERSION
+        value: "3.9"
+      - key: GITHUB_TOKEN
+        sync: false
+      - key: GEMINI_API_KEY
+        sync: false
+      - key: EMAIL_USER
+        sync: false
+      - key: EMAIL_PASS
+        sync: false
+      - key: EMAIL_RECEIVER
+        sync: false
+      - key: GITHUB_USERNAME
+        value: Swathy1209
+      - key: GITHUB_REPO
+        value: Swathy1209/orchestrai-db
+
+  # Static Site for Dashboard (Alternative - if you want separate dashboard)
+  - type: web
+    name: orchestrai-dashboard
+    runtime: static
+    plan: free
+    buildCommand: "echo 'No build required'"
+    staticPublishPath: ./frontend/dashboard
+    envVars:
+      - key: API_URL
+        value: https://orchestrai-api.onrender.com
+
+# Cron Job for Daily Email Reports
+cronjobs:
+  - name: daily-email-report
+    schedule: "0 8 * * *"  # Daily at 8 AM UTC
+    command: "python -c 'from backend.agents.execution_agent import run_orchestrai_pipeline; run_orchestrai_pipeline()'"
+    service: orchestrai-api
