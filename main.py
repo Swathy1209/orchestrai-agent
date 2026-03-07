@@ -235,14 +235,14 @@ def index():
     er = os.getenv("EMAIL_RECEIVER", "NOT SET")
     ep = "✅ SET" if os.getenv("EMAIL_PASS") else "❌ NOT SET"
     return f"""
-    <html><head><title>OrchestrAI Dashboard v2.1</title></head>
+    <html><head><title>OrchestrAI Dashboard v2.2</title></head>
     <body style='font-family:sans-serif;max-width:700px;margin:40px auto;padding:20px;background:#f9f9f9'>
       <div style='background:white;padding:30px;border-radius:15px;box-shadow:0 10px 25px rgba(0,0,0,0.05)'>
         <h1>🤖 OrchestrAI Dashboard</h1>
         <p style='color:#666'>Autonomous Career Intelligence System</p>
         <hr/>
         <h3>📋 System Status</h3>
-        <p><b>Version:</b> 2.1.0-STABLE</p>
+        <p><b>Version:</b> 2.2.0-STABLE</p>
         <p><b>DATA_DIR:</b> {DATA_DIR}</p>
         <hr/>
         <h3>⚙️ Configuration</h3>
