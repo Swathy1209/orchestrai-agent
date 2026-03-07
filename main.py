@@ -150,8 +150,16 @@ def sync_from_github_cloud():
 
 @app.get("/sync")
 def manual_sync():
+    from backend.github_yaml_db import GITHUB_TOKEN, GITHUB_USERNAME, GITHUB_REPO
+    slug = GITHUB_REPO if "/" in GITHUB_REPO else f"{GITHUB_USERNAME}/{GITHUB_REPO}"
     files = sync_from_github_cloud()
-    return {"status": "ok", "synced_count": len(files), "files": files}
+    return {
+        "status": "ok", 
+        "synced_count": len(files), 
+        "repo_used": slug,
+        "token_prefix": GITHUB_TOKEN[:4] if GITHUB_TOKEN else "NONE",
+        "files": files
+    }
 
 @app.on_event("startup")
 def start_scheduler():
