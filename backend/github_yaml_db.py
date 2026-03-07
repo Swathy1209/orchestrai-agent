@@ -40,10 +40,10 @@ load_dotenv()
 logger = logging.getLogger("CareerAgent.GitHubYAMLDB")
 
 # ── Config ─────────────────────────────────────────────────────────────────────
-GITHUB_TOKEN:    str = os.getenv("GITHUB_TOKEN", "")
-GITHUB_USERNAME: str = os.getenv("GITHUB_USERNAME", "Swathy1209")
-GITHUB_REPO:     str = os.getenv("GITHUB_REPO", "orchestrai-db")
-GITHUB_BRANCH:   str = os.getenv("GITHUB_BRANCH", "main")
+GITHUB_TOKEN:    str = os.getenv("GITHUB_TOKEN") or ""
+GITHUB_USERNAME: str = "Swathy1209"
+GITHUB_REPO:     str = "orchestrai-db"
+GITHUB_BRANCH:   str = "main"
 
 # Fully-qualified repo slug: "username/repo"  (supports both formats)
 _REPO_SLUG: str = (
