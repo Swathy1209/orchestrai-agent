@@ -8,31 +8,38 @@ from backend.github_yaml_db import _get_raw_file, _put_raw_file, append_log_entr
 
 logger = logging.getLogger("OrchestrAI.InternshipScraperAgent")
 
-TARGET_ROLES = ["AI", "Machine Learning", "Data Science", "Data Engineering", "Analytics"]
+TARGET_ROLES = ["AI", "Machine Learning", "Data Science", "Data Engineering", "Analytics", "Computer Vision", "NLP"]
 
 def _is_relevant_role(role: str) -> bool:
     role_lower = role.lower()
-    return any(r.lower() in role_lower for r in TARGET_ROLES) or "intern" in role_lower
+    # Also prioritize internship/entry roles
+    is_intern = any(kw in role_lower for kw in ["intern", "student", "trainee", "entry"])
+    matches_domain = any(r.lower() in role_lower for r in TARGET_ROLES)
+    return is_intern and matches_domain
 
 def scrape_linkedin_jobs() -> list:
-    """Fetch from LinkedIn public job search (reuse logic from CareerAgent)."""
+    """Fetch from LinkedIn public job search."""
     logger.info("Scraping LinkedIn jobs via public search...")
     jobs = []
-    search_queries = ["AI intern", "Machine Learning intern", "Data Science intern"]
-    base_url = "https://www.linkedin.com/jobs/search/?keywords={query}&f_JT=I&sortBy=DD"
+    # Using multiple queries to get a broad range
+    search_queries = ["AI Intern", "Machine Learning Intern", "Data Science Intern", "Data Engineer Intern"]
     
-    headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"}
+    headers = {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36"
+    }
     
     for query in search_queries:
         try:
-            r = requests.get(base_url.format(query=requests.utils.quote(query)), headers=headers, timeout=15)
+            # Sort by date (sortBy=DD)
+            url = f"https://www.linkedin.com/jobs/search/?keywords={requests.utils.quote(query)}&f_JT=I&sortBy=DD"
+            r = requests.get(url, headers=headers, timeout=12)
             if r.status_code == 200:
                 soup = BeautifulSoup(r.text, "html.parser")
-                cards = soup.select(".base-search-card, .result-card")
-                for card in cards[:5]:
+                # Look for the job cards
+                for card in soup.select(".base-search-card, .result-card")[:8]:
                     title_el = card.select_one(".base-search-card__title, h3")
                     company_el = card.select_one(".base-search-card__subtitle, h4")
-                    link_el = card.select_one("a[href]")
+                    link_el = card.select_one("a.base-card__full-link, a")
                     
                     if title_el and company_el and link_el:
                         title = title_el.get_text(strip=True)
@@ -43,12 +50,12 @@ def scrape_linkedin_jobs() -> list:
                             jobs.append({
                                 "company": company,
                                 "role": title,
-                                "location": "Remote / On-site",
+                                "location": "Remote / Hybrid",
                                 "portal": "LinkedIn",
                                 "job_url": link,
                                 "date_posted": datetime.now(timezone.utc).strftime("%Y-%m-%d"),
                                 "required_skills": [],
-                                "job_description": f"AI Internship at {company}"
+                                "job_description": f"AI Internship opportunity at {company}."
                             })
         except Exception as e:
             logger.warning(f"LinkedIn scrape failed for {query}: {e}")

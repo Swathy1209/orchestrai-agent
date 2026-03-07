@@ -41,7 +41,7 @@ logger = logging.getLogger("CareerAgent.GitHubYAMLDB")
 
 # ── Config ─────────────────────────────────────────────────────────────────────
 GITHUB_TOKEN:    str = os.getenv("GITHUB_TOKEN", "")
-GITHUB_USERNAME: str = os.getenv("GITHUB_USERNAME", "")
+GITHUB_USERNAME: str = os.getenv("GITHUB_USERNAME", "Swathy1209")
 GITHUB_REPO:     str = os.getenv("GITHUB_REPO", "orchestrai-db")
 GITHUB_BRANCH:   str = os.getenv("GITHUB_BRANCH", "main")
 
