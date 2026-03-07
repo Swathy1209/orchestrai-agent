@@ -175,6 +175,13 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+@app.get("/debug-files", response_class=HTMLResponse)
+def debug_files():
+    import glob
+    files = glob.glob(os.path.join(DATA_DIR, "**/*"), recursive=True)
+    files_str = "<br>".join(files)
+    return f"<h1>Files in DATA_DIR ({DATA_DIR}):</h1><p>{files_str}</p>"
+
 @app.head("/")
 def head_root():
     """UptimeRobot / health probes send HEAD — return 200 so it doesn't mark us as down."""
