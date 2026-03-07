@@ -19,10 +19,6 @@ from backend.utils.resume_parser import download_and_extract
 load_dotenv()
 logger = logging.getLogger("OrchestrAI.PorschePortfolioAgent")
 
-GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", os.getenv("OPENAI_API_KEY", ""))
-GEMINI_BASE_URL = "https://generativelanguage.googleapis.com/v1beta/openai/"
-openai_client = OpenAI(api_key=GEMINI_API_KEY, base_url=GEMINI_BASE_URL, max_retries=0) if GEMINI_API_KEY else None
-
 JOBS_FILE = "database/jobs.yaml"
 USERS_FILE = "database/users.yaml"
 PER_INTERNSHIP_INDEX_FILE = "database/per_internship_portfolios.yaml"
@@ -32,27 +28,42 @@ CL_INDEX_FILE = "database/cover_letter_index.yaml"
 def _slugify(text: str) -> str:
     return re.sub(r'[^a-z0-9]+', '_', text.lower()).strip('_')[:50]
 
-def extract_resume_projects(resume_text: str) -> list[dict]:
-    if not openai_client or not resume_text:
-        return []
-    prompt = f"""Extract all technical projects from this resume.
-Return strictly in JSON format: {{"projects": [{{"title": "...", "description": "...", "technologies": "...", "impact": "...", "source": "resume"}}]}}
-Exclude missing values or use empty strings.
+def extract_resume_details(resume_text: str) -> dict:
+    if not resume_text:
+        return {"projects": [], "experience": [], "achievements": []}
+    
+    api_key = os.getenv("GEMINI_API_KEY", os.getenv("OPENAI_API_KEY", ""))
+    if not api_key:
+        logger.error("GEMINI_API_KEY not found in environment.")
+        return {"projects": [], "experience": [], "achievements": []}
+        
+    client = OpenAI(
+        api_key=api_key, 
+        base_url="https://generativelanguage.googleapis.com/v1beta/openai/"
+    )
+
+    prompt = f"""Extract all technical projects, professional experience, and key achievements from this resume.
+Return strictly in JSON format: 
+{{
+  "projects": [{{"title": "...", "description": "...", "technologies": "...", "impact": "...", "source": "resume"}}],
+  "experience": [{{"role": "...", "company": "...", "duration": "...", "description": "..."}}],
+  "achievements": ["..."]
+}}
+Exclude missing values or use empty strings. Sort from most recent to oldest.
 Resume text:
 {resume_text[:5000]}
 """
     try:
-        resp = openai_client.chat.completions.create(
+        resp = client.chat.completions.create(
             model="gemini-2.5-flash",
             messages=[{"role": "user", "content": prompt}],
             response_format={"type": "json_object"}
         )
         content = resp.choices[0].message.content
-        data = json.loads(content)
-        return data.get("projects", [])
+        return json.loads(content)
     except Exception as e:
-        logger.error(f"Failed to extract projects from resume: {e}")
-        return []
+        logger.error(f"Failed to extract details from resume: {e}")
+        return {"projects": [], "experience": [], "achievements": []}
 
 def fetch_github_repos(username: str) -> list[dict]:
     if not username: return []
@@ -72,6 +83,8 @@ def fetch_github_repos(username: str) -> list[dict]:
                 "impact": "",
                 "source": "github"
             } for r in resp.json()]
+        else:
+            logger.error(f"GitHub API returned {resp.status_code}: {resp.text}")
     except Exception as e:
         logger.error(f"GitHub API error: {e}")
     return []
@@ -98,7 +111,7 @@ def rank_projects(projects: list[dict], req_skills: list[str]) -> list[dict]:
     ranked.sort(key=lambda x: (-x["_score"], -x.get("stars", 0)))
     return ranked
 
-def generate_porsche_html(user_name, company, role, req_skills, user_skills, gaps, roadmap, top_projects, github_showcase, cl_link) -> str:
+def generate_porsche_html(user_name, company, role, req_skills, user_skills, gaps, roadmap, top_projects, github_showcase, cl_link, experience, achievements) -> str:
     ts = datetime.now(timezone.utc).strftime("%B %d, %Y")
     
     # 2. WHY I AM A GREAT FIT (Skill Chips)
@@ -158,6 +171,30 @@ def generate_porsche_html(user_name, company, role, req_skills, user_skills, gap
             <p style="color:#9A9A9A;font-size:13px;line-height:1.5;margin:0">{desc}</p>
         </a>
         """
+
+    # 7. PROFESSIONAL EXPERIENCE
+    exp_html = ""
+    for exp in experience[:3]:
+        r_role = exp.get("role", "Role")
+        r_comp = exp.get("company", "Company")
+        r_dur = exp.get("duration", "")
+        r_desc = exp.get("description", "")
+        
+        exp_html += f"""
+        <div style="margin-bottom:24px;padding-left:16px;border-left:2px solid #E10600;">
+            <h4 style="color:#F5F5F5;font-size:18px;font-weight:600;margin-bottom:4px">{r_role} at {r_comp}</h4>
+            {f'<div style="color:#E10600;font-size:12px;font-weight:600;margin-bottom:8px">{r_dur}</div>' if r_dur else ''}
+            <p style="color:#9A9A9A;font-size:14px;line-height:1.6;margin-bottom:0">{r_desc}</p>
+        </div>
+        """
+
+    # 8. KEY ACHIEVEMENTS
+    ach_html = ""
+    if achievements:
+        ach_html += "<ul style='list-style-type:none;padding:0;margin:0;'>"
+        for ach in achievements[:4]:
+            ach_html += f"<li style='color:#F5F5F5;font-size:15px;margin-bottom:12px;display:flex;align-items:flex-start;'><span style='color:#E10600;margin-right:12px;font-weight:bold'>→</span><span>{ach}</span></li>"
+        ach_html += "</ul>"
 
     cl_button = f'<a href="{cl_link}" target="_blank" class="btn-primary" style="margin-top:30px;display:inline-block">View Cover Letter</a>' if cl_link and cl_link != "#" else ""
 
@@ -225,6 +262,17 @@ def generate_porsche_html(user_name, company, role, req_skills, user_skills, gap
         </div>
     </div>
 
+    <div class="grid-2">
+        <div class="glass-card" style="padding:32px">
+            <h3 class="section-title" style="border:none;padding:0;margin-bottom:20px">Professional Experience</h3>
+            {exp_html or '<p style="color:#9A9A9A;font-size:14px">Focusing on academic and project-based experience.</p>'}
+        </div>
+        <div class="glass-card" style="padding:32px">
+            <h3 class="section-title" style="border:none;padding:0;margin-bottom:20px">Key Achievements</h3>
+            {ach_html or '<p style="color:#9A9A9A;font-size:14px">Building technical milestones.</p>'}
+        </div>
+    </div>
+
     <div style="margin-bottom:60px">
         <h3 class="section-title" style="margin-bottom:32px">Most Relevant Projects</h3>
         {proj_html or '<p style="color:#9A9A9A">No matching projects found.</p>'}
@@ -257,12 +305,17 @@ def run_porsche_portfolio_agent() -> None:
     user_skills = user.get("resume_skills", [])
     github_username = os.getenv("GITHUB_USERNAME", user.get("github_username", ""))
 
-    # Extract resume projects
+    # Extract resume details
     resume_text = download_and_extract()
-    resume_projs = extract_resume_projects(resume_text) if resume_text else []
+    resume_details = extract_resume_details(resume_text) if resume_text else {"projects": [], "experience": [], "achievements": []}
+    resume_projs = resume_details.get("projects", [])
+    resume_exp = resume_details.get("experience", [])
+    resume_achieves = resume_details.get("achievements", [])
+    logger.info(f"Extracted from resume: {len(resume_projs)} projects, {len(resume_exp)} roles, {len(resume_achieves)} achievements")
     
     # Extract GitHub repos
     github_repos = fetch_github_repos(github_username) if github_username else []
+    logger.info(f"Fetched from GitHub: {len(github_repos)} repos for '{github_username}'")
 
     jobs_data = read_yaml_from_github(JOBS_FILE)
     jobs = jobs_data.get("jobs", []) if isinstance(jobs_data, dict) else []

@@ -227,7 +227,7 @@ def run_orchestrai_pipeline():
 
     per_internship_list = per_internship_portfolio_data.get("per_internship_portfolios", []) if isinstance(per_internship_portfolio_data, dict) else []
     per_internship_lookup = {
-        (item.get("company", ""), item.get("role", "")): item.get("portfolio_url", "")
+        (item.get("company", ""), item.get("role", "")): item.get("link", item.get("portfolio_url", ""))
         for item in per_internship_list if isinstance(item, dict)
     }
 
