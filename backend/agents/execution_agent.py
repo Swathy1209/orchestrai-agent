@@ -22,7 +22,7 @@ from backend.agents.cover_letter_agent import run_cover_letter_agent
 from backend.agents.practice_agent import run_practice_agent
 from backend.agents.resume_optimization_agent import run_resume_optimization_agent
 from backend.agents.portfolio_builder_agent import run_portfolio_builder_agent
-from backend.agents.per_internship_portfolio_agent import run_per_internship_portfolio_agent
+from backend.agents.porsche_portfolio_agent import run_porsche_portfolio_agent
 from backend.agents.repo_security_scanner_agent import run_repo_security_scanner_agent
 from backend.agents.auto_fix_pr_agent import run_auto_fix_pr_agent
 from backend.agents.career_strategy_agent import run_career_strategy_agent
@@ -169,7 +169,7 @@ def run_orchestrai_pipeline():
     run_interview_coach_agent()
 
     # STEP 2.95: Generate per-internship customized portfolio pages
-    run_per_internship_portfolio_agent()
+    run_porsche_portfolio_agent()
 
     # STEP 3: Read GitHub database
     jobs_data = read_yaml_from_github("database/jobs.yaml")
