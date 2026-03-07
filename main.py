@@ -230,6 +230,7 @@ async def log_feedback(request: Request):
 
 @app.get("/", response_class=HTMLResponse)
 def index():
+    from backend.github_yaml_db import GITHUB_TOKEN, GITHUB_USERNAME, GITHUB_REPO
     eu = os.getenv("EMAIL_USER", "NOT SET")
     er = os.getenv("EMAIL_RECEIVER", "NOT SET")
     ep = "✅ SET" if os.getenv("EMAIL_PASS") else "❌ NOT SET"
@@ -249,9 +250,9 @@ def index():
           <li><b>EMAIL_USER:</b> {eu}</li>
           <li><b>EMAIL_RECEIVER:</b> {er}</li>
           <li><b>EMAIL_PASS:</b> {ep}</li>
-          <li><b>GITHUB_REPO:</b> {os.getenv("GITHUB_REPO", "orchestrai-db")}</li>
-          <li><b>GITHUB_USER:</b> {os.getenv("GITHUB_USERNAME", "NOT SET")}</li>
-          <li><b>GITHUB_TOKEN:</b> {"✅ SET" if os.getenv("GITHUB_TOKEN") else "❌ NOT SET"}</li>
+          <li><b>GITHUB_REPO:</b> {GITHUB_REPO}</li>
+          <li><b>GITHUB_USER:</b> {GITHUB_USERNAME}</li>
+          <li><b>GITHUB_TOKEN:</b> {"✅ SET" if GITHUB_TOKEN else "❌ NOT SET"}</li>
         </ul>
         <hr/>
         <h3>🔧 Actions</h3>
