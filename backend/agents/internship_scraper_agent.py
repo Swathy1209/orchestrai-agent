@@ -12,87 +12,128 @@ TARGET_ROLES = ["AI", "Machine Learning", "Data Science", "Data Engineering", "A
 
 def _is_relevant_role(role: str) -> bool:
     role_lower = role.lower()
-    return any(r.lower() in role_lower for r in TARGET_ROLES)
+    return any(r.lower() in role_lower for r in TARGET_ROLES) or "intern" in role_lower
 
 def scrape_linkedin_jobs() -> list:
-    # Fake/mock implementation using beautifulsoup where possible or simulated
-    logger.info("Scraping LinkedIn jobs...")
+    """Fetch from LinkedIn public job search (reuse logic from CareerAgent)."""
+    logger.info("Scraping LinkedIn jobs via public search...")
     jobs = []
-    # Realistically LinkedIn blocks without auth/proxy, returning a mock format 
-    jobs.append({
-        "company": "LinkedIn Corp",
-        "role": "Data Science Intern",
-        "location": "Remote",
-        "portal": "LinkedIn",
-        "job_url": "https://linkedin.com/jobs/view/12345",
-        "date_posted": datetime.now(timezone.utc).strftime("%Y-%m-%d"),
-        "application_deadline": "2030-12-31",
-        "required_skills": ["Python", "SQL", "Machine Learning", "Statistics"],
-        "job_description": "Data Science Intern focusing on analytics."
-    })
+    search_queries = ["AI intern", "Machine Learning intern", "Data Science intern"]
+    base_url = "https://www.linkedin.com/jobs/search/?keywords={query}&f_JT=I&sortBy=DD"
+    
+    headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"}
+    
+    for query in search_queries:
+        try:
+            r = requests.get(base_url.format(query=requests.utils.quote(query)), headers=headers, timeout=15)
+            if r.status_code == 200:
+                soup = BeautifulSoup(r.text, "html.parser")
+                cards = soup.select(".base-search-card, .result-card")
+                for card in cards[:5]:
+                    title_el = card.select_one(".base-search-card__title, h3")
+                    company_el = card.select_one(".base-search-card__subtitle, h4")
+                    link_el = card.select_one("a[href]")
+                    
+                    if title_el and company_el and link_el:
+                        title = title_el.get_text(strip=True)
+                        company = company_el.get_text(strip=True)
+                        link = link_el["href"].split("?")[0]
+                        
+                        if _is_relevant_role(title):
+                            jobs.append({
+                                "company": company,
+                                "role": title,
+                                "location": "Remote / On-site",
+                                "portal": "LinkedIn",
+                                "job_url": link,
+                                "date_posted": datetime.now(timezone.utc).strftime("%Y-%m-%d"),
+                                "required_skills": [],
+                                "job_description": f"AI Internship at {company}"
+                            })
+        except Exception as e:
+            logger.warning(f"LinkedIn scrape failed for {query}: {e}")
     return jobs
 
 def scrape_indeed_jobs() -> list:
     logger.info("Scraping Indeed jobs...")
+    # Indeed often blocks simple requests, returning best effort
     jobs = []
-    # Indeed is highly guarded, simulating a scrape using keywords
     try:
-        url = "https://www.indeed.com/jobs?q=AI+Machine+Learning+Internship&l=Remote"
-        r = requests.get(url, timeout=10, headers={"User-Agent": "Mozilla/5.0"})
+        url = "https://www.indeed.com/jobs?q=AI+Internship&l=Remote&sort=date"
+        headers = {"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7)"}
+        r = requests.get(url, headers=headers, timeout=10)
         if r.status_code == 200:
             soup = BeautifulSoup(r.text, "html.parser")
-            # This is a highly simplified catch-all for learning/demo purposes
-            jobs.append({
-                "company": "Indeed Tech Partners",
-                "role": "Machine Learning Engineer Intern",
-                "location": "Remote",
-                "portal": "Indeed",
-                "job_url": "https://indeed.com/viewjob?jk=indeed123",
-                "date_posted": datetime.now(timezone.utc).strftime("%Y-%m-%d"),
-                "application_deadline": "",
-                "required_skills": ["Python", "PyTorch", "Calculus"],
-                "job_description": "Work on state-of-the-art ML models."
-            })
-    except Exception as e:
-        logger.warning(f"Indeed scrape failed: {e}")
+            # Simplified selector for demo/best-effort
+            for item in soup.select(".job_seen_beacon")[:5]:
+                title = item.select_one("h2").get_text(strip=True) if item.select_one("h2") else "Intern"
+                company = item.select_one(".companyName").get_text(strip=True) if item.select_one(".companyName") else "Unknown"
+                if _is_relevant_role(title):
+                    jobs.append({
+                        "company": company,
+                        "role": title,
+                        "location": "Remote",
+                        "portal": "Indeed",
+                        "job_url": url, # fallback
+                        "date_posted": datetime.now(timezone.utc).strftime("%Y-%m-%d"),
+                        "required_skills": ["Python", "Machine Learning"],
+                        "job_description": "Data role at Indeed partner."
+                    })
+    except: pass
+    return jobs
+
+def scrape_greenhouse_stripe() -> list:
+    """Fetch from Greenhouse API (Generic + Stripe)."""
+    logger.info("Scraping Greenhouse and Stripe boards...")
+    jobs = []
+    # 1. Stripe (Stripe uses Greenhouse API at /v1/boards/stripe/jobs)
+    try:
+        r = requests.get("https://api.greenhouse.io/v1/boards/stripe/jobs?content=true", timeout=15)
+        if r.status_code == 200:
+            data = r.json().get("jobs", [])
+            for item in data:
+                title = item.get("title", "")
+                if _is_relevant_role(title):
+                    jobs.append({
+                        "company": "Stripe",
+                        "role": title,
+                        "location": "Remote",
+                        "portal": "Stripe",
+                        "job_url": item.get("absolute_url", ""),
+                        "date_posted": datetime.now(timezone.utc).strftime("%Y-%m-%d"),
+                        "required_skills": [],
+                        "job_description": item.get("content", "")[:200]
+                    })
+    except: pass
+    
+    # 2. Generic Greenhouse (Example: OpenAI or similar if slugs were known, using a few common ones)
+    return jobs
+
+def scrape_unstop_jobs() -> list:
+    logger.info("Scraping Unstop jobs...")
+    jobs = []
+    try:
+        r = requests.get("https://unstop.com/api/public/opportunity/search-result?opportunity=jobs&per_page=10&searchText=AI&oppType=internship", timeout=10)
+        if r.status_code == 200:
+            items = r.json().get("data", {}).get("data", [])
+            for item in items:
+                jobs.append({
+                    "company": item.get("organisation", {}).get("name", "Unknown"),
+                    "role": item.get("title", ""),
+                    "location": item.get("city", "Remote"),
+                    "portal": "Unstop",
+                    "job_url": f"https://unstop.com/jobs/{item.get('id','')}",
+                    "date_posted": datetime.now(timezone.utc).strftime("%Y-%m-%d"),
+                    "required_skills": [],
+                    "job_description": ""
+                })
+    except: pass
     return jobs
 
 def scrape_glassdoor_jobs() -> list:
-    logger.info("Scraping Glassdoor jobs...")
-    jobs = []
-    try:
-        from playwright.sync_api import sync_playwright
-        with sync_playwright() as p:
-            # We use playwright to handle dynamic JavaScript rendering
-            browser = p.chromium.launch(headless=True)
-            page = browser.new_page()
-            try:
-                page.goto("https://glassdoor.com/Job/data-science-intern-jobs-SRCH_KO0,19.htm", timeout=15000)
-                page.wait_for_timeout(2000)
-                html = page.content()
-            except:
-                html = "<html></html>"
-            browser.close()
-            
-            # Use BeautifulSoup to parse the rendered HTML
-            soup = BeautifulSoup(html, "html.parser")
-            if soup.find("body"):
-                jobs.append({
-                    "company": "Glassdoor Tech",
-                    "role": "Data Science Intern",
-                    "location": "San Francisco",
-                    "portal": "Glassdoor",
-                    "job_url": "https://glassdoor.com/job/123",
-                    "date_posted": datetime.now(timezone.utc).strftime("%Y-%m-%d"),
-                    "application_deadline": "",
-                    "required_skills": ["Python", "Machine Learning"],
-                    "job_description": "Data science role utilizing AI models."
-                })
-    except ImportError:
-        logger.warning("Playwright not installed, skipping dynamic scraping.")
-    except Exception as e:
-        logger.warning(f"Playwright Glassdoor scrape failed: {e}")
-    return jobs
+    # Playwright is not available in many cloud envs without complex setup
+    # Simplified mock for now
+    return []
 
 def scrape_wellfound_jobs() -> list:
     logger.info("Scraping Wellfound (AngelList) jobs...")
@@ -139,8 +180,8 @@ def scrape_jobs():
     all_jobs = []
     all_jobs.extend(scrape_linkedin_jobs())
     all_jobs.extend(scrape_indeed_jobs())
-    all_jobs.extend(scrape_glassdoor_jobs())
-    all_jobs.extend(scrape_wellfound_jobs())
+    all_jobs.extend(scrape_greenhouse_stripe())
+    all_jobs.extend(scrape_unstop_jobs())
     all_jobs.extend(scrape_remoteok_jobs())
     
     # Avoid duplicates and merge

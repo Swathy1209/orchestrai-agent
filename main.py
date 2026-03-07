@@ -106,12 +106,21 @@ def sync_from_github_cloud():
     from backend.github_yaml_db import GITHUB_TOKEN, GITHUB_USERNAME, GITHUB_REPO, GITHUB_BRANCH, _BASE_URL, _auth_headers
     if not all([GITHUB_TOKEN, GITHUB_USERNAME, GITHUB_REPO]):
         logger.warning("Cloud Sync: Missing credentials — skipping sync.")
-        return
+        return []
 
     _REPO_SLUG = GITHUB_REPO if "/" in GITHUB_REPO else f"{GITHUB_USERNAME}/{GITHUB_REPO}"
     logger.info("Cloud Sync: Starting deep sync from %s...", _REPO_SLUG)
 
-    dirs_to_sync = ["database", "frontend/analytics", "frontend/portfolio/internships", "frontend/interview", "frontend/practice"]
+    synced_files = []
+    dirs_to_sync = [
+        "database", 
+        "frontend/analytics", 
+        "frontend/portfolio/internships", 
+        "frontend/interview", 
+        "frontend/practice",
+        "optimized_resumes",
+        "cover_letters"
+    ]
     
     for d in dirs_to_sync:
         url = f"{_BASE_URL}/repos/{_REPO_SLUG}/contents/{d}?ref={GITHUB_BRANCH}"
@@ -131,16 +140,18 @@ def sync_from_github_cloud():
                                 os.makedirs(os.path.dirname(local_path), exist_ok=True)
                                 with open(local_path, "w", encoding="utf-8") as f:
                                     f.write(content)
+                                synced_files.append(path)
                                 logger.info("Cloud Sync: ✓ %s", path)
             else:
                 logger.warning("Cloud Sync: Could not list %s (%d)", d, resp.status_code)
         except Exception as e:
             logger.error("Cloud Sync: Failed for %s - %s", d, e)
+    return synced_files
 
 @app.get("/sync")
 def manual_sync():
-    sync_from_github_cloud()
-    return {"status": "ok", "message": "Deep sync completed from GitHub."}
+    files = sync_from_github_cloud()
+    return {"status": "ok", "synced_count": len(files), "files": files}
 
 @app.on_event("startup")
 def start_scheduler():
@@ -223,22 +234,31 @@ def index():
     er = os.getenv("EMAIL_RECEIVER", "NOT SET")
     ep = "✅ SET" if os.getenv("EMAIL_PASS") else "❌ NOT SET"
     return f"""
-    <html><head><title>OrchestrAI Dashboard</title></head>
-    <body style='font-family:sans-serif;max-width:700px;margin:40px auto;padding:20px'>
-      <h1>🤖 OrchestrAI Career Intelligence System</h1>
-      <p>Your autonomous AI career agent is running on Render.</p>
-      <hr/>
-      <h3>⚙️ Email Configuration</h3>
-      <ul>
-        <li><b>EMAIL_USER:</b> {eu}</li>
-        <li><b>EMAIL_RECEIVER:</b> {er}</li>
-        <li><b>EMAIL_PASS:</b> {ep}</li>
-      </ul>
-      <hr/>
-      <h3>🔧 Actions</h3>
-      <p><a href='/test-email' style='background:#4CAF50;color:white;padding:10px 20px;border-radius:5px;text-decoration:none'>✉️ Test Email Now</a></p>
-      <p><a href='/trigger' style='background:#2196F3;color:white;padding:10px 20px;border-radius:5px;text-decoration:none'>🚀 Run Pipeline (background)</a></p>
-      <p><a href='/trigger-sync' style='background:#FF9800;color:white;padding:10px 20px;border-radius:5px;text-decoration:none'>🔍 Run Pipeline (with error display)</a></p>
+    <html><head><title>OrchestrAI Dashboard v2.1</title></head>
+    <body style='font-family:sans-serif;max-width:700px;margin:40px auto;padding:20px;background:#f9f9f9'>
+      <div style='background:white;padding:30px;border-radius:15px;box-shadow:0 10px 25px rgba(0,0,0,0.05)'>
+        <h1>🤖 OrchestrAI Dashboard</h1>
+        <p style='color:#666'>Autonomous Career Intelligence System</p>
+        <hr/>
+        <h3>📋 System Status</h3>
+        <p><b>Version:</b> 2.1.0-STABLE</p>
+        <p><b>DATA_DIR:</b> {DATA_DIR}</p>
+        <hr/>
+        <h3>⚙️ Configuration</h3>
+        <ul>
+          <li><b>EMAIL_USER:</b> {eu}</li>
+          <li><b>EMAIL_RECEIVER:</b> {er}</li>
+          <li><b>EMAIL_PASS:</b> {ep}</li>
+        </ul>
+        <hr/>
+        <h3>🔧 Actions</h3>
+        <div style='display:flex;gap:10px;flex-wrap:wrap'>
+          <a href='/sync' style='background:#607d8b;color:white;padding:10px 20px;border-radius:5px;text-decoration:none'>🔄 Force Cloud Sync</a>
+          <a href='/test-email' style='background:#4CAF50;color:white;padding:10px 20px;border-radius:5px;text-decoration:none'>✉️ Test Email</a>
+          <a href='/trigger' style='background:#2196F3;color:white;padding:10px 20px;border-radius:5px;text-decoration:none'>🚀 Run Full Pipeline</a>
+          <a href='/debug-files' style='background:#f44336;color:white;padding:10px 20px;border-radius:5px;text-decoration:none'>🔍 Debug Files (404 check)</a>
+        </div>
+      </div>
     </body></html>
     """
 
