@@ -22,7 +22,7 @@ from backend.agents.cover_letter_agent import run_cover_letter_agent
 from backend.agents.practice_agent import run_practice_agent
 from backend.agents.resume_optimization_agent import run_resume_optimization_agent
 from backend.agents.portfolio_builder_agent import run_portfolio_builder_agent
-from backend.agents.per_internship_portfolio_agent import run_per_internship_portfolio_agent
+from backend.agents.porsche_portfolio_agent import run_porsche_portfolio_agent
 from backend.agents.repo_security_scanner_agent import run_repo_security_scanner_agent
 from backend.agents.auto_fix_pr_agent import run_auto_fix_pr_agent
 from backend.agents.career_strategy_agent import run_career_strategy_agent
@@ -31,6 +31,7 @@ from backend.agents.career_analytics_agent import run_career_analytics_agent
 from backend.agents.interview_coach_agent import run_interview_coach_agent
 from backend.agents.auto_apply_agent import run_auto_apply_agent
 from backend.agents.opportunity_matching_agent import run_opportunity_matching_agent
+from backend.agents.internship_scraper_agent import scrape_jobs, remove_expired_jobs
 from backend.github_yaml_db import read_yaml_from_github, append_log_entry
 
 logger = logging.getLogger("OrchestrAI.ExecutionAgent")
@@ -120,59 +121,69 @@ def run_orchestrai_pipeline():
     base_url      = os.getenv("RENDER_EXTERNAL_URL", "https://orchestrai-agent.onrender.com")
     analytics_url = f"{base_url}/analytics"
 
-    # STEP 1: Fetch internships
+    # STEP 1: Scrape Jobs and Remove Expired ones
+    scrape_jobs()
+    remove_expired_jobs()
+
+    # STEP 2: CareerAgent (Fetch internships from other sources + fallback)
     run_career_agent()
 
-    # STEP 1.5: Process any stored interview feedback → update skill gaps BEFORE analysis
+    # STEP 2.5: Process any stored interview feedback
     run_interview_feedback_agent()
 
-    # STEP 2: Generate per-job skill gap analysis
+    # STEP 3: Generate per-job skill gap analysis
     run_skill_agent()
 
-    # STEP 2.45: Scan ALL Repositories for Security Vulnerabilities (no cloning)
-    run_repo_security_scanner_agent()
-
-    # STEP 2.46: Auto-generate security fix PRs for risky repos
-    run_auto_fix_pr_agent()
-
-    # STEP 2.47: Generate Portfolio Website
-    run_portfolio_builder_agent()
-
-    # STEP 2.5: Generate cover letters
-    run_cover_letter_agent()
-
-    # STEP 2.55: Generate interview practice portals
-    run_practice_agent()
-
-    # STEP 2.6: Optimize Resumes
+    # STEP 4: Resume Optimization Agent
     run_resume_optimization_agent()
 
-    # STEP 2.7: Generate Application Packages
+    # STEP 5: Scan ALL Repositories for Security Vulnerabilities
+    run_repo_security_scanner_agent()
+
+    # STEP 5.5: Auto-generate security fix PRs 
+    run_auto_fix_pr_agent()
+
+    # STEP 6: Generate Portfolio Website
+    run_portfolio_builder_agent()
+
+    # STEP 6.5: Generate customized portfolio pages (Porsche)
+    run_porsche_portfolio_agent()
+
+    # STEP 7: Generate Application Packages
     run_auto_apply_agent()
 
-    # STEP 2.8: Compute Opportunity Matching
+    # STEP 8: Compute Opportunity Matching
     run_opportunity_matching_agent()
 
-    # STEP 2.9: Generate Career Strategy
+    # STEP 9: Generate Career Strategy & Readiness
     run_career_strategy_agent()
-
-    # STEP 2.92: Compute Career Readiness Score (uses security + skills + portfolio + practice)
     run_career_readiness_agent()
 
-    # STEP 2.93: Generate Career Analytics Dashboard (Plotly HTML)
+    # STEP 10: Generate Career Analytics Dashboard
     try:
         analytics_url = run_career_analytics_agent() or analytics_url
     except Exception as exc:
         logger.warning("CareerAnalyticsAgent failed: %s", exc)
 
-    # STEP 2.94: Generate per-internship mock interview pages
+    # STEP 11: Generate per-internship mock interview pages
     run_interview_coach_agent()
-
-    # STEP 2.95: Generate per-internship customized portfolio pages
-    run_per_internship_portfolio_agent()
 
     # STEP 3: Read GitHub database
     jobs_data = read_yaml_from_github("database/jobs.yaml")
+    
+    # Also read new scraper data
+    from backend.github_yaml_db import _get_raw_file
+    import yaml
+    internships_content, _ = _get_raw_file("data/internships.yaml")
+    internships_list = []
+    if internships_content:
+        try:
+            internships_list = yaml.safe_load(internships_content)
+        except Exception:
+            pass
+    if not isinstance(internships_list, list):
+        internships_list = []
+
     skill_gap_data = read_yaml_from_github("database/skill_gap_per_job.yaml")
     cover_letter_data = read_yaml_from_github("database/cover_letter_index.yaml")
     optimization_data = read_yaml_from_github("database/resume_optimizations.yaml")
@@ -187,6 +198,16 @@ def run_orchestrai_pipeline():
     per_internship_portfolio_data = read_yaml_from_github("database/per_internship_portfolios.yaml")
 
     jobs = jobs_data.get("jobs", []) if isinstance(jobs_data, dict) else []
+    # Merge jobs
+    
+    all_job_urls = {j.get("job_url", j.get("apply_link")) for j in jobs}
+    for ij in internships_list:
+        if ij.get("job_url") not in all_job_urls:
+            # Map internships to same schema 
+            ij["apply_link"] = ij.get("job_url", "#")
+            ij["technical_skills"] = ij.get("required_skills", [])
+            jobs.insert(0, ij)
+            
     skill_analysis = skill_gap_data.get("job_skill_analysis", []) if isinstance(skill_gap_data, dict) else []
 
     # STEP 4: Convert skill & cover letter analysis to lookup dictionaries
@@ -227,7 +248,7 @@ def run_orchestrai_pipeline():
 
     per_internship_list = per_internship_portfolio_data.get("per_internship_portfolios", []) if isinstance(per_internship_portfolio_data, dict) else []
     per_internship_lookup = {
-        (item.get("company", ""), item.get("role", "")): item.get("portfolio_url", "")
+        (item.get("company", ""), item.get("role", "")): item.get("link", item.get("portfolio_url", ""))
         for item in per_internship_list if isinstance(item, dict)
     }
 

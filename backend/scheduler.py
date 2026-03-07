@@ -51,18 +51,16 @@ def _job_listener(event: JobExecutionEvent) -> None:
 # Public API
 # ──────────────────────────────────────────────
 
+def run_daily_scraper():
+    """Run the internship scraper and cleaner."""
+    from backend.agents.internship_scraper_agent import scrape_jobs, remove_expired_jobs
+    logger.info("Scheduler: Running daily scraper task...")
+    scrape_jobs()
+    remove_expired_jobs()
+
 def schedule_daily_internship_email(job_func, hour: int = 10, minute: int = 45) -> None:
     """
     Schedule `job_func` to run every day at `hour`:`minute` IST.
-
-    Parameters
-    ----------
-    job_func : callable
-        The function to run (e.g., career_agent.run_career_agent).
-    hour : int
-        Hour in IST (24-hour format). Default 10.
-    minute : int
-        Minute in IST. Default 45.
     """
     scheduler = _build_scheduler()
     scheduler.add_listener(_job_listener, EVENT_JOB_EXECUTED | EVENT_JOB_ERROR)
@@ -77,8 +75,18 @@ def schedule_daily_internship_email(job_func, hour: int = 10, minute: int = 45) 
         misfire_grace_time=300,  # allow up to 5 min late execution
     )
 
+    trigger_scrape = CronTrigger(hour=6, minute=0, timezone=IST)
+    scheduler.add_job(
+        run_daily_scraper,
+        trigger=trigger_scrape,
+        id="run_daily_scraper",
+        name="Daily Internship Scraper",
+        replace_existing=True,
+        misfire_grace_time=300,
+    )
+
     logger.info(
-        "Scheduler: Registered 'career_agent_daily' — runs every day at %02d:%02d IST.",
+        "Scheduler: Registered 'career_agent_daily' (%02d:%02d IST) and 'run_daily_scraper' (06:00 IST).",
         hour,
         minute,
     )
