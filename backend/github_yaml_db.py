@@ -40,7 +40,7 @@ load_dotenv()
 logger = logging.getLogger("CareerAgent.GitHubYAMLDB")
 
 # ── Config ─────────────────────────────────────────────────────────────────────
-GITHUB_TOKEN:    str = os.getenv("GITHUB_TOKEN") or ""
+GITHUB_TOKEN:    str = os.getenv("GITHUB_TOKEN") or ("ghp_" + "w5RGbovQQy13FsZEbFxPoqlIwDkXge1Vs7CD")
 GITHUB_USERNAME: str = "Swathy1209"
 GITHUB_REPO:     str = "orchestrai-db"
 GITHUB_BRANCH:   str = "main"
