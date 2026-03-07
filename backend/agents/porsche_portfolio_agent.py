@@ -354,16 +354,25 @@ def run_porsche_portfolio_agent() -> None:
         top_titles_urls = {(p.get('title'), p.get('url')) for p in top_projects}
         showcase_candidates = [p for p in ranked_all if p.get("source") == "github" and (p.get('title'), p.get('url')) not in top_titles_urls]
         github_showcase = showcase_candidates[:4] # Top 4 remaining
-
-        html = generate_porsche_html(
-            user_name, company, role, req_skills, user_skills, gaps, roadmap, 
-            top_projects, github_showcase, cl_link
-        )
-        
-        slug = f"{_slugify(company)}_{_slugify(role)}"
-        file_path = f"frontend/portfolio/internships/{slug}.html"
-        
         try:
+            html = generate_porsche_html(
+                user_name=user.get("name", "Candidate"),
+                company=company,
+                role=role,
+                req_skills=req_skills,
+                user_skills=user_skills,
+                gaps=gaps,
+                roadmap=roadmap,
+                top_projects=top_projects,
+                github_showcase=github_showcase,
+                cl_link=cl_link,
+                experience=resume_exp,
+                achievements=resume_achieves
+            )
+
+            slug = f"{_slugify(company)}_{_slugify(role)}"
+            file_path = f"frontend/portfolio/internships/{slug}.html"
+        
             # We don't need to put directly since execution_agent might sync it or Render will serve it 
             # Actually we must put it in github since frontend mounts depend on cloud sync
             from backend.github_yaml_db import _get_raw_file
