@@ -55,6 +55,22 @@ def _mark_quota_exceeded(model: str) -> None:
         "All further LLM calls will use fallback for this pipeline run.", model
     )
 
+# ── Rate limiter: minimum gap between consecutive LLM calls (15 RPM free tier) ──
+import threading as _threading, time as _time
+_last_llm_call_lock = _threading.Lock()
+_last_llm_call_ts: float = 0.0
+_MIN_CALL_INTERVAL = 4.0  # seconds — ensures max ~15 calls/min
+
+def _rate_limited_sleep():
+    """Throttle: wait if last LLM call was less than 4 seconds ago."""
+    global _last_llm_call_ts
+    with _last_llm_call_lock:
+        now = _time.monotonic()
+        elapsed = now - _last_llm_call_ts
+        if elapsed < _MIN_CALL_INTERVAL:
+            _time.sleep(_MIN_CALL_INTERVAL - elapsed)
+        _last_llm_call_ts = _time.monotonic()
+
 def safe_llm_call(
     messages: list[dict],
     max_tokens: int = 400,
@@ -65,9 +81,10 @@ def safe_llm_call(
     Central LLM call with:
      - Circuit breaker (skip immediately if daily quota exceeded)
      - Model fallback chain (tries each model before giving up)
-     - No per-model retry on RESOURCE_EXHAUSTED
+     - Retry with backoff on 429 Rate Limit errors
     Returns the response text or None if all models fail.
     """
+    import time
     global _AI_QUOTA_EXCEEDED
 
     if _AI_QUOTA_EXCEEDED:
@@ -77,30 +94,45 @@ def safe_llm_call(
     if not OPENAI_API_KEY:
         return None
 
+    # Throttle: stay under 15 RPM free tier
+    _rate_limited_sleep()
+
     from openai import OpenAI
     client = OpenAI(api_key=OPENAI_API_KEY, base_url=GEMINI_BASE_URL, max_retries=0)
 
     for model in GEMINI_MODELS:
-        try:
-            resp = client.chat.completions.create(
-                model=model,
-                messages=messages,
-                max_tokens=max_tokens,
-                temperature=temperature,
-            )
-            return resp.choices[0].message.content.strip()
-        except Exception as exc:
-            if _is_daily_quota_error(exc):
-                _mark_quota_exceeded(model)
-                return None  # Circuit breaker opened — stop immediately
-            # Transient error on this model → try next
-            logger.debug("AIEngine: %s failed for '%s', trying next model — %s", model, context, exc)
-            continue
+        for attempt in range(3):  # up to 3 retries per model on 429
+            try:
+                resp = client.chat.completions.create(
+                    model=model,
+                    messages=messages,
+                    max_tokens=max_tokens,
+                    temperature=temperature,
+                )
+                return resp.choices[0].message.content.strip()
+            except Exception as exc:
+                err_str = str(exc)
+                if _is_daily_quota_error(exc):
+                    _mark_quota_exceeded(model)
+                    return None  # Circuit breaker opened — stop
+                elif "429" in err_str or "rate" in err_str.lower():
+                    # Transient rate limit — back off and retry
+                    wait = (attempt + 1) * 6  # 6s, 12s, 18s
+                    logger.warning(
+                        "AIEngine: 429 Rate Limit on %s for '%s' — waiting %ds (attempt %d/3)",
+                        model, context, wait, attempt + 1
+                    )
+                    time.sleep(wait)
+                    continue
+                else:
+                    # Other error — try next model
+                    logger.debug("AIEngine: %s failed for '%s', trying next model — %s", model, context, exc)
+                    break
 
     logger.warning("AIEngine: All models exhausted for '%s' — using fallback.", context)
     return None
 
-# ── Known technical skill keywords for fallback extraction ────────────────────
+# ── Known technical skill keywords for fallback extraction ───────────────────
 _KNOWN_SKILLS: list[str] = [
     # Languages
     "Python", "Java", "JavaScript", "TypeScript", "C++", "C#", "Go", "Rust",
