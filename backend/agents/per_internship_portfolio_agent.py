@@ -84,11 +84,11 @@ def _generate_portfolio_html(
     projects_html = ""
     for p in ranked:
         name = p.get("title", p.get("original_name", "Project"))
-        desc = p.get("summary", "A technical project.")
-        techs = str(p.get("technologies", "Python, ML"))
-        stars = p.get("stars", 0)  # still keep stars if present
-        url = p.get("github_link", "#")
-        demo = p.get("demo_link", "")
+        desc = p.get("summary") or "A technical project."
+        techs = str(p.get("technologies") or "Python, ML")
+        stars = p.get("stars") or 0
+        url = p.get("github_link") or "#"
+        demo = p.get("demo_link")
         matched = p.get("_matched_skills", [])
         
         tags_html = ""

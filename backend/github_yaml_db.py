@@ -150,12 +150,22 @@ def _put_raw_file(file_path: str, text: str, sha: str, commit_msg: str) -> bool:
             if resp.status_code in (200, 201):
                 logger.info("GitHubYAMLDB: Successfully pushed '%s' to GitHub.", file_path)
                 return True
+            elif resp.status_code == 409:
+                # Conflict (SHA mismatch) — try to fetch latest SHA and retry once
+                _, latest_sha = _get_raw_file(file_path)
+                if latest_sha:
+                    payload["sha"] = latest_sha
+                    retry_resp = requests.put(url, headers=_auth_headers(), json=payload, timeout=15)
+                    if retry_resp.status_code in (200, 201):
+                        logger.info("GitHubYAMLDB: Resolved conflict and pushed '%s'.", file_path)
+                        return True
+                logger.warning("GitHubYAMLDB: Could not resolve conflict for %s.", file_path)
             else:
                 logger.warning("GitHubYAMLDB: Failed push to GitHub (%d) for %s: %s", resp.status_code, file_path, resp.text)
         except Exception as exc:
             logger.error("GitHubYAMLDB: GitHub push failed for %s — %s", file_path, exc)
             
-    return True # Return true even if GitHub failed, as local save succeeded
+    return True # Always return True as local save succeeded
 
 
 # ══════════════════════════════════════════════════════════════════════════════

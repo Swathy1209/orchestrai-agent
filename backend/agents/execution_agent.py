@@ -548,3 +548,8 @@ def run_orchestrai_pipeline():
 
     logging.info("OrchestrAI pipeline completed successfully")
     __log_activity("Pipeline execution completed and email sent")
+
+if __name__ == "__main__":
+    logging.basicConfig(level=logging.INFO)
+    run_orchestrai_pipeline()
+

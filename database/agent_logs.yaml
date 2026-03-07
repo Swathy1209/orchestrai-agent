@@ -1,1271 +1,2429 @@
 logs:
-- agent: CareerAgent
-  action: Fetch started
-  level: INFO
-  timestamp: '2026-03-01T18:27:18'
-- agent: CareerAgent
-  action: 106 jobs fetched
-  level: INFO
-  timestamp: '2026-03-01T18:27:31'
-- agent: CareerAgent
-  action: 106 jobs fetched, 66 relevant
-  level: INFO
-  timestamp: '2026-03-01T18:30:27'
-- agent: CareerAgent
-  action: Stored in GitHub YAML
-  level: INFO
-  timestamp: '2026-03-01T18:30:28'
-- agent: SkillAgent
-  action: SkillAgent run initiated
-  status: success
-  timestamp: '2026-03-01T18:30:30'
-- agent: SkillAgent
-  action: Skill gap analysis complete
-  status: success
-  timestamp: '2026-03-01T18:30:39'
-  details: Analyzed 51 jobs.
-- agent: ExecutionAgent
-  action: Consolidating daily report and sending email
-  status: success
-  timestamp: '2026-03-01T18:30:39'
-- agent: ExecutionAgent
-  action: Daily email sent successfully
-  status: success
-  timestamp: '2026-03-01T18:30:42'
-  details: Sent to swathiga22@gmail.com
-- agent: CareerAgent
-  action: Fetch started
-  level: INFO
-  timestamp: '2026-03-01T18:47:42'
-- agent: CareerAgent
-  action: 106 jobs fetched
-  level: INFO
-  timestamp: '2026-03-01T18:47:55'
-- agent: CareerAgent
-  action: 106 jobs fetched, 66 relevant
-  level: INFO
-  timestamp: '2026-03-01T18:50:44'
-- agent: CareerAgent
-  action: Stored in GitHub YAML
-  level: INFO
-  timestamp: '2026-03-01T18:50:45'
-- agent: CareerAgent
-  action: Email delegation passed to ExecutionAgent
-  level: INFO
-  timestamp: '2026-03-01T18:50:46'
-- agent: SkillAgent
-  action: SkillAgent run initiated
-  status: success
-  timestamp: '2026-03-01T18:50:47'
-- agent: SkillAgent
-  action: Skill gap analysis complete
-  status: success
-  timestamp: '2026-03-01T18:50:54'
-  details: Analyzed 52 jobs.
-- agent: ExecutionAgent
-  action: Daily email sent successfully
-  status: success
-  timestamp: '2026-03-01T18:50:57'
-  details: Sent to swathiga22@gmail.com
-- agent: CareerAgent
-  action: Fetch started
-  level: INFO
-  timestamp: '2026-03-01T18:57:02'
-- agent: CareerAgent
-  action: 106 jobs fetched
-  level: INFO
-  timestamp: '2026-03-01T18:57:15'
-- agent: CareerAgent
-  action: 106 jobs fetched, 66 relevant
-  level: INFO
-  timestamp: '2026-03-01T18:59:59'
-- agent: CareerAgent
-  action: Stored in GitHub YAML
-  level: INFO
-  timestamp: '2026-03-01T19:00:00'
-- agent: CareerAgent
-  action: Email delegation passed to ExecutionAgent
-  level: INFO
-  timestamp: '2026-03-01T19:00:01'
-- agent: SkillAgent
-  action: SkillAgent run initiated
-  status: success
-  timestamp: '2026-03-01T19:00:02'
-- agent: SkillAgent
-  action: Skill gap analysis complete
-  status: success
-  timestamp: '2026-03-01T19:00:09'
-  details: Analyzed 52 jobs.
-- agent: ExecutionAgent
-  action: Pipeline execution completed and email sent
-  status: success
-  timestamp: '2026-03-01T19:01:27'
-- agent: CareerAgent
-  action: Fetch started
-  level: INFO
-  timestamp: '2026-03-01T19:08:26'
-- agent: CareerAgent
-  action: 106 jobs fetched
-  level: INFO
-  timestamp: '2026-03-01T19:08:40'
-- agent: CareerAgent
-  action: 106 jobs fetched, 66 relevant
-  level: INFO
-  timestamp: '2026-03-01T19:11:26'
-- agent: CareerAgent
-  action: Email delegation passed to ExecutionAgent
-  level: INFO
-  timestamp: '2026-03-01T19:11:27'
-- agent: SkillAgent
-  action: SkillAgent run initiated
-  status: success
-  timestamp: '2026-03-01T19:11:28'
-- agent: SkillAgent
-  action: Skill gap analysis complete
-  status: success
-  timestamp: '2026-03-01T19:11:36'
-  details: Analyzed 52 jobs.
-- agent: CoverLetterAgent
-  action: Generated cover letters for 52 internships
-  status: success
-  timestamp: '2026-03-01T19:13:26'
-- agent: ExecutionAgent
-  action: Pipeline execution completed and email sent
-  status: success
-  timestamp: '2026-03-01T19:13:28'
-- agent: CareerAgent
-  action: Fetch started
-  level: INFO
-  timestamp: '2026-03-01T19:20:22'
-- agent: CareerAgent
-  action: 106 jobs fetched
-  level: INFO
-  timestamp: '2026-03-01T19:20:41'
-- agent: CareerAgent
-  action: 106 jobs fetched, 66 relevant
-  level: INFO
-  timestamp: '2026-03-01T19:21:26'
-- agent: CareerAgent
-  action: Stored in GitHub YAML
-  level: INFO
-  timestamp: '2026-03-01T19:21:29'
-- agent: CareerAgent
-  action: Email delegation passed to ExecutionAgent
-  level: INFO
-  timestamp: '2026-03-01T19:21:31'
-- agent: SkillAgent
-  action: SkillAgent run initiated
-  status: success
-  timestamp: '2026-03-01T19:21:34'
-- agent: SkillAgent
-  action: Skill gap analysis complete
-  status: success
-  timestamp: '2026-03-01T19:21:43'
-  details: Analyzed 52 jobs.
-- agent: CoverLetterAgent
-  action: Generated cover letters for 52 internships
-  status: success
-  timestamp: '2026-03-01T19:23:42'
-- agent: ExecutionAgent
-  action: Pipeline execution completed and email sent
-  status: success
-  timestamp: '2026-03-01T19:23:49'
-- agent: CareerAgent
-  action: Fetch started
-  level: INFO
-  timestamp: '2026-03-01T19:25:15'
-- agent: CareerAgent
-  action: 105 jobs fetched
-  level: INFO
-  timestamp: '2026-03-01T19:25:28'
-- agent: CareerAgent
-  action: 105 jobs fetched, 65 relevant
-  level: INFO
-  timestamp: '2026-03-01T19:28:11'
-- agent: CareerAgent
-  action: Email delegation passed to ExecutionAgent
-  level: INFO
-  timestamp: '2026-03-01T19:28:12'
-- agent: SkillAgent
-  action: Skill gap analysis complete
-  status: success
-  timestamp: '2026-03-01T19:28:21'
-  details: Analyzed 52 jobs.
-- agent: CoverLetterAgent
-  action: Generated cover letters for 52 internships
-  status: success
-  timestamp: '2026-03-01T19:30:04'
-- agent: ExecutionAgent
-  action: Pipeline execution completed and email sent
-  status: success
-  timestamp: '2026-03-01T19:30:05'
-- agent: CareerAgent
-  action: Fetch started
-  level: INFO
-  timestamp: '2026-03-01T19:36:46'
-- agent: CareerAgent
-  action: 106 jobs fetched
-  level: INFO
-  timestamp: '2026-03-01T19:36:59'
-- agent: CareerAgent
-  action: 106 jobs fetched, 66 relevant
-  level: INFO
-  timestamp: '2026-03-01T19:39:44'
-- agent: CareerAgent
-  action: Stored in GitHub YAML
-  level: INFO
-  timestamp: '2026-03-01T19:39:45'
-- agent: CareerAgent
-  action: Email delegation passed to ExecutionAgent
-  level: INFO
-  timestamp: '2026-03-01T19:39:45'
-- agent: SkillAgent
-  action: SkillAgent run initiated
-  status: success
-  timestamp: '2026-03-01T19:39:46'
-- agent: SkillAgent
-  action: Skill gap analysis complete
-  status: success
-  timestamp: '2026-03-01T19:39:54'
-  details: Analyzed 52 jobs.
-- agent: CoverLetterAgent
-  action: Generated cover letters for 52 internships
-  status: success
-  timestamp: '2026-03-01T19:41:35'
-- agent: ExecutionAgent
-  action: Pipeline execution completed and email sent
-  status: success
-  timestamp: '2026-03-01T19:41:37'
-- agent: ResumeOptimizationAgent
-  action: Generated optimizations for 52 internships
-  status: success
-  timestamp: '2026-03-01T19:55:00'
-- agent: CareerAgent
-  action: Fetch started
-  level: INFO
-  timestamp: '2026-03-01T19:58:36'
-- agent: CareerAgent
-  action: 106 jobs fetched
-  level: INFO
-  timestamp: '2026-03-01T19:58:50'
-- agent: CareerAgent
-  action: 106 jobs fetched, 66 relevant
-  level: INFO
-  timestamp: '2026-03-01T20:01:37'
-- agent: CareerAgent
-  action: Stored in GitHub YAML
-  level: INFO
-  timestamp: '2026-03-01T20:01:38'
-- agent: CareerAgent
-  action: Email delegation passed to ExecutionAgent
-  level: INFO
-  timestamp: '2026-03-01T20:01:39'
-- agent: SkillAgent
-  action: SkillAgent run initiated
-  status: success
-  timestamp: '2026-03-01T20:01:40'
-- agent: SkillAgent
-  action: Skill gap analysis complete
-  status: success
-  timestamp: '2026-03-01T20:01:48'
-  details: Analyzed 52 jobs.
-- agent: CoverLetterAgent
-  action: Generated cover letters for 52 internships
-  status: success
-  timestamp: '2026-03-01T20:03:43'
-- agent: ResumeOptimizationAgent
-  action: Generated optimizations for 52 internships
-  status: success
-  timestamp: '2026-03-01T20:05:35'
-- agent: ExecutionAgent
-  action: Pipeline execution completed and email sent
-  status: success
-  timestamp: '2026-03-01T20:05:38'
-- agent: AutoApplyAgent
-  action: Generated Application Packages for 52 internships
-  status: success
-  timestamp: '2026-03-01T20:12:41'
-- agent: CareerAgent
-  action: Fetch started
-  level: INFO
-  timestamp: '2026-03-01T20:22:21'
-- agent: CareerAgent
-  action: 106 jobs fetched
-  level: INFO
-  timestamp: '2026-03-01T20:22:34'
-- agent: CareerAgent
-  action: 106 jobs fetched, 66 relevant
-  level: INFO
-  timestamp: '2026-03-01T20:25:22'
-- agent: CareerAgent
-  action: Email delegation passed to ExecutionAgent
-  level: INFO
-  timestamp: '2026-03-01T20:25:23'
-- agent: SkillAgent
-  action: SkillAgent run initiated
-  status: success
-  timestamp: '2026-03-01T20:25:25'
-- agent: SkillAgent
-  action: Skill gap analysis complete
-  status: success
-  timestamp: '2026-03-01T20:25:32'
-  details: Analyzed 52 jobs.
-- agent: CoverLetterAgent
-  action: Generated cover letters for 52 internships
-  status: success
-  timestamp: '2026-03-01T20:27:21'
-- agent: ResumeOptimizationAgent
-  action: Generated optimizations for 52 internships
-  status: success
-  timestamp: '2026-03-01T20:29:09'
-- agent: AutoApplyAgent
-  action: Generated Application Packages for 52 internships
-  status: success
-  timestamp: '2026-03-01T20:29:42'
-- agent: ExecutionAgent
-  action: Pipeline execution completed and email sent
-  status: success
-  timestamp: '2026-03-01T20:29:45'
-- agent: AutoApplyAgent
-  action: Generated Application Packages for 52 internships
-  status: success
-  timestamp: '2026-03-01T20:34:48'
-- agent: CareerAgent
-  action: Fetch started
-  level: INFO
-  timestamp: '2026-03-02T04:31:56'
-- agent: CareerAgent
-  action: 106 jobs fetched
-  level: INFO
-  timestamp: '2026-03-02T04:32:09'
-- agent: CareerAgent
-  action: 106 jobs fetched, 69 relevant
-  level: INFO
-  timestamp: '2026-03-02T04:34:59'
-- agent: CareerAgent
-  action: Stored in GitHub YAML
-  level: INFO
-  timestamp: '2026-03-02T04:35:00'
-- agent: CareerAgent
-  action: Email delegation passed to ExecutionAgent
-  level: INFO
-  timestamp: '2026-03-02T04:35:01'
-- agent: SkillAgent
-  action: SkillAgent run initiated
-  status: success
-  timestamp: '2026-03-02T04:35:03'
-- agent: SkillAgent
-  action: Skill gap analysis complete
-  status: success
-  timestamp: '2026-03-02T04:35:10'
-  details: Analyzed 56 jobs.
-- agent: CoverLetterAgent
-  action: Generated cover letters for 56 internships
-  status: success
-  timestamp: '2026-03-02T04:37:06'
-- agent: ResumeOptimizationAgent
-  action: Generated optimizations for 56 internships
-  status: success
-  timestamp: '2026-03-02T04:39:11'
-- agent: AutoApplyAgent
-  action: Generated Application Packages for 56 internships
-  status: success
-  timestamp: '2026-03-02T04:39:46'
-- agent: ExecutionAgent
-  action: Pipeline execution completed and email sent
-  status: success
-  timestamp: '2026-03-02T04:39:48'
-- agent: AutoApplyAgent
-  action: Generated Application Packages for 56 internships
-  status: success
-  timestamp: '2026-03-02T04:55:11'
-- agent: CareerAgent
-  action: Fetch started
-  level: INFO
-  timestamp: '2026-03-02T05:03:04'
-- agent: CareerAgent
-  action: 106 jobs fetched
-  level: INFO
-  timestamp: '2026-03-02T05:03:17'
-- agent: CareerAgent
-  action: 106 jobs fetched, 68 relevant
-  level: INFO
-  timestamp: '2026-03-02T05:06:03'
-- agent: CareerAgent
-  action: Stored in GitHub YAML
-  level: INFO
-  timestamp: '2026-03-02T05:06:04'
-- agent: CareerAgent
-  action: Email delegation passed to ExecutionAgent
-  level: INFO
-  timestamp: '2026-03-02T05:06:05'
-- agent: SkillAgent
-  action: SkillAgent run initiated
-  status: success
-  timestamp: '2026-03-02T05:06:06'
-- agent: SkillAgent
-  action: Skill gap analysis complete
-  status: success
-  timestamp: '2026-03-02T05:06:14'
-  details: Analyzed 57 jobs.
-- agent: CoverLetterAgent
-  action: Generated cover letters for 57 internships
-  status: success
-  timestamp: '2026-03-02T05:08:12'
-- agent: ResumeOptimizationAgent
-  action: Generated optimizations for 57 internships
-  status: success
-  timestamp: '2026-03-02T05:10:14'
-- agent: AutoApplyAgent
-  action: Generated Application Packages for 57 internships
-  status: success
-  timestamp: '2026-03-02T05:10:51'
-- agent: ExecutionAgent
-  action: Pipeline execution completed and email sent
-  status: success
-  timestamp: '2026-03-02T05:10:54'
-- agent: OpportunityMatchingAgent
-  action: Generated match scores for 57 internships
-  status: success
-  timestamp: '2026-03-02T06:00:56'
-- agent: CareerAgent
-  action: Fetch started
-  level: INFO
-  timestamp: '2026-03-02T06:05:43'
-- agent: CareerAgent
-  action: 104 jobs fetched
-  level: INFO
-  timestamp: '2026-03-02T06:05:56'
-- agent: CareerAgent
-  action: 104 jobs fetched, 67 relevant
-  level: INFO
-  timestamp: '2026-03-02T06:08:40'
-- agent: CareerAgent
-  action: Stored in GitHub YAML
-  level: INFO
-  timestamp: '2026-03-02T06:08:41'
-- agent: SkillAgent
-  action: SkillAgent run initiated
-  status: success
-  timestamp: '2026-03-02T06:08:43'
-- agent: SkillAgent
-  action: Skill gap analysis complete
-  status: success
-  timestamp: '2026-03-02T06:08:51'
-  details: Analyzed 60 jobs.
-- agent: CoverLetterAgent
-  action: Generated cover letters for 60 internships
-  status: success
-  timestamp: '2026-03-02T06:10:55'
-- agent: ResumeOptimizationAgent
-  action: Generated optimizations for 60 internships
-  status: success
-  timestamp: '2026-03-02T06:13:07'
-- agent: AutoApplyAgent
-  action: Generated Application Packages for 60 internships
-  status: success
-  timestamp: '2026-03-02T06:13:46'
-- agent: OpportunityMatchingAgent
-  action: Generated match scores for 60 internships
-  status: success
-  timestamp: '2026-03-02T06:13:48'
-- agent: ExecutionAgent
-  action: Pipeline execution completed and email sent
-  status: success
-  timestamp: '2026-03-02T06:13:51'
-- agent: CareerAgent
-  action: Fetch started
-  level: INFO
-  timestamp: '2026-03-02T09:37:01'
-- agent: CareerAgent
-  action: 105 jobs fetched
-  level: INFO
-  timestamp: '2026-03-02T09:37:18'
-- agent: CareerAgent
-  action: 105 jobs fetched, 63 relevant
-  level: INFO
-  timestamp: '2026-03-02T09:38:08'
-- agent: CareerAgent
-  action: Stored in GitHub YAML
-  level: INFO
-  timestamp: '2026-03-02T09:38:13'
-- agent: CareerAgent
-  action: Email delegation passed to ExecutionAgent
-  level: INFO
-  timestamp: '2026-03-02T09:38:15'
-- agent: SkillAgent
-  action: SkillAgent run initiated
-  status: success
-  timestamp: '2026-03-02T09:38:19'
-- agent: SkillAgent
-  action: Skill gap analysis complete
-  status: success
-  timestamp: '2026-03-02T09:38:27'
-  details: Analyzed 65 jobs.
-- agent: CoverLetterAgent
-  action: Generated cover letters for 65 internships
-  status: success
-  timestamp: '2026-03-02T09:40:48'
-- agent: PracticeAgent
-  action: PracticeAgent run initiated
-  status: success
-  timestamp: '2026-03-02T09:40:50'
-- agent: CareerAgent
-  action: Fetch started
-  level: INFO
-  timestamp: '2026-03-02T09:43:06'
-- agent: CareerAgent
-  action: 106 jobs fetched
-  level: INFO
-  timestamp: '2026-03-02T09:43:20'
-- agent: PracticeAgent
-  action: Generated practice portals for 65 internships
-  status: success
-  timestamp: '2026-03-02T09:44:27'
-- agent: CareerAgent
-  action: 106 jobs fetched, 64 relevant
-  level: INFO
-  timestamp: '2026-03-02T09:46:19'
-- agent: CareerAgent
-  action: Stored in GitHub YAML
-  level: INFO
-  timestamp: '2026-03-02T09:46:21'
-- agent: CareerAgent
-  action: Email delegation passed to ExecutionAgent
-  level: INFO
-  timestamp: '2026-03-02T09:46:21'
-- agent: SkillAgent
-  action: SkillAgent run initiated
-  status: success
-  timestamp: '2026-03-02T09:46:24'
-- agent: SkillAgent
-  action: Skill gap analysis complete
-  status: success
-  timestamp: '2026-03-02T09:46:33'
-  details: Analyzed 65 jobs.
-- agent: ResumeOptimizationAgent
-  action: Generated optimizations for 65 internships
-  status: success
-  timestamp: '2026-03-02T09:47:12'
-- agent: CoverLetterAgent
-  action: Generated cover letters for 59 internships
-  status: success
-  timestamp: '2026-03-02T09:49:07'
-- agent: AutoApplyAgent
-  action: Generated Application Packages for 65 internships
-  status: success
-  timestamp: '2026-03-02T09:50:11'
-- agent: OpportunityMatchingAgent
-  action: Generated match scores for 65 internships
-  status: success
-  timestamp: '2026-03-02T09:50:20'
-- agent: ExecutionAgent
-  action: Pipeline execution completed and email sent
-  status: success
-  timestamp: '2026-03-02T09:50:34'
-- agent: ResumeOptimizationAgent
-  action: Generated optimizations for 65 internships
-  status: success
-  timestamp: '2026-03-02T09:51:44'
-- agent: AutoApplyAgent
-  action: Generated Application Packages for 65 internships
-  status: success
-  timestamp: '2026-03-02T09:52:41'
-- agent: OpportunityMatchingAgent
-  action: Generated match scores for 65 internships
-  status: success
-  timestamp: '2026-03-02T09:52:44'
-- agent: ExecutionAgent
-  action: Pipeline execution completed and email sent
-  status: success
-  timestamp: '2026-03-02T09:52:48'
-- agent: CareerAgent
-  action: Fetch started
-  level: INFO
-  timestamp: '2026-03-02T10:22:02'
-- agent: CareerAgent
-  action: 83 jobs fetched
-  level: INFO
-  timestamp: '2026-03-02T10:22:21'
-- agent: CareerAgent
-  action: 83 jobs fetched, 41 relevant
-  level: INFO
-  timestamp: '2026-03-02T10:23:01'
-- agent: CareerAgent
-  action: Stored in GitHub YAML
-  level: INFO
-  timestamp: '2026-03-02T10:23:06'
-- agent: CareerAgent
-  action: Email delegation passed to ExecutionAgent
-  level: INFO
-  timestamp: '2026-03-02T10:23:08'
-- agent: SkillAgent
-  action: SkillAgent run initiated
-  status: success
-  timestamp: '2026-03-02T10:23:12'
-- agent: SkillAgent
-  action: Skill gap analysis complete
-  status: success
-  timestamp: '2026-03-02T10:23:20'
-  details: Analyzed 81 jobs.
-- agent: CoverLetterAgent
-  action: Generated cover letters for 81 internships
-  status: success
-  timestamp: '2026-03-02T10:26:32'
-- agent: CareerAgent
-  action: Fetch started
-  level: INFO
-  timestamp: '2026-03-02T10:27:39'
-- agent: CareerAgent
-  action: 106 jobs fetched
-  level: INFO
-  timestamp: '2026-03-02T10:27:58'
-- agent: CareerAgent
-  action: Fetch started
-  level: INFO
-  timestamp: '2026-03-02T10:28:40'
-- agent: CareerAgent
-  action: 106 jobs fetched, 64 relevant
-  level: INFO
-  timestamp: '2026-03-02T10:28:40'
-- agent: CareerAgent
-  action: Stored in GitHub YAML
-  level: INFO
-  timestamp: '2026-03-02T10:28:44'
-- agent: CareerAgent
-  action: Email delegation passed to ExecutionAgent
-  level: INFO
-  timestamp: '2026-03-02T10:28:47'
-- agent: CareerAgent
-  action: 105 jobs fetched
-  level: INFO
-  timestamp: '2026-03-02T10:28:54'
-- agent: SkillAgent
-  action: Skill gap analysis complete
-  status: success
-  timestamp: '2026-03-02T10:29:00'
-  details: Analyzed 81 jobs.
-- agent: CareerAgent
-  action: 105 jobs fetched, 63 relevant
-  level: INFO
-  timestamp: '2026-03-02T10:31:47'
-- agent: CareerAgent
-  action: Stored in GitHub YAML
-  level: INFO
-  timestamp: '2026-03-02T10:31:49'
-- agent: CareerAgent
-  action: Email delegation passed to ExecutionAgent
-  level: INFO
-  timestamp: '2026-03-02T10:31:50'
-- agent: SkillAgent
-  action: SkillAgent run initiated
-  status: success
-  timestamp: '2026-03-02T10:31:52'
-- agent: CareerAgent
-  action: 105 jobs fetched
-  level: INFO
-  timestamp: '2026-03-02T10:31:58'
-- agent: CoverLetterAgent
-  action: Generated cover letters for 79 internships
-  status: success
-  timestamp: '2026-03-02T10:32:37'
-- agent: CoverLetterAgent
-  action: Generated cover letters for 76 internships
-  status: success
-  timestamp: '2026-03-02T10:35:12'
-- agent: PracticeAgent
-  action: PracticeAgent run initiated
-  status: success
-  timestamp: '2026-03-02T10:35:13'
-- agent: PracticeAgent
-  action: Generated practice portals for 81 internships
-  status: success
-  timestamp: '2026-03-02T10:39:36'
-- agent: CareerAgent
-  action: 108 jobs fetched
-  level: INFO
-  timestamp: '2026-03-02T10:45:12'
-- agent: ResumeOptimizationAgent
-  action: Generated optimizations for 81 internships
-  status: success
-  timestamp: '2026-03-02T10:45:17'
-- agent: CareerAgent
-  action: 108 jobs fetched, 66 relevant
-  level: INFO
-  timestamp: '2026-03-02T10:47:58'
-- agent: CareerAgent
-  action: Stored in GitHub YAML
-  level: INFO
-  timestamp: '2026-03-02T10:47:59'
-- agent: CareerAgent
-  action: Email delegation passed to ExecutionAgent
-  level: INFO
-  timestamp: '2026-03-02T10:48:00'
-- agent: SkillAgent
-  action: SkillAgent run initiated
-  status: success
-  timestamp: '2026-03-02T10:48:01'
-- agent: AutoApplyAgent
-  action: Generated Application Packages for 81 internships
-  status: success
-  timestamp: '2026-03-02T10:50:17'
-- agent: OpportunityMatchingAgent
-  action: Generated match scores for 82 internships
-  status: success
-  timestamp: '2026-03-02T10:50:30'
-- agent: CoverLetterAgent
-  action: Generated cover letters for 76 internships
-  status: success
-  timestamp: '2026-03-02T10:50:53'
-- agent: PracticeAgent
-  action: PracticeAgent run initiated
-  status: success
-  timestamp: '2026-03-02T10:50:54'
-- agent: ExecutionAgent
-  action: Pipeline execution completed and email sent
-  status: success
-  timestamp: '2026-03-02T10:50:53'
-- agent: PracticeAgent
-  action: Generated practice portals for 82 internships
-  status: success
-  timestamp: '2026-03-02T10:59:45'
-- agent: CareerAgent
-  action: Fetch started
-  level: INFO
-  timestamp: '2026-03-02T13:18:56'
-- agent: CareerAgent
-  action: 102 jobs fetched
-  level: INFO
-  timestamp: '2026-03-02T13:19:11'
-- agent: CareerAgent
-  action: 102 jobs fetched, 56 relevant
-  level: INFO
-  timestamp: '2026-03-02T13:22:05'
-- agent: CareerAgent
-  action: Stored in GitHub YAML
-  level: INFO
-  timestamp: '2026-03-02T13:22:07'
-- agent: SkillAgent
-  action: SkillAgent run initiated
-  status: success
-  timestamp: '2026-03-02T13:22:10'
-- agent: SkillAgent
-  action: Skill gap analysis complete
-  status: success
-  timestamp: '2026-03-02T13:22:19'
-  details: Analyzed 87 jobs.
-- agent: CoverLetterAgent
-  action: Generated cover letters for 87 internships
-  status: success
-  timestamp: '2026-03-02T13:25:57'
-- agent: PracticeAgent
-  action: PracticeAgent run initiated
-  status: success
-  timestamp: '2026-03-02T13:25:58'
-- agent: CareerAgent
-  action: Fetch started
-  level: INFO
-  timestamp: '2026-03-02T14:35:08'
-- agent: CareerAgent
-  action: 105 jobs fetched
-  level: INFO
-  timestamp: '2026-03-02T14:35:21'
-- agent: CareerAgent
-  action: 105 jobs fetched, 59 relevant
-  level: INFO
-  timestamp: '2026-03-02T14:38:10'
-- agent: CareerAgent
-  action: Stored in GitHub YAML
-  level: INFO
-  timestamp: '2026-03-02T14:38:11'
-- agent: CareerAgent
-  action: Email delegation passed to ExecutionAgent
-  level: INFO
-  timestamp: '2026-03-02T14:38:12'
-- agent: SkillAgent
-  action: SkillAgent run initiated
-  status: success
-  timestamp: '2026-03-02T14:38:13'
-- agent: SkillAgent
-  action: Skill gap analysis complete
-  status: success
-  timestamp: '2026-03-02T14:38:21'
-  details: Analyzed 90 jobs.
-- agent: CoverLetterAgent
-  action: Generated cover letters for 90 internships
-  status: success
-  timestamp: '2026-03-02T14:41:30'
-- agent: PracticeAgent
-  action: PracticeAgent run initiated
-  status: success
-  timestamp: '2026-03-02T14:41:30'
-- agent: PracticeAgent
-  action: Generated practice portals for 90 internships
-  status: success
-  timestamp: '2026-03-02T14:51:21'
-- agent: ResumeOptimizationAgent
-  action: Generated optimizations for 90 internships
-  status: success
-  timestamp: '2026-03-02T14:54:29'
-- agent: AutoApplyAgent
-  action: Generated Application Packages for 90 internships
-  status: success
-  timestamp: '2026-03-02T14:55:28'
-- agent: OpportunityMatchingAgent
-  action: Generated match scores for 90 internships
-  status: success
-  timestamp: '2026-03-02T14:55:30'
-- agent: ExecutionAgent
-  action: Pipeline execution completed and email sent
-  status: success
-  timestamp: '2026-03-02T14:55:33'
-- agent: CareerAgent
-  action: Fetch started
-  level: INFO
-  timestamp: '2026-03-02T15:01:02'
-- agent: CareerAgent
-  action: 106 jobs fetched
-  level: INFO
-  timestamp: '2026-03-02T15:01:20'
-- agent: CareerAgent
-  action: 106 jobs fetched, 59 relevant
-  level: INFO
-  timestamp: '2026-03-02T15:02:07'
-- agent: CareerAgent
-  action: Stored in GitHub YAML
-  level: INFO
-  timestamp: '2026-03-02T15:02:13'
-- agent: CareerAgent
-  action: Email delegation passed to ExecutionAgent
-  level: INFO
-  timestamp: '2026-03-02T15:02:18'
-- agent: SkillAgent
-  action: SkillAgent run initiated
-  status: success
-  timestamp: '2026-03-02T15:02:25'
-- agent: SkillAgent
-  action: Skill gap analysis complete
-  status: success
-  timestamp: '2026-03-02T15:02:42'
-  details: Analyzed 90 jobs.
-- agent: CareerAgent
-  action: Fetch started
-  level: INFO
-  timestamp: '2026-03-02T15:08:02'
-- agent: CareerAgent
-  action: 106 jobs fetched
-  level: INFO
-  timestamp: '2026-03-02T15:08:22'
-- agent: CareerAgent
-  action: 106 jobs fetched, 59 relevant
-  level: INFO
-  timestamp: '2026-03-02T15:12:39'
-- agent: CareerAgent
-  action: Stored in GitHub YAML
-  level: INFO
-  timestamp: '2026-03-02T15:12:42'
-- agent: CareerAgent
-  action: Email delegation passed to ExecutionAgent
-  level: INFO
-  timestamp: '2026-03-02T15:12:45'
-- agent: SkillAgent
-  action: SkillAgent run initiated
-  status: success
-  timestamp: '2026-03-02T15:12:49'
-- agent: SkillAgent
-  action: Skill gap analysis complete
-  status: success
-  timestamp: '2026-03-02T15:13:07'
-  details: Analyzed 90 jobs.
-- agent: CoverLetterAgent
-  action: Generated cover letters for 90 internships
-  status: success
-  timestamp: '2026-03-02T15:20:25'
-- agent: PracticeAgent
-  action: PracticeAgent run initiated
-  status: success
-  timestamp: '2026-03-02T15:20:28'
-- agent: CareerAgent
-  action: Fetch started
-  level: INFO
-  timestamp: '2026-03-03T05:46:20'
-- agent: CareerAgent
-  action: 103 jobs fetched
-  level: INFO
-  timestamp: '2026-03-03T05:46:33'
-- agent: CareerAgent
-  action: 103 jobs fetched, 60 relevant
-  level: INFO
-  timestamp: '2026-03-03T05:46:49'
-- agent: CareerAgent
-  action: Stored in GitHub YAML
-  level: INFO
-  timestamp: '2026-03-03T05:46:50'
-- agent: CareerAgent
-  action: Email delegation passed to ExecutionAgent
-  level: INFO
-  timestamp: '2026-03-03T05:46:51'
-- agent: SkillAgent
-  action: SkillAgent run initiated
-  status: success
-  timestamp: '2026-03-03T05:46:53'
-- agent: SkillAgent
-  action: Skill gap analysis complete
-  status: success
-  timestamp: '2026-03-03T05:46:55'
-  details: Analyzed 95 jobs.
-- agent: CoverLetterAgent
-  action: Generated cover letters for 95 internships
-  status: success
-  timestamp: '2026-03-03T05:50:21'
-- agent: PracticeAgent
-  action: PracticeAgent run initiated
-  status: success
-  timestamp: '2026-03-03T05:50:22'
-- agent: PracticeAgent
-  action: 'Failed portal for RefinedScience Data Engineering Intern: Gemini failed
-    to generate interview Q&A for RefinedScience - Data Engineering Intern'
-  status: error
-  timestamp: '2026-03-03T05:52:48'
-- agent: PracticeAgent
-  action: 'Failed portal for Cylinder Health Junior Data Engineer: Gemini failed to
-    generate interview Q&A for Cylinder Health - Junior Data Engineer'
-  status: error
-  timestamp: '2026-03-03T05:55:13'
-- agent: PracticeAgent
-  action: 'Failed portal for Tinder Machine Learning Engineer Intern: Gemini failed
-    to generate interview Q&A for Tinder - Machine Learning Engineer Intern'
-  status: error
-  timestamp: '2026-03-03T05:57:39'
-- agent: CareerAgent
-  action: Fetch started
-  level: INFO
-  timestamp: '2026-03-03T07:25:58'
-- agent: CareerAgent
-  action: 104 jobs fetched
-  level: INFO
-  timestamp: '2026-03-03T07:26:11'
-- agent: CareerAgent
-  action: 104 jobs fetched, 59 relevant
-  level: INFO
-  timestamp: '2026-03-03T07:26:28'
-- agent: CareerAgent
-  action: Stored in GitHub YAML
-  level: INFO
-  timestamp: '2026-03-03T07:26:30'
-- agent: CareerAgent
-  action: Email delegation passed to ExecutionAgent
-  level: INFO
-  timestamp: '2026-03-03T07:26:30'
-- agent: SkillAgent
-  action: SkillAgent run initiated
-  status: success
-  timestamp: '2026-03-03T07:26:32'
-- agent: SkillAgent
-  action: Skill gap analysis complete
-  status: success
-  timestamp: '2026-03-03T07:26:35'
-  details: Analyzed 98 jobs.
-- agent: CoverLetterAgent
-  action: Generated cover letters for 98 internships
-  status: success
-  timestamp: '2026-03-03T07:30:18'
-- agent: PracticeAgent
-  action: PracticeAgent run initiated
-  status: success
-  timestamp: '2026-03-03T07:30:19'
-- agent: PracticeAgent
-  action: 'Failed portal for RefinedScience Data Engineering Intern: Gemini failed
-    to generate interview Q&A for RefinedScience - Data Engineering Intern'
-  status: error
-  timestamp: '2026-03-03T07:32:45'
-- agent: PracticeAgent
-  action: 'Failed portal for Cylinder Health Junior Data Engineer: Gemini failed to
-    generate interview Q&A for Cylinder Health - Junior Data Engineer'
-  status: error
-  timestamp: '2026-03-03T07:35:10'
-- agent: PracticeAgent
-  action: 'Failed portal for Tinder Machine Learning Engineer Intern: Gemini failed
-    to generate interview Q&A for Tinder - Machine Learning Engineer Intern'
-  status: error
-  timestamp: '2026-03-03T07:37:36'
-- agent: PracticeAgent
-  action: 'Failed portal for Lensa Machine Learning Engineer Intern: Gemini failed
-    to generate interview Q&A for Lensa - Machine Learning Engineer Intern'
-  status: error
-  timestamp: '2026-03-03T07:40:02'
-- agent: PracticeAgent
-  action: 'Failed portal for Handshake AI/Machine Learning Engineer Intern: Gemini
-    failed to generate interview Q&A for Handshake - AI/Machine Learning Engineer
-    Intern'
-  status: error
-  timestamp: '2026-03-03T07:42:28'
-- agent: PracticeAgent
-  action: 'Failed portal for Lensa Machine Learning Intern - Summer 2026: Gemini failed
-    to generate interview Q&A for Lensa - Machine Learning Intern - Summer 2026'
-  status: error
-  timestamp: '2026-03-03T07:44:53'
-- agent: PracticeAgent
-  action: 'Failed portal for Lensa Data Science Summer Intern (Remote & Paid): Gemini
-    failed to generate interview Q&A for Lensa - Data Science Summer Intern (Remote
-    & Paid)'
-  status: error
-  timestamp: '2026-03-03T07:47:19'
-- agent: PracticeAgent
-  action: 'Failed portal for Lensa Intern, Data Science and Analytics: Gemini failed
-    to generate interview Q&A for Lensa - Intern, Data Science and Analytics'
-  status: error
-  timestamp: '2026-03-03T07:49:45'
-- agent: PracticeAgent
-  action: 'Failed portal for Transcarent Machine Learning Engineer Intern: Gemini
-    failed to generate interview Q&A for Transcarent - Machine Learning Engineer Intern'
-  status: error
-  timestamp: '2026-03-03T07:52:10'
 - agent: PracticeAgent
   action: 'Failed portal for Moloco Machine Learning Engineer Intern: Gemini failed
     to generate interview Q&A for Moloco - Machine Learning Engineer Intern'
   status: error
-  timestamp: '2026-03-03T07:54:36'
+  timestamp: '2026-03-07T07:07:41'
 - agent: PracticeAgent
   action: 'Failed portal for TikTok (General Hire) Machine Learning Engineer Intern
     (TikTok-Recommendation) - 2026 Summer (BS/MS): Gemini failed to generate interview
     Q&A for TikTok - (General Hire) Machine Learning Engineer Intern (TikTok-Recommendation)
     - 2026 Summer (BS/MS)'
   status: error
-  timestamp: '2026-03-03T07:57:02'
+  timestamp: '2026-03-07T07:07:42'
 - agent: PracticeAgent
   action: 'Failed portal for Upstart Machine Learning Engineer Intern: Gemini failed
     to generate interview Q&A for Upstart - Machine Learning Engineer Intern'
   status: error
-  timestamp: '2026-03-03T07:59:27'
-- agent: PracticeAgent
-  action: 'Failed portal for Typeface ML Engineer Intern: Gemini failed to generate
-    interview Q&A for Typeface - ML Engineer Intern'
-  status: error
-  timestamp: '2026-03-03T08:01:53'
+  timestamp: '2026-03-07T07:07:43'
 - agent: PracticeAgent
   action: 'Failed portal for PathAI Machine Learning Intern/Co-op (Summer 2026): Gemini
     failed to generate interview Q&A for PathAI - Machine Learning Intern/Co-op (Summer
     2026)'
   status: error
-  timestamp: '2026-03-03T08:04:19'
-- agent: PracticeAgent
-  action: 'Failed portal for Staffline Solutions Machine Learning Intern: Gemini failed
-    to generate interview Q&A for Staffline Solutions - Machine Learning Intern'
-  status: error
-  timestamp: '2026-03-03T08:06:44'
+  timestamp: '2026-03-07T07:07:45'
 - agent: PracticeAgent
   action: 'Failed portal for Matson Logistics AI & Machine Learning Intern – Operations:
     Gemini failed to generate interview Q&A for Matson Logistics - AI & Machine Learning
     Intern – Operations'
   status: error
-  timestamp: '2026-03-03T08:09:10'
+  timestamp: '2026-03-07T07:07:47'
 - agent: PracticeAgent
   action: 'Failed portal for Cohere Machine Learning Intern/Co-op  (Spring 2026):
     Gemini failed to generate interview Q&A for Cohere - Machine Learning Intern/Co-op  (Spring
     2026)'
   status: error
-  timestamp: '2026-03-03T08:11:36'
-- agent: PracticeAgent
-  action: 'Failed portal for Cornerstone Building Brands Data Analyst Intern: Gemini
-    failed to generate interview Q&A for Cornerstone Building Brands - Data Analyst
-    Intern'
-  status: error
-  timestamp: '2026-03-03T08:14:02'
+  timestamp: '2026-03-07T07:07:47'
 - agent: PracticeAgent
   action: 'Failed portal for Go Offer Data Analyst: Gemini failed to generate interview
     Q&A for Go Offer - Data Analyst'
   status: error
-  timestamp: '2026-03-03T08:16:28'
+  timestamp: '2026-03-07T07:07:49'
 - agent: PracticeAgent
   action: 'Failed portal for AUMOVIO Data Analysis Intern (Yearlong): Gemini failed
     to generate interview Q&A for AUMOVIO - Data Analysis Intern (Yearlong)'
   status: error
-  timestamp: '2026-03-03T08:18:54'
+  timestamp: '2026-03-07T07:07:50'
 - agent: PracticeAgent
   action: 'Failed portal for ZURU Toys Data Analyst Intern: Gemini failed to generate
     interview Q&A for ZURU Toys - Data Analyst Intern'
   status: error
-  timestamp: '2026-03-03T08:21:20'
+  timestamp: '2026-03-07T07:07:51'
 - agent: PracticeAgent
   action: 'Failed portal for Toshiba America Electronic Components, Inc. 5039 Data
     Analyst Engineering Intern: Gemini failed to generate interview Q&A for Toshiba
     America Electronic Components, Inc. - 5039 Data Analyst Engineering Intern'
   status: error
-  timestamp: '2026-03-03T08:23:45'
-- agent: PracticeAgent
-  action: 'Failed portal for Aday Data Analysis Intern: Gemini failed to generate
-    interview Q&A for Aday - Data Analysis Intern'
-  status: error
-  timestamp: '2026-03-03T08:26:11'
+  timestamp: '2026-03-07T07:07:52'
 - agent: PracticeAgent
   action: 'Failed portal for Okta for Developers Data Analyst Intern (Summer 2026):
     Gemini failed to generate interview Q&A for Okta for Developers - Data Analyst
     Intern (Summer 2026)'
   status: error
-  timestamp: '2026-03-03T08:28:37'
+  timestamp: '2026-03-07T07:07:54'
 - agent: PracticeAgent
   action: 'Failed portal for Washington Commanders Data Analyst (Intern): Gemini failed
     to generate interview Q&A for Washington Commanders - Data Analyst (Intern)'
   status: error
-  timestamp: '2026-03-03T08:31:02'
-- agent: PracticeAgent
-  action: 'Failed portal for Lensa Data Analyst Intern: Gemini failed to generate
-    interview Q&A for Lensa - Data Analyst Intern'
-  status: error
-  timestamp: '2026-03-03T08:33:28'
+  timestamp: '2026-03-07T07:07:55'
 - agent: PracticeAgent
   action: 'Failed portal for Sloan Data Analyst Intern: Gemini failed to generate
     interview Q&A for Sloan - Data Analyst Intern'
   status: error
-  timestamp: '2026-03-03T08:35:54'
+  timestamp: '2026-03-07T07:07:56'
 - agent: PracticeAgent
   action: 'Failed portal for Go Offer Business Analyst Intern: Gemini failed to generate
     interview Q&A for Go Offer - Business Analyst Intern'
   status: error
-  timestamp: '2026-03-03T08:38:20'
+  timestamp: '2026-03-07T07:07:57'
 - agent: PracticeAgent
   action: 'Failed portal for Veolia Intern - Business Analyst: Gemini failed to generate
     interview Q&A for Veolia - Intern - Business Analyst'
   status: error
-  timestamp: '2026-03-03T08:40:46'
-- agent: PracticeAgent
-  action: 'Failed portal for TikTok Business Analyst Project Intern (GBS SMB) - 2026
-    Start (BS/MS): Gemini failed to generate interview Q&A for TikTok - Business Analyst
-    Project Intern (GBS SMB) - 2026 Start (BS/MS)'
-  status: error
-  timestamp: '2026-03-03T08:43:12'
+  timestamp: '2026-03-07T07:07:58'
 - agent: PracticeAgent
   action: 'Failed portal for TikTok Business Analyst Project Intern - Monetization
     Strategy & Operations - 2026 Start (BS/MS): Gemini failed to generate interview
     Q&A for TikTok - Business Analyst Project Intern - Monetization Strategy & Operations
     - 2026 Start (BS/MS)'
   status: error
-  timestamp: '2026-03-03T08:45:37'
+  timestamp: '2026-03-07T07:08:00'
 - agent: PracticeAgent
   action: 'Failed portal for Maximus Business Analyst Intern: Gemini failed to generate
     interview Q&A for Maximus - Business Analyst Intern'
   status: error
-  timestamp: '2026-03-03T08:48:03'
+  timestamp: '2026-03-07T07:08:01'
 - agent: PracticeAgent
   action: 'Failed portal for Apollo Mission Critical Engineering Multiple U.S Locations
     - Business Analyst Intern (BA-I) - Summer 2026: Gemini failed to generate interview
     Q&A for Apollo Mission Critical Engineering - Multiple U.S Locations - Business
     Analyst Intern (BA-I) - Summer 2026'
   status: error
-  timestamp: '2026-03-03T08:50:28'
+  timestamp: '2026-03-07T07:08:02'
 - agent: PracticeAgent
   action: 'Failed portal for ACCA Careers Business Analyst Intern: Gemini failed to
     generate interview Q&A for ACCA Careers - Business Analyst Intern'
   status: error
-  timestamp: '2026-03-03T08:52:54'
+  timestamp: '2026-03-07T07:08:03'
 - agent: PracticeAgent
   action: 'Failed portal for MTX Group Business Analyst Intern: Gemini failed to generate
     interview Q&A for MTX Group - Business Analyst Intern'
   status: error
-  timestamp: '2026-03-03T08:55:20'
+  timestamp: '2026-03-07T07:08:04'
 - agent: PracticeAgent
   action: 'Failed portal for Stripe Data Analyst, Intern (Master''s degree): Gemini
     failed to generate interview Q&A for Stripe - Data Analyst, Intern (Master''s
     degree)'
   status: error
-  timestamp: '2026-03-03T08:57:46'
-- agent: PracticeAgent
-  action: 'Failed portal for Stripe PhD Machine Learning Engineer, Intern: Gemini
-    failed to generate interview Q&A for Stripe - PhD Machine Learning Engineer, Intern'
-  status: error
-  timestamp: '2026-03-03T09:00:12'
+  timestamp: '2026-03-07T07:08:05'
 - agent: PracticeAgent
   action: 'Failed portal for Zuneko Labs Artificial Intelligence (AI): Gemini failed
     to generate interview Q&A for Zuneko Labs - Artificial Intelligence (AI)'
   status: error
-  timestamp: '2026-03-03T09:02:38'
+  timestamp: '2026-03-07T07:08:07'
 - agent: PracticeAgent
   action: 'Failed portal for Unnati Enterprises Data Science: Gemini failed to generate
     interview Q&A for Unnati Enterprises - Data Science'
   status: error
-  timestamp: '2026-03-03T09:05:04'
+  timestamp: '2026-03-07T07:08:08'
 - agent: PracticeAgent
   action: 'Failed portal for Unknown Data Science Intern: Gemini failed to generate
     interview Q&A for Unknown - Data Science Intern'
   status: error
-  timestamp: '2026-03-03T09:07:29'
+  timestamp: '2026-03-07T07:08:09'
 - agent: PracticeAgent
   action: 'Failed portal for Innoknowvex Machine Learning: Gemini failed to generate
     interview Q&A for Innoknowvex - Machine Learning'
   status: error
-  timestamp: '2026-03-03T09:09:55'
+  timestamp: '2026-03-07T07:08:10'
 - agent: PracticeAgent
   action: 'Failed portal for Innoknowvex Data Science: Gemini failed to generate interview
     Q&A for Innoknowvex - Data Science'
   status: error
-  timestamp: '2026-03-03T09:12:21'
-- agent: PracticeAgent
-  action: 'Failed portal for Emoolar Technology Private Limited Artificial Intelligence
-    (AI): Gemini failed to generate interview Q&A for Emoolar Technology Private Limited
-    - Artificial Intelligence (AI)'
-  status: error
-  timestamp: '2026-03-03T09:14:47'
+  timestamp: '2026-03-07T07:08:11'
 - agent: PracticeAgent
   action: 'Failed portal for Infinity Assurance Solutions Private Limited Computer
     Vision: Gemini failed to generate interview Q&A for Infinity Assurance Solutions
     Private Limited - Computer Vision'
   status: error
-  timestamp: '2026-03-03T09:17:12'
+  timestamp: '2026-03-07T07:08:12'
 - agent: PracticeAgent
   action: 'Failed portal for Mindenious Edutech Data Science: Gemini failed to generate
     interview Q&A for Mindenious Edutech - Data Science'
   status: error
-  timestamp: '2026-03-03T09:19:38'
-- agent: PracticeAgent
-  action: 'Failed portal for Unknown Machine Learning Intern: Gemini failed to generate
-    interview Q&A for Unknown - Machine Learning Intern'
-  status: error
-  timestamp: '2026-03-03T09:22:04'
+  timestamp: '2026-03-07T07:08:13'
 - agent: PracticeAgent
   action: 'Failed portal for Arvyax Technologies Private Limited Machine Learning:
     Gemini failed to generate interview Q&A for Arvyax Technologies Private Limited
     - Machine Learning'
   status: error
-  timestamp: '2026-03-03T09:24:30'
+  timestamp: '2026-03-07T07:08:15'
+- agent: PracticeAgent
+  action: 'Failed portal for Career Solutions Data Science: Gemini failed to generate
+    interview Q&A for Career Solutions - Data Science'
+  status: error
+  timestamp: '2026-03-07T07:08:16'
+- agent: PracticeAgent
+  action: 'Failed portal for Unknown Artificial Intelligence Intern: Gemini failed
+    to generate interview Q&A for Unknown - Artificial Intelligence Intern'
+  status: error
+  timestamp: '2026-03-07T07:08:17'
+- agent: PracticeAgent
+  action: 'Failed portal for Symonis Machine Learning: Gemini failed to generate interview
+    Q&A for Symonis - Machine Learning'
+  status: error
+  timestamp: '2026-03-07T07:08:18'
+- agent: PracticeAgent
+  action: 'Failed portal for Cloud Back Machine Learning: Gemini failed to generate
+    interview Q&A for Cloud Back - Machine Learning'
+  status: error
+  timestamp: '2026-03-07T07:08:19'
+- agent: PracticeAgent
+  action: 'Failed portal for Lensa Data Science Intern: Gemini failed to generate
+    interview Q&A for Lensa - Data Science Intern'
+  status: error
+  timestamp: '2026-03-07T07:08:20'
+- agent: PracticeAgent
+  action: 'Failed portal for METRO Regional Transit Authority Data Analyst Intern:
+    Gemini failed to generate interview Q&A for METRO Regional Transit Authority -
+    Data Analyst Intern'
+  status: error
+  timestamp: '2026-03-07T07:08:21'
+- agent: PracticeAgent
+  action: 'Failed portal for Primetrade.ai Machine Learning (Modeling + Evaluation):
+    Gemini failed to generate interview Q&A for Primetrade.ai - Machine Learning (Modeling
+    + Evaluation)'
+  status: error
+  timestamp: '2026-03-07T07:08:22'
+- agent: PracticeAgent
+  action: 'Failed portal for Primetrade.ai Artificial Intelligence (AI): Gemini failed
+    to generate interview Q&A for Primetrade.ai - Artificial Intelligence (AI)'
+  status: error
+  timestamp: '2026-03-07T07:08:23'
+- agent: PracticeAgent
+  action: 'Failed portal for Primetrade.ai Data Science: Gemini failed to generate
+    interview Q&A for Primetrade.ai - Data Science'
+  status: error
+  timestamp: '2026-03-07T07:08:24'
+- agent: PracticeAgent
+  action: 'Failed portal for Banner Engineering Careers Business Analyst Intern: Gemini
+    failed to generate interview Q&A for Banner Engineering Careers - Business Analyst
+    Intern'
+  status: error
+  timestamp: '2026-03-07T07:08:25'
+- agent: PracticeAgent
+  action: 'Failed portal for Lensa Business Analyst Intern: Gemini failed to generate
+    interview Q&A for Lensa - Business Analyst Intern'
+  status: error
+  timestamp: '2026-03-07T07:08:27'
+- agent: PracticeAgent
+  action: 'Failed portal for Accredian Data Science: Gemini failed to generate interview
+    Q&A for Accredian - Data Science'
+  status: error
+  timestamp: '2026-03-07T07:08:27'
+- agent: PracticeAgent
+  action: 'Failed portal for targetjobs UK Business Analyst Internship: Gemini failed
+    to generate interview Q&A for targetjobs UK - Business Analyst Internship'
+  status: error
+  timestamp: '2026-03-07T07:08:29'
+- agent: PracticeAgent
+  action: 'Failed portal for Fitbae Healthcare Private Limited Data Science: Gemini
+    failed to generate interview Q&A for Fitbae Healthcare Private Limited - Data
+    Science'
+  status: error
+  timestamp: '2026-03-07T07:08:29'
+- agent: PracticeAgent
+  action: 'Failed portal for Aviate Manpower Data Science: Gemini failed to generate
+    interview Q&A for Aviate Manpower - Data Science'
+  status: error
+  timestamp: '2026-03-07T07:08:30'
+- agent: PracticeAgent
+  action: 'Failed portal for Zulitech Solution Machine Learning: Gemini failed to
+    generate interview Q&A for Zulitech Solution - Machine Learning'
+  status: error
+  timestamp: '2026-03-07T07:08:31'
+- agent: PracticeAgent
+  action: 'Failed portal for Zulitech Solution Artificial Intelligence (AI): Gemini
+    failed to generate interview Q&A for Zulitech Solution - Artificial Intelligence
+    (AI)'
+  status: error
+  timestamp: '2026-03-07T07:08:32'
+- agent: PracticeAgent
+  action: 'Failed portal for Kensho Technologies Machine Learning Intern - Summer
+    2026: Gemini failed to generate interview Q&A for Kensho Technologies - Machine
+    Learning Intern - Summer 2026'
+  status: error
+  timestamp: '2026-03-07T07:08:33'
+- agent: PracticeAgent
+  action: 'Failed portal for PANTHERx Rare Pharmacy Intern, Data Science: Gemini failed
+    to generate interview Q&A for PANTHERx Rare Pharmacy - Intern, Data Science'
+  status: error
+  timestamp: '2026-03-07T07:08:34'
+- agent: PracticeAgent
+  action: 'Failed portal for Nuro Machine Learning intern, Behavior Planning: Gemini
+    failed to generate interview Q&A for Nuro - Machine Learning intern, Behavior
+    Planning'
+  status: error
+  timestamp: '2026-03-07T07:08:35'
+- agent: PracticeAgent
+  action: 'Failed portal for ForFutures Financial, Planning, a financial advisory
+    practice of Ameriprise Financial Services LLC Data Science Intern: Gemini failed
+    to generate interview Q&A for ForFutures Financial, Planning, a financial advisory
+    practice of Ameriprise Financial Services LLC - Data Science Intern'
+  status: error
+  timestamp: '2026-03-07T07:08:36'
+- agent: PracticeAgent
+  action: 'Failed portal for Pacific Seafood Machine Vision & Data Science Intern:
+    Gemini failed to generate interview Q&A for Pacific Seafood - Machine Vision &
+    Data Science Intern'
+  status: error
+  timestamp: '2026-03-07T07:08:37'
+- agent: PracticeAgent
+  action: 'Failed portal for Product Manager Accelerator AI Engineer Intern - AI/ML/GenAI
+    Design & Development: Gemini failed to generate interview Q&A for Product Manager
+    Accelerator - AI Engineer Intern - AI/ML/GenAI Design & Development'
+  status: error
+  timestamp: '2026-03-07T07:08:38'
+- agent: PracticeAgent
+  action: 'Failed portal for Viant Technology Machine Learning Engineering Internship
+    - Summer 2026: Gemini failed to generate interview Q&A for Viant Technology -
+    Machine Learning Engineering Internship - Summer 2026'
+  status: error
+  timestamp: '2026-03-07T07:08:39'
+- agent: PracticeAgent
+  action: 'Failed portal for TikTok Machine Learning Engineer Intern - Global E-Commerce
+    Content Recommendation - 2026 Summer (BS/MS): Gemini failed to generate interview
+    Q&A for TikTok - Machine Learning Engineer Intern - Global E-Commerce Content
+    Recommendation - 2026 Summer (BS/MS)'
+  status: error
+  timestamp: '2026-03-07T07:08:41'
+- agent: PracticeAgent
+  action: 'Failed portal for TikTok Machine Learning Engineer Intern - Data-Search-TikTok
+    Recommendation Team - 2026 Summer (BS/MS): Gemini failed to generate interview
+    Q&A for TikTok - Machine Learning Engineer Intern - Data-Search-TikTok Recommendation
+    Team - 2026 Summer (BS/MS)'
+  status: error
+  timestamp: '2026-03-07T07:08:42'
+- agent: PracticeAgent
+  action: 'Failed portal for Qorvo, Inc. Data Science Engineer Intern: Gemini failed
+    to generate interview Q&A for Qorvo, Inc. - Data Science Engineer Intern'
+  status: error
+  timestamp: '2026-03-07T07:08:43'
+- agent: PracticeAgent
+  action: 'Failed portal for Lensa Data Analyst Internship (Summer 2026): Gemini failed
+    to generate interview Q&A for Lensa - Data Analyst Internship (Summer 2026)'
+  status: error
+  timestamp: '2026-03-07T07:08:44'
+- agent: PracticeAgent
+  action: 'Failed portal for Tesla Internship, Data Engineer, Energy (Summer 2026):
+    Gemini failed to generate interview Q&A for Tesla - Internship, Data Engineer,
+    Energy (Summer 2026)'
+  status: error
+  timestamp: '2026-03-07T07:08:45'
+- agent: PracticeAgent
+  action: 'Failed portal for Seaman Corporation Business Analyst Intern: Gemini failed
+    to generate interview Q&A for Seaman Corporation - Business Analyst Intern'
+  status: error
+  timestamp: '2026-03-07T07:08:46'
+- agent: PracticeAgent
+  action: 'Failed portal for Talentrift Business Analyst Intern: Gemini failed to
+    generate interview Q&A for Talentrift - Business Analyst Intern'
+  status: error
+  timestamp: '2026-03-07T07:08:47'
+- agent: PracticeAgent
+  action: 'Failed portal for Eightfold AI Senior Machine Learning Engineer: Gemini
+    failed to generate interview Q&A for Eightfold AI - Senior Machine Learning Engineer'
+  status: error
+  timestamp: '2026-03-07T07:08:48'
+- agent: PracticeAgent
+  action: 'Failed portal for Lensa Intern, Data Science: Gemini failed to generate
+    interview Q&A for Lensa - Intern, Data Science'
+  status: error
+  timestamp: '2026-03-07T07:08:49'
+- agent: PracticeAgent
+  action: 'Failed portal for Lensa Intern - Data Science: Gemini failed to generate
+    interview Q&A for Lensa - Intern - Data Science'
+  status: error
+  timestamp: '2026-03-07T07:08:50'
+- agent: PracticeAgent
+  action: 'Failed portal for TikTok Machine Learning Engineer Intern - TikTok Search
+    E-Commerce team - 2026 Summer (BS/MS): Gemini failed to generate interview Q&A
+    for TikTok - Machine Learning Engineer Intern - TikTok Search E-Commerce team
+    - 2026 Summer (BS/MS)'
+  status: error
+  timestamp: '2026-03-07T07:08:51'
+- agent: PracticeAgent
+  action: 'Failed portal for ARM Institute Data Analyst Intern: Gemini failed to generate
+    interview Q&A for ARM Institute - Data Analyst Intern'
+  status: error
+  timestamp: '2026-03-07T07:08:53'
+- agent: PracticeAgent
+  action: 'Failed portal for Storybizz Media Private Limited Artificial Intelligence
+    (AI): Gemini failed to generate interview Q&A for Storybizz Media Private Limited
+    - Artificial Intelligence (AI)'
+  status: error
+  timestamp: '2026-03-07T07:08:53'
+- agent: PracticeAgent
+  action: 'Failed portal for EVgo Intern, Data Analyst (Winter / Spring): Gemini failed
+    to generate interview Q&A for EVgo - Intern, Data Analyst (Winter / Spring)'
+  status: error
+  timestamp: '2026-03-07T07:08:54'
+- agent: PracticeAgent
+  action: 'Failed portal for Family Tree Farms Data Analyst Intern: Gemini failed
+    to generate interview Q&A for Family Tree Farms - Data Analyst Intern'
+  status: error
+  timestamp: '2026-03-07T07:08:55'
+- agent: PracticeAgent
+  action: 'Failed portal for Cvent Data Science Intern (Summer 2026): Gemini failed
+    to generate interview Q&A for Cvent - Data Science Intern (Summer 2026)'
+  status: error
+  timestamp: '2026-03-07T07:08:57'
+- agent: PracticeAgent
+  action: 'Failed portal for Generate:Biomedicines Machine Learning Intern: Gemini
+    failed to generate interview Q&A for Generate:Biomedicines - Machine Learning
+    Intern'
+  status: error
+  timestamp: '2026-03-07T07:08:58'
+- agent: PracticeAgent
+  action: 'Failed portal for PathAI Machine Learning Intern/Co-op (Summer/Fall 2026):
+    Gemini failed to generate interview Q&A for PathAI - Machine Learning Intern/Co-op
+    (Summer/Fall 2026)'
+  status: error
+  timestamp: '2026-03-07T07:08:59'
+- agent: PracticeAgent
+  action: 'Failed portal for FinZebra AI Engineering & Learning Design: Gemini failed
+    to generate interview Q&A for FinZebra - AI Engineering & Learning Design'
+  status: error
+  timestamp: '2026-03-07T07:09:01'
+- agent: PracticeAgent
+  action: 'Failed portal for Lensa Machine Learning Science Intern - Summer 2026 Start:
+    Gemini failed to generate interview Q&A for Lensa - Machine Learning Science Intern
+    - Summer 2026 Start'
+  status: error
+  timestamp: '2026-03-07T07:09:02'
+- agent: PracticeAgent
+  action: 'Failed portal for Learning Skills Academy Data And ML Engineer: Gemini
+    failed to generate interview Q&A for Learning Skills Academy - Data And ML Engineer'
+  status: error
+  timestamp: '2026-03-07T07:09:02'
+- agent: PracticeAgent
+  action: 'Failed portal for Catch Sports Analytics Sports Data Analyst: Gemini failed
+    to generate interview Q&A for Catch Sports Analytics - Sports Data Analyst'
+  status: error
+  timestamp: '2026-03-07T07:09:03'
+- agent: PracticeAgent
+  action: 'Failed portal for Hughes ML Engineering Intern: Gemini failed to generate
+    interview Q&A for Hughes - ML Engineering Intern'
+  status: error
+  timestamp: '2026-03-07T07:09:04'
+- agent: PracticeAgent
+  action: 'Failed portal for Airbnb Machine Learning Engineering Intern (PhD): Gemini
+    failed to generate interview Q&A for Airbnb - Machine Learning Engineering Intern
+    (PhD)'
+  status: error
+  timestamp: '2026-03-07T07:09:05'
+- agent: PracticeAgent
+  action: 'Failed portal for The Institute for Advanced Learning and Research Artificial
+    Intelligence / Machine Learning Intern: Gemini failed to generate interview Q&A
+    for The Institute for Advanced Learning and Research - Artificial Intelligence
+    / Machine Learning Intern'
+  status: error
+  timestamp: '2026-03-07T07:09:06'
+- agent: PracticeAgent
+  action: 'Failed portal for Lensa Business Analyst (Intern) - United States: Gemini
+    failed to generate interview Q&A for Lensa - Business Analyst (Intern) - United
+    States'
+  status: error
+  timestamp: '2026-03-07T07:09:07'
+- agent: PracticeAgent
+  action: 'Failed portal for Veolia Business Analyst Intern: Gemini failed to generate
+    interview Q&A for Veolia - Business Analyst Intern'
+  status: error
+  timestamp: '2026-03-07T07:09:08'
+- agent: PracticeAgent
+  action: 'Failed portal for Tax-O-Smart LLP Artificial Intelligence (AI): Gemini
+    failed to generate interview Q&A for Tax-O-Smart LLP - Artificial Intelligence
+    (AI)'
+  status: error
+  timestamp: '2026-03-07T07:09:10'
+- agent: PracticeAgent
+  action: 'Failed portal for Talent Corner HR Services Machine Learning Engineer:
+    Gemini failed to generate interview Q&A for Talent Corner HR Services - Machine
+    Learning Engineer'
+  status: error
+  timestamp: '2026-03-07T07:09:11'
+- agent: PracticeAgent
+  action: 'Failed portal for Unknown Company – Source Incomplete Data Science Intern:
+    Gemini failed to generate interview Q&A for Unknown Company – Source Incomplete
+    - Data Science Intern'
+  status: error
+  timestamp: '2026-03-07T07:09:12'
+- agent: PracticeAgent
+  action: 'Failed portal for Wobot Intelligence Private Limited Computer Vision: Gemini
+    failed to generate interview Q&A for Wobot Intelligence Private Limited - Computer
+    Vision'
+  status: error
+  timestamp: '2026-03-07T07:09:13'
+- agent: PracticeAgent
+  action: 'Failed portal for Resolute AI Software Private Limited AI Engineer: Gemini
+    failed to generate interview Q&A for Resolute AI Software Private Limited - AI
+    Engineer'
+  status: error
+  timestamp: '2026-03-07T07:09:14'
+- agent: PracticeAgent
+  action: 'Failed portal for Unknown Company – Source Incomplete Machine Learning
+    Intern: Gemini failed to generate interview Q&A for Unknown Company – Source Incomplete
+    - Machine Learning Intern'
+  status: error
+  timestamp: '2026-03-07T07:09:15'
+- agent: PracticeAgent
+  action: 'Failed portal for OralKart Machine Learning: Gemini failed to generate
+    interview Q&A for OralKart - Machine Learning'
+  status: error
+  timestamp: '2026-03-07T07:09:16'
+- agent: PracticeAgent
+  action: 'Failed portal for Bro''s Innovations And Technology. Data Science: Gemini
+    failed to generate interview Q&A for Bro''s Innovations And Technology. - Data
+    Science'
+  status: error
+  timestamp: '2026-03-07T07:09:17'
+- agent: PracticeAgent
+  action: 'Failed portal for Unknown Company – Source Incomplete Artificial Intelligence
+    Intern: Gemini failed to generate interview Q&A for Unknown Company – Source Incomplete
+    - Artificial Intelligence Intern'
+  status: error
+  timestamp: '2026-03-07T07:09:18'
+- agent: PracticeAgent
+  action: 'Failed portal for Sungrow Power Supply Co., Ltd. Data Analyst Internship:
+    Gemini failed to generate interview Q&A for Sungrow Power Supply Co., Ltd. - Data
+    Analyst Internship'
+  status: error
+  timestamp: '2026-03-07T07:09:19'
+- agent: PracticeAgent
+  action: 'Failed portal for CareerNest Machine Learning: Gemini failed to generate
+    interview Q&A for CareerNest - Machine Learning'
+  status: error
+  timestamp: '2026-03-07T07:09:21'
+- agent: PracticeAgent
+  action: 'Failed portal for Random Groups Of Companies Data Science: Gemini failed
+    to generate interview Q&A for Random Groups Of Companies - Data Science'
+  status: error
+  timestamp: '2026-03-07T07:09:23'
+- agent: PracticeAgent
+  action: 'Failed portal for 1stop.ai Artificial Intelligence (AI): Gemini failed
+    to generate interview Q&A for 1stop.ai - Artificial Intelligence (AI)'
+  status: error
+  timestamp: '2026-03-07T07:09:24'
+- agent: PracticeAgent
+  action: 'Failed portal for Heptaverse Technologies Private Limited Artificial Intelligence
+    (AI): Gemini failed to generate interview Q&A for Heptaverse Technologies Private
+    Limited - Artificial Intelligence (AI)'
+  status: error
+  timestamp: '2026-03-07T07:09:25'
+- agent: PracticeAgent
+  action: 'Failed portal for Mulberry Leaf Artificial Intelligence (AI): Gemini failed
+    to generate interview Q&A for Mulberry Leaf - Artificial Intelligence (AI)'
+  status: error
+  timestamp: '2026-03-07T07:09:25'
+- agent: PracticeAgent
+  action: 'Failed portal for Tech Phoenix Data Engineer Intern: Gemini failed to generate
+    interview Q&A for Tech Phoenix - Data Engineer Intern'
+  status: error
+  timestamp: '2026-03-07T07:09:26'
+- agent: PracticeAgent
+  action: 'Failed portal for EXL Data Analyst Associate: Gemini failed to generate
+    interview Q&A for EXL - Data Analyst Associate'
+  status: error
+  timestamp: '2026-03-07T07:09:27'
+- agent: PracticeAgent
+  action: 'Failed portal for Kodiak Fall 2026 Intern, Artificial Intelligence/Machine
+    Learning: Gemini failed to generate interview Q&A for Kodiak - Fall 2026 Intern,
+    Artificial Intelligence/Machine Learning'
+  status: error
+  timestamp: '2026-03-07T07:09:28'
+- agent: PracticeAgent
+  action: 'Failed portal for Lensa Artificial Intelligence (AI) Intern: Gemini failed
+    to generate interview Q&A for Lensa - Artificial Intelligence (AI) Intern'
+  status: error
+  timestamp: '2026-03-07T07:09:29'
+- agent: PracticeAgent
+  action: 'Failed portal for Lensa Data Science Internship: Gemini failed to generate
+    interview Q&A for Lensa - Data Science Internship'
+  status: error
+  timestamp: '2026-03-07T07:09:30'
+- agent: PracticeAgent
+  action: 'Failed portal for AARP Data Analyst Intern: Gemini failed to generate interview
+    Q&A for AARP - Data Analyst Intern'
+  status: error
+  timestamp: '2026-03-07T07:09:32'
+- agent: PracticeAgent
+  action: 'Failed portal for Namaah Pvt Ltd AI/ML Engineer: Gemini failed to generate
+    interview Q&A for Namaah Pvt Ltd - AI/ML Engineer'
+  status: error
+  timestamp: '2026-03-07T07:09:33'
+- agent: PracticeAgent
+  action: 'Failed portal for Above Alpha Solutions LLP Machine Learning: Gemini failed
+    to generate interview Q&A for Above Alpha Solutions LLP - Machine Learning'
+  status: error
+  timestamp: '2026-03-07T07:09:35'
+- agent: PracticeAgent
+  action: 'Failed portal for Lightmatter Machine Learning Research Intern: Gemini
+    failed to generate interview Q&A for Lightmatter - Machine Learning Research Intern'
+  status: error
+  timestamp: '2026-03-07T07:09:37'
+- agent: ResumeOptimizationAgent
+  action: Generated optimizations for 133 internships
+  status: success
+  timestamp: '2026-03-07T07:10:57'
+- agent: AutoApplyAgent
+  action: Generated Application Packages for 133 internships
+  status: success
+  timestamp: '2026-03-07T07:12:19'
+- agent: OpportunityMatchingAgent
+  action: Generated match scores for 133 internships
+  status: success
+  timestamp: '2026-03-07T07:12:22'
+- agent: CareerStrategyAgent
+  action: 'Generated 3-step weekly career strategy for goal: Data Engineering Internship'
+  status: completed
+  timestamp: '2026-03-07T07:12:24'
+- agent: CareerReadinessAgent
+  action: 'Computed readiness score: 79.2 — ✅ Strong Candidate'
+  status: completed
+  timestamp: '2026-03-07T07:12:27'
+- agent: CareerAnalyticsAgent
+  action: Generated analytics dashboard — readiness=79.2
+  status: completed
+  timestamp: '2026-03-07T07:12:29'
+- agent: InterviewCoachAgent
+  action: Generated 133 interview simulation pages
+  status: success
+  timestamp: '2026-03-07T07:14:01'
+- agent: PorschePortfolioAgent
+  action: Generated premium portfolios for 133 internships
+  status: success
+  timestamp: '2026-03-07T07:15:25'
+- agent: ExecutionAgent
+  action: Pipeline execution completed and email sent
+  status: success
+  timestamp: '2026-03-07T07:15:29'
+- agent: InternshipScraperAgent
+  action: Scrape completed, added 1 jobs
+  status: completed
+  jobs_scraped: 1
+  timestamp: '2026-03-07T07:17:26'
+- agent: InternshipScraperAgent
+  action: Removed 0 expired jobs
+  status: completed
+  expired_removed: 0
+  timestamp: '2026-03-07T07:17:35'
+- agent: InternshipScraperAgent
+  action: Scrape completed, added 2 jobs
+  status: completed
+  jobs_scraped: 2
+  timestamp: '2026-03-07T07:21:12'
+- agent: InternshipScraperAgent
+  action: Removed 0 expired jobs
+  status: completed
+  expired_removed: 0
+  timestamp: '2026-03-07T07:21:18'
+- agent: InternshipScraperAgent
+  action: Scrape completed, added 44 jobs
+  status: completed
+  jobs_scraped: 44
+  timestamp: '2026-03-07T07:40:33'
+- agent: InternshipScraperAgent
+  action: Scrape completed, added 44 jobs
+  status: completed
+  jobs_scraped: 44
+  timestamp: '2026-03-07T07:41:51'
+- agent: InternshipScraperAgent
+  action: Scrape completed, added 44 jobs
+  status: completed
+  jobs_scraped: 44
+  timestamp: '2026-03-07T07:44:30'
+- agent: InternshipScraperAgent
+  action: Scrape completed, added 1 jobs
+  status: completed
+  jobs_scraped: 1
+  timestamp: '2026-03-07T07:48:47'
+- agent: InternshipScraperAgent
+  action: Scrape completed, added 1 jobs
+  status: completed
+  jobs_scraped: 1
+  timestamp: '2026-03-07T09:00:41'
+- agent: InternshipScraperAgent
+  action: Removed 0 expired jobs
+  status: completed
+  expired_removed: 0
+  timestamp: '2026-03-07T09:01:22'
 - agent: CareerAgent
   action: Fetch started
   level: INFO
-  timestamp: '2026-03-05T09:33:38'
+  timestamp: '2026-03-07T09:01:25'
 - agent: CareerAgent
   action: 103 jobs fetched
   level: INFO
-  timestamp: '2026-03-05T09:34:00'
+  timestamp: '2026-03-07T09:01:49'
 - agent: CareerAgent
-  action: 103 jobs fetched, 63 relevant
+  action: 103 jobs fetched, 58 relevant
   level: INFO
-  timestamp: '2026-03-05T09:34:08'
+  timestamp: '2026-03-07T09:01:52'
 - agent: CareerAgent
   action: Stored in GitHub YAML
   level: INFO
-  timestamp: '2026-03-05T09:34:17'
+  timestamp: '2026-03-07T09:01:56'
 - agent: CareerAgent
   action: Email delegation passed to ExecutionAgent
   level: INFO
-  timestamp: '2026-03-05T09:34:24'
+  timestamp: '2026-03-07T09:01:59'
 - agent: SkillAgent
   action: SkillAgent run initiated
   status: success
-  timestamp: '2026-03-05T09:34:34'
+  timestamp: '2026-03-07T09:02:04'
 - agent: SkillAgent
   action: Skill gap analysis complete
   status: success
-  timestamp: '2026-03-05T09:34:52'
-  details: Analyzed 113 jobs.
+  timestamp: '2026-03-07T09:02:09'
+  details: Analyzed 133 jobs.
+- agent: ResumeOptimizationAgent
+  action: Generated optimizations for 133 internships
+  status: success
+  timestamp: '2026-03-07T09:04:02'
+- agent: PorschePortfolioAgent
+  action: Generated premium portfolios for 133 internships
+  status: success
+  timestamp: '2026-03-07T09:06:10'
+- agent: AutoApplyAgent
+  action: Generated Application Packages for 133 internships
+  status: success
+  timestamp: '2026-03-07T09:08:05'
+- agent: OpportunityMatchingAgent
+  action: Generated match scores for 133 internships
+  status: success
+  timestamp: '2026-03-07T09:08:11'
+- agent: CareerStrategyAgent
+  action: 'Generated 3-step weekly career strategy for goal: Data Engineering Internship'
+  status: completed
+  timestamp: '2026-03-07T09:08:17'
+- agent: CareerReadinessAgent
+  action: 'Computed readiness score: 79.2 — ✅ Strong Candidate'
+  status: completed
+  timestamp: '2026-03-07T09:08:23'
+- agent: CareerAnalyticsAgent
+  action: Generated analytics dashboard — readiness=79.2
+  status: completed
+  timestamp: '2026-03-07T09:08:30'
+- agent: InterviewCoachAgent
+  action: Generated 133 interview simulation pages
+  status: success
+  timestamp: '2026-03-07T09:10:58'
+- agent: ExecutionAgent
+  action: Pipeline execution completed and email sent
+  status: success
+  timestamp: '2026-03-07T09:11:10'
+- agent: InternshipScraperAgent
+  status: completed
+  jobs_scraped: 2
+  expired_removed: 0
+  timestamp: '2026-03-07T09:15:32'
+- agent: CareerAgent
+  action: Fetch started
+  level: INFO
+  timestamp: '2026-03-07T09:17:02'
+- agent: CareerAgent
+  action: 64 jobs fetched
+  level: INFO
+  timestamp: '2026-03-07T09:17:14'
+- agent: CareerAgent
+  action: 64 jobs fetched, 19 relevant
+  level: INFO
+  timestamp: '2026-03-07T09:17:20'
+- agent: CareerAgent
+  action: Stored in GitHub YAML
+  level: INFO
+  timestamp: '2026-03-07T09:17:28'
+- agent: CareerAgent
+  action: Email delegation passed to ExecutionAgent
+  level: INFO
+  timestamp: '2026-03-07T09:17:33'
+- agent: SkillAgent
+  action: SkillAgent run initiated
+  status: success
+  timestamp: '2026-03-07T09:17:56'
+- agent: SkillAgent
+  action: Skill gap analysis complete
+  status: success
+  timestamp: '2026-03-07T09:18:21'
+  details: Analyzed 133 jobs.
+- agent: ResumeOptimizationAgent
+  action: Generated optimizations for 133 internships
+  status: success
+  timestamp: '2026-03-07T09:23:47'
 - agent: RepoSecurityScannerAgent
   action: 'Scanned 41 repos, priority fix: SQL String Concat'
   status: completed
-  timestamp: '2026-03-05T09:40:09'
+  timestamp: '2026-03-07T09:29:56'
+- agent: InternshipScraperAgent
+  action: Scrape completed, added 1 jobs
+  status: completed
+  jobs_scraped: 1
+  timestamp: '2026-03-07T09:30:41'
+- agent: AutoFixPRGeneratorAgent
+  action: Generated 1 security fix PRs
+  status: completed
+  timestamp: '2026-03-07T09:30:45'
+- agent: InternshipScraperAgent
+  action: Removed 0 expired jobs
+  status: completed
+  expired_removed: 0
+  timestamp: '2026-03-07T09:31:23'
+- agent: CareerAgent
+  action: Fetch started
+  level: INFO
+  timestamp: '2026-03-07T09:31:26'
+- agent: InternshipScraperAgent
+  action: Scrape completed, added 12 jobs
+  status: completed
+  jobs_scraped: 12
+  timestamp: '2026-03-07T09:31:43'
+- agent: CareerAgent
+  action: 103 jobs fetched
+  level: INFO
+  timestamp: '2026-03-07T09:32:01'
+- agent: CareerAgent
+  action: 103 jobs fetched, 58 relevant
+  level: INFO
+  timestamp: '2026-03-07T09:32:07'
+- agent: CareerAgent
+  action: Stored in GitHub YAML
+  level: INFO
+  timestamp: '2026-03-07T09:32:15'
+- agent: CareerAgent
+  action: Email delegation passed to ExecutionAgent
+  level: INFO
+  timestamp: '2026-03-07T09:32:19'
+- agent: SkillAgent
+  action: SkillAgent run initiated
+  status: success
+  timestamp: '2026-03-07T09:32:27'
+- agent: SkillAgent
+  action: Skill gap analysis complete
+  status: success
+  timestamp: '2026-03-07T09:32:35'
+  details: Analyzed 134 jobs.
+- agent: CareerAgent
+  action: 103 jobs fetched
+  level: INFO
+  timestamp: '2026-03-07T09:33:52'
+- agent: CareerAgent
+  action: 103 jobs fetched, 58 relevant
+  level: INFO
+  timestamp: '2026-03-07T09:33:57'
+- agent: CareerAgent
+  action: Stored in GitHub YAML
+  level: INFO
+  timestamp: '2026-03-07T09:34:02'
+- agent: SkillAgent
+  action: SkillAgent run initiated
+  status: success
+  timestamp: '2026-03-07T09:34:14'
+- agent: SkillAgent
+  action: Skill gap analysis complete
+  status: success
+  timestamp: '2026-03-07T09:34:22'
+  details: Analyzed 134 jobs.
+- agent: ResumeOptimizationAgent
+  action: Generated optimizations for 134 internships
+  status: success
+  timestamp: '2026-03-07T09:35:48'
+- agent: PorschePortfolioAgent
+  action: Generated premium portfolios for 134 internships
+  status: success
+  timestamp: '2026-03-07T09:38:39'
+- agent: CareerAgent
+  action: 64 jobs fetched, 19 relevant
+  level: INFO
+  timestamp: '2026-03-07T09:39:08'
+- agent: CareerAgent
+  action: Email delegation passed to ExecutionAgent
+  level: INFO
+  timestamp: '2026-03-07T09:39:22'
+- agent: SkillAgent
+  action: SkillAgent run initiated
+  status: success
+  timestamp: '2026-03-07T09:39:34'
+- agent: PorschePortfolioAgent
+  action: Generated premium portfolios for 134 internships
+  status: success
+  timestamp: '2026-03-07T09:40:04'
+- agent: AutoApplyAgent
+  action: Generated Application Packages for 134 internships
+  status: success
+  timestamp: '2026-03-07T09:41:25'
+- agent: OpportunityMatchingAgent
+  action: Generated match scores for 134 internships
+  status: success
+  timestamp: '2026-03-07T09:41:34'
+- agent: CareerReadinessAgent
+  action: 'Computed readiness score: 79.2 — ✅ Strong Candidate'
+  status: completed
+  timestamp: '2026-03-07T09:41:51'
+- agent: CareerAnalyticsAgent
+  action: Generated analytics dashboard — readiness=79.2
+  status: completed
+  timestamp: '2026-03-07T09:42:00'
+- agent: CareerStrategyAgent
+  action: 'Generated 3-step weekly career strategy for goal: Data Engineering Internship'
+  status: completed
+  timestamp: '2026-03-07T09:43:16'
+- agent: CareerReadinessAgent
+  action: 'Computed readiness score: 79.2 — ✅ Strong Candidate'
+  status: completed
+  timestamp: '2026-03-07T09:43:24'
+- agent: InterviewCoachAgent
+  action: Generated 134 interview simulation pages
+  status: success
+  timestamp: '2026-03-07T09:45:18'
+- agent: ExecutionAgent
+  action: Pipeline execution completed and email sent
+  status: success
+  timestamp: '2026-03-07T09:45:34'
+- agent: InterviewCoachAgent
+  action: Generated 134 interview simulation pages
+  status: success
+  timestamp: '2026-03-07T09:46:27'
+- agent: ExecutionAgent
+  action: Pipeline execution completed and email sent
+  status: success
+  timestamp: '2026-03-07T09:46:39'
+- agent: PorschePortfolioAgent
+  action: Generated 58 premium portfolio pages
+  status: completed
+  timestamp: '2026-03-07T09:49:42'
+- agent: ResumeOptimizationAgent
+  action: Generated optimizations for 134 internships
+  status: success
+  timestamp: '2026-03-07T09:50:02'
+- agent: InternshipScraperAgent
+  action: Scrape completed, added 13 jobs
+  status: completed
+  jobs_scraped: 13
+  timestamp: '2026-03-07T09:50:18'
+- agent: PorschePortfolioAgent
+  action: Generated 58 premium portfolio pages
+  status: completed
+  timestamp: '2026-03-07T09:50:49'
+- agent: InternshipScraperAgent
+  action: Removed 0 expired jobs
+  status: completed
+  expired_removed: 0
+  timestamp: '2026-03-07T09:52:21'
+- agent: CareerAgent
+  action: Fetch started
+  level: INFO
+  timestamp: '2026-03-07T09:52:28'
+- agent: CareerAgent
+  action: 103 jobs fetched
+  level: INFO
+  timestamp: '2026-03-07T09:53:06'
+- agent: CareerAgent
+  action: 103 jobs fetched, 58 relevant
+  level: INFO
+  timestamp: '2026-03-07T09:53:13'
+- agent: CareerAgent
+  action: Stored in GitHub YAML
+  level: INFO
+  timestamp: '2026-03-07T09:53:21'
+- agent: CareerAgent
+  action: Email delegation passed to ExecutionAgent
+  level: INFO
+  timestamp: '2026-03-07T09:53:28'
+- agent: SkillAgent
+  action: SkillAgent run initiated
+  status: success
+  timestamp: '2026-03-07T09:53:38'
+- agent: SkillAgent
+  action: Skill gap analysis complete
+  status: success
+  timestamp: '2026-03-07T09:53:50'
+  details: Analyzed 134 jobs.
 - agent: AutoFixPRGeneratorAgent
   action: Generated 2 security fix PRs
   status: completed
-  timestamp: '2026-03-05T09:40:35'
+  timestamp: '2026-03-07T09:58:38'
 - agent: PortfolioBuilderAgent
   action: Generated Portfolio
   status: success
-  timestamp: '2026-03-05T09:40:57'
+  timestamp: '2026-03-07T09:59:00'
+- agent: InternshipScraperAgent
+  action: Scrape completed, added 1 jobs
+  status: completed
+  jobs_scraped: 1
+  timestamp: '2026-03-07T10:00:50'
+- agent: ResumeOptimizationAgent
+  action: Generated optimizations for 134 internships
+  status: success
+  timestamp: '2026-03-07T10:01:11'
+- agent: InternshipScraperAgent
+  action: Removed 0 expired jobs
+  status: completed
+  expired_removed: 0
+  timestamp: '2026-03-07T10:04:25'
+- agent: CareerAgent
+  action: 103 jobs fetched, 58 relevant
+  level: INFO
+  timestamp: '2026-03-07T10:05:37'
+- agent: CareerAgent
+  action: Stored in GitHub YAML
+  level: INFO
+  timestamp: '2026-03-07T10:05:48'
+- agent: SkillAgent
+  action: Skill gap analysis complete
+  status: success
+  timestamp: '2026-03-07T10:06:21'
+  details: Analyzed 134 jobs.
+- agent: PorschePortfolioAgent
+  action: Generated premium portfolios for 134 internships
+  status: success
+  timestamp: '2026-03-07T10:09:01'
+- agent: CareerAgent
+  action: Fetch started
+  level: INFO
+  timestamp: '2026-03-07T10:09:29'
+- agent: CareerAgent
+  action: 64 jobs fetched
+  level: INFO
+  timestamp: '2026-03-07T10:09:49'
+- agent: CareerAgent
+  action: 64 jobs fetched, 18 relevant
+  level: INFO
+  timestamp: '2026-03-07T10:10:05'
+- agent: AutoApplyAgent
+  action: Generated Application Packages for 134 internships
+  status: success
+  timestamp: '2026-03-07T10:12:58'
+- agent: OpportunityMatchingAgent
+  action: Generated match scores for 136 internships
+  status: success
+  timestamp: '2026-03-07T10:13:07'
+- agent: CareerStrategyAgent
+  action: 'Generated 3-step weekly career strategy for goal: Data Engineering Internship'
+  status: completed
+  timestamp: '2026-03-07T10:13:17'
+- agent: CareerReadinessAgent
+  action: 'Computed readiness score: 79.2 — ✅ Strong Candidate'
+  status: completed
+  timestamp: '2026-03-07T10:13:26'
+- agent: CareerAnalyticsAgent
+  action: Generated analytics dashboard — readiness=79.2
+  status: completed
+  timestamp: '2026-03-07T10:13:35'
+- agent: RepoSecurityScannerAgent
+  action: 'Scanned 41 repos, priority fix: SQL String Concat'
+  status: completed
+  timestamp: '2026-03-07T10:14:22'
+- agent: SkillAgent
+  action: Skill gap analysis complete
+  status: success
+  timestamp: '2026-03-07T10:14:36'
+  details: Analyzed 136 jobs.
+- agent: ExecutionAgent
+  action: Pipeline execution completed and email sent
+  status: success
+  timestamp: '2026-03-07T10:17:04'
+- agent: AutoApplyAgent
+  action: Generated Application Packages for 136 internships
+  status: success
+  timestamp: '2026-03-07T10:19:08'
+- agent: OpportunityMatchingAgent
+  action: Generated match scores for 136 internships
+  status: success
+  timestamp: '2026-03-07T10:19:15'
+- agent: CareerStrategyAgent
+  action: 'Generated 3-step weekly career strategy for goal: Data Engineering Internship'
+  status: completed
+  timestamp: '2026-03-07T10:19:21'
+- agent: CareerReadinessAgent
+  action: 'Computed readiness score: 79.3 — ✅ Strong Candidate'
+  status: completed
+  timestamp: '2026-03-07T10:19:27'
+- agent: CareerAnalyticsAgent
+  action: Generated analytics dashboard — readiness=79.3
+  status: completed
+  timestamp: '2026-03-07T10:19:33'
+- agent: InterviewCoachAgent
+  action: Generated 136 interview simulation pages
+  status: success
+  timestamp: '2026-03-07T10:22:00'
+- agent: ExecutionAgent
+  action: Pipeline execution completed and email sent
+  status: success
+  timestamp: '2026-03-07T10:22:12'
+- agent: CareerAgent
+  action: Fetch started
+  level: INFO
+  timestamp: '2026-03-07T10:30:47'
+- agent: CareerAgent
+  action: 64 jobs fetched
+  level: INFO
+  timestamp: '2026-03-07T10:31:00'
+- agent: CareerAgent
+  action: Email delegation passed to ExecutionAgent
+  level: INFO
+  timestamp: '2026-03-07T10:32:15'
+- agent: SkillAgent
+  action: SkillAgent run initiated
+  status: success
+  timestamp: '2026-03-07T10:32:32'
+- agent: SkillAgent
+  action: Skill gap analysis complete
+  status: success
+  timestamp: '2026-03-07T10:32:40'
+  details: Analyzed 30 jobs.
+- agent: ResumeOptimizationAgent
+  action: Generated optimizations for 15 internships
+  status: success
+  timestamp: '2026-03-07T10:34:18'
+- agent: RepoSecurityScannerAgent
+  action: 'Scanned 41 repos, priority fix: SQL String Concat'
+  status: completed
+  timestamp: '2026-03-07T10:46:12'
+- agent: AutoFixPRGeneratorAgent
+  action: Generated 2 security fix PRs
+  status: completed
+  timestamp: '2026-03-07T10:46:51'
+- agent: PortfolioBuilderAgent
+  action: Generated Portfolio
+  status: success
+  timestamp: '2026-03-07T10:47:30'
+- agent: PorschePortfolioAgent
+  action: Generated 58 premium portfolio pages
+  status: completed
+  timestamp: '2026-03-07T10:51:24'
+- agent: AutoApplyAgent
+  action: Generated Application Packages for 136 internships
+  status: success
+  timestamp: '2026-03-07T10:58:59'
+- agent: OpportunityMatchingAgent
+  action: Generated match scores for 136 internships
+  status: success
+  timestamp: '2026-03-07T10:59:13'
+- agent: CareerStrategyAgent
+  action: 'Generated 3-step weekly career strategy for goal: Data Engineering Internship'
+  status: completed
+  timestamp: '2026-03-07T10:59:27'
+- agent: CareerReadinessAgent
+  action: 'Computed readiness score: 78.0 — ✅ Strong Candidate'
+  status: completed
+  timestamp: '2026-03-07T10:59:39'
+- agent: CareerAnalyticsAgent
+  action: Generated analytics dashboard — readiness=78.0
+  status: completed
+  timestamp: '2026-03-07T10:59:51'
+- agent: CareerAgent
+  action: 64 jobs fetched, 18 relevant
+  level: INFO
+  timestamp: '2026-03-07T11:03:02'
+- agent: CareerAgent
+  action: Stored in GitHub YAML
+  level: INFO
+  timestamp: '2026-03-07T11:03:08'
+- agent: CareerAgent
+  action: Email delegation passed to ExecutionAgent
+  level: INFO
+  timestamp: '2026-03-07T11:03:12'
+- agent: SkillAgent
+  action: SkillAgent run initiated
+  status: success
+  timestamp: '2026-03-07T11:03:18'
+- agent: SkillAgent
+  action: Skill gap analysis complete
+  status: success
+  timestamp: '2026-03-07T11:03:27'
+  details: Analyzed 136 jobs.
+- agent: InterviewCoachAgent
+  action: Generated 136 interview simulation pages
+  status: success
+  timestamp: '2026-03-07T11:07:23'
+- agent: ExecutionAgent
+  action: Pipeline execution completed and email sent
+  status: success
+  timestamp: '2026-03-07T11:07:54'
+- agent: RepoSecurityScannerAgent
+  action: 'Scanned 41 repos, priority fix: SQL String Concat'
+  status: completed
+  timestamp: '2026-03-07T11:08:55'
+- agent: AutoFixPRGeneratorAgent
+  action: Generated 2 security fix PRs
+  status: completed
+  timestamp: '2026-03-07T11:09:18'
+- agent: PortfolioBuilderAgent
+  action: Generated Portfolio
+  status: success
+  timestamp: '2026-03-07T11:09:37'
+- agent: CoverLetterAgent
+  action: Generated 136 cover letters
+  status: success
+  timestamp: '2026-03-07T11:14:42'
+- agent: PracticeAgent
+  action: PracticeAgent run initiated
+  status: success
+  timestamp: '2026-03-07T11:14:44'
+- agent: PracticeAgent
+  action: 'Failed portal for RefinedScience Data Engineering Intern: Gemini failed
+    to generate interview Q&A for RefinedScience - Data Engineering Intern'
+  status: error
+  timestamp: '2026-03-07T11:14:50'
+- agent: PracticeAgent
+  action: 'Failed portal for Cylinder Health Junior Data Engineer: Gemini failed to
+    generate interview Q&A for Cylinder Health - Junior Data Engineer'
+  status: error
+  timestamp: '2026-03-07T11:14:54'
+- agent: PracticeAgent
+  action: 'Failed portal for Lensa Machine Learning Engineer Intern: Gemini failed
+    to generate interview Q&A for Lensa - Machine Learning Engineer Intern'
+  status: error
+  timestamp: '2026-03-07T11:15:00'
+- agent: PracticeAgent
+  action: 'Failed portal for Handshake AI/Machine Learning Engineer Intern: Gemini
+    failed to generate interview Q&A for Handshake - AI/Machine Learning Engineer
+    Intern'
+  status: error
+  timestamp: '2026-03-07T11:15:03'
+- agent: PracticeAgent
+  action: 'Failed portal for Lensa Machine Learning Intern - Summer 2026: Gemini failed
+    to generate interview Q&A for Lensa - Machine Learning Intern - Summer 2026'
+  status: error
+  timestamp: '2026-03-07T11:15:06'
+- agent: PracticeAgent
+  action: 'Failed portal for Lensa Data Science Summer Intern (Remote & Paid): Gemini
+    failed to generate interview Q&A for Lensa - Data Science Summer Intern (Remote
+    & Paid)'
+  status: error
+  timestamp: '2026-03-07T11:15:08'
+- agent: PracticeAgent
+  action: 'Failed portal for Lensa Intern, Data Science and Analytics: Gemini failed
+    to generate interview Q&A for Lensa - Intern, Data Science and Analytics'
+  status: error
+  timestamp: '2026-03-07T11:15:11'
+- agent: PracticeAgent
+  action: 'Failed portal for Transcarent Machine Learning Engineer Intern: Gemini
+    failed to generate interview Q&A for Transcarent - Machine Learning Engineer Intern'
+  status: error
+  timestamp: '2026-03-07T11:15:15'
+- agent: PracticeAgent
+  action: 'Failed portal for Moloco Machine Learning Engineer Intern: Gemini failed
+    to generate interview Q&A for Moloco - Machine Learning Engineer Intern'
+  status: error
+  timestamp: '2026-03-07T11:15:17'
+- agent: PracticeAgent
+  action: 'Failed portal for TikTok (General Hire) Machine Learning Engineer Intern
+    (TikTok-Recommendation) - 2026 Summer (BS/MS): Gemini failed to generate interview
+    Q&A for TikTok - (General Hire) Machine Learning Engineer Intern (TikTok-Recommendation)
+    - 2026 Summer (BS/MS)'
+  status: error
+  timestamp: '2026-03-07T11:15:20'
+- agent: PracticeAgent
+  action: 'Failed portal for Upstart Machine Learning Engineer Intern: Gemini failed
+    to generate interview Q&A for Upstart - Machine Learning Engineer Intern'
+  status: error
+  timestamp: '2026-03-07T11:15:23'
+- agent: PracticeAgent
+  action: 'Failed portal for Typeface ML Engineer Intern: Gemini failed to generate
+    interview Q&A for Typeface - ML Engineer Intern'
+  status: error
+  timestamp: '2026-03-07T11:15:26'
+- agent: PracticeAgent
+  action: 'Failed portal for PathAI Machine Learning Intern/Co-op (Summer 2026): Gemini
+    failed to generate interview Q&A for PathAI - Machine Learning Intern/Co-op (Summer
+    2026)'
+  status: error
+  timestamp: '2026-03-07T11:15:29'
+- agent: PracticeAgent
+  action: 'Failed portal for Staffline Solutions Machine Learning Intern: Gemini failed
+    to generate interview Q&A for Staffline Solutions - Machine Learning Intern'
+  status: error
+  timestamp: '2026-03-07T11:15:32'
+- agent: PracticeAgent
+  action: 'Failed portal for Matson Logistics AI & Machine Learning Intern – Operations:
+    Gemini failed to generate interview Q&A for Matson Logistics - AI & Machine Learning
+    Intern – Operations'
+  status: error
+  timestamp: '2026-03-07T11:15:35'
+- agent: PracticeAgent
+  action: 'Failed portal for Cohere Machine Learning Intern/Co-op  (Spring 2026):
+    Gemini failed to generate interview Q&A for Cohere - Machine Learning Intern/Co-op  (Spring
+    2026)'
+  status: error
+  timestamp: '2026-03-07T11:15:38'
+- agent: PracticeAgent
+  action: 'Failed portal for Cornerstone Building Brands Data Analyst Intern: Gemini
+    failed to generate interview Q&A for Cornerstone Building Brands - Data Analyst
+    Intern'
+  status: error
+  timestamp: '2026-03-07T11:15:41'
+- agent: PracticeAgent
+  action: 'Failed portal for Go Offer Data Analyst: Gemini failed to generate interview
+    Q&A for Go Offer - Data Analyst'
+  status: error
+  timestamp: '2026-03-07T11:15:44'
+- agent: PracticeAgent
+  action: 'Failed portal for AUMOVIO Data Analysis Intern (Yearlong): Gemini failed
+    to generate interview Q&A for AUMOVIO - Data Analysis Intern (Yearlong)'
+  status: error
+  timestamp: '2026-03-07T11:15:47'
+- agent: PracticeAgent
+  action: 'Failed portal for ZURU Toys Data Analyst Intern: Gemini failed to generate
+    interview Q&A for ZURU Toys - Data Analyst Intern'
+  status: error
+  timestamp: '2026-03-07T11:15:49'
+- agent: PracticeAgent
+  action: 'Failed portal for Toshiba America Electronic Components, Inc. 5039 Data
+    Analyst Engineering Intern: Gemini failed to generate interview Q&A for Toshiba
+    America Electronic Components, Inc. - 5039 Data Analyst Engineering Intern'
+  status: error
+  timestamp: '2026-03-07T11:15:52'
+- agent: PracticeAgent
+  action: 'Failed portal for Aday Data Analysis Intern: Gemini failed to generate
+    interview Q&A for Aday - Data Analysis Intern'
+  status: error
+  timestamp: '2026-03-07T11:15:55'
+- agent: PracticeAgent
+  action: 'Failed portal for Okta for Developers Data Analyst Intern (Summer 2026):
+    Gemini failed to generate interview Q&A for Okta for Developers - Data Analyst
+    Intern (Summer 2026)'
+  status: error
+  timestamp: '2026-03-07T11:15:58'
+- agent: PracticeAgent
+  action: 'Failed portal for Washington Commanders Data Analyst (Intern): Gemini failed
+    to generate interview Q&A for Washington Commanders - Data Analyst (Intern)'
+  status: error
+  timestamp: '2026-03-07T11:16:01'
+- agent: CareerAgent
+  action: Fetch started
+  level: INFO
+  timestamp: '2026-03-07T11:26:48'
+- agent: CareerAgent
+  action: 64 jobs fetched
+  level: INFO
+  timestamp: '2026-03-07T11:27:06'
+- agent: CareerAgent
+  action: 64 jobs fetched, 18 relevant
+  level: INFO
+  timestamp: '2026-03-07T11:27:10'
+- agent: CareerAgent
+  action: Stored in GitHub YAML
+  level: INFO
+  timestamp: '2026-03-07T11:27:17'
+- agent: CareerAgent
+  action: Email delegation passed to ExecutionAgent
+  level: INFO
+  timestamp: '2026-03-07T11:27:22'
+- agent: SkillAgent
+  action: SkillAgent run initiated
+  status: success
+  timestamp: '2026-03-07T11:27:30'
+- agent: SkillAgent
+  action: Skill gap analysis complete
+  status: success
+  timestamp: '2026-03-07T11:27:39'
+  details: Analyzed 30 jobs.
+- agent: InternshipScraperAgent
+  action: Scrape completed, added 12 jobs
+  status: completed
+  jobs_scraped: 12
+  timestamp: '2026-03-07T11:28:09'
+- agent: ResumeOptimizationAgent
+  action: Generated optimizations for 15 internships
+  status: success
+  timestamp: '2026-03-07T11:28:27'
+- agent: InternshipScraperAgent
+  action: Removed 0 expired jobs
+  status: completed
+  expired_removed: 0
+  timestamp: '2026-03-07T11:29:06'
+- agent: CareerAgent
+  action: Fetch started
+  level: INFO
+  timestamp: '2026-03-07T11:29:09'
+- agent: CareerAgent
+  action: 103 jobs fetched
+  level: INFO
+  timestamp: '2026-03-07T11:29:37'
+- agent: CareerAgent
+  action: 103 jobs fetched, 57 relevant
+  level: INFO
+  timestamp: '2026-03-07T11:29:40'
+- agent: CareerAgent
+  action: Stored in GitHub YAML
+  level: INFO
+  timestamp: '2026-03-07T11:29:45'
+- agent: CareerAgent
+  action: Email delegation passed to ExecutionAgent
+  level: INFO
+  timestamp: '2026-03-07T11:29:48'
+- agent: SkillAgent
+  action: SkillAgent run initiated
+  status: success
+  timestamp: '2026-03-07T11:29:53'
+- agent: SkillAgent
+  action: Skill gap analysis complete
+  status: success
+  timestamp: '2026-03-07T11:29:59'
+  details: Analyzed 138 jobs.
+- agent: ExecutionAgent
+  action: Pipeline execution completed and email sent
+  status: success
+  timestamp: '2026-03-07T11:31:54'
+- agent: ResumeOptimizationAgent
+  action: Generated optimizations for 138 internships
+  status: success
+  timestamp: '2026-03-07T11:32:03'
+- agent: RepoSecurityScannerAgent
+  action: 'Scanned 42 repos, priority fix: SQL String Concat'
+  status: completed
+  timestamp: '2026-03-07T11:33:54'
+- agent: ExecutionAgent
+  action: Pipeline execution completed and email sent
+  status: success
+  timestamp: '2026-03-07T11:34:43'
+- agent: RepoSecurityScannerAgent
+  action: 'Scanned 42 repos, priority fix: SQL String Concat'
+  status: completed
+  timestamp: '2026-03-07T11:35:37'
+- agent: PorschePortfolioAgent
+  action: Generated premium portfolios for 138 internships
+  status: success
+  timestamp: '2026-03-07T11:36:11'
+- agent: AutoFixPRGeneratorAgent
+  action: Generated 2 security fix PRs
+  status: completed
+  timestamp: '2026-03-07T11:36:23'
+- agent: PortfolioBuilderAgent
+  action: Generated Portfolio
+  status: success
+  timestamp: '2026-03-07T11:37:08'
+- agent: AutoApplyAgent
+  action: Generated Application Packages for 138 internships
+  status: success
+  timestamp: '2026-03-07T11:38:17'
+- agent: OpportunityMatchingAgent
+  action: Generated match scores for 138 internships
+  status: success
+  timestamp: '2026-03-07T11:38:24'
+- agent: CareerStrategyAgent
+  action: 'Generated 3-step weekly career strategy for goal: Data Engineering Internship'
+  status: completed
+  timestamp: '2026-03-07T11:38:30'
+- agent: CareerReadinessAgent
+  action: 'Computed readiness score: 79.3 — ✅ Strong Candidate'
+  status: completed
+  timestamp: '2026-03-07T11:38:37'
+- agent: CareerAnalyticsAgent
+  action: Generated analytics dashboard — readiness=79.3
+  status: completed
+  timestamp: '2026-03-07T11:38:44'
+- agent: InterviewCoachAgent
+  action: Generated 138 interview simulation pages
+  status: success
+  timestamp: '2026-03-07T11:41:18'
+- agent: ExecutionAgent
+  action: Pipeline execution completed and email sent
+  status: success
+  timestamp: '2026-03-07T11:41:30'
+- agent: PorschePortfolioAgent
+  action: Generated 58 premium portfolio pages
+  status: completed
+  timestamp: '2026-03-07T11:42:01'
+- agent: AutoApplyAgent
+  action: Generated Application Packages for 138 internships
+  status: success
+  timestamp: '2026-03-07T11:48:07'
+- agent: OpportunityMatchingAgent
+  action: Generated match scores for 138 internships
+  status: success
+  timestamp: '2026-03-07T11:48:20'
+- agent: CareerStrategyAgent
+  action: 'Generated 3-step weekly career strategy for goal: Data Engineering Internship'
+  status: completed
+  timestamp: '2026-03-07T11:48:34'
+- agent: CareerReadinessAgent
+  action: 'Computed readiness score: 79.3 — ✅ Strong Candidate'
+  status: completed
+  timestamp: '2026-03-07T11:48:47'
+- agent: CareerAnalyticsAgent
+  action: Generated analytics dashboard — readiness=79.3
+  status: completed
+  timestamp: '2026-03-07T11:49:09'
+- agent: InterviewCoachAgent
+  action: Generated 138 interview simulation pages
+  status: success
+  timestamp: '2026-03-07T11:57:32'
+- agent: ExecutionAgent
+  action: Pipeline execution completed and email sent
+  status: success
+  timestamp: '2026-03-07T11:57:58'
+- agent: InternshipScraperAgent
+  action: Scrape completed, added 1 jobs
+  status: completed
+  jobs_scraped: 1
+  timestamp: '2026-03-07T12:00:38'
+- agent: InternshipScraperAgent
+  action: Removed 0 expired jobs
+  status: completed
+  expired_removed: 0
+  timestamp: '2026-03-07T12:01:36'
+- agent: CareerAgent
+  action: Fetch started
+  level: INFO
+  timestamp: '2026-03-07T12:01:39'
+- agent: CareerAgent
+  action: 103 jobs fetched
+  level: INFO
+  timestamp: '2026-03-07T12:01:59'
+- agent: CareerAgent
+  action: 103 jobs fetched, 57 relevant
+  level: INFO
+  timestamp: '2026-03-07T12:02:05'
+- agent: CareerAgent
+  action: Stored in GitHub YAML
+  level: INFO
+  timestamp: '2026-03-07T12:02:11'
+- agent: CareerAgent
+  action: Email delegation passed to ExecutionAgent
+  level: INFO
+  timestamp: '2026-03-07T12:02:16'
+- agent: SkillAgent
+  action: SkillAgent run initiated
+  status: success
+  timestamp: '2026-03-07T12:02:24'
+- agent: SkillAgent
+  action: Skill gap analysis complete
+  status: success
+  timestamp: '2026-03-07T12:02:32'
+  details: Analyzed 138 jobs.
+- agent: InternshipScraperAgent
+  action: Removed 0 expired jobs
+  status: completed
+  expired_removed: 0
+  timestamp: '2026-03-07T12:03:36'
+- agent: CareerAgent
+  action: 103 jobs fetched
+  level: INFO
+  timestamp: '2026-03-07T12:04:07'
+- agent: CareerAgent
+  action: 103 jobs fetched, 57 relevant
+  level: INFO
+  timestamp: '2026-03-07T12:04:11'
+- agent: CareerAgent
+  action: Stored in GitHub YAML
+  level: INFO
+  timestamp: '2026-03-07T12:04:16'
+- agent: CareerAgent
+  action: Email delegation passed to ExecutionAgent
+  level: INFO
+  timestamp: '2026-03-07T12:04:19'
+- agent: SkillAgent
+  action: SkillAgent run initiated
+  status: success
+  timestamp: '2026-03-07T12:04:25'
+- agent: ResumeOptimizationAgent
+  action: Generated optimizations for 138 internships
+  status: success
+  timestamp: '2026-03-07T12:07:17'
+- agent: PorschePortfolioAgent
+  action: Generated premium portfolios for 138 internships
+  status: success
+  timestamp: '2026-03-07T12:08:20'
+- agent: PorschePortfolioAgent
+  action: Generated premium portfolios for 138 internships
+  status: success
+  timestamp: '2026-03-07T12:10:07'
+- agent: CareerReadinessAgent
+  action: 'Computed readiness score: 79.3 — ✅ Strong Candidate'
+  status: completed
+  timestamp: '2026-03-07T12:11:21'
+- agent: CareerAnalyticsAgent
+  action: Generated analytics dashboard — readiness=79.3
+  status: completed
+  timestamp: '2026-03-07T12:11:29'
+- agent: OpportunityMatchingAgent
+  action: Generated match scores for 138 internships
+  status: success
+  timestamp: '2026-03-07T12:13:04'
+- agent: CareerStrategyAgent
+  action: 'Generated 3-step weekly career strategy for goal: Data Engineering Internship'
+  status: completed
+  timestamp: '2026-03-07T12:13:13'
+- agent: CareerReadinessAgent
+  action: 'Computed readiness score: 79.3 — ✅ Strong Candidate'
+  status: completed
+  timestamp: '2026-03-07T12:13:21'
+- agent: CareerAnalyticsAgent
+  action: Generated analytics dashboard — readiness=79.3
+  status: completed
+  timestamp: '2026-03-07T12:13:30'
+- agent: ExecutionAgent
+  action: Pipeline execution completed and email sent
+  status: success
+  timestamp: '2026-03-07T12:15:04'
+- agent: InterviewCoachAgent
+  action: Generated 138 interview simulation pages
+  status: success
+  timestamp: '2026-03-07T12:16:26'
+- agent: ExecutionAgent
+  action: Pipeline execution completed and email sent
+  status: success
+  timestamp: '2026-03-07T12:16:38'
+- agent: CareerAgent
+  action: Fetch started
+  level: INFO
+  timestamp: '2026-03-07T12:17:29'
+- agent: CareerAgent
+  action: 64 jobs fetched
+  level: INFO
+  timestamp: '2026-03-07T12:17:40'
+- agent: CareerAgent
+  action: 64 jobs fetched, 18 relevant
+  level: INFO
+  timestamp: '2026-03-07T12:17:44'
+- agent: CareerAgent
+  action: Stored in GitHub YAML
+  level: INFO
+  timestamp: '2026-03-07T12:17:48'
+- agent: CareerAgent
+  action: Email delegation passed to ExecutionAgent
+  level: INFO
+  timestamp: '2026-03-07T12:17:51'
+- agent: SkillAgent
+  action: SkillAgent run initiated
+  status: success
+  timestamp: '2026-03-07T12:17:55'
+- agent: SkillAgent
+  action: Skill gap analysis complete
+  status: success
+  timestamp: '2026-03-07T12:18:02'
+  details: Analyzed 138 jobs.
+- agent: RepoSecurityScannerAgent
+  action: 'Scanned 42 repos, priority fix: SQL String Concat'
+  status: completed
+  timestamp: '2026-03-07T12:22:10'
+- agent: AutoFixPRGeneratorAgent
+  action: Generated 2 security fix PRs
+  status: completed
+  timestamp: '2026-03-07T12:22:37'
+- agent: PortfolioBuilderAgent
+  action: Generated Portfolio
+  status: success
+  timestamp: '2026-03-07T12:22:57'
+- agent: CoverLetterAgent
+  action: Generated 138 cover letters
+  status: success
+  timestamp: '2026-03-07T12:27:26'
+- agent: PracticeAgent
+  action: PracticeAgent run initiated
+  status: success
+  timestamp: '2026-03-07T12:27:28'
+- agent: PracticeAgent
+  action: 'Failed portal for RefinedScience Data Engineering Intern: Gemini failed
+    to generate interview Q&A for RefinedScience - Data Engineering Intern'
+  status: error
+  timestamp: '2026-03-07T12:27:34'
+- agent: PracticeAgent
+  action: 'Failed portal for Cylinder Health Junior Data Engineer: Gemini failed to
+    generate interview Q&A for Cylinder Health - Junior Data Engineer'
+  status: error
+  timestamp: '2026-03-07T12:27:37'
+- agent: PracticeAgent
+  action: 'Failed portal for Tinder Machine Learning Engineer Intern: Gemini failed
+    to generate interview Q&A for Tinder - Machine Learning Engineer Intern'
+  status: error
+  timestamp: '2026-03-07T12:27:39'
+- agent: PracticeAgent
+  action: 'Failed portal for Lensa Machine Learning Engineer Intern: Gemini failed
+    to generate interview Q&A for Lensa - Machine Learning Engineer Intern'
+  status: error
+  timestamp: '2026-03-07T12:27:43'
+- agent: PracticeAgent
+  action: 'Failed portal for Handshake AI/Machine Learning Engineer Intern: Gemini
+    failed to generate interview Q&A for Handshake - AI/Machine Learning Engineer
+    Intern'
+  status: error
+  timestamp: '2026-03-07T12:27:45'
+- agent: PracticeAgent
+  action: 'Failed portal for Lensa Machine Learning Intern - Summer 2026: Gemini failed
+    to generate interview Q&A for Lensa - Machine Learning Intern - Summer 2026'
+  status: error
+  timestamp: '2026-03-07T12:27:48'
+- agent: PracticeAgent
+  action: 'Failed portal for Lensa Data Science Summer Intern (Remote & Paid): Gemini
+    failed to generate interview Q&A for Lensa - Data Science Summer Intern (Remote
+    & Paid)'
+  status: error
+  timestamp: '2026-03-07T12:27:51'
+- agent: PracticeAgent
+  action: 'Failed portal for Lensa Intern, Data Science and Analytics: Gemini failed
+    to generate interview Q&A for Lensa - Intern, Data Science and Analytics'
+  status: error
+  timestamp: '2026-03-07T12:27:53'
+- agent: PracticeAgent
+  action: 'Failed portal for Transcarent Machine Learning Engineer Intern: Gemini
+    failed to generate interview Q&A for Transcarent - Machine Learning Engineer Intern'
+  status: error
+  timestamp: '2026-03-07T12:27:56'
+- agent: PracticeAgent
+  action: 'Failed portal for Moloco Machine Learning Engineer Intern: Gemini failed
+    to generate interview Q&A for Moloco - Machine Learning Engineer Intern'
+  status: error
+  timestamp: '2026-03-07T12:27:59'
+- agent: PracticeAgent
+  action: 'Failed portal for TikTok (General Hire) Machine Learning Engineer Intern
+    (TikTok-Recommendation) - 2026 Summer (BS/MS): Gemini failed to generate interview
+    Q&A for TikTok - (General Hire) Machine Learning Engineer Intern (TikTok-Recommendation)
+    - 2026 Summer (BS/MS)'
+  status: error
+  timestamp: '2026-03-07T12:28:02'
+- agent: PracticeAgent
+  action: 'Failed portal for Upstart Machine Learning Engineer Intern: Gemini failed
+    to generate interview Q&A for Upstart - Machine Learning Engineer Intern'
+  status: error
+  timestamp: '2026-03-07T12:28:05'
+- agent: PracticeAgent
+  action: 'Failed portal for Typeface ML Engineer Intern: Gemini failed to generate
+    interview Q&A for Typeface - ML Engineer Intern'
+  status: error
+  timestamp: '2026-03-07T12:28:08'
+- agent: PracticeAgent
+  action: 'Failed portal for PathAI Machine Learning Intern/Co-op (Summer 2026): Gemini
+    failed to generate interview Q&A for PathAI - Machine Learning Intern/Co-op (Summer
+    2026)'
+  status: error
+  timestamp: '2026-03-07T12:28:10'
+- agent: PracticeAgent
+  action: 'Failed portal for Staffline Solutions Machine Learning Intern: Gemini failed
+    to generate interview Q&A for Staffline Solutions - Machine Learning Intern'
+  status: error
+  timestamp: '2026-03-07T12:28:13'
+- agent: PracticeAgent
+  action: 'Failed portal for Matson Logistics AI & Machine Learning Intern – Operations:
+    Gemini failed to generate interview Q&A for Matson Logistics - AI & Machine Learning
+    Intern – Operations'
+  status: error
+  timestamp: '2026-03-07T12:28:16'
+- agent: PracticeAgent
+  action: 'Failed portal for Cohere Machine Learning Intern/Co-op  (Spring 2026):
+    Gemini failed to generate interview Q&A for Cohere - Machine Learning Intern/Co-op  (Spring
+    2026)'
+  status: error
+  timestamp: '2026-03-07T12:28:20'
+- agent: PracticeAgent
+  action: 'Failed portal for Cornerstone Building Brands Data Analyst Intern: Gemini
+    failed to generate interview Q&A for Cornerstone Building Brands - Data Analyst
+    Intern'
+  status: error
+  timestamp: '2026-03-07T12:28:23'
+- agent: PracticeAgent
+  action: 'Failed portal for Go Offer Data Analyst: Gemini failed to generate interview
+    Q&A for Go Offer - Data Analyst'
+  status: error
+  timestamp: '2026-03-07T12:28:26'
+- agent: PracticeAgent
+  action: 'Failed portal for AUMOVIO Data Analysis Intern (Yearlong): Gemini failed
+    to generate interview Q&A for AUMOVIO - Data Analysis Intern (Yearlong)'
+  status: error
+  timestamp: '2026-03-07T12:28:29'
+- agent: PracticeAgent
+  action: 'Failed portal for ZURU Toys Data Analyst Intern: Gemini failed to generate
+    interview Q&A for ZURU Toys - Data Analyst Intern'
+  status: error
+  timestamp: '2026-03-07T12:28:32'
+- agent: PracticeAgent
+  action: 'Failed portal for Toshiba America Electronic Components, Inc. 5039 Data
+    Analyst Engineering Intern: Gemini failed to generate interview Q&A for Toshiba
+    America Electronic Components, Inc. - 5039 Data Analyst Engineering Intern'
+  status: error
+  timestamp: '2026-03-07T12:28:35'
+- agent: PracticeAgent
+  action: 'Failed portal for Aday Data Analysis Intern: Gemini failed to generate
+    interview Q&A for Aday - Data Analysis Intern'
+  status: error
+  timestamp: '2026-03-07T12:28:39'
+- agent: PracticeAgent
+  action: 'Failed portal for Okta for Developers Data Analyst Intern (Summer 2026):
+    Gemini failed to generate interview Q&A for Okta for Developers - Data Analyst
+    Intern (Summer 2026)'
+  status: error
+  timestamp: '2026-03-07T12:28:42'
+- agent: PracticeAgent
+  action: 'Failed portal for Washington Commanders Data Analyst (Intern): Gemini failed
+    to generate interview Q&A for Washington Commanders - Data Analyst (Intern)'
+  status: error
+  timestamp: '2026-03-07T12:28:45'
+- agent: PracticeAgent
+  action: 'Failed portal for Lensa Data Analyst Intern: Gemini failed to generate
+    interview Q&A for Lensa - Data Analyst Intern'
+  status: error
+  timestamp: '2026-03-07T12:28:48'
+- agent: PracticeAgent
+  action: 'Failed portal for Go Offer Business Analyst Intern: Gemini failed to generate
+    interview Q&A for Go Offer - Business Analyst Intern'
+  status: error
+  timestamp: '2026-03-07T12:28:54'
+- agent: PracticeAgent
+  action: 'Failed portal for Veolia Intern - Business Analyst: Gemini failed to generate
+    interview Q&A for Veolia - Intern - Business Analyst'
+  status: error
+  timestamp: '2026-03-07T12:28:56'
+- agent: PracticeAgent
+  action: 'Failed portal for TikTok Business Analyst Project Intern (GBS SMB) - 2026
+    Start (BS/MS): Gemini failed to generate interview Q&A for TikTok - Business Analyst
+    Project Intern (GBS SMB) - 2026 Start (BS/MS)'
+  status: error
+  timestamp: '2026-03-07T12:28:59'
+- agent: PracticeAgent
+  action: 'Failed portal for TikTok Business Analyst Project Intern - Monetization
+    Strategy & Operations - 2026 Start (BS/MS): Gemini failed to generate interview
+    Q&A for TikTok - Business Analyst Project Intern - Monetization Strategy & Operations
+    - 2026 Start (BS/MS)'
+  status: error
+  timestamp: '2026-03-07T12:29:02'
+- agent: PracticeAgent
+  action: 'Failed portal for Maximus Business Analyst Intern: Gemini failed to generate
+    interview Q&A for Maximus - Business Analyst Intern'
+  status: error
+  timestamp: '2026-03-07T12:29:05'
+- agent: PracticeAgent
+  action: 'Failed portal for Apollo Mission Critical Engineering Multiple U.S Locations
+    - Business Analyst Intern (BA-I) - Summer 2026: Gemini failed to generate interview
+    Q&A for Apollo Mission Critical Engineering - Multiple U.S Locations - Business
+    Analyst Intern (BA-I) - Summer 2026'
+  status: error
+  timestamp: '2026-03-07T12:29:08'
+- agent: PracticeAgent
+  action: 'Failed portal for ACCA Careers Business Analyst Intern: Gemini failed to
+    generate interview Q&A for ACCA Careers - Business Analyst Intern'
+  status: error
+  timestamp: '2026-03-07T12:29:11'
+- agent: PracticeAgent
+  action: 'Failed portal for MTX Group Business Analyst Intern: Gemini failed to generate
+    interview Q&A for MTX Group - Business Analyst Intern'
+  status: error
+  timestamp: '2026-03-07T12:29:14'
+- agent: PracticeAgent
+  action: 'Failed portal for Stripe Data Analyst, Intern (Master''s degree): Gemini
+    failed to generate interview Q&A for Stripe - Data Analyst, Intern (Master''s
+    degree)'
+  status: error
+  timestamp: '2026-03-07T12:29:17'
+- agent: PracticeAgent
+  action: 'Failed portal for Stripe PhD Machine Learning Engineer, Intern: Gemini
+    failed to generate interview Q&A for Stripe - PhD Machine Learning Engineer, Intern'
+  status: error
+  timestamp: '2026-03-07T12:29:20'
+- agent: PracticeAgent
+  action: 'Failed portal for Zuneko Labs Artificial Intelligence (AI): Gemini failed
+    to generate interview Q&A for Zuneko Labs - Artificial Intelligence (AI)'
+  status: error
+  timestamp: '2026-03-07T12:29:23'
+- agent: PracticeAgent
+  action: 'Failed portal for Unnati Enterprises Data Science: Gemini failed to generate
+    interview Q&A for Unnati Enterprises - Data Science'
+  status: error
+  timestamp: '2026-03-07T12:29:26'
+- agent: PracticeAgent
+  action: 'Failed portal for Unknown Data Science Intern: Gemini failed to generate
+    interview Q&A for Unknown - Data Science Intern'
+  status: error
+  timestamp: '2026-03-07T12:29:29'
+- agent: PracticeAgent
+  action: 'Failed portal for Innoknowvex Machine Learning: Gemini failed to generate
+    interview Q&A for Innoknowvex - Machine Learning'
+  status: error
+  timestamp: '2026-03-07T12:29:32'
+- agent: PracticeAgent
+  action: 'Failed portal for Innoknowvex Data Science: Gemini failed to generate interview
+    Q&A for Innoknowvex - Data Science'
+  status: error
+  timestamp: '2026-03-07T12:29:34'
+- agent: PracticeAgent
+  action: 'Failed portal for Emoolar Technology Private Limited Artificial Intelligence
+    (AI): Gemini failed to generate interview Q&A for Emoolar Technology Private Limited
+    - Artificial Intelligence (AI)'
+  status: error
+  timestamp: '2026-03-07T12:29:37'
+- agent: PracticeAgent
+  action: 'Failed portal for Infinity Assurance Solutions Private Limited Computer
+    Vision: Gemini failed to generate interview Q&A for Infinity Assurance Solutions
+    Private Limited - Computer Vision'
+  status: error
+  timestamp: '2026-03-07T12:29:40'
+- agent: PracticeAgent
+  action: 'Failed portal for Mindenious Edutech Data Science: Gemini failed to generate
+    interview Q&A for Mindenious Edutech - Data Science'
+  status: error
+  timestamp: '2026-03-07T12:29:43'
+- agent: PracticeAgent
+  action: 'Failed portal for Unknown Machine Learning Intern: Gemini failed to generate
+    interview Q&A for Unknown - Machine Learning Intern'
+  status: error
+  timestamp: '2026-03-07T12:29:46'
+- agent: PracticeAgent
+  action: 'Failed portal for Arvyax Technologies Private Limited Machine Learning:
+    Gemini failed to generate interview Q&A for Arvyax Technologies Private Limited
+    - Machine Learning'
+  status: error
+  timestamp: '2026-03-07T12:29:49'
+- agent: PracticeAgent
+  action: 'Failed portal for Career Solutions Data Science: Gemini failed to generate
+    interview Q&A for Career Solutions - Data Science'
+  status: error
+  timestamp: '2026-03-07T12:29:52'
+- agent: PracticeAgent
+  action: 'Failed portal for Unknown Artificial Intelligence Intern: Gemini failed
+    to generate interview Q&A for Unknown - Artificial Intelligence Intern'
+  status: error
+  timestamp: '2026-03-07T12:29:54'
+- agent: PracticeAgent
+  action: 'Failed portal for Symonis Machine Learning: Gemini failed to generate interview
+    Q&A for Symonis - Machine Learning'
+  status: error
+  timestamp: '2026-03-07T12:29:58'
+- agent: PracticeAgent
+  action: 'Failed portal for Cloud Back Machine Learning: Gemini failed to generate
+    interview Q&A for Cloud Back - Machine Learning'
+  status: error
+  timestamp: '2026-03-07T12:30:00'
+- agent: PracticeAgent
+  action: 'Failed portal for Lensa Data Science Intern: Gemini failed to generate
+    interview Q&A for Lensa - Data Science Intern'
+  status: error
+  timestamp: '2026-03-07T12:30:03'
+- agent: PracticeAgent
+  action: 'Failed portal for METRO Regional Transit Authority Data Analyst Intern:
+    Gemini failed to generate interview Q&A for METRO Regional Transit Authority -
+    Data Analyst Intern'
+  status: error
+  timestamp: '2026-03-07T12:30:06'
+- agent: PracticeAgent
+  action: 'Failed portal for Primetrade.ai Machine Learning (Modeling + Evaluation):
+    Gemini failed to generate interview Q&A for Primetrade.ai - Machine Learning (Modeling
+    + Evaluation)'
+  status: error
+  timestamp: '2026-03-07T12:30:08'
+- agent: PracticeAgent
+  action: 'Failed portal for Primetrade.ai Artificial Intelligence (AI): Gemini failed
+    to generate interview Q&A for Primetrade.ai - Artificial Intelligence (AI)'
+  status: error
+  timestamp: '2026-03-07T12:30:11'
+- agent: PracticeAgent
+  action: 'Failed portal for Primetrade.ai Data Science: Gemini failed to generate
+    interview Q&A for Primetrade.ai - Data Science'
+  status: error
+  timestamp: '2026-03-07T12:30:14'
+- agent: PracticeAgent
+  action: 'Failed portal for Banner Engineering Careers Business Analyst Intern: Gemini
+    failed to generate interview Q&A for Banner Engineering Careers - Business Analyst
+    Intern'
+  status: error
+  timestamp: '2026-03-07T12:30:17'
+- agent: PracticeAgent
+  action: 'Failed portal for Tatari Data Science, Intern: Gemini failed to generate
+    interview Q&A for Tatari - Data Science, Intern'
+  status: error
+  timestamp: '2026-03-07T12:30:20'
+- agent: PracticeAgent
+  action: 'Failed portal for Lensa Business Analyst Intern: Gemini failed to generate
+    interview Q&A for Lensa - Business Analyst Intern'
+  status: error
+  timestamp: '2026-03-07T12:30:23'
+- agent: PracticeAgent
+  action: 'Failed portal for Accredian Data Science: Gemini failed to generate interview
+    Q&A for Accredian - Data Science'
+  status: error
+  timestamp: '2026-03-07T12:30:27'
+- agent: PracticeAgent
+  action: 'Failed portal for targetjobs UK Business Analyst Internship: Gemini failed
+    to generate interview Q&A for targetjobs UK - Business Analyst Internship'
+  status: error
+  timestamp: '2026-03-07T12:30:30'
+- agent: PracticeAgent
+  action: 'Failed portal for Fitbae Healthcare Private Limited Data Science: Gemini
+    failed to generate interview Q&A for Fitbae Healthcare Private Limited - Data
+    Science'
+  status: error
+  timestamp: '2026-03-07T12:30:33'
+- agent: PracticeAgent
+  action: 'Failed portal for Aviate Manpower Data Science: Gemini failed to generate
+    interview Q&A for Aviate Manpower - Data Science'
+  status: error
+  timestamp: '2026-03-07T12:30:36'
+- agent: PracticeAgent
+  action: 'Failed portal for Zulitech Solution Machine Learning: Gemini failed to
+    generate interview Q&A for Zulitech Solution - Machine Learning'
+  status: error
+  timestamp: '2026-03-07T12:30:39'
+- agent: PracticeAgent
+  action: 'Failed portal for Zulitech Solution Artificial Intelligence (AI): Gemini
+    failed to generate interview Q&A for Zulitech Solution - Artificial Intelligence
+    (AI)'
+  status: error
+  timestamp: '2026-03-07T12:30:42'
+- agent: PracticeAgent
+  action: 'Failed portal for Kensho Technologies Machine Learning Intern - Summer
+    2026: Gemini failed to generate interview Q&A for Kensho Technologies - Machine
+    Learning Intern - Summer 2026'
+  status: error
+  timestamp: '2026-03-07T12:30:44'
+- agent: PracticeAgent
+  action: 'Failed portal for PANTHERx Rare Pharmacy Intern, Data Science: Gemini failed
+    to generate interview Q&A for PANTHERx Rare Pharmacy - Intern, Data Science'
+  status: error
+  timestamp: '2026-03-07T12:30:47'
+- agent: PracticeAgent
+  action: 'Failed portal for Nuro Machine Learning intern, Behavior Planning: Gemini
+    failed to generate interview Q&A for Nuro - Machine Learning intern, Behavior
+    Planning'
+  status: error
+  timestamp: '2026-03-07T12:30:50'
+- agent: PracticeAgent
+  action: 'Failed portal for ForFutures Financial, Planning, a financial advisory
+    practice of Ameriprise Financial Services LLC Data Science Intern: Gemini failed
+    to generate interview Q&A for ForFutures Financial, Planning, a financial advisory
+    practice of Ameriprise Financial Services LLC - Data Science Intern'
+  status: error
+  timestamp: '2026-03-07T12:30:53'
+- agent: PracticeAgent
+  action: 'Failed portal for Pacific Seafood Machine Vision & Data Science Intern:
+    Gemini failed to generate interview Q&A for Pacific Seafood - Machine Vision &
+    Data Science Intern'
+  status: error
+  timestamp: '2026-03-07T12:30:55'
+- agent: PracticeAgent
+  action: 'Failed portal for Product Manager Accelerator AI Engineer Intern - AI/ML/GenAI
+    Design & Development: Gemini failed to generate interview Q&A for Product Manager
+    Accelerator - AI Engineer Intern - AI/ML/GenAI Design & Development'
+  status: error
+  timestamp: '2026-03-07T12:30:58'
+- agent: PracticeAgent
+  action: 'Failed portal for Viant Technology Machine Learning Engineering Internship
+    - Summer 2026: Gemini failed to generate interview Q&A for Viant Technology -
+    Machine Learning Engineering Internship - Summer 2026'
+  status: error
+  timestamp: '2026-03-07T12:31:01'
+- agent: PracticeAgent
+  action: 'Failed portal for Tatari Data Science BI, Intern: Gemini failed to generate
+    interview Q&A for Tatari - Data Science BI, Intern'
+  status: error
+  timestamp: '2026-03-07T12:31:04'
+- agent: PracticeAgent
+  action: 'Failed portal for TikTok Machine Learning Engineer Intern - Global E-Commerce
+    Content Recommendation - 2026 Summer (BS/MS): Gemini failed to generate interview
+    Q&A for TikTok - Machine Learning Engineer Intern - Global E-Commerce Content
+    Recommendation - 2026 Summer (BS/MS)'
+  status: error
+  timestamp: '2026-03-07T12:31:07'
+- agent: PracticeAgent
+  action: 'Failed portal for TikTok Machine Learning Engineer Intern - Data-Search-TikTok
+    Recommendation Team - 2026 Summer (BS/MS): Gemini failed to generate interview
+    Q&A for TikTok - Machine Learning Engineer Intern - Data-Search-TikTok Recommendation
+    Team - 2026 Summer (BS/MS)'
+  status: error
+  timestamp: '2026-03-07T12:31:09'
+- agent: PracticeAgent
+  action: 'Failed portal for Qorvo, Inc. Data Science Engineer Intern: Gemini failed
+    to generate interview Q&A for Qorvo, Inc. - Data Science Engineer Intern'
+  status: error
+  timestamp: '2026-03-07T12:31:12'
+- agent: PracticeAgent
+  action: 'Failed portal for Lensa Data Analyst Internship (Summer 2026): Gemini failed
+    to generate interview Q&A for Lensa - Data Analyst Internship (Summer 2026)'
+  status: error
+  timestamp: '2026-03-07T12:31:16'
+- agent: PracticeAgent
+  action: 'Failed portal for Tesla Internship, Data Engineer, Energy (Summer 2026):
+    Gemini failed to generate interview Q&A for Tesla - Internship, Data Engineer,
+    Energy (Summer 2026)'
+  status: error
+  timestamp: '2026-03-07T12:31:18'
+- agent: PracticeAgent
+  action: 'Failed portal for Seaman Corporation Business Analyst Intern: Gemini failed
+    to generate interview Q&A for Seaman Corporation - Business Analyst Intern'
+  status: error
+  timestamp: '2026-03-07T12:31:21'
+- agent: PracticeAgent
+  action: 'Failed portal for Talentrift Business Analyst Intern: Gemini failed to
+    generate interview Q&A for Talentrift - Business Analyst Intern'
+  status: error
+  timestamp: '2026-03-07T12:31:24'
+- agent: PracticeAgent
+  action: 'Failed portal for Zyndra Talent Solutions Business Analyst Innovation Intern:
+    Gemini failed to generate interview Q&A for Zyndra Talent Solutions - Business
+    Analyst Innovation Intern'
+  status: error
+  timestamp: '2026-03-07T12:31:27'
+- agent: PracticeAgent
+  action: 'Failed portal for Eightfold AI Senior Machine Learning Engineer: Gemini
+    failed to generate interview Q&A for Eightfold AI - Senior Machine Learning Engineer'
+  status: error
+  timestamp: '2026-03-07T12:31:30'
+- agent: PracticeAgent
+  action: 'Failed portal for Lensa Intern, Data Science: Gemini failed to generate
+    interview Q&A for Lensa - Intern, Data Science'
+  status: error
+  timestamp: '2026-03-07T12:31:33'
+- agent: PracticeAgent
+  action: 'Failed portal for Lensa Intern - Data Science: Gemini failed to generate
+    interview Q&A for Lensa - Intern - Data Science'
+  status: error
+  timestamp: '2026-03-07T12:31:37'
+- agent: PracticeAgent
+  action: 'Failed portal for TikTok Machine Learning Engineer Intern - TikTok Search
+    E-Commerce team - 2026 Summer (BS/MS): Gemini failed to generate interview Q&A
+    for TikTok - Machine Learning Engineer Intern - TikTok Search E-Commerce team
+    - 2026 Summer (BS/MS)'
+  status: error
+  timestamp: '2026-03-07T12:31:40'
+- agent: PracticeAgent
+  action: 'Failed portal for ARM Institute Data Analyst Intern: Gemini failed to generate
+    interview Q&A for ARM Institute - Data Analyst Intern'
+  status: error
+  timestamp: '2026-03-07T12:31:43'
+- agent: PracticeAgent
+  action: 'Failed portal for Storybizz Media Private Limited Artificial Intelligence
+    (AI): Gemini failed to generate interview Q&A for Storybizz Media Private Limited
+    - Artificial Intelligence (AI)'
+  status: error
+  timestamp: '2026-03-07T12:31:46'
+- agent: PracticeAgent
+  action: 'Failed portal for EVgo Intern, Data Analyst (Winter / Spring): Gemini failed
+    to generate interview Q&A for EVgo - Intern, Data Analyst (Winter / Spring)'
+  status: error
+  timestamp: '2026-03-07T12:31:49'
+- agent: PracticeAgent
+  action: 'Failed portal for Family Tree Farms Data Analyst Intern: Gemini failed
+    to generate interview Q&A for Family Tree Farms - Data Analyst Intern'
+  status: error
+  timestamp: '2026-03-07T12:31:52'
+- agent: PracticeAgent
+  action: 'Failed portal for Thermo Fisher Data Engineer II: Gemini failed to generate
+    interview Q&A for Thermo Fisher - Data Engineer II'
+  status: error
+  timestamp: '2026-03-07T12:31:55'
+- agent: PracticeAgent
+  action: 'Failed portal for Cvent Data Science Intern (Summer 2026): Gemini failed
+    to generate interview Q&A for Cvent - Data Science Intern (Summer 2026)'
+  status: error
+  timestamp: '2026-03-07T12:31:58'
+- agent: PracticeAgent
+  action: 'Failed portal for Generate:Biomedicines Machine Learning Intern: Gemini
+    failed to generate interview Q&A for Generate:Biomedicines - Machine Learning
+    Intern'
+  status: error
+  timestamp: '2026-03-07T12:32:01'
+- agent: PracticeAgent
+  action: 'Failed portal for PathAI Machine Learning Intern/Co-op (Summer/Fall 2026):
+    Gemini failed to generate interview Q&A for PathAI - Machine Learning Intern/Co-op
+    (Summer/Fall 2026)'
+  status: error
+  timestamp: '2026-03-07T12:32:04'
+- agent: PracticeAgent
+  action: 'Failed portal for Anne Klein Official Data Analyst Internship Spring 2026:
+    Gemini failed to generate interview Q&A for Anne Klein Official - Data Analyst
+    Internship Spring 2026'
+  status: error
+  timestamp: '2026-03-07T12:32:07'
+- agent: PracticeAgent
+  action: 'Failed portal for FinZebra AI Engineering & Learning Design: Gemini failed
+    to generate interview Q&A for FinZebra - AI Engineering & Learning Design'
+  status: error
+  timestamp: '2026-03-07T12:32:10'
+- agent: PracticeAgent
+  action: 'Failed portal for Lensa Machine Learning Science Intern - Summer 2026 Start:
+    Gemini failed to generate interview Q&A for Lensa - Machine Learning Science Intern
+    - Summer 2026 Start'
+  status: error
+  timestamp: '2026-03-07T12:32:12'
+- agent: PracticeAgent
+  action: 'Failed portal for Learning Skills Academy Data And ML Engineer: Gemini
+    failed to generate interview Q&A for Learning Skills Academy - Data And ML Engineer'
+  status: error
+  timestamp: '2026-03-07T12:32:16'
+- agent: PracticeAgent
+  action: 'Failed portal for Catch Sports Analytics Sports Data Analyst: Gemini failed
+    to generate interview Q&A for Catch Sports Analytics - Sports Data Analyst'
+  status: error
+  timestamp: '2026-03-07T12:32:19'
+- agent: PracticeAgent
+  action: 'Failed portal for Hughes ML Engineering Intern: Gemini failed to generate
+    interview Q&A for Hughes - ML Engineering Intern'
+  status: error
+  timestamp: '2026-03-07T12:32:21'
+- agent: PracticeAgent
+  action: 'Failed portal for Airbnb Machine Learning Engineering Intern (PhD): Gemini
+    failed to generate interview Q&A for Airbnb - Machine Learning Engineering Intern
+    (PhD)'
+  status: error
+  timestamp: '2026-03-07T12:32:24'
+- agent: PracticeAgent
+  action: 'Failed portal for The Institute for Advanced Learning and Research Artificial
+    Intelligence / Machine Learning Intern: Gemini failed to generate interview Q&A
+    for The Institute for Advanced Learning and Research - Artificial Intelligence
+    / Machine Learning Intern'
+  status: error
+  timestamp: '2026-03-07T12:32:27'
+- agent: PracticeAgent
+  action: 'Failed portal for Lensa Business Analyst (Intern) - United States: Gemini
+    failed to generate interview Q&A for Lensa - Business Analyst (Intern) - United
+    States'
+  status: error
+  timestamp: '2026-03-07T12:32:31'
+- agent: PracticeAgent
+  action: 'Failed portal for Veolia Business Analyst Intern: Gemini failed to generate
+    interview Q&A for Veolia - Business Analyst Intern'
+  status: error
+  timestamp: '2026-03-07T12:32:33'
+- agent: PracticeAgent
+  action: 'Failed portal for Bankers Financial Corporation Business Analyst Intern:
+    Gemini failed to generate interview Q&A for Bankers Financial Corporation - Business
+    Analyst Intern'
+  status: error
+  timestamp: '2026-03-07T12:32:36'
+- agent: PracticeAgent
+  action: 'Failed portal for Tax-O-Smart LLP Artificial Intelligence (AI): Gemini
+    failed to generate interview Q&A for Tax-O-Smart LLP - Artificial Intelligence
+    (AI)'
+  status: error
+  timestamp: '2026-03-07T12:32:39'
+- agent: PracticeAgent
+  action: 'Failed portal for Talent Corner HR Services Machine Learning Engineer:
+    Gemini failed to generate interview Q&A for Talent Corner HR Services - Machine
+    Learning Engineer'
+  status: error
+  timestamp: '2026-03-07T12:32:42'
+- agent: PracticeAgent
+  action: 'Failed portal for Wobot Intelligence Private Limited Computer Vision: Gemini
+    failed to generate interview Q&A for Wobot Intelligence Private Limited - Computer
+    Vision'
+  status: error
+  timestamp: '2026-03-07T12:32:48'
+- agent: PracticeAgent
+  action: 'Failed portal for Resolute AI Software Private Limited AI Engineer: Gemini
+    failed to generate interview Q&A for Resolute AI Software Private Limited - AI
+    Engineer'
+  status: error
+  timestamp: '2026-03-07T12:32:51'
+- agent: PracticeAgent
+  action: 'Failed portal for Unknown Company – Source Incomplete Machine Learning
+    Intern: Gemini failed to generate interview Q&A for Unknown Company – Source Incomplete
+    - Machine Learning Intern'
+  status: error
+  timestamp: '2026-03-07T12:32:54'
+- agent: PracticeAgent
+  action: 'Failed portal for OralKart Machine Learning: Gemini failed to generate
+    interview Q&A for OralKart - Machine Learning'
+  status: error
+  timestamp: '2026-03-07T12:32:57'
+- agent: PracticeAgent
+  action: 'Failed portal for Bro''s Innovations And Technology. Data Science: Gemini
+    failed to generate interview Q&A for Bro''s Innovations And Technology. - Data
+    Science'
+  status: error
+  timestamp: '2026-03-07T12:33:00'
+- agent: PracticeAgent
+  action: 'Failed portal for Unknown Company – Source Incomplete Artificial Intelligence
+    Intern: Gemini failed to generate interview Q&A for Unknown Company – Source Incomplete
+    - Artificial Intelligence Intern'
+  status: error
+  timestamp: '2026-03-07T12:33:03'
+- agent: PracticeAgent
+  action: 'Failed portal for Sungrow Power Supply Co., Ltd. Data Analyst Internship:
+    Gemini failed to generate interview Q&A for Sungrow Power Supply Co., Ltd. - Data
+    Analyst Internship'
+  status: error
+  timestamp: '2026-03-07T12:33:06'
+- agent: PracticeAgent
+  action: 'Failed portal for Unimonks Artificial Intelligence (AI): Gemini failed
+    to generate interview Q&A for Unimonks - Artificial Intelligence (AI)'
+  status: error
+  timestamp: '2026-03-07T12:33:08'
+- agent: PracticeAgent
+  action: 'Failed portal for CareerNest Machine Learning: Gemini failed to generate
+    interview Q&A for CareerNest - Machine Learning'
+  status: error
+  timestamp: '2026-03-07T12:33:11'
+- agent: PracticeAgent
+  action: 'Failed portal for Fairassets Technologies India Private Limited Artificial
+    Intelligence (AI): Gemini failed to generate interview Q&A for Fairassets Technologies
+    India Private Limited - Artificial Intelligence (AI)'
+  status: error
+  timestamp: '2026-03-07T12:33:14'
+- agent: PracticeAgent
+  action: 'Failed portal for Random Groups Of Companies Data Science: Gemini failed
+    to generate interview Q&A for Random Groups Of Companies - Data Science'
+  status: error
+  timestamp: '2026-03-07T12:33:17'
+- agent: PracticeAgent
+  action: 'Failed portal for 1stop.ai Artificial Intelligence (AI): Gemini failed
+    to generate interview Q&A for 1stop.ai - Artificial Intelligence (AI)'
+  status: error
+  timestamp: '2026-03-07T12:33:20'
+- agent: PracticeAgent
+  action: 'Failed portal for Heptaverse Technologies Private Limited Artificial Intelligence
+    (AI): Gemini failed to generate interview Q&A for Heptaverse Technologies Private
+    Limited - Artificial Intelligence (AI)'
+  status: error
+  timestamp: '2026-03-07T12:33:22'
+- agent: PracticeAgent
+  action: 'Failed portal for Mulberry Leaf Artificial Intelligence (AI): Gemini failed
+    to generate interview Q&A for Mulberry Leaf - Artificial Intelligence (AI)'
+  status: error
+  timestamp: '2026-03-07T12:33:26'
+- agent: PracticeAgent
+  action: 'Failed portal for Tech Phoenix Data Engineer Intern: Gemini failed to generate
+    interview Q&A for Tech Phoenix - Data Engineer Intern'
+  status: error
+  timestamp: '2026-03-07T12:33:28'
+- agent: PracticeAgent
+  action: 'Failed portal for EXL Data Analyst Associate: Gemini failed to generate
+    interview Q&A for EXL - Data Analyst Associate'
+  status: error
+  timestamp: '2026-03-07T12:33:32'
+- agent: PracticeAgent
+  action: 'Failed portal for Kodiak Fall 2026 Intern, Artificial Intelligence/Machine
+    Learning: Gemini failed to generate interview Q&A for Kodiak - Fall 2026 Intern,
+    Artificial Intelligence/Machine Learning'
+  status: error
+  timestamp: '2026-03-07T12:33:35'
+- agent: PracticeAgent
+  action: 'Failed portal for Lensa Artificial Intelligence (AI) Intern: Gemini failed
+    to generate interview Q&A for Lensa - Artificial Intelligence (AI) Intern'
+  status: error
+  timestamp: '2026-03-07T12:33:38'
+- agent: PracticeAgent
+  action: 'Failed portal for Lensa Data Science Internship: Gemini failed to generate
+    interview Q&A for Lensa - Data Science Internship'
+  status: error
+  timestamp: '2026-03-07T12:33:41'
+- agent: PracticeAgent
+  action: 'Failed portal for AARP Data Analyst Intern: Gemini failed to generate interview
+    Q&A for AARP - Data Analyst Intern'
+  status: error
+  timestamp: '2026-03-07T12:33:44'
+- agent: PracticeAgent
+  action: 'Failed portal for TikTok Business Analyst Intern (Business Integrity) -
+    2026 Summer (BS/MS): Gemini failed to generate interview Q&A for TikTok - Business
+    Analyst Intern (Business Integrity) - 2026 Summer (BS/MS)'
+  status: error
+  timestamp: '2026-03-07T12:33:47'
+- agent: PracticeAgent
+  action: 'Failed portal for Namaah Pvt Ltd AI/ML Engineer: Gemini failed to generate
+    interview Q&A for Namaah Pvt Ltd - AI/ML Engineer'
+  status: error
+  timestamp: '2026-03-07T12:33:50'
+- agent: PracticeAgent
+  action: 'Failed portal for Bipolar Factory Artificial Intelligence (AI): Gemini
+    failed to generate interview Q&A for Bipolar Factory - Artificial Intelligence
+    (AI)'
+  status: error
+  timestamp: '2026-03-07T12:33:53'
+- agent: PracticeAgent
+  action: 'Failed portal for Above Alpha Solutions LLP Machine Learning: Gemini failed
+    to generate interview Q&A for Above Alpha Solutions LLP - Machine Learning'
+  status: error
+  timestamp: '2026-03-07T12:33:56'
+- agent: PracticeAgent
+  action: 'Failed portal for TSTEPS PRIVATE LIMITED Senior Machine Learning Engineer:
+    Gemini failed to generate interview Q&A for TSTEPS PRIVATE LIMITED - Senior Machine
+    Learning Engineer'
+  status: error
+  timestamp: '2026-03-07T12:33:59'
+- agent: PracticeAgent
+  action: 'Failed portal for Lightmatter Machine Learning Research Intern: Gemini
+    failed to generate interview Q&A for Lightmatter - Machine Learning Research Intern'
+  status: error
+  timestamp: '2026-03-07T12:34:03'
+- agent: PracticeAgent
+  action: 'Failed portal for Tatari Data Science Analyst, Intern: Gemini failed to
+    generate interview Q&A for Tatari - Data Science Analyst, Intern'
+  status: error
+  timestamp: '2026-03-07T12:34:05'
+- agent: PracticeAgent
+  action: 'Failed portal for Aurora Financials AI / ML Engineering Intern: Gemini
+    failed to generate interview Q&A for Aurora Financials - AI / ML Engineering Intern'
+  status: error
+  timestamp: '2026-03-07T12:34:09'
+- agent: PracticeAgent
+  action: 'Failed portal for Zetheta Algorithms Private Limited Artificial Intelligence
+    Intern: Gemini failed to generate interview Q&A for Zetheta Algorithms Private
+    Limited - Artificial Intelligence Intern'
+  status: error
+  timestamp: '2026-03-07T12:34:11'
+- agent: PracticeAgent
+  action: 'Failed portal for Zetheta Algorithms Private Limited Data Science Intern:
+    Gemini failed to generate interview Q&A for Zetheta Algorithms Private Limited
+    - Data Science Intern'
+  status: error
+  timestamp: '2026-03-07T12:34:15'
+- agent: PracticeAgent
+  action: 'Failed portal for Quarterhill Inc. Machine Learning Engineer Intern: Gemini
+    failed to generate interview Q&A for Quarterhill Inc. - Machine Learning Engineer
+    Intern'
+  status: error
+  timestamp: '2026-03-07T12:34:18'
+- agent: ResumeOptimizationAgent
+  action: Generated optimizations for 138 internships
+  status: success
+  timestamp: '2026-03-07T12:38:18'
+- agent: AutoApplyAgent
+  action: Generated Application Packages for 138 internships
+  status: success
+  timestamp: '2026-03-07T12:42:35'
+- agent: OpportunityMatchingAgent
+  action: Generated match scores for 138 internships
+  status: success
+  timestamp: '2026-03-07T12:42:45'
+- agent: CareerStrategyAgent
+  action: 'Generated 3-step weekly career strategy for goal: Data Engineering Internship'
+  status: completed
+  timestamp: '2026-03-07T12:42:54'
+- agent: CareerReadinessAgent
+  action: 'Computed readiness score: 77.3 — ✅ Strong Candidate'
+  status: completed
+  timestamp: '2026-03-07T12:43:02'
+- agent: CareerAnalyticsAgent
+  action: Generated analytics dashboard — readiness=77.3
+  status: completed
+  timestamp: '2026-03-07T12:43:12'
+- agent: InterviewCoachAgent
+  action: Generated 138 interview simulation pages
+  status: success
+  timestamp: '2026-03-07T12:48:17'
+- agent: PerInternshipPortfolioAgent
+  action: Generated 138 per-internship portfolio pages
+  status: success
+  timestamp: '2026-03-07T12:53:28'
+- agent: ExecutionAgent
+  action: Pipeline execution completed and email sent
+  status: success
+  timestamp: '2026-03-07T12:54:00'
+- agent: PortfolioBuilderAgent
+  action: Generated Portfolio
+  status: success
+  timestamp: '2026-03-07T13:03:59'
+- agent: PortfolioBuilderAgent
+  action: Generated Portfolio
+  status: success
+  timestamp: '2026-03-07T13:04:23'
+- agent: ExecutionAgent
+  action: Pipeline execution completed and email sent
+  status: success
+  timestamp: '2026-03-07T13:05:12'
+- agent: PerInternshipPortfolioAgent
+  action: Generated 138 per-internship portfolio pages
+  status: success
+  timestamp: '2026-03-07T13:10:12'
+- agent: CoverLetterAgent
+  action: Generated 138 cover letters
+  status: success
+  timestamp: '2026-03-07T13:19:18'

@@ -142,9 +142,9 @@ Return exactly in valid JSON format:
         logger.warning(f"PortfolioBuilderAgent: LLM generated failed for {repo.get('name')} - {exc}")
         return {
             "title": repo.get("name", "Project"),
-            "summary": str(repo.get("description", ""))[:150],
-            "technologies": repo.get("language", "Python"),
-            "impact_statement": "No impact metric formulated."
+            "summary": (repo.get("description") or "A technical repository.")[:150],
+            "technologies": repo.get("language") or "Python",
+            "impact_statement": "Contributed to open source community."
         }
 
 def _generate_summary(name: str, skills: list, career_goals: list, resume_text: str = "") -> str:
