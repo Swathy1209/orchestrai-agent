@@ -123,11 +123,10 @@ def sync_from_github_cloud():
                     for f_meta in files:
                         path = f_meta["path"]
                         if f_meta["type"] == "file":
-                            # Download file
-                            f_url = f_meta["url"]
-                            f_resp = requests.get(f_url, headers=_auth_headers(), timeout=10)
+                            raw_url = f"https://raw.githubusercontent.com/{_REPO_SLUG}/{GITHUB_BRANCH}/{path}"
+                            f_resp = requests.get(raw_url, timeout=10)
                             if f_resp.status_code == 200:
-                                content = base64.b64decode(f_resp.json()["content"]).decode("utf-8")
+                                content = f_resp.text
                                 local_path = os.path.join(DATA_DIR, path)
                                 os.makedirs(os.path.dirname(local_path), exist_ok=True)
                                 with open(local_path, "w", encoding="utf-8") as f:
