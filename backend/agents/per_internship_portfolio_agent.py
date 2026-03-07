@@ -373,7 +373,7 @@ def _generate_portfolio_html(
             The following repositories demonstrate my hands-on capability directly related to the <strong>{role}</strong> position.
         </p>
         <div class="project-grid">
-            {projects_html or '<p style="color:var(--text-dim); font-style:italic;">No mapped projects found.</p>'}
+            {projects_html or f'<p style="color:var(--text-dim); font-style:italic;">No mapped projects found. Debug info: Found {len(projects)} total projects in portfolio_data. Ranked len: {len(ranked)}. portfolio_data keys: {list(portfolio_data.keys()) if isinstance(portfolio_data, dict) else type(portfolio_data)}. raw content length: {len(str(portfolio_data))}</p>'}
         </div>
     </div>
 
