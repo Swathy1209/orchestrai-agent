@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Maiway Technologies Data Engineer (Data Engineer/Data
-    Collection): Gemini failed to generate interview Q&A for Maiway Technologies -
-    Data Engineer (Data Engineer/Data Collection)'
-  status: error
-  timestamp: '2026-03-30T08:19:08'
-- agent: PracticeAgent
   action: 'Failed portal for Plix - The Plant Flix Artificial Intelligence (AI): Gemini
     failed to generate interview Q&A for Plix - The Plant Flix - Artificial Intelligence
     (AI)'
@@ -2605,3 +2599,7 @@ logs:
   status: success
   timestamp: '2026-04-01T20:07:49'
   details: Analyzed 379 jobs.
+- agent: CareerAgent
+  action: Fetch started
+  level: INFO
+  timestamp: '2026-04-01T20:08:09'
