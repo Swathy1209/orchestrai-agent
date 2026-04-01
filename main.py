@@ -145,11 +145,8 @@ def manual_sync():
 
 @app.on_event("startup")
 def start_scheduler():
-    # Sync from cloud first so we have the latest files to serve
-    try:
-        sync_from_github_cloud()
-    except Exception as e:
-        logger.error("Initial sync failure: %s", e)
+    # Sync from cloud in a background thread so we don't block startup (avoids Render 503 during cold boot)
+    threading.Thread(target=sync_from_github_cloud, daemon=True).start()
 
     try:
         from backend.scheduler import schedule_daily_internship_email, run_once_now
