@@ -10,7 +10,7 @@ Cover Letter:
 https://orchestrai-agent.onrender.com/cover_letters/emoolar_technology_private_limited_data_science.md
 
 Apply Here:
-https://internshala.com/internship/detail/work-from-home-data-science-internship-at-emoolar-technology-private-limited1772039757
+https://internshala.com/internship/detail/work-from-home-part-time-data-science-internship-at-emoolar-technology-private-limited1774072018
 
 Status:
 Ready to Apply

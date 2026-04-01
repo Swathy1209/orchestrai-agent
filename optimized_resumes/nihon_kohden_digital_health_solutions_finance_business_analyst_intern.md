@@ -1,0 +1,6 @@
+# Optimized Resume for Nihon Kohden Digital Health Solutions Finance/Business Analyst Intern
+
+## Recommended Additions
+
+- Highlight your existing skills matching the role requirements.
+- Tailor your project descriptions to the company operations.
