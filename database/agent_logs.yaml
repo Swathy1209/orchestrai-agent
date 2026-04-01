@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for The Hustle House Machine Learning Intern: Gemini failed
-    to generate interview Q&A for The Hustle House - Machine Learning Intern'
-  status: error
-  timestamp: '2026-03-30T08:20:16'
-- agent: PracticeAgent
   action: 'Failed portal for OMNIDYA TECH LLP Machine Learning Intern: Gemini failed
     to generate interview Q&A for OMNIDYA TECH LLP - Machine Learning Intern'
   status: error
@@ -2523,3 +2518,7 @@ logs:
   status: success
   timestamp: '2026-04-01T20:30:04'
   details: Analyzed 380 jobs.
+- agent: CareerAgent
+  action: Fetch started
+  level: INFO
+  timestamp: '2026-04-01T20:31:55'
