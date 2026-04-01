@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for AArete Intern, Data Science & Artificial Intelligence
-    (Summer 2026): Gemini failed to generate interview Q&A for AArete - Intern, Data
-    Science & Artificial Intelligence (Summer 2026)'
-  status: error
-  timestamp: '2026-03-30T08:20:41'
-- agent: PracticeAgent
   action: 'Failed portal for Lensa Intern - Data Science, Generative AI: Gemini failed
     to generate interview Q&A for Lensa - Intern - Data Science, Generative AI'
   status: error
@@ -2490,3 +2484,7 @@ logs:
   action: Fetch started
   level: INFO
   timestamp: '2026-04-01T20:56:35'
+- agent: CareerAgent
+  action: 102 jobs fetched
+  level: INFO
+  timestamp: '2026-04-01T20:57:03'
