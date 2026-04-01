@@ -81,21 +81,33 @@ def safe_llm_call(
     client = OpenAI(api_key=OPENAI_API_KEY, base_url=GEMINI_BASE_URL, max_retries=0)
 
     for model in GEMINI_MODELS:
-        try:
-            resp = client.chat.completions.create(
-                model=model,
-                messages=messages,
-                max_tokens=max_tokens,
-                temperature=temperature,
-            )
-            return resp.choices[0].message.content.strip()
-        except Exception as exc:
-            if _is_daily_quota_error(exc):
-                _mark_quota_exceeded(model)
-                return None  # Circuit breaker opened — stop immediately
-            # Transient error on this model → try next
-            logger.debug("AIEngine: %s failed for '%s', trying next model — %s", model, context, exc)
-            continue
+        retries = 0
+        while retries < 3:
+            try:
+                import time
+                resp = client.chat.completions.create(
+                    model=model,
+                    messages=messages,
+                    max_tokens=max_tokens,
+                    temperature=temperature,
+                )
+                return resp.choices[0].message.content.strip()
+            except Exception as exc:
+                if _is_daily_quota_error(exc):
+                    _mark_quota_exceeded(model)
+                    return None  # Circuit breaker opened — stop immediately
+                
+                # Check for transient rate limit (429)
+                if "429" in str(exc) or "Rate limit" in str(exc):
+                    retries += 1
+                    wait_time = 2 ** retries # Exponential backoff
+                    logger.warning("AIEngine: Rate limit (429) on %s. Retrying in %ds... (Attempt %d/3)", model, wait_time, retries)
+                    time.sleep(wait_time)
+                    continue
+                
+                # Other transient error on this model → try next model in list
+                logger.debug("AIEngine: %s failed for '%s', trying next model — %s", model, context, exc)
+                break # Break inner loop, try next model
 
     logger.warning("AIEngine: All models exhausted for '%s' — using fallback.", context)
     return None

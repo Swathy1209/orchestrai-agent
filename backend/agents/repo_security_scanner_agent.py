@@ -207,6 +207,7 @@ def scan_repo(owner: str, repo: dict) -> dict:
     top_vulns = sorted(all_vulns, key=lambda x: SEV_SCORE.get(x["severity"], 1), reverse=True)[:3]
     for v in top_vulns:
         v["fix"] = _generate_fix(v)
+        time.sleep(1.0) # Rate limit pacing for Gemini
     
     formatted_issues = []
     for v in top_vulns:

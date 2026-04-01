@@ -21,6 +21,7 @@ from __future__ import annotations
 import logging
 import os
 import re
+import time
 from datetime import datetime, timezone
 
 from dotenv import load_dotenv
@@ -578,6 +579,7 @@ def run_interview_coach_agent() -> list[dict]:
 
         try:
             questions = _generate_questions(company, role, job_skills, user_skills)
+            time.sleep(1.5) # Rate limiting to avoid 429
 
             html = _build_interview_html(
                 company=company,
