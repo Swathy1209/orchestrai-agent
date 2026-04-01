@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Reach Technologies Machine Learning Intern: Gemini failed
-    to generate interview Q&A for Reach Technologies - Machine Learning Intern'
-  status: error
-  timestamp: '2026-03-30T08:20:20'
-- agent: PracticeAgent
   action: 'Failed portal for Tejate Education Private Limited Machine Learning Intern:
     Gemini failed to generate interview Q&A for Tejate Education Private Limited -
     Machine Learning Intern'
@@ -2519,3 +2514,7 @@ logs:
   action: 102 jobs fetched, 87 relevant
   level: INFO
   timestamp: '2026-04-01T20:50:23'
+- agent: CareerAgent
+  action: Stored in GitHub YAML
+  level: INFO
+  timestamp: '2026-04-01T20:50:29'
