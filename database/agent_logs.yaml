@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Old World Industries Data Analyst Intern: Gemini failed
-    to generate interview Q&A for Old World Industries - Data Analyst Intern'
-  status: error
-  timestamp: '2026-03-30T08:20:44'
-- agent: PracticeAgent
   action: 'Failed portal for MSX International Data Analyst - Intern: Gemini failed
     to generate interview Q&A for MSX International - Data Analyst - Intern'
   status: error
@@ -2486,3 +2481,7 @@ logs:
   action: Stored in GitHub YAML
   level: INFO
   timestamp: '2026-04-01T20:57:15'
+- agent: CareerAgent
+  action: Email delegation passed to ExecutionAgent
+  level: INFO
+  timestamp: '2026-04-01T20:57:19'
