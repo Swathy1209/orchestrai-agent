@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Emoolar Technology Private Limited Machine Learning Intern:
-    Gemini failed to generate interview Q&A for Emoolar Technology Private Limited
-    - Machine Learning Intern'
-  status: error
-  timestamp: '2026-03-30T08:21:30'
-- agent: PracticeAgent
   action: 'Failed portal for Across The Globe (ATG) Machine Learning Intern: Gemini
     failed to generate interview Q&A for Across The Globe (ATG) - Machine Learning
     Intern'
@@ -2435,3 +2429,7 @@ logs:
   status: success
   timestamp: '2026-04-01T21:10:45'
   details: Analyzed 382 jobs.
+- agent: CareerAgent
+  action: Fetch started
+  level: INFO
+  timestamp: '2026-04-01T21:11:51'
