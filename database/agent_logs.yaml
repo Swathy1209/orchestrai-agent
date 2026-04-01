@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Globik AI Private Limited Data Science Intern: Gemini
-    failed to generate interview Q&A for Globik AI Private Limited - Data Science
-    Intern'
-  status: error
-  timestamp: '2026-03-30T08:21:06'
-- agent: PracticeAgent
   action: 'Failed portal for Ibhatech.com Data Science Intern: Gemini failed to generate
     interview Q&A for Ibhatech.com - Data Science Intern'
   status: error
@@ -2460,3 +2454,7 @@ logs:
   action: 100 jobs fetched, 85 relevant
   level: INFO
   timestamp: '2026-04-01T21:05:09'
+- agent: CareerAgent
+  action: Stored in GitHub YAML
+  level: INFO
+  timestamp: '2026-04-01T21:05:16'
