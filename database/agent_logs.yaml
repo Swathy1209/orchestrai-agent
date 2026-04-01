@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for ODN Digital Services Private Limited Data Science Intern:
-    Gemini failed to generate interview Q&A for ODN Digital Services Private Limited
-    - Data Science Intern'
-  status: error
-  timestamp: '2026-03-30T08:20:49'
-- agent: PracticeAgent
   action: 'Failed portal for Adex Media Hub Data Science Intern: Gemini failed to
     generate interview Q&A for Adex Media Hub - Data Science Intern'
   status: error
@@ -2481,3 +2475,7 @@ logs:
   action: 102 jobs fetched
   level: INFO
   timestamp: '2026-04-01T21:00:13'
+- agent: CareerAgent
+  action: 102 jobs fetched, 87 relevant
+  level: INFO
+  timestamp: '2026-04-01T21:00:18'
