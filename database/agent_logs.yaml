@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Chamadia Group Artificial Intelligence Intern: Gemini
-    failed to generate interview Q&A for Chamadia Group - Artificial Intelligence
-    Intern'
-  status: error
-  timestamp: '2026-03-30T08:20:32'
-- agent: PracticeAgent
   action: 'Failed portal for OMNIDYA TECH LLP Artificial Intelligence Intern: Gemini
     failed to generate interview Q&A for OMNIDYA TECH LLP - Artificial Intelligence
     Intern'
@@ -2503,3 +2497,7 @@ logs:
   status: success
   timestamp: '2026-04-01T20:53:24'
   details: Analyzed 380 jobs.
+- agent: CareerAgent
+  action: Fetch started
+  level: INFO
+  timestamp: '2026-04-01T20:54:08'
