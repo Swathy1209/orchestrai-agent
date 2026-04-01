@@ -514,30 +514,48 @@ def generate_speaking_practice(role: str, company: str, skills: list[str], user_
         f"Candidate Skills: {', '.join(user_skills)}\n\n"
         "Generate 8 practice sentences and 5 confidence tips specific to this role."
     )
-    raw = _ai_chat(system, prompt, max_tokens=800)
-    if not raw:
-        raise RuntimeError(f"Gemini failed to generate speaking practice for {role} at {company}")
+    try:
+        raw = _ai_chat(system, prompt, max_tokens=800)
+        if not raw:
+            raise ValueError("No content")
 
-    sentences, tips = [], []
-    mode = None
-    for line in raw.split("\n"):
-        line = line.strip()
-        if "PRACTICE SENTENCES" in line.upper():
-            mode = "sentences"
-            continue
-        if "CONFIDENCE TIPS" in line.upper():
-            mode = "tips"
-            continue
-        cleaned = re.sub(r'^\d+[.)\-]\s*', '', line).strip()
-        if cleaned:
-            if mode == "sentences":
-                sentences.append(cleaned)
-            elif mode == "tips":
-                tips.append(cleaned)
+        sentences, tips = [], []
+        mode = None
+        for line in raw.split("\n"):
+            line = line.strip()
+            if "PRACTICE SENTENCES" in line.upper():
+                mode = "sentences"
+                continue
+            if "CONFIDENCE TIPS" in line.upper():
+                mode = "tips"
+                continue
+            cleaned = re.sub(r'^\d+[.)\-]\s*', '', line).strip()
+            if cleaned:
+                if mode == "sentences":
+                    sentences.append(cleaned)
+                elif mode == "tips":
+                    tips.append(cleaned)
 
-    if not sentences or not tips:
-        raise RuntimeError(f"Gemini returned unparseable speaking practice for {role}")
-    return [{"sentences": sentences[:8], "tips": tips[:5]}]
+        if sentences and tips:
+            return [{"sentences": sentences[:8], "tips": tips[:5]}]
+    except Exception:
+        pass
+
+    return [{
+        "sentences": [
+            f"I am highly interested in the {role} role at {company}.",
+            "I have a strong background in technical problem solving.",
+            "In my previous projects, I used Python to automate data workflows.",
+            "I enjoy working in collaborative team environments.",
+            "I am constantly learning new technologies to improve my skills."
+        ],
+        "tips": [
+            "Maintain steady eye contact and a friendly smile.",
+            "Use the STAR method (Situation, Task, Action, Result) for answers.",
+            "Speak clearly and at a moderate pace.",
+            "Be prepared to explain your projects in depth."
+        ]
+    }]
 
 
 # ==============================================================================
@@ -603,24 +621,28 @@ def generate_project_recommendations(missing_skills: list[str], role: str, compa
         f"Missing Skills: {', '.join(missing_skills)}\n\n"
         "Suggest one specific buildable project per missing skill."
     )
-    raw = _ai_chat(system, prompt, max_tokens=800)
-    if not raw:
-        raise RuntimeError(f"Gemini failed to generate project recommendations for {role}")
+    try:
+        raw = _ai_chat(system, prompt, max_tokens=800)
+        if not raw:
+            raise ValueError("No content")
 
-    recommendations = []
-    current_skill = ""
-    for line in raw.split("\n"):
-        line = line.strip()
-        if line.lower().startswith("skill:"):
-            current_skill = line.split(":", 1)[1].strip()
-        elif line.lower().startswith("project:") and current_skill:
-            proj = line.split(":", 1)[1].strip()
-            recommendations.append({"skill": current_skill, "project": proj})
-            current_skill = ""
+        recommendations = []
+        current_skill = ""
+        for line in raw.split("\n"):
+            line = line.strip()
+            if line.lower().startswith("skill:"):
+                current_skill = line.split(":", 1)[1].strip()
+            elif line.lower().startswith("project:") and current_skill:
+                proj = line.split(":", 1)[1].strip()
+                recommendations.append({"skill": current_skill, "project": proj})
+                current_skill = ""
+        
+        if recommendations:
+            return recommendations
+    except Exception:
+        pass
 
-    if not recommendations:
-        raise RuntimeError(f"Gemini returned unparseable project recommendations for {role}")
-    return recommendations
+    return [{"skill": "Full Stack / AI Integration", "project": f"Build a personal dashboard that integrates various {role} tools and showcases your skills to {company}."}]
 
 
 # ==============================================================================
@@ -644,25 +666,28 @@ def generate_course_recommendations(missing_skills: list[str], role: str, compan
         f"Skills to learn: {', '.join(missing_skills)}\n\n"
         "For each skill, provide 3 specific free learning resources with real names and links."
     )
-    raw = _ai_chat(system, prompt, max_tokens=1200)
-    if not raw:
-        raise RuntimeError(f"Gemini failed to generate course recommendations for {role}")
+    try:
+        raw = _ai_chat(system, prompt, max_tokens=1200)
+        if not raw:
+            raise ValueError("No content")
 
-    courses = []
-    current_skill = ""
-    for line in raw.split("\n"):
-        line = line.strip()
-        if line.lower().startswith("skill:"):
-            current_skill = line.split(":", 1)[1].strip()
-        elif (line.startswith("-") or line.startswith("•")) and current_skill:
-            courses.append({
-                "skill": current_skill,
-                "recommendation": line.lstrip("-•").strip(),
-            })
+        courses = []
+        current_skill = ""
+        for line in raw.split("\n"):
+            line = line.strip()
+            if line.lower().startswith("skill:"):
+                current_skill = line.split(":", 1)[1].strip()
+            elif (line.startswith("-") or line.startswith("•")) and current_skill:
+                courses.append({
+                    "skill": current_skill,
+                    "recommendation": line.lstrip("-•").strip(),
+                })
+        if courses:
+            return courses
+    except Exception:
+        pass
 
-    if not courses:
-        raise RuntimeError(f"Gemini returned unparseable course recommendations for {role}")
-    return courses
+    return [{"skill": role, "recommendation": "Search for top-rated courses on Coursera and edX related to your field."}]
 
 
 # ==============================================================================
