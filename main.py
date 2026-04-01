@@ -111,7 +111,16 @@ def sync_from_github_cloud():
     _REPO_SLUG = GITHUB_REPO if "/" in GITHUB_REPO else f"{GITHUB_USERNAME}/{GITHUB_REPO}"
     logger.info("Cloud Sync: Starting deep sync from %s...", _REPO_SLUG)
 
-    dirs_to_sync = ["database", "frontend/analytics", "frontend/portfolio/internships", "frontend/interview", "frontend/practice"]
+    dirs_to_sync = [
+        "database", 
+        "frontend/analytics", 
+        "frontend/portfolio/internships", 
+        "frontend/interview", 
+        "frontend/practice",
+        "cover_letters",
+        "optimized_resumes",
+        "application_packages"
+    ]
     
     for d in dirs_to_sync:
         url = f"{_BASE_URL}/repos/{_REPO_SLUG}/contents/{d}?ref={GITHUB_BRANCH}"
