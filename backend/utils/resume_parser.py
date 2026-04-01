@@ -46,7 +46,7 @@ def _auth_headers() -> dict:
 
 
 def download_resume_from_github(
-    resume_path: str = "resumes/swathiga_resume.pdf",
+    resume_path: str = "database/resumes/swathiga_resume.pdf",
     local_path:  str = "temp_resume.pdf",
 ) -> str | None:
     """

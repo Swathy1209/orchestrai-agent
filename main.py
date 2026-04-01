@@ -58,6 +58,9 @@ from backend.github_yaml_db import DATA_DIR
 for _d in STATIC_DIRS:
     _path = os.path.join(DATA_DIR, _d)
     os.makedirs(_path, exist_ok=True)
+    # Map clean URLs: frontend/portfolio -> /portfolio, etc.
+    mount_path = "/" + _d.split("/")[-1]
+    app.mount(mount_path, StaticFiles(directory=_path, html=True), name=_d)
 
 # Seed each directory with a placeholder so StaticFiles doesn't crash
 for _d in STATIC_DIRS:
@@ -283,27 +286,68 @@ async def execute_code(request: Request):
 
 @app.get("/", response_class=HTMLResponse)
 def index():
-    eu = os.getenv("EMAIL_USER", "NOT SET")
     er = os.getenv("EMAIL_RECEIVER", "NOT SET")
-    ep = "✅ SET" if os.getenv("EMAIL_PASS") else "❌ NOT SET"
     return f"""
-    <html><head><title>OrchestrAI Dashboard</title></head>
-    <body style='font-family:sans-serif;max-width:700px;margin:40px auto;padding:20px'>
-      <h1>🤖 OrchestrAI Career Intelligence System</h1>
-      <p>Your autonomous AI career agent is running on Render.</p>
-      <hr/>
-      <h3>⚙️ Email Configuration</h3>
-      <ul>
-        <li><b>EMAIL_USER:</b> {eu}</li>
-        <li><b>EMAIL_RECEIVER:</b> {er}</li>
-        <li><b>EMAIL_PASS:</b> {ep}</li>
-      </ul>
-      <hr/>
-      <h3>🔧 Actions</h3>
-      <p><a href='/test-email' style='background:#4CAF50;color:white;padding:10px 20px;border-radius:5px;text-decoration:none'>✉️ Test Email Now</a></p>
-      <p><a href='/trigger' style='background:#2196F3;color:white;padding:10px 20px;border-radius:5px;text-decoration:none'>🚀 Run Pipeline (background)</a></p>
-      <p><a href='/trigger-sync' style='background:#FF9800;color:white;padding:10px 20px;border-radius:5px;text-decoration:none'>🔍 Run Pipeline (with error display)</a></p>
-      <p><a href='/sync' style='background:#9C27B0;color:white;padding:10px 20px;border-radius:5px;text-decoration:none'>☁️ Force Cloud Sync (Use if files are missing)</a></p>
+    <html><head>
+        <title>OrchestrAI Dashboard</title>
+        <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+        <style>
+            body {{ font-family: 'Outfit', sans-serif; background: #0a0b10; color: #fff; max-width: 900px; margin: 40px auto; padding: 20px; }}
+            h1 {{ color: #8b5cf6; text-align: center; margin-bottom: 40px; }}
+            .grid {{ display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px; }}
+            .card {{ background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.1); padding: 25px; border-radius: 15px; transition: all 0.3s; text-decoration: none; color: inherit; }}
+            .card:hover {{ background: rgba(139,92,246,0.1); border-color: #8b5cf6; transform: translateY(-5px); }}
+            .card h3 {{ color: #8b5cf6; margin-top: 0; }}
+            .card p {{ opacity: 0.7; font-size: 0.9rem; margin-bottom: 20px; }}
+            .btn {{ display: inline-block; padding: 10px 20px; border-radius: 8px; text-decoration: none; font-weight: 600; font-size: 0.9rem; text-align: center; width: 100%; }}
+            .primary-btn {{ background: #8b5cf6; color: white; }}
+            .secondary-btn {{ border: 1px solid #8b5cf6; color: #8b5cf6; }}
+            .config-box {{ margin-top: 50px; background: rgba(0,0,0,0.3); padding: 20px; border-radius: 10px; font-size: 0.85rem; border: 1px solid #333; }}
+        </style>
+    </head>
+    <body>
+      <h1>🤖 OrchestrAI Dashboard</h1>
+      
+      <div class="grid">
+        <a href="/portfolio/" class="card">
+            <h3>🌐 My AI Portfolio</h3>
+            <p>View your curated project portfolio with security scores and AI-generated impact summaries.</p>
+            <div class="btn primary-btn">Open Portfolio</div>
+        </a>
+        <a href="/interview/" class="card">
+            <h3>🎙️ Voice Mock Interview</h3>
+            <p>Practice with Dr. OrchestrAI using your voice. Real-time feedback and technical follow-ups.</p>
+            <div class="btn primary-btn">Start Practice</div>
+        </a>
+        <a href="/cover_letters/" class="card">
+            <h3>📄 Cover Letters</h3>
+            <p>Access 80+ AI-tailored cover letters for all your internship applications.</p>
+            <div class="btn secondary-btn">Browse Letters</div>
+        </a>
+        <a href="/optimized_resumes/" class="card">
+            <h3>📑 CV Optimizations</h3>
+            <p>Download your role-specific resumes optimized for ATS and job-matching.</p>
+            <div class="btn secondary-btn">View Resumes</div>
+        </a>
+      </div>
+
+      <hr style="margin: 40px 0; border: 0; border-top: 1px solid #222;">
+
+      <div class="grid">
+        <div class="card" style="grid-column: span 2;">
+            <h3>🛠️ System Operations</h3>
+            <div style="display: flex; gap: 10px;">
+                <a href='/trigger' class="btn primary-btn" style="flex: 1">🚀 Run Pipeline</a>
+                <a href='/sync' class="btn secondary-btn" style="flex: 1">☁️ Force Cloud Sync</a>
+                <a href='/test-email' class="btn secondary-btn" style="flex: 1">✉️ Test Email</a>
+            </div>
+        </div>
+      </div>
+
+      <div class="config-box">
+        <h4>⚙️ Environment Config</h4>
+        <p><b>EMAIL_RECEIVER:</b> {er} | <b>USERNAME:</b> Swathy1209 | <b>REPO:</b> orchestrai-agent</p>
+      </div>
     </body></html>
     """
 
