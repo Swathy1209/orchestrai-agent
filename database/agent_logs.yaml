@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Havas Edge Business Analyst Intern: Gemini failed to
-    generate interview Q&A for Havas Edge - Business Analyst Intern'
-  status: error
-  timestamp: '2026-03-30T08:19:30'
-- agent: PracticeAgent
   action: 'Failed portal for Nihon Kohden Digital Health Solutions Finance/Business
     Analyst Intern: Gemini failed to generate interview Q&A for Nihon Kohden Digital
     Health Solutions - Finance/Business Analyst Intern'
@@ -2575,3 +2570,7 @@ logs:
   action: Fetch started
   level: INFO
   timestamp: '2026-04-01T20:14:48'
+- agent: CareerAgent
+  action: 102 jobs fetched
+  level: INFO
+  timestamp: '2026-04-01T20:15:18'
