@@ -303,6 +303,7 @@ def index():
       <p><a href='/test-email' style='background:#4CAF50;color:white;padding:10px 20px;border-radius:5px;text-decoration:none'>✉️ Test Email Now</a></p>
       <p><a href='/trigger' style='background:#2196F3;color:white;padding:10px 20px;border-radius:5px;text-decoration:none'>🚀 Run Pipeline (background)</a></p>
       <p><a href='/trigger-sync' style='background:#FF9800;color:white;padding:10px 20px;border-radius:5px;text-decoration:none'>🔍 Run Pipeline (with error display)</a></p>
+      <p><a href='/sync' style='background:#9C27B0;color:white;padding:10px 20px;border-radius:5px;text-decoration:none'>☁️ Force Cloud Sync (Use if files are missing)</a></p>
     </body></html>
     """
 
