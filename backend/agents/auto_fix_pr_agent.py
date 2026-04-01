@@ -23,9 +23,7 @@ from backend.github_yaml_db import read_yaml_from_github, write_yaml_to_github, 
 load_dotenv()
 logger = logging.getLogger("OrchestrAI.AutoFixPRGeneratorAgent")
 
-GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", os.getenv("OPENAI_API_KEY", ""))
-GEMINI_BASE_URL = "https://generativelanguage.googleapis.com/v1beta/openai/"
-openai_client = OpenAI(api_key=GEMINI_API_KEY, base_url=GEMINI_BASE_URL, max_retries=0) if GEMINI_API_KEY else None
+from backend.utils.ai_engine import safe_llm_call
 
 GITHUB_TOKEN = os.getenv("GITHUB_TOKEN", "")
 SECURITY_REPORTS_FILE = "database/security_reports.yaml"
@@ -145,13 +143,17 @@ File content snippet:
 Return ONLY the fixed version of this exact code snippet (same structure, minimal changes).
 Do not add explanations. Just the fixed code."""
     try:
-        resp = openai_client.chat.completions.create(
-            model="gemini-2.0-flash",
+        content_fixed = safe_llm_call(
             messages=[{"role": "user", "content": prompt}],
-            max_tokens=200, temperature=0.1
+            max_tokens=600,
+            temperature=0.1,
+            context=f"auto_fix:{vuln_name}"
         )
-        fixed_snippet = resp.choices[0].message.content.strip().strip("```python").strip("```").strip()
-        if fixed_snippet and fixed_snippet != snippet and len(fixed_snippet) < 500:
+        if not content_fixed:
+            return content
+
+        fixed_snippet = content_fixed.strip().strip("```python").strip("```").strip()
+        if fixed_snippet and fixed_snippet != snippet and len(fixed_snippet) < 1000:
             return content.replace(snippet, fixed_snippet, 1)
     except Exception:
         pass

@@ -26,9 +26,7 @@ from backend.github_yaml_db import (
 load_dotenv()
 logger = logging.getLogger("OrchestrAI.CoverLetterAgent")
 
-GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", os.getenv("OPENAI_API_KEY", ""))
-GEMINI_BASE_URL = "https://generativelanguage.googleapis.com/v1beta/openai/"
-openai_client = OpenAI(api_key=GEMINI_API_KEY, base_url=GEMINI_BASE_URL, max_retries=0) if GEMINI_API_KEY else None
+from backend.utils.ai_engine import safe_llm_call
 
 JOBS_FILE = "database/jobs.yaml"
 USERS_FILE = "database/users.yaml"
@@ -96,22 +94,20 @@ Instructions:
 - Write in first person, confident and professional tone
 """
 
-    if openai_client:
-        try:
-            response = openai_client.chat.completions.create(
-                model="gemini-2.0-flash",
-                messages=[
-                    {"role": "system", "content": "You are an expert career counselor. Generate complete, professional cover letters with no placeholders."},
-                    {"role": "user", "content": prompt}
-                ],
-                max_tokens=400,
-                temperature=0.7
-            )
-            content = response.choices[0].message.content.strip()
-            if content and len(content) > 50:
-                return content
-        except Exception as exc:
-            logger.warning("CoverLetterAgent: LLM generation failed for %s - %s", company, exc)
+    try:
+        content = safe_llm_call(
+            messages=[
+                {"role": "system", "content": "You are an expert career counselor. Generate complete, professional cover letters with no placeholders."},
+                {"role": "user", "content": prompt}
+            ],
+            max_tokens=600,
+            temperature=0.7,
+            context=f"cover_letter:{company}"
+        )
+        if content and len(content) > 50:
+            return content
+    except Exception as exc:
+        logger.warning("CoverLetterAgent: LLM generation failed for %s - %s", company, exc)
 
     # Fallback template
     return (

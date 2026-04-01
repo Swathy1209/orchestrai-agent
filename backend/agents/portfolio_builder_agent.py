@@ -127,13 +127,15 @@ Return exactly in valid JSON format:
 }}
 """
     try:
-        resp = openai_client.chat.completions.create(
-            model="gemini-2.0-flash",
+        content = _cb_llm_call(
             messages=[{"role": "user", "content": prompt}],
-            response_format={"type": "json_object"},
-            temperature=0.3
+            max_tokens=600,
+            temperature=0.3,
+            context=f"project_desc:{repo.get('name')}"
         )
-        content = resp.choices[0].message.content.strip()
+        if not content:
+            raise Exception("LLM returned empty")
+        
         if content.startswith("```json"):
             content = content.replace("```json", "").replace("```", "").strip()
         data = json.loads(content)

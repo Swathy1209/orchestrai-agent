@@ -31,9 +31,7 @@ from backend.github_yaml_db import (
 load_dotenv()
 logger = logging.getLogger("OrchestrAI.CodingInterviewAgent")
 
-GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", os.getenv("OPENAI_API_KEY", ""))
-GEMINI_BASE_URL = "https://generativelanguage.googleapis.com/v1beta/openai/"
-openai_client = OpenAI(api_key=GEMINI_API_KEY, base_url=GEMINI_BASE_URL, max_retries=0) if GEMINI_API_KEY else None
+from backend.utils.ai_engine import safe_llm_call
 
 # Judge0 Config (Using Public CE API if no custom one provided)
 JUDGE0_URL = os.getenv("JUDGE0_URL", "https://judge0-ce.p.rapidapi.com")
@@ -77,12 +75,27 @@ Return JSON format:
 }}
 """
     try:
-        resp = openai_client.chat.completions.create(
-            model="gemini-2.0-flash",
+        content = safe_llm_call(
             messages=[{"role": "user", "content": prompt}],
-            response_format={"type": "json_object"}
+            max_tokens=800,
+            temperature=0.7,
+            context=f"coding_problem:{role}"
         )
-        return json.loads(resp.choices[0].message.content)
+        if not content:
+            return {
+                "title": f"{role} Data Processing",
+                "difficulty": "Medium",
+                "problem_statement": f"Build a robust algorithm to handle {skills[0]} data ingestion.",
+                "constraints": ["Time complexity < O(n^2)"],
+                "starter_code": "def solve(data):\n    pass",
+                "test_cases": [{"input": "[]", "output": "[]"}],
+                "hints": ["Check for edge cases"],
+                "solution_approach": "Use a dictionary for O(1) lookup."
+            }
+
+        if content.startswith("```json"):
+            content = content.replace("```json", "").replace("```", "").strip()
+        return json.loads(content)
     except Exception as e:
         logger.error("LLM failed for coding problem: %s", e)
         return {}

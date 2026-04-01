@@ -38,9 +38,7 @@ from backend.github_yaml_db import (
 load_dotenv()
 logger = logging.getLogger("OrchestrAI.InterviewCoachAgent")
 
-GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", os.getenv("OPENAI_API_KEY", ""))
-GEMINI_BASE_URL = "https://generativelanguage.googleapis.com/v1beta/openai/"
-openai_client = OpenAI(api_key=GEMINI_API_KEY, base_url=GEMINI_BASE_URL, max_retries=0) if GEMINI_API_KEY else None
+from backend.utils.ai_engine import safe_llm_call
 
 JOBS_FILE             = "database/jobs.yaml"
 USERS_FILE            = "database/users.yaml"
@@ -124,17 +122,15 @@ CODING:
         ] if include_case else [],
     }
 
-    if not openai_client:
-        return fallback
-
     try:
-        resp = openai_client.chat.completions.create(
-            model="gemini-2.0-flash",
+        raw = safe_llm_call(
             messages=[{"role": "user", "content": prompt}],
-            max_tokens=600,
+            max_tokens=800,
             temperature=0.7,
+            context=f"interview_qs:{company}"
         )
-        raw = resp.choices[0].message.content.strip()
+        if not raw:
+            return fallback
 
         def _extract_section(label: str, text: str) -> list[str]:
             pattern = rf"{label}:?\s*\n(.*?)(?=\n[A-Z]+:|\Z)"

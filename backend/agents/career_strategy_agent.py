@@ -46,9 +46,7 @@ load_dotenv()
 logger = logging.getLogger("OrchestrAI.CareerStrategyAgent")
 
 # ── LLM Client ────────────────────────────────────────────────────────────────
-GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", os.getenv("OPENAI_API_KEY", ""))
-GEMINI_BASE_URL = "https://generativelanguage.googleapis.com/v1beta/openai/"
-openai_client = OpenAI(api_key=GEMINI_API_KEY, base_url=GEMINI_BASE_URL, max_retries=0) if GEMINI_API_KEY else None
+from backend.utils.ai_engine import safe_llm_call
 
 # ── Data File Paths ───────────────────────────────────────────────────────────
 USERS_FILE      = "database/users.yaml"
@@ -253,6 +251,17 @@ def _generate_strategy(
         actions.append("Update your LinkedIn profile with your latest project")
         return actions[:7]
 
+    actions_fallback = []
+    if top_skills:
+        actions_fallback.append(f"Study the top missing skills this week: {', '.join(top_skills[:3])}")
+    if top_jobs:
+        actions_fallback.append(f"Apply immediately to your best match: {top_jobs[0]}")
+    if portfolio_recs:
+        actions_fallback.append(portfolio_recs[0])
+    if practice_rec:
+        actions_fallback.append(practice_rec)
+    actions_fallback.append("Update your LinkedIn profile with your latest project")
+
     # Format skill context
     skill_context = ", ".join(
         f"{s} (needed in {freq} roles)" for s, freq in list(skill_freq.items())[:5]
@@ -298,17 +307,17 @@ Respond in this exact JSON format:
 }}"""
 
     try:
-        resp = openai_client.chat.completions.create(
-            model="gemini-2.0-flash",
+        content = safe_llm_call(
             messages=[
                 {"role": "system", "content": "You are an expert AI career coach. Generate precise, actionable career plans in valid JSON only."},
                 {"role": "user", "content": prompt},
             ],
-            response_format={"type": "json_object"},
+            max_tokens=800,
             temperature=0.5,
-            max_tokens=600,
+            context="weekly_strategy"
         )
-        content = resp.choices[0].message.content.strip()
+        if not content:
+            return actions_fallback # Defined below
         result = json.loads(content)
         actions = result.get("actions", [])
         coaching_note = result.get("coaching_note", "")

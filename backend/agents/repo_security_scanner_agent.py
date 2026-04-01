@@ -147,12 +147,13 @@ def _generate_fix(vuln: dict) -> str:
         f"Be specific and actionable."
     )
     try:
-        resp = openai_client.chat.completions.create(
-            model="gemini-2.0-flash",
+        content = _safe_llm_call(
             messages=[{"role": "user", "content": prompt}],
-            max_tokens=120, temperature=0.2
+            max_tokens=150,
+            temperature=0.2,
+            context=f"sec_fix:{vuln['file']}"
         )
-        return resp.choices[0].message.content.strip()
+        return content.strip() if content else vuln.get("recommendation", "Apply secure coding practices.")
     except Exception:
         return vuln.get("recommendation", "Apply secure coding practices.")
 

@@ -33,9 +33,7 @@ from backend.github_yaml_db import (
 load_dotenv()
 logger = logging.getLogger("OrchestrAI.InterviewFeedbackAgent")
 
-GEMINI_API_KEY  = os.getenv("GEMINI_API_KEY", os.getenv("OPENAI_API_KEY", ""))
-GEMINI_BASE_URL = "https://generativelanguage.googleapis.com/v1beta/openai/"
-openai_client   = OpenAI(api_key=GEMINI_API_KEY, base_url=GEMINI_BASE_URL, max_retries=0) if GEMINI_API_KEY else None
+from backend.utils.ai_engine import safe_llm_call
 
 FEEDBACK_FILE  = "database/interview_feedback.yaml"
 SKILL_GAP_FILE = "database/skill_gap_per_job.yaml"
@@ -69,12 +67,14 @@ def _map_topics_to_skills(topics: list[str], role: str) -> tuple[list[str], list
         "ROADMAP:\n1. [specific study action]\n2. [specific study action]\n3. [specific study action]"
     )
     try:
-        resp = openai_client.chat.completions.create(
-            model="gemini-2.0-flash",
+        raw = safe_llm_call(
             messages=[{"role": "user", "content": prompt}],
-            max_tokens=200, temperature=0.4,
+            max_tokens=400,
+            temperature=0.4,
+            context=f"feedback_mapping:{role}"
         )
-        raw = resp.choices[0].message.content.strip()
+        if not raw:
+            return fallback_skills, fallback_roadmap
 
         def _parse_section(label: str) -> list[str]:
             import re
