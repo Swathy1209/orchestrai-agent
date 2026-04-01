@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Hexa Solution Data Analyst: Gemini failed to generate
-    interview Q&A for Hexa Solution - Data Analyst'
-  status: error
-  timestamp: '2026-03-30T08:19:50'
-- agent: PracticeAgent
   action: 'Failed portal for C3 AI Data Science - Intern (Summer 2026): Gemini failed
     to generate interview Q&A for C3 AI - Data Science - Intern (Summer 2026)'
   status: error
@@ -2551,3 +2546,7 @@ logs:
   status: success
   timestamp: '2026-04-01T20:20:26'
   details: Analyzed 379 jobs.
+- agent: CareerAgent
+  action: Fetch started
+  level: INFO
+  timestamp: '2026-04-01T20:21:10'
