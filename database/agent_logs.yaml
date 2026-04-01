@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Lensa Intern - Data Science, Generative AI: Gemini failed
-    to generate interview Q&A for Lensa - Intern - Data Science, Generative AI'
-  status: error
-  timestamp: '2026-03-30T08:20:42'
-- agent: PracticeAgent
   action: 'Failed portal for LTM Artificial Intelligence Intern: Gemini failed to
     generate interview Q&A for LTM - Artificial Intelligence Intern'
   status: error
@@ -2488,3 +2483,7 @@ logs:
   action: 102 jobs fetched
   level: INFO
   timestamp: '2026-04-01T20:57:03'
+- agent: CareerAgent
+  action: 102 jobs fetched, 87 relevant
+  level: INFO
+  timestamp: '2026-04-01T20:57:07'
