@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Vilya Intern - Machine Learning Engineer: Gemini failed
-    to generate interview Q&A for Vilya - Intern - Machine Learning Engineer'
-  status: error
-  timestamp: '2026-03-30T08:18:49'
-- agent: PracticeAgent
   action: 'Failed portal for Ramesh S AI/ML Engineer: Gemini failed to generate interview
     Q&A for Ramesh S - AI/ML Engineer'
   status: error
@@ -2630,3 +2625,7 @@ logs:
   status: success
   timestamp: '2026-04-01T20:02:20'
   details: Analyzed 379 jobs.
+- agent: CareerAgent
+  action: Fetch started
+  level: INFO
+  timestamp: '2026-04-01T20:03:41'
