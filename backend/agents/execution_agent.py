@@ -29,6 +29,8 @@ from backend.agents.career_strategy_agent import run_career_strategy_agent
 from backend.agents.career_readiness_agent import run_career_readiness_agent
 from backend.agents.career_analytics_agent import run_career_analytics_agent
 from backend.agents.interview_coach_agent import run_interview_coach_agent
+from backend.agents.coding_interview_agent import run_coding_interview_agent
+from backend.agents.interview_agent import run_interview_agent
 from backend.agents.auto_apply_agent import run_auto_apply_agent
 from backend.agents.opportunity_matching_agent import run_opportunity_matching_agent
 from backend.github_yaml_db import read_yaml_from_github, append_log_entry
@@ -168,7 +170,13 @@ def run_orchestrai_pipeline():
     # STEP 2.94: Generate per-internship mock interview pages
     run_interview_coach_agent()
 
-    # STEP 2.95: Generate per-internship customized portfolio pages
+    # STEP 2.95: Generate coding challenges
+    run_coding_interview_agent()
+
+    # STEP 2.96: Generate real-time interview sessions
+    run_interview_agent()
+
+    # STEP 2.97: Generate per-internship customized portfolio pages
     run_per_internship_portfolio_agent()
 
     # STEP 3: Read GitHub database
@@ -184,6 +192,7 @@ def run_orchestrai_pipeline():
     strategy_data = read_yaml_from_github("database/career_strategy.yaml")
     readiness_data = read_yaml_from_github("database/career_readiness.yaml")
     interview_data = read_yaml_from_github("database/interview_sessions.yaml")
+    coding_data = read_yaml_from_github("database/coding_challenges.yaml")
     per_internship_portfolio_data = read_yaml_from_github("database/per_internship_portfolios.yaml")
 
     jobs = jobs_data.get("jobs", []) if isinstance(jobs_data, dict) else []
@@ -231,10 +240,15 @@ def run_orchestrai_pipeline():
         for item in per_internship_list if isinstance(item, dict)
     }
 
-    interview_list = interview_data.get("interview_sessions", []) if isinstance(interview_data, dict) else []
     interview_lookup = {
-        (item.get("company", ""), item.get("role", "")): item.get("interview_link", "")
+        (item.get("company", ""), item.get("role", "")): item
         for item in interview_list if isinstance(item, dict)
+    }
+
+    coding_list = coding_data.get("coding_challenges", []) if isinstance(coding_data, dict) else []
+    coding_lookup = {
+        (item.get("company", ""), item.get("role", "")): item.get("challenge_url", "")
+        for item in coding_list if isinstance(item, dict)
     }
 
     portfolio_url = portfolio_data.get("portfolio", {}).get("url", "#") if isinstance(portfolio_data, dict) else "#"
@@ -423,12 +437,21 @@ def run_orchestrai_pipeline():
         else:
             custom_portfolio_html = '<span style="color:#999;font-size:12px">Not Generated</span>'
 
-        # Interview Sim column
-        interview_url = interview_lookup.get(key, "")
+        # Interview Sim & Coding
+        interview_info = interview_lookup.get(key, {})
+        interview_url = interview_info.get("interview_link", "")
+        live_url = interview_info.get("live_url", "") # If we have a live session link
+
+        coding_url = coding_lookup.get(key, "")
+        
+        interview_html = ""
         if interview_url:
-            interview_html = f'<a href="{interview_url}" style="background:#7c3aed;color:white;padding:8px 14px;border-radius:6px;text-decoration:none;font-weight:600;display:inline-block;font-size:12px">🎤 Start Mock Interview</a>'
-        else:
-            interview_html = '<span style="color:#999;font-size:12px">Not Generated</span>'
+            interview_html += f'<a href="{interview_url}" style="background:#7c3aed;color:white;padding:5px 10px;border-radius:4px;text-decoration:none;font-weight:600;display:inline-block;font-size:11px;margin-bottom:4px">🎤 Simulation</a><br/>'
+        if coding_url:
+            interview_html += f'<a href="{coding_url}" style="background:#0284c7;color:white;padding:5px 10px;border-radius:4px;text-decoration:none;font-weight:600;display:inline-block;font-size:11px">💻 Coding</a>'
+        
+        if not interview_html:
+            interview_html = '<span style="color:#999;font-size:11px">Not Generated</span>'
 
         rows += f"""
         <tr>

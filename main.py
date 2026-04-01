@@ -208,6 +208,69 @@ async def log_feedback(request: Request):
         logger.error("POST /log-feedback error: %s", exc)
         return JSONResponse({"status": "error", "message": str(exc)}, status_code=500)
 
+@app.post("/api/chat-interview")
+async def chat_interview(request: Request):
+    """Real-time AI Interview Chat Endpoint."""
+    try:
+        body = await request.json()
+        role = body.get("role", "Developer")
+        company = body.get("company", "Tech Firm")
+        message = body.get("message", "")
+        history = body.get("history", [])
+
+        from openai import OpenAI
+        client = OpenAI(
+            api_key=os.getenv("GEMINI_API_KEY", os.getenv("OPENAI_API_KEY", "")),
+            base_url="https://generativelanguage.googleapis.com/v1beta/openai/"
+        )
+
+        system_prompt = f"You are a senior technical interviewer at {company} interviewing a candidate for a {role} position. Be professional, observant, and ask deep follow-up questions. Limit replies to 2-3 sentences."
+        
+        messages = [{"role": "system", "content": system_prompt}]
+        for h in history[-6:]: # Latency/Token management
+            messages.append(h)
+        messages.append({"role": "user", "content": message})
+
+        resp = client.chat.completions.create(
+            model="gemini-2.0-flash",
+            messages=messages,
+            max_tokens=150
+        )
+        reply = resp.choices[0].message.content
+        return JSONResponse({"reply": reply})
+    except Exception as e:
+        logger.error("Chat API error: %s", e)
+        return JSONResponse({"reply": "⚠️ The AI is temporarily unavailable. Please continue your thought."}, status_code=200)
+
+@app.post("/api/execute-code")
+async def execute_code(request: Request):
+    """Proxy for Judge0 Code Execution."""
+    try:
+        body = await request.json()
+        code = body.get("source_code", "")
+        lang_id = body.get("language_id", 71) # Python 3
+        
+        # Simple local execution or Judge0 fallback
+        # On Render Free tier, we proxy to Judge0 public CE API
+        judge0_url = os.getenv("JUDGE0_URL", "https://judge0-ce.p.rapidapi.com/submissions?base64_encoded=false&wait=true")
+        judge0_key = os.getenv("JUDGE0_KEY", "")
+        
+        if not judge0_key:
+             return JSONResponse({"stdout": "⚠️ JUDGE0_KEY not configured. Code execution disabled.", "status": {"description": "Skipped"}})
+
+        resp = requests.post(judge0_url, headers={
+            "X-RapidAPI-Key": judge0_key,
+            "X-RapidAPI-Host": "judge0-ce.p.rapidapi.com",
+            "Content-Type": "application/json"
+        }, json={
+            "source_code": code,
+            "language_id": lang_id,
+            "stdin": body.get("stdin", "")
+        })
+        return JSONResponse(resp.json())
+    except Exception as e:
+        return JSONResponse({"stderr": str(e)}, status_code=500)
+
 @app.get("/", response_class=HTMLResponse)
 def index():
     eu = os.getenv("EMAIL_USER", "NOT SET")
