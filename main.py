@@ -104,8 +104,8 @@ async def serve_analytics():
 def sync_from_github_cloud():
     """Download all YAML and HTML files from GitHub to local DATA_DIR."""
     from backend.github_yaml_db import GITHUB_TOKEN, GITHUB_USERNAME, GITHUB_REPO, GITHUB_BRANCH, _BASE_URL, _auth_headers
-    if not all([GITHUB_TOKEN, GITHUB_USERNAME, GITHUB_REPO]):
-        logger.warning("Cloud Sync: Missing credentials — skipping sync.")
+    if not all([GITHUB_TOKEN, GITHUB_REPO]): # Username has a hardcoded default now
+        logger.warning("Cloud Sync: Missing credentials (Token or Repo) — skipping sync.")
         return
 
     _REPO_SLUG = GITHUB_REPO if "/" in GITHUB_REPO else f"{GITHUB_USERNAME}/{GITHUB_REPO}"

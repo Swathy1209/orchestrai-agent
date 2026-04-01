@@ -25,7 +25,7 @@ load_dotenv()
 logger = logging.getLogger("OrchestrAI.ResumeParser")
 
 GITHUB_TOKEN:    str = os.getenv("GITHUB_TOKEN", "")
-GITHUB_USERNAME: str = os.getenv("GITHUB_USERNAME", "")
+GITHUB_USERNAME: str = os.getenv("GITHUB_USERNAME", "Swathy1209")
 GITHUB_REPO:     str = os.getenv("GITHUB_REPO", "orchestrai-agent")
 GITHUB_BRANCH:   str = os.getenv("GITHUB_BRANCH", "main")
 
