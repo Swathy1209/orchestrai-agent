@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Zello AI & ML Engineering Intern: Gemini failed to generate
-    interview Q&A for Zello - AI & ML Engineering Intern'
-  status: error
-  timestamp: '2026-03-30T08:19:37'
-- agent: PracticeAgent
   action: 'Failed portal for Emoolar Technology Private Limited Data Science: Gemini
     failed to generate interview Q&A for Emoolar Technology Private Limited - Data
     Science'
@@ -2566,3 +2561,7 @@ logs:
   status: success
   timestamp: '2026-04-01T20:15:55'
   details: Analyzed 379 jobs.
+- agent: CareerAgent
+  action: Fetch started
+  level: INFO
+  timestamp: '2026-04-01T20:16:43'
