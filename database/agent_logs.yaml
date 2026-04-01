@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Lensa Business Analyst Intern Remote: Gemini failed to
-    generate interview Q&A for Lensa - Business Analyst Intern Remote'
-  status: error
-  timestamp: '2026-03-30T08:18:55'
-- agent: PracticeAgent
   action: 'Failed portal for INDUS Technology, Inc. Business Analyst, Intern: Gemini
     failed to generate interview Q&A for INDUS Technology, Inc. - Business Analyst,
     Intern'
@@ -2621,3 +2616,8 @@ logs:
   action: SkillAgent run initiated
   status: success
   timestamp: '2026-04-01T20:04:38'
+- agent: SkillAgent
+  action: Skill gap analysis complete
+  status: success
+  timestamp: '2026-04-01T20:04:48'
+  details: Analyzed 379 jobs.
