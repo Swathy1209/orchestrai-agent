@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for The Skill Guru Foundation Data Science Intern: Gemini
-    failed to generate interview Q&A for The Skill Guru Foundation - Data Science
-    Intern'
-  status: error
-  timestamp: '2026-03-30T08:21:43'
-- agent: PracticeAgent
   action: 'Failed portal for RegisterKaro Machine Learning Intern: Gemini failed to
     generate interview Q&A for RegisterKaro - Machine Learning Intern'
   status: error
@@ -2420,3 +2414,7 @@ logs:
   action: 103 jobs fetched, 88 relevant
   level: INFO
   timestamp: '2026-04-01T21:14:14'
+- agent: CareerAgent
+  action: Stored in GitHub YAML
+  level: INFO
+  timestamp: '2026-04-01T21:14:24'
