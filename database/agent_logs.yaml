@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for INDUS Technology, Inc. Data Analyst Intern: Gemini failed
-    to generate interview Q&A for INDUS Technology, Inc. - Data Analyst Intern'
-  status: error
-  timestamp: '2026-03-30T08:18:43'
-- agent: PracticeAgent
   action: 'Failed portal for Bellwood Business Analyst / QA Intern: Gemini failed
     to generate interview Q&A for Bellwood - Business Analyst / QA Intern'
   status: error
@@ -2635,3 +2630,7 @@ logs:
   action: 102 jobs fetched
   level: INFO
   timestamp: '2026-04-01T20:01:17'
+- agent: CareerAgent
+  action: 102 jobs fetched, 87 relevant
+  level: INFO
+  timestamp: '2026-04-01T20:01:25'
