@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Primetrade.ai Machine Learning (Modeling and Evaluation):
-    Gemini failed to generate interview Q&A for Primetrade.ai - Machine Learning (Modeling
-    and Evaluation)'
-  status: error
-  timestamp: '2026-03-30T08:19:53'
-- agent: PracticeAgent
   action: 'Failed portal for DivyaNetra AI Artificial Intelligence (AI): Gemini failed
     to generate interview Q&A for DivyaNetra AI - Artificial Intelligence (AI)'
   status: error
@@ -2549,3 +2543,7 @@ logs:
   action: 100 jobs fetched
   level: INFO
   timestamp: '2026-04-01T20:21:40'
+- agent: CareerAgent
+  action: 100 jobs fetched, 85 relevant
+  level: INFO
+  timestamp: '2026-04-01T20:21:45'
