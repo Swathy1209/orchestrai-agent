@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Lemnisk Artificial Intelligence Intern: Gemini failed
-    to generate interview Q&A for Lemnisk - Artificial Intelligence Intern'
-  status: error
-  timestamp: '2026-03-30T08:20:40'
-- agent: PracticeAgent
   action: 'Failed portal for AArete Intern, Data Science & Artificial Intelligence
     (Summer 2026): Gemini failed to generate interview Q&A for AArete - Intern, Data
     Science & Artificial Intelligence (Summer 2026)'
@@ -2491,3 +2486,7 @@ logs:
   status: success
   timestamp: '2026-04-01T20:55:10'
   details: Analyzed 380 jobs.
+- agent: CareerAgent
+  action: Fetch started
+  level: INFO
+  timestamp: '2026-04-01T20:56:35'
