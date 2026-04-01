@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Collective Artists Network Data Science Intern: Gemini
-    failed to generate interview Q&A for Collective Artists Network - Data Science
-    Intern'
-  status: error
-  timestamp: '2026-03-30T08:21:05'
-- agent: PracticeAgent
   action: 'Failed portal for Globik AI Private Limited Data Science Intern: Gemini
     failed to generate interview Q&A for Globik AI Private Limited - Data Science
     Intern'
@@ -2462,3 +2456,7 @@ logs:
   action: 100 jobs fetched
   level: INFO
   timestamp: '2026-04-01T21:05:04'
+- agent: CareerAgent
+  action: 100 jobs fetched, 85 relevant
+  level: INFO
+  timestamp: '2026-04-01T21:05:09'
