@@ -117,6 +117,7 @@ def sync_from_github_cloud():
         "frontend/portfolio/internships", 
         "frontend/interview", 
         "frontend/practice",
+        "frontend/portfolio",
         "cover_letters",
         "optimized_resumes",
         "application_packages"
