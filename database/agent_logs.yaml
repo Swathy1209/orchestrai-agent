@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for INDUS Technology, Inc. Business Analyst, Intern: Gemini
-    failed to generate interview Q&A for INDUS Technology, Inc. - Business Analyst,
-    Intern'
-  status: error
-  timestamp: '2026-03-30T08:18:56'
-- agent: PracticeAgent
   action: 'Failed portal for DevTown Data Science Mentor: Gemini failed to generate
     interview Q&A for DevTown - Data Science Mentor'
   status: error
@@ -2621,3 +2615,7 @@ logs:
   status: success
   timestamp: '2026-04-01T20:04:48'
   details: Analyzed 379 jobs.
+- agent: CareerAgent
+  action: Fetch started
+  level: INFO
+  timestamp: '2026-04-01T20:05:48'
