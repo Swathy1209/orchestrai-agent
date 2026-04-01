@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Almost Magic Private Limited Artificial Intelligence
-    (AI): Gemini failed to generate interview Q&A for Almost Magic Private Limited
-    - Artificial Intelligence (AI)'
-  status: error
-  timestamp: '2026-03-30T08:19:18'
-- agent: PracticeAgent
   action: 'Failed portal for GCCX AI/ML Engineer: Gemini failed to generate interview
     Q&A for GCCX - AI/ML Engineer'
   status: error
@@ -2591,3 +2585,7 @@ logs:
   action: 102 jobs fetched, 87 relevant
   level: INFO
   timestamp: '2026-04-01T20:11:17'
+- agent: CareerAgent
+  action: Stored in GitHub YAML
+  level: INFO
+  timestamp: '2026-04-01T20:11:25'
