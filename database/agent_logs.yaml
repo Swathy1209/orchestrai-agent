@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Irizpro Learning Solutions Artificial Intelligence (AI):
-    Gemini failed to generate interview Q&A for Irizpro Learning Solutions - Artificial
-    Intelligence (AI)'
-  status: error
-  timestamp: '2026-03-30T08:18:51'
-- agent: PracticeAgent
   action: 'Failed portal for Barclays Private Bank Processing Business Analyst: Gemini
     failed to generate interview Q&A for Barclays - Private Bank Processing Business
     Analyst'
@@ -2628,3 +2622,7 @@ logs:
   action: 102 jobs fetched
   level: INFO
   timestamp: '2026-04-01T20:04:12'
+- agent: CareerAgent
+  action: 102 jobs fetched, 87 relevant
+  level: INFO
+  timestamp: '2026-04-01T20:04:17'
