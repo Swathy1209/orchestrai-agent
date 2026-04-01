@@ -172,273 +172,376 @@ def _build_interview_html(
     user_name: str,
 ) -> str:
     ts = datetime.now(timezone.utc).strftime("%B %d, %Y")
-    skill_tags = "".join(
-        f'<span style="background:#e8eaf6;color:#3949ab;padding:4px 10px;'
-        f'border-radius:20px;font-size:12px;margin:3px;display:inline-block">{s}</span>'
-        for s in skills[:8]
-    )
+    
+    # Flatten questions into a list of {q, cat, color} for the JS state machine
+    flat_questions = []
+    
+    cat_meta = {
+        "technical": {"label": "⚙️ Technical", "color": "#818cf8"},
+        "behavioral": {"label": "🧠 Behavioral", "color": "#34d399"},
+        "coding": {"label": "💻 Coding", "color": "#38bdf8"},
+        "case": {"label": "📊 Case Study", "color": "#fbbf24"},
+    }
+    
+    for cat in ["technical", "behavioral", "coding", "case"]:
+        qs = questions.get(cat, [])
+        for q in qs:
+            flat_questions.append({
+                "question": q,
+                "category": cat_meta[cat]["label"],
+                "color": cat_meta[cat]["color"],
+                "type": cat
+            })
 
-    def _q_items(qs: list[str], color: str = "#1a237e") -> str:
-        return "".join(
-            f'<li style="margin:12px 0;padding:12px 16px;background:white;'
-            f'border-left:4px solid {color};border-radius:6px;'
-            f'box-shadow:0 1px 4px rgba(0,0,0,0.06);line-height:1.5">'
-            f'<span style="font-weight:600;color:{color}">Q{i+1}.</span> {q}</li>'
-            for i, q in enumerate(qs)
-        ) if qs else '<li style="color:#999;margin:8px 0">No questions generated.</li>'
-
-    def _code_items(qs: list[str]) -> str:
-        if not qs:
-            return "<p style='color:#999'>No coding challenges generated.</p>"
-        return "".join(
-            f'<div style="background:#1e1e2e;border-radius:10px;padding:20px;margin-bottom:14px">'
-            f'<p style="color:#cdd6f4;font-size:14px;margin:0;line-height:1.6">'
-            f'<span style="color:#89b4fa;font-weight:700">Problem {i+1}:</span> {q}</p>'
-            f'<div style="margin-top:12px;background:#181825;border-radius:6px;padding:12px;">'
-            f'<span style="color:#6c7086;font-size:12px">// Write your solution here...</span></div>'
-            f'</div>'
-            for i, q in enumerate(qs)
-        )
-
-    # Case section (only for data roles)
-    case_section = ""
-    if questions.get("case"):
-        case_items = "".join(
-            f'<div style="background:#fff8e1;border:1px solid #ffd54f;border-radius:8px;'
-            f'padding:16px;margin-bottom:12px">'
-            f'<span style="font-weight:700;color:#e65100">📊 Case {i+1}:</span> '
-            f'<span style="color:#424242">{q}</span></div>'
-            for i, q in enumerate(questions["case"])
-        )
-        case_section = f"""
-        <div class="card">
-          <h3>📊 Section 4: Case Study Questions</h3>
-          <p style="color:#666;font-size:13px;margin-bottom:16px">
-            Analytical and data-driven scenario questions for this role
-          </p>
-          {case_items}
-        </div>"""
+    skill_tags = "".join(f'<span class="badge">{s}</span>' for s in skills[:8])
+    
+    # Convert flat questions to JSON for JavaScript
+    import json
+    questions_json = json.dumps(flat_questions)
 
     return f"""<!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8"/>
-<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<title>Mock Interview — {role} at {company}</title>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet"/>
-<style>
-  *{{margin:0;padding:0;box-sizing:border-box}}
-  body{{font-family:'Inter',sans-serif;background:#0f0e17;color:#fffffe;min-height:100vh}}
-  .hero{{background:linear-gradient(135deg,#7c3aed,#4f46e5,#2563eb);padding:50px 40px;text-align:center}}
-  .hero h1{{font-size:28px;font-weight:700;margin-bottom:8px}}
-  .hero h2{{font-size:16px;font-weight:400;opacity:0.85;margin-bottom:16px}}
-  .badge{{background:rgba(255,255,255,0.2);padding:6px 16px;border-radius:20px;font-size:12px;display:inline-block;margin:4px}}
-  .container{{max-width:860px;margin:0 auto;padding:40px 20px}}
-  .card{{background:#1a1a2e;border-radius:14px;padding:28px;margin-bottom:24px;border:1px solid rgba(255,255,255,0.08)}}
-  .card h3{{color:#a78bfa;font-size:17px;margin-bottom:18px;padding-bottom:10px;border-bottom:1px solid rgba(255,255,255,0.1)}}
-  ul{{list-style:none;padding:0}}
-  .timer{{background:#16213e;border:2px solid #7c3aed;border-radius:12px;padding:16px;text-align:center;margin-bottom:24px}}
-  .timer span{{font-size:36px;font-weight:700;color:#a78bfa;font-variant-numeric:tabular-nums}}
-  .ai-feedback{{background:linear-gradient(135deg,#1a1a2e,#16213e);border:1px dashed #7c3aed;border-radius:12px;padding:24px;text-align:center}}
-  .footer{{text-align:center;color:#555;font-size:12px;padding:30px;border-top:1px solid rgba(255,255,255,0.05)}}
-  @media(max-width:600px){{.hero{{padding:40px 20px}}}}
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mock Interview — {role} at {company}</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        * {{ margin: 0; padding: 0; box-sizing: border-box; }}
+        body {{
+            font-family: 'Inter', -apple-system, sans-serif;
+            background: linear-gradient(135deg, #0f0c29 0%, #1a1a3e 40%, #24243e 100%);
+            color: #e2e8f0;
+            min-height: 100vh;
+            overflow-x: hidden;
+        }}
+        
+        /* ── Glassmorphism ─────────────────────────── */
+        .glass {{
+            background: rgba(255, 255, 255, 0.04);
+            backdrop-filter: blur(14px);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            border-radius: 20px;
+        }}
+        
+        .hero {{
+            background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 50%, #d946ef 100%);
+            padding: 40px 20px;
+            text-align: center;
+            position: relative;
+            box-shadow: 0 4px 50px rgba(139, 92, 246, 0.3);
+        }}
+        
+        .hero h1 {{ font-size: 1.8rem; font-weight: 800; color: #fff; margin-bottom: 8px; }}
+        .hero p {{ font-size: 1rem; color: rgba(255, 255, 255, 0.85); }}
+        
+        .main-layout {{
+            display: grid;
+            grid-template-columns: 280px 1fr;
+            gap: 24px;
+            max-width: 1200px;
+            margin: 30px auto;
+            padding: 0 20px;
+        }}
+
+        /* ── Sidebar ───────────────────────────────── */
+        .sidebar {{ padding: 24px; height: fit-content; sticky: top; top: 20px; }}
+        .sidebar-title {{ font-size: 0.9rem; font-weight: 700; color: #a78bfa; margin-bottom: 20px; text-transform: uppercase; letter-spacing: 1px; }}
+        
+        .step-item {{
+            display: flex;
+            align-items: center;
+            margin-bottom: 12px;
+            padding: 10px;
+            border-radius: 10px;
+            color: rgba(255,255,255,0.4);
+            font-size: 0.85rem;
+            transition: all 0.2s;
+        }}
+        .step-item.active {{ background: rgba(139, 92, 246, 0.15); color: #fff; font-weight: 600; border-left: 3px solid #8b5cf6; }}
+        .step-item.completed {{ color: #10b981; }}
+        .step-dot {{ width: 8px; height: 8px; border-radius: 50%; background: currentColor; margin-right: 12px; }}
+
+        /* ── Interview Stage ───────────────────────── */
+        .stage {{ position: relative; }}
+        
+        .question-card {{
+            padding: 40px;
+            min-height: 400px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }}
+        
+        .category-badge {{
+            padding: 6px 16px;
+            border-radius: 20px;
+            font-size: 11px;
+            font-weight: 800;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 24px;
+            background: rgba(139, 92, 246, 0.2);
+            color: #c4b5fd;
+        }}
+        
+        .question-text {{ font-size: 1.6rem; font-weight: 600; line-height: 1.4; color: #fff; margin-bottom: 40px; max-width: 650px; }}
+        
+        /* ── Input Area ────────────────────────────── */
+        .input-area {{ width: 100%; margin-top: auto; }}
+        textarea {{
+            width: 100%;
+            background: rgba(0,0,0,0.2);
+            border: 1px solid rgba(255,255,255,0.1);
+            border-radius: 12px;
+            padding: 16px;
+            color: #fff;
+            font-family: inherit;
+            resize: none;
+            margin-bottom: 20px;
+            transition: border-color 0.2s;
+        }}
+        textarea:focus {{ border-color: #8b5cf6; outline: none; }}
+        
+        .btn-group {{ display: flex; gap: 16px; justify-content: center; }}
+        .btn {{
+            padding: 12px 32px;
+            border-radius: 30px;
+            font-weight: 700;
+            cursor: pointer;
+            border: none;
+            transition: all 0.2s;
+            font-size: 0.95rem;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }}
+        .btn-primary {{ background: #8b5cf6; color: white; box-shadow: 0 4px 15px rgba(139, 92, 246, 0.4); }}
+        .btn-primary:not(:disabled):hover {{ background: #7c3aed; transform: translateY(-2px); }}
+        .btn-secondary {{ background: rgba(255,255,255,0.1); color: #fff; }}
+        .btn-secondary:hover {{ background: rgba(255,255,255,0.15); }}
+        .btn:disabled {{ opacity: 0.5; cursor: not-allowed; }}
+
+        .hint-btn {{ color: #fbbf24; font-size: 0.85rem; border: none; background: none; cursor: pointer; text-decoration: underline; margin-top: 10px; }}
+
+        /* ── Timer ─────────────────────────────────── */
+        .timer-box {{ position: absolute; top: -15px; right: 20px; padding: 10px 20px; border-radius: 12px; font-weight: 700; font-size: 1.1rem; color: #f87171; background: #1a1a3e; border: 1px solid #f87171; }}
+
+        /* ── Feedback Form (Final Step) ────────────────*/
+        #feedback-screen {{ display: none; }}
+        .rating-group {{ margin-bottom: 20px; }}
+        input[type="range"] {{ width: 100%; accent-color: #8b5cf6; margin-top: 8px; }}
+        
+        .badge {{ background: rgba(255,255,255,0.1); padding: 4px 12px; border-radius: 12px; font-size: 0.8rem; margin: 3px; display: inline-block; }}
+        
+        .footer {{ text-align: center; padding: 40px; color: rgba(255,255,255,0.2); font-size: 0.8rem; }}
+        
+        @keyframes slideIn {{ from {{ opacity: 0; transform: translateX(30px); }} to {{ opacity: 1; transform: translateX(0); }} }}
+        .animate-slide {{ animation: slideIn 0.4s cubic-bezier(0,0,0.2,1); }}
+
+        @media (max-width: 768px) {{
+            .main-layout {{ grid-template-columns: 1fr; }}
+            .sidebar {{ display: none; }}
+            .question-text {{ font-size: 1.3rem; }}
+        }}
+    </style>
 </head>
 <body>
-
-<div class="hero">
-  <h1>🎤 Mock Interview Simulation</h1>
-  <h2>{role} at <strong>{company}</strong></h2>
-  <div>
-    <span class="badge">👤 {user_name}</span>
-    <span class="badge">📅 {ts}</span>
-    <span class="badge">⏱️ ~30 min</span>
-  </div>
-</div>
-
-<div class="container">
-  <!-- Skills -->
-  <div class="card">
-    <h3>🎯 Skills Being Tested</h3>
-    <div style="margin-top:8px">{skill_tags or '<span style="color:#666">General CS skills</span>'}</div>
-  </div>
-
-  <!-- Timer -->
-  <div class="timer">
-    <p style="color:#a78bfa;font-size:13px;margin-bottom:8px;font-weight:600">INTERVIEW TIMER</p>
-    <span id="timer">30:00</span>
-    <div style="margin-top:12px;display:flex;gap:10px;justify-content:center">
-      <button onclick="startTimer()" style="background:#7c3aed;color:white;border:none;padding:8px 20px;border-radius:6px;cursor:pointer;font-size:13px">▶ Start</button>
-      <button onclick="resetTimer()" style="background:#374151;color:white;border:none;padding:8px 20px;border-radius:6px;cursor:pointer;font-size:13px">↺ Reset</button>
-    </div>
-  </div>
-
-  <!-- Section 1: Technical -->
-  <div class="card">
-    <h3>⚙️ Section 1: Technical Interview Questions</h3>
-    <p style="color:#666;font-size:13px;margin-bottom:16px">
-      Role-specific technical depth questions — answer out loud or in writing
-    </p>
-    <ul>{_q_items(questions.get('technical', []), '#4f46e5')}</ul>
-  </div>
-
-  <!-- Section 2: Coding -->
-  <div class="card">
-    <h3>💻 Section 2: Coding Challenge</h3>
-    <p style="color:#666;font-size:13px;margin-bottom:16px">
-      Implement solutions and explain your thought process
-    </p>
-    {_code_items(questions.get('coding', []))}
-  </div>
-
-  <!-- Section 3: Behavioral -->
-  <div class="card">
-    <h3>🧠 Section 3: Behavioral Questions (STAR Method)</h3>
-    <p style="color:#666;font-size:13px;margin-bottom:16px">
-      Use the <strong>Situation → Task → Action → Result</strong> framework
-    </p>
-    <ul>{_q_items(questions.get('behavioral', []), '#059669')}</ul>
-  </div>
-
-  {case_section}
-
-  <!-- Log Feedback Form -->
-  <div class="card" style="border:2px solid #7c3aed">
-    <h3 style="color:#a78bfa">📝 Log Interview Feedback</h3>
-    <p style="color:#666;font-size:13px;margin-bottom:18px">
-      Submit your feedback after the interview — skill gaps and learning roadmap will
-      update automatically in tomorrow's daily report.
-    </p>
-
-    <div style="display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-bottom:14px">
-      <div>
-        <label style="color:#a78bfa;font-size:12px;font-weight:600;display:block;margin-bottom:4px">Company</label>
-        <input id="fb_company" value="{company}" readonly
-          style="width:100%;background:#0f0e17;border:1px solid #7c3aed;border-radius:6px;
-                 padding:8px 12px;color:#fffffe;font-size:13px"/>
-      </div>
-      <div>
-        <label style="color:#a78bfa;font-size:12px;font-weight:600;display:block;margin-bottom:4px">Role</label>
-        <input id="fb_role" value="{role}" readonly
-          style="width:100%;background:#0f0e17;border:1px solid #7c3aed;border-radius:6px;
-                 padding:8px 12px;color:#fffffe;font-size:13px"/>
-      </div>
+    <div class="hero">
+        <p>ORCHESTRAI INTERVIEW COACH</p>
+        <h1>🤖 AI Mock Interview Session</h1>
+        <p style="margin-top:8px;">{role} — <strong>{company}</strong></p>
     </div>
 
-    <label style="color:#a78bfa;font-size:12px;font-weight:600;display:block;margin-bottom:4px">
-      Questions You Faced <span style="color:#666">(one per line)</span>
-    </label>
-    <textarea id="fb_questions" rows="4" placeholder="Explain gradient descent&#10;What is bias-variance tradeoff&#10;..."
-      style="width:100%;background:#0f0e17;border:1px solid #7c3aed;border-radius:6px;
-             padding:8px 12px;color:#fffffe;font-size:13px;margin-bottom:14px;
-             font-family:Inter,sans-serif;resize:vertical"></textarea>
-
-    <div style="display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-bottom:18px">
-      <div>
-        <label style="color:#a78bfa;font-size:12px;font-weight:600;display:block;margin-bottom:4px">
-          Confidence Level: <span id="conf_val" style="color:#fffffe">6</span>/10
-        </label>
-        <input id="fb_confidence" type="range" min="1" max="10" value="6"
-          oninput="document.getElementById('conf_val').textContent=this.value"
-          style="width:100%;accent-color:#7c3aed"/>
-        <div style="display:flex;justify-content:space-between;font-size:11px;color:#555">
-          <span>Not confident</span><span>Very confident</span>
+    <div class="main-layout">
+        <!-- Sidebar Navigation -->
+        <div class="sidebar glass">
+            <div class="sidebar-title">Session Progress</div>
+            <div id="step-list">
+                <!-- JS populated -->
+            </div>
+            
+            <div style="margin-top: 40px; border-top: 1px solid rgba(255,255,255,0.1); padding-top: 20px;">
+                <div class="sidebar-title">Skills Overview</div>
+                {skill_tags or '<span style="color:#666">General skills</span>'}
+            </div>
         </div>
-      </div>
-      <div>
-        <label style="color:#a78bfa;font-size:12px;font-weight:600;display:block;margin-bottom:4px">
-          Difficulty Level: <span id="diff_val" style="color:#fffffe">7</span>/10
-        </label>
-        <input id="fb_difficulty" type="range" min="1" max="10" value="7"
-          oninput="document.getElementById('diff_val').textContent=this.value"
-          style="width:100%;accent-color:#e65100"/>
-        <div style="display:flex;justify-content:space-between;font-size:11px;color:#555">
-          <span>Easy</span><span>Very hard</span>
+
+        <!-- Main Stage -->
+        <div class="stage">
+            <div id="timer" class="timer-box">30:00</div>
+            
+            <!-- Question Screen -->
+            <div id="question-screen" class="question-card glass animate-slide">
+                <div id="category-label" class="category-badge">TECHNICAL ROUND</div>
+                <div id="q-text" class="question-text">Loading question...</div>
+                
+                <div class="input-area">
+                    <textarea id="user-answer" rows="4" placeholder="Type your answer here... (Tip: Explain your thought process out loud)"></textarea>
+                    
+                    <div class="btn-group">
+                        <button id="skip-btn" class="btn btn-secondary" onclick="nextQuestion(true)">Skip</button>
+                        <button id="next-btn" class="btn btn-primary" onclick="nextQuestion()">Next Question →</button>
+                    </div>
+                    <div>
+                        <button class="hint-btn" onclick="showHint()">Need a hint? (Tamil → English Helper)</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Final Feedback Screen -->
+            <div id="feedback-screen" class="question-card glass animate-slide">
+                <h2 style="margin-bottom: 20px;">🎉 Session Complete</h2>
+                <p style="margin-bottom: 30px; color: #a78bfa;">Great job, {user_name}! Let's log your performance to improve your roadmap.</p>
+                
+                <div style="width: 100%; text-align: left;">
+                    <div class="rating-group">
+                        <label style="font-weight: 600; font-size: 0.9rem;">How confident did you feel?</label>
+                        <input type="range" id="fb_confidence" min="1" max="10" value="7">
+                        <div style="display:flex; justify-content:space-between; font-size: 0.75rem; color:#666;">
+                            <span>Nervous</span><span>Confident</span>
+                        </div>
+                    </div>
+                    
+                    <div class="rating-group">
+                        <label style="font-weight: 600; font-size: 0.9rem;">Interview Difficulty</label>
+                        <input type="range" id="fb_difficulty" min="1" max="10" value="5">
+                        <div style="display:flex; justify-content:space-between; font-size: 0.75rem; color:#666;">
+                            <span>Easy</span><span>Hard</span>
+                        </div>
+                    </div>
+
+                    <label style="font-weight: 600; font-size: 0.9rem;">Review of faced questions:</label>
+                    <textarea id="fb_questions" rows="4" style="margin-top:8px;"></textarea>
+                </div>
+
+                <button class="btn btn-primary" onclick="submitFeedback()">📤 Finalize & Log Session</button>
+                <div id="fb_status" style="margin-top: 15px; font-size: 13px;"></div>
+            </div>
         </div>
-      </div>
     </div>
 
-    <button onclick="submitFeedback()"
-      style="background:#7c3aed;color:white;border:none;padding:12px 28px;
-             border-radius:8px;cursor:pointer;font-size:14px;font-weight:600;
-             transition:background 0.2s"
-      onmouseover="this.style.background='#6d28d9'"
-      onmouseout="this.style.background='#7c3aed'">
-      📤 Log Interview Feedback
-    </button>
-    <span id="fb_status" style="margin-left:16px;font-size:13px"></span>
-  </div>
-</div>
+    <div class="footer">
+        Generated by OrchestrAI • Interview Coach • {ts}
+    </div>
 
-<div class="footer">Generated by OrchestrAI • Interview Coach • {ts}</div>
+    <script>
+        const QUESTIONS = {questions_json};
+        let currentIdx = 0;
+        let timerSeconds = 1800;
+        let userResponses = [];
 
-<script>
-// ── Timer ──────────────────────────────────────────────────────────────────
-let timerInterval = null;
-let seconds = 1800;
-function startTimer() {{
-  if (timerInterval) return;
-  timerInterval = setInterval(() => {{
-    if (seconds <= 0) {{ clearInterval(timerInterval); return; }}
-    seconds--;
-    const m = String(Math.floor(seconds/60)).padStart(2,'0');
-    const s = String(seconds%60).padStart(2,'0');
-    document.getElementById('timer').textContent = m+':'+s;
-  }}, 1000);
-}}
-function resetTimer() {{
-  clearInterval(timerInterval);
-  timerInterval = null;
-  seconds = 1800;
-  document.getElementById('timer').textContent = '30:00';
-}}
+        // ── Initialization ─────────────────────────────────
+        function init() {{
+            renderSidebar();
+            updateScreen();
+            startTimer();
+        }}
 
-// ── Feedback Submission ────────────────────────────────────────────────────
-async function submitFeedback() {{
-  const company    = document.getElementById('fb_company').value.trim();
-  const role       = document.getElementById('fb_role').value.trim();
-  const rawQ       = document.getElementById('fb_questions').value.trim();
-  const confidence = parseInt(document.getElementById('fb_confidence').value);
-  const difficulty = parseInt(document.getElementById('fb_difficulty').value);
-  const status     = document.getElementById('fb_status');
+        function renderSidebar() {{
+            const list = document.getElementById('step-list');
+            list.innerHTML = QUESTIONS.map((q, i) => `
+                <div class="step-item ${{i === currentIdx ? 'active' : ''}} ${{i < currentIdx ? 'completed' : ''}}">
+                    <div class="step-dot"></div>
+                    Q${{i + 1}}. ${{q.category}}
+                </div>
+            `).join('');
+        }}
 
-  if (!rawQ) {{
-    status.textContent = '⚠️ Please enter at least one question you faced.';
-    status.style.color = 'orange';
-    return;
-  }}
+        function updateScreen() {{
+            if (currentIdx >= QUESTIONS.length) {{
+                showFeedback();
+                return;
+            }}
 
-  const questions_faced = rawQ.split('\\n').map(q => q.trim()).filter(q => q.length > 2);
+            const q = QUESTIONS[currentIdx];
+            const screen = document.getElementById('question-screen');
+            screen.classList.remove('animate-slide');
+            void screen.offsetWidth; // Trigger reflow
+            screen.classList.add('animate-slide');
 
-  const payload = {{ company, role, questions_faced, confidence_level: confidence, difficulty_level: difficulty }};
+            document.getElementById('category-label').textContent = q.category;
+            document.getElementById('category-label').style.color = q.color;
+            document.getElementById('category-label').style.background = q.color + '22';
+            document.getElementById('q-text').textContent = q.question;
+            document.getElementById('user-answer').value = '';
+            
+            renderSidebar();
+        }}
 
-  status.textContent = '⏳ Saving...';
-  status.style.color = '#a78bfa';
+        function nextQuestion(skipped = false) {{
+            const ans = document.getElementById('user-answer').value.trim();
+            userResponses.push({{
+                q: QUESTIONS[currentIdx].question,
+                a: skipped ? '[Skipped]' : ans
+            }});
 
-  try {{
-    const base = window.location.origin;
-    const resp = await fetch(base + '/log-feedback', {{
-      method: 'POST',
-      headers: {{ 'Content-Type': 'application/json' }},
-      body: JSON.stringify(payload)
-    }});
-    const data = await resp.json();
-    if (resp.ok && data.status === 'ok') {{
-      status.textContent = '✅ ' + data.message;
-      status.style.color = '#4ade80';
-      document.getElementById('fb_questions').value = '';
-    }} else {{
-      status.textContent = '❌ ' + (data.message || 'Error saving feedback');
-      status.style.color = '#f87171';
-    }}
-  }} catch(e) {{
-    status.textContent = '❌ Network error: ' + e.message;
-    status.style.color = '#f87171';
-  }}
-}}
-</script>
+            currentIdx++;
+            updateScreen();
+        }}
+
+        function showHint() {{
+            const q = QUESTIONS[currentIdx].question;
+            alert("Advice: Think in Tamil if it helps, but translate key concepts. \\n\\nFocus on: " + q.split(' ').slice(0, 5).join(' ') + "...");
+        }}
+
+        function showFeedback() {{
+            document.getElementById('question-screen').style.display = 'none';
+            document.getElementById('feedback-screen').style.display = 'flex';
+            
+            // Auto-populate some questions for feedback
+            const summary = userResponses.map(r => r.q).join('\\n');
+            document.getElementById('fb_questions').value = summary;
+        }}
+
+        function startTimer() {{
+            setInterval(() => {{
+                if (timerSeconds <= 0) return;
+                timerSeconds--;
+                const m = Math.floor(timerSeconds / 60);
+                const s = timerSeconds % 60;
+                document.getElementById('timer').textContent = `${{String(m).padStart(2,'0')}}:${{String(s).padStart(2,'0')}}`;
+            }}, 1000);
+        }}
+
+        async function submitFeedback() {{
+            const status = document.getElementById('fb_status');
+            status.textContent = '⏳ Saving to cloud database...';
+            
+            const payload = {{
+                company: "{company}",
+                role: "{role}",
+                questions_faced: document.getElementById('fb_questions').value.split('\\n').filter(q => q.trim().length > 2),
+                confidence_level: parseInt(document.getElementById('fb_confidence').value),
+                difficulty_level: parseInt(document.getElementById('fb_difficulty').value)
+            }};
+
+            try {{
+                const resp = await fetch(window.location.origin + '/log-feedback', {{
+                    method: 'POST',
+                    headers: {{ 'Content-Type': 'application/json' }},
+                    body: JSON.stringify(payload)
+                }});
+                const data = await resp.json();
+                if (resp.ok) {{
+                    status.innerHTML = '✅ <span style="color:#4ade80">Session Logged! Your skill gap roadmap will update tomorrow.</span>';
+                    setTimeout(() => {{ window.location.href = '/'; }}, 3000);
+                }} else {{
+                    status.textContent = '❌ Error: ' + data.message;
+                }}
+            }} catch (e) {{
+                status.textContent = '❌ Connection failed. Check Render logs.';
+            }}
+        }}
+
+        window.onload = init;
+    </script>
 </body>
 </html>"""
+
 
 
 
