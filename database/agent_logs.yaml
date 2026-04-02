@@ -1,8 +1,4 @@
 logs:
-- agent: OpportunityMatchingAgent
-  action: Generated match scores for 354 internships
-  status: success
-  timestamp: '2026-03-31T08:11:21'
 - agent: InternshipScraperAgent
   action: Scrape completed, added 12 jobs
   status: completed
@@ -2073,3 +2069,7 @@ logs:
   action: Email delegation passed to ExecutionAgent
   level: INFO
   timestamp: '2026-04-02T18:01:35'
+- agent: CareerAgent
+  action: Fetch started
+  level: INFO
+  timestamp: '2026-04-02T18:01:44'
