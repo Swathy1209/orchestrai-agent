@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Diffzene Machine Learning: Gemini failed to generate
-    interview Q&A for Diffzene - Machine Learning'
-  status: error
-  timestamp: '2026-03-31T08:03:19'
-- agent: PracticeAgent
   action: 'Failed portal for Hooman Digital LLP Machine Learning: Gemini failed to
     generate interview Q&A for Hooman Digital LLP - Machine Learning'
   status: error
@@ -2219,3 +2214,7 @@ logs:
   action: 99 jobs fetched, 84 relevant
   level: INFO
   timestamp: '2026-04-02T08:12:06'
+- agent: CareerAgent
+  action: Stored in GitHub YAML
+  level: INFO
+  timestamp: '2026-04-02T08:12:12'
