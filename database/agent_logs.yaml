@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Raviraj Sarees Pvt Ltd Artificial Intelligence (AI):
-    Gemini failed to generate interview Q&A for Raviraj Sarees Pvt Ltd - Artificial
-    Intelligence (AI)'
-  status: error
-  timestamp: '2026-03-31T08:04:27'
-- agent: PracticeAgent
   action: 'Failed portal for Myntra Associate -Data Analyst: Gemini failed to generate
     interview Q&A for Myntra - Associate -Data Analyst'
   status: error
@@ -2185,3 +2179,7 @@ logs:
   status: success
   timestamp: '2026-04-02T08:20:28'
   details: Analyzed 398 jobs.
+- agent: CareerAgent
+  action: Fetch started
+  level: INFO
+  timestamp: '2026-04-02T08:21:58'
