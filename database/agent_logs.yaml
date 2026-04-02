@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Deloitte AWS Data Engineer: Gemini failed to generate
-    interview Q&A for Deloitte - AWS Data Engineer'
-  status: error
-  timestamp: '2026-03-31T08:02:16'
-- agent: PracticeAgent
   action: 'Failed portal for HSBC Business Analyst- Transformation: Gemini failed
     to generate interview Q&A for HSBC - Business Analyst- Transformation'
   status: error
@@ -2255,3 +2250,7 @@ logs:
   action: 102 jobs fetched
   level: INFO
   timestamp: '2026-04-02T04:22:55'
+- agent: CareerAgent
+  action: 102 jobs fetched, 87 relevant
+  level: INFO
+  timestamp: '2026-04-02T04:22:59'
