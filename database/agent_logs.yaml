@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Lensa Data Science Internship: Gemini failed to generate
-    interview Q&A for Lensa - Data Science Internship'
-  status: error
-  timestamp: '2026-03-31T08:01:58'
-- agent: PracticeAgent
   action: 'Failed portal for AARP Data Analyst Intern: Gemini failed to generate interview
     Q&A for AARP - Data Analyst Intern'
   status: error
@@ -2266,3 +2261,7 @@ logs:
   action: Fetch started
   level: INFO
   timestamp: '2026-04-02T04:18:43'
+- agent: CareerAgent
+  action: 102 jobs fetched
+  level: INFO
+  timestamp: '2026-04-02T04:19:10'
