@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for OMNIDYA TECH LLP Artificial Intelligence Intern: Gemini
-    failed to generate interview Q&A for OMNIDYA TECH LLP - Artificial Intelligence
-    Intern'
-  status: error
-  timestamp: '2026-03-31T08:05:42'
-- agent: PracticeAgent
   action: 'Failed portal for Stirring Minds Artificial Intelligence Intern: Gemini
     failed to generate interview Q&A for Stirring Minds - Artificial Intelligence
     Intern'
@@ -2151,3 +2145,7 @@ logs:
   status: success
   timestamp: '2026-04-02T08:30:47'
   details: Analyzed 398 jobs.
+- agent: CareerAgent
+  action: Fetch started
+  level: INFO
+  timestamp: '2026-04-02T08:32:02'
