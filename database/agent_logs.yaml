@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for CareerNest Machine Learning: Gemini failed to generate
-    interview Q&A for CareerNest - Machine Learning'
-  status: error
-  timestamp: '2026-03-31T08:01:42'
-- agent: PracticeAgent
   action: 'Failed portal for Fairassets Technologies India Private Limited Artificial
     Intelligence (AI): Gemini failed to generate interview Q&A for Fairassets Technologies
     India Private Limited - Artificial Intelligence (AI)'
@@ -2272,3 +2267,7 @@ logs:
   action: 102 jobs fetched
   level: INFO
   timestamp: '2026-04-02T04:17:44'
+- agent: CareerAgent
+  action: 102 jobs fetched, 87 relevant
+  level: INFO
+  timestamp: '2026-04-02T04:17:53'
