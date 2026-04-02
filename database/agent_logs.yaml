@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for OMR Shipping India Private Limited Machine Learning Intern:
-    Gemini failed to generate interview Q&A for OMR Shipping India Private Limited
-    - Machine Learning Intern'
-  status: error
-  timestamp: '2026-03-31T08:07:08'
-- agent: PracticeAgent
   action: 'Failed portal for Ramyoz Artificial Intelligence Intern: Gemini failed
     to generate interview Q&A for Ramyoz - Artificial Intelligence Intern'
   status: error
@@ -2090,3 +2084,7 @@ logs:
   action: 103 jobs fetched, 88 relevant
   level: INFO
   timestamp: '2026-04-02T17:57:10'
+- agent: CareerAgent
+  action: Stored in GitHub YAML
+  level: INFO
+  timestamp: '2026-04-02T17:57:17'
