@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Mple AI Machine Learning Intern: Gemini failed to generate
-    interview Q&A for Mple AI - Machine Learning Intern'
-  status: error
-  timestamp: '2026-03-31T08:05:18'
-- agent: PracticeAgent
   action: 'Failed portal for Reach Technologies Machine Learning Intern: Gemini failed
     to generate interview Q&A for Reach Technologies - Machine Learning Intern'
   status: error
@@ -2161,3 +2156,8 @@ logs:
   action: SkillAgent run initiated
   status: success
   timestamp: '2026-04-02T08:26:55'
+- agent: SkillAgent
+  action: Skill gap analysis complete
+  status: success
+  timestamp: '2026-04-02T08:27:08'
+  details: Analyzed 398 jobs.
