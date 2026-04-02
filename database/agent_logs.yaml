@@ -1,8 +1,4 @@
 logs:
-- agent: CareerAgent
-  action: Email delegation passed to ExecutionAgent
-  level: INFO
-  timestamp: '2026-04-01T15:37:28'
 - agent: SkillAgent
   action: SkillAgent run initiated
   status: success
@@ -2072,3 +2068,8 @@ logs:
   action: SkillAgent run initiated
   status: success
   timestamp: '2026-04-02T18:02:46'
+- agent: SkillAgent
+  action: Skill gap analysis complete
+  status: success
+  timestamp: '2026-04-02T18:02:58'
+  details: Analyzed 425 jobs.
