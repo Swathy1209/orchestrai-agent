@@ -1,9 +1,5 @@
 logs:
 - agent: CareerAgent
-  action: 102 jobs fetched, 87 relevant
-  level: INFO
-  timestamp: '2026-04-02T04:04:32'
-- agent: CareerAgent
   action: Stored in GitHub YAML
   level: INFO
   timestamp: '2026-04-02T04:04:41'
@@ -2071,3 +2067,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-02T21:08:11'
+- agent: PracticeAgent
+  action: 'Failed portal for Dassault Systèmes Data Science Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-02T21:08:22'
