@@ -1,9 +1,5 @@
 logs:
 - agent: CareerAgent
-  action: 102 jobs fetched
-  level: INFO
-  timestamp: '2026-04-02T04:10:28'
-- agent: CareerAgent
   action: 102 jobs fetched, 87 relevant
   level: INFO
   timestamp: '2026-04-02T04:10:33'
@@ -2082,3 +2078,8 @@ logs:
     Analyst Engineering Intern: Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-02T21:10:33'
+- agent: PracticeAgent
+  action: 'Failed portal for Old World Industries Data Analyst Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-02T21:10:44'
