@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Tesla Internship, Data Engineer, Energy (Summer 2026):
-    Gemini failed to generate interview Q&A for Tesla - Internship, Data Engineer,
-    Energy (Summer 2026)'
-  status: error
-  timestamp: '2026-03-31T08:00:44'
-- agent: PracticeAgent
   action: 'Failed portal for Seaman Corporation Business Analyst Intern: Gemini failed
     to generate interview Q&A for Seaman Corporation - Business Analyst Intern'
   status: error
@@ -2310,3 +2304,7 @@ logs:
   status: success
   timestamp: '2026-04-02T04:11:04'
   details: Analyzed 386 jobs.
+- agent: CareerAgent
+  action: 102 jobs fetched
+  level: INFO
+  timestamp: '2026-04-02T04:11:33'
