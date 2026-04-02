@@ -1,8 +1,4 @@
 logs:
-- agent: CareerAgent
-  action: Email delegation passed to ExecutionAgent
-  level: INFO
-  timestamp: '2026-04-01T20:27:48'
 - agent: SkillAgent
   action: SkillAgent run initiated
   status: success
@@ -2069,3 +2065,7 @@ logs:
   action: Fetch started
   level: INFO
   timestamp: '2026-04-02T19:10:31'
+- agent: CareerAgent
+  action: 104 jobs fetched
+  level: INFO
+  timestamp: '2026-04-02T19:11:00'
