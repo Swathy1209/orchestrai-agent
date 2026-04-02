@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Raviraj Sarees Pvt Ltd Machine Learning Intern: Gemini
-    failed to generate interview Q&A for Raviraj Sarees Pvt Ltd - Machine Learning
-    Intern'
-  status: error
-  timestamp: '2026-03-31T08:05:14'
-- agent: PracticeAgent
   action: 'Failed portal for The Hustle House Machine Learning Intern: Gemini failed
     to generate interview Q&A for The Hustle House - Machine Learning Intern'
   status: error
@@ -2165,3 +2159,7 @@ logs:
   action: 99 jobs fetched, 84 relevant
   level: INFO
   timestamp: '2026-04-02T08:26:38'
+- agent: CareerAgent
+  action: Stored in GitHub YAML
+  level: INFO
+  timestamp: '2026-04-02T08:26:44'
