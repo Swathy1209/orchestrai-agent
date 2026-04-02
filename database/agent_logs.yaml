@@ -1,10 +1,5 @@
 logs:
 - agent: InternshipScraperAgent
-  action: Scrape completed, added 13 jobs
-  status: completed
-  jobs_scraped: 13
-  timestamp: '2026-04-01T17:21:05'
-- agent: InternshipScraperAgent
   action: Removed 0 expired jobs
   status: completed
   expired_removed: 0
@@ -2069,3 +2064,8 @@ logs:
   action: SkillAgent run initiated
   status: success
   timestamp: '2026-04-02T18:12:07'
+- agent: SkillAgent
+  action: Skill gap analysis complete
+  status: success
+  timestamp: '2026-04-02T18:12:18'
+  details: Analyzed 425 jobs.
