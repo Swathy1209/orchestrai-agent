@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Zuneko Labs Artificial Intelligence (AI): Gemini failed
-    to generate interview Q&A for Zuneko Labs - Artificial Intelligence (AI)'
-  status: error
-  timestamp: '2026-03-31T07:59:56'
-- agent: PracticeAgent
   action: 'Failed portal for Unnati Enterprises Data Science: Gemini failed to generate
     interview Q&A for Unnati Enterprises - Data Science'
   status: error
@@ -2363,3 +2358,7 @@ logs:
   action: 102 jobs fetched, 87 relevant
   level: INFO
   timestamp: '2026-04-02T03:40:09'
+- agent: CareerAgent
+  action: Stored in GitHub YAML
+  level: INFO
+  timestamp: '2026-04-02T03:40:15'
