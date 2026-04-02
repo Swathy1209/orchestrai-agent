@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Tatari Data Science, Intern: Gemini failed to generate
-    interview Q&A for Tatari - Data Science, Intern'
-  status: error
-  timestamp: '2026-03-31T08:00:21'
-- agent: PracticeAgent
   action: 'Failed portal for Lensa Business Analyst Intern: Gemini failed to generate
     interview Q&A for Lensa - Business Analyst Intern'
   status: error
@@ -2340,3 +2335,7 @@ logs:
   action: Fetch started
   level: INFO
   timestamp: '2026-04-02T04:03:52'
+- agent: CareerAgent
+  action: 102 jobs fetched
+  level: INFO
+  timestamp: '2026-04-02T04:04:27'
