@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Hughes ML Engineering Intern: Gemini failed to generate
-    interview Q&A for Hughes - ML Engineering Intern'
-  status: error
-  timestamp: '2026-03-31T08:01:16'
-- agent: PracticeAgent
   action: 'Failed portal for The Institute for Advanced Learning and Research Artificial
     Intelligence / Machine Learning Intern: Gemini failed to generate interview Q&A
     for The Institute for Advanced Learning and Research - Artificial Intelligence
@@ -2286,3 +2281,7 @@ logs:
   status: success
   timestamp: '2026-04-02T04:14:35'
   details: Analyzed 386 jobs.
+- agent: CareerAgent
+  action: Fetch started
+  level: INFO
+  timestamp: '2026-04-02T04:15:16'
