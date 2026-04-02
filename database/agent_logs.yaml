@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Cognitiv Machine Learning Engineer Intern (Summer 2026):
-    Gemini failed to generate interview Q&A for Cognitiv - Machine Learning Engineer
-    Intern (Summer 2026)'
-  status: error
-  timestamp: '2026-03-31T08:04:18'
-- agent: PracticeAgent
   action: 'Failed portal for Emoolar Technology Private Limited Data Science: Gemini
     failed to generate interview Q&A for Emoolar Technology Private Limited - Data
     Science'
@@ -2190,3 +2184,7 @@ logs:
   action: 99 jobs fetched, 84 relevant
   level: INFO
   timestamp: '2026-04-02T08:19:59'
+- agent: CareerAgent
+  action: Stored in GitHub YAML
+  level: INFO
+  timestamp: '2026-04-02T08:20:07'
