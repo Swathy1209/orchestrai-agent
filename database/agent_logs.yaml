@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for IIDE Education Private Limited Artificial Intelligence
-    Intern: Gemini failed to generate interview Q&A for IIDE Education Private Limited
-    - Artificial Intelligence Intern'
-  status: error
-  timestamp: '2026-03-31T08:07:23'
-- agent: PracticeAgent
   action: 'Failed portal for Bosch Home Comfort USA Artificial Intelligence / Machine
     Learning - Intern: Gemini failed to generate interview Q&A for Bosch Home Comfort
     USA - Artificial Intelligence / Machine Learning - Intern'
@@ -2083,3 +2077,7 @@ logs:
   action: 103 jobs fetched, 88 relevant
   level: INFO
   timestamp: '2026-04-02T17:59:13'
+- agent: CareerAgent
+  action: Stored in GitHub YAML
+  level: INFO
+  timestamp: '2026-04-02T17:59:20'
