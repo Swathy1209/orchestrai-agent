@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Lensa Machine Learning Engineer Intern: Gemini failed
-    to generate interview Q&A for Lensa - Machine Learning Engineer Intern'
-  status: error
-  timestamp: '2026-03-31T07:59:16'
-- agent: PracticeAgent
   action: 'Failed portal for Lensa Machine Learning Intern - Summer 2026: Gemini failed
     to generate interview Q&A for Lensa - Machine Learning Intern - Summer 2026'
   status: error
@@ -2405,3 +2400,7 @@ logs:
   status: success
   timestamp: '2026-04-02T03:25:35'
   details: Analyzed 385 jobs.
+- agent: CareerAgent
+  action: Fetch started
+  level: INFO
+  timestamp: '2026-04-02T03:28:33'
