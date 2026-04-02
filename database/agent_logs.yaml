@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Allo Innoware Artificial Intelligence Intern: Gemini
-    failed to generate interview Q&A for Allo Innoware - Artificial Intelligence Intern'
-  status: error
-  timestamp: '2026-03-31T08:07:37'
-- agent: PracticeAgent
   action: 'Failed portal for Bosch USA Artificial Intelligence / Machine Learning
     - Intern: Gemini failed to generate interview Q&A for Bosch USA - Artificial Intelligence
     / Machine Learning - Intern'
@@ -2076,3 +2071,7 @@ logs:
   action: 103 jobs fetched
   level: INFO
   timestamp: '2026-04-02T18:01:13'
+- agent: CareerAgent
+  action: 103 jobs fetched, 88 relevant
+  level: INFO
+  timestamp: '2026-04-02T18:01:20'
