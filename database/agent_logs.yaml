@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Across The Globe (ATG) Machine Learning Intern: Gemini
-    failed to generate interview Q&A for Across The Globe (ATG) - Machine Learning
-    Intern'
-  status: error
-  timestamp: '2026-03-31T08:06:52'
-- agent: PracticeAgent
   action: 'Failed portal for Symonis Machine Learning Intern: Gemini failed to generate
     interview Q&A for Symonis - Machine Learning Intern'
   status: error
@@ -2098,3 +2092,7 @@ logs:
   action: 104 jobs fetched, 89 relevant
   level: INFO
   timestamp: '2026-04-02T17:55:09'
+- agent: CareerAgent
+  action: Stored in GitHub YAML
+  level: INFO
+  timestamp: '2026-04-02T17:55:19'
