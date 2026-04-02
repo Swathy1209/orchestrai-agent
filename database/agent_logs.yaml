@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Emoolar Technology Private Limited Artificial Intelligence
-    (AI): Gemini failed to generate interview Q&A for Emoolar Technology Private Limited
-    - Artificial Intelligence (AI)'
-  status: error
-  timestamp: '2026-03-31T08:00:02'
-- agent: PracticeAgent
   action: 'Failed portal for Infinity Assurance Solutions Private Limited Computer
     Vision: Gemini failed to generate interview Q&A for Infinity Assurance Solutions
     Private Limited - Computer Vision'
@@ -2359,3 +2353,7 @@ logs:
   action: Fetch started
   level: INFO
   timestamp: '2026-04-02T03:41:22'
+- agent: CareerAgent
+  action: 102 jobs fetched
+  level: INFO
+  timestamp: '2026-04-02T03:41:53'
