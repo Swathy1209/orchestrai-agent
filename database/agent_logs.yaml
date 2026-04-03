@@ -1,9 +1,5 @@
 logs:
 - agent: CareerAgent
-  action: 105 jobs fetched, 90 relevant
-  level: INFO
-  timestamp: '2026-04-02T21:32:09'
-- agent: CareerAgent
   action: Stored in GitHub YAML
   level: INFO
   timestamp: '2026-04-02T21:32:17'
@@ -2078,3 +2074,8 @@ logs:
   action: SkillAgent run initiated
   status: success
   timestamp: '2026-04-03T15:41:52'
+- agent: SkillAgent
+  action: Skill gap analysis complete
+  status: success
+  timestamp: '2026-04-03T15:42:03'
+  details: Analyzed 470 jobs.
