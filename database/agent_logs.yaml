@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Sungrow Data Analyst Internship: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-02T21:09:06'
-- agent: PracticeAgent
   action: 'Failed portal for Talkspace Marketing Data Analyst Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2089,3 +2084,7 @@ logs:
   status: success
   timestamp: '2026-04-03T15:32:00'
   details: Analyzed 470 jobs.
+- agent: CareerAgent
+  action: 111 jobs fetched
+  level: INFO
+  timestamp: '2026-04-03T15:32:21'
