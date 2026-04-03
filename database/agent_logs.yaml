@@ -1,9 +1,4 @@
 logs:
-- agent: SkillAgent
-  action: Skill gap analysis complete
-  status: success
-  timestamp: '2026-04-02T20:20:29'
-  details: Analyzed 426 jobs.
 - agent: CareerAgent
   action: Fetch started
   level: INFO
@@ -2083,3 +2078,8 @@ logs:
   status: success
   timestamp: '2026-04-03T14:24:19'
   details: Analyzed 451 jobs.
+- agent: PracticeAgent
+  action: 'Failed portal for Grameen Shramik Pratishthan Data Science Intern: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-03T14:35:40'
