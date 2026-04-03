@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Talkspace Marketing Data Analyst Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-02T21:09:17'
-- agent: PracticeAgent
   action: 'Failed portal for Go Offer Data Analyst: Gemini failed to generate project
     recommendations'
   status: error
@@ -2088,3 +2083,7 @@ logs:
   action: 111 jobs fetched
   level: INFO
   timestamp: '2026-04-03T15:32:21'
+- agent: CareerAgent
+  action: 111 jobs fetched, 96 relevant
+  level: INFO
+  timestamp: '2026-04-03T15:32:26'
