@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Old World Industries Data Analyst Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-02T21:10:44'
-- agent: PracticeAgent
   action: 'Failed portal for TikTok Business Analyst Project Intern(TikTok- Operations)
     - 2026 Start (BS/MS): Gemini failed to generate project recommendations'
   status: error
@@ -2081,3 +2076,7 @@ logs:
   action: 111 jobs fetched
   level: INFO
   timestamp: '2026-04-03T15:35:55'
+- agent: CareerAgent
+  action: 111 jobs fetched, 96 relevant
+  level: INFO
+  timestamp: '2026-04-03T15:36:00'
