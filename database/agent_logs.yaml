@@ -1,9 +1,5 @@
 logs:
 - agent: CareerAgent
-  action: Fetch started
-  level: INFO
-  timestamp: '2026-04-02T20:22:00'
-- agent: CareerAgent
   action: 105 jobs fetched
   level: INFO
   timestamp: '2026-04-02T20:22:32'
@@ -2083,3 +2079,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-03T14:35:40'
+- agent: PracticeAgent
+  action: 'Failed portal for Unnati Enterprises Data Science Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-03T14:35:51'
