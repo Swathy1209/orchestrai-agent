@@ -1,8 +1,4 @@
 logs:
-- agent: CareerAgent
-  action: Email delegation passed to ExecutionAgent
-  level: INFO
-  timestamp: '2026-04-02T20:22:47'
 - agent: SkillAgent
   action: SkillAgent run initiated
   status: success
@@ -2087,3 +2083,8 @@ logs:
     generate project recommendations'
   status: error
   timestamp: '2026-04-03T14:36:24'
+- agent: PracticeAgent
+  action: 'Failed portal for Euphotic Labs Private Limited Data Science Intern: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-03T14:36:34'
