@@ -1,9 +1,4 @@
 logs:
-- agent: SkillAgent
-  action: Skill gap analysis complete
-  status: success
-  timestamp: '2026-04-02T20:23:05'
-  details: Analyzed 426 jobs.
 - agent: CareerAgent
   action: Fetch started
   level: INFO
@@ -2089,3 +2084,8 @@ logs:
     Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-03T14:36:45'
+- agent: PracticeAgent
+  action: 'Failed portal for Trader For Tomorrow Data Science Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-03T14:36:57'
