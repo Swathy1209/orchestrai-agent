@@ -1,9 +1,5 @@
 logs:
 - agent: CareerAgent
-  action: 105 jobs fetched, 90 relevant
-  level: INFO
-  timestamp: '2026-04-02T20:22:37'
-- agent: CareerAgent
   action: Stored in GitHub YAML
   level: INFO
   timestamp: '2026-04-02T20:22:44'
@@ -2085,3 +2081,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-03T14:36:02'
+- agent: PracticeAgent
+  action: 'Failed portal for Deep Life Savers Data Science Intern: Gemini failed to
+    generate project recommendations'
+  status: error
+  timestamp: '2026-04-03T14:36:13'
