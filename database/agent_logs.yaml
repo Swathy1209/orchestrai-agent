@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Lightmatter Machine Learning Research Intern: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-02T21:07:49'
-- agent: PracticeAgent
   action: 'Failed portal for Vilya Intern - Machine Learning Engineer: Gemini failed
     to generate project recommendations'
   status: error
@@ -2095,3 +2090,7 @@ logs:
   action: Generated Portfolio
   status: success
   timestamp: '2026-04-03T15:16:25'
+- agent: CareerAgent
+  action: Fetch started
+  level: INFO
+  timestamp: '2026-04-03T15:30:53'
