@@ -1,9 +1,5 @@
 logs:
 - agent: CareerAgent
-  action: 105 jobs fetched
-  level: INFO
-  timestamp: '2026-04-02T20:26:28'
-- agent: CareerAgent
   action: 105 jobs fetched, 90 relevant
   level: INFO
   timestamp: '2026-04-02T20:26:32'
@@ -2095,3 +2091,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-03T14:38:24'
+- agent: PracticeAgent
+  action: 'Failed portal for Almost Magic Private Limited Machine Learning Intern:
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-03T14:38:35'
