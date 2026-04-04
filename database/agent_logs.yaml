@@ -1,9 +1,5 @@
 logs:
 - agent: CareerAgent
-  action: 104 jobs fetched
-  level: INFO
-  timestamp: '2026-04-02T23:20:34'
-- agent: CareerAgent
   action: 104 jobs fetched, 89 relevant
   level: INFO
   timestamp: '2026-04-02T23:20:38'
@@ -2081,3 +2077,8 @@ logs:
   status: success
   timestamp: '2026-04-03T23:32:40'
   details: Analyzed 472 jobs.
+- agent: PracticeAgent
+  action: 'Failed portal for Lightmatter Machine Learning Research Intern: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-04T00:03:55'
