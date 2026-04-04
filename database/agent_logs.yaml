@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Euphotic Labs Private Limited Data Science Intern: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-03T14:36:34'
-- agent: PracticeAgent
   action: 'Failed portal for Assetcues Solutions Private Limited Data Science Intern:
     Gemini failed to generate project recommendations'
   status: error
@@ -2092,3 +2087,7 @@ logs:
   action: 105 jobs fetched, 90 relevant
   level: INFO
   timestamp: '2026-04-04T02:17:08'
+- agent: CareerAgent
+  action: Stored in GitHub YAML
+  level: INFO
+  timestamp: '2026-04-04T02:17:14'
