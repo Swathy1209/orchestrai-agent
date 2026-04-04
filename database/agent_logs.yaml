@@ -1,9 +1,5 @@
 logs:
 - agent: CareerAgent
-  action: 104 jobs fetched, 89 relevant
-  level: INFO
-  timestamp: '2026-04-02T23:20:38'
-- agent: CareerAgent
   action: Stored in GitHub YAML
   level: INFO
   timestamp: '2026-04-02T23:20:45'
@@ -2082,3 +2078,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-04T00:03:55'
+- agent: PracticeAgent
+  action: 'Failed portal for TikTok Machine Learning Engineer Intern - TikTok Search
+    E-Commerce team - 2026 Summer (BS/MS): Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-04T00:04:06'
