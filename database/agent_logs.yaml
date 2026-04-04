@@ -1,9 +1,5 @@
 logs:
 - agent: CareerAgent
-  action: 99 jobs fetched, 84 relevant
-  level: INFO
-  timestamp: '2026-04-03T15:31:26'
-- agent: CareerAgent
   action: Stored in GitHub YAML
   level: INFO
   timestamp: '2026-04-03T15:31:38'
@@ -2084,3 +2080,7 @@ logs:
   action: Email delegation passed to ExecutionAgent
   level: INFO
   timestamp: '2026-04-04T04:01:19'
+- agent: SkillAgent
+  action: SkillAgent run initiated
+  status: success
+  timestamp: '2026-04-04T04:01:26'
