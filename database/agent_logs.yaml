@@ -1,9 +1,5 @@
 logs:
 - agent: CareerAgent
-  action: Fetch started
-  level: INFO
-  timestamp: '2026-04-04T00:23:08'
-- agent: CareerAgent
   action: 105 jobs fetched
   level: INFO
   timestamp: '2026-04-04T00:23:39'
@@ -2069,3 +2065,8 @@ logs:
   action: SkillAgent run initiated
   status: success
   timestamp: '2026-04-04T08:23:31'
+- agent: SkillAgent
+  action: Skill gap analysis complete
+  status: success
+  timestamp: '2026-04-04T08:23:41'
+  details: Analyzed 487 jobs.
