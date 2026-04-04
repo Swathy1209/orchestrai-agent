@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Career-Domain Data Science Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-03T14:37:19'
-- agent: PracticeAgent
   action: 'Failed portal for Unknown Company – Source Incomplete Data Science Intern:
     Gemini failed to generate project recommendations'
   status: error
@@ -2089,3 +2084,7 @@ logs:
   status: success
   timestamp: '2026-04-04T02:17:35'
   details: Analyzed 472 jobs.
+- agent: CareerAgent
+  action: Fetch started
+  level: INFO
+  timestamp: '2026-04-04T02:18:05'
