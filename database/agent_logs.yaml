@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Unknown Company – Source Incomplete Data Science Intern:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-03T14:37:30'
-- agent: PracticeAgent
   action: 'Failed portal for Praxis Home Retail Limited Data Science Intern: Gemini
     failed to generate project recommendations'
   status: error
@@ -2088,3 +2083,7 @@ logs:
   action: Fetch started
   level: INFO
   timestamp: '2026-04-04T02:18:05'
+- agent: CareerAgent
+  action: 105 jobs fetched
+  level: INFO
+  timestamp: '2026-04-04T02:18:35'
