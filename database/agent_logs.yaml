@@ -1,9 +1,5 @@
 logs:
 - agent: CareerAgent
-  action: Stored in GitHub YAML
-  level: INFO
-  timestamp: '2026-04-03T15:31:38'
-- agent: CareerAgent
   action: Email delegation passed to ExecutionAgent
   level: INFO
   timestamp: '2026-04-03T15:31:42'
@@ -2084,3 +2080,8 @@ logs:
   action: SkillAgent run initiated
   status: success
   timestamp: '2026-04-04T04:01:26'
+- agent: SkillAgent
+  action: Skill gap analysis complete
+  status: success
+  timestamp: '2026-04-04T04:01:34'
+  details: Analyzed 472 jobs.
