@@ -1,9 +1,5 @@
 logs:
 - agent: CareerAgent
-  action: Fetch started
-  level: INFO
-  timestamp: '2026-04-02T23:22:46'
-- agent: CareerAgent
   action: 104 jobs fetched
   level: INFO
   timestamp: '2026-04-02T23:23:15'
@@ -2086,3 +2082,8 @@ logs:
     Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-04T00:04:49'
+- agent: PracticeAgent
+  action: 'Failed portal for Generate:Biomedicines Machine Learning Intern: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-04T00:05:00'
