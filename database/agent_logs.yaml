@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for TikTok Data Analyst Intern (TikTok Shop AMS Data Science)
-    - 2026 Summer (BS/MS): Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-05T12:49:13'
-- agent: PracticeAgent
   action: 'Failed portal for GenPark Machine learning engineer intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2499,3 +2494,8 @@ logs:
     - NYC): Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-05T14:46:11'
+- agent: PracticeAgent
+  action: 'Failed portal for Cohere Machine Learning Intern/Co-op  (Spring/Summer
+    2026): Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-05T14:46:22'
