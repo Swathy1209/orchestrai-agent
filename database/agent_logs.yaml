@@ -1,9 +1,5 @@
 logs:
 - agent: CareerAgent
-  action: Stored in GitHub YAML
-  level: INFO
-  timestamp: '2026-04-05T04:01:20'
-- agent: CareerAgent
   action: Email delegation passed to ExecutionAgent
   level: INFO
   timestamp: '2026-04-05T04:01:23'
@@ -2411,3 +2407,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-05T05:52:07'
+- agent: PracticeAgent
+  action: 'Failed portal for Vishwa Jagran Manav Sewa Sangh Charitable Trust Machine
+    Learning Intern: Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-05T05:52:18'
