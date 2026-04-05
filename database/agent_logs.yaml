@@ -1,9 +1,5 @@
 logs:
 - agent: SkillAgent
-  action: SkillAgent run initiated
-  status: success
-  timestamp: '2026-04-05T00:21:25'
-- agent: SkillAgent
   action: Skill gap analysis complete
   status: success
   timestamp: '2026-04-05T00:21:35'
@@ -2265,3 +2261,8 @@ logs:
     recommendations'
   status: error
   timestamp: '2026-04-05T05:20:32'
+- agent: PracticeAgent
+  action: 'Failed portal for Deloitte Business Analyst: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-05T05:20:43'
