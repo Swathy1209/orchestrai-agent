@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Athena Data Science Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-05T12:29:03'
-- agent: PracticeAgent
   action: 'Failed portal for Jarurat Care Data Science Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2504,3 +2499,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-05T14:26:59'
+- agent: PracticeAgent
+  action: 'Failed portal for Aviate Manpower Data Science: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-05T14:27:10'
