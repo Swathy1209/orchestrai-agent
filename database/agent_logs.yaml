@@ -1,8 +1,4 @@
 logs:
-- agent: CareerAgent
-  action: Fetch started
-  level: INFO
-  timestamp: '2026-04-05T00:31:20'
 - agent: RepoSecurityScannerAgent
   action: 'Scanned 45 repos, priority fix: SQL String Concat'
   status: completed
@@ -2284,3 +2280,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-05T05:24:49'
+- agent: PracticeAgent
+  action: 'Failed portal for Reach Technologies Data Science Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-05T05:25:00'
