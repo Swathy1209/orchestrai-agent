@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Berkshire Hathaway GUARD Insurance Companies Data-AI
-    Engineering Intern: Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-05T12:34:03'
-- agent: PracticeAgent
   action: 'Failed portal for Tesla Internship, Machine Learning Engineer, NVH, Vehicle
     Engineering (Summer 2026): Gemini failed to generate project recommendations'
   status: error
@@ -2503,3 +2498,8 @@ logs:
     (AI): Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-05T14:31:41'
+- agent: PracticeAgent
+  action: 'Failed portal for EVgo Intern, Data Analyst (Winter / Spring): Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-05T14:31:52'
