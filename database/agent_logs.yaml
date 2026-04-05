@@ -1,9 +1,5 @@
 logs:
 - agent: CareerAgent
-  action: Fetch started
-  level: INFO
-  timestamp: '2026-04-05T02:10:23'
-- agent: CareerAgent
   action: 103 jobs fetched
   level: INFO
   timestamp: '2026-04-05T02:10:56'
@@ -2325,3 +2321,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-05T05:33:32'
+- agent: PracticeAgent
+  action: 'Failed portal for Zetheta Algorithms Private Limited Machine Learning Intern:
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-05T05:33:43'
