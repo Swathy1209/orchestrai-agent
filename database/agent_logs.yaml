@@ -1,9 +1,5 @@
 logs:
 - agent: CareerAgent
-  action: Fetch started
-  level: INFO
-  timestamp: '2026-04-05T04:02:10'
-- agent: CareerAgent
   action: 103 jobs fetched
   level: INFO
   timestamp: '2026-04-05T04:02:42'
@@ -2414,3 +2410,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-05T05:52:51'
+- agent: PracticeAgent
+  action: 'Failed portal for Marico Innovation Foundation Artificial Intelligence
+    Intern: Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-05T05:53:02'
