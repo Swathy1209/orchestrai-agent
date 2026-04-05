@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for AArete Intern, Data Science & Artificial Intelligence
-    (Summer 2026): Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-05T12:04:35'
-- agent: PracticeAgent
   action: 'Failed portal for Lensa Intern - Data Science, Generative AI: Gemini failed
     to generate project recommendations'
   status: error
@@ -2511,3 +2506,8 @@ logs:
     generate project recommendations'
   status: error
   timestamp: '2026-04-05T13:50:23'
+- agent: PracticeAgent
+  action: 'Failed portal for Tax-O-Smart LLP Data Science Intern: Gemini failed to
+    generate project recommendations'
+  status: error
+  timestamp: '2026-04-05T13:50:34'
