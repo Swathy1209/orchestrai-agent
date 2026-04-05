@@ -1,9 +1,5 @@
 logs:
 - agent: CareerAgent
-  action: Stored in GitHub YAML
-  level: INFO
-  timestamp: '2026-04-05T00:04:57'
-- agent: CareerAgent
   action: Email delegation passed to ExecutionAgent
   level: INFO
   timestamp: '2026-04-05T00:05:01'
@@ -2215,3 +2211,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-05T05:09:49'
+- agent: PracticeAgent
+  action: 'Failed portal for Paramount+ Data Science Intern (Summer 2026 - In-Person
+    - NYC): Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-05T05:10:01'
