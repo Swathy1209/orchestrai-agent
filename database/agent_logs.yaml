@@ -1,9 +1,5 @@
 logs:
 - agent: CareerAgent
-  action: 103 jobs fetched
-  level: INFO
-  timestamp: '2026-04-05T02:25:11'
-- agent: CareerAgent
   action: 103 jobs fetched, 88 relevant
   level: INFO
   timestamp: '2026-04-05T02:25:15'
@@ -2380,3 +2376,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-05T05:45:24'
+- agent: PracticeAgent
+  action: 'Failed portal for Samaadhaan Data Science Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-05T05:45:35'
