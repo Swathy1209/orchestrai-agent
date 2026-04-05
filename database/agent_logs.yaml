@@ -1,9 +1,5 @@
 logs:
 - agent: CareerAgent
-  action: 103 jobs fetched, 88 relevant
-  level: INFO
-  timestamp: '2026-04-05T04:10:45'
-- agent: CareerAgent
   action: Stored in GitHub YAML
   level: INFO
   timestamp: '2026-04-05T04:10:51'
@@ -2439,3 +2435,8 @@ logs:
     recommendations'
   status: error
   timestamp: '2026-04-05T05:57:32'
+- agent: PracticeAgent
+  action: 'Failed portal for Gotion Inc. Data Analyst: Gemini failed to generate project
+    recommendations'
+  status: error
+  timestamp: '2026-04-05T05:57:43'
