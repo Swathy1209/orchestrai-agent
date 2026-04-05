@@ -1,9 +1,5 @@
 logs:
 - agent: CareerAgent
-  action: Fetch started
-  level: INFO
-  timestamp: '2026-04-04T22:28:18'
-- agent: CareerAgent
   action: 102 jobs fetched
   level: INFO
   timestamp: '2026-04-04T22:28:48'
@@ -2188,3 +2184,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-05T05:04:09'
+- agent: PracticeAgent
+  action: 'Failed portal for Tatari Data Science Analyst, Intern: Gemini failed to
+    generate project recommendations'
+  status: error
+  timestamp: '2026-04-05T05:04:19'
