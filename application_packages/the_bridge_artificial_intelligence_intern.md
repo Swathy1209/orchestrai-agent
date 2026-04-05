@@ -7,7 +7,7 @@ Resume:
 https://orchestrai-agent.onrender.com/application_packages/resume.pdf
 
 Cover Letter:
-No Cover Letter Generated
+https://orchestrai-agent.onrender.com/cover_letters/the_bridge_artificial_intelligence_intern.md
 
 Apply Here:
 https://internshala.com/internship/detail/video-editing-making-internship-in-bangalore-at-the-bridge1775125067
