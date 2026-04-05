@@ -1,9 +1,5 @@
 logs:
 - agent: CareerAgent
-  action: 103 jobs fetched
-  level: INFO
-  timestamp: '2026-04-05T02:12:32'
-- agent: CareerAgent
   action: 103 jobs fetched, 88 relevant
   level: INFO
   timestamp: '2026-04-05T02:12:37'
@@ -2332,3 +2328,8 @@ logs:
     Intern: Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-05T05:35:01'
+- agent: PracticeAgent
+  action: 'Failed portal for Collective Artists Network Data Science Intern: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-05T05:35:12'
