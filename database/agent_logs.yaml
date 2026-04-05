@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Connors Group Data Analyst Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-05T07:40:40'
-- agent: PracticeAgent
   action: 'Failed portal for Veracode Business Analyst Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2486,3 +2481,8 @@ logs:
   status: success
   timestamp: '2026-04-05T12:01:31'
   details: Analyzed 532 jobs.
+- agent: PracticeAgent
+  action: 'Failed portal for Fine Data Analytics Private Limited Artificial Intelligence
+    Intern: Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-05T12:01:45'
