@@ -1,8 +1,4 @@
 logs:
-- agent: CareerAgent
-  action: Email delegation passed to ExecutionAgent
-  level: INFO
-  timestamp: '2026-04-05T02:12:47'
 - agent: SkillAgent
   action: SkillAgent run initiated
   status: success
@@ -2335,3 +2331,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-05T05:35:33'
+- agent: PracticeAgent
+  action: 'Failed portal for CipherSchools Data Science Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-05T05:35:44'
