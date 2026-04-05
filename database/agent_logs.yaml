@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Newzeninfotech Solutions Data Science: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-05T16:42:02'
-- agent: PracticeAgent
   action: 'Failed portal for Flipkart Data Analysis Lead: Gemini failed to generate
     project recommendations'
   status: error
@@ -2499,3 +2494,8 @@ logs:
     Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-05T18:32:37'
+- agent: PracticeAgent
+  action: 'Failed portal for Learning Skills Academy Data And ML Engineer: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-05T18:32:48'
