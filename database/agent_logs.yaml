@@ -1,8 +1,4 @@
 logs:
-- agent: OpportunityMatchingAgent
-  action: Generated match scores for 542 internships
-  status: success
-  timestamp: '2026-04-05T20:12:40'
 - agent: CoverLetterAgent
   action: Generated 542 cover letters
   status: success
@@ -2508,3 +2504,8 @@ logs:
     Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-05T21:47:20'
+- agent: PracticeAgent
+  action: 'Failed portal for Life.Church Data Analyst: Gemini failed to generate project
+    recommendations'
+  status: error
+  timestamp: '2026-04-05T21:47:32'
