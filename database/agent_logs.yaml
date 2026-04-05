@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Typeface ML Engineer Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-05T16:17:05'
-- agent: PracticeAgent
   action: 'Failed portal for PathAI Machine Learning Intern/Co-op (Summer 2026): Gemini
     failed to generate project recommendations'
   status: error
@@ -2510,3 +2505,8 @@ logs:
     Summer (BS/MS): Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-05T17:50:02'
+- agent: PracticeAgent
+  action: 'Failed portal for State of Florida DATA SCIENCE INTERNSHIP: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-05T17:50:13'
