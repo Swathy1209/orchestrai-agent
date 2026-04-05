@@ -1,8 +1,4 @@
 logs:
-- agent: PortfolioBuilderAgent
-  action: Generated Portfolio
-  status: success
-  timestamp: '2026-04-05T20:05:36'
 - agent: OpportunityMatchingAgent
   action: Generated match scores for 542 internships
   status: success
@@ -2507,3 +2503,8 @@ logs:
     Risk Control) - 2026 Summer (BS/MS): Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-05T21:47:09'
+- agent: PracticeAgent
+  action: 'Failed portal for Intuit Compliance Assurance Staff Technical Data Analyst:
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-05T21:47:20'
