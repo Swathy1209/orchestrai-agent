@@ -1,9 +1,5 @@
 logs:
 - agent: CareerAgent
-  action: Stored in GitHub YAML
-  level: INFO
-  timestamp: '2026-04-05T00:01:05'
-- agent: CareerAgent
   action: Email delegation passed to ExecutionAgent
   level: INFO
   timestamp: '2026-04-05T00:01:07'
@@ -2203,3 +2199,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-05T05:07:15'
+- agent: PracticeAgent
+  action: 'Failed portal for Neoteric Analytics Data And AI Engineer Intern: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-05T05:07:26'
