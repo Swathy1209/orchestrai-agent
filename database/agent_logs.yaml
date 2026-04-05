@@ -1,9 +1,5 @@
 logs:
 - agent: CareerAgent
-  action: 103 jobs fetched
-  level: INFO
-  timestamp: '2026-04-05T00:06:38'
-- agent: CareerAgent
   action: 103 jobs fetched, 88 relevant
   level: INFO
   timestamp: '2026-04-05T00:06:42'
@@ -2219,3 +2215,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-05T05:10:44'
+- agent: PracticeAgent
+  action: 'Failed portal for AmRit Hub Private Limited Artificial Intelligence (AI):
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-05T05:10:55'
