@@ -1,9 +1,5 @@
 logs:
 - agent: CareerAgent
-  action: 103 jobs fetched, 88 relevant
-  level: INFO
-  timestamp: '2026-04-05T04:13:22'
-- agent: CareerAgent
   action: Stored in GitHub YAML
   level: INFO
   timestamp: '2026-04-05T04:13:31'
@@ -2445,3 +2441,8 @@ logs:
     Engineering (Summer 2026): Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-05T05:58:51'
+- agent: PracticeAgent
+  action: 'Failed portal for Tailorbird Software AI Engineering Internships: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-05T05:59:02'
