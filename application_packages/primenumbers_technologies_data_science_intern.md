@@ -1,0 +1,16 @@
+# Application Package
+
+Company: Primenumbers Technologies
+Role: Data Science Intern
+
+Resume:
+https://orchestrai-agent.onrender.com/application_packages/resume.pdf
+
+Cover Letter:
+https://orchestrai-agent.onrender.com/cover_letters/primenumbers_technologies_data_science_intern.md
+
+Apply Here:
+https://internshala.com/internship/detail/data-platform-engineering-2026-graduates-only-internship-in-bangalore-at-primenumbers-technologies1775035647
+
+Status:
+Ready to Apply
