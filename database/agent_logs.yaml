@@ -1,8 +1,4 @@
 logs:
-- agent: CareerAgent
-  action: Email delegation passed to ExecutionAgent
-  level: INFO
-  timestamp: '2026-04-05T12:01:14'
 - agent: PracticeAgent
   action: 'Failed portal for Neurasys Machine Learning Intern: Gemini failed to generate
     project recommendations'
@@ -2509,3 +2505,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-05T13:47:01'
+- agent: PracticeAgent
+  action: 'Failed portal for Tesla Internship, Data Engineer, Fleet Analytics (Summer
+    2026): Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-05T13:47:12'
