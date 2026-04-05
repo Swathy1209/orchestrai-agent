@@ -1,9 +1,5 @@
 logs:
 - agent: CareerAgent
-  action: Fetch started
-  level: INFO
-  timestamp: '2026-04-05T04:10:08'
-- agent: CareerAgent
   action: 103 jobs fetched
   level: INFO
   timestamp: '2026-04-05T04:10:40'
@@ -2436,3 +2432,8 @@ logs:
     generate project recommendations'
   status: error
   timestamp: '2026-04-05T05:57:09'
+- agent: PracticeAgent
+  action: 'Failed portal for RELI Group, Inc. Data Analyst Intern: Gemini failed to
+    generate project recommendations'
+  status: error
+  timestamp: '2026-04-05T05:57:20'
