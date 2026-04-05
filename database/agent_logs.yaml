@@ -1,9 +1,5 @@
 logs:
 - agent: CareerAgent
-  action: 103 jobs fetched, 88 relevant
-  level: INFO
-  timestamp: '2026-04-05T00:24:03'
-- agent: CareerAgent
   action: Stored in GitHub YAML
   level: INFO
   timestamp: '2026-04-05T00:24:12'
@@ -2268,3 +2264,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-05T05:21:17'
+- agent: PracticeAgent
+  action: 'Failed portal for Myntra Associate -Data Analyst: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-05T05:21:28'
