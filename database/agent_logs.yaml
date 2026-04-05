@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Diffzene Machine Learning: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-05T06:52:25'
-- agent: PracticeAgent
   action: 'Failed portal for Hooman Digital LLP Machine Learning: Gemini failed to
     generate project recommendations'
   status: error
@@ -2491,3 +2486,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-05T11:14:24'
+- agent: PracticeAgent
+  action: 'Failed portal for Typeface ML Engineer Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-05T11:14:36'
