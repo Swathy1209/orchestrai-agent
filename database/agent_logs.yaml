@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for PANTHERx Rare Pharmacy Intern, Data Science: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-05T20:27:35'
-- agent: PracticeAgent
   action: 'Failed portal for Nuro Machine Learning intern, Behavior Planning: Gemini
     failed to generate project recommendations'
   status: error
@@ -2495,3 +2490,9 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-05T22:16:57'
+- agent: PracticeAgent
+  action: 'Failed portal for TikTok (General Hire) Machine Learning Engineer Intern
+    (TikTok-Recommendation) - 2026 Summer (BS/MS): Gemini failed to generate project
+    recommendations'
+  status: error
+  timestamp: '2026-04-05T22:17:08'
