@@ -1,9 +1,5 @@
 logs:
 - agent: CareerAgent
-  action: 102 jobs fetched
-  level: INFO
-  timestamp: '2026-04-04T22:26:51'
-- agent: CareerAgent
   action: 102 jobs fetched, 87 relevant
   level: INFO
   timestamp: '2026-04-04T22:26:56'
@@ -2183,3 +2179,8 @@ logs:
     recommendations'
   status: error
   timestamp: '2026-04-05T05:03:04'
+- agent: PracticeAgent
+  action: 'Failed portal for TikTok Business Analyst Intern (Business Integrity) -
+    2026 Summer (BS/MS): Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-05T05:03:15'
