@@ -1,9 +1,5 @@
 logs:
 - agent: CareerAgent
-  action: Fetch started
-  level: INFO
-  timestamp: '2026-04-05T02:05:46'
-- agent: CareerAgent
   action: 103 jobs fetched
   level: INFO
   timestamp: '2026-04-05T02:06:17'
@@ -2307,3 +2303,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-05T05:29:39'
+- agent: PracticeAgent
+  action: 'Failed portal for OMNIDYA TECH LLP Artificial Intelligence Intern: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-05T05:29:50'
