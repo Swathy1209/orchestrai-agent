@@ -1,9 +1,5 @@
 logs:
 - agent: CareerAgent
-  action: 103 jobs fetched, 88 relevant
-  level: INFO
-  timestamp: '2026-04-05T00:31:55'
-- agent: CareerAgent
   action: Stored in GitHub YAML
   level: INFO
   timestamp: '2026-04-05T00:32:01'
@@ -2287,3 +2283,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-05T05:25:23'
+- agent: PracticeAgent
+  action: 'Failed portal for IIIT Hyderabad Data Science Intern: Gemini failed to
+    generate project recommendations'
+  status: error
+  timestamp: '2026-04-05T05:25:34'
