@@ -1,9 +1,5 @@
 logs:
 - agent: CareerAgent
-  action: 103 jobs fetched, 88 relevant
-  level: INFO
-  timestamp: '2026-04-05T02:30:30'
-- agent: CareerAgent
   action: Stored in GitHub YAML
   level: INFO
   timestamp: '2026-04-05T02:30:37'
@@ -2399,3 +2395,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-05T05:49:30'
+- agent: PracticeAgent
+  action: 'Failed portal for Gaba Telepsychiatry (New York, United States) Data Science
+    Intern: Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-05T05:49:42'
