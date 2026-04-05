@@ -1,477 +1,5 @@
 logs:
 - agent: SkillAgent
-  action: Skill gap analysis complete
-  status: success
-  timestamp: '2026-04-04T21:08:21'
-  details: Analyzed 507 jobs.
-- agent: CareerAgent
-  action: Fetch started
-  level: INFO
-  timestamp: '2026-04-04T21:08:59'
-- agent: CareerAgent
-  action: 103 jobs fetched
-  level: INFO
-  timestamp: '2026-04-04T21:09:29'
-- agent: CareerAgent
-  action: 103 jobs fetched, 88 relevant
-  level: INFO
-  timestamp: '2026-04-04T21:09:33'
-- agent: CareerAgent
-  action: Stored in GitHub YAML
-  level: INFO
-  timestamp: '2026-04-04T21:09:40'
-- agent: CareerAgent
-  action: Email delegation passed to ExecutionAgent
-  level: INFO
-  timestamp: '2026-04-04T21:09:43'
-- agent: SkillAgent
-  action: SkillAgent run initiated
-  status: success
-  timestamp: '2026-04-04T21:09:50'
-- agent: SkillAgent
-  action: Skill gap analysis complete
-  status: success
-  timestamp: '2026-04-04T21:10:00'
-  details: Analyzed 507 jobs.
-- agent: CareerAgent
-  action: Fetch started
-  level: INFO
-  timestamp: '2026-04-04T21:10:21'
-- agent: CareerAgent
-  action: 102 jobs fetched
-  level: INFO
-  timestamp: '2026-04-04T21:10:52'
-- agent: CareerAgent
-  action: 102 jobs fetched, 87 relevant
-  level: INFO
-  timestamp: '2026-04-04T21:10:56'
-- agent: CareerAgent
-  action: Stored in GitHub YAML
-  level: INFO
-  timestamp: '2026-04-04T21:11:03'
-- agent: CareerAgent
-  action: Email delegation passed to ExecutionAgent
-  level: INFO
-  timestamp: '2026-04-04T21:11:07'
-- agent: SkillAgent
-  action: SkillAgent run initiated
-  status: success
-  timestamp: '2026-04-04T21:11:13'
-- agent: SkillAgent
-  action: Skill gap analysis complete
-  status: success
-  timestamp: '2026-04-04T21:11:23'
-  details: Analyzed 507 jobs.
-- agent: CareerAgent
-  action: Fetch started
-  level: INFO
-  timestamp: '2026-04-04T21:12:14'
-- agent: CareerAgent
-  action: 102 jobs fetched
-  level: INFO
-  timestamp: '2026-04-04T21:12:51'
-- agent: CareerAgent
-  action: 102 jobs fetched, 87 relevant
-  level: INFO
-  timestamp: '2026-04-04T21:12:56'
-- agent: CareerAgent
-  action: Stored in GitHub YAML
-  level: INFO
-  timestamp: '2026-04-04T21:13:04'
-- agent: CareerAgent
-  action: Email delegation passed to ExecutionAgent
-  level: INFO
-  timestamp: '2026-04-04T21:13:08'
-- agent: SkillAgent
-  action: SkillAgent run initiated
-  status: success
-  timestamp: '2026-04-04T21:13:16'
-- agent: SkillAgent
-  action: Skill gap analysis complete
-  status: success
-  timestamp: '2026-04-04T21:13:28'
-  details: Analyzed 507 jobs.
-- agent: CareerAgent
-  action: Fetch started
-  level: INFO
-  timestamp: '2026-04-04T21:14:06'
-- agent: CareerAgent
-  action: 102 jobs fetched
-  level: INFO
-  timestamp: '2026-04-04T21:14:33'
-- agent: CareerAgent
-  action: 102 jobs fetched, 87 relevant
-  level: INFO
-  timestamp: '2026-04-04T21:14:38'
-- agent: CareerAgent
-  action: Stored in GitHub YAML
-  level: INFO
-  timestamp: '2026-04-04T21:14:44'
-- agent: CareerAgent
-  action: Email delegation passed to ExecutionAgent
-  level: INFO
-  timestamp: '2026-04-04T21:14:48'
-- agent: SkillAgent
-  action: SkillAgent run initiated
-  status: success
-  timestamp: '2026-04-04T21:14:55'
-- agent: SkillAgent
-  action: Skill gap analysis complete
-  status: success
-  timestamp: '2026-04-04T21:15:05'
-  details: Analyzed 507 jobs.
-- agent: CareerAgent
-  action: Fetch started
-  level: INFO
-  timestamp: '2026-04-04T21:15:26'
-- agent: CareerAgent
-  action: 103 jobs fetched
-  level: INFO
-  timestamp: '2026-04-04T21:15:54'
-- agent: CareerAgent
-  action: Fetch started
-  level: INFO
-  timestamp: '2026-04-04T22:00:36'
-- agent: CareerAgent
-  action: 102 jobs fetched
-  level: INFO
-  timestamp: '2026-04-04T22:00:57'
-- agent: CareerAgent
-  action: 102 jobs fetched, 87 relevant
-  level: INFO
-  timestamp: '2026-04-04T22:01:00'
-- agent: CareerAgent
-  action: Stored in GitHub YAML
-  level: INFO
-  timestamp: '2026-04-04T22:01:06'
-- agent: CareerAgent
-  action: Email delegation passed to ExecutionAgent
-  level: INFO
-  timestamp: '2026-04-04T22:01:09'
-- agent: SkillAgent
-  action: SkillAgent run initiated
-  status: success
-  timestamp: '2026-04-04T22:01:14'
-- agent: SkillAgent
-  action: Skill gap analysis complete
-  status: success
-  timestamp: '2026-04-04T22:01:23'
-  details: Analyzed 507 jobs.
-- agent: CareerAgent
-  action: Fetch started
-  level: INFO
-  timestamp: '2026-04-04T22:03:41'
-- agent: RepoSecurityScannerAgent
-  action: 'Scanned 45 repos, priority fix: SQL String Concat'
-  status: completed
-  timestamp: '2026-04-04T22:04:05'
-- agent: CareerAgent
-  action: 103 jobs fetched
-  level: INFO
-  timestamp: '2026-04-04T22:04:11'
-- agent: CareerAgent
-  action: 103 jobs fetched, 88 relevant
-  level: INFO
-  timestamp: '2026-04-04T22:04:15'
-- agent: CareerAgent
-  action: Stored in GitHub YAML
-  level: INFO
-  timestamp: '2026-04-04T22:04:22'
-- agent: CareerAgent
-  action: Email delegation passed to ExecutionAgent
-  level: INFO
-  timestamp: '2026-04-04T22:04:26'
-- agent: SkillAgent
-  action: SkillAgent run initiated
-  status: success
-  timestamp: '2026-04-04T22:04:33'
-- agent: SkillAgent
-  action: Skill gap analysis complete
-  status: success
-  timestamp: '2026-04-04T22:04:43'
-  details: Analyzed 507 jobs.
-- agent: CareerAgent
-  action: Fetch started
-  level: INFO
-  timestamp: '2026-04-04T22:05:05'
-- agent: CareerAgent
-  action: 103 jobs fetched
-  level: INFO
-  timestamp: '2026-04-04T22:05:37'
-- agent: CareerAgent
-  action: 103 jobs fetched, 88 relevant
-  level: INFO
-  timestamp: '2026-04-04T22:05:41'
-- agent: CareerAgent
-  action: Stored in GitHub YAML
-  level: INFO
-  timestamp: '2026-04-04T22:05:48'
-- agent: CareerAgent
-  action: Email delegation passed to ExecutionAgent
-  level: INFO
-  timestamp: '2026-04-04T22:05:53'
-- agent: SkillAgent
-  action: SkillAgent run initiated
-  status: success
-  timestamp: '2026-04-04T22:05:59'
-- agent: SkillAgent
-  action: Skill gap analysis complete
-  status: success
-  timestamp: '2026-04-04T22:06:10'
-  details: Analyzed 507 jobs.
-- agent: CareerAgent
-  action: Fetch started
-  level: INFO
-  timestamp: '2026-04-04T22:06:38'
-- agent: CareerAgent
-  action: 102 jobs fetched
-  level: INFO
-  timestamp: '2026-04-04T22:07:07'
-- agent: CareerAgent
-  action: 102 jobs fetched, 87 relevant
-  level: INFO
-  timestamp: '2026-04-04T22:07:10'
-- agent: CareerAgent
-  action: Stored in GitHub YAML
-  level: INFO
-  timestamp: '2026-04-04T22:07:18'
-- agent: CareerAgent
-  action: Email delegation passed to ExecutionAgent
-  level: INFO
-  timestamp: '2026-04-04T22:07:22'
-- agent: SkillAgent
-  action: SkillAgent run initiated
-  status: success
-  timestamp: '2026-04-04T22:07:29'
-- agent: SkillAgent
-  action: Skill gap analysis complete
-  status: success
-  timestamp: '2026-04-04T22:07:39'
-  details: Analyzed 507 jobs.
-- agent: CareerAgent
-  action: Fetch started
-  level: INFO
-  timestamp: '2026-04-04T22:08:18'
-- agent: CareerAgent
-  action: 102 jobs fetched
-  level: INFO
-  timestamp: '2026-04-04T22:08:50'
-- agent: CareerAgent
-  action: 102 jobs fetched, 87 relevant
-  level: INFO
-  timestamp: '2026-04-04T22:08:55'
-- agent: CareerAgent
-  action: Stored in GitHub YAML
-  level: INFO
-  timestamp: '2026-04-04T22:09:02'
-- agent: CareerAgent
-  action: Email delegation passed to ExecutionAgent
-  level: INFO
-  timestamp: '2026-04-04T22:09:06'
-- agent: SkillAgent
-  action: SkillAgent run initiated
-  status: success
-  timestamp: '2026-04-04T22:09:13'
-- agent: SkillAgent
-  action: Skill gap analysis complete
-  status: success
-  timestamp: '2026-04-04T22:09:23'
-  details: Analyzed 507 jobs.
-- agent: CareerAgent
-  action: Fetch started
-  level: INFO
-  timestamp: '2026-04-04T22:10:16'
-- agent: CareerAgent
-  action: 103 jobs fetched
-  level: INFO
-  timestamp: '2026-04-04T22:10:44'
-- agent: CareerAgent
-  action: 103 jobs fetched, 88 relevant
-  level: INFO
-  timestamp: '2026-04-04T22:10:49'
-- agent: CareerAgent
-  action: Stored in GitHub YAML
-  level: INFO
-  timestamp: '2026-04-04T22:10:56'
-- agent: CareerAgent
-  action: Email delegation passed to ExecutionAgent
-  level: INFO
-  timestamp: '2026-04-04T22:11:00'
-- agent: SkillAgent
-  action: SkillAgent run initiated
-  status: success
-  timestamp: '2026-04-04T22:11:06'
-- agent: SkillAgent
-  action: Skill gap analysis complete
-  status: success
-  timestamp: '2026-04-04T22:11:16'
-  details: Analyzed 507 jobs.
-- agent: CareerAgent
-  action: Fetch started
-  level: INFO
-  timestamp: '2026-04-04T22:11:35'
-- agent: CareerAgent
-  action: 102 jobs fetched
-  level: INFO
-  timestamp: '2026-04-04T22:12:06'
-- agent: CareerAgent
-  action: 102 jobs fetched, 87 relevant
-  level: INFO
-  timestamp: '2026-04-04T22:12:10'
-- agent: CareerAgent
-  action: Stored in GitHub YAML
-  level: INFO
-  timestamp: '2026-04-04T22:12:17'
-- agent: CareerAgent
-  action: Email delegation passed to ExecutionAgent
-  level: INFO
-  timestamp: '2026-04-04T22:12:20'
-- agent: SkillAgent
-  action: SkillAgent run initiated
-  status: success
-  timestamp: '2026-04-04T22:12:27'
-- agent: SkillAgent
-  action: Skill gap analysis complete
-  status: success
-  timestamp: '2026-04-04T22:12:38'
-  details: Analyzed 507 jobs.
-- agent: CareerAgent
-  action: Fetch started
-  level: INFO
-  timestamp: '2026-04-04T22:13:17'
-- agent: CareerAgent
-  action: 103 jobs fetched
-  level: INFO
-  timestamp: '2026-04-04T22:13:49'
-- agent: CareerAgent
-  action: 103 jobs fetched, 88 relevant
-  level: INFO
-  timestamp: '2026-04-04T22:13:54'
-- agent: CareerAgent
-  action: Stored in GitHub YAML
-  level: INFO
-  timestamp: '2026-04-04T22:14:01'
-- agent: CareerAgent
-  action: Email delegation passed to ExecutionAgent
-  level: INFO
-  timestamp: '2026-04-04T22:14:05'
-- agent: SkillAgent
-  action: SkillAgent run initiated
-  status: success
-  timestamp: '2026-04-04T22:14:12'
-- agent: SkillAgent
-  action: Skill gap analysis complete
-  status: success
-  timestamp: '2026-04-04T22:14:24'
-  details: Analyzed 507 jobs.
-- agent: CareerAgent
-  action: Fetch started
-  level: INFO
-  timestamp: '2026-04-04T22:14:48'
-- agent: CareerAgent
-  action: 102 jobs fetched
-  level: INFO
-  timestamp: '2026-04-04T22:15:24'
-- agent: CareerAgent
-  action: 102 jobs fetched, 87 relevant
-  level: INFO
-  timestamp: '2026-04-04T22:15:28'
-- agent: CareerAgent
-  action: Stored in GitHub YAML
-  level: INFO
-  timestamp: '2026-04-04T22:15:35'
-- agent: CareerAgent
-  action: Email delegation passed to ExecutionAgent
-  level: INFO
-  timestamp: '2026-04-04T22:15:39'
-- agent: SkillAgent
-  action: SkillAgent run initiated
-  status: success
-  timestamp: '2026-04-04T22:15:45'
-- agent: SkillAgent
-  action: Skill gap analysis complete
-  status: success
-  timestamp: '2026-04-04T22:15:56'
-  details: Analyzed 507 jobs.
-- agent: CareerAgent
-  action: Fetch started
-  level: INFO
-  timestamp: '2026-04-04T22:16:28'
-- agent: CareerAgent
-  action: 102 jobs fetched
-  level: INFO
-  timestamp: '2026-04-04T22:16:59'
-- agent: CareerAgent
-  action: 102 jobs fetched, 87 relevant
-  level: INFO
-  timestamp: '2026-04-04T22:17:03'
-- agent: CareerAgent
-  action: Stored in GitHub YAML
-  level: INFO
-  timestamp: '2026-04-04T22:17:10'
-- agent: CareerAgent
-  action: Email delegation passed to ExecutionAgent
-  level: INFO
-  timestamp: '2026-04-04T22:17:14'
-- agent: SkillAgent
-  action: SkillAgent run initiated
-  status: success
-  timestamp: '2026-04-04T22:17:21'
-- agent: SkillAgent
-  action: Skill gap analysis complete
-  status: success
-  timestamp: '2026-04-04T22:17:32'
-  details: Analyzed 507 jobs.
-- agent: CareerAgent
-  action: Fetch started
-  level: INFO
-  timestamp: '2026-04-04T22:18:31'
-- agent: CareerAgent
-  action: 102 jobs fetched
-  level: INFO
-  timestamp: '2026-04-04T22:19:07'
-- agent: CareerAgent
-  action: 102 jobs fetched, 87 relevant
-  level: INFO
-  timestamp: '2026-04-04T22:19:12'
-- agent: CareerAgent
-  action: Stored in GitHub YAML
-  level: INFO
-  timestamp: '2026-04-04T22:19:20'
-- agent: CareerAgent
-  action: Email delegation passed to ExecutionAgent
-  level: INFO
-  timestamp: '2026-04-04T22:19:24'
-- agent: SkillAgent
-  action: SkillAgent run initiated
-  status: success
-  timestamp: '2026-04-04T22:19:31'
-- agent: SkillAgent
-  action: Skill gap analysis complete
-  status: success
-  timestamp: '2026-04-04T22:19:42'
-  details: Analyzed 507 jobs.
-- agent: CareerAgent
-  action: Fetch started
-  level: INFO
-  timestamp: '2026-04-04T22:21:32'
-- agent: CareerAgent
-  action: 103 jobs fetched
-  level: INFO
-  timestamp: '2026-04-04T22:22:05'
-- agent: CareerAgent
-  action: 103 jobs fetched, 88 relevant
-  level: INFO
-  timestamp: '2026-04-04T22:22:09'
-- agent: CareerAgent
-  action: Stored in GitHub YAML
-  level: INFO
-  timestamp: '2026-04-04T22:22:17'
-- agent: CareerAgent
-  action: Email delegation passed to ExecutionAgent
-  level: INFO
-  timestamp: '2026-04-04T22:22:20'
-- agent: SkillAgent
   action: SkillAgent run initiated
   status: success
   timestamp: '2026-04-04T22:22:28'
@@ -2070,3 +1598,574 @@ logs:
   status: success
   timestamp: '2026-04-05T04:29:58'
   details: Analyzed 524 jobs.
+- agent: RepoSecurityScannerAgent
+  action: 'Scanned 45 repos, priority fix: SQL String Concat'
+  status: completed
+  timestamp: '2026-04-05T04:33:38'
+- agent: AutoFixPRGeneratorAgent
+  action: Generated 0 security fix PRs
+  status: completed
+  timestamp: '2026-04-05T04:33:45'
+- agent: CoverLetterAgent
+  action: Generated 524 cover letters
+  status: success
+  timestamp: '2026-04-05T04:40:40'
+- agent: PracticeAgent
+  action: PracticeAgent run initiated
+  status: success
+  timestamp: '2026-04-05T04:40:43'
+- agent: PracticeAgent
+  action: 'Failed portal for RefinedScience Data Engineering Intern: Detected incomplete
+    placeholder content. Regenerating...'
+  status: error
+  timestamp: '2026-04-05T04:40:50'
+- agent: PracticeAgent
+  action: 'Failed portal for Cylinder Health Junior Data Engineer: Detected incomplete
+    placeholder content. Regenerating...'
+  status: error
+  timestamp: '2026-04-05T04:41:01'
+- agent: PracticeAgent
+  action: 'Failed portal for Tinder Machine Learning Engineer Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-05T04:41:12'
+- agent: PracticeAgent
+  action: 'Failed portal for Lensa Machine Learning Engineer Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-05T04:41:22'
+- agent: PracticeAgent
+  action: 'Failed portal for Handshake AI/Machine Learning Engineer Intern: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-05T04:41:32'
+- agent: PracticeAgent
+  action: 'Failed portal for Lensa Machine Learning Intern - Summer 2026: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-05T04:41:43'
+- agent: PracticeAgent
+  action: 'Failed portal for Lensa Data Science Summer Intern (Remote & Paid): Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-05T04:41:54'
+- agent: PracticeAgent
+  action: 'Failed portal for Lensa Intern, Data Science and Analytics: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-05T04:42:04'
+- agent: PracticeAgent
+  action: 'Failed portal for Transcarent Machine Learning Engineer Intern: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-05T04:42:15'
+- agent: PracticeAgent
+  action: 'Failed portal for Moloco Machine Learning Engineer Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-05T04:42:25'
+- agent: PracticeAgent
+  action: 'Failed portal for TikTok (General Hire) Machine Learning Engineer Intern
+    (TikTok-Recommendation) - 2026 Summer (BS/MS): Gemini failed to generate project
+    recommendations'
+  status: error
+  timestamp: '2026-04-05T04:42:36'
+- agent: PracticeAgent
+  action: 'Failed portal for Upstart Machine Learning Engineer Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-05T04:42:46'
+- agent: PracticeAgent
+  action: 'Failed portal for Typeface ML Engineer Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-05T04:42:57'
+- agent: PracticeAgent
+  action: 'Failed portal for PathAI Machine Learning Intern/Co-op (Summer 2026): Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-05T04:43:08'
+- agent: PracticeAgent
+  action: 'Failed portal for Staffline Solutions Machine Learning Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-05T04:43:18'
+- agent: PracticeAgent
+  action: 'Failed portal for Matson Logistics AI & Machine Learning Intern – Operations:
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-05T04:43:29'
+- agent: PracticeAgent
+  action: 'Failed portal for Cohere Machine Learning Intern/Co-op  (Spring 2026):
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-05T04:43:39'
+- agent: PracticeAgent
+  action: 'Failed portal for Cornerstone Building Brands Data Analyst Intern: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-05T04:43:49'
+- agent: PracticeAgent
+  action: 'Failed portal for Go Offer Data Analyst: Gemini failed to generate project
+    recommendations'
+  status: error
+  timestamp: '2026-04-05T04:44:00'
+- agent: PracticeAgent
+  action: 'Failed portal for AUMOVIO Data Analysis Intern (Yearlong): Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-05T04:44:10'
+- agent: PracticeAgent
+  action: 'Failed portal for ZURU Toys Data Analyst Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-05T04:44:21'
+- agent: PracticeAgent
+  action: 'Failed portal for Toshiba America Electronic Components, Inc. 5039 Data
+    Analyst Engineering Intern: Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-05T04:44:32'
+- agent: PracticeAgent
+  action: 'Failed portal for Aday Data Analysis Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-05T04:44:42'
+- agent: PracticeAgent
+  action: 'Failed portal for Okta for Developers Data Analyst Intern (Summer 2026):
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-05T04:44:52'
+- agent: PracticeAgent
+  action: 'Failed portal for Washington Commanders Data Analyst (Intern): Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-05T04:45:03'
+- agent: PracticeAgent
+  action: 'Failed portal for Lensa Data Analyst Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-05T04:45:13'
+- agent: PracticeAgent
+  action: 'Failed portal for Sloan Data Analyst Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-05T04:45:24'
+- agent: PracticeAgent
+  action: 'Failed portal for Go Offer Business Analyst Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-05T04:45:34'
+- agent: PracticeAgent
+  action: 'Failed portal for Veolia Intern - Business Analyst: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-05T04:45:45'
+- agent: PracticeAgent
+  action: 'Failed portal for TikTok Business Analyst Project Intern (GBS SMB) - 2026
+    Start (BS/MS): Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-05T04:45:55'
+- agent: PracticeAgent
+  action: 'Failed portal for TikTok Business Analyst Project Intern - Monetization
+    Strategy & Operations - 2026 Start (BS/MS): Gemini failed to generate project
+    recommendations'
+  status: error
+  timestamp: '2026-04-05T04:46:06'
+- agent: PracticeAgent
+  action: 'Failed portal for Maximus Business Analyst Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-05T04:46:17'
+- agent: PracticeAgent
+  action: 'Failed portal for Apollo Mission Critical Engineering Multiple U.S Locations
+    - Business Analyst Intern (BA-I) - Summer 2026: Gemini failed to generate project
+    recommendations'
+  status: error
+  timestamp: '2026-04-05T04:46:27'
+- agent: PracticeAgent
+  action: 'Failed portal for ACCA Careers Business Analyst Intern: Gemini failed to
+    generate project recommendations'
+  status: error
+  timestamp: '2026-04-05T04:46:38'
+- agent: PracticeAgent
+  action: 'Failed portal for MTX Group Business Analyst Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-05T04:46:48'
+- agent: PracticeAgent
+  action: 'Failed portal for Stripe Data Analyst, Intern (Master''s degree): Detected
+    incomplete placeholder content. Regenerating...'
+  status: error
+  timestamp: '2026-04-05T04:46:59'
+- agent: PracticeAgent
+  action: 'Failed portal for Stripe PhD Machine Learning Engineer, Intern: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-05T04:47:10'
+- agent: PracticeAgent
+  action: 'Failed portal for Zuneko Labs Artificial Intelligence (AI): Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-05T04:47:20'
+- agent: PracticeAgent
+  action: 'Failed portal for Unnati Enterprises Data Science: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-05T04:47:31'
+- agent: PracticeAgent
+  action: 'Failed portal for Unknown Data Science Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-05T04:47:41'
+- agent: PracticeAgent
+  action: 'Failed portal for Innoknowvex Machine Learning: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-05T04:47:51'
+- agent: PracticeAgent
+  action: 'Failed portal for Innoknowvex Data Science: Gemini failed to generate project
+    recommendations'
+  status: error
+  timestamp: '2026-04-05T04:48:02'
+- agent: PracticeAgent
+  action: 'Failed portal for Emoolar Technology Private Limited Artificial Intelligence
+    (AI): Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-05T04:48:13'
+- agent: PracticeAgent
+  action: 'Failed portal for Infinity Assurance Solutions Private Limited Computer
+    Vision: Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-05T04:48:24'
+- agent: PracticeAgent
+  action: 'Failed portal for Mindenious Edutech Data Science: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-05T04:48:34'
+- agent: PracticeAgent
+  action: 'Failed portal for Unknown Machine Learning Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-05T04:48:45'
+- agent: PracticeAgent
+  action: 'Failed portal for Arvyax Technologies Private Limited Machine Learning:
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-05T04:48:55'
+- agent: PracticeAgent
+  action: 'Failed portal for Career Solutions Data Science: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-05T04:49:06'
+- agent: PracticeAgent
+  action: 'Failed portal for Unknown Artificial Intelligence Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-05T04:49:17'
+- agent: PracticeAgent
+  action: 'Failed portal for Symonis Machine Learning: Gemini failed to generate project
+    recommendations'
+  status: error
+  timestamp: '2026-04-05T04:49:27'
+- agent: PracticeAgent
+  action: 'Failed portal for Cloud Back Machine Learning: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-05T04:49:38'
+- agent: PracticeAgent
+  action: 'Failed portal for Lensa Data Science Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-05T04:49:48'
+- agent: PracticeAgent
+  action: 'Failed portal for METRO Regional Transit Authority Data Analyst Intern:
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-05T04:49:59'
+- agent: PracticeAgent
+  action: 'Failed portal for Primetrade.ai Machine Learning (Modeling + Evaluation):
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-05T04:50:09'
+- agent: PracticeAgent
+  action: 'Failed portal for Primetrade.ai Artificial Intelligence (AI): Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-05T04:50:20'
+- agent: PracticeAgent
+  action: 'Failed portal for Primetrade.ai Data Science: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-05T04:50:30'
+- agent: PracticeAgent
+  action: 'Failed portal for Banner Engineering Careers Business Analyst Intern: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-05T04:50:41'
+- agent: PracticeAgent
+  action: 'Failed portal for Tatari Data Science, Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-05T04:50:51'
+- agent: PracticeAgent
+  action: 'Failed portal for Lensa Business Analyst Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-05T04:51:01'
+- agent: PracticeAgent
+  action: 'Failed portal for Accredian Data Science: Gemini failed to generate project
+    recommendations'
+  status: error
+  timestamp: '2026-04-05T04:51:12'
+- agent: PracticeAgent
+  action: 'Failed portal for targetjobs UK Business Analyst Internship: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-05T04:51:23'
+- agent: PracticeAgent
+  action: 'Failed portal for Fitbae Healthcare Private Limited Data Science: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-05T04:51:33'
+- agent: PracticeAgent
+  action: 'Failed portal for Aviate Manpower Data Science: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-05T04:51:44'
+- agent: PracticeAgent
+  action: 'Failed portal for Zulitech Solution Machine Learning: Gemini failed to
+    generate project recommendations'
+  status: error
+  timestamp: '2026-04-05T04:51:54'
+- agent: PracticeAgent
+  action: 'Failed portal for Zulitech Solution Artificial Intelligence (AI): Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-05T04:52:05'
+- agent: PracticeAgent
+  action: 'Failed portal for Kensho Technologies Machine Learning Intern - Summer
+    2026: Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-05T04:52:15'
+- agent: PracticeAgent
+  action: 'Failed portal for PANTHERx Rare Pharmacy Intern, Data Science: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-05T04:52:26'
+- agent: PracticeAgent
+  action: 'Failed portal for Nuro Machine Learning intern, Behavior Planning: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-05T04:52:37'
+- agent: PracticeAgent
+  action: 'Failed portal for ForFutures Financial, Planning, a financial advisory
+    practice of Ameriprise Financial Services LLC Data Science Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-05T04:52:47'
+- agent: PracticeAgent
+  action: 'Failed portal for Pacific Seafood Machine Vision & Data Science Intern:
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-05T04:52:57'
+- agent: PracticeAgent
+  action: 'Failed portal for Product Manager Accelerator AI Engineer Intern - AI/ML/GenAI
+    Design & Development: Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-05T04:53:08'
+- agent: PracticeAgent
+  action: 'Failed portal for Viant Technology Machine Learning Engineering Internship
+    - Summer 2026: Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-05T04:53:18'
+- agent: PracticeAgent
+  action: 'Failed portal for Tatari Data Science BI, Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-05T04:53:29'
+- agent: PracticeAgent
+  action: 'Failed portal for TikTok Machine Learning Engineer Intern - Global E-Commerce
+    Content Recommendation - 2026 Summer (BS/MS): Gemini failed to generate project
+    recommendations'
+  status: error
+  timestamp: '2026-04-05T04:53:39'
+- agent: PracticeAgent
+  action: 'Failed portal for TikTok Machine Learning Engineer Intern - Data-Search-TikTok
+    Recommendation Team - 2026 Summer (BS/MS): Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-05T04:53:50'
+- agent: PracticeAgent
+  action: 'Failed portal for Qorvo, Inc. Data Science Engineer Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-05T04:54:01'
+- agent: PracticeAgent
+  action: 'Failed portal for Lensa Data Analyst Internship (Summer 2026): Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-05T04:54:11'
+- agent: PracticeAgent
+  action: 'Failed portal for Tesla Internship, Data Engineer, Energy (Summer 2026):
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-05T04:54:22'
+- agent: PracticeAgent
+  action: 'Failed portal for Seaman Corporation Business Analyst Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-05T04:54:33'
+- agent: PracticeAgent
+  action: 'Failed portal for Talentrift Business Analyst Intern: Gemini failed to
+    generate project recommendations'
+  status: error
+  timestamp: '2026-04-05T04:54:43'
+- agent: PracticeAgent
+  action: 'Failed portal for Zyndra Talent Solutions Business Analyst Innovation Intern:
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-05T04:54:54'
+- agent: PracticeAgent
+  action: 'Failed portal for Eightfold AI Senior Machine Learning Engineer: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-05T04:55:04'
+- agent: PracticeAgent
+  action: 'Failed portal for Lensa Intern, Data Science: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-05T04:55:15'
+- agent: PracticeAgent
+  action: 'Failed portal for Lensa Intern - Data Science: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-05T04:55:26'
+- agent: PracticeAgent
+  action: 'Failed portal for TikTok Machine Learning Engineer Intern - TikTok Search
+    E-Commerce team - 2026 Summer (BS/MS): Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-05T04:55:36'
+- agent: PracticeAgent
+  action: 'Failed portal for ARM Institute Data Analyst Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-05T04:55:47'
+- agent: PracticeAgent
+  action: 'Failed portal for Storybizz Media Private Limited Artificial Intelligence
+    (AI): Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-05T04:55:57'
+- agent: PracticeAgent
+  action: 'Failed portal for EVgo Intern, Data Analyst (Winter / Spring): Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-05T04:56:08'
+- agent: PracticeAgent
+  action: 'Failed portal for Family Tree Farms Data Analyst Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-05T04:56:18'
+- agent: PracticeAgent
+  action: 'Failed portal for Thermo Fisher Data Engineer II: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-05T04:56:29'
+- agent: PracticeAgent
+  action: 'Failed portal for Cvent Data Science Intern (Summer 2026): Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-05T04:56:40'
+- agent: PracticeAgent
+  action: 'Failed portal for Generate:Biomedicines Machine Learning Intern: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-05T04:56:50'
+- agent: PracticeAgent
+  action: 'Failed portal for PathAI Machine Learning Intern/Co-op (Summer/Fall 2026):
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-05T04:57:01'
+- agent: PracticeAgent
+  action: 'Failed portal for Anne Klein Official Data Analyst Internship Spring 2026:
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-05T04:57:11'
+- agent: PracticeAgent
+  action: 'Failed portal for FinZebra AI Engineering & Learning Design: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-05T04:57:22'
+- agent: PracticeAgent
+  action: 'Failed portal for Lensa Machine Learning Science Intern - Summer 2026 Start:
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-05T04:57:32'
+- agent: PracticeAgent
+  action: 'Failed portal for Learning Skills Academy Data And ML Engineer: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-05T04:57:42'
+- agent: PracticeAgent
+  action: 'Failed portal for Catch Sports Analytics Sports Data Analyst: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-05T04:57:53'
+- agent: PracticeAgent
+  action: 'Failed portal for Hughes ML Engineering Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-05T04:58:03'
+- agent: PracticeAgent
+  action: 'Failed portal for Airbnb Machine Learning Engineering Intern (PhD): Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-05T04:58:14'
+- agent: PracticeAgent
+  action: 'Failed portal for The Institute for Advanced Learning and Research Artificial
+    Intelligence / Machine Learning Intern: Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-05T04:58:25'
+- agent: PracticeAgent
+  action: 'Failed portal for Lensa Business Analyst (Intern) - United States: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-05T04:58:35'
+- agent: PracticeAgent
+  action: 'Failed portal for Veolia Business Analyst Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-05T04:58:45'
+- agent: PracticeAgent
+  action: 'Failed portal for Bankers Financial Corporation Business Analyst Intern:
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-05T04:58:55'
+- agent: PracticeAgent
+  action: 'Failed portal for Tax-O-Smart LLP Artificial Intelligence (AI): Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-05T04:59:06'
+- agent: PracticeAgent
+  action: 'Failed portal for Talent Corner HR Services Machine Learning Engineer:
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-05T04:59:17'
+- agent: PracticeAgent
+  action: 'Failed portal for Unknown Company – Source Incomplete Data Science Intern:
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-05T04:59:27'
+- agent: PracticeAgent
+  action: 'Failed portal for Wobot Intelligence Private Limited Computer Vision: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-05T04:59:38'
+- agent: PracticeAgent
+  action: 'Failed portal for Resolute AI Software Private Limited AI Engineer: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-05T04:59:48'
+- agent: PracticeAgent
+  action: 'Failed portal for Unknown Company – Source Incomplete Machine Learning
+    Intern: Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-05T04:59:59'
