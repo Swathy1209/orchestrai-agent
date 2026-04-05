@@ -1,8 +1,4 @@
 logs:
-- agent: CareerAgent
-  action: Fetch started
-  level: INFO
-  timestamp: '2026-04-05T06:00:31'
 - agent: PracticeAgent
   action: 'Failed portal for Connors Group Data Analyst Intern: Gemini failed to generate
     project recommendations'
@@ -2497,3 +2493,8 @@ logs:
     Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-05T07:43:17'
+- agent: PracticeAgent
+  action: 'Failed portal for Melotech Data Science Intern, Music & Audio: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-05T07:43:28'
