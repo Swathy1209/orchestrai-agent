@@ -1,9 +1,5 @@
 logs:
 - agent: CareerAgent
-  action: Fetch started
-  level: INFO
-  timestamp: '2026-04-05T04:17:41'
-- agent: CareerAgent
   action: 103 jobs fetched
   level: INFO
   timestamp: '2026-04-05T04:18:10'
@@ -2456,3 +2452,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-05T06:02:04'
+- agent: PracticeAgent
+  action: 'Failed portal for CodeTikki WorkSpace Machine Learning Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-05T06:02:16'
