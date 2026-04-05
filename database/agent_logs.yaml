@@ -1,9 +1,5 @@
 logs:
 - agent: CareerAgent
-  action: Fetch started
-  level: INFO
-  timestamp: '2026-04-05T00:11:16'
-- agent: CareerAgent
   action: 103 jobs fetched
   level: INFO
   timestamp: '2026-04-05T00:11:47'
@@ -2236,3 +2232,8 @@ logs:
     Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-05T05:14:26'
+- agent: PracticeAgent
+  action: 'Failed portal for New Jersey Courts Business Analyst Intern (Hourly): Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-05T05:14:37'
