@@ -1,9 +1,5 @@
 logs:
 - agent: CareerAgent
-  action: 103 jobs fetched, 88 relevant
-  level: INFO
-  timestamp: '2026-04-05T02:27:02'
-- agent: CareerAgent
   action: Stored in GitHub YAML
   level: INFO
   timestamp: '2026-04-05T02:27:10'
@@ -2387,3 +2383,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-05T05:46:54'
+- agent: PracticeAgent
+  action: 'Failed portal for Primenumbers Technologies Data Science Intern: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-05T05:47:05'
