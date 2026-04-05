@@ -1,9 +1,5 @@
 logs:
 - agent: CareerAgent
-  action: 103 jobs fetched
-  level: INFO
-  timestamp: '2026-04-05T00:31:50'
-- agent: CareerAgent
   action: 103 jobs fetched, 88 relevant
   level: INFO
   timestamp: '2026-04-05T00:31:55'
@@ -2286,3 +2282,8 @@ logs:
     Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-05T05:25:11'
+- agent: PracticeAgent
+  action: 'Failed portal for Neha Singh Data Science Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-05T05:25:23'
