@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Innoknowvex Data Science: Gemini failed to generate project
-    recommendations'
-  status: error
-  timestamp: '2026-04-05T14:23:15'
-- agent: PracticeAgent
   action: 'Failed portal for Emoolar Technology Private Limited Artificial Intelligence
     (AI): Gemini failed to generate project recommendations'
   status: error
@@ -2499,3 +2494,8 @@ logs:
   action: PracticeAgent run initiated
   status: success
   timestamp: '2026-04-05T16:14:44'
+- agent: PracticeAgent
+  action: 'Failed portal for RefinedScience Data Engineering Intern: Detected incomplete
+    placeholder content. Regenerating...'
+  status: error
+  timestamp: '2026-04-05T16:14:53'
