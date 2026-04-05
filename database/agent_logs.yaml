@@ -1,9 +1,5 @@
 logs:
 - agent: CareerAgent
-  action: 103 jobs fetched
-  level: INFO
-  timestamp: '2026-04-05T02:19:03'
-- agent: CareerAgent
   action: 103 jobs fetched, 88 relevant
   level: INFO
   timestamp: '2026-04-05T02:19:07'
@@ -2356,3 +2352,8 @@ logs:
     Summer 2026: Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-05T05:40:10'
+- agent: PracticeAgent
+  action: 'Failed portal for IndiaBizForSale.com Data Science Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-05T05:40:22'
