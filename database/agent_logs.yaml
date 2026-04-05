@@ -1,9 +1,4 @@
 logs:
-- agent: SkillAgent
-  action: Skill gap analysis complete
-  status: success
-  timestamp: '2026-04-05T02:13:03'
-  details: Analyzed 508 jobs.
 - agent: CareerAgent
   action: Fetch started
   level: INFO
@@ -2337,3 +2332,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-05T05:35:56'
+- agent: PracticeAgent
+  action: 'Failed portal for KIDLOLAND KIDS & TODDLER GAMES PRIVATE LIMITED Machine
+    Learning Intern: Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-05T05:36:07'
