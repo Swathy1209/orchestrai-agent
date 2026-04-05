@@ -1,9 +1,5 @@
 logs:
 - agent: CareerAgent
-  action: 103 jobs fetched, 88 relevant
-  level: INFO
-  timestamp: '2026-04-05T00:25:49'
-- agent: CareerAgent
   action: Stored in GitHub YAML
   level: INFO
   timestamp: '2026-04-05T00:25:55'
@@ -2274,3 +2270,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-05T05:22:33'
+- agent: PracticeAgent
+  action: 'Failed portal for C3 AI Data Science - Intern (Summer 2026): Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-05T05:22:44'
