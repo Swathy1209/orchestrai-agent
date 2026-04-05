@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Stripe PhD Machine Learning Engineer, Intern: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-05T08:23:15'
-- agent: PracticeAgent
   action: 'Failed portal for Zuneko Labs Artificial Intelligence (AI): Gemini failed
     to generate project recommendations'
   status: error
@@ -2488,3 +2483,9 @@ logs:
     (BS/MS): Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-05T12:31:02'
+- agent: PracticeAgent
+  action: 'Failed portal for TikTok Machine Learning Engineer Intern (Privacy and
+    Data Protection Office) - 2026 Start (PhD): Gemini failed to generate project
+    recommendations'
+  status: error
+  timestamp: '2026-04-05T12:31:14'
