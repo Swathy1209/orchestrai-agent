@@ -1,9 +1,5 @@
 logs:
 - agent: CareerAgent
-  action: 89 jobs fetched
-  level: INFO
-  timestamp: '2026-04-05T04:00:22'
-- agent: CareerAgent
   action: 89 jobs fetched, 74 relevant
   level: INFO
   timestamp: '2026-04-05T04:00:25'
@@ -2404,3 +2400,8 @@ logs:
     Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-05T05:50:37'
+- agent: PracticeAgent
+  action: 'Failed portal for Automation Anywhere AI Engineer: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-05T05:50:48'
