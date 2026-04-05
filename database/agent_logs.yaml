@@ -1,9 +1,5 @@
 logs:
 - agent: CareerAgent
-  action: Fetch started
-  level: INFO
-  timestamp: '2026-04-05T02:12:01'
-- agent: CareerAgent
   action: 103 jobs fetched
   level: INFO
   timestamp: '2026-04-05T02:12:32'
@@ -2331,3 +2327,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-05T05:34:49'
+- agent: PracticeAgent
+  action: 'Failed portal for KIDLOLAND KIDS & TODDLER GAMES PRIVATE LIMITED Data Science
+    Intern: Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-05T05:35:01'
