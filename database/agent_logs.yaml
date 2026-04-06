@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Kumaresh Chinnaswamy Machine Learning Intern: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-06T01:01:51'
-- agent: PracticeAgent
   action: 'Failed portal for Almost Magic Private Limited Machine Learning Intern:
     Gemini failed to generate project recommendations'
   status: error
@@ -2501,3 +2496,8 @@ logs:
     (AI): Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-06T02:52:34'
+- agent: PracticeAgent
+  action: 'Failed portal for Crustdata (YC F24) ML Engineer Intern (Summer 2026):
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-06T02:52:45'
