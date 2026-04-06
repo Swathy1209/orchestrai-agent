@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Hone Health Data Science Intern (Summer 2026): Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-06T21:01:29'
-- agent: PracticeAgent
   action: 'Failed portal for The Goat Academy Private Limited Data Science Intern:
     Gemini failed to generate project recommendations'
   status: error
@@ -2501,3 +2496,8 @@ logs:
     generate project recommendations'
   status: error
   timestamp: '2026-04-06T22:49:06'
+- agent: PracticeAgent
+  action: 'Failed portal for Tech Economy ML-AI Engineering Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-06T22:49:17'
