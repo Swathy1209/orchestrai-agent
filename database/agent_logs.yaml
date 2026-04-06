@@ -1,8 +1,4 @@
 logs:
-- agent: CareerAgent
-  action: Fetch started
-  level: INFO
-  timestamp: '2026-04-06T18:00:33'
 - agent: PracticeAgent
   action: 'Failed portal for Encrobytes Technologies Private Limited Data Science
     Intern: Gemini failed to generate project recommendations'
@@ -2500,3 +2496,8 @@ logs:
     Intern: Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-06T19:49:15'
+- agent: PracticeAgent
+  action: 'Failed portal for Inorbvict Healthcare India Private Limited Machine Learning
+    Intern: Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-06T19:49:26'
