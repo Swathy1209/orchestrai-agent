@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Tax-O-Smart LLP Artificial Intelligence Intern: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-06T06:02:16'
-- agent: PracticeAgent
   action: 'Failed portal for Statcon Energiaa Artificial Intelligence Intern: Gemini
     failed to generate project recommendations'
   status: error
@@ -2494,3 +2489,8 @@ logs:
   action: Generated match scores for 552 internships
   status: success
   timestamp: '2026-04-06T08:26:02'
+- agent: PracticeAgent
+  action: 'Failed portal for Lensa Data Science Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-06T08:26:15'
