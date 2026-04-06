@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Assetcues Solutions Private Limited Data Science Intern:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-06T05:31:57'
-- agent: PracticeAgent
   action: 'Failed portal for Talview Data Science Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2502,3 +2497,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-06T07:36:22'
+- agent: PracticeAgent
+  action: 'Failed portal for Anubhav Singh Machine Learning Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-06T07:36:34'
