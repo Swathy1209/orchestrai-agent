@@ -1,8 +1,4 @@
 logs:
-- agent: CareerAgent
-  action: Fetch started
-  level: INFO
-  timestamp: '2026-04-06T22:00:35'
 - agent: PracticeAgent
   action: 'Failed portal for Safalta Setu Data Science Intern: Gemini failed to generate
     project recommendations'
@@ -2501,3 +2497,8 @@ logs:
     Science Intern: Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-06T23:48:07'
+- agent: PracticeAgent
+  action: 'Failed portal for TechTrapture Machine Learning Intern: Gemini failed to
+    generate project recommendations'
+  status: error
+  timestamp: '2026-04-06T23:48:18'
