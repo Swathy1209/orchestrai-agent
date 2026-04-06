@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Suresh Dani''s Classes Data Science: Gemini failed to
-    generate project recommendations'
-  status: error
-  timestamp: '2026-04-06T08:48:41'
-- agent: PracticeAgent
   action: 'Failed portal for Tech Economy ML-AI Engineering Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2500,3 +2495,8 @@ logs:
     Intern: Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-06T10:36:20'
+- agent: PracticeAgent
+  action: 'Failed portal for OralKart Machine Learning: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-06T10:36:31'
