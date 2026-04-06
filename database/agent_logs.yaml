@@ -1,9 +1,4 @@
 logs:
-- agent: PracticeAgent
-  action: 'Failed portal for AUMOVIO Data Analysis Intern (Yearlong): Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-06T06:24:11'
 - agent: ResumeOptimizationAgent
   action: Generated optimizations for 547 internships
   status: success
@@ -2500,3 +2495,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-06T08:40:41'
+- agent: PracticeAgent
+  action: 'Failed portal for Bipolar Factory Artificial Intelligence (AI): Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-06T08:40:53'
