@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for NewAge Industries, Inc. Data Analyst Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-06T15:47:57'
-- agent: PracticeAgent
   action: 'Failed portal for STARTUP GROWW CONSULTING SERVICES PRIVATE LIMITED Data
     Science Intern: Gemini failed to generate project recommendations'
   status: error
@@ -2492,3 +2487,9 @@ logs:
     - 2026 Start (BS/MS): Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-06T17:34:29'
+- agent: PracticeAgent
+  action: 'Failed portal for WayUp BMW, Overseas Supply Chain Operations and Data
+    Analysis Intern (Fall 2026) - Application via WayUp: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-06T17:34:40'
