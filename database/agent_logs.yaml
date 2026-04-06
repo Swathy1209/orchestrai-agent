@@ -1,8 +1,4 @@
 logs:
-- agent: CareerAgent
-  action: 103 jobs fetched, 88 relevant
-  level: INFO
-  timestamp: '2026-04-06T06:01:08'
 - agent: PracticeAgent
   action: 'Failed portal for Intuit Compliance Assurance Staff Technical Data Analyst:
     Gemini failed to generate project recommendations'
@@ -2495,3 +2491,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-06T08:23:30'
+- agent: PracticeAgent
+  action: 'Failed portal for Unnati Enterprises Data Science: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-06T08:23:42'
