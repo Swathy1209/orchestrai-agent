@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for NHS Ayrshire & Arran Principal Analyst – Data Engineering:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-06T09:47:08'
-- agent: PracticeAgent
   action: 'Failed portal for Verda Healthcare Business Analyst (Junior/Entry Level)
     - no C2C: Gemini failed to generate project recommendations'
   status: error
@@ -2496,3 +2491,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-06T11:34:36'
+- agent: PracticeAgent
+  action: 'Failed portal for Stanford University School of Medicine Data Analyst 1
+    (1 Year Fixed Term): Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-06T11:34:47'
