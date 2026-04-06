@@ -1,8 +1,4 @@
 logs:
-- agent: CareerAgent
-  action: Email delegation passed to ExecutionAgent
-  level: INFO
-  timestamp: '2026-04-06T04:01:33'
 - agent: SkillAgent
   action: SkillAgent run initiated
   status: success
@@ -2505,3 +2501,8 @@ logs:
     (1 Year Fixed Term): Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-06T05:47:05'
+- agent: PracticeAgent
+  action: 'Failed portal for Albert Einstein College of Medicine Data Analyst - Education:
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-06T05:47:17'
