@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Wingman Pro Machine Learning Intern: Gemini failed to
-    generate project recommendations'
-  status: error
-  timestamp: '2026-04-06T07:50:48'
-- agent: PracticeAgent
   action: 'Failed portal for Euromonitor International Associate Data Analyst: Gemini
     failed to generate project recommendations'
   status: error
@@ -2497,3 +2492,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-06T09:37:49'
+- agent: PracticeAgent
+  action: 'Failed portal for Metropolitan Transportation Authority Data Science Maintenance
+    Support, Emerging Talent Intern (Summer): Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-06T09:38:00'
