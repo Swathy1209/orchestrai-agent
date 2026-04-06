@@ -1,9 +1,5 @@
 logs:
 - agent: CareerAgent
-  action: Fetch started
-  level: INFO
-  timestamp: '2026-04-06T04:00:00'
-- agent: CareerAgent
   action: 106 jobs fetched
   level: INFO
   timestamp: '2026-04-06T04:00:25'
@@ -2495,3 +2491,8 @@ logs:
     Chain & Logistics) - 2026 Start (PhD): Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-06T05:45:30'
+- agent: PracticeAgent
+  action: 'Failed portal for TikTok Data Science Project Intern (Advertising Team)
+    - 2026 Start (BS/MS): Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-06T05:45:41'
