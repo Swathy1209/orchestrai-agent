@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Life.Church Data Analyst: Gemini failed to generate project
-    recommendations'
-  status: error
-  timestamp: '2026-04-07T13:52:11'
-- agent: PracticeAgent
   action: 'Failed portal for Statcon Energiaa Data Science Intern: Gemini failed to
     generate project recommendations'
   status: error
@@ -2494,3 +2489,8 @@ logs:
     Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-07T15:45:47'
+- agent: PracticeAgent
+  action: 'Failed portal for Aadi Foundation Machine Learning Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-07T15:45:58'
