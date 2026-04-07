@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for TÜV SÜD Intern - Business Analyst / Process Engineer:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-07T17:27:28'
-- agent: PracticeAgent
   action: 'Failed portal for Allo Innoware Data Science Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2484,3 +2479,8 @@ logs:
     Intern: Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-07T20:03:21'
+- agent: PracticeAgent
+  action: 'Failed portal for Raviraj Sarees Pvt Ltd Machine Learning Intern: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-07T20:03:34'
