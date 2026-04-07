@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Neurasys Machine Learning Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-07T20:05:14'
-- agent: PracticeAgent
   action: 'Failed portal for CareerNest Machine Learning Intern: Gemini failed to
     generate project recommendations'
   status: error
@@ -2496,3 +2491,8 @@ logs:
     Signal and Privacy) - 2026 Summer (BS/MS): Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-07T22:07:00'
+- agent: PracticeAgent
+  action: 'Failed portal for TikTok Data Engineer Project Intern (Data Governance
+    Data Cycling Center) - 2026 Start (BS/MS): Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-07T22:07:37'
