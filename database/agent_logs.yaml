@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Veolia Intern - Business Analyst: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-07T12:23:27'
-- agent: PracticeAgent
   action: 'Failed portal for TikTok Business Analyst Project Intern (GBS SMB) - 2026
     Start (BS/MS): Gemini failed to generate project recommendations'
   status: error
@@ -2509,3 +2504,7 @@ logs:
   action: 111 jobs fetched
   level: INFO
   timestamp: '2026-04-07T14:00:59'
+- agent: CareerAgent
+  action: 111 jobs fetched, 96 relevant
+  level: INFO
+  timestamp: '2026-04-07T14:01:04'
