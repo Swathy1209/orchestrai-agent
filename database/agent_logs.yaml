@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Twango Artificial Intelligence Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-07T06:11:01'
-- agent: PracticeAgent
   action: 'Failed portal for HDR Data Science/Analysis Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2503,3 +2498,8 @@ logs:
   action: Generated match scores for 591 internships
   status: success
   timestamp: '2026-04-07T08:36:43'
+- agent: PracticeAgent
+  action: 'Failed portal for Veolia Business Analyst Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-07T08:36:58'
