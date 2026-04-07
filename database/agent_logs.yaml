@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Assetcues Solutions Private Limited Data Science Intern:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-07T17:28:03'
-- agent: PracticeAgent
   action: 'Failed portal for Zeko Data Science Intern: Gemini failed to generate project
     recommendations'
   status: error
@@ -2484,3 +2479,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-07T20:03:59'
+- agent: PracticeAgent
+  action: 'Failed portal for Mple AI Machine Learning Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-07T20:04:11'
