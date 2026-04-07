@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Newzeninfotech Solutions Data Science: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-07T14:47:51'
-- agent: PracticeAgent
   action: 'Failed portal for Flipkart Data Analysis Lead: Gemini failed to generate
     project recommendations'
   status: error
@@ -2497,3 +2492,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-07T16:52:51'
+- agent: PracticeAgent
+  action: 'Failed portal for Paramount+ Data Science Intern (Summer 2026 - In-Person
+    - NYC): Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-07T16:53:03'
