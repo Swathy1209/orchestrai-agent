@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Force-Intellect Private Limited Data Science Intern:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-06T23:24:17'
-- agent: PracticeAgent
   action: 'Failed portal for Tidal7 Asia - A J7 Agency Data Science Intern: Gemini
     failed to generate project recommendations'
   status: error
@@ -2502,3 +2497,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-07T01:08:53'
+- agent: PracticeAgent
+  action: 'Failed portal for MSX International Data Analyst - Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-07T01:09:04'
