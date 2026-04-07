@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Stripe PhD Machine Learning Engineer, Intern: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-07T07:44:51'
-- agent: PracticeAgent
   action: 'Failed portal for Bio-Rad Laboratories Data Science Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2497,3 +2492,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-07T09:29:57'
+- agent: PracticeAgent
+  action: 'Failed portal for Zypp Electric Machine Learning Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-07T09:30:08'
