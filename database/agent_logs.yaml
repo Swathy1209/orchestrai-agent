@@ -1,9 +1,4 @@
 logs:
-- agent: PracticeAgent
-  action: 'Failed portal for HDR Data Science/Analysis Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-07T00:05:40'
 - agent: CoverLetterAgent
   action: Generated 579 cover letters
   status: success
@@ -2507,3 +2502,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-07T01:50:49'
+- agent: PracticeAgent
+  action: 'Failed portal for Greenlight Data Engineering Intern: Gemini failed to
+    generate project recommendations'
+  status: error
+  timestamp: '2026-04-07T01:51:00'
