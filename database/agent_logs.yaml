@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Pradip Nichite Data Science Intern: Gemini failed to
-    generate project recommendations'
-  status: error
-  timestamp: '2026-04-07T10:02:02'
-- agent: PracticeAgent
   action: 'Failed portal for Encrobytes Technologies Private Limited Data Science
     Intern: Gemini failed to generate project recommendations'
   status: error
@@ -2507,3 +2502,8 @@ logs:
     - no C2C: Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-07T11:48:35'
+- agent: PracticeAgent
+  action: 'Failed portal for NewAge Industries, Inc. Data Analyst Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-07T11:48:47'
