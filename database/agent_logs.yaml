@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Lensa Data Science Internship: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-06T22:40:41'
-- agent: PracticeAgent
   action: 'Failed portal for AARP Data Analyst Intern: Gemini failed to generate project
     recommendations'
   status: error
@@ -2500,3 +2495,8 @@ logs:
     Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-07T00:25:04'
+- agent: PracticeAgent
+  action: 'Failed portal for Career Solutions Data Science: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-07T00:25:16'
