@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Athena AI Engineer Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-07T17:43:12'
-- agent: PracticeAgent
   action: 'Failed portal for Berkshire Hathaway GUARD Insurance Companies Data-AI
     Engineering Intern: Gemini failed to generate project recommendations'
   status: error
@@ -2478,3 +2473,8 @@ logs:
     Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-07T20:23:33'
+- agent: PracticeAgent
+  action: 'Failed portal for AUMOVIO Data Analysis Intern (Yearlong): Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-07T20:23:37'
