@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Cohere Machine Learning Intern/Co-op  (Spring 2026):
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-07T00:19:08'
-- agent: PracticeAgent
   action: 'Failed portal for Cornerstone Building Brands Data Analyst Intern: Gemini
     failed to generate project recommendations'
   status: error
@@ -2509,3 +2504,8 @@ logs:
     generate project recommendations'
   status: error
   timestamp: '2026-04-07T01:53:59'
+- agent: PracticeAgent
+  action: 'Failed portal for Kayno World Education Private Limited Data Science Intern:
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-07T01:54:10'
