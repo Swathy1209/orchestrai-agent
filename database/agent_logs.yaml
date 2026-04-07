@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for HDR Data Science/Analysis Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-07T10:06:41'
-- agent: PracticeAgent
   action: 'Failed portal for Everstylish Lifestyle Private Limited Data Science Intern:
     Gemini failed to generate project recommendations'
   status: error
@@ -2509,3 +2504,8 @@ logs:
     (Internship): Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-07T11:53:16'
+- agent: PracticeAgent
+  action: 'Failed portal for Turing Labs AI Engineer Intern - build stealth model:
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-07T11:53:28'
