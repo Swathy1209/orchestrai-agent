@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Tejate Education Private Limited Data Science Intern:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-07T11:04:03'
-- agent: PracticeAgent
   action: 'Failed portal for Neha Singh Data Science Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2500,3 +2495,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-07T12:52:11'
+- agent: PracticeAgent
+  action: 'Failed portal for Lensa Business Analyst Intern Remote: Gemini failed to
+    generate project recommendations'
+  status: error
+  timestamp: '2026-04-07T12:52:23'
