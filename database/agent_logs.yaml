@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Jarurat Care Data Science Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-07T03:30:59'
-- agent: PracticeAgent
   action: 'Failed portal for Grameen Shramik Pratishthan Data Science Intern: Gemini
     failed to generate project recommendations'
   status: error
@@ -2503,3 +2498,8 @@ logs:
     - no C2C: Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-07T05:51:52'
+- agent: PracticeAgent
+  action: 'Failed portal for NewAge Industries, Inc. Data Analyst Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-07T05:52:05'
