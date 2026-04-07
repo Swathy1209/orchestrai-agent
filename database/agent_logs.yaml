@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Veritem Health Private Limited Data Science Intern: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-07T03:56:02'
-- agent: PracticeAgent
   action: 'Failed portal for Grinning Co. (Fremont, United States) Machine Learning
     Intern: Gemini failed to generate project recommendations'
   status: error
@@ -2493,3 +2488,8 @@ logs:
     recommendations'
   status: error
   timestamp: '2026-04-07T06:28:11'
+- agent: PracticeAgent
+  action: 'Failed portal for ACCA Careers Business Analyst Intern: Gemini failed to
+    generate project recommendations'
+  status: error
+  timestamp: '2026-04-07T06:28:24'
