@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for The Goat Academy Private Limited Data Science Intern:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-07T17:07:08'
-- agent: PracticeAgent
   action: 'Failed portal for Webbybutter Technologies Data Science Intern: Gemini
     failed to generate project recommendations'
   status: error
@@ -2490,3 +2485,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-07T19:42:47'
+- agent: PracticeAgent
+  action: 'Failed portal for Neoteric Analytics Data And AI Engineer Intern: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-07T19:42:59'
