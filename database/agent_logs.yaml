@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Moloco Machine Learning Engineer Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-07T18:21:53'
-- agent: PracticeAgent
   action: 'Failed portal for TikTok (General Hire) Machine Learning Engineer Intern
     (TikTok-Recommendation) - 2026 Summer (BS/MS): Gemini failed to generate project
     recommendations'
@@ -2487,3 +2482,8 @@ logs:
     Intelligence Intern: Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-07T20:53:18'
+- agent: PracticeAgent
+  action: 'Failed portal for INFICON Data Science Intern (Remote): Gemini failed to
+    generate project recommendations'
+  status: error
+  timestamp: '2026-04-07T20:53:31'
