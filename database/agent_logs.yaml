@@ -1,9 +1,4 @@
 logs:
-- agent: PracticeAgent
-  action: 'Failed portal for Accredian Machine Learning Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-07T12:00:50'
 - agent: CareerAgent
   action: 100 jobs fetched
   level: INFO
@@ -2501,3 +2496,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-07T13:49:01'
+- agent: PracticeAgent
+  action: 'Failed portal for Tesla Internship, Data Engineer, Fleet Analytics (Summer
+    2026): Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-07T13:49:12'
