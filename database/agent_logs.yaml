@@ -1,9 +1,5 @@
 logs:
 - agent: CareerAgent
-  action: 101 jobs fetched
-  level: INFO
-  timestamp: '2026-04-07T18:01:00'
-- agent: CareerAgent
   action: 101 jobs fetched, 86 relevant
   level: INFO
   timestamp: '2026-04-07T18:01:04'
@@ -2477,3 +2473,8 @@ logs:
     Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-07T20:41:48'
+- agent: PracticeAgent
+  action: 'Failed portal for Tax-O-Smart LLP Artificial Intelligence (AI): Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-07T20:42:01'
