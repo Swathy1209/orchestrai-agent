@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for IIDE Education Private Limited Artificial Intelligence
-    Intern: Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-07T01:20:01'
-- agent: PracticeAgent
   action: 'Failed portal for Bosch Home Comfort USA Artificial Intelligence / Machine
     Learning - Intern: Gemini failed to generate project recommendations'
   status: error
@@ -2500,3 +2495,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-07T03:04:56'
+- agent: PracticeAgent
+  action: 'Failed portal for Neurasys Machine Learning Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-07T03:05:07'
