@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Global Ace Technology Machine Learning Intern: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-07T20:11:14'
-- agent: PracticeAgent
   action: 'Failed portal for Globik AI Private Limited Data Science Intern: Gemini
     failed to generate project recommendations'
   status: error
@@ -2496,3 +2491,8 @@ logs:
   action: PracticeAgent run initiated
   status: success
   timestamp: '2026-04-07T22:18:34'
+- agent: PracticeAgent
+  action: 'Failed portal for Motovolt Data Science Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-07T22:18:39'
