@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Viant Technology Machine Learning Engineering Internship
-    - Summer 2026: Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-07T02:29:46'
-- agent: PracticeAgent
   action: 'Failed portal for Tatari Data Science BI, Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2502,3 +2497,7 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-07T04:01:15'
+- agent: CareerAgent
+  action: Stored in GitHub YAML
+  level: INFO
+  timestamp: '2026-04-07T04:01:25'
