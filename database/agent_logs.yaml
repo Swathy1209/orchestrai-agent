@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Bright Media Solution Private Limited Machine Learning
-    Intern: Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-07T02:02:20'
-- agent: PracticeAgent
   action: 'Failed portal for Tech Analogy Artificial Intelligence Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2505,3 +2500,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-07T03:47:32'
+- agent: PracticeAgent
+  action: 'Failed portal for Dynamo AI ML Research Scientist Intern – Dynamo Guard
+    / Dynamo Eval / AgentWarden: Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-07T03:47:43'
