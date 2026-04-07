@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for CarVach Data Science Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-07T01:59:22'
-- agent: PracticeAgent
   action: 'Failed portal for Blismos Solutions Private Limited Data Science Intern:
     Gemini failed to generate project recommendations'
   status: error
@@ -2500,3 +2495,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-07T03:44:02'
+- agent: PracticeAgent
+  action: 'Failed portal for Domyn AI Engineering and Research Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-07T03:44:13'
