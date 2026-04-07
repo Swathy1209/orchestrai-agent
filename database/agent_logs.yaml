@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Accredian Data Science Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-07T03:57:42'
-- agent: PracticeAgent
   action: 'Failed portal for Simpler Growth Data Science Intern: Gemini failed to
     generate project recommendations'
   status: error
@@ -2493,3 +2488,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-07T06:58:40'
+- agent: PracticeAgent
+  action: 'Failed portal for Gharpayy Artificial Intelligence (AI): Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-07T06:58:51'
