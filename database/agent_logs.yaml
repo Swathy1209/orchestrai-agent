@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for MTX Group Business Analyst Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-07T00:22:43'
-- agent: PracticeAgent
   action: 'Failed portal for Stripe PhD Machine Learning Engineer, Intern: Gemini
     failed to generate project recommendations'
   status: error
@@ -2508,3 +2503,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-07T01:56:35'
+- agent: PracticeAgent
+  action: 'Failed portal for Grinning Co. (Fremont, United States) Machine Learning
+    Intern: Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-07T01:56:46'
