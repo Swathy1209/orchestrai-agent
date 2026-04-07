@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Tinder Machine Learning Engineer Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-07T02:16:26'
-- agent: PracticeAgent
   action: 'Failed portal for Lensa Machine Learning Engineer Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2508,3 +2503,8 @@ logs:
     (Internship): Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-07T03:50:41'
+- agent: PracticeAgent
+  action: 'Failed portal for Turing Labs AI Engineer Intern - build stealth model:
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-07T03:50:52'
