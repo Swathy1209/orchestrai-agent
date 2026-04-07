@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Macquarie Group Liquidity Business Analyst: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-07T14:07:37'
-- agent: PracticeAgent
   action: 'Failed portal for Twango Data Science Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2501,3 +2496,7 @@ logs:
   action: 103 jobs fetched, 88 relevant
   level: INFO
   timestamp: '2026-04-07T16:01:05'
+- agent: CareerAgent
+  action: Stored in GitHub YAML
+  level: INFO
+  timestamp: '2026-04-07T16:01:18'
