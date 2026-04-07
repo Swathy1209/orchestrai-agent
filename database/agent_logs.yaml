@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Tech Analogy Artificial Intelligence Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-07T02:02:31'
-- agent: PracticeAgent
   action: 'Failed portal for Hampious Artificial Intelligence Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2505,3 +2500,8 @@ logs:
     / Dynamo Eval / AgentWarden: Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-07T03:47:43'
+- agent: PracticeAgent
+  action: 'Failed portal for Physics World Graph Machine Learning Research Intern:
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-07T03:47:55'
