@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Protecht (Wyoming, United States) Data Science Intern:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-07T01:57:32'
-- agent: PracticeAgent
   action: 'Failed portal for LI Blocks Private Limited Data Science Intern: Gemini
     failed to generate project recommendations'
   status: error
@@ -2500,3 +2495,8 @@ logs:
     Intern: Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-07T03:42:11'
+- agent: PracticeAgent
+  action: 'Failed portal for Ekimetrics 6 months Internship in Strategy & Data Science
+    | New York: Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-07T03:42:23'
