@@ -1,9 +1,5 @@
 logs:
 - agent: CareerAgent
-  action: 111 jobs fetched
-  level: INFO
-  timestamp: '2026-04-07T14:00:59'
-- agent: CareerAgent
   action: 111 jobs fetched, 96 relevant
   level: INFO
   timestamp: '2026-04-07T14:01:04'
@@ -2497,3 +2493,8 @@ logs:
     generate project recommendations'
   status: error
   timestamp: '2026-04-07T15:54:39'
+- agent: PracticeAgent
+  action: 'Failed portal for Jobs via Dice Machine Learning Engineer Intern: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-07T15:54:51'
