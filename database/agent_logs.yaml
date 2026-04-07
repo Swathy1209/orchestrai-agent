@@ -1,9 +1,4 @@
 logs:
-- agent: PracticeAgent
-  action: 'Failed portal for AsiaDirect Data Science Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-07T20:00:48'
 - agent: CareerAgent
   action: 102 jobs fetched
   level: INFO
@@ -2492,3 +2487,8 @@ logs:
   action: SkillAgent run initiated
   status: success
   timestamp: '2026-04-07T22:01:26'
+- agent: SkillAgent
+  action: Skill gap analysis complete
+  status: success
+  timestamp: '2026-04-07T22:01:37'
+  details: Analyzed 620 jobs.
