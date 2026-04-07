@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for 1stop.ai Artificial Intelligence (AI): Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-07T02:38:27'
-- agent: PracticeAgent
   action: 'Failed portal for Heptaverse Technologies Private Limited Artificial Intelligence
     (AI): Gemini failed to generate project recommendations'
   status: error
@@ -2494,3 +2489,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-07T04:28:11'
+- agent: PracticeAgent
+  action: 'Failed portal for Veolia Intern - Business Analyst: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-07T04:28:20'
