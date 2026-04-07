@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for LawDocs Machine Learning Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-07T15:30:21'
-- agent: PracticeAgent
   action: 'Failed portal for Preplaced Machine Learning Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2497,3 +2492,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-07T17:34:58'
+- agent: PracticeAgent
+  action: 'Failed portal for The Middleby Corporation Business Analyst Internship:
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-07T17:35:09'
