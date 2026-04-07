@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Infinity Assurance Solutions Private Limited Computer
-    Vision: Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-07T10:25:36'
-- agent: PracticeAgent
   action: 'Failed portal for Mindenious Edutech Data Science: Gemini failed to generate
     project recommendations'
   status: error
@@ -2506,3 +2501,7 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-07T12:00:50'
+- agent: CareerAgent
+  action: 100 jobs fetched
+  level: INFO
+  timestamp: '2026-04-07T12:01:00'
