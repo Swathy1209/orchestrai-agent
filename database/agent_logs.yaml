@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Restyle Machine Learning Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-07T02:00:18'
-- agent: PracticeAgent
   action: 'Failed portal for CarVach Machine Learning Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2500,3 +2495,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-07T03:44:57'
+- agent: PracticeAgent
+  action: 'Failed portal for Perpay Inc. Data Science Internship, 2026: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-07T03:45:08'
