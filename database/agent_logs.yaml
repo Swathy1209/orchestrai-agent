@@ -1,8 +1,4 @@
 logs:
-- agent: CareerAgent
-  action: Fetch started
-  level: INFO
-  timestamp: '2026-04-07T18:00:34'
 - agent: PracticeAgent
   action: 'Failed portal for Pairwise Data Science Intern: Gemini failed to generate
     project recommendations'
@@ -2476,3 +2472,8 @@ logs:
     Intelligence / Machine Learning Intern: Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-07T20:41:09'
+- agent: PracticeAgent
+  action: 'Failed portal for Lensa Business Analyst (Intern) - United States: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-07T20:41:23'
