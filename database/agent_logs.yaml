@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Maximus Business Analyst Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-07T00:22:08'
-- agent: PracticeAgent
   action: 'Failed portal for ACCA Careers Business Analyst Intern: Gemini failed to
     generate project recommendations'
   status: error
@@ -2508,3 +2503,8 @@ logs:
     recommendations'
   status: error
   timestamp: '2026-04-07T01:56:13'
+- agent: PracticeAgent
+  action: 'Failed portal for FormsADDA Data Science Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-07T01:56:24'
