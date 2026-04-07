@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Myntra Associate -Data Analyst: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-07T17:05:02'
-- agent: PracticeAgent
   action: 'Failed portal for Cult Fit Data Analyst: Gemini failed to generate project
     recommendations'
   status: error
@@ -2490,3 +2485,8 @@ logs:
     content. Regenerating...'
   status: error
   timestamp: '2026-04-07T19:40:37'
+- agent: PracticeAgent
+  action: 'Failed portal for Fractal Data Engineer: Gemini failed to generate project
+    recommendations'
+  status: error
+  timestamp: '2026-04-07T19:40:49'
