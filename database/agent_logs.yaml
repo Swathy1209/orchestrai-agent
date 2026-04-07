@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Founding Years Learning Solutions Private Limited Data
-    Science Intern: Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-07T17:36:30'
-- agent: PracticeAgent
   action: 'Failed portal for Expose Trendze Machine Learning Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2480,3 +2475,8 @@ logs:
     placeholder content. Regenerating...'
   status: error
   timestamp: '2026-04-07T20:20:08'
+- agent: PracticeAgent
+  action: 'Failed portal for Medidata Solutions Data Science Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-07T20:20:14'
