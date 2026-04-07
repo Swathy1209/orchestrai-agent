@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for AArete Intern, Data Science & Artificial Intelligence
-    (Summer 2026): Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-07T17:15:02'
-- agent: PracticeAgent
   action: 'Failed portal for Lensa Intern - Data Science, Generative AI: Gemini failed
     to generate project recommendations'
   status: error
@@ -2490,3 +2485,8 @@ logs:
     (AI): Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-07T19:50:48'
+- agent: PracticeAgent
+  action: 'Failed portal for Maiway Technologies Data Engineer (Data Engineer/Data
+    Collection): Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-07T19:51:00'
