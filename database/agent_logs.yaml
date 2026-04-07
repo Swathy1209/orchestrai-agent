@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Almost Magic Private Limited Machine Learning Intern:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-07T17:10:02'
-- agent: PracticeAgent
   action: 'Failed portal for Fine Data Analytics Private Limited Machine Learning
     Intern: Gemini failed to generate project recommendations'
   status: error
@@ -2490,3 +2485,8 @@ logs:
     - NYC): Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-07T19:45:43'
+- agent: PracticeAgent
+  action: 'Failed portal for Cohere Machine Learning Intern/Co-op  (Spring/Summer
+    2026): Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-07T19:45:54'
