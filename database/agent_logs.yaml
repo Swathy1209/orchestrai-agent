@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for MTX Group Business Analyst Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-07T19:20:19'
-- agent: PracticeAgent
   action: 'Failed portal for Stripe Data Analyst, Intern (Master''s degree): Detected
     incomplete placeholder content. Regenerating...'
   status: error
@@ -2494,3 +2489,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-07T21:03:46'
+- agent: PracticeAgent
+  action: 'Failed portal for Grinning Co. (Fremont, United States) Machine Learning
+    Intern: Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-07T21:03:58'
