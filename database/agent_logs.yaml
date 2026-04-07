@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Ibhatech.com Data Science Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-07T20:13:29'
-- agent: PracticeAgent
   action: 'Failed portal for CipherSchools Data Science Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2496,3 +2491,8 @@ logs:
     placeholder content. Regenerating...'
   status: error
   timestamp: '2026-04-07T22:18:46'
+- agent: PracticeAgent
+  action: 'Failed portal for Motovolt Machine Learning Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-07T22:18:53'
