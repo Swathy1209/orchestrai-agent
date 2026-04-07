@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for targetjobs UK Business Analyst Internship: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-07T00:27:48'
-- agent: PracticeAgent
   action: 'Failed portal for Fitbae Healthcare Private Limited Data Science: Gemini
     failed to generate project recommendations'
   status: error
@@ -2508,3 +2503,7 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-07T02:00:29'
+- agent: CareerAgent
+  action: Fetch started
+  level: INFO
+  timestamp: '2026-04-07T02:00:32'
