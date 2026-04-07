@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for HDR Data Science/Analysis Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-07T06:11:16'
-- agent: PracticeAgent
   action: 'Failed portal for RefinedScience Data Engineering Intern: Detected incomplete
     placeholder content. Regenerating...'
   status: error
@@ -2503,3 +2498,8 @@ logs:
     Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-07T08:37:09'
+- agent: PracticeAgent
+  action: 'Failed portal for Tax-O-Smart LLP Artificial Intelligence (AI): Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-07T08:37:20'
