@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Woven by Toyota Machine Learning Engineer, Perception
-    Autolabeling (Internship): Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-07T17:58:33'
-- agent: PracticeAgent
   action: 'Failed portal for Dunedain AI & ML Engineering Intern: Gemini failed to
     generate project recommendations'
   status: error
@@ -2476,3 +2471,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-07T20:38:49'
+- agent: PracticeAgent
+  action: 'Failed portal for Cvent Data Science Intern (Summer 2026): Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-07T20:39:02'
