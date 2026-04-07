@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Restyle Artificial Intelligence Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-07T16:09:31'
-- agent: PracticeAgent
   action: 'Failed portal for Tech Analogy Artificial Intelligence Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2493,3 +2488,7 @@ logs:
   action: Fetch started
   level: INFO
   timestamp: '2026-04-07T18:52:17'
+- agent: CareerAgent
+  action: 102 jobs fetched
+  level: INFO
+  timestamp: '2026-04-07T18:52:43'
