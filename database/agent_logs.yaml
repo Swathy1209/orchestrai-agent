@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Barclays Private Bank Processing Business Analyst: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-07T02:49:00'
-- agent: PracticeAgent
   action: 'Failed portal for LeadUpAI AI Engineer: Gemini failed to generate project
     recommendations'
   status: error
@@ -2496,3 +2491,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-07T05:06:56'
+- agent: PracticeAgent
+  action: 'Failed portal for White & Co Machine Learning Intern: Gemini failed to
+    generate project recommendations'
+  status: error
+  timestamp: '2026-04-07T05:07:07'
