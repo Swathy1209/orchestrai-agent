@@ -1,8 +1,4 @@
 logs:
-- agent: CareerAgent
-  action: Fetch started
-  level: INFO
-  timestamp: '2026-04-07T16:00:35'
 - agent: PracticeAgent
   action: 'Failed portal for Handshake Spatial Data Analyst - AI Trainer: Gemini failed
     to generate project recommendations'
@@ -2491,3 +2487,8 @@ logs:
     Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-07T18:04:16'
+- agent: PracticeAgent
+  action: 'Failed portal for The Bridge Artificial Intelligence Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-07T18:04:29'
