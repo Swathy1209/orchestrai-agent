@@ -1,8 +1,4 @@
 logs:
-- agent: OpportunityMatchingAgent
-  action: Generated match scores for 616 internships
-  status: success
-  timestamp: '2026-04-07T16:47:33'
 - agent: PracticeAgent
   action: 'Failed portal for Zetheta Algorithms Private Limited Data Science Intern:
     Gemini failed to generate project recommendations'
@@ -2487,3 +2483,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-07T19:22:51'
+- agent: PracticeAgent
+  action: 'Failed portal for Unknown Artificial Intelligence Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-07T19:23:02'
