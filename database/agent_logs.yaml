@@ -1,8 +1,4 @@
 logs:
-- agent: ResumeOptimizationAgent
-  action: Generated optimizations for 579 internships
-  status: success
-  timestamp: '2026-04-07T02:14:49'
 - agent: CoverLetterAgent
   action: Generated 579 cover letters
   status: success
@@ -2505,3 +2501,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-07T03:49:45'
+- agent: PracticeAgent
+  action: 'Failed portal for Woven by Toyota Machine Learning Engineer, Perception
+    Autolabeling (Internship): Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-07T03:49:56'
