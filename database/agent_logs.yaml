@@ -1,8 +1,4 @@
 logs:
-- agent: CareerAgent
-  action: 101 jobs fetched, 86 relevant
-  level: INFO
-  timestamp: '2026-04-07T18:01:04'
 - agent: PracticeAgent
   action: 'Failed portal for TikTok Data Engineer Project Intern (Data Governance
     Data Cycling Center) - 2026 Start (BS/MS): Gemini failed to generate project recommendations'
@@ -2478,3 +2474,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-07T20:42:01'
+- agent: PracticeAgent
+  action: 'Failed portal for Talent Corner HR Services Machine Learning Engineer:
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-07T20:42:13'
