@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Accredian Machine Learning Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-07T08:07:24'
-- agent: PracticeAgent
   action: 'Failed portal for CarVach Data Science Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2507,3 +2502,8 @@ logs:
     Autolabeling (Internship): Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-07T09:52:27'
+- agent: PracticeAgent
+  action: 'Failed portal for Dunedain AI & ML Engineering Intern: Gemini failed to
+    generate project recommendations'
+  status: error
+  timestamp: '2026-04-07T09:52:39'
