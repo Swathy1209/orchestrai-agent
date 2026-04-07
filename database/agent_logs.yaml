@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Bio-Rad Laboratories Data Science Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-07T21:50:50'
-- agent: PracticeAgent
   action: 'Failed portal for Metropolitan Transportation Authority Data Science Maintenance
     Support, Emerging Talent Intern (Summer): Gemini failed to generate project recommendations'
   status: error
@@ -2498,3 +2493,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-07T23:44:47'
+- agent: PracticeAgent
+  action: 'Failed portal for Veracode Business Analyst Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-07T23:44:58'
