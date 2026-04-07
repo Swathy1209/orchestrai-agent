@@ -1,9 +1,4 @@
 logs:
-- agent: PracticeAgent
-  action: 'Failed portal for TikTok Machine Learning Engineer Intern (Ads Measurement
-    Signal and Privacy) - 2026 Summer (BS/MS): Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-07T18:00:29'
 - agent: CareerAgent
   action: Fetch started
   level: INFO
@@ -2476,3 +2471,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-07T20:40:57'
+- agent: PracticeAgent
+  action: 'Failed portal for The Institute for Advanced Learning and Research Artificial
+    Intelligence / Machine Learning Intern: Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-07T20:41:09'
