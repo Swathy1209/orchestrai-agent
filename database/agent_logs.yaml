@@ -1,9 +1,4 @@
 logs:
-- agent: PracticeAgent
-  action: 'Failed portal for Samaritan''s Purse Geospatial Data Analyst, North American
-    Disaster Relief: Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-07T18:01:34'
 - agent: SkillAgent
   action: Skill gap analysis complete
   status: success
@@ -2482,3 +2477,8 @@ logs:
     Intern: Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-07T20:43:03'
+- agent: PracticeAgent
+  action: 'Failed portal for OralKart Machine Learning: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-07T20:43:16'
