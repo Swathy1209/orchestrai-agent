@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Symonis Machine Learning: Gemini failed to generate project
-    recommendations'
-  status: error
-  timestamp: '2026-04-07T14:28:30'
-- agent: PracticeAgent
   action: 'Failed portal for METRO Regional Transit Authority Data Analyst Intern:
     Gemini failed to generate project recommendations'
   status: error
@@ -2497,3 +2492,8 @@ logs:
   action: Generated 616 cover letters
   status: success
   timestamp: '2026-04-07T16:19:44'
+- agent: PracticeAgent
+  action: 'Failed portal for Lensa Machine Learning Engineer Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-07T16:20:39'
