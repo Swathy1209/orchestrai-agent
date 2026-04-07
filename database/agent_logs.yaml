@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Encrobytes Technologies Private Limited Artificial Intelligence
-    Intern: Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-07T16:08:54'
-- agent: PracticeAgent
   action: 'Failed portal for Restyle Artificial Intelligence Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2494,3 +2489,7 @@ logs:
     recommendations'
   status: error
   timestamp: '2026-04-07T18:22:05'
+- agent: CareerAgent
+  action: Fetch started
+  level: INFO
+  timestamp: '2026-04-07T18:52:17'
