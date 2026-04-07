@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for RefinedScience Data Engineering Intern: Detected incomplete
-    placeholder content. Regenerating...'
-  status: error
-  timestamp: '2026-04-07T19:13:41'
-- agent: PracticeAgent
   action: 'Failed portal for Cylinder Health Junior Data Engineer: Detected incomplete
     placeholder content. Regenerating...'
   status: error
@@ -2497,3 +2492,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-07T20:56:25'
+- agent: PracticeAgent
+  action: 'Failed portal for Woven by Toyota Machine Learning Engineer, Perception
+    Autolabeling (Internship): Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-07T20:56:39'
