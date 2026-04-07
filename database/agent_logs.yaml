@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Tech Analogy Artificial Intelligence Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-07T16:10:20'
-- agent: PracticeAgent
   action: 'Failed portal for The Funkydelic Store Artificial Intelligence Intern:
     Gemini failed to generate project recommendations'
   status: error
@@ -2492,3 +2487,7 @@ logs:
   action: 102 jobs fetched
   level: INFO
   timestamp: '2026-04-07T18:52:43'
+- agent: CareerAgent
+  action: 102 jobs fetched, 87 relevant
+  level: INFO
+  timestamp: '2026-04-07T18:52:52'
