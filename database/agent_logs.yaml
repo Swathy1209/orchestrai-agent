@@ -1,9 +1,4 @@
 logs:
-- agent: PracticeAgent
-  action: 'Failed portal for TikTok Data Engineer Project Intern (Data Governance
-    Data Cycling Center) - 2026 Start (BS/MS): Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-07T18:01:08'
 - agent: CareerAgent
   action: Stored in GitHub YAML
   level: INFO
@@ -2479,3 +2474,8 @@ logs:
     Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-07T20:42:13'
+- agent: PracticeAgent
+  action: 'Failed portal for Unknown Company – Source Incomplete Data Science Intern:
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-07T20:42:26'
