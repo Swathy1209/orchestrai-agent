@@ -1,8 +1,4 @@
 logs:
-- agent: CareerAgent
-  action: Fetch started
-  level: INFO
-  timestamp: '2026-04-07T12:00:35'
 - agent: PracticeAgent
   action: 'Failed portal for Accredian Machine Learning Intern: Gemini failed to generate
     project recommendations'
@@ -2500,3 +2496,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-07T13:48:50'
+- agent: PracticeAgent
+  action: 'Failed portal for Zoox Machine Learning Engineer Intern, Simulation: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-07T13:49:01'
