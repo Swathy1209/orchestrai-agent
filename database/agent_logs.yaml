@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for DevTown Data Science Mentor: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-07T19:48:51'
-- agent: PracticeAgent
   action: 'Failed portal for Diffzene Machine Learning: Gemini failed to generate
     project recommendations'
   status: error
@@ -2494,3 +2489,8 @@ logs:
     Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-07T21:50:04'
+- agent: PracticeAgent
+  action: 'Failed portal for ByteDance Machine Learning Engineer Intern (E-commerce
+    Governance Algorithms) - 2026 Start (Phd): Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-07T21:50:16'
