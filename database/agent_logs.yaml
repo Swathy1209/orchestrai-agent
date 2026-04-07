@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for UNITED CARBON TECHNOLOGIES PRIVATE LIMITED Machine Learning
-    Intern: Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-07T03:54:00'
-- agent: PracticeAgent
   action: 'Failed portal for Fermions Machine Learning Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2491,3 +2486,8 @@ logs:
   action: Generated optimizations for 584 internships
   status: success
   timestamp: '2026-04-07T06:25:39'
+- agent: PracticeAgent
+  action: 'Failed portal for Toshiba America Electronic Components, Inc. 5039 Data
+    Analyst Engineering Intern: Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-07T06:25:44'
