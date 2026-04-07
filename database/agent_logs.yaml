@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Mindenious Edutech Machine Learning Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-07T17:39:22'
-- agent: PracticeAgent
   action: 'Failed portal for Reducate.ai Machine Learning Intern: Gemini failed to
     generate project recommendations'
   status: error
@@ -2480,3 +2475,8 @@ logs:
     Learning - Intern: Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-07T20:21:36'
+- agent: PracticeAgent
+  action: 'Failed portal for Moloco Machine Learning Engineer Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-07T20:21:40'
