@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Procter & Gamble Senior IT Data Engineer- DMO Pipelines:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-07T17:29:11'
-- agent: PracticeAgent
   action: 'Failed portal for Bosch USA Artificial Intelligence / Machine Learning
     - Intern: Gemini failed to generate project recommendations'
   status: error
@@ -2483,3 +2478,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-07T20:05:14'
+- agent: PracticeAgent
+  action: 'Failed portal for CareerNest Machine Learning Intern: Gemini failed to
+    generate project recommendations'
+  status: error
+  timestamp: '2026-04-07T20:05:26'
