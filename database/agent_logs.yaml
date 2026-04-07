@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Company 9 LLC AI Engineer Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-07T03:33:00'
-- agent: PracticeAgent
   action: 'Failed portal for Morph Machine Learning Researcher PhD Intern: Gemini
     failed to generate project recommendations'
   status: error
@@ -2502,3 +2497,8 @@ logs:
     Risk Control) - 2026 Summer (BS/MS): Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-07T05:54:08'
+- agent: PracticeAgent
+  action: 'Failed portal for Intuit Compliance Assurance Staff Technical Data Analyst:
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-07T05:54:20'
