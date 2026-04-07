@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Cvent Data Science Intern (Summer 2026): Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-07T20:39:02'
-- agent: PracticeAgent
   action: 'Failed portal for Generate:Biomedicines Machine Learning Intern: Gemini
     failed to generate project recommendations'
   status: error
@@ -2497,3 +2492,7 @@ logs:
     recommendations'
   status: error
   timestamp: '2026-04-07T22:54:02'
+- agent: OpportunityMatchingAgent
+  action: Generated match scores for 620 internships
+  status: success
+  timestamp: '2026-04-07T22:54:12'
