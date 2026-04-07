@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Deloitte Business Analyst: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-07T19:57:04'
-- agent: PracticeAgent
   action: 'Failed portal for DISH TV AI Data Analyst Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2497,3 +2492,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-07T21:58:08'
+- agent: PracticeAgent
+  action: 'Failed portal for Sameer Khatri Data Science Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-07T21:58:20'
