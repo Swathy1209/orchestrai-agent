@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for ZKAP EDTECH SERVICES PRIVATE LIMITED Machine Learning
-    Intern: Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-07T18:20:10'
-- agent: PracticeAgent
   action: 'Failed portal for Argus Media Prices Data Analyst: Gemini failed to generate
     project recommendations'
   status: error
@@ -2487,3 +2482,8 @@ logs:
     - no C2C: Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-07T20:51:58'
+- agent: PracticeAgent
+  action: 'Failed portal for NewAge Industries, Inc. Data Analyst Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-07T20:52:12'
