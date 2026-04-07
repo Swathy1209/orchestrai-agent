@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for The Middleby Corporation Business Analyst Internship:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-07T05:31:51'
-- agent: PracticeAgent
   action: 'Failed portal for Automation Anywhere AI Engineer: Gemini failed to generate
     project recommendations'
   status: error
@@ -2507,3 +2502,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-07T07:45:59'
+- agent: PracticeAgent
+  action: 'Failed portal for Trader For Tomorrow Data Science Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-07T07:46:10'
