@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Anne Klein Official Data Analyst Internship Spring 2026:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-07T08:35:09'
-- agent: PracticeAgent
   action: 'Failed portal for Lensa Machine Learning Science Intern - Summer 2026 Start:
     Gemini failed to generate project recommendations'
   status: error
@@ -2497,3 +2492,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-07T10:08:17'
+- agent: PracticeAgent
+  action: 'Failed portal for Calipers Consulting Private Limited Data Science Intern:
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-07T10:08:29'
