@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Lightmatter Machine Learning Research Intern: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-07T08:42:36'
-- agent: PracticeAgent
   action: 'Failed portal for Tatari Data Science Analyst, Intern: Gemini failed to
     generate project recommendations'
   status: error
@@ -2501,3 +2496,8 @@ logs:
     Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-07T10:27:24'
+- agent: PracticeAgent
+  action: 'Failed portal for Primetrade.ai Machine Learning (Modeling + Evaluation):
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-07T10:27:36'
