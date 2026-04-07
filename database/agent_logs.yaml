@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Turing Labs AI Engineer Intern - build stealth model:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-06T23:52:35'
-- agent: PracticeAgent
   action: 'Failed portal for TikTok Data Scientist Intern (TikTok-Product-Data Science)-2026
     Summer (BS/MS): Gemini failed to generate project recommendations'
   status: error
@@ -2499,3 +2494,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-07T01:37:09'
+- agent: PracticeAgent
+  action: 'Failed portal for Metropolitan Transportation Authority Data Science Maintenance
+    Support, Emerging Talent Intern (Summer): Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-07T01:37:20'
