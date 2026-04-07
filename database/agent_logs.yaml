@@ -1,9 +1,5 @@
 logs:
 - agent: CareerAgent
-  action: 102 jobs fetched
-  level: INFO
-  timestamp: '2026-04-07T22:01:00'
-- agent: CareerAgent
   action: 102 jobs fetched, 87 relevant
   level: INFO
   timestamp: '2026-04-07T22:01:03'
@@ -2499,3 +2495,8 @@ logs:
     Intelligence Intern: Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-07T23:54:52'
+- agent: PracticeAgent
+  action: 'Failed portal for INFICON Data Science Intern (Remote): Gemini failed to
+    generate project recommendations'
+  status: error
+  timestamp: '2026-04-07T23:55:03'
