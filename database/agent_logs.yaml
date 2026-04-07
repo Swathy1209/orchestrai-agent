@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for AsiaDirect Data Science Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-07T05:03:43'
-- agent: PracticeAgent
   action: 'Failed portal for OMNIDYA TECH LLP Data Science Intern: Gemini failed to
     generate project recommendations'
   status: error
@@ -2503,3 +2498,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-07T07:19:27'
+- agent: PracticeAgent
+  action: 'Failed portal for Russell Rowland, Inc. Fall 2026 Business Analyst Intern:
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-07T07:19:38'
