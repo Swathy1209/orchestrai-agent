@@ -1,8 +1,4 @@
 logs:
-- agent: OpportunityMatchingAgent
-  action: Generated match scores for 591 internships
-  status: success
-  timestamp: '2026-04-07T08:36:43'
 - agent: PracticeAgent
   action: 'Failed portal for Veolia Business Analyst Intern: Gemini failed to generate
     project recommendations'
@@ -2497,3 +2493,9 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-07T10:18:55'
+- agent: PracticeAgent
+  action: 'Failed portal for TikTok (General Hire) Machine Learning Engineer Intern
+    (TikTok-Recommendation) - 2026 Summer (BS/MS): Gemini failed to generate project
+    recommendations'
+  status: error
+  timestamp: '2026-04-07T10:19:07'
