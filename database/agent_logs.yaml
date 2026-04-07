@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for NHS Ayrshire & Arran Principal Analyst – Data Engineering:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-07T17:54:19'
-- agent: PracticeAgent
   action: 'Failed portal for Verda Healthcare Business Analyst (Junior/Entry Level)
     - no C2C: Gemini failed to generate project recommendations'
   status: error
@@ -2474,3 +2469,9 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-07T20:34:01'
+- agent: PracticeAgent
+  action: 'Failed portal for ForFutures Financial, Planning, a financial advisory
+    practice of Ameriprise Financial Services LLC Data Science Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-07T20:34:16'
