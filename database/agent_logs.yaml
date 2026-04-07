@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Viral Fission AI Engineer: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-07T18:20:36'
-- agent: PracticeAgent
   action: 'Failed portal for Harman Connected Foundational Engineer - AI & Machine
     Learning: Gemini failed to generate project recommendations'
   status: error
@@ -2487,3 +2482,8 @@ logs:
     Science Intern: Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-07T20:52:25'
+- agent: PracticeAgent
+  action: 'Failed portal for TechTrapture Machine Learning Intern: Gemini failed to
+    generate project recommendations'
+  status: error
+  timestamp: '2026-04-07T20:52:39'
