@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Barclays Private Bank Processing Business Analyst: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-08T07:02:02'
-- agent: PracticeAgent
   action: 'Failed portal for LeadUpAI AI Engineer: Gemini failed to generate project
     recommendations'
   status: error
@@ -2494,3 +2489,7 @@ logs:
   action: Fetch started
   level: INFO
   timestamp: '2026-04-08T09:15:29'
+- agent: CareerAgent
+  action: 103 jobs fetched
+  level: INFO
+  timestamp: '2026-04-08T09:15:54'
