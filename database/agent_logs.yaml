@@ -1,8 +1,4 @@
 logs:
-- agent: CoverLetterAgent
-  action: Generated 629 cover letters
-  status: success
-  timestamp: '2026-04-08T06:23:27'
 - agent: PracticeAgent
   action: PracticeAgent run initiated
   status: success
@@ -2499,3 +2495,8 @@ logs:
     Signal and Privacy) - 2026 Summer (BS/MS): Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-08T08:09:43'
+- agent: PracticeAgent
+  action: 'Failed portal for Pairwise Data Science Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-08T08:09:56'
