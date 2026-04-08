@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for GenPark Machine learning engineer intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-08T06:12:33'
-- agent: PracticeAgent
   action: 'Failed portal for Rebel Athletic Ai Engineer Internship: Gemini failed
     to generate project recommendations'
   status: error
@@ -2505,3 +2500,7 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-08T08:00:30'
+- agent: CareerAgent
+  action: Fetch started
+  level: INFO
+  timestamp: '2026-04-08T08:00:34'
