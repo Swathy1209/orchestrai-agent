@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Samaadhaan Data Science Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-08T21:32:01'
-- agent: PracticeAgent
   action: 'Failed portal for Arhant Solutions Data Science Intern: Gemini failed to
     generate project recommendations'
   status: error
@@ -2491,3 +2486,8 @@ logs:
     Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-08T23:36:30'
+- agent: PracticeAgent
+  action: 'Failed portal for Zello AI & ML Engineering Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-08T23:36:41'
