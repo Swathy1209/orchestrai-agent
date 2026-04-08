@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for LawDocs Artificial Intelligence Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-08T18:10:12'
-- agent: PracticeAgent
   action: 'Failed portal for Protecht (Wyoming, United States) Data Science Intern:
     Gemini failed to generate project recommendations'
   status: error
@@ -2504,3 +2499,8 @@ logs:
   action: Fetch started
   level: INFO
   timestamp: '2026-04-08T20:00:31'
+- agent: PracticeAgent
+  action: 'Failed portal for Greenlight Data Engineering Intern: Gemini failed to
+    generate project recommendations'
+  status: error
+  timestamp: '2026-04-08T20:00:46'
