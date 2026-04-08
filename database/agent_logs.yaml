@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for PathAI Machine Learning Intern/Co-op (Summer/Fall 2026):
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-08T16:41:16'
-- agent: PracticeAgent
   action: 'Failed portal for FinZebra AI Engineering & Learning Design: Gemini failed
     to generate project recommendations'
   status: error
@@ -2500,3 +2495,8 @@ logs:
     recommendations'
   status: error
   timestamp: '2026-04-08T18:28:31'
+- agent: PracticeAgent
+  action: 'Failed portal for Unknown Data Science Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-08T18:28:36'
