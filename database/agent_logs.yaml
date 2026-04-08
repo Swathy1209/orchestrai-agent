@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Reach Technologies Machine Learning Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-08T21:13:17'
-- agent: PracticeAgent
   action: 'Failed portal for Tejate Education Private Limited Machine Learning Intern:
     Gemini failed to generate project recommendations'
   status: error
@@ -2491,3 +2486,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-08T23:17:50'
+- agent: PracticeAgent
+  action: 'Failed portal for EXL Data Analyst Associate: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-08T23:18:02'
