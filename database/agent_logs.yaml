@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Career-Domain Data Science Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-08T11:10:51'
-- agent: PracticeAgent
   action: 'Failed portal for Cabswale Data Science Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2494,3 +2489,8 @@ logs:
     generate project recommendations'
   status: error
   timestamp: '2026-04-08T13:31:58'
+- agent: PracticeAgent
+  action: 'Failed portal for IIDE Education Private Limited Artificial Intelligence
+    Intern: Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-08T13:32:09'
