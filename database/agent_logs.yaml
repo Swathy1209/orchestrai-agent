@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Plix - The Plant Flix Artificial Intelligence (AI): Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-08T18:59:47'
-- agent: PracticeAgent
   action: 'Failed portal for Cisco Staff Machine Learning Engineer: Gemini failed
     to generate project recommendations'
   status: error
@@ -2495,3 +2490,8 @@ logs:
     Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-08T20:59:32'
+- agent: PracticeAgent
+  action: 'Failed portal for New Jersey Courts Business Analyst Intern (Hourly): Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-08T20:59:44'
