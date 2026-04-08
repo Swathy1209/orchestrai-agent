@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Cylinder Health Junior Data Engineer: Detected incomplete
-    placeholder content. Regenerating...'
-  status: error
-  timestamp: '2026-04-08T14:21:39'
-- agent: PracticeAgent
   action: 'Failed portal for Tinder Machine Learning Engineer Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2498,3 +2493,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-08T16:26:50'
+- agent: PracticeAgent
+  action: 'Failed portal for Lensa Data Analyst Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-08T16:27:04'
