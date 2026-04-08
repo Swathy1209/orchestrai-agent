@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Euromonitor International Associate Data Analyst: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-08T13:57:32'
-- agent: PracticeAgent
   action: 'Failed portal for Sameer Khatri Data Science Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2491,3 +2486,8 @@ logs:
   status: success
   timestamp: '2026-04-08T16:01:45'
   details: Analyzed 640 jobs.
+- agent: PracticeAgent
+  action: 'Failed portal for ByteDance Machine Learning Engineer Intern (Global E-commerce
+    Risk Control) - 2026 Summer (BS/MS): Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-08T16:01:53'
