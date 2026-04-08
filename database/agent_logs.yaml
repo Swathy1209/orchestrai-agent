@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for SKIDEV EDUTECH PRIVATE LIMITED Data Science Intern: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-08T20:26:05'
-- agent: PracticeAgent
   action: 'Failed portal for Ayurveda House Private Limited Data Science Intern: Gemini
     failed to generate project recommendations'
   status: error
@@ -2495,3 +2490,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-08T22:23:12'
+- agent: PracticeAgent
+  action: 'Failed portal for Viral Fission AI Engineer: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-08T22:23:18'
