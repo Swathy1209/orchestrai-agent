@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Capgemini Business Analyst-Contact Center Domain: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-07T22:27:14'
-- agent: PracticeAgent
   action: 'Failed portal for BrainChip Machine Learning Engineer Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2497,3 +2492,8 @@ logs:
     Analyst Engineering Intern: Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-08T00:23:18'
+- agent: PracticeAgent
+  action: 'Failed portal for Aday Data Analysis Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-08T00:23:30'
