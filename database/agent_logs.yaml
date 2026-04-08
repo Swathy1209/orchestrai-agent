@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Maximus Business Analyst Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-08T06:30:08'
-- agent: PracticeAgent
   action: 'Failed portal for Be Rolling Media Data Science Intern: Gemini failed to
     generate project recommendations'
   status: error
@@ -2498,3 +2493,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-08T08:28:56'
+- agent: PracticeAgent
+  action: 'Failed portal for Innoknowvex Machine Learning: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-08T08:29:08'
