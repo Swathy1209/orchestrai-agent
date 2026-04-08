@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Force-Intellect Private Limited Data Science Intern:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-08T07:38:42'
-- agent: PracticeAgent
   action: 'Failed portal for Tidal7 Asia - A J7 Agency Data Science Intern: Gemini
     failed to generate project recommendations'
   status: error
@@ -2485,3 +2480,8 @@ logs:
   action: Generated 3 security fix PRs
   status: completed
   timestamp: '2026-04-08T10:05:26'
+- agent: PracticeAgent
+  action: 'Failed portal for Neoteric Analytics Data And AI Engineer Intern: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-08T10:05:33'
