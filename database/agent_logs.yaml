@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Career Solutions Machine Learning Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-08T11:41:03'
-- agent: PracticeAgent
   action: 'Failed portal for Zypp Electric Machine Learning Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2500,3 +2495,8 @@ logs:
     Intern: Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-08T13:59:41'
+- agent: PracticeAgent
+  action: 'Failed portal for NHS Ayrshire & Arran Principal Analyst – Data Engineering:
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-08T13:59:53'
