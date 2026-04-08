@@ -1,9 +1,4 @@
 logs:
-- agent: PracticeAgent
-  action: 'Failed portal for Dunedain AI & ML Engineering Intern: Gemini failed to
-    generate project recommendations'
-  status: error
-  timestamp: '2026-04-08T20:00:20'
 - agent: CareerAgent
   action: Fetch started
   level: INFO
@@ -2495,3 +2490,7 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-08T22:00:29'
+- agent: CareerAgent
+  action: Fetch started
+  level: INFO
+  timestamp: '2026-04-08T22:00:34'
