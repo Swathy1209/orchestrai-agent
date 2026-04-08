@@ -1,9 +1,4 @@
 logs:
-- agent: PracticeAgent
-  action: 'Failed portal for Random Groups Of Companies Data Science: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-08T16:46:23'
 - agent: ResumeOptimizationAgent
   action: Generated optimizations for 640 internships
   status: success
@@ -2500,3 +2495,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-08T18:29:34'
+- agent: PracticeAgent
+  action: 'Failed portal for Chithra Academy Artificial Intelligence Intern: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-08T18:29:41'
