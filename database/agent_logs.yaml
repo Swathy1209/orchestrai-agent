@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Emerson Data Engineer: Gemini failed to generate project
-    recommendations'
-  status: error
-  timestamp: '2026-04-08T15:44:48'
-- agent: PracticeAgent
   action: 'Failed portal for d-Matrix Machine Learning Research Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2499,3 +2494,8 @@ logs:
     (1 Year Fixed Term): Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-08T17:46:34'
+- agent: PracticeAgent
+  action: 'Failed portal for Albert Einstein College of Medicine Data Analyst - Education:
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-08T17:46:45'
