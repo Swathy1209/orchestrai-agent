@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for The Institute for Advanced Learning and Research Artificial
-    Intelligence / Machine Learning Intern: Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-08T10:40:28'
-- agent: PracticeAgent
   action: 'Failed portal for Lensa Business Analyst (Intern) - United States: Gemini
     failed to generate project recommendations'
   status: error
@@ -2498,3 +2493,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-08T13:04:08'
+- agent: PracticeAgent
+  action: 'Failed portal for Trustable Solutions Private Limited Artificial Intelligence
+    (AI): Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-08T13:04:20'
