@@ -1,8 +1,4 @@
 logs:
-- agent: CoverLetterAgent
-  action: Generated 633 cover letters
-  status: success
-  timestamp: '2026-04-08T09:36:07'
 - agent: PracticeAgent
   action: PracticeAgent run initiated
   status: success
@@ -2496,3 +2492,8 @@ logs:
     Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-08T11:26:47'
+- agent: PracticeAgent
+  action: 'Failed portal for Across The Globe (ATG) Data Science Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-08T11:26:59'
