@@ -1,9 +1,4 @@
 logs:
-- agent: SkillAgent
-  action: Skill gap analysis complete
-  status: success
-  timestamp: '2026-04-08T04:02:09'
-  details: Analyzed 622 jobs.
 - agent: PracticeAgent
   action: 'Failed portal for Daten & Wissen Private Limited Machine Learning Intern:
     Gemini failed to generate project recommendations'
@@ -2494,3 +2489,8 @@ logs:
     Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-08T06:19:17'
+- agent: PracticeAgent
+  action: 'Failed portal for Barclays Data Analyst: Gemini failed to generate project
+    recommendations'
+  status: error
+  timestamp: '2026-04-08T06:19:29'
