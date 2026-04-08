@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Albert Einstein College of Medicine Data Analyst - Education:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-08T07:51:24'
-- agent: PracticeAgent
   action: 'Failed portal for Athena AI Engineer Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2479,3 +2474,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-08T10:27:41'
+- agent: PracticeAgent
+  action: 'Failed portal for White & Co Machine Learning Intern: Gemini failed to
+    generate project recommendations'
+  status: error
+  timestamp: '2026-04-08T10:27:55'
