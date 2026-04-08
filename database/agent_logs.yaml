@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for The Funkydelic Store Artificial Intelligence Intern:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-08T12:20:38'
-- agent: PracticeAgent
   action: 'Failed portal for Motovolt Data Science Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2493,3 +2488,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-08T14:27:40'
+- agent: PracticeAgent
+  action: 'Failed portal for BrainChip Machine Learning Engineer Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-08T14:27:54'
