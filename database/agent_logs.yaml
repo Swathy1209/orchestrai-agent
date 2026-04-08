@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for InstaCAD Solutions India Private Limited Machine Learning
-    Intern: Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-08T12:30:44'
-- agent: PracticeAgent
   action: 'Failed portal for ATPCO Data Analyst Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2496,3 +2491,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-08T14:45:21'
+- agent: PracticeAgent
+  action: 'Failed portal for Unknown Company – Source Incomplete Artificial Intelligence
+    Intern: Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-08T14:45:33'
