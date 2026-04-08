@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Nuro Machine Learning intern, Behavior Planning: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-08T12:37:15'
-- agent: PracticeAgent
   action: 'Failed portal for Viant Technology Machine Learning Engineering Internship
     - Summer 2026: Gemini failed to generate project recommendations'
   status: error
@@ -2496,3 +2491,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-08T14:55:31'
+- agent: PracticeAgent
+  action: 'Failed portal for Cohere Machine Learning Intern/Co-op  (Spring/Summer
+    2026): Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-08T14:56:34'
