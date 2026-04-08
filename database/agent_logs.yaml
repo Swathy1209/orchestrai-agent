@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for EXL Data Analyst Associate: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-08T08:46:13'
-- agent: PracticeAgent
   action: 'Failed portal for Lensa Artificial Intelligence (AI) Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2484,3 +2479,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-08T11:09:17'
+- agent: PracticeAgent
+  action: 'Failed portal for The Goat Academy Private Limited Data Science Intern:
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-08T11:09:31'
