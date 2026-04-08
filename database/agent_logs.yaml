@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Jampacked Data Science Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-08T15:30:29'
-- agent: PracticeAgent
   action: 'Failed portal for Innomax IT Solutions Machine Learning Intern: Gemini
     failed to generate project recommendations'
   status: error
@@ -2496,3 +2491,8 @@ logs:
     Intern: Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-08T17:32:33'
+- agent: PracticeAgent
+  action: 'Failed portal for Allo Innoware Artificial Intelligence Intern: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-08T17:32:44'
