@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Career Solutions Artificial Intelligence (AI): Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-08T19:00:33'
-- agent: PracticeAgent
   action: 'Failed portal for Ball2Data Football Data Analysts: Gemini failed to generate
     project recommendations'
   status: error
@@ -2495,3 +2490,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-08T21:00:18'
+- agent: PracticeAgent
+  action: 'Failed portal for Cisco Staff Machine Learning Engineer: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-08T21:00:30'
