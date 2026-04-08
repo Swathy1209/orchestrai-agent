@@ -1,8 +1,4 @@
 logs:
-- agent: OpportunityMatchingAgent
-  action: Generated match scores for 633 internships
-  status: success
-  timestamp: '2026-04-08T09:02:52'
 - agent: PracticeAgent
   action: 'Failed portal for MeshyAI Data Science Intern: Gemini failed to generate
     project recommendations'
@@ -2486,3 +2482,8 @@ logs:
     Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-08T11:18:04'
+- agent: PracticeAgent
+  action: 'Failed portal for ByteDance Machine Learning Engineer Intern (Global E-commerce
+    Risk Control) - 2026 Summer (BS/MS): Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-08T11:18:16'
