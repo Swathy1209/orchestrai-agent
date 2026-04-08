@@ -1,9 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: PracticeAgent run initiated
-  status: success
-  timestamp: '2026-04-08T12:22:55'
-- agent: PracticeAgent
   action: 'Failed portal for Stackwise Artificial Intelligence Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2494,3 +2490,8 @@ logs:
     generate project recommendations'
   status: error
   timestamp: '2026-04-08T14:29:03'
+- agent: PracticeAgent
+  action: 'Failed portal for Technoculture Research Data Science Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-08T14:29:18'
