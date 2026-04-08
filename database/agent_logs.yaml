@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for ForFutures Financial, Planning, a financial advisory
-    practice of Ameriprise Financial Services LLC AI/Data Science Graduate Intern:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-08T11:50:06'
-- agent: PracticeAgent
   action: 'Failed portal for GreenGas USA Data Engineer - Intern: Gemini failed to
     generate project recommendations'
   status: error
@@ -2491,3 +2485,8 @@ logs:
     Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-08T14:06:15'
+- agent: PracticeAgent
+  action: 'Failed portal for ByteDance Machine Learning Engineer Intern (E-commerce-Recommendation)
+    - 2026 Start (PhD): Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-08T14:06:28'
