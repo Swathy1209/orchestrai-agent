@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Inorbvict Healthcare India Private Limited Data Science
-    Intern: Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-08T03:53:16'
-- agent: PracticeAgent
   action: 'Failed portal for Inorbvict Healthcare India Private Limited Machine Learning
     Intern: Gemini failed to generate project recommendations'
   status: error
@@ -2488,3 +2483,8 @@ logs:
   action: 'Scanned 47 repos, priority fix: Hardcoded API Key'
   status: completed
   timestamp: '2026-04-08T06:06:18'
+- agent: PracticeAgent
+  action: 'Failed portal for ByteDance Machine Learning Engineer Intern (E-commerce-Conversational
+    AI) - 2026 Summer/Fall (PhD): Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-08T06:06:22'
