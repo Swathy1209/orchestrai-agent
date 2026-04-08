@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Samaritan''s Purse Geospatial Data Analyst, North American
-    Disaster Relief: Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-07T22:08:01'
-- agent: PracticeAgent
   action: 'Failed portal for ZenAppStudio Machine Learning Intern: Gemini failed to
     generate project recommendations'
   status: error
@@ -2506,3 +2501,7 @@ logs:
     - 2026 Start (BS): Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-08T00:00:29'
+- agent: CareerAgent
+  action: Fetch started
+  level: INFO
+  timestamp: '2026-04-08T00:00:37'
