@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Wobot Intelligence Private Limited Data Science Intern:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-08T12:31:35'
-- agent: PracticeAgent
   action: 'Failed portal for CREATE Data Science Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2496,3 +2491,8 @@ logs:
     Intelligence (AI): Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-08T14:46:22'
+- agent: PracticeAgent
+  action: 'Failed portal for 1stop.ai Artificial Intelligence (AI): Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-08T14:46:48'
