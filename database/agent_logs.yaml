@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for TikTok Data Engineer Intern (E-commerce) - 2026 Summer
-    (BS/MS): Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-08T01:49:24'
-- agent: PracticeAgent
   action: 'Failed portal for Booz Allen Hamilton Data Analyst, Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2497,3 +2492,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-08T03:44:00'
+- agent: PracticeAgent
+  action: 'Failed portal for Praxis Home Retail Limited Data Science Intern: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-08T03:44:12'
