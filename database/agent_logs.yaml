@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for GenPark Machine learning engineer intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-08T16:03:46'
-- agent: PracticeAgent
   action: 'Failed portal for Woven by Toyota Machine Learning Engineer, Perception
     Autolabeling (Internship): Gemini failed to generate project recommendations'
   status: error
@@ -2496,3 +2491,8 @@ logs:
   action: Generated 3 security fix PRs
   status: completed
   timestamp: '2026-04-08T18:05:44'
+- agent: PracticeAgent
+  action: 'Failed portal for Samaritan''s Purse Geospatial Data Analyst, North American
+    Disaster Relief: Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-08T18:05:49'
