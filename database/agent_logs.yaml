@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for webAI Summer Internship - Machine Learning Engineer:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-08T20:01:51'
-- agent: PracticeAgent
   action: 'Failed portal for ByteDance Machine Learning Engineer Intern (E-commerce-Recommendation)
     - 2026 Start (PhD): Gemini failed to generate project recommendations'
   status: error
@@ -2494,3 +2489,8 @@ logs:
   status: success
   timestamp: '2026-04-08T22:01:43'
   details: Analyzed 643 jobs.
+- agent: PracticeAgent
+  action: 'Failed portal for Woven by Toyota Machine Learning Engineer, Vehicle Perception
+    (Internship): Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-08T22:01:58'
