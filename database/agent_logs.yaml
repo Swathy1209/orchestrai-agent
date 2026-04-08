@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Lensa Machine Learning Engineer Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-08T18:21:36'
-- agent: PracticeAgent
   action: 'Failed portal for TSTEPS PRIVATE LIMITED Data Science Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2498,3 +2493,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-08T20:06:50'
+- agent: PracticeAgent
+  action: 'Failed portal for Grinning Co. (Fremont, United States) Machine Learning
+    Intern: Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-08T20:07:14'
