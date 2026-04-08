@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Verda Healthcare Business Analyst (Junior/Entry Level)
-    - no C2C: Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-08T08:03:18'
-- agent: PracticeAgent
   action: 'Failed portal for NewAge Industries, Inc. Data Analyst Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2479,3 +2474,8 @@ logs:
     Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-08T10:41:05'
+- agent: PracticeAgent
+  action: 'Failed portal for Tax-O-Smart LLP Artificial Intelligence (AI): Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-08T10:41:18'
