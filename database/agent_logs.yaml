@@ -1,9 +1,5 @@
 logs:
 - agent: CareerAgent
-  action: 100 jobs fetched
-  level: INFO
-  timestamp: '2026-04-08T06:01:05'
-- agent: CareerAgent
   action: 100 jobs fetched, 85 relevant
   level: INFO
   timestamp: '2026-04-08T06:01:09'
@@ -2494,3 +2490,8 @@ logs:
     recommendations'
   status: error
   timestamp: '2026-04-08T07:50:38'
+- agent: PracticeAgent
+  action: 'Failed portal for Gotion Inc. Data Analyst: Gemini failed to generate project
+    recommendations'
+  status: error
+  timestamp: '2026-04-08T07:50:49'
