@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Ekimetrics 6 months Internship in Strategy & Data Science
-    | New York: Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-08T13:56:10'
-- agent: PracticeAgent
   action: 'Failed portal for Strata Decision Technology Intern, Data Science: Gemini
     failed to generate project recommendations'
   status: error
@@ -2495,3 +2490,7 @@ logs:
   action: 104 jobs fetched
   level: INFO
   timestamp: '2026-04-08T16:01:03'
+- agent: CareerAgent
+  action: 104 jobs fetched, 89 relevant
+  level: INFO
+  timestamp: '2026-04-08T16:01:07'
