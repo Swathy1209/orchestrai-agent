@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for ZKAP EDTECH SERVICES PRIVATE LIMITED Machine Learning
-    Intern: Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-08T06:35:18'
-- agent: PracticeAgent
   action: 'Failed portal for Tatari Data Science, Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2498,3 +2493,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-08T08:47:28'
+- agent: PracticeAgent
+  action: 'Failed portal for Bipolar Factory Artificial Intelligence (AI): Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-08T08:47:40'
