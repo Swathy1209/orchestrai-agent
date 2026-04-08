@@ -1,9 +1,5 @@
 logs:
 - agent: CareerAgent
-  action: 105 jobs fetched
-  level: INFO
-  timestamp: '2026-04-08T20:00:57'
-- agent: CareerAgent
   action: 105 jobs fetched, 90 relevant
   level: INFO
   timestamp: '2026-04-08T20:01:02'
@@ -2495,3 +2491,7 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-08T22:00:55'
+- agent: CareerAgent
+  action: 106 jobs fetched
+  level: INFO
+  timestamp: '2026-04-08T22:01:01'
