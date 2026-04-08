@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Hayward Holdings, Inc. ERP Dashboard and Data Analyst
-    Intern: Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-08T03:48:26'
-- agent: PracticeAgent
   action: 'Failed portal for Ekimetrics 6 months Internship in Strategy & Data Science
     | New York: Gemini failed to generate project recommendations'
   status: error
@@ -2492,3 +2487,7 @@ logs:
   action: 100 jobs fetched
   level: INFO
   timestamp: '2026-04-08T06:01:05'
+- agent: CareerAgent
+  action: 100 jobs fetched, 85 relevant
+  level: INFO
+  timestamp: '2026-04-08T06:01:09'
