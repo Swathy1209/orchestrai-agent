@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Raviraj Sarees Pvt Ltd Artificial Intelligence (AI):
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-08T21:06:33'
-- agent: PracticeAgent
   action: 'Failed portal for SkillLevel Machine Learning: Gemini failed to generate
     project recommendations'
   status: error
@@ -2491,3 +2486,8 @@ logs:
     (AI): Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-08T23:11:08'
+- agent: PracticeAgent
+  action: 'Failed portal for EVgo Intern, Data Analyst (Winter / Spring): Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-08T23:11:20'
