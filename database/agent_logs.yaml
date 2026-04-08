@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Raviraj Sarees Pvt Ltd Data Science Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-07T23:07:01'
-- agent: PracticeAgent
   action: 'Failed portal for AsiaDirect Data Science Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2495,3 +2490,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-08T01:01:21'
+- agent: PracticeAgent
+  action: 'Failed portal for Syncretic Engineering Business Analyst/Data Analyst/Office
+    Executive: Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-08T01:01:33'
