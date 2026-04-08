@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Domyn AI Engineering and Research Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-08T19:54:08'
-- agent: PracticeAgent
   action: 'Failed portal for ChatGPT Jobs SAP iXp Intern - AI Machine Learning: Gemini
     failed to generate project recommendations'
   status: error
@@ -2495,3 +2490,8 @@ logs:
     generate project recommendations'
   status: error
   timestamp: '2026-04-08T21:54:19'
+- agent: PracticeAgent
+  action: 'Failed portal for Euromonitor International Associate Data Analyst: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-08T21:54:30'
