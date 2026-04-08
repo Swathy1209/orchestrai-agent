@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Syncretic Engineering Business Analyst/Data Analyst/Office
-    Executive: Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-08T09:04:39'
-- agent: PracticeAgent
   action: 'Failed portal for Talkspace Marketing Data Analyst Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2487,3 +2482,8 @@ logs:
     - 2026 Summer (BS/MS): Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-08T11:19:59'
+- agent: PracticeAgent
+  action: 'Failed portal for GenPark Machine learning engineer intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-08T11:20:11'
