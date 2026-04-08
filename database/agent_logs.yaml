@@ -1,9 +1,4 @@
 logs:
-- agent: SkillAgent
-  action: Skill gap analysis complete
-  status: success
-  timestamp: '2026-04-08T06:01:54'
-  details: Analyzed 629 jobs.
 - agent: PracticeAgent
   action: 'Failed portal for TikTok (General Hire) Machine Learning Engineer Intern
     (TikTok- Video Recommendation) - 2026 Summer (BS/MS): Gemini failed to generate
@@ -2499,3 +2494,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-08T07:51:36'
+- agent: PracticeAgent
+  action: 'Failed portal for Berkshire Hathaway GUARD Insurance Companies Data-AI
+    Engineering Intern: Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-08T07:51:47'
