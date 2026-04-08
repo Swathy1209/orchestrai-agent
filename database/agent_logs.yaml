@@ -1,8 +1,4 @@
 logs:
-- agent: CareerAgent
-  action: Fetch started
-  level: INFO
-  timestamp: '2026-04-08T10:00:33'
 - agent: PracticeAgent
   action: 'Failed portal for TikTok Business Analyst Intern (Business Integrity) -
     2026 Summer (BS/MS): Gemini failed to generate project recommendations'
@@ -2494,3 +2490,8 @@ logs:
   action: Generated optimizations for 636 internships
   status: success
   timestamp: '2026-04-08T12:01:31'
+- agent: PracticeAgent
+  action: 'Failed portal for NewAge Industries, Inc. Data Analyst Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-08T12:01:37'
