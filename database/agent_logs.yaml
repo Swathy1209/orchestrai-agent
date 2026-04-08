@@ -1,8 +1,4 @@
 logs:
-- agent: PortfolioBuilderAgent
-  action: Generated Portfolio
-  status: success
-  timestamp: '2026-04-08T10:05:40'
 - agent: PracticeAgent
   action: 'Failed portal for TikTok Business Analyst Project Intern(TikTok- Operations)
     - 2026 Start (BS/MS): Gemini failed to generate project recommendations'
@@ -2500,3 +2496,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-08T12:15:51'
+- agent: PracticeAgent
+  action: 'Failed portal for KAN Universal Private Limited Artificial Intelligence
+    Intern: Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-08T12:16:04'
