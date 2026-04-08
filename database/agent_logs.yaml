@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Lensa Artificial Intelligence (AI) Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-08T10:00:11'
-- agent: PracticeAgent
   action: 'Failed portal for Lensa Data Science Internship: Gemini failed to generate
     project recommendations'
   status: error
@@ -2495,3 +2490,8 @@ logs:
   action: 100 jobs fetched
   level: INFO
   timestamp: '2026-04-08T12:01:06'
+- agent: PracticeAgent
+  action: 'Failed portal for Verda Healthcare Business Analyst (Junior/Entry Level)
+    - no C2C: Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-08T12:01:22'
