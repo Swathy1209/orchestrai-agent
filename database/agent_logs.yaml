@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for BioQuant IQ Artificial Intelligence Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-08T13:52:48'
-- agent: PracticeAgent
   action: 'Failed portal for Maersk Business Analyst – Financial Planning & Reporting:
     Gemini failed to generate project recommendations'
   status: error
@@ -2500,3 +2495,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-08T15:57:57'
+- agent: PracticeAgent
+  action: 'Failed portal for ByteDance Machine Learning Engineer Intern (E-commerce-Conversational
+    AI) - 2026 Summer/Fall (PhD): Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-08T15:58:09'
