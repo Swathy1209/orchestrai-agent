@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Ramesh S AI/ML Engineer: Gemini failed to generate project
-    recommendations'
-  status: error
-  timestamp: '2026-04-08T20:56:28'
-- agent: PracticeAgent
   action: 'Failed portal for Irizpro Learning Solutions Artificial Intelligence (AI):
     Gemini failed to generate project recommendations'
   status: error
@@ -2487,3 +2482,8 @@ logs:
     incomplete placeholder content. Regenerating...'
   status: error
   timestamp: '2026-04-08T23:01:24'
+- agent: PracticeAgent
+  action: 'Failed portal for Stripe PhD Machine Learning Engineer, Intern: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-08T23:01:36'
