@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Unimonks Artificial Intelligence (AI): Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-08T06:47:56'
-- agent: PracticeAgent
   action: 'Failed portal for CareerNest Machine Learning: Gemini failed to generate
     project recommendations'
   status: error
@@ -2495,3 +2490,8 @@ logs:
     Executive: Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-08T09:04:39'
+- agent: PracticeAgent
+  action: 'Failed portal for Talkspace Marketing Data Analyst Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-08T09:04:51'
