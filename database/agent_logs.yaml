@@ -1,9 +1,4 @@
 logs:
-- agent: PracticeAgent
-  action: 'Failed portal for Shahin Pilli Artificial Intelligence Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-08T00:04:54'
 - agent: RepoSecurityScannerAgent
   action: 'Scanned 47 repos, priority fix: Hardcoded API Key'
   status: completed
@@ -2501,3 +2496,8 @@ logs:
     - 2026 Start (PhD): Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-08T01:59:33'
+- agent: PracticeAgent
+  action: 'Failed portal for TikTok Machine Learning Engineer Intern (Ads Measurement
+    Signal and Privacy) - 2026 Summer (BS/MS): Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-08T01:59:44'
