@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Deloitte AWS Data Engineer: Detected incomplete placeholder
-    content. Regenerating...'
-  status: error
-  timestamp: '2026-04-08T10:03:05'
-- agent: PracticeAgent
   action: 'Failed portal for Fractal Data Engineer: Gemini failed to generate project
     recommendations'
   status: error
@@ -2498,3 +2493,8 @@ logs:
   action: Generated Portfolio
   status: success
   timestamp: '2026-04-08T12:07:12'
+- agent: PracticeAgent
+  action: 'Failed portal for Turing Labs AI Engineer Intern - build stealth model:
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-08T12:07:16'
