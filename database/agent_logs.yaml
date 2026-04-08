@@ -1,9 +1,5 @@
 logs:
 - agent: CareerAgent
-  action: 103 jobs fetched
-  level: INFO
-  timestamp: '2026-04-08T09:15:54'
-- agent: CareerAgent
   action: 103 jobs fetched, 88 relevant
   level: INFO
   timestamp: '2026-04-08T09:16:03'
@@ -2488,3 +2484,8 @@ logs:
     Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-08T11:24:52'
+- agent: PracticeAgent
+  action: 'Failed portal for KIDLOLAND KIDS & TODDLER GAMES PRIVATE LIMITED Artificial
+    Intelligence Intern: Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-08T11:25:05'
