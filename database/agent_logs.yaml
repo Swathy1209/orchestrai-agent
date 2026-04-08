@@ -3,11 +3,6 @@ logs:
   action: 'Failed portal for Learning Skills Academy Data And ML Engineer: Gemini
     failed to generate project recommendations'
   status: error
-  timestamp: '2026-04-08T04:45:03'
-- agent: PracticeAgent
-  action: 'Failed portal for Learning Skills Academy Data And ML Engineer: Gemini
-    failed to generate project recommendations'
-  status: error
   timestamp: '2026-04-08T04:45:21'
 - agent: PracticeAgent
   action: 'Failed portal for Bellwood Business Analyst / QA Intern: Gemini failed
@@ -2497,3 +2492,8 @@ logs:
     Learning: Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-08T06:35:54'
+- agent: PracticeAgent
+  action: 'Failed portal for targetjobs UK Business Analyst Internship: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-08T06:35:59'
