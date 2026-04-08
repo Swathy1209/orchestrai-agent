@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Tax-O-Smart LLP Data Science Intern: Gemini failed to
-    generate project recommendations'
-  status: error
-  timestamp: '2026-04-08T11:19:08'
-- agent: PracticeAgent
   action: 'Failed portal for Tax-O-Smart LLP Machine Learning Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2494,3 +2489,8 @@ logs:
     generate project recommendations'
   status: error
   timestamp: '2026-04-08T13:39:35'
+- agent: PracticeAgent
+  action: 'Failed portal for Dassault Systèmes Data Science Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-08T13:39:47'
