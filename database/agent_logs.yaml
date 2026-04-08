@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Stirring Minds Artificial Intelligence Intern: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-08T15:18:00'
-- agent: PracticeAgent
   action: 'Failed portal for Tejate Education Private Limited Artificial Intelligence
     Intern: Gemini failed to generate project recommendations'
   status: error
@@ -2496,3 +2491,8 @@ logs:
     Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-08T17:20:10'
+- agent: PracticeAgent
+  action: 'Failed portal for Adex Media Hub Data Science Intern: Gemini failed to
+    generate project recommendations'
+  status: error
+  timestamp: '2026-04-08T17:20:22'
