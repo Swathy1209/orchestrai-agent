@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Encrobytes Technologies Private Limited Data Science
-    Intern: Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-07T22:15:22'
-- agent: PracticeAgent
   action: 'Failed portal for Om Tekriwal Machine Learning Intern: Gemini failed to
     generate project recommendations'
   status: error
@@ -2500,3 +2495,8 @@ logs:
   action: SkillAgent run initiated
   status: success
   timestamp: '2026-04-08T00:01:30'
+- agent: PracticeAgent
+  action: 'Failed portal for Cloud Back Machine Learning Intern: Gemini failed to
+    generate project recommendations'
+  status: error
+  timestamp: '2026-04-08T00:01:33'
