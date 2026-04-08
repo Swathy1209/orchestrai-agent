@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for webAI Summer Internship - Machine Learning Engineer:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-08T11:22:06'
-- agent: PracticeAgent
   action: 'Failed portal for ByteDance Machine Learning Engineer Intern (E-commerce-Recommendation)
     - 2026 Start (PhD): Gemini failed to generate project recommendations'
   status: error
@@ -2494,3 +2489,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-08T13:42:17'
+- agent: PracticeAgent
+  action: 'Failed portal for Anubhav Singh Machine Learning Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-08T13:42:28'
