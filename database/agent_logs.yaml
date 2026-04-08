@@ -1,9 +1,4 @@
 logs:
-- agent: PracticeAgent
-  action: 'Failed portal for Neoteric Analytics Data And AI Engineer Intern: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-08T10:05:33'
 - agent: PortfolioBuilderAgent
   action: Generated Portfolio
   status: success
@@ -2500,3 +2495,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-08T12:15:24'
+- agent: PracticeAgent
+  action: 'Failed portal for Accredian Machine Learning Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-08T12:15:51'
