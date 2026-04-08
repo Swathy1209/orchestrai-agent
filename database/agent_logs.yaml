@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for LeadUpAI AI Engineer: Gemini failed to generate project
-    recommendations'
-  status: error
-  timestamp: '2026-04-08T18:56:36'
-- agent: PracticeAgent
   action: 'Failed portal for PRGX Global Inc. Artificial Intelligence Intern: Gemini
     failed to generate project recommendations'
   status: error
@@ -2493,3 +2488,8 @@ logs:
   action: Generated match scores for 641 internships
   status: success
   timestamp: '2026-04-08T20:57:39'
+- agent: PracticeAgent
+  action: 'Failed portal for INDUS Technology, Inc. Business Analyst, Intern: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-08T20:57:45'
