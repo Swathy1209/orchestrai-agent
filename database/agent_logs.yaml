@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Hooman Digital LLP Machine Learning: Gemini failed to
-    generate project recommendations'
-  status: error
-  timestamp: '2026-04-08T16:59:48'
-- agent: PracticeAgent
   action: 'Failed portal for REVOLVE Data Science Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2500,3 +2495,8 @@ logs:
   action: Generated optimizations for 640 internships
   status: success
   timestamp: '2026-04-08T18:44:34'
+- agent: PracticeAgent
+  action: 'Failed portal for Mulberry Leaf Artificial Intelligence (AI): Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-08T18:45:12'
