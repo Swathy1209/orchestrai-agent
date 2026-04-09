@@ -1,9 +1,4 @@
 logs:
-- agent: PracticeAgent
-  action: 'Failed portal for EXL Data Analyst Associate: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-09T10:47:05'
 - agent: ResumeOptimizationAgent
   action: Generated optimizations for 657 internships
   status: success
@@ -2500,3 +2495,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-09T12:31:53'
+- agent: PracticeAgent
+  action: 'Failed portal for ServiceHive Data Science Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-09T12:32:07'
