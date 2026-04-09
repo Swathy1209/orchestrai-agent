@@ -1,8 +1,4 @@
 logs:
-- agent: CareerAgent
-  action: Email delegation passed to ExecutionAgent
-  level: INFO
-  timestamp: '2026-04-09T17:23:29'
 - agent: SkillAgent
   action: SkillAgent run initiated
   status: success
@@ -2469,3 +2465,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-09T21:06:15'
+- agent: PracticeAgent
+  action: 'Failed portal for Zetheta Algorithms Private Limited Machine Learning Intern:
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-09T21:06:27'
