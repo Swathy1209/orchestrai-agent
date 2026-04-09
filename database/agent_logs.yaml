@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Pairwise Data Science Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-09T16:07:48'
-- agent: PracticeAgent
   action: 'Failed portal for New Jersey Resources Technical Data Analyst Intern: Gemini
     failed to generate project recommendations'
   status: error
@@ -2459,3 +2454,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-09T20:22:14'
+- agent: PracticeAgent
+  action: 'Failed portal for Kensho Technologies Machine Learning Intern - Summer
+    2026: Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-09T20:22:26'
