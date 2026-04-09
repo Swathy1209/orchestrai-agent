@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Life.Church Data Analyst: Gemini failed to generate project
-    recommendations'
-  status: error
-  timestamp: '2026-04-09T06:03:44'
-- agent: PracticeAgent
   action: 'Failed portal for Statcon Energiaa Data Science Intern: Gemini failed to
     generate project recommendations'
   status: error
@@ -2501,3 +2496,8 @@ logs:
     (1 Year Fixed Term): Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-09T07:52:34'
+- agent: PracticeAgent
+  action: 'Failed portal for Albert Einstein College of Medicine Data Analyst - Education:
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-09T07:52:46'
