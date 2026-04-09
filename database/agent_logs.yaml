@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Motovolt Data Science Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-09T16:19:30'
-- agent: PracticeAgent
   action: 'Failed portal for Motovolt Machine Learning Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2461,3 +2456,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-09T20:28:43'
+- agent: PracticeAgent
+  action: 'Failed portal for Hughes ML Engineering Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-09T20:28:55'
