@@ -1,8 +1,4 @@
 logs:
-- agent: OpportunityMatchingAgent
-  action: Generated match scores for 670 internships
-  status: success
-  timestamp: '2026-04-09T17:10:54'
 - agent: PracticeAgent
   action: 'Failed portal for Black Potato Systems Data Engineering & Database Research:
     Gemini failed to generate project recommendations'
@@ -2464,3 +2460,8 @@ logs:
     generate project recommendations'
   status: error
   timestamp: '2026-04-09T20:58:27'
+- agent: PracticeAgent
+  action: 'Failed portal for Kumaresh Chinnaswamy Machine Learning Intern: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-09T20:58:39'
