@@ -1,9 +1,5 @@
 logs:
 - agent: CareerAgent
-  action: Fetch started
-  level: INFO
-  timestamp: '2026-04-09T19:28:10'
-- agent: CareerAgent
   action: 116 jobs fetched
   level: INFO
   timestamp: '2026-04-09T19:28:34'
@@ -2491,3 +2487,8 @@ logs:
     AI) - 2026 Summer/Fall (PhD): Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-09T21:41:52'
+- agent: PracticeAgent
+  action: 'Failed portal for ChatGPT Jobs Research Scientist Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-09T21:42:04'
