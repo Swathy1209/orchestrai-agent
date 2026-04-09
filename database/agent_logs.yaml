@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Rebel Foods Private Limited Data Engineering: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-09T14:55:41'
-- agent: PracticeAgent
   action: 'Failed portal for Xolver AI Physical AI Engineer (Internship): Gemini failed
     to generate project recommendations'
   status: error
@@ -2494,3 +2489,8 @@ logs:
   action: Generated match scores for 670 internships
   status: success
   timestamp: '2026-04-09T17:10:54'
+- agent: PracticeAgent
+  action: 'Failed portal for Black Potato Systems Data Engineering & Database Research:
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-09T17:11:09'
