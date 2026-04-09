@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Tax-O-Smart LLP Data Science Intern: Gemini failed to
-    generate project recommendations'
-  status: error
-  timestamp: '2026-04-09T16:04:15'
-- agent: PracticeAgent
   action: 'Failed portal for Tax-O-Smart LLP Machine Learning Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2456,3 +2451,8 @@ logs:
     Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-09T20:19:54'
+- agent: PracticeAgent
+  action: 'Failed portal for Primetrade.ai Machine Learning (Modeling + Evaluation):
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-09T20:20:06'
