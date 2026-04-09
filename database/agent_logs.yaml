@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for CipherSchools (Chandigarh, India) Data Science Intern:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-09T15:30:36'
-- agent: PracticeAgent
   action: 'Failed portal for The Skill Guru Foundation Data Science Intern: Gemini
     failed to generate project recommendations'
   status: error
@@ -2487,3 +2482,7 @@ logs:
   action: 113 jobs fetched
   level: INFO
   timestamp: '2026-04-09T18:00:58'
+- agent: CareerAgent
+  action: 113 jobs fetched, 98 relevant
+  level: INFO
+  timestamp: '2026-04-09T18:01:01'
