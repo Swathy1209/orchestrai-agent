@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Hubnine India Private Limited Artificial Intelligence
-    Intern: Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-09T06:16:02'
-- agent: PracticeAgent
   action: 'Failed portal for CarVach Data Science Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2505,3 +2500,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-09T08:02:43'
+- agent: PracticeAgent
+  action: 'Failed portal for ChatGPT Jobs SAP iXp Intern - AI Machine Learning: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-09T08:02:56'
