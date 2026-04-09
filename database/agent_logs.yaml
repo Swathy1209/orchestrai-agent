@@ -1,9 +1,5 @@
 logs:
 - agent: CareerAgent
-  action: 116 jobs fetched
-  level: INFO
-  timestamp: '2026-04-09T19:28:34'
-- agent: CareerAgent
   action: 116 jobs fetched, 101 relevant
   level: INFO
   timestamp: '2026-04-09T19:28:43'
@@ -2492,3 +2488,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-09T21:42:04'
+- agent: PracticeAgent
+  action: 'Failed portal for Perpay Inc. Data Science Internship, 2026: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-09T21:42:16'
