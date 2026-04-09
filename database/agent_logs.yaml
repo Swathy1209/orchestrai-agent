@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for OMR Shipping India Private Limited Machine Learning Intern:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-09T15:31:11'
-- agent: PracticeAgent
   action: 'Failed portal for Ramyoz Artificial Intelligence Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2485,3 +2480,8 @@ logs:
   action: Email delegation passed to ExecutionAgent
   level: INFO
   timestamp: '2026-04-09T18:01:14'
+- agent: PracticeAgent
+  action: 'Failed portal for Zyndra Talent Solutions Business Analyst Innovation Intern:
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-09T18:01:20'
