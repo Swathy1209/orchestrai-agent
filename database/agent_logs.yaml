@@ -1,8 +1,4 @@
 logs:
-- agent: RepoSecurityScannerAgent
-  action: 'Scanned 47 repos, priority fix: Hardcoded API Key'
-  status: completed
-  timestamp: '2026-04-09T19:54:40'
 - agent: AutoFixPRGeneratorAgent
   action: Generated 3 security fix PRs
   status: completed
@@ -2506,3 +2502,8 @@ logs:
     Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-09T21:45:09'
+- agent: PracticeAgent
+  action: 'Failed portal for ByteDance Machine Learning Engineer Intern (Global E-commerce
+    Risk Control) - 2026 Summer (BS/MS): Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-09T21:45:21'
