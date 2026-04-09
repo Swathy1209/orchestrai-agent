@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for FinZebra AI Engineering & Learning Design: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-09T10:41:20'
-- agent: PracticeAgent
   action: 'Failed portal for Learning Skills Academy Data And ML Engineer: Gemini
     failed to generate project recommendations'
   status: error
@@ -2500,3 +2495,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-09T12:29:00'
+- agent: PracticeAgent
+  action: 'Failed portal for The Walt Disney Company Machine Learning Engineer Intern,
+    Seattle, Summer 2026: Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-09T12:29:08'
