@@ -1,9 +1,4 @@
 logs:
-- agent: PracticeAgent
-  action: 'Failed portal for GenPark Machine learning engineer intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-08T22:00:55'
 - agent: CareerAgent
   action: 106 jobs fetched
   level: INFO
@@ -2480,3 +2475,8 @@ logs:
   action: 'Scanned 47 repos, priority fix: Hardcoded API Key'
   status: completed
   timestamp: '2026-04-09T00:04:52'
+- agent: PracticeAgent
+  action: 'Failed portal for Primenumbers Technologies Data Science Intern: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-09T00:04:56'
