@@ -1,8 +1,4 @@
 logs:
-- agent: PortfolioBuilderAgent
-  action: Generated Portfolio
-  status: success
-  timestamp: '2026-04-09T17:29:08'
 - agent: CoverLetterAgent
   action: Generated 674 cover letters
   status: success
@@ -2473,3 +2469,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-09T21:07:13'
+- agent: PracticeAgent
+  action: 'Failed portal for Russell Rowland, Inc. Fall 2026 Business Analyst Intern:
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-09T21:07:25'
