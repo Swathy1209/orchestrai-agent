@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Tejate Education Private Limited Machine Learning Intern:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-09T21:00:22'
-- agent: PracticeAgent
   action: 'Failed portal for GNG Developers Machine Learning Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2492,3 +2487,8 @@ logs:
     Intelligence / Machine Learning Intern: Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-09T23:25:48'
+- agent: PracticeAgent
+  action: 'Failed portal for Lensa Business Analyst (Intern) - United States: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-09T23:25:59'
