@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Zyndra Talent Solutions Business Analyst Innovation Intern:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-09T19:04:55'
-- agent: PracticeAgent
   action: 'Failed portal for Eightfold AI Senior Machine Learning Engineer: Gemini
     failed to generate project recommendations'
   status: error
@@ -2488,3 +2483,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-09T21:36:28'
+- agent: PracticeAgent
+  action: 'Failed portal for Ekfrazo Technologies Azure Data Engineer: Detected incomplete
+    placeholder content. Regenerating...'
+  status: error
+  timestamp: '2026-04-09T21:36:40'
