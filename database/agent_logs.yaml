@@ -3,11 +3,6 @@ logs:
   action: 'Failed portal for Adex Media Hub Data Science Intern: Gemini failed to
     generate project recommendations'
   status: error
-  timestamp: '2026-04-09T05:20:32'
-- agent: PracticeAgent
-  action: 'Failed portal for Adex Media Hub Data Science Intern: Gemini failed to
-    generate project recommendations'
-  status: error
   timestamp: '2026-04-09T05:20:44'
 - agent: PracticeAgent
   action: 'Failed portal for Better Data Science Intern: Gemini failed to generate
@@ -2504,3 +2499,8 @@ logs:
     Internship: Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-09T07:09:54'
+- agent: PracticeAgent
+  action: 'Failed portal for Neurasys Machine Learning: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-09T07:10:33'
