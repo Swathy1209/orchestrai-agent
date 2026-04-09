@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Connors Group Data Analyst Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-09T15:51:51'
-- agent: PracticeAgent
   action: 'Failed portal for Veracode Business Analyst Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2462,3 +2457,7 @@ logs:
   action: Fetch started
   level: INFO
   timestamp: '2026-04-09T19:49:18'
+- agent: CareerAgent
+  action: 116 jobs fetched
+  level: INFO
+  timestamp: '2026-04-09T19:49:43'
