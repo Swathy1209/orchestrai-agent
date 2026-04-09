@@ -3,11 +3,6 @@ logs:
   action: 'Failed portal for Protecht (Wyoming, United States) Machine Learning Intern:
     Gemini failed to generate project recommendations'
   status: error
-  timestamp: '2026-04-09T06:14:46'
-- agent: PracticeAgent
-  action: 'Failed portal for Protecht (Wyoming, United States) Machine Learning Intern:
-    Gemini failed to generate project recommendations'
-  status: error
   timestamp: '2026-04-09T06:14:50'
 - agent: PracticeAgent
   action: 'Failed portal for JK Crockery Artificial Intelligence Intern: Gemini failed
@@ -2505,3 +2500,8 @@ logs:
   action: Email delegation passed to ExecutionAgent
   level: INFO
   timestamp: '2026-04-09T08:01:20'
+- agent: PracticeAgent
+  action: 'Failed portal for TZURONI LTD. (Kefar Sava, Israel) Data Science Intern:
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-09T08:01:25'
