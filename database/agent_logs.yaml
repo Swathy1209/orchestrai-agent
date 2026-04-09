@@ -1,9 +1,4 @@
 logs:
-- agent: PracticeAgent
-  action: 'Failed portal for Bizlem Private Limited AI/ML Engineering: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-09T08:52:38'
 - agent: ResumeOptimizationAgent
   action: Generated optimizations for 650 internships
   status: success
@@ -2492,3 +2487,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-09T11:03:00'
+- agent: PracticeAgent
+  action: 'Failed portal for Almost Magic Private Limited Artificial Intelligence
+    (AI): Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-09T11:03:12'
