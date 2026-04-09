@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for RefinedScience Data Engineering Intern: Detected incomplete
-    placeholder content. Regenerating...'
-  status: error
-  timestamp: '2026-04-08T22:19:55'
-- agent: PracticeAgent
   action: 'Failed portal for AI4SEE PRIVATE LIMITED Artificial Intelligence Intern:
     Gemini failed to generate project recommendations'
   status: error
@@ -2491,3 +2486,8 @@ logs:
     Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-09T00:22:36'
+- agent: PracticeAgent
+  action: 'Failed portal for Cohere Machine Learning Intern/Co-op  (Spring 2026):
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-09T00:22:48'
