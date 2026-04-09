@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Mem0 AI Machine Learning Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-09T14:34:33'
-- agent: PracticeAgent
   action: 'Failed portal for Banner Engineering Careers Business Analyst Intern: Gemini
     failed to generate project recommendations'
   status: error
@@ -2496,3 +2491,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-09T16:48:23'
+- agent: PracticeAgent
+  action: 'Failed portal for EXL Data Analyst Associate: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-09T16:48:47'
