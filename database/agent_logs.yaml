@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Blismos Solutions Private Limited Artificial Intelligence
-    Intern: Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-09T16:17:37'
-- agent: PracticeAgent
   action: 'Failed portal for Safalta Setu Artificial Intelligence Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2461,3 +2456,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-09T20:27:32'
+- agent: PracticeAgent
+  action: 'Failed portal for PathAI Machine Learning Intern/Co-op (Summer/Fall 2026):
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-09T20:27:44'
