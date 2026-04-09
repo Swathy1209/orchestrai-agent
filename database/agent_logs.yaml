@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Los Angeles Kings Summer Intern, Data Science (LA Kings):
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-09T18:16:10'
-- agent: PracticeAgent
   action: 'Failed portal for MCube AI Private Limited Data Science: Gemini failed
     to generate project recommendations'
   status: error
@@ -2479,3 +2474,9 @@ logs:
     generate project recommendations'
   status: error
   timestamp: '2026-04-09T21:30:43'
+- agent: PracticeAgent
+  action: 'Failed portal for Red Ventures We''re Planning Ahead - Join the Talent
+    Pipeline for our 2027 Business Analyst Internship: Gemini failed to generate project
+    recommendations'
+  status: error
+  timestamp: '2026-04-09T21:30:55'
