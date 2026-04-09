@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for EVgo Intern, Data Analyst (Winter / Spring): Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-09T19:06:16'
-- agent: PracticeAgent
   action: 'Failed portal for Family Tree Farms Data Analyst Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2490,3 +2485,8 @@ logs:
     recommendations'
   status: error
   timestamp: '2026-04-09T21:37:49'
+- agent: PracticeAgent
+  action: 'Failed portal for Talkspace NLP Research Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-09T21:38:01'
