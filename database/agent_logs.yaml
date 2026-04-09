@@ -1,9 +1,4 @@
 logs:
-- agent: PracticeAgent
-  action: 'Failed portal for Tesla Internship, Data Engineer, Fleet Analytics (Summer
-    2026): Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-09T16:00:25'
 - agent: CareerAgent
   action: Fetch started
   level: INFO
@@ -2452,3 +2447,8 @@ logs:
     recommendations'
   status: error
   timestamp: '2026-04-09T20:15:59'
+- agent: PracticeAgent
+  action: 'Failed portal for ACCA Careers Business Analyst Intern: Gemini failed to
+    generate project recommendations'
+  status: error
+  timestamp: '2026-04-09T20:16:11'
