@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Talkspace NLP Research Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-09T05:55:08'
-- agent: PracticeAgent
   action: 'Failed portal for TikTok (General Hire) Machine Learning Engineer Intern
     (TikTok- Video Recommendation) - 2026 Summer (BS/MS): Gemini failed to generate
     project recommendations'
@@ -2495,3 +2490,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-09T07:44:36'
+- agent: PracticeAgent
+  action: 'Failed portal for The Middleby Corporation Business Analyst Internship:
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-09T07:44:48'
