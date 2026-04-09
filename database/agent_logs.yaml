@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for ByteDance Machine Learning Engineer Intern (E-commerce
-    Governance Algorithms) - 2026 Start (Phd): Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-09T15:50:27'
-- agent: PracticeAgent
   action: 'Failed portal for GreenGas USA Data Engineer - Intern: Gemini failed to
     generate project recommendations'
   status: error
@@ -2468,3 +2463,7 @@ logs:
   action: Stored in GitHub YAML
   level: INFO
   timestamp: '2026-04-09T19:28:52'
+- agent: CareerAgent
+  action: Email delegation passed to ExecutionAgent
+  level: INFO
+  timestamp: '2026-04-09T19:28:56'
