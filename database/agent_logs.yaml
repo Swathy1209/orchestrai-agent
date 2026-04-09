@@ -1,8 +1,4 @@
 logs:
-- agent: CareerAgent
-  action: Email delegation passed to ExecutionAgent
-  level: INFO
-  timestamp: '2026-04-09T02:01:18'
 - agent: SkillAgent
   action: SkillAgent run initiated
   status: success
@@ -2492,3 +2488,8 @@ logs:
     generate project recommendations'
   status: error
   timestamp: '2026-04-09T04:02:24'
+- agent: PracticeAgent
+  action: 'Failed portal for UNITED CARBON TECHNOLOGIES PRIVATE LIMITED Machine Learning
+    Intern: Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-09T04:02:37'
