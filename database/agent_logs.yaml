@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for FTI Defense - Frontier Technology Inc. AI/ML Engineering
-    Internship: Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-09T11:03:58'
-- agent: PracticeAgent
   action: 'Failed portal for Sofar Ocean Machine Learning Intern: Gemini failed to
     generate project recommendations'
   status: error
@@ -2503,3 +2498,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-09T12:49:59'
+- agent: PracticeAgent
+  action: 'Failed portal for Lensa Data Science Intern - Summer 2026 (Remote): Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-09T12:50:12'
