@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Kanji Sweets Artificial Intelligence Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-09T16:11:46'
-- agent: PracticeAgent
   action: 'Failed portal for Barclays Data Analyst: Gemini failed to generate project
     recommendations'
   status: error
@@ -2461,3 +2456,8 @@ logs:
     recommendations'
   status: error
   timestamp: '2026-04-09T20:24:01'
+- agent: PracticeAgent
+  action: 'Failed portal for TikTok Machine Learning Engineer Intern - Data-Search-TikTok
+    Recommendation Team - 2026 Summer (BS/MS): Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-09T20:24:12'
