@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Lensa Intern - Data Science, Generative AI: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-09T15:20:45'
-- agent: PracticeAgent
   action: 'Failed portal for LTM Artificial Intelligence Intern: Gemini failed to
     generate project recommendations'
   status: error
@@ -2486,3 +2481,8 @@ logs:
     recommendations'
   status: error
   timestamp: '2026-04-09T17:51:38'
+- agent: PracticeAgent
+  action: 'Failed portal for Maximus Business Analyst Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-09T17:51:49'
