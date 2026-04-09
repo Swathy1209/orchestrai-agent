@@ -1,9 +1,5 @@
 logs:
 - agent: CareerAgent
-  action: 116 jobs fetched, 101 relevant
-  level: INFO
-  timestamp: '2026-04-09T18:28:51'
-- agent: CareerAgent
   action: Stored in GitHub YAML
   level: INFO
   timestamp: '2026-04-09T18:29:05'
@@ -2482,3 +2478,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-09T21:31:52'
+- agent: PracticeAgent
+  action: 'Failed portal for Berkshire Hathaway GUARD Insurance Companies Data-AI
+    Engineering Intern: Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-09T21:32:03'
