@@ -1,9 +1,5 @@
 logs:
 - agent: CareerAgent
-  action: Fetch started
-  level: INFO
-  timestamp: '2026-04-09T18:28:12'
-- agent: CareerAgent
   action: 116 jobs fetched
   level: INFO
   timestamp: '2026-04-09T18:28:41'
@@ -2480,3 +2476,8 @@ logs:
     (1 Year Fixed Term): Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-09T21:31:29'
+- agent: PracticeAgent
+  action: 'Failed portal for Albert Einstein College of Medicine Data Analyst - Education:
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-09T21:31:40'
