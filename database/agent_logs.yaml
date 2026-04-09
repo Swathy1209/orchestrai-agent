@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for TSTEPS PRIVATE LIMITED Senior Machine Learning Engineer:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-09T18:11:43'
-- agent: PracticeAgent
   action: 'Failed portal for Lightmatter Machine Learning Research Intern: Gemini
     failed to generate project recommendations'
   status: error
@@ -2477,3 +2472,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-09T21:29:00'
+- agent: PracticeAgent
+  action: 'Failed portal for TikTok Data Engineer Intern (Ads Data) - 2026 Summer
+    (BS/MS): Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-09T21:29:12'
