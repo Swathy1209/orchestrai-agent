@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Cognitiv Machine Learning Engineer Intern (Summer 2026):
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-09T05:08:27'
-- agent: PracticeAgent
   action: 'Failed portal for Emoolar Technology Private Limited Data Science: Gemini
     failed to generate project recommendations'
   status: error
@@ -2503,3 +2498,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-09T06:35:04'
+- agent: PracticeAgent
+  action: 'Failed portal for Continental Finance Company Data Science Intern: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-09T06:35:08'
