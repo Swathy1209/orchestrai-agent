@@ -1,9 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: PracticeAgent run initiated
-  status: success
-  timestamp: '2026-04-09T00:19:12'
-- agent: PracticeAgent
   action: 'Failed portal for Metropolitan Transportation Authority Data Science Maintenance
     Support, Emerging Talent Intern (Summer): Gemini failed to generate project recommendations'
   status: error
@@ -2498,3 +2494,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-09T02:24:30'
+- agent: PracticeAgent
+  action: 'Failed portal for TikTok Business Analyst Project Intern (GBS SMB) - 2026
+    Start (BS/MS): Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-09T02:24:43'
