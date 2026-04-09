@@ -1,9 +1,5 @@
 logs:
 - agent: CareerAgent
-  action: 116 jobs fetched, 101 relevant
-  level: INFO
-  timestamp: '2026-04-09T19:28:43'
-- agent: CareerAgent
   action: Stored in GitHub YAML
   level: INFO
   timestamp: '2026-04-09T19:28:52'
@@ -2493,3 +2489,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-09T21:42:16'
+- agent: PracticeAgent
+  action: 'Failed portal for Zoox Machine Learning Engineer Intern, Simulation: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-09T21:42:27'
