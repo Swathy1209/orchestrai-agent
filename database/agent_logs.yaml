@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for VIZON Artificial Intelligence Intern: Gemini failed to
-    generate project recommendations'
-  status: error
-  timestamp: '2026-04-08T22:24:52'
-- agent: PracticeAgent
   action: 'Failed portal for Sloan Data Analyst Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2492,3 +2487,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-09T00:33:14'
+- agent: PracticeAgent
+  action: 'Failed portal for Nuro Machine Learning intern, Behavior Planning: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-09T00:33:27'
