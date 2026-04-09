@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Arhant Solutions Artificial Intelligence Intern: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-09T15:39:30'
-- agent: PracticeAgent
   action: 'Failed portal for Andaz Kumar Artificial Intelligence Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2481,3 +2476,7 @@ logs:
   action: 116 jobs fetched
   level: INFO
   timestamp: '2026-04-09T18:28:41'
+- agent: CareerAgent
+  action: 116 jobs fetched, 101 relevant
+  level: INFO
+  timestamp: '2026-04-09T18:28:51'
