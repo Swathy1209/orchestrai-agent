@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Tesla Internship, Machine Learning Engineer, NVH, Vehicle
-    Engineering (Summer 2026): Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-09T15:49:52'
-- agent: PracticeAgent
   action: 'Failed portal for Tailorbird Software AI Engineering Internships: Gemini
     failed to generate project recommendations'
   status: error
@@ -2472,3 +2467,7 @@ logs:
   action: Fetch started
   level: INFO
   timestamp: '2026-04-09T19:28:10'
+- agent: CareerAgent
+  action: 116 jobs fetched
+  level: INFO
+  timestamp: '2026-04-09T19:28:34'
