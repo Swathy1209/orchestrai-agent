@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Lensa AI Engineer Intern: Gemini failed to generate project
-    recommendations'
-  status: error
-  timestamp: '2026-04-08T23:38:37'
-- agent: PracticeAgent
   action: 'Failed portal for Black Potato Systems Data Engineering & Database Research:
     Gemini failed to generate project recommendations'
   status: error
@@ -2497,3 +2492,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-09T01:42:02'
+- agent: PracticeAgent
+  action: 'Failed portal for ConsultBae Data Science Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-09T01:42:13'
