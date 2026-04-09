@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Wish A Brand Artificial Intelligence Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-09T15:29:49'
-- agent: PracticeAgent
   action: 'Failed portal for HSBC Business Analyst: Gemini failed to generate project
     recommendations'
   status: error
@@ -2489,3 +2484,7 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-09T18:00:28'
+- agent: CareerAgent
+  action: Fetch started
+  level: INFO
+  timestamp: '2026-04-09T18:00:34'
