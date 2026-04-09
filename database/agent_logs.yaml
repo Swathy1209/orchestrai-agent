@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Twango Data Science Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-09T02:17:02'
-- agent: PracticeAgent
   action: 'Failed portal for Stackwise Machine Learning Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2495,3 +2490,8 @@ logs:
     generate project recommendations'
   status: error
   timestamp: '2026-04-09T04:18:28'
+- agent: PracticeAgent
+  action: 'Failed portal for Plus Barrels Data Science Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-09T04:18:41'
