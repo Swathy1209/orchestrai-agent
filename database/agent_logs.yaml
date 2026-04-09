@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Robin Bosky Artificial Intelligence Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-09T16:10:57'
-- agent: PracticeAgent
   action: 'Failed portal for Qwings Data Science Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2460,3 +2455,8 @@ logs:
     Design & Development: Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-09T20:23:25'
+- agent: PracticeAgent
+  action: 'Failed portal for Viant Technology Machine Learning Engineering Internship
+    - Summer 2026: Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-09T20:23:37'
