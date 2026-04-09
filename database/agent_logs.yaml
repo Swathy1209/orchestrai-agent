@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Trustable Solutions Private Limited Artificial Intelligence
-    (AI): Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-08T23:32:39'
-- agent: PracticeAgent
   action: 'Failed portal for Crustdata (YC F24) ML Engineer Intern (Summer 2026):
     Gemini failed to generate project recommendations'
   status: error
@@ -2497,3 +2492,8 @@ logs:
     generate project recommendations'
   status: error
   timestamp: '2026-04-09T01:36:07'
+- agent: PracticeAgent
+  action: 'Failed portal for Indiaum Solutions Machine Learning Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-09T01:36:18'
