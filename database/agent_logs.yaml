@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Metropolitan Transportation Authority Data Science Maintenance
-    Support, Emerging Talent Intern (Summer): Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-09T00:19:19'
-- agent: PracticeAgent
   action: 'Failed portal for RefinedScience Data Engineering Intern: Detected incomplete
     placeholder content. Regenerating...'
   status: error
@@ -2499,3 +2494,9 @@ logs:
     Start (BS/MS): Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-09T02:24:43'
+- agent: PracticeAgent
+  action: 'Failed portal for TikTok Business Analyst Project Intern - Monetization
+    Strategy & Operations - 2026 Start (BS/MS): Gemini failed to generate project
+    recommendations'
+  status: error
+  timestamp: '2026-04-09T02:24:56'
