@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Kensho Technologies Machine Learning Intern - Summer
-    2026: Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-09T06:38:05'
-- agent: PracticeAgent
   action: 'Failed portal for PANTHERx Rare Pharmacy Intern, Data Science: Gemini failed
     to generate project recommendations'
   status: error
@@ -2500,3 +2495,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-09T08:48:57'
+- agent: PracticeAgent
+  action: 'Failed portal for Deloitte AWS Data Engineer: Detected incomplete placeholder
+    content. Regenerating...'
+  status: error
+  timestamp: '2026-04-09T08:49:48'
