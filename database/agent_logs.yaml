@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for ARVO Internship - Computer Vision: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-09T20:40:51'
-- agent: PracticeAgent
   action: 'Failed portal for PwC Consulting Solutions Python Data Engineer: Gemini
     failed to generate project recommendations'
   status: error
@@ -2487,3 +2482,8 @@ logs:
   action: PracticeAgent run initiated
   status: success
   timestamp: '2026-04-09T23:06:43'
+- agent: PracticeAgent
+  action: 'Failed portal for RefinedScience Data Engineering Intern: Detected incomplete
+    placeholder content. Regenerating...'
+  status: error
+  timestamp: '2026-04-09T23:06:53'
