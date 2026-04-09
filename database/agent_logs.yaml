@@ -1,9 +1,5 @@
 logs:
 - agent: CareerAgent
-  action: 113 jobs fetched, 98 relevant
-  level: INFO
-  timestamp: '2026-04-09T17:23:10'
-- agent: CareerAgent
   action: Stored in GitHub YAML
   level: INFO
   timestamp: '2026-04-09T17:23:24'
@@ -2467,3 +2463,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-09T21:05:52'
+- agent: PracticeAgent
+  action: 'Failed portal for Configtap Machine Learning Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-09T21:06:04'
