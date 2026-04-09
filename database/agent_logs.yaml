@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for RTW Institute Data Analyst Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-09T15:27:51'
-- agent: PracticeAgent
   action: 'Failed portal for Tercept Incorporation Data Science Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2487,3 +2482,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-09T17:58:32'
+- agent: PracticeAgent
+  action: 'Failed portal for Nuro Machine Learning intern, Behavior Planning: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-09T17:58:43'
