@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Veracode Business Analyst Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-09T15:52:02'
-- agent: PracticeAgent
   action: 'Failed portal for Trader For Tomorrow Data Science Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2461,3 +2456,7 @@ logs:
   action: 116 jobs fetched
   level: INFO
   timestamp: '2026-04-09T19:49:43'
+- agent: CareerAgent
+  action: 116 jobs fetched, 101 relevant
+  level: INFO
+  timestamp: '2026-04-09T19:49:53'
