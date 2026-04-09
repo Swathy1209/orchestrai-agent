@@ -1,8 +1,4 @@
 logs:
-- agent: ResumeOptimizationAgent
-  action: Generated optimizations for 647 internships
-  status: success
-  timestamp: '2026-04-09T06:52:46'
 - agent: PracticeAgent
   action: 'Failed portal for Lightmatter Machine Learning Research Intern: Gemini
     failed to generate project recommendations'
@@ -2497,3 +2493,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-09T09:05:50'
+- agent: PracticeAgent
+  action: 'Failed portal for InfiVR Machine Learning Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-09T09:06:02'
