@@ -1,9 +1,4 @@
 logs:
-- agent: PracticeAgent
-  action: 'Failed portal for OMNIDYA TECH LLP Artificial Intelligence Intern: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-09T01:16:46'
 - agent: ResumeOptimizationAgent
   action: Generated optimizations for 644 internships
   status: success
@@ -2495,3 +2490,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-09T03:25:18'
+- agent: PracticeAgent
+  action: 'Failed portal for Jampacked Data Science Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-09T03:25:29'
