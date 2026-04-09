@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Megaminds IT Services Machine Learning Intern: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-09T15:39:07'
-- agent: PracticeAgent
   action: 'Failed portal for Arthagro Agronomy Artificial Intelligence Intern: Gemini
     failed to generate project recommendations'
   status: error
@@ -2483,3 +2478,7 @@ logs:
     - NYC): Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-09T18:18:24'
+- agent: CareerAgent
+  action: Fetch started
+  level: INFO
+  timestamp: '2026-04-09T18:28:12'
