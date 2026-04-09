@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Sungrow Power Supply Co., Ltd. Data Analyst Internship:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-09T10:45:13'
-- agent: PracticeAgent
   action: 'Failed portal for Fairassets Technologies India Private Limited Artificial
     Intelligence (AI): Gemini failed to generate project recommendations'
   status: error
@@ -2500,3 +2495,8 @@ logs:
     Intelligence Intern: Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-09T12:30:46'
+- agent: PracticeAgent
+  action: 'Failed portal for Certiwisehub Data Science Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-09T12:31:00'
