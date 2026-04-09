@@ -3,11 +3,6 @@ logs:
   action: 'Failed portal for Innomax IT Solutions Machine Learning Intern: Gemini
     failed to generate project recommendations'
   status: error
-  timestamp: '2026-04-09T05:30:15'
-- agent: PracticeAgent
-  action: 'Failed portal for Innomax IT Solutions Machine Learning Intern: Gemini
-    failed to generate project recommendations'
-  status: error
   timestamp: '2026-04-09T05:30:28'
 - agent: PracticeAgent
   action: 'Failed portal for Turing Machine Learning Intern: Gemini failed to generate
@@ -2501,3 +2496,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-09T07:21:12'
+- agent: PracticeAgent
+  action: 'Failed portal for Neurasys Machine Learning Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-09T07:21:24'
