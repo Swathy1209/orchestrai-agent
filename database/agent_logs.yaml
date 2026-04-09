@@ -1,9 +1,5 @@
 logs:
 - agent: CareerAgent
-  action: 106 jobs fetched
-  level: INFO
-  timestamp: '2026-04-08T22:01:01'
-- agent: CareerAgent
   action: 106 jobs fetched, 91 relevant
   level: INFO
   timestamp: '2026-04-08T22:01:05'
@@ -2480,3 +2476,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-09T00:04:56'
+- agent: PracticeAgent
+  action: 'Failed portal for LawDocs Machine Learning Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-09T00:05:08'
