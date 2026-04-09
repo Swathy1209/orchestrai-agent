@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Dynamo AI ML Research Scientist Intern – Dynamo Guard
-    / Dynamo Eval / AgentWarden: Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-09T02:00:10'
-- agent: PracticeAgent
   action: 'Failed portal for Physics World Graph Machine Learning Research Intern:
     Gemini failed to generate project recommendations'
   status: error
@@ -2494,3 +2489,7 @@ logs:
   action: SkillAgent run initiated
   status: success
   timestamp: '2026-04-09T04:01:05'
+- agent: CareerAgent
+  action: 105 jobs fetched
+  level: INFO
+  timestamp: '2026-04-09T04:01:16'
