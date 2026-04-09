@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Inorbvict Healthcare India Private Limited Artificial
-    Intelligence Intern: Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-09T06:02:07'
-- agent: PracticeAgent
   action: 'Failed portal for INFICON Data Science Intern (Remote): Gemini failed to
     generate project recommendations'
   status: error
@@ -2499,3 +2494,9 @@ logs:
     - 2026 Start (BS/MS): Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-09T07:51:13'
+- agent: PracticeAgent
+  action: 'Failed portal for WayUp BMW, Overseas Supply Chain Operations and Data
+    Analysis Intern (Fall 2026) - Application via WayUp: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-09T07:51:25'
