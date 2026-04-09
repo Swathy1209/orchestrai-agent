@@ -3,11 +3,6 @@ logs:
   action: 'Failed portal for Solvitude Data Science Intern: Gemini failed to generate
     project recommendations'
   status: error
-  timestamp: '2026-04-09T06:26:53'
-- agent: PracticeAgent
-  action: 'Failed portal for Solvitude Data Science Intern: Gemini failed to generate
-    project recommendations'
-  status: error
   timestamp: '2026-04-09T06:26:56'
 - agent: PracticeAgent
   action: 'Failed portal for Liberdat B.V. Machine Learning Intern: Gemini failed
@@ -2501,3 +2496,8 @@ logs:
     Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-09T08:22:51'
+- agent: PracticeAgent
+  action: 'Failed portal for Motovolt Data Science Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-09T08:23:03'
