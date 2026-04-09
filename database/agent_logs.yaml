@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Inorbvict Healthcare India Private Limited Artificial
-    Intelligence Intern: Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-09T09:59:28'
-- agent: PracticeAgent
   action: 'Failed portal for INFICON Data Science Intern (Remote): Gemini failed to
     generate project recommendations'
   status: error
@@ -2494,3 +2489,8 @@ logs:
   action: Fetch started
   level: INFO
   timestamp: '2026-04-09T12:00:36'
+- agent: PracticeAgent
+  action: 'Failed portal for Tax-O-Smart LLP Data Science Intern: Gemini failed to
+    generate project recommendations'
+  status: error
+  timestamp: '2026-04-09T12:00:51'
