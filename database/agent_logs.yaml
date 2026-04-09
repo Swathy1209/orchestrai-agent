@@ -1,9 +1,4 @@
 logs:
-- agent: PracticeAgent
-  action: 'Failed portal for Talentrift Business Analyst Intern: Gemini failed to
-    generate project recommendations'
-  status: error
-  timestamp: '2026-04-09T18:01:06'
 - agent: CareerAgent
   action: Email delegation passed to ExecutionAgent
   level: INFO
@@ -2474,3 +2469,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-09T21:23:28'
+- agent: PracticeAgent
+  action: 'Failed portal for Fendi Intern, Retail Business Analyst: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-09T21:23:40'
