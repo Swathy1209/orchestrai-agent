@@ -1,8 +1,4 @@
 logs:
-- agent: CareerAgent
-  action: Email delegation passed to ExecutionAgent
-  level: INFO
-  timestamp: '2026-04-09T18:01:14'
 - agent: PracticeAgent
   action: 'Failed portal for Zyndra Talent Solutions Business Analyst Innovation Intern:
     Gemini failed to generate project recommendations'
@@ -2474,3 +2470,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-09T21:23:40'
+- agent: PracticeAgent
+  action: 'Failed portal for The Middleby Corporation Business Analyst Internship:
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-09T21:23:51'
