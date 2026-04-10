@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Innoknowvex Machine Learning: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-10T04:33:49'
-- agent: PracticeAgent
   action: 'Failed portal for Innoknowvex Data Science: Gemini failed to generate project
     recommendations'
   status: error
@@ -2499,3 +2494,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-10T06:29:38'
+- agent: PracticeAgent
+  action: 'Failed portal for Toshiba America Electronic Components, Inc. 5039 Data
+    Analyst Engineering Intern: Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-10T06:29:45'
