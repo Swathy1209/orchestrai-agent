@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Apollo Mission Critical Engineering Multiple U.S Locations
-    - Business Analyst Intern (BA-I) - Summer 2026: Gemini failed to generate project
-    recommendations'
-  status: error
-  timestamp: '2026-04-10T04:32:09'
-- agent: PracticeAgent
   action: 'Failed portal for ACCA Careers Business Analyst Intern: Gemini failed to
     generate project recommendations'
   status: error
@@ -2500,3 +2494,8 @@ logs:
     Intern: Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-10T06:28:14'
+- agent: PracticeAgent
+  action: 'Failed portal for Staffline Solutions Machine Learning Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-10T06:28:21'
