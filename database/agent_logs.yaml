@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Saniya SanjayGaikwad Data Science: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-10T05:17:00'
-- agent: PracticeAgent
   action: 'Failed portal for Hexa Solution Data Analyst: Gemini failed to generate
     project recommendations'
   status: error
@@ -2500,3 +2495,8 @@ logs:
     Intelligence Intern: Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-10T06:44:55'
+- agent: PracticeAgent
+  action: 'Failed portal for Certiwisehub Data Science Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-10T06:45:00'
