@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Deloitte Business Analyst: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-10T09:07:51'
-- agent: PracticeAgent
   action: 'Failed portal for DISH TV AI Data Analyst Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2498,3 +2493,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-10T11:17:35'
+- agent: PracticeAgent
+  action: 'Failed portal for OMNIDYA TECH LLP Artificial Intelligence Intern: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-10T11:17:47'
