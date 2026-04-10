@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Robocapital Artificial Intelligence Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-10T10:37:49'
-- agent: PracticeAgent
   action: 'Failed portal for Bosch Home Comfort USA Autonomous Driving – Internship
     in Machine Learning: Gemini failed to generate project recommendations'
   status: error
@@ -2499,3 +2494,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-10T12:43:57'
+- agent: PracticeAgent
+  action: 'Failed portal for Unknown Company – Source Incomplete Data Science Intern:
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-10T12:44:22'
