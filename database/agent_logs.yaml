@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Lightmatter Machine Learning Research Intern: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-10T16:51:52'
-- agent: PracticeAgent
   action: 'Failed portal for Tatari Data Science Analyst, Intern: Gemini failed to
     generate project recommendations'
   status: error
@@ -2488,3 +2483,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-10T19:32:03'
+- agent: PracticeAgent
+  action: 'Failed portal for Ekfrazo Technologies Azure Data Engineer: Detected incomplete
+    placeholder content. Regenerating...'
+  status: error
+  timestamp: '2026-04-10T19:32:15'
