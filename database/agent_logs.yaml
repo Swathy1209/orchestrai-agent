@@ -1,9 +1,4 @@
 logs:
-- agent: PracticeAgent
-  action: 'Failed portal for TikTok Data Scientist Intern (TikTok-Product-Data Science)-2026
-    Summer (BS/MS): Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-10T04:00:15'
 - agent: CareerAgent
   action: 115 jobs fetched
   level: INFO
@@ -2495,3 +2490,8 @@ logs:
     generate project recommendations'
   status: error
   timestamp: '2026-04-10T05:55:54'
+- agent: PracticeAgent
+  action: 'Failed portal for RELI Group, Inc. Data Analyst Intern: Gemini failed to
+    generate project recommendations'
+  status: error
+  timestamp: '2026-04-10T05:56:07'
