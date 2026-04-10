@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Fendi Intern, Retail Business Analyst: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-10T07:45:56'
-- agent: PracticeAgent
   action: 'Failed portal for The Middleby Corporation Business Analyst Internship:
     Gemini failed to generate project recommendations'
   status: error
@@ -2504,3 +2499,9 @@ logs:
     recommendations'
   status: error
   timestamp: '2026-04-10T09:53:26'
+- agent: PracticeAgent
+  action: 'Failed portal for TikTok Machine Learning Engineer Intern (Trust and Safety
+    - CV/NLP/Multimodal LLM) - 2026 Summer(BS/MS): Gemini failed to generate project
+    recommendations'
+  status: error
+  timestamp: '2026-04-10T09:53:37'
