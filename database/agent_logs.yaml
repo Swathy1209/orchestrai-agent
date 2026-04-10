@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Deloitte AWS Data Engineer: Detected incomplete placeholder
-    content. Regenerating...'
-  status: error
-  timestamp: '2026-04-10T15:13:30'
-- agent: PracticeAgent
   action: 'Failed portal for Fractal Data Engineer: Gemini failed to generate project
     recommendations'
   status: error
@@ -2477,3 +2472,9 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-10T18:06:36'
+- agent: PracticeAgent
+  action: 'Failed portal for TikTok (General Hire) Machine Learning Engineer Intern
+    (TikTok-Recommendation) - 2026 Summer (BS/MS): Gemini failed to generate project
+    recommendations'
+  status: error
+  timestamp: '2026-04-10T18:06:48'
