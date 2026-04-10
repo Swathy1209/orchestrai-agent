@@ -1,9 +1,4 @@
 logs:
-- agent: PracticeAgent
-  action: 'Failed portal for Hubnine India Private Limited Artificial Intelligence
-    Intern: Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-10T08:19:45'
 - agent: CoverLetterAgent
   action: Generated 685 cover letters
   status: success
@@ -2503,3 +2498,8 @@ logs:
     Learning: Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-10T10:26:29'
+- agent: PracticeAgent
+  action: 'Failed portal for Capgemini Business Analyst-Contact Center Domain: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-10T10:26:43'
