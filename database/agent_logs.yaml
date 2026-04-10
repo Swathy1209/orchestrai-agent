@@ -1,9 +1,4 @@
 logs:
-- agent: SkillAgent
-  action: Skill gap analysis complete
-  status: success
-  timestamp: '2026-04-10T02:01:37'
-  details: Analyzed 677 jobs.
 - agent: PracticeAgent
   action: 'Failed portal for Inorbvict Healthcare India Private Limited Artificial
     Intelligence Intern: Gemini failed to generate project recommendations'
@@ -2509,3 +2504,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-10T03:53:54'
+- agent: PracticeAgent
+  action: 'Failed portal for Perpay Inc. Data Science Internship, 2026: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-10T03:54:06'
