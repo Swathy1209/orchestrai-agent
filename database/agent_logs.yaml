@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Perpay Inc. Data Science Internship, 2026: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-10T01:59:28'
-- agent: PracticeAgent
   action: 'Failed portal for Zoox Machine Learning Engineer Intern, Simulation: Gemini
     failed to generate project recommendations'
   status: error
@@ -2503,3 +2498,8 @@ logs:
     Intern: Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-10T03:51:02'
+- agent: PracticeAgent
+  action: 'Failed portal for Ekimetrics 6 months Internship in Strategy & Data Science
+    | New York: Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-10T03:51:14'
