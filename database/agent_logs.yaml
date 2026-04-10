@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Bosch USA Artificial Intelligence / Machine Learning
-    - Intern: Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-10T11:33:34'
-- agent: PracticeAgent
   action: 'Failed portal for Reingold, Inc. Business Analyst Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2487,3 +2482,8 @@ logs:
     content. Regenerating...'
   status: error
   timestamp: '2026-04-10T15:13:30'
+- agent: PracticeAgent
+  action: 'Failed portal for Fractal Data Engineer: Gemini failed to generate project
+    recommendations'
+  status: error
+  timestamp: '2026-04-10T15:13:42'
