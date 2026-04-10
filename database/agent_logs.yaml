@@ -1,9 +1,4 @@
 logs:
-- agent: SkillAgent
-  action: Skill gap analysis complete
-  status: success
-  timestamp: '2026-04-10T12:01:42'
-  details: Analyzed 691 jobs.
 - agent: PracticeAgent
   action: 'Failed portal for Tax-O-Smart LLP Machine Learning Intern: Gemini failed
     to generate project recommendations'
@@ -2485,3 +2480,8 @@ logs:
     Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-10T15:42:23'
+- agent: PracticeAgent
+  action: 'Failed portal for Adex Media Hub Data Science Intern: Gemini failed to
+    generate project recommendations'
+  status: error
+  timestamp: '2026-04-10T15:42:35'
