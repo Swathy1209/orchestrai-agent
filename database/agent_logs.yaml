@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Unknown Company – Source Incomplete Machine Learning
-    Intern: Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-10T12:44:59'
-- agent: PracticeAgent
   action: 'Failed portal for OralKart Machine Learning: Gemini failed to generate
     project recommendations'
   status: error
@@ -2479,3 +2474,8 @@ logs:
   action: PracticeAgent run initiated
   status: success
   timestamp: '2026-04-10T16:21:33'
+- agent: PracticeAgent
+  action: 'Failed portal for RefinedScience Data Engineering Intern: Detected incomplete
+    placeholder content. Regenerating...'
+  status: error
+  timestamp: '2026-04-10T16:21:47'
