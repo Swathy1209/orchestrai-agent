@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Neurasys Machine Learning: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-10T07:09:26'
-- agent: PracticeAgent
   action: 'Failed portal for Alchelyst India Pvt Ltd Techno Functional Operations/Data
     Analyst: Gemini failed to generate project recommendations'
   status: error
@@ -2497,3 +2492,8 @@ logs:
     recommendations'
   status: error
   timestamp: '2026-04-10T09:28:51'
+- agent: PracticeAgent
+  action: 'Failed portal for Novaflow (YC S25) Machine Learning Engineer Intern -
+    Summer 2026: Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-10T09:29:02'
