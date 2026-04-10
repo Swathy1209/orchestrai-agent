@@ -1,9 +1,5 @@
 logs:
 - agent: CareerAgent
-  action: 116 jobs fetched, 101 relevant
-  level: INFO
-  timestamp: '2026-04-09T22:01:07'
-- agent: CareerAgent
   action: Stored in GitHub YAML
   level: INFO
   timestamp: '2026-04-09T22:01:19'
@@ -2484,3 +2480,8 @@ logs:
     Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-10T00:35:44'
+- agent: PracticeAgent
+  action: 'Failed portal for Melotech Data Science Intern, Music & Audio: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-10T00:35:57'
