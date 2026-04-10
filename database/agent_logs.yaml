@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Cloud Back Machine Learning Intern: Gemini failed to
-    generate project recommendations'
-  status: error
-  timestamp: '2026-04-10T04:03:24'
-- agent: PracticeAgent
   action: 'Failed portal for Kayno World Education Private Limited Data Science Intern:
     Gemini failed to generate project recommendations'
   status: error
@@ -2506,3 +2501,8 @@ logs:
     Architect/Data Analyst: Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-10T05:59:59'
+- agent: PracticeAgent
+  action: 'Failed portal for Connors Group Data Analyst Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-10T06:00:12'
