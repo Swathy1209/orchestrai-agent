@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Family Tree Farms Data Analyst Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-09T23:23:32'
-- agent: PracticeAgent
   action: 'Failed portal for Thermo Fisher Data Engineer II: Gemini failed to generate
     project recommendations'
   status: error
@@ -2501,3 +2496,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-10T01:11:18'
+- agent: PracticeAgent
+  action: 'Failed portal for VIZON Artificial Intelligence Intern: Gemini failed to
+    generate project recommendations'
+  status: error
+  timestamp: '2026-04-10T01:11:30'
