@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Euromonitor International Associate Data Analyst: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-10T03:52:34'
-- agent: PracticeAgent
   action: 'Failed portal for Sameer Khatri Data Science Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2492,3 +2487,8 @@ logs:
     Intern: Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-10T05:47:32'
+- agent: PracticeAgent
+  action: 'Failed portal for Shivam Singh Machine Learning Intern: Gemini failed to
+    generate project recommendations'
+  status: error
+  timestamp: '2026-04-10T05:47:43'
