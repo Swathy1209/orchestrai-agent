@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Khurana Technology Solutions Data Science Intern: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-10T02:12:17'
-- agent: PracticeAgent
   action: 'Failed portal for LI Blocks Private Limited Data Science Intern: Gemini
     failed to generate project recommendations'
   status: error
@@ -2511,3 +2506,7 @@ logs:
     (Internship): Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-10T03:59:50'
+- agent: CareerAgent
+  action: Fetch started
+  level: INFO
+  timestamp: '2026-04-10T04:00:00'
