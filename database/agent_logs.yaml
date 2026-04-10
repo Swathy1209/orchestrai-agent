@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for AARP Data Science Intern: Gemini failed to generate project
-    recommendations'
-  status: error
-  timestamp: '2026-04-09T21:37:27'
-- agent: PracticeAgent
   action: 'Failed portal for TikTok Machine Learning Engineer Intern (Trust and Safety
     - CV/NLP/Multimodal LLM) - 2026 Summer(BS/MS): Gemini failed to generate project
     recommendations'
@@ -2485,3 +2480,8 @@ logs:
     Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-10T00:02:44'
+- agent: PracticeAgent
+  action: 'Failed portal for SETV Global Machine Learning Intern: Gemini failed to
+    generate project recommendations'
+  status: error
+  timestamp: '2026-04-10T00:02:57'
