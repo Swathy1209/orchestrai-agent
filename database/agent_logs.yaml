@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Aurora Financials AI / ML Engineering Intern: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-10T08:49:39'
-- agent: PracticeAgent
   action: 'Failed portal for Deloitte AWS Data Engineer: Detected incomplete placeholder
     content. Regenerating...'
   status: error
@@ -2498,3 +2493,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-10T11:11:40'
+- agent: PracticeAgent
+  action: 'Failed portal for AsiaDirect Data Science Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-10T11:11:54'
