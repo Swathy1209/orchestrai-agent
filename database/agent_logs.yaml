@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for ZURU Toys Data Analyst Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-09T23:10:40'
-- agent: PracticeAgent
   action: 'Failed portal for Toshiba America Electronic Components, Inc. 5039 Data
     Analyst Engineering Intern: Gemini failed to generate project recommendations'
   status: error
@@ -2504,3 +2499,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-10T00:56:58'
+- agent: PracticeAgent
+  action: 'Failed portal for CarVach Data Science Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-10T00:57:11'
