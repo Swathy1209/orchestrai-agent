@@ -3,11 +3,6 @@ logs:
   action: 'Failed portal for AIFINSPHERE INC. Data Analyst Intern: Gemini failed to
     generate project recommendations'
   status: error
-  timestamp: '2026-04-10T06:37:30'
-- agent: PracticeAgent
-  action: 'Failed portal for AIFINSPHERE INC. Data Analyst Intern: Gemini failed to
-    generate project recommendations'
-  status: error
   timestamp: '2026-04-10T06:37:36'
 - agent: PracticeAgent
   action: 'Failed portal for AIFINSPHERE INC. Business Analysts Intern: Gemini failed
@@ -2496,3 +2491,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-10T08:34:18'
+- agent: PracticeAgent
+  action: 'Failed portal for Kensho Technologies Machine Learning Intern - Summer
+    2026: Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-10T08:34:31'
