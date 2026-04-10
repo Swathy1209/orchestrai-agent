@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Bellwood Business Analyst / QA Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-10T12:57:20'
-- agent: PracticeAgent
   action: 'Failed portal for Suresh Dani''s Classes Data Science: Gemini failed to
     generate project recommendations'
   status: error
@@ -2480,3 +2475,9 @@ logs:
     Start (BS/MS): Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-10T16:28:38'
+- agent: PracticeAgent
+  action: 'Failed portal for TikTok Business Analyst Project Intern - Monetization
+    Strategy & Operations - 2026 Start (BS/MS): Gemini failed to generate project
+    recommendations'
+  status: error
+  timestamp: '2026-04-10T16:28:53'
