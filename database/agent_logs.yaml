@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Newzeninfotech Solutions Data Science: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-10T02:49:26'
-- agent: PracticeAgent
   action: 'Failed portal for Taylor Corporation Business Analyst Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2497,3 +2492,8 @@ logs:
     recommendations'
   status: error
   timestamp: '2026-04-10T04:35:38'
+- agent: PracticeAgent
+  action: 'Failed portal for Cloud Back Machine Learning: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-10T04:35:43'
