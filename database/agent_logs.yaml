@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for OralKart Machine Learning: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-10T16:47:07'
-- agent: PracticeAgent
   action: 'Failed portal for Bro''s Innovations And Technology. Data Science: Gemini
     failed to generate project recommendations'
   status: error
@@ -2487,3 +2482,8 @@ logs:
     Engineering (Summer 2026): Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-10T19:27:47'
+- agent: PracticeAgent
+  action: 'Failed portal for Tailorbird Software AI Engineering Internships: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-10T19:27:58'
