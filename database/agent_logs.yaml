@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for TSTEPS PRIVATE LIMITED Data Science Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-10T02:23:09'
-- agent: PracticeAgent
   action: 'Failed portal for Toshiba America Electronic Components, Inc. 5039 Data
     Analyst Engineering Intern: Gemini failed to generate project recommendations'
   status: error
@@ -2499,3 +2494,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-10T04:15:10'
+- agent: PracticeAgent
+  action: 'Failed portal for Twango Artificial Intelligence Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-10T04:15:24'
