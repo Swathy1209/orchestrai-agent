@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Samaritan''s Purse Geospatial Data Analyst, North American
-    Disaster Relief: Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-10T10:06:45'
-- agent: PracticeAgent
   action: 'Failed portal for Revolution Sustainable Solutions, LLC Business Analyst
     Intern: Gemini failed to generate project recommendations'
   status: error
@@ -2495,3 +2490,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-10T12:15:20'
+- agent: PracticeAgent
+  action: 'Failed portal for Idea Elan India Private Limited AI Engineer: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-10T12:15:32'
