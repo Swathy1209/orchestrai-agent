@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Viant Technology Machine Learning Engineering Internship
-    - Summer 2026: Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-10T12:37:02'
-- agent: PracticeAgent
   action: 'Failed portal for Tatari Data Science BI, Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2480,3 +2475,8 @@ logs:
     (1 Year Fixed Term): Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-10T16:09:41'
+- agent: PracticeAgent
+  action: 'Failed portal for Athena AI Engineer Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-10T16:10:06'
