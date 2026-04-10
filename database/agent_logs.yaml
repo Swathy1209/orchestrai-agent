@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for RELI Group, Inc. Data Analyst Intern: Gemini failed to
-    generate project recommendations'
-  status: error
-  timestamp: '2026-04-10T03:42:38'
-- agent: PracticeAgent
   action: 'Failed portal for Red Ventures We''re Planning Ahead - Join the Talent
     Pipeline for our 2027 Business Analyst Internship: Gemini failed to generate project
     recommendations'
@@ -2497,3 +2492,8 @@ logs:
     recommendations'
   status: error
   timestamp: '2026-04-10T05:36:45'
+- agent: PracticeAgent
+  action: 'Failed portal for Novaflow (YC S25) Machine Learning Engineer Intern -
+    Summer 2026: Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-10T05:36:57'
