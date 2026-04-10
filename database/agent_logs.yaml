@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Tatari Data Science Analyst, Intern: Gemini failed to
-    generate project recommendations'
-  status: error
-  timestamp: '2026-04-10T16:52:05'
-- agent: PracticeAgent
   action: 'Failed portal for Aurora Financials AI / ML Engineering Intern: Gemini
     failed to generate project recommendations'
   status: error
@@ -2488,3 +2483,8 @@ logs:
     placeholder content. Regenerating...'
   status: error
   timestamp: '2026-04-10T19:32:15'
+- agent: PracticeAgent
+  action: 'Failed portal for Greenleap Robotics Private Limited Machine Learning Intern:
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-10T19:32:26'
