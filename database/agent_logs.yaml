@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Simpler Growth Data Science Intern: Gemini failed to
-    generate project recommendations'
-  status: error
-  timestamp: '2026-04-09T21:55:31'
-- agent: PracticeAgent
   action: 'Failed portal for Accredian Machine Learning Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2482,3 +2477,8 @@ logs:
     recommendations'
   status: error
   timestamp: '2026-04-10T00:29:23'
+- agent: PracticeAgent
+  action: 'Failed portal for Envestnet Data Analyst II: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-10T00:29:36'
