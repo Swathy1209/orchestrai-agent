@@ -3,11 +3,6 @@ logs:
   action: 'Failed portal for Unknown Artificial Intelligence Intern: Gemini failed
     to generate project recommendations'
   status: error
-  timestamp: '2026-04-10T04:35:20'
-- agent: PracticeAgent
-  action: 'Failed portal for Unknown Artificial Intelligence Intern: Gemini failed
-    to generate project recommendations'
-  status: error
   timestamp: '2026-04-10T04:35:26'
 - agent: PracticeAgent
   action: 'Failed portal for Symonis Machine Learning: Gemini failed to generate project
@@ -2500,3 +2495,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-10T06:31:09'
+- agent: PracticeAgent
+  action: 'Failed portal for HDR Data Science/Analysis Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-10T06:31:12'
