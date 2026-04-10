@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Hubnine India Private Limited Artificial Intelligence
-    Intern: Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-10T02:14:05'
-- agent: PracticeAgent
   action: 'Failed portal for Safalta Setu Data Science Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2508,3 +2503,7 @@ logs:
     Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-10T04:00:40'
+- agent: CareerAgent
+  action: Stored in GitHub YAML
+  level: INFO
+  timestamp: '2026-04-10T04:00:49'
