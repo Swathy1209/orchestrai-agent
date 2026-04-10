@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Genesis Molecular AI Cheminformatics and Machine Learning
-    Intern: Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-10T02:53:29'
-- agent: PracticeAgent
   action: 'Failed portal for AmRit Hub Private Limited Artificial Intelligence (AI):
     Gemini failed to generate project recommendations'
   status: error
@@ -2497,3 +2492,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-10T04:37:04'
+- agent: PracticeAgent
+  action: 'Failed portal for Tatari Data Science, Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-10T04:37:16'
