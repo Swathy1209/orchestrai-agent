@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Innoknowvex Machine Learning: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-10T12:30:21'
-- agent: PracticeAgent
   action: 'Failed portal for Innoknowvex Data Science: Gemini failed to generate project
     recommendations'
   status: error
@@ -2483,3 +2478,8 @@ logs:
   action: Email delegation passed to ExecutionAgent
   level: INFO
   timestamp: '2026-04-10T16:01:26'
+- agent: PracticeAgent
+  action: 'Failed portal for Automation Anywhere AI Engineer: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-10T16:01:32'
