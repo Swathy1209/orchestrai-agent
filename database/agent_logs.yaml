@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Tech Analogy Artificial Intelligence Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-10T01:00:30'
-- agent: PracticeAgent
   action: 'Failed portal for Hampious Artificial Intelligence Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2498,3 +2493,8 @@ logs:
     Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-10T03:12:10'
+- agent: PracticeAgent
+  action: 'Failed portal for GNG Developers Machine Learning Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-10T03:12:21'
