@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Talent Corner HR Services Machine Learning Engineer:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-10T18:25:15'
-- agent: PracticeAgent
   action: 'Failed portal for Unknown Company – Source Incomplete Data Science Intern:
     Gemini failed to generate project recommendations'
   status: error
@@ -2504,3 +2499,8 @@ logs:
   status: success
   timestamp: '2026-04-10T20:01:37'
   details: Analyzed 696 jobs.
+- agent: PracticeAgent
+  action: 'Failed portal for Liberdat B.V. Machine Learning Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-10T20:01:51'
