@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Idea Elan India Private Limited AI Engineer: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-10T12:15:32'
-- agent: PracticeAgent
   action: 'Failed portal for Tech Analogy Artificial Intelligence Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2488,3 +2483,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-10T15:50:34'
+- agent: PracticeAgent
+  action: 'Failed portal for CipherSchools (Chandigarh, India) Data Science Intern:
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-10T15:50:46'
