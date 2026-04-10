@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Siemens Agentic AI Engineer: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-10T02:38:43'
-- agent: PracticeAgent
   action: 'Failed portal for S&P Global Business Analyst: Gemini failed to generate
     project recommendations'
   status: error
@@ -2497,3 +2492,8 @@ logs:
     generate project recommendations'
   status: error
   timestamp: '2026-04-10T04:32:15'
+- agent: PracticeAgent
+  action: 'Failed portal for ACCA Careers Business Analyst Intern: Gemini failed to
+    generate project recommendations'
+  status: error
+  timestamp: '2026-04-10T04:32:23'
