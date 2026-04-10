@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Eightfold AI Senior Machine Learning Engineer: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-10T12:39:09'
-- agent: PracticeAgent
   action: 'Failed portal for Lensa Intern, Data Science: Gemini failed to generate
     project recommendations'
   status: error
@@ -2479,3 +2474,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-10T16:13:50'
+- agent: PracticeAgent
+  action: 'Failed portal for Aadi Foundation Machine Learning Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-10T16:14:28'
