@@ -1,8 +1,4 @@
 logs:
-- agent: OpportunityMatchingAgent
-  action: Generated match scores for 683 internships
-  status: success
-  timestamp: '2026-04-10T07:27:43'
 - agent: PracticeAgent
   action: 'Failed portal for Configtap Machine Learning Intern: Gemini failed to generate
     project recommendations'
@@ -2499,3 +2495,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-10T09:35:37'
+- agent: PracticeAgent
+  action: 'Failed portal for Unnati Enterprises Data Science Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-10T09:35:49'
