@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Goodera Data Science Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-10T07:50:12'
-- agent: PracticeAgent
   action: 'Failed portal for Mindenious Edutech Machine Learning Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2507,3 +2502,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-10T09:57:39'
+- agent: PracticeAgent
+  action: 'Failed portal for ByteDance Machine Learning Engineer Intern (E-commerce-Conversational
+    AI) - 2026 Summer/Fall (PhD): Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-10T09:57:51'
