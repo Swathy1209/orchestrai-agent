@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Primenumbers Technologies Data Science Intern: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-10T07:42:28'
-- agent: PracticeAgent
   action: 'Failed portal for LawDocs Machine Learning Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2504,3 +2499,8 @@ logs:
     Architect/Data Analyst: Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-10T09:49:59'
+- agent: PracticeAgent
+  action: 'Failed portal for Connors Group Data Analyst Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-10T09:50:10'
