@@ -1,9 +1,5 @@
 logs:
 - agent: CareerAgent
-  action: Stored in GitHub YAML
-  level: INFO
-  timestamp: '2026-04-10T04:01:42'
-- agent: CareerAgent
   action: Email delegation passed to ExecutionAgent
   level: INFO
   timestamp: '2026-04-10T04:01:48'
@@ -2502,3 +2498,9 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-10T05:58:09'
+- agent: PracticeAgent
+  action: 'Failed portal for ForFutures Financial, Planning, a financial advisory
+    practice of Ameriprise Financial Services LLC AI/Data Science Graduate Intern:
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-10T05:58:23'
