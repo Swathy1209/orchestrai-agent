@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for PwC Consulting Solutions Python Data Engineer: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-10T15:17:47'
-- agent: PracticeAgent
   action: 'Failed portal for GE Aerospace Data Science Specialist: Gemini failed to
     generate project recommendations'
   status: error
@@ -2479,3 +2474,9 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-10T18:10:53'
+- agent: PracticeAgent
+  action: 'Failed portal for Apollo Mission Critical Engineering Multiple U.S Locations
+    - Business Analyst Intern (BA-I) - Summer 2026: Gemini failed to generate project
+    recommendations'
+  status: error
+  timestamp: '2026-04-10T18:11:05'
