@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for The Great Indian Studio Artificial Intelligence Intern:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-10T06:32:01'
-- agent: PracticeAgent
   action: 'Failed portal for ACCA Careers Business Analyst Intern: Gemini failed to
     generate project recommendations'
   status: error
@@ -2494,3 +2489,8 @@ logs:
     recommendations'
   status: error
   timestamp: '2026-04-10T08:22:39'
+- agent: PracticeAgent
+  action: 'Failed portal for Upstart Machine Learning Engineer Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-10T08:22:52'
