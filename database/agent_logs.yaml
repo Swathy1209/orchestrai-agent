@@ -1,8 +1,4 @@
 logs:
-- agent: PortfolioBuilderAgent
-  action: Generated Portfolio
-  status: success
-  timestamp: '2026-04-10T14:34:33'
 - agent: PracticeAgent
   action: 'Failed portal for Lensa Machine Learning Intern - Summer 2026: Gemini failed
     to generate project recommendations'
@@ -2499,3 +2495,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-10T16:35:09'
+- agent: PracticeAgent
+  action: 'Failed portal for Lensa Business Analyst Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-10T16:35:24'
