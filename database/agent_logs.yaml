@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Seaman Corporation Business Analyst Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-10T12:38:31'
-- agent: PracticeAgent
   action: 'Failed portal for Talentrift Business Analyst Intern: Gemini failed to
     generate project recommendations'
   status: error
@@ -2479,3 +2474,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-10T16:13:01'
+- agent: PracticeAgent
+  action: 'Failed portal for Euphotic Labs Private Limited Data Science Intern: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-10T16:13:13'
