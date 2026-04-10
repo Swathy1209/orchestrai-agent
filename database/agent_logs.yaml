@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Joveo Machine Learning Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-10T11:24:55'
-- agent: PracticeAgent
   action: 'Failed portal for Globik AI Private Limited Artificial Intelligence Intern:
     Gemini failed to generate project recommendations'
   status: error
@@ -2487,3 +2482,8 @@ logs:
     Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-10T15:04:45'
+- agent: PracticeAgent
+  action: 'Failed portal for FinZebra AI Engineering & Learning Design: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-10T15:04:57'
