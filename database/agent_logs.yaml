@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for CareerNest Machine Learning: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-10T08:45:38'
-- agent: PracticeAgent
   action: 'Failed portal for Fairassets Technologies India Private Limited Artificial
     Intelligence (AI): Gemini failed to generate project recommendations'
   status: error
@@ -2499,3 +2494,8 @@ logs:
     Internship: Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-10T11:04:16'
+- agent: PracticeAgent
+  action: 'Failed portal for Sofar Ocean Machine Learning Intern: Gemini failed to
+    generate project recommendations'
+  status: error
+  timestamp: '2026-04-10T11:04:29'
