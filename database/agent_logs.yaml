@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Chithra Academy Artificial Intelligence Intern: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-10T01:15:11'
-- agent: PracticeAgent
   action: 'Failed portal for Techphotonsolutions Pvt Data Engineer: Gemini failed
     to generate project recommendations'
   status: error
@@ -2497,3 +2492,8 @@ logs:
     Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-10T03:25:15'
+- agent: PracticeAgent
+  action: 'Failed portal for The Skill Guru Foundation Data Science Intern: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-10T03:25:27'
