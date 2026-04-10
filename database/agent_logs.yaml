@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Ekfrazo Technologies Azure Data Engineer: Detected incomplete
-    placeholder content. Regenerating...'
-  status: error
-  timestamp: '2026-04-09T21:36:40'
-- agent: PracticeAgent
   action: 'Failed portal for Greenleap Robotics Private Limited Machine Learning Intern:
     Gemini failed to generate project recommendations'
   status: error
@@ -2485,3 +2480,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-10T00:01:55'
+- agent: PracticeAgent
+  action: 'Failed portal for Conversely Data Science Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-10T00:02:07'
