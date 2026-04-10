@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Stanford University School of Medicine Data Analyst 1
-    (1 Year Fixed Term): Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-10T07:53:51'
-- agent: PracticeAgent
   action: 'Failed portal for Albert Einstein College of Medicine Data Analyst - Education:
     Gemini failed to generate project recommendations'
   status: error
@@ -2502,3 +2497,7 @@ logs:
     Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-10T10:01:12'
+- agent: CareerAgent
+  action: Email delegation passed to ExecutionAgent
+  level: INFO
+  timestamp: '2026-04-10T10:01:20'
