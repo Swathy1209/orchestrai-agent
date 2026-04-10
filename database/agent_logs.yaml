@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for MTX Group Business Analyst Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-10T02:25:44'
-- agent: PracticeAgent
   action: 'Failed portal for ZKAP EDTECH SERVICES PRIVATE LIMITED Machine Learning
     Intern: Gemini failed to generate project recommendations'
   status: error
@@ -2494,3 +2489,8 @@ logs:
     Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-10T04:25:48'
+- agent: PracticeAgent
+  action: 'Failed portal for Cylinder Health Junior Data Engineer: Detected incomplete
+    placeholder content. Regenerating...'
+  status: error
+  timestamp: '2026-04-10T04:25:52'
