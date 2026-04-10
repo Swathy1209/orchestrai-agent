@@ -3,11 +3,6 @@ logs:
   action: 'Failed portal for Zulitech Solution Artificial Intelligence (AI): Gemini
     failed to generate project recommendations'
   status: error
-  timestamp: '2026-04-10T04:38:36'
-- agent: PracticeAgent
-  action: 'Failed portal for Zulitech Solution Artificial Intelligence (AI): Gemini
-    failed to generate project recommendations'
-  status: error
   timestamp: '2026-04-10T04:38:42'
 - agent: PracticeAgent
   action: 'Failed portal for PANTHERx Rare Pharmacy Intern, Data Science: Gemini failed
@@ -2502,3 +2497,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-10T06:33:24'
+- agent: PracticeAgent
+  action: 'Failed portal for LivNSense Artificial Intelligence Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-10T06:33:33'
