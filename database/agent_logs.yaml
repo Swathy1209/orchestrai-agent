@@ -1,9 +1,4 @@
 logs:
-- agent: PracticeAgent
-  action: 'Failed portal for Greenlight Data Engineering Intern: Gemini failed to
-    generate project recommendations'
-  status: error
-  timestamp: '2026-04-10T02:05:20'
 - agent: PortfolioBuilderAgent
   action: Generated Portfolio
   status: success
@@ -2510,3 +2505,8 @@ logs:
     generate project recommendations'
   status: error
   timestamp: '2026-04-10T03:57:43'
+- agent: PracticeAgent
+  action: 'Failed portal for Tax-O-Smart LLP Data Science Intern: Gemini failed to
+    generate project recommendations'
+  status: error
+  timestamp: '2026-04-10T03:57:55'
