@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for SportVot Machine Learning Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-09T22:12:52'
-- agent: PracticeAgent
   action: 'Failed portal for The Walt Disney Company Machine Learning Engineer Intern,
     Seattle, Summer 2026: Gemini failed to generate project recommendations'
   status: error
@@ -2494,3 +2489,8 @@ logs:
     generate project recommendations'
   status: error
   timestamp: '2026-04-10T00:44:08'
+- agent: PracticeAgent
+  action: 'Failed portal for Jobs via Dice Machine Learning Engineer Intern: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-10T00:44:21'
