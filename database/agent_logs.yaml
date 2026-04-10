@@ -3,11 +3,6 @@ logs:
   action: 'Failed portal for NHS Ayrshire & Arran Principal Analyst – Data Engineering:
     Gemini failed to generate project recommendations'
   status: error
-  timestamp: '2026-04-10T06:10:22'
-- agent: PracticeAgent
-  action: 'Failed portal for NHS Ayrshire & Arran Principal Analyst – Data Engineering:
-    Gemini failed to generate project recommendations'
-  status: error
   timestamp: '2026-04-10T06:10:34'
 - agent: PracticeAgent
   action: 'Failed portal for Verda Healthcare Business Analyst (Junior/Entry Level)
@@ -2498,3 +2493,8 @@ logs:
     generate project recommendations'
   status: error
   timestamp: '2026-04-10T07:50:35'
+- agent: PracticeAgent
+  action: 'Failed portal for Weframe Tech Artificial Intelligence Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-10T07:50:47'
