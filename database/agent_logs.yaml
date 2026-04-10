@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for TZURONI LTD. (Kefar Sava, Israel) Machine Learning Intern:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-10T11:55:47'
-- agent: PracticeAgent
   action: 'Failed portal for Wingman Pro Machine Learning Intern: Gemini failed to
     generate project recommendations'
   status: error
@@ -2480,3 +2475,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-10T15:36:10'
+- agent: PracticeAgent
+  action: 'Failed portal for The Hustle House Machine Learning Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-10T15:36:22'
