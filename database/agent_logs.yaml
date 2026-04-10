@@ -3,11 +3,6 @@ logs:
   action: 'Failed portal for Cloud Back Machine Learning: Gemini failed to generate
     project recommendations'
   status: error
-  timestamp: '2026-04-10T04:35:43'
-- agent: PracticeAgent
-  action: 'Failed portal for Cloud Back Machine Learning: Gemini failed to generate
-    project recommendations'
-  status: error
   timestamp: '2026-04-10T04:35:50'
 - agent: PracticeAgent
   action: 'Failed portal for Lensa Data Science Intern: Gemini failed to generate
@@ -2501,3 +2496,8 @@ logs:
     recommendations'
   status: error
   timestamp: '2026-04-10T06:31:32'
+- agent: PracticeAgent
+  action: 'Failed portal for Stackwise Data Science Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-10T06:31:36'
