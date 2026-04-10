@@ -1,8 +1,4 @@
 logs:
-- agent: CareerAgent
-  action: Email delegation passed to ExecutionAgent
-  level: INFO
-  timestamp: '2026-04-10T13:48:51'
 - agent: SkillAgent
   action: SkillAgent run initiated
   status: success
@@ -2486,3 +2482,8 @@ logs:
     (AI): Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-10T16:31:36'
+- agent: PracticeAgent
+  action: 'Failed portal for Infinity Assurance Solutions Private Limited Computer
+    Vision: Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-10T16:31:49'
