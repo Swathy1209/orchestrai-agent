@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Allo Innoware Data Science Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-10T07:38:35'
-- agent: PracticeAgent
   action: 'Failed portal for Deep Life Savers Data Science Intern: Gemini failed to
     generate project recommendations'
   status: error
@@ -2501,3 +2496,9 @@ logs:
     - 2026 Start (BS/MS): Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-10T09:46:11'
+- agent: PracticeAgent
+  action: 'Failed portal for WayUp BMW, Overseas Supply Chain Operations and Data
+    Analysis Intern (Fall 2026) - Application via WayUp: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-10T09:46:22'
