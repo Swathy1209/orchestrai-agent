@@ -1,9 +1,4 @@
 logs:
-- agent: PracticeAgent
-  action: 'Failed portal for Plus Barrels Data Science Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-10T20:01:09'
 - agent: CareerAgent
   action: Email delegation passed to ExecutionAgent
   level: INFO
@@ -2495,3 +2490,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-10T23:06:32'
+- agent: PracticeAgent
+  action: 'Failed portal for Unnati Enterprises Data Science: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-10T23:06:43'
