@@ -1,8 +1,4 @@
 logs:
-- agent: CoverLetterAgent
-  action: Generated 683 cover letters
-  status: success
-  timestamp: '2026-04-10T06:25:06'
 - agent: PracticeAgent
   action: PracticeAgent run initiated
   status: success
@@ -2502,3 +2498,7 @@ logs:
   action: 103 jobs fetched
   level: INFO
   timestamp: '2026-04-10T08:00:59'
+- agent: CareerAgent
+  action: 103 jobs fetched, 88 relevant
+  level: INFO
+  timestamp: '2026-04-10T08:01:03'
