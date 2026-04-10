@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Zello AI & ML Engineering Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-10T11:07:10'
-- agent: PracticeAgent
   action: 'Failed portal for Emoolar Technology Private Limited Data Science: Gemini
     failed to generate project recommendations'
   status: error
@@ -2482,3 +2477,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-10T14:49:58'
+- agent: PracticeAgent
+  action: 'Failed portal for Go Offer Data Analyst: Gemini failed to generate project
+    recommendations'
+  status: error
+  timestamp: '2026-04-10T14:50:09'
