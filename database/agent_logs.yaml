@@ -1,9 +1,4 @@
 logs:
-- agent: SkillAgent
-  action: Skill gap analysis complete
-  status: success
-  timestamp: '2026-04-10T20:01:37'
-  details: Analyzed 696 jobs.
 - agent: PracticeAgent
   action: 'Failed portal for Liberdat B.V. Machine Learning Intern: Gemini failed
     to generate project recommendations'
@@ -2496,3 +2491,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-10T23:07:06'
+- agent: PracticeAgent
+  action: 'Failed portal for Innoknowvex Data Science: Gemini failed to generate project
+    recommendations'
+  status: error
+  timestamp: '2026-04-10T23:07:17'
