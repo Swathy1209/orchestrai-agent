@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for ChatGPT Jobs SAP iXp Intern - AI Machine Learning: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-10T09:57:27'
-- agent: PracticeAgent
   action: 'Failed portal for Benjamin Moore Data Science & Analytics Intern: Gemini
     failed to generate project recommendations'
   status: error
@@ -2496,3 +2491,8 @@ logs:
   action: 103 jobs fetched, 88 relevant
   level: INFO
   timestamp: '2026-04-10T12:01:06'
+- agent: PracticeAgent
+  action: 'Failed portal for Life.Church Data Analyst: Gemini failed to generate project
+    recommendations'
+  status: error
+  timestamp: '2026-04-10T12:01:17'
