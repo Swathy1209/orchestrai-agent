@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Marico Innovation Foundation Data Science Intern: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-10T16:02:24'
-- agent: PracticeAgent
   action: 'Failed portal for Anubhav Singh Data Science Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2486,3 +2481,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-10T18:55:38'
+- agent: PracticeAgent
+  action: 'Failed portal for Neurasys Machine Learning Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-10T18:55:49'
