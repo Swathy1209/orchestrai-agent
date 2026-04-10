@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Preplaced Machine Learning Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-10T05:45:04'
-- agent: PracticeAgent
   action: 'Failed portal for Andaz Kumar Machine Learning Intern: Gemini failed to
     generate project recommendations'
   status: error
@@ -2499,3 +2494,8 @@ logs:
   action: Generated Application Packages for 683 internships
   status: success
   timestamp: '2026-04-10T07:27:05'
+- agent: PracticeAgent
+  action: 'Failed portal for Adex Media Hub Data Science Intern: Gemini failed to
+    generate project recommendations'
+  status: error
+  timestamp: '2026-04-10T07:27:11'
