@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Emoolar Technology Private Limited Artificial Intelligence
-    (AI): Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-10T12:30:46'
-- agent: PracticeAgent
   action: 'Failed portal for Infinity Assurance Solutions Private Limited Computer
     Vision: Gemini failed to generate project recommendations'
   status: error
@@ -2483,3 +2478,8 @@ logs:
   status: success
   timestamp: '2026-04-10T16:01:45'
   details: Analyzed 695 jobs.
+- agent: PracticeAgent
+  action: 'Failed portal for Zypp Electric Machine Learning Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-10T16:01:59'
