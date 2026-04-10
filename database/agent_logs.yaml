@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Seaman Corporation Business Analyst Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-09T23:21:39'
-- agent: PracticeAgent
   action: 'Failed portal for Talentrift Business Analyst Intern: Gemini failed to
     generate project recommendations'
   status: error
@@ -2501,3 +2496,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-10T01:09:17'
+- agent: PracticeAgent
+  action: 'Failed portal for ZKAP EDTECH SERVICES PRIVATE LIMITED Machine Learning
+    Intern: Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-10T01:09:29'
