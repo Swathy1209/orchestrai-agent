@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for PANTHERx Rare Pharmacy Intern, Data Science: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-10T12:35:56'
-- agent: PracticeAgent
   action: 'Failed portal for Nuro Machine Learning intern, Behavior Planning: Gemini
     failed to generate project recommendations'
   status: error
@@ -2480,3 +2475,9 @@ logs:
     - 2026 Start (BS/MS): Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-10T16:08:16'
+- agent: PracticeAgent
+  action: 'Failed portal for WayUp BMW, Overseas Supply Chain Operations and Data
+    Analysis Intern (Fall 2026) - Application via WayUp: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-10T16:08:28'
