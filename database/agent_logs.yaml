@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for METRO Regional Transit Authority Data Analyst Intern:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-10T02:29:26'
-- agent: PracticeAgent
   action: 'Failed portal for Primetrade.ai Machine Learning (Modeling + Evaluation):
     Gemini failed to generate project recommendations'
   status: error
@@ -2495,3 +2490,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-10T04:28:07'
+- agent: PracticeAgent
+  action: 'Failed portal for SportVot Machine Learning Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-10T04:28:11'
