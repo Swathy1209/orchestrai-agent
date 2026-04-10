@@ -1,9 +1,5 @@
 logs:
 - agent: CareerAgent
-  action: 115 jobs fetched
-  level: INFO
-  timestamp: '2026-04-10T04:00:25'
-- agent: CareerAgent
   action: 115 jobs fetched, 100 relevant
   level: INFO
   timestamp: '2026-04-10T04:00:30'
@@ -2495,3 +2491,9 @@ logs:
     generate project recommendations'
   status: error
   timestamp: '2026-04-10T05:56:07'
+- agent: PracticeAgent
+  action: 'Failed portal for Red Ventures We''re Planning Ahead - Join the Talent
+    Pipeline for our 2027 Business Analyst Internship: Gemini failed to generate project
+    recommendations'
+  status: error
+  timestamp: '2026-04-10T05:56:22'
