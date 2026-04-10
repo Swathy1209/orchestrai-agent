@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Gharpayy Artificial Intelligence (AI): Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-10T15:22:51'
-- agent: PracticeAgent
   action: 'Failed portal for Sungrow Data Analyst Internship: Gemini failed to generate
     project recommendations'
   status: error
@@ -2480,3 +2475,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-10T18:16:00'
+- agent: PracticeAgent
+  action: 'Failed portal for Lensa Business Analyst Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-10T18:16:11'
