@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Flipkart Data Analysis Lead: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-10T15:15:15'
-- agent: PracticeAgent
   action: 'Failed portal for Taylor Corporation Business Analyst Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2478,3 +2473,8 @@ logs:
     recommendations'
   status: error
   timestamp: '2026-04-10T18:08:21'
+- agent: PracticeAgent
+  action: 'Failed portal for AUMOVIO Data Analysis Intern (Yearlong): Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-10T18:08:33'
