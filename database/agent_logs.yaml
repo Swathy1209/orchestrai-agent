@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Unimonks Artificial Intelligence (AI): Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-10T06:48:43'
-- agent: PracticeAgent
   action: 'Failed portal for Black Belt Commandos Security Systems Data Science Intern:
     Gemini failed to generate project recommendations'
   status: error
@@ -2498,3 +2493,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-10T09:13:02'
+- agent: PracticeAgent
+  action: 'Failed portal for IIIT Hyderabad Data Science Intern: Gemini failed to
+    generate project recommendations'
+  status: error
+  timestamp: '2026-04-10T09:13:14'
