@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Mindenious Edutech Data Science: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-10T02:27:42'
-- agent: PracticeAgent
   action: 'Failed portal for Unknown Machine Learning Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2494,3 +2489,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-10T04:27:16'
+- agent: PracticeAgent
+  action: 'Failed portal for Edify Equity Data Science Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-10T04:27:21'
