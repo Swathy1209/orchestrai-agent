@@ -3,11 +3,6 @@ logs:
   action: 'Failed portal for Calipers Consulting Private Limited Data Science Intern:
     Gemini failed to generate project recommendations'
   status: error
-  timestamp: '2026-04-10T06:33:00'
-- agent: PracticeAgent
-  action: 'Failed portal for Calipers Consulting Private Limited Data Science Intern:
-    Gemini failed to generate project recommendations'
-  status: error
   timestamp: '2026-04-10T06:33:07'
 - agent: PracticeAgent
   action: 'Failed portal for LivNSense Machine Learning Intern: Gemini failed to generate
@@ -2494,3 +2489,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-10T08:24:49'
+- agent: PracticeAgent
+  action: 'Failed portal for Toshiba America Electronic Components, Inc. 5039 Data
+    Analyst Engineering Intern: Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-10T08:25:01'
