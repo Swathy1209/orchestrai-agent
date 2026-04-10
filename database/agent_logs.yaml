@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Namaah Pvt Ltd AI/ML Engineer: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-10T12:48:55'
-- agent: PracticeAgent
   action: 'Failed portal for Above Alpha Solutions LLP Machine Learning: Gemini failed
     to generate project recommendations'
   status: error
@@ -2479,3 +2474,8 @@ logs:
     Science Intern: Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-10T16:22:55'
+- agent: PracticeAgent
+  action: 'Failed portal for Lensa Data Science Summer Intern (Remote & Paid): Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-10T16:23:10'
