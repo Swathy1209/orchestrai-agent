@@ -1,9 +1,5 @@
 logs:
 - agent: CareerAgent
-  action: Fetch started
-  level: INFO
-  timestamp: '2026-04-10T13:47:59'
-- agent: CareerAgent
   action: 103 jobs fetched
   level: INFO
   timestamp: '2026-04-10T13:48:25'
@@ -2482,3 +2478,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-10T16:30:38'
+- agent: PracticeAgent
+  action: 'Failed portal for Unknown Data Science Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-10T16:30:52'
