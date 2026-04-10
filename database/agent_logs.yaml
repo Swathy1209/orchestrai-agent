@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Tax-O-Smart LLP Machine Learning Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-09T21:46:18'
-- agent: PracticeAgent
   action: 'Failed portal for Statcon Energiaa Artificial Intelligence Intern: Gemini
     failed to generate project recommendations'
   status: error
@@ -2479,3 +2474,8 @@ logs:
     placeholder content. Regenerating...'
   status: error
   timestamp: '2026-04-10T00:19:52'
+- agent: PracticeAgent
+  action: 'Failed portal for Indiaum Solutions Data Science Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-10T00:19:59'
