@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Chamadia Group Artificial Intelligence Intern: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-11T19:12:52'
-- agent: PracticeAgent
   action: 'Failed portal for OMNIDYA TECH LLP Artificial Intelligence Intern: Gemini
     failed to generate project recommendations'
   status: error
@@ -2501,3 +2496,8 @@ logs:
     (AI): Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-11T20:57:52'
+- agent: PracticeAgent
+  action: 'Failed portal for Maiway Technologies Data Engineer (Data Engineer/Data
+    Collection): Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-11T20:58:04'
