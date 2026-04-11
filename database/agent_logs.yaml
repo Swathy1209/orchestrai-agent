@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for FormsADDA Data Science Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-11T14:07:13'
-- agent: PracticeAgent
   action: 'Failed portal for Veritem Health Private Limited Data Science Intern: Gemini
     failed to generate project recommendations'
   status: error
@@ -2507,3 +2502,8 @@ logs:
     (Internship): Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-11T15:59:50'
+- agent: PracticeAgent
+  action: 'Failed portal for Turing Labs AI Engineer Intern - build stealth model:
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-11T16:00:01'
