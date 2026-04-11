@@ -1,9 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: PracticeAgent run initiated
-  status: success
-  timestamp: '2026-04-11T16:19:29'
-- agent: PracticeAgent
   action: 'Failed portal for TSTEPS PRIVATE LIMITED Artificial Intelligence Intern:
     Gemini failed to generate project recommendations'
   status: error
@@ -2495,3 +2491,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-11T18:20:09'
+- agent: PracticeAgent
+  action: 'Failed portal for ZKAP EDTECH SERVICES PRIVATE LIMITED Machine Learning
+    Intern: Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-11T18:20:14'
