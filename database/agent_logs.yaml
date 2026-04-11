@@ -1,8 +1,4 @@
 logs:
-- agent: ResumeOptimizationAgent
-  action: Generated optimizations for 703 internships
-  status: success
-  timestamp: '2026-04-11T07:19:49'
 - agent: PracticeAgent
   action: 'Failed portal for Emoolar Technology Private Limited Data Science: Gemini
     failed to generate project recommendations'
@@ -2499,3 +2495,8 @@ logs:
     Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-11T09:54:18'
+- agent: PracticeAgent
+  action: 'Failed portal for Wingman Pro Machine Learning Intern: Gemini failed to
+    generate project recommendations'
+  status: error
+  timestamp: '2026-04-11T09:54:29'
