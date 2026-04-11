@@ -3,11 +3,6 @@ logs:
   action: 'Failed portal for DevTown Data Science Mentor: Gemini failed to generate
     project recommendations'
   status: error
-  timestamp: '2026-04-11T05:15:11'
-- agent: PracticeAgent
-  action: 'Failed portal for DevTown Data Science Mentor: Gemini failed to generate
-    project recommendations'
-  status: error
   timestamp: '2026-04-11T05:15:16'
 - agent: PracticeAgent
   action: 'Failed portal for Diffzene Machine Learning: Gemini failed to generate
@@ -2503,3 +2498,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-11T06:04:52'
+- agent: PracticeAgent
+  action: 'Failed portal for Tailorbird Software AI Engineering Internships: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-11T06:04:58'
