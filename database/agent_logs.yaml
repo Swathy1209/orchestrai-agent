@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Stackwise Data Science Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-11T08:41:31'
-- agent: PracticeAgent
   action: 'Failed portal for Stackwise Machine Learning Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2499,3 +2494,8 @@ logs:
     2026: Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-11T10:32:29'
+- agent: PracticeAgent
+  action: 'Failed portal for PANTHERx Rare Pharmacy Intern, Data Science: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-11T10:32:42'
