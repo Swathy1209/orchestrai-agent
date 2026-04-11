@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Zuneko Labs Artificial Intelligence (AI): Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-11T18:26:25'
-- agent: PracticeAgent
   action: 'Failed portal for Bombardier Data Analyst Intern (Year-Round): Gemini failed
     to generate project recommendations'
   status: error
@@ -2504,3 +2499,8 @@ logs:
   action: Fetch started
   level: INFO
   timestamp: '2026-04-11T20:00:30'
+- agent: PracticeAgent
+  action: 'Failed portal for Handshake Spatial Data Analyst - AI Trainer: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-11T20:00:37'
