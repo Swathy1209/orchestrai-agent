@@ -1,9 +1,5 @@
 logs:
 - agent: CareerAgent
-  action: 102 jobs fetched, 87 relevant
-  level: INFO
-  timestamp: '2026-04-11T03:55:45'
-- agent: CareerAgent
   action: Stored in GitHub YAML
   level: INFO
   timestamp: '2026-04-11T03:55:53'
@@ -2487,3 +2483,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-11T05:35:56'
+- agent: PracticeAgent
+  action: 'Failed portal for TRISKN Data Science Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-11T05:36:01'
