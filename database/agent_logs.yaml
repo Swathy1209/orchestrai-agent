@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Xolver AI Physical AI Engineer (Internship): Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-11T16:52:06'
-- agent: PracticeAgent
   action: 'Failed portal for PwC Consulting Solutions Python Data Engineer: Gemini
     failed to generate project recommendations'
   status: error
@@ -2501,3 +2496,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-11T18:33:23'
+- agent: PracticeAgent
+  action: 'Failed portal for TikTok Machine Learning Engineer Intern - Data-Search-TikTok
+    Recommendation Team - 2026 Summer (BS/MS): Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-11T18:33:30'
