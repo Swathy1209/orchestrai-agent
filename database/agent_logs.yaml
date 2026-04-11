@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Unnati Enterprises Data Science: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-11T18:26:36'
-- agent: PracticeAgent
   action: 'Failed portal for XED Executive Development Private Limited Artificial
     Intelligence Intern: Gemini failed to generate project recommendations'
   status: error
@@ -2504,3 +2499,7 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-11T20:00:51'
+- agent: CareerAgent
+  action: 104 jobs fetched, 89 relevant
+  level: INFO
+  timestamp: '2026-04-11T20:00:57'
