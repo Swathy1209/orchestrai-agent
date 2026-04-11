@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Kodiak Fall 2026 Intern, Artificial Intelligence/Machine
-    Learning: Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-11T00:44:51'
-- agent: PracticeAgent
   action: 'Failed portal for Lensa Artificial Intelligence (AI) Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2499,3 +2494,8 @@ logs:
   action: Generated optimizations for 701 internships
   status: success
   timestamp: '2026-04-11T02:54:54'
+- agent: PracticeAgent
+  action: 'Failed portal for LeadUpAI AI Engineer: Gemini failed to generate project
+    recommendations'
+  status: error
+  timestamp: '2026-04-11T02:55:33'
