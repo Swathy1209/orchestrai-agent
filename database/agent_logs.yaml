@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for ChatGPT Jobs Research Scientist Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-11T13:55:21'
-- agent: PracticeAgent
   action: 'Failed portal for Perpay Inc. Data Science Internship, 2026: Gemini failed
     to generate project recommendations'
   status: error
@@ -2495,3 +2490,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-11T15:48:23'
+- agent: PracticeAgent
+  action: 'Failed portal for Ekfrazo Technologies Azure Data Engineer: Detected incomplete
+    placeholder content. Regenerating...'
+  status: error
+  timestamp: '2026-04-11T15:48:34'
