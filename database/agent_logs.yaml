@@ -3,11 +3,6 @@ logs:
   action: 'Failed portal for INDUS Technology, Inc. Data Analyst Intern: Gemini failed
     to generate project recommendations'
   status: error
-  timestamp: '2026-04-11T05:12:35'
-- agent: PracticeAgent
-  action: 'Failed portal for INDUS Technology, Inc. Data Analyst Intern: Gemini failed
-    to generate project recommendations'
-  status: error
   timestamp: '2026-04-11T05:12:40'
 - agent: PracticeAgent
   action: 'Failed portal for Bellwood Business Analyst / QA Intern: Gemini failed
@@ -2500,3 +2495,8 @@ logs:
   status: success
   timestamp: '2026-04-11T06:02:07'
   details: Analyzed 703 jobs.
+- agent: PracticeAgent
+  action: 'Failed portal for ByteDance Machine Learning Engineer Intern (E-commerce-Supply
+    Chain & Logistics) - 2026 Start (PhD): Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-11T06:02:12'
