@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for targetjobs UK Business Analyst Internship: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-11T18:30:49'
-- agent: PracticeAgent
   action: 'Failed portal for Bosch Home Comfort USA Autonomous Driving – Internship
     in Machine Learning: Gemini failed to generate project recommendations'
   status: error
@@ -2499,3 +2494,8 @@ logs:
     Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-11T20:15:37'
+- agent: PracticeAgent
+  action: 'Failed portal for TSTEPS PRIVATE LIMITED Data Science Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-11T20:15:49'
