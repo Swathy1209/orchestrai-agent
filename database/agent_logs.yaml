@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Connors Group Data Analyst Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-11T06:06:44'
-- agent: PracticeAgent
   action: 'Failed portal for Strata Decision Technology Intern, Data Science: Gemini
     failed to generate project recommendations'
   status: error
@@ -2501,3 +2496,7 @@ logs:
   action: 82 jobs fetched
   level: INFO
   timestamp: '2026-04-11T08:00:55'
+- agent: CareerAgent
+  action: 82 jobs fetched, 67 relevant
+  level: INFO
+  timestamp: '2026-04-11T08:00:58'
