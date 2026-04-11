@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Ramesh S AI/ML Engineer: Gemini failed to generate project
-    recommendations'
-  status: error
-  timestamp: '2026-04-11T12:55:56'
-- agent: PracticeAgent
   action: 'Failed portal for Irizpro Learning Solutions Artificial Intelligence (AI):
     Gemini failed to generate project recommendations'
   status: error
@@ -2499,3 +2494,8 @@ logs:
     generate project recommendations'
   status: error
   timestamp: '2026-04-11T14:36:44'
+- agent: PracticeAgent
+  action: 'Failed portal for Vouvray Artificial Intelligence Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-11T14:36:56'
