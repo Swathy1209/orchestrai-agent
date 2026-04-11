@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Lensa Artificial Intelligence/Machine Learning - Summer
-    2026 Intern: Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-11T05:11:41'
-- agent: PracticeAgent
   action: 'Failed portal for Spectral AI Deep Learning Data Science Intern: Gemini
     failed to generate project recommendations'
   status: error
@@ -2503,3 +2498,7 @@ logs:
     (BS/MS): Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-11T06:01:03'
+- agent: CareerAgent
+  action: 102 jobs fetched
+  level: INFO
+  timestamp: '2026-04-11T06:01:09'
