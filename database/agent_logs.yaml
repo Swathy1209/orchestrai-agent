@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Anubhav Singh Data Science Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-11T08:02:16'
-- agent: PracticeAgent
   action: 'Failed portal for Founding Years Learning Solutions Private Limited Data
     Science Intern: Gemini failed to generate project recommendations'
   status: error
@@ -2500,3 +2495,8 @@ logs:
   action: Generated Portfolio
   status: success
   timestamp: '2026-04-11T10:05:33'
+- agent: PracticeAgent
+  action: 'Failed portal for UNITED CARBON TECHNOLOGIES PRIVATE LIMITED Machine Learning
+    Intern: Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-11T10:05:52'
