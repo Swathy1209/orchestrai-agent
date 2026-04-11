@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Hexa Solution Data Analyst: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-11T17:07:11'
-- agent: PracticeAgent
   action: 'Failed portal for The Goat Academy Private Limited Data Science Intern:
     Gemini failed to generate project recommendations'
   status: error
@@ -2501,3 +2496,8 @@ logs:
     Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-11T18:35:51'
+- agent: PracticeAgent
+  action: 'Failed portal for EVgo Intern, Data Analyst (Winter / Spring): Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-11T18:35:58'
