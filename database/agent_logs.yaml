@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Medidata Solutions Data Science Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-11T00:03:50'
-- agent: PracticeAgent
   action: 'Failed portal for Jampacked Data Science Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2501,3 +2496,8 @@ logs:
   action: Generated Portfolio
   status: success
   timestamp: '2026-04-11T02:05:42'
+- agent: PracticeAgent
+  action: 'Failed portal for ZenAppStudio Machine Learning Intern: Gemini failed to
+    generate project recommendations'
+  status: error
+  timestamp: '2026-04-11T02:06:15'
