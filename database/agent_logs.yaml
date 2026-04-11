@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Allo Innoware Artificial Intelligence Intern: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-11T17:30:03'
-- agent: PracticeAgent
   action: 'Failed portal for Procter & Gamble Senior IT Data Engineer- DMO Pipelines:
     Gemini failed to generate project recommendations'
   status: error
@@ -2502,3 +2497,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-11T18:57:42'
+- agent: PracticeAgent
+  action: 'Failed portal for Infoware Artificial Intelligence (AI): Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-11T18:58:32'
