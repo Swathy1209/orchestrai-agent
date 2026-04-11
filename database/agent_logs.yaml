@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Stackwise Machine Learning Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-11T08:41:43'
-- agent: PracticeAgent
   action: 'Failed portal for The Great Indian Studio Artificial Intelligence Intern:
     Gemini failed to generate project recommendations'
   status: error
@@ -2499,3 +2494,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-11T10:32:42'
+- agent: PracticeAgent
+  action: 'Failed portal for Nuro Machine Learning intern, Behavior Planning: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-11T10:32:55'
