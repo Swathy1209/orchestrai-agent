@@ -1,9 +1,5 @@
 logs:
 - agent: CareerAgent
-  action: 102 jobs fetched
-  level: INFO
-  timestamp: '2026-04-11T03:44:36'
-- agent: CareerAgent
   action: 102 jobs fetched, 87 relevant
   level: INFO
   timestamp: '2026-04-11T03:44:45'
@@ -2477,3 +2473,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-11T05:34:53'
+- agent: PracticeAgent
+  action: 'Failed portal for Joveo Machine Learning Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-11T05:34:57'
