@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Go Offer Data Analyst: Gemini failed to generate project
-    recommendations'
-  status: error
-  timestamp: '2026-04-11T18:22:48'
-- agent: PracticeAgent
   action: 'Failed portal for Wobot Intelligence Private Limited Machine Learning Intern:
     Gemini failed to generate project recommendations'
   status: error
@@ -2507,3 +2502,8 @@ logs:
     - no C2C: Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-11T19:53:26'
+- agent: PracticeAgent
+  action: 'Failed portal for NewAge Industries, Inc. Data Analyst Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-11T19:53:38'
