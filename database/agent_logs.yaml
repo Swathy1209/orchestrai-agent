@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for California Medical Behavioral Health Data Science Intern:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-11T05:35:50'
-- agent: PracticeAgent
   action: 'Failed portal for TRISKN Data Science Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2511,3 +2506,8 @@ logs:
     Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-11T06:36:46'
+- agent: PracticeAgent
+  action: 'Failed portal for Sloan Data Analyst Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-11T06:36:54'
