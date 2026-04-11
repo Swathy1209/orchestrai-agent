@@ -1,8 +1,4 @@
 logs:
-- agent: ResumeOptimizationAgent
-  action: Generated optimizations for 735 internships
-  status: success
-  timestamp: '2026-04-11T20:56:20'
 - agent: PracticeAgent
   action: 'Failed portal for Unessa Foundation Artificial Intelligence (AI): Gemini
     failed to generate project recommendations'
@@ -2495,3 +2491,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-11T22:55:28'
+- agent: PracticeAgent
+  action: 'Failed portal for AmRit Hub Private Limited Artificial Intelligence (AI):
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-11T22:55:40'
