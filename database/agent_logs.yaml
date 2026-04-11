@@ -1,9 +1,5 @@
 logs:
 - agent: CareerAgent
-  action: 82 jobs fetched, 67 relevant
-  level: INFO
-  timestamp: '2026-04-11T08:00:58'
-- agent: CareerAgent
   action: Stored in GitHub YAML
   level: INFO
   timestamp: '2026-04-11T08:01:10'
@@ -2499,3 +2495,8 @@ logs:
     Data Cycling Center) - 2026 Start (BS/MS): Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-11T10:04:01'
+- agent: PracticeAgent
+  action: 'Failed portal for ByteDance Benefits Operation Data Analyst Project Intern
+    - 2026 Start (BS): Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-11T10:04:13'
