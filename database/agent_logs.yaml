@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Primenumbers Technologies Data Science Intern: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-10T21:32:19'
-- agent: PracticeAgent
   action: 'Failed portal for LawDocs Machine Learning Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2490,3 +2485,8 @@ logs:
   action: PracticeAgent run initiated
   status: success
   timestamp: '2026-04-11T00:19:02'
+- agent: PracticeAgent
+  action: 'Failed portal for RefinedScience Data Engineering Intern: Detected incomplete
+    placeholder content. Regenerating...'
+  status: error
+  timestamp: '2026-04-11T00:19:15'
