@@ -3,11 +3,6 @@ logs:
   action: 'Failed portal for Infoware Artificial Intelligence (AI): Gemini failed
     to generate project recommendations'
   status: error
-  timestamp: '2026-04-11T05:19:10'
-- agent: PracticeAgent
-  action: 'Failed portal for Infoware Artificial Intelligence (AI): Gemini failed
-    to generate project recommendations'
-  status: error
   timestamp: '2026-04-11T05:19:14'
 - agent: PracticeAgent
   action: 'Failed portal for Almost Magic Private Limited Artificial Intelligence
@@ -2504,3 +2499,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-11T06:09:22'
+- agent: PracticeAgent
+  action: 'Failed portal for Ekfrazo Technologies Azure Data Engineer: Detected incomplete
+    placeholder content. Regenerating...'
+  status: error
+  timestamp: '2026-04-11T06:09:43'
