@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Turing Machine Learning Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-11T00:04:27'
-- agent: PracticeAgent
   action: 'Failed portal for Vaibhav Wakade Machine Learning Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2501,3 +2496,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-11T02:07:17'
+- agent: PracticeAgent
+  action: 'Failed portal for The Bridge Artificial Intelligence Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-11T02:07:53'
