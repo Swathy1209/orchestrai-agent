@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Technoculture Research Machine Learning Intern: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-10T21:21:21'
-- agent: PracticeAgent
   action: 'Failed portal for Stealth Startup Machine Learning Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2499,3 +2494,7 @@ logs:
     Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-11T00:00:41'
+- agent: CareerAgent
+  action: 69 jobs fetched
+  level: INFO
+  timestamp: '2026-04-11T00:00:55'
