@@ -3,11 +3,6 @@ logs:
   action: 'Failed portal for Spectral AI Deep Learning Data Science Intern: Gemini
     failed to generate project recommendations'
   status: error
-  timestamp: '2026-04-11T05:11:46'
-- agent: PracticeAgent
-  action: 'Failed portal for Spectral AI Deep Learning Data Science Intern: Gemini
-    failed to generate project recommendations'
-  status: error
   timestamp: '2026-04-11T05:11:53'
 - agent: PracticeAgent
   action: 'Failed portal for Paramount+ Data Science Intern (Summer 2026 - In-Person
@@ -2502,3 +2497,7 @@ logs:
   action: 102 jobs fetched
   level: INFO
   timestamp: '2026-04-11T06:01:09'
+- agent: CareerAgent
+  action: 102 jobs fetched, 87 relevant
+  level: INFO
+  timestamp: '2026-04-11T06:01:13'
