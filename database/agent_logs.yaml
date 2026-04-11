@@ -1,8 +1,4 @@
 logs:
-- agent: CareerAgent
-  action: Email delegation passed to ExecutionAgent
-  level: INFO
-  timestamp: '2026-04-11T03:44:57'
 - agent: SkillAgent
   action: SkillAgent run initiated
   status: success
@@ -2480,3 +2476,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-11T05:35:08'
+- agent: PracticeAgent
+  action: 'Failed portal for Old World Industries Data Analyst Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-11T05:35:16'
