@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for AArete Intern, Data Science & Artificial Intelligence
-    (Summer 2026): Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-10T23:52:37'
-- agent: PracticeAgent
   action: 'Failed portal for Lensa Intern - Data Science, Generative AI: Gemini failed
     to generate project recommendations'
   status: error
@@ -2501,3 +2496,8 @@ logs:
     Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-11T01:54:24'
+- agent: PracticeAgent
+  action: 'Failed portal for TZURONI LTD. (Kefar Sava, Israel) Data Science Intern:
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-11T01:54:35'
