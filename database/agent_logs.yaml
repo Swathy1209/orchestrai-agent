@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Intuit Compliance Assurance Staff Technical Data Analyst:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-11T01:59:56'
-- agent: PracticeAgent
   action: 'Failed portal for Life.Church Data Analyst: Gemini failed to generate project
     recommendations'
   status: error
@@ -2467,3 +2462,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-11T04:56:46'
+- agent: PracticeAgent
+  action: 'Failed portal for Thermo Fisher Data Engineer II: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-11T04:56:55'
