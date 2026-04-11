@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Robocapital Data Science Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-11T16:31:14'
-- agent: PracticeAgent
   action: 'Failed portal for Black Belt Commandos Security Systems Data Science Intern:
     Gemini failed to generate project recommendations'
   status: error
@@ -2499,3 +2494,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-11T18:25:31'
+- agent: PracticeAgent
+  action: 'Failed portal for ACCA Careers Business Analyst Intern: Gemini failed to
+    generate project recommendations'
+  status: error
+  timestamp: '2026-04-11T18:25:39'
