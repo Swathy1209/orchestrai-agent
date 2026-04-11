@@ -1,8 +1,4 @@
 logs:
-- agent: PortfolioBuilderAgent
-  action: Generated Portfolio
-  status: success
-  timestamp: '2026-04-10T22:44:36'
 - agent: CoverLetterAgent
   action: Generated 697 cover letters
   status: success
@@ -2496,3 +2492,8 @@ logs:
     Intelligence (AI): Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-11T00:43:20'
+- agent: PracticeAgent
+  action: 'Failed portal for Random Groups Of Companies Data Science: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-11T00:43:33'
