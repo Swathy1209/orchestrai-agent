@@ -1,9 +1,4 @@
 logs:
-- agent: PracticeAgent
-  action: 'Failed portal for Vilya Intern - Machine Learning Engineer: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-11T02:54:46'
 - agent: ResumeOptimizationAgent
   action: Generated optimizations for 701 internships
   status: success
@@ -2473,3 +2468,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-11T05:16:23'
+- agent: PracticeAgent
+  action: 'Failed portal for Gharpayy Artificial Intelligence (AI): Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-11T05:16:27'
