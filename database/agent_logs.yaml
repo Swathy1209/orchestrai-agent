@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Maximus Business Analyst Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-11T18:25:16'
-- agent: PracticeAgent
   action: 'Failed portal for Chithra Academy Artificial Intelligence Intern: Gemini
     failed to generate project recommendations'
   status: error
@@ -2506,3 +2501,8 @@ logs:
     Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-11T19:58:22'
+- agent: PracticeAgent
+  action: 'Failed portal for TikTok Data Scientist Intern (TikTok-Product-Data Science)-2026
+    Summer (BS/MS): Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-11T19:58:33'
