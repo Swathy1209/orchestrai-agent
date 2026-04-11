@@ -1,9 +1,5 @@
 logs:
 - agent: CareerAgent
-  action: Fetch started
-  level: INFO
-  timestamp: '2026-04-10T22:38:43'
-- agent: CareerAgent
   action: 103 jobs fetched
   level: INFO
   timestamp: '2026-04-10T22:39:07'
@@ -2488,3 +2484,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-11T00:41:29'
+- agent: PracticeAgent
+  action: 'Failed portal for Resolute AI Software Private Limited AI Engineer: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-11T00:41:41'
