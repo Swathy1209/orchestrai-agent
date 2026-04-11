@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for HDR Data Science/Analysis Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-11T06:36:34'
-- agent: PracticeAgent
   action: 'Failed portal for Lensa Data Analyst Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2494,3 +2489,8 @@ logs:
     Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-11T08:47:05'
+- agent: PracticeAgent
+  action: 'Failed portal for AIFINSPHERE INC. Machine Learning Engineer Intern: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-11T08:47:17'
