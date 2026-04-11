@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Revolution Sustainable Solutions, LLC Business Analyst
-    Intern: Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-11T12:02:17'
-- agent: PracticeAgent
   action: 'Failed portal for Handshake Spatial Data Analyst - AI Trainer: Gemini failed
     to generate project recommendations'
   status: error
@@ -2499,3 +2494,8 @@ logs:
   status: success
   timestamp: '2026-04-11T14:01:37'
   details: Analyzed 727 jobs.
+- agent: PracticeAgent
+  action: 'Failed portal for TikTok Data Scientist Intern (TikTok-Product-Data Science)-2026
+    Summer (BS/MS): Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-11T14:01:52'
