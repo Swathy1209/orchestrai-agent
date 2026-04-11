@@ -1,8 +1,4 @@
 logs:
-- agent: OpportunityMatchingAgent
-  action: Generated match scores for 729 internships
-  status: success
-  timestamp: '2026-04-11T19:11:33'
 - agent: PracticeAgent
   action: 'Failed portal for Fine Data Analytics Private Limited Artificial Intelligence
     Intern: Gemini failed to generate project recommendations'
@@ -2501,3 +2497,8 @@ logs:
     generate project recommendations'
   status: error
   timestamp: '2026-04-11T20:55:26'
+- agent: PracticeAgent
+  action: 'Failed portal for Hooman Digital LLP Machine Learning: Gemini failed to
+    generate project recommendations'
+  status: error
+  timestamp: '2026-04-11T20:56:15'
