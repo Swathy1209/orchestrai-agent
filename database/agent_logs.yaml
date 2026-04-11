@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for JK Crockery Artificial Intelligence Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-11T14:09:01'
-- agent: PracticeAgent
   action: 'Failed portal for Accredian Machine Learning Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2506,3 +2501,7 @@ logs:
     - 2026 Start (PhD): Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-11T16:00:48'
+- agent: CareerAgent
+  action: 107 jobs fetched
+  level: INFO
+  timestamp: '2026-04-11T16:01:00'
