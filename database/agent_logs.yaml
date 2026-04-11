@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Viral Fission AI Engineer: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-11T14:22:23'
-- agent: PracticeAgent
   action: 'Failed portal for PathAI Machine Learning Intern/Co-op (Summer 2026): Gemini
     failed to generate project recommendations'
   status: error
@@ -2499,3 +2494,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-11T16:14:49'
+- agent: PracticeAgent
+  action: 'Failed portal for Be Rolling Media Data Science Intern: Gemini failed to
+    generate project recommendations'
+  status: error
+  timestamp: '2026-04-11T16:15:01'
