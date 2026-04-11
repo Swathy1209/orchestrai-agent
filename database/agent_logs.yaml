@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for TMRW - House Of Brands Machine Learning Intern: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-10T21:20:58'
-- agent: PracticeAgent
   action: 'Failed portal for KIDLOLAND KIDS & TODDLER GAMES PRIVATE LIMITED Machine
     Learning Intern: Gemini failed to generate project recommendations'
   status: error
@@ -2500,3 +2495,7 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-11T00:00:30'
+- agent: CareerAgent
+  action: Fetch started
+  level: INFO
+  timestamp: '2026-04-11T00:00:36'
