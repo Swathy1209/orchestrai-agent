@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Certiwisehub Data Science Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-11T14:28:41'
-- agent: PracticeAgent
   action: 'Failed portal for Enlight Lab Data Science Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2495,3 +2490,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-11T16:29:57'
+- agent: PracticeAgent
+  action: 'Failed portal for Great Indian Trade Alliance Artificial Intelligence Intern:
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-11T16:30:10'
