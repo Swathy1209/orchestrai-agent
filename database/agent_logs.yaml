@@ -1,9 +1,4 @@
 logs:
-- agent: SkillAgent
-  action: Skill gap analysis complete
-  status: success
-  timestamp: '2026-04-11T16:01:39'
-  details: Analyzed 729 jobs.
 - agent: PracticeAgent
   action: 'Failed portal for ByteDance Benefits Operation Data Analyst Project Intern
     - 2026 Start (BS): Gemini failed to generate project recommendations'
@@ -2497,3 +2492,8 @@ logs:
   status: success
   timestamp: '2026-04-11T18:01:32'
   details: Analyzed 729 jobs.
+- agent: PracticeAgent
+  action: 'Failed portal for ByteDance Benefits Operation Data Analyst Project Intern
+    - 2026 Start (BS): Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-11T18:01:46'
