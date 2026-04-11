@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Hayward Holdings, Inc. ERP Dashboard and Data Analyst
-    Intern: Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-11T09:53:09'
-- agent: PracticeAgent
   action: 'Failed portal for Ekimetrics 6 months Internship in Strategy & Data Science
     | New York: Gemini failed to generate project recommendations'
   status: error
@@ -2491,3 +2486,8 @@ logs:
     Chain & Logistics) - 2026 Start (PhD): Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-11T11:41:49'
+- agent: PracticeAgent
+  action: 'Failed portal for TikTok Data Science Project Intern (Advertising Team)
+    - 2026 Start (BS/MS): Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-11T11:42:00'
