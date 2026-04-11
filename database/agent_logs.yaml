@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Talview Data Science Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-11T05:48:20'
-- agent: PracticeAgent
   action: 'Failed portal for Indiaum Solutions Data Science Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2513,3 +2508,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-11T06:50:36'
+- agent: PracticeAgent
+  action: 'Failed portal for S&P Global Business Analyst: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-11T06:50:43'
