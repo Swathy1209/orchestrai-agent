@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for TSTEPS PRIVATE LIMITED Artificial Intelligence Intern:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-11T18:19:29'
-- agent: PracticeAgent
   action: 'Failed portal for Cylinder Health Junior Data Engineer: Detected incomplete
     placeholder content. Regenerating...'
   status: error
@@ -2505,3 +2500,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-11T19:46:48'
+- agent: PracticeAgent
+  action: 'Failed portal for Ekfrazo Technologies Azure Data Engineer: Detected incomplete
+    placeholder content. Regenerating...'
+  status: error
+  timestamp: '2026-04-11T19:47:00'
