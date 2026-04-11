@@ -1,8 +1,4 @@
 logs:
-- agent: RepoSecurityScannerAgent
-  action: 'Scanned 47 repos, priority fix: Hardcoded API Key'
-  status: completed
-  timestamp: '2026-04-10T22:43:45'
 - agent: AutoFixPRGeneratorAgent
   action: Generated 3 security fix PRs
   status: completed
@@ -2494,3 +2490,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-11T00:42:55'
+- agent: PracticeAgent
+  action: 'Failed portal for CareerNest Machine Learning: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-11T00:43:08'
