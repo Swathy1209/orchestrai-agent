@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Accredian Machine Learning Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-11T02:10:55'
-- agent: PracticeAgent
   action: 'Failed portal for Hubnine India Private Limited Artificial Intelligence
     Intern: Gemini failed to generate project recommendations'
   status: error
@@ -2472,3 +2467,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-11T05:00:59'
+- agent: PracticeAgent
+  action: 'Failed portal for OralKart Machine Learning: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-11T05:01:04'
