@@ -3,11 +3,6 @@ logs:
   action: 'Failed portal for Better Data Science Intern: Gemini failed to generate
     project recommendations'
   status: error
-  timestamp: '2026-04-11T05:36:32'
-- agent: PracticeAgent
-  action: 'Failed portal for Better Data Science Intern: Gemini failed to generate
-    project recommendations'
-  status: error
   timestamp: '2026-04-11T05:36:37'
 - agent: PracticeAgent
   action: 'Failed portal for Conversely Data Science Intern: Gemini failed to generate
@@ -2511,3 +2506,8 @@ logs:
     Start (BS/MS): Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-11T06:37:33'
+- agent: PracticeAgent
+  action: 'Failed portal for Stackwise Artificial Intelligence Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-11T06:37:40'
