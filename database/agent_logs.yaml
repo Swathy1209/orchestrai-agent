@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Accredian Machine Learning Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-11T20:06:10'
-- agent: PracticeAgent
   action: 'Failed portal for KAN Universal Private Limited Artificial Intelligence
     Intern: Gemini failed to generate project recommendations'
   status: error
@@ -2505,3 +2500,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-11T21:59:54'
+- agent: PracticeAgent
+  action: 'Failed portal for webAI Summer Internship - Machine Learning Engineer:
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-11T22:00:06'
