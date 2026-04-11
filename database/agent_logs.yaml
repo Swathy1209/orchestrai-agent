@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for ServiceHive Artificial Intelligence Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-11T02:32:24'
-- agent: PracticeAgent
   action: 'Failed portal for MyCloud Technology Artificial Intelligence Intern: Gemini
     failed to generate project recommendations'
   status: error
@@ -2473,3 +2468,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-11T05:09:07'
+- agent: PracticeAgent
+  action: 'Failed portal for Lensa Business Analyst Intern Remote: Gemini failed to
+    generate project recommendations'
+  status: error
+  timestamp: '2026-04-11T05:09:14'
