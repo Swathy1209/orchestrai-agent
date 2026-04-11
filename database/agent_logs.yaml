@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Gharpayy Artificial Intelligence (AI): Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-11T02:57:34'
-- agent: PracticeAgent
   action: 'Failed portal for Maiway Technologies Data Engineer (Data Engineer/Data
     Collection): Gemini failed to generate project recommendations'
   status: error
@@ -2474,3 +2469,8 @@ logs:
     Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-11T05:16:51'
+- agent: PracticeAgent
+  action: 'Failed portal for New Jersey Courts Business Analyst Intern (Hourly): Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-11T05:17:00'
