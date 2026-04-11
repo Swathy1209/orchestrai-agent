@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Graindigits Machine Learning Intern: Gemini failed to
-    generate project recommendations'
-  status: error
-  timestamp: '2026-04-11T09:01:56'
-- agent: PracticeAgent
   action: 'Failed portal for TESK Labs Data Science Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2499,3 +2494,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-11T11:05:51'
+- agent: PracticeAgent
+  action: 'Failed portal for Black Potato Systems Data Engineering & Database Research:
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-11T11:06:39'
