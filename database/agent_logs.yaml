@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Macquarie Group Liquidity Business Analyst: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-11T20:11:23'
-- agent: PracticeAgent
   action: 'Failed portal for Twango Artificial Intelligence Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2502,3 +2497,8 @@ logs:
   action: 104 jobs fetched, 89 relevant
   level: INFO
   timestamp: '2026-04-11T22:01:02'
+- agent: PracticeAgent
+  action: 'Failed portal for TikTok Data Engineer Project Intern (Data Governance
+    Data Cycling Center) - 2026 Start (BS/MS): Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-11T22:01:06'
