@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Maximus Business Analyst Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-11T20:25:34'
-- agent: PracticeAgent
   action: 'Failed portal for Enlight Lab Machine Learning Intern: Gemini failed to
     generate project recommendations'
   status: error
@@ -2494,3 +2489,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-11T22:25:03'
+- agent: PracticeAgent
+  action: 'Failed portal for Okta for Developers Data Analyst Intern (Summer 2026):
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-11T22:25:16'
