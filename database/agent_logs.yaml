@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Blismos Solutions Private Limited Data Science Intern:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-11T20:07:10'
-- agent: PracticeAgent
   action: 'Failed portal for Restyle Machine Learning Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2505,3 +2500,7 @@ logs:
     Signal and Privacy) - 2026 Summer (BS/MS): Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-11T22:00:28'
+- agent: CareerAgent
+  action: Fetch started
+  level: INFO
+  timestamp: '2026-04-11T22:00:34'
