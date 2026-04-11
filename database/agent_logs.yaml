@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for CareerNest Machine Learning: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-11T05:02:02'
-- agent: PracticeAgent
   action: 'Failed portal for GreenLeaf, a Chefs'' Warehouse company Data Analyst Intern:
     Gemini failed to generate project recommendations'
   status: error
@@ -2499,3 +2494,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-11T05:51:23'
+- agent: PracticeAgent
+  action: 'Failed portal for Primenumbers Technologies Data Science Intern: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-11T05:51:28'
