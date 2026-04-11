@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Tesla Internship, Machine Learning Engineer, NVH, Vehicle
-    Engineering (Summer 2026): Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-11T05:58:35'
-- agent: PracticeAgent
   action: 'Failed portal for GAINS Data Science Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2510,3 +2505,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-11T07:10:57'
+- agent: PracticeAgent
+  action: 'Failed portal for Hooman Digital LLP Machine Learning: Gemini failed to
+    generate project recommendations'
+  status: error
+  timestamp: '2026-04-11T07:11:12'
