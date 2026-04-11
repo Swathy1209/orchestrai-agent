@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for PRGX Global Inc. Artificial Intelligence Intern: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-10T23:33:15'
-- agent: PracticeAgent
   action: 'Failed portal for Lensa Business Analyst Intern Remote: Gemini failed to
     generate project recommendations'
   status: error
@@ -2494,3 +2489,8 @@ logs:
     Learning Intern: Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-11T01:22:19'
+- agent: PracticeAgent
+  action: 'Failed portal for Technoculture Research Machine Learning Intern: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-11T01:22:31'
