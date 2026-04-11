@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Indiaum Solutions Machine Learning Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-11T07:58:05'
-- agent: PracticeAgent
   action: 'Failed portal for Primenumbers Technologies Machine Learning Intern: Gemini
     failed to generate project recommendations'
   status: error
@@ -2500,3 +2495,7 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-11T10:01:05'
+- agent: CareerAgent
+  action: Stored in GitHub YAML
+  level: INFO
+  timestamp: '2026-04-11T10:01:15'
