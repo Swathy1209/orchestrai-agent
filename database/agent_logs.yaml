@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Namaah Pvt Ltd AI/ML Engineer: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-11T00:45:57'
-- agent: PracticeAgent
   action: 'Failed portal for Bipolar Factory Artificial Intelligence (AI): Gemini
     failed to generate project recommendations'
   status: error
@@ -2499,3 +2494,8 @@ logs:
     Collection): Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-11T02:58:34'
+- agent: PracticeAgent
+  action: 'Failed portal for Cisco Staff Machine Learning Engineer: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-11T02:58:59'
