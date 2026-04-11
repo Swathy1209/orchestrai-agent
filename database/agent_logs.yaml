@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Hooman Digital LLP Machine Learning: Gemini failed to
-    generate project recommendations'
-  status: error
-  timestamp: '2026-04-11T00:57:04'
-- agent: PracticeAgent
   action: 'Failed portal for Unessa Foundation Artificial Intelligence (AI): Gemini
     failed to generate project recommendations'
   status: error
@@ -2497,3 +2492,8 @@ logs:
     Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-11T03:13:49'
+- agent: PracticeAgent
+  action: 'Failed portal for Arihant Publications Artificial Intelligence Intern:
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-11T03:14:01'
