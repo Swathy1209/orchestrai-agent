@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Jampacked Data Science Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-11T05:45:59'
-- agent: PracticeAgent
   action: 'Failed portal for Primenumbers Technologies Data Science Intern: Gemini
     failed to generate project recommendations'
   status: error
@@ -2513,3 +2508,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-11T06:48:04'
+- agent: PracticeAgent
+  action: 'Failed portal for EY Data Scientist – Machine Learning: Gemini failed to
+    generate project recommendations'
+  status: error
+  timestamp: '2026-04-11T06:48:10'
