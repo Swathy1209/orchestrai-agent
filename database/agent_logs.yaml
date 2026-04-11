@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for TRISKN Data Science Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-11T03:17:03'
-- agent: PracticeAgent
   action: 'Failed portal for ODN Digital Services Private Limited Data Science Intern:
     Gemini failed to generate project recommendations'
   status: error
@@ -2476,3 +2471,8 @@ logs:
     Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-11T05:23:58'
+- agent: PracticeAgent
+  action: 'Failed portal for SkillLevel Machine Learning: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-11T05:24:02'
