@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Waters Corporation AI Engineer Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-11T15:00:56'
-- agent: PracticeAgent
   action: 'Failed portal for Sofar Ocean Machine Learning Intern: Gemini failed to
     generate project recommendations'
   status: error
@@ -2495,3 +2490,8 @@ logs:
     (AI): Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-11T16:58:42'
+- agent: PracticeAgent
+  action: 'Failed portal for Cisco Staff Machine Learning Engineer: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-11T16:59:18'
