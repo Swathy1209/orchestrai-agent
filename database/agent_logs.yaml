@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Transcarent Machine Learning Engineer Intern: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-11T18:20:54'
-- agent: PracticeAgent
   action: 'Failed portal for Capgemini Business Analyst-Contact Center Domain: Gemini
     failed to generate project recommendations'
   status: error
@@ -2508,3 +2503,8 @@ logs:
     | New York: Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-11T19:49:39'
+- agent: PracticeAgent
+  action: 'Failed portal for Strata Decision Technology Intern, Data Science: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-11T19:49:50'
