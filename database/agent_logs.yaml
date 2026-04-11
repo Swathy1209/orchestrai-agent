@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for TikTok Business Analyst Intern (Business Integrity) -
-    2026 Summer (BS/MS): Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-11T05:04:38'
-- agent: PracticeAgent
   action: 'Failed portal for Rebel Foods Private Limited Data Engineering: Gemini
     failed to generate project recommendations'
   status: error
@@ -2499,3 +2494,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-11T05:53:57'
+- agent: PracticeAgent
+  action: 'Failed portal for Awakn Machine Learning Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-11T05:54:03'
