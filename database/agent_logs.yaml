@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Certiwisehub Data Science Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-11T06:45:13'
-- agent: PracticeAgent
   action: 'Failed portal for PlanetMeta.Live Machine Learning Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2492,3 +2487,8 @@ logs:
     generate project recommendations'
   status: error
   timestamp: '2026-04-11T09:03:25'
+- agent: PracticeAgent
+  action: 'Failed portal for Vouvray Artificial Intelligence Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-11T09:03:37'
