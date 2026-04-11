@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Zyndra Talent Solutions Business Analyst Innovation Intern:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-11T12:36:57'
-- agent: PracticeAgent
   action: 'Failed portal for Eightfold AI Senior Machine Learning Engineer: Gemini
     failed to generate project recommendations'
   status: error
@@ -2499,3 +2494,8 @@ logs:
     Seattle, Summer 2026: Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-11T14:26:59'
+- agent: PracticeAgent
+  action: 'Failed portal for Zuneko Labs Artificial Intelligence (AI): Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-11T14:27:03'
