@@ -1,8 +1,4 @@
 logs:
-- agent: CareerAgent
-  action: 104 jobs fetched, 89 relevant
-  level: INFO
-  timestamp: '2026-04-11T20:00:57'
 - agent: PracticeAgent
   action: 'Failed portal for Cloud Back Machine Learning Intern: Gemini failed to
     generate project recommendations'
@@ -2500,3 +2496,8 @@ logs:
     generate project recommendations'
   status: error
   timestamp: '2026-04-11T21:55:07'
+- agent: PracticeAgent
+  action: 'Failed portal for Inorbvict Healthcare India Private Limited Data Science
+    Intern: Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-11T21:55:19'
