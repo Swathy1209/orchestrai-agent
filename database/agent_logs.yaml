@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Awakn Machine Learning Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-11T05:54:03'
-- agent: PracticeAgent
   action: 'Failed portal for Mindenious Edutech Machine Learning Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2513,3 +2508,8 @@ logs:
     (AI): Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-11T06:56:53'
+- agent: PracticeAgent
+  action: 'Failed portal for S&P Global Loan Reference Data Analyst: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-11T06:56:58'
