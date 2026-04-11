@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for d-Matrix Machine Learning Research Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-11T06:00:58'
-- agent: PracticeAgent
   action: 'Failed portal for TikTok Data Engineer Intern (Ads Data) - 2026 Summer
     (BS/MS): Gemini failed to generate project recommendations'
   status: error
@@ -2508,3 +2503,8 @@ logs:
   action: Generated optimizations for 703 internships
   status: success
   timestamp: '2026-04-11T07:19:49'
+- agent: PracticeAgent
+  action: 'Failed portal for Emoolar Technology Private Limited Data Science: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-11T07:20:22'
