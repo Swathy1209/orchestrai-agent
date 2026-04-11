@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for IndiaBizForSale.com Data Science Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-11T05:44:26'
-- agent: PracticeAgent
   action: 'Failed portal for Samaadhaan Data Science Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2513,3 +2508,8 @@ logs:
     Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-11T06:46:26'
+- agent: PracticeAgent
+  action: 'Failed portal for MyCloud Technology Machine Learning Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-11T06:46:33'
