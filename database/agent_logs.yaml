@@ -1,9 +1,4 @@
 logs:
-- agent: PracticeAgent
-  action: 'Failed portal for Reach Technologies Machine Learning Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-11T17:12:38'
 - agent: OpportunityMatchingAgent
   action: Generated match scores for 729 internships
   status: success
@@ -2502,3 +2497,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-11T18:36:47'
+- agent: PracticeAgent
+  action: 'Failed portal for PathAI Machine Learning Intern/Co-op (Summer/Fall 2026):
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-11T18:36:55'
