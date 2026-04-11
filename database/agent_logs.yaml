@@ -1,9 +1,5 @@
 logs:
 - agent: CareerAgent
-  action: Stored in GitHub YAML
-  level: INFO
-  timestamp: '2026-04-11T03:44:53'
-- agent: CareerAgent
   action: Email delegation passed to ExecutionAgent
   level: INFO
   timestamp: '2026-04-11T03:44:57'
@@ -2479,3 +2475,8 @@ logs:
     generate project recommendations'
   status: error
   timestamp: '2026-04-11T05:35:05'
+- agent: PracticeAgent
+  action: 'Failed portal for Old World Industries Data Analyst Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-11T05:35:08'
