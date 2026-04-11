@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Career Solutions Artificial Intelligence (AI): Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-11T00:59:56'
-- agent: PracticeAgent
   action: 'Failed portal for Ball2Data Football Data Analysts: Gemini failed to generate
     project recommendations'
   status: error
@@ -2497,3 +2492,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-11T03:16:29'
+- agent: PracticeAgent
+  action: 'Failed portal for REALBRIDGE Data Science Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-11T03:16:41'
