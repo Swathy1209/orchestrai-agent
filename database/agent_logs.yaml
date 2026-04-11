@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Unessa Foundation Machine Learning Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-11T14:18:40'
-- agent: PracticeAgent
   action: 'Failed portal for TSTEPS PRIVATE LIMITED Data Science Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2500,3 +2495,8 @@ logs:
   action: 'Scanned 47 repos, priority fix: Hardcoded API Key'
   status: completed
   timestamp: '2026-04-11T16:04:51'
+- agent: PracticeAgent
+  action: 'Failed portal for The Bridge Artificial Intelligence Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-11T16:04:57'
