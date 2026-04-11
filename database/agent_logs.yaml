@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Cyberwarfare Labs Artificial Intelligence Intern: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-11T02:38:33'
-- agent: PracticeAgent
   action: 'Failed portal for Dharsha Advisors Data Science Intern: Gemini failed to
     generate project recommendations'
   status: error
@@ -2473,3 +2468,8 @@ logs:
     - NYC): Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-11T05:12:04'
+- agent: PracticeAgent
+  action: 'Failed portal for Cohere Machine Learning Intern/Co-op  (Spring/Summer
+    2026): Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-11T05:12:11'
