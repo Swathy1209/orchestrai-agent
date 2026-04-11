@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for EY Machine Learning Engineer: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-11T18:29:45'
-- agent: PracticeAgent
   action: 'Failed portal for Primetrade.ai Data Science: Gemini failed to generate
     project recommendations'
   status: error
@@ -2499,3 +2494,8 @@ logs:
     generate project recommendations'
   status: error
   timestamp: '2026-04-11T20:09:45'
+- agent: PracticeAgent
+  action: 'Failed portal for Macquarie Group Liquidity Business Analyst: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-11T20:11:23'
