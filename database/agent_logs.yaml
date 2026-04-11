@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for ServiceHive Artificial Intelligence Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-11T06:46:57'
-- agent: PracticeAgent
   action: 'Failed portal for CREATE Machine Learning Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2492,3 +2487,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-11T09:06:47'
+- agent: PracticeAgent
+  action: 'Failed portal for Lobo Worldwide (Toronto, Canada) Data Science Intern:
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-11T09:06:59'
