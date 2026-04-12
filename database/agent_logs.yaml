@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for The Bridge Artificial Intelligence Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-12T14:08:36'
-- agent: PracticeAgent
   action: 'Failed portal for Barclays Data Analyst: Gemini failed to generate project
     recommendations'
   status: error
@@ -2500,3 +2495,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-12T16:19:43'
+- agent: PracticeAgent
+  action: 'Failed portal for AI4SEE PRIVATE LIMITED Data Science Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-12T16:20:32'
