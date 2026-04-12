@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Cornerstone Associate AI Engineer: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-12T06:49:01'
-- agent: PracticeAgent
   action: 'Failed portal for CarMax Business Analyst Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2503,3 +2498,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-12T09:06:54'
+- agent: PracticeAgent
+  action: 'Failed portal for DISH TV AI Data Analyst Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-12T09:07:43'
