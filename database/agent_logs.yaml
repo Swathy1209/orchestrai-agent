@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Syncretic Engineering Business Analyst/Data Analyst/Office
-    Executive: Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-12T03:04:36'
-- agent: PracticeAgent
   action: 'Failed portal for Havas Edge Business Analyst Intern: Gemini failed to
     generate project recommendations'
   status: error
@@ -2498,3 +2493,8 @@ logs:
     Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-12T04:43:06'
+- agent: PracticeAgent
+  action: 'Failed portal for Soch Pe Kharoch Artificial Intelligence Intern: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-12T04:43:14'
