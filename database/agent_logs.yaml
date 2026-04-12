@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Jarurat Care Data Science Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-12T11:41:45'
-- agent: PracticeAgent
   action: 'Failed portal for Grameen Shramik Pratishthan Data Science Intern: Gemini
     failed to generate project recommendations'
   status: error
@@ -2498,3 +2493,8 @@ logs:
     recommendations'
   status: error
   timestamp: '2026-04-12T13:46:13'
+- agent: PracticeAgent
+  action: 'Failed portal for Gotion Inc. Data Analyst: Gemini failed to generate project
+    recommendations'
+  status: error
+  timestamp: '2026-04-12T13:46:24'
