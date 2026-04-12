@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for TikTok Data Scientist Intern (TikTok-Product-Data Science)-2026
-    Summer (BS/MS): Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-12T18:03:34'
-- agent: PracticeAgent
   action: 'Failed portal for State of Florida DATA SCIENCE INTERNSHIP: Gemini failed
     to generate project recommendations'
   status: error
@@ -2491,3 +2486,8 @@ logs:
   action: Generated Portfolio
   status: success
   timestamp: '2026-04-12T20:05:37'
+- agent: PracticeAgent
+  action: 'Failed portal for Handshake Spatial Data Analyst - AI Trainer: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-12T20:05:51'
