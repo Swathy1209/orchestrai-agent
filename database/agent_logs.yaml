@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Hughes ML Engineering Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-12T00:40:05'
-- agent: PracticeAgent
   action: 'Failed portal for Airbnb Machine Learning Engineering Intern (PhD): Gemini
     failed to generate project recommendations'
   status: error
@@ -2494,3 +2489,8 @@ logs:
     generate project recommendations'
   status: error
   timestamp: '2026-04-12T02:43:43'
+- agent: PracticeAgent
+  action: 'Failed portal for Matson, Inc. AI & Machine Learning Intern – Operations:
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-12T02:43:55'
