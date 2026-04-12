@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Assetcues Solutions Private Limited Artificial Intelligence
-    Intern: Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-12T19:32:32'
-- agent: PracticeAgent
   action: 'Failed portal for Allo Innoware Artificial Intelligence Intern: Gemini
     failed to generate project recommendations'
   status: error
@@ -2483,3 +2478,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-12T22:56:54'
+- agent: PracticeAgent
+  action: 'Failed portal for Cohere Machine Learning Intern/Co-op  (Spring/Summer
+    2026): Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-12T22:56:59'
