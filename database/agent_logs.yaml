@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for CareerNest Machine Learning: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-12T14:45:13'
-- agent: PracticeAgent
   action: 'Failed portal for Fairassets Technologies India Private Limited Artificial
     Intelligence (AI): Gemini failed to generate project recommendations'
   status: error
@@ -2497,3 +2492,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-12T16:48:50'
+- agent: PracticeAgent
+  action: 'Failed portal for Daice Labs Machine Learning Intern: Gemini failed to
+    generate project recommendations'
+  status: error
+  timestamp: '2026-04-12T16:49:02'
