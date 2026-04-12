@@ -1,8 +1,4 @@
 logs:
-- agent: CareerAgent
-  action: Fetch started
-  level: INFO
-  timestamp: '2026-04-12T16:00:32'
 - agent: PracticeAgent
   action: 'Failed portal for ByteDance Machine Learning Engineer Intern (Global E-commerce
     Risk Control) - 2026 Summer (BS/MS): Gemini failed to generate project recommendations'
@@ -2490,3 +2486,8 @@ logs:
     Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-12T18:03:59'
+- agent: PracticeAgent
+  action: 'Failed portal for ByteDance Machine Learning Engineer Intern (E-commerce-Recommendation)
+    - 2026 Start (PhD): Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-12T18:04:12'
