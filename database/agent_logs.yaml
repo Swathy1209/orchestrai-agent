@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for NewAge Industries, Inc. Data Analyst Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-12T15:58:42'
-- agent: PracticeAgent
   action: 'Failed portal for STARTUP GROWW CONSULTING SERVICES PRIVATE LIMITED Data
     Science Intern: Gemini failed to generate project recommendations'
   status: error
@@ -2490,3 +2485,8 @@ logs:
     - 2026 Summer (BS/MS): Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-12T18:01:52'
+- agent: PracticeAgent
+  action: 'Failed portal for GenPark Machine learning engineer intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-12T18:02:05'
