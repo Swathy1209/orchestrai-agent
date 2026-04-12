@@ -1,9 +1,4 @@
 logs:
-- agent: PracticeAgent
-  action: 'Failed portal for Tax-O-Smart LLP Data Science Intern: Gemini failed to
-    generate project recommendations'
-  status: error
-  timestamp: '2026-04-12T20:01:05'
 - agent: CareerAgent
   action: Stored in GitHub YAML
   level: INFO
@@ -2479,3 +2474,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-12T23:18:27'
+- agent: PracticeAgent
+  action: 'Failed portal for Global Ace Technology Machine Learning Intern: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-12T23:18:41'
