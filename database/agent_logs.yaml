@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Benjamin Moore Data Science & Analytics Intern: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-12T13:56:54'
-- agent: PracticeAgent
   action: 'Failed portal for ByteDance Machine Learning Engineer Intern (E-commerce-Conversational
     AI) - 2026 Summer/Fall (PhD): Gemini failed to generate project recommendations'
   status: error
@@ -2496,3 +2491,8 @@ logs:
   action: 108 jobs fetched, 93 relevant
   level: INFO
   timestamp: '2026-04-12T16:01:03'
+- agent: PracticeAgent
+  action: 'Failed portal for Statcon Energiaa Data Science Intern: Gemini failed to
+    generate project recommendations'
+  status: error
+  timestamp: '2026-04-12T16:01:15'
