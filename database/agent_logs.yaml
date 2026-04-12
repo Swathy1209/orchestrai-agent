@@ -1,9 +1,4 @@
 logs:
-- agent: PracticeAgent
-  action: 'Failed portal for Physics World Graph Machine Learning Research Intern:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-12T10:00:48'
 - agent: CareerAgent
   action: 102 jobs fetched
   level: INFO
@@ -2490,3 +2485,8 @@ logs:
   status: success
   timestamp: '2026-04-12T12:01:41'
   details: Analyzed 744 jobs.
+- agent: PracticeAgent
+  action: 'Failed portal for Rebel Athletic Ai Engineer Internship: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-12T12:01:55'
