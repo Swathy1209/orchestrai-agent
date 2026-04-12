@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Barclays Data Engineer: Gemini failed to generate project
-    recommendations'
-  status: error
-  timestamp: '2026-04-12T16:28:48'
-- agent: PracticeAgent
   action: 'Failed portal for IIT Guwahati Data Science Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2493,3 +2488,8 @@ logs:
     generate project recommendations'
   status: error
   timestamp: '2026-04-12T18:33:16'
+- agent: PracticeAgent
+  action: 'Failed portal for ServiceHive Artificial Intelligence Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-12T18:33:28'
