@@ -1,9 +1,4 @@
 logs:
-- agent: PracticeAgent
-  action: 'Failed portal for Havas Edge Business Analyst Intern: Gemini failed to
-    generate project recommendations'
-  status: error
-  timestamp: '2026-04-12T13:06:01'
 - agent: ResumeOptimizationAgent
   action: Generated optimizations for 744 internships
   status: success
@@ -2498,3 +2493,8 @@ logs:
     Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-12T15:09:52'
+- agent: PracticeAgent
+  action: 'Failed portal for Hone Health Data Science Intern (Summer 2026): Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-12T15:10:16'
