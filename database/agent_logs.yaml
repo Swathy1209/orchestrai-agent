@@ -1,9 +1,4 @@
 logs:
-- agent: PracticeAgent
-  action: 'Failed portal for Better Artificial Intelligence Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-12T15:22:31'
 - agent: OpportunityMatchingAgent
   action: Generated match scores for 746 internships
   status: success
@@ -2495,3 +2490,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-12T17:25:59'
+- agent: PracticeAgent
+  action: 'Failed portal for Alster IT Solutions Data Science Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-12T17:26:11'
