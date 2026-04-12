@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Bro''s Innovations And Technology. Data Science: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-12T14:44:24'
-- agent: PracticeAgent
   action: 'Failed portal for Unknown Company – Source Incomplete Artificial Intelligence
     Intern: Gemini failed to generate project recommendations'
   status: error
@@ -2497,3 +2492,8 @@ logs:
     Analyst Job Opening: Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-12T16:47:58'
+- agent: PracticeAgent
+  action: 'Failed portal for Spectrum 2026 Spectrum Summer Intern: Business Analyst:
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-12T16:48:11'
