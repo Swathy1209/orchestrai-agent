@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Globik AI Private Limited Data Science Intern: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-12T19:23:11'
-- agent: PracticeAgent
   action: 'Failed portal for Ibhatech.com Data Science Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2497,3 +2492,7 @@ logs:
     Intelligence Intern: Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-12T21:25:00'
+- agent: CareerAgent
+  action: Fetch started
+  level: INFO
+  timestamp: '2026-04-12T21:54:05'
