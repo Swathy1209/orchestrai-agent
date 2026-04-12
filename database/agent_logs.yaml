@@ -1,9 +1,4 @@
 logs:
-- agent: SkillAgent
-  action: Skill gap analysis complete
-  status: success
-  timestamp: '2026-04-12T14:01:33'
-  details: Analyzed 746 jobs.
 - agent: PracticeAgent
   action: 'Failed portal for Statcon Energiaa Artificial Intelligence Intern: Gemini
     failed to generate project recommendations'
@@ -2496,3 +2491,8 @@ logs:
     Intern: Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-12T16:06:06'
+- agent: PracticeAgent
+  action: 'Failed portal for Handshake Spatial Data Analyst - AI Trainer: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-12T16:06:18'
