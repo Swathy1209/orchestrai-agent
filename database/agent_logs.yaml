@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Automation Anywhere AI Engineer: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-12T19:38:59'
-- agent: PracticeAgent
   action: 'Failed portal for Career Solutions Machine Learning Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2483,3 +2478,8 @@ logs:
     (AI): Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-12T23:00:11'
+- agent: PracticeAgent
+  action: 'Failed portal for Hooman Digital LLP Machine Learning: Gemini failed to
+    generate project recommendations'
+  status: error
+  timestamp: '2026-04-12T23:00:15'
