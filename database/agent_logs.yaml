@@ -1,9 +1,5 @@
 logs:
 - agent: CareerAgent
-  action: 108 jobs fetched
-  level: INFO
-  timestamp: '2026-04-12T16:00:59'
-- agent: CareerAgent
   action: 108 jobs fetched, 93 relevant
   level: INFO
   timestamp: '2026-04-12T16:01:03'
@@ -2491,3 +2487,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-12T18:04:36'
+- agent: PracticeAgent
+  action: 'Failed portal for New Jersey Resources Technical Data Analyst Intern: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-12T18:04:49'
