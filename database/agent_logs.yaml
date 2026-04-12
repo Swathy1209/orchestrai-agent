@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Tatari Data Science Analyst, Intern: Gemini failed to
-    generate project recommendations'
-  status: error
-  timestamp: '2026-04-12T08:48:57'
-- agent: PracticeAgent
   action: 'Failed portal for Aurora Financials AI / ML Engineering Intern: Gemini
     failed to generate project recommendations'
   status: error
@@ -2495,3 +2490,8 @@ logs:
     - 2026 Start (BS/MS): Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-12T10:52:31'
+- agent: PracticeAgent
+  action: 'Failed portal for Rebel Foods Private Limited Data Engineering: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-12T10:52:56'
