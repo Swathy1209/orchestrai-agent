@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Plus Barrels Data Science Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-12T04:23:12'
-- agent: PracticeAgent
   action: 'Failed portal for Liberdat B.V. Machine Learning Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2501,3 +2496,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-12T05:50:34'
+- agent: PracticeAgent
+  action: 'Failed portal for KlassWAY Machine Learning Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-12T05:50:46'
