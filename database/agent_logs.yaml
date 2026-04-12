@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Kanji Sweets Artificial Intelligence Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-12T06:20:32'
-- agent: PracticeAgent
   action: 'Failed portal for FormsADDA Data Science Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2508,3 +2503,8 @@ logs:
   action: 105 jobs fetched, 90 relevant
   level: INFO
   timestamp: '2026-04-12T08:01:01'
+- agent: PracticeAgent
+  action: 'Failed portal for TZURONI LTD. (Kefar Sava, Israel) Machine Learning Intern:
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-12T08:01:08'
