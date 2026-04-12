@@ -1,9 +1,5 @@
 logs:
 - agent: CareerAgent
-  action: 105 jobs fetched
-  level: INFO
-  timestamp: '2026-04-12T12:01:00'
-- agent: CareerAgent
   action: 105 jobs fetched, 90 relevant
   level: INFO
   timestamp: '2026-04-12T12:01:03'
@@ -2490,3 +2486,7 @@ logs:
     - 2026 Start (BS): Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-12T14:05:30'
+- agent: PortfolioBuilderAgent
+  action: Generated Portfolio
+  status: success
+  timestamp: '2026-04-12T14:05:36'
