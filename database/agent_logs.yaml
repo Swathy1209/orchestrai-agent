@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for CiteSert Artificial Intelligence Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-12T20:42:19'
-- agent: PracticeAgent
   action: 'Failed portal for HealthStream Intern, Data Science: Gemini failed to generate
     project recommendations'
   status: error
@@ -2489,3 +2484,8 @@ logs:
     recommendations'
   status: error
   timestamp: '2026-04-12T23:53:12'
+- agent: PracticeAgent
+  action: 'Failed portal for Talkspace NLP Research Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-12T23:53:25'
