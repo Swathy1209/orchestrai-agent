@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Russell Rowland, Inc. Fall 2026 Business Analyst Intern:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-12T11:21:33'
-- agent: PracticeAgent
   action: 'Failed portal for BNM Business Solutions LLP Data Science Intern: Gemini
     failed to generate project recommendations'
   status: error
@@ -2495,3 +2490,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-12T13:26:19'
+- agent: PracticeAgent
+  action: 'Failed portal for Tercept Incorporation Data Science Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-12T13:26:30'
