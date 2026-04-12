@@ -1,9 +1,4 @@
 logs:
-- agent: PracticeAgent
-  action: 'Failed portal for Plus Barrels Data Science Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-12T00:19:18'
 - agent: CoverLetterAgent
   action: Generated 738 cover letters
   status: success
@@ -2497,3 +2492,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-12T02:22:07'
+- agent: PracticeAgent
+  action: 'Failed portal for Viral Fission AI Engineer: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-12T02:22:20'
