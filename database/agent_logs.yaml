@@ -1,8 +1,4 @@
 logs:
-- agent: PortfolioBuilderAgent
-  action: Generated Portfolio
-  status: success
-  timestamp: '2026-04-12T10:05:28'
 - agent: PracticeAgent
   action: 'Failed portal for ByteDance Benefits Operation Data Analyst Project Intern
     - 2026 Start (BS): Gemini failed to generate project recommendations'
@@ -2494,3 +2490,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-12T12:08:42'
+- agent: PracticeAgent
+  action: 'Failed portal for LawDocs Artificial Intelligence Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-12T12:08:54'
