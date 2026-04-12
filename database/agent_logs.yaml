@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Anavai Technologies Machine Learning Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-12T06:52:53'
-- agent: PracticeAgent
   action: 'Failed portal for Udan Foundation Artificial Intelligence Intern: Gemini
     failed to generate project recommendations'
   status: error
@@ -2503,3 +2498,8 @@ logs:
     Intern: Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-12T09:22:27'
+- agent: PracticeAgent
+  action: 'Failed portal for BNM Business Solutions LLP Data Science Intern: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-12T09:23:03'
