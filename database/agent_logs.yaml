@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Tatari Data Science Analyst, Intern: Gemini failed to
-    generate project recommendations'
-  status: error
-  timestamp: '2026-04-12T14:48:57'
-- agent: PracticeAgent
   action: 'Failed portal for Aurora Financials AI / ML Engineering Intern: Gemini
     failed to generate project recommendations'
   status: error
@@ -2497,3 +2492,8 @@ logs:
     recommendations'
   status: error
   timestamp: '2026-04-12T16:52:31'
+- agent: PracticeAgent
+  action: 'Failed portal for Amdocs Data Engineer: Gemini failed to generate project
+    recommendations'
+  status: error
+  timestamp: '2026-04-12T16:52:43'
