@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Unknown Company – Source Incomplete Data Science Intern:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-12T06:45:34'
-- agent: PracticeAgent
   action: 'Failed portal for Zenotalent Machine learning Internship: Gemini failed
     to generate project recommendations'
   status: error
@@ -2503,3 +2498,8 @@ logs:
     2026): Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-12T08:55:48'
+- agent: PracticeAgent
+  action: 'Failed portal for Genesis Molecular AI Cheminformatics and Machine Learning
+    Intern: Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-12T08:56:01'
