@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Aday Data Analysis Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-12T08:25:13'
-- agent: PracticeAgent
   action: 'Failed portal for Okta for Developers Data Analyst Intern (Summer 2026):
     Gemini failed to generate project recommendations'
   status: error
@@ -2497,3 +2492,8 @@ logs:
     recommendations'
   status: error
   timestamp: '2026-04-12T10:29:14'
+- agent: PracticeAgent
+  action: 'Failed portal for IIT Guwahati Data Science Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-12T10:29:26'
