@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for FinZebra AI Engineering & Learning Design: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-12T00:39:16'
-- agent: PracticeAgent
   action: 'Failed portal for Lensa Machine Learning Science Intern - Summer 2026 Start:
     Gemini failed to generate project recommendations'
   status: error
@@ -2494,3 +2489,8 @@ logs:
     Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-12T02:42:52'
+- agent: PracticeAgent
+  action: 'Failed portal for Uber Data Engineer II: Gemini failed to generate project
+    recommendations'
+  status: error
+  timestamp: '2026-04-12T02:43:05'
