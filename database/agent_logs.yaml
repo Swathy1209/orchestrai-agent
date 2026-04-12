@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Sybrant Technologies Private Limited Machine Learning
-    Intern: Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-12T20:41:04'
-- agent: PracticeAgent
   action: 'Failed portal for Rx One Care Private Limited Machine Learning Intern:
     Gemini failed to generate project recommendations'
   status: error
@@ -2487,3 +2482,8 @@ logs:
     placeholder content. Regenerating...'
   status: error
   timestamp: '2026-04-12T23:51:59'
+- agent: PracticeAgent
+  action: 'Failed portal for Greenleap Robotics Private Limited Machine Learning Intern:
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-12T23:52:11'
