@@ -1,9 +1,4 @@
 logs:
-- agent: PracticeAgent
-  action: 'Failed portal for Cardinal Health Machine Learning Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-12T06:00:22'
 - agent: CareerAgent
   action: Fetch started
   level: INFO
@@ -2498,3 +2493,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-12T07:13:40'
+- agent: PracticeAgent
+  action: 'Failed portal for OMNIDYA TECH LLP Data Science Intern: Gemini failed to
+    generate project recommendations'
+  status: error
+  timestamp: '2026-04-12T07:13:52'
