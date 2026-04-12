@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Innoknowvex Data Science: Gemini failed to generate project
-    recommendations'
-  status: error
-  timestamp: '2026-04-12T20:29:16'
-- agent: PracticeAgent
   action: 'Failed portal for The Walt Disney Company Machine Learning Engineer Intern,
     Seattle, Summer 2026: Gemini failed to generate project recommendations'
   status: error
@@ -2483,3 +2478,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-12T23:40:05'
+- agent: PracticeAgent
+  action: 'Failed portal for KlassWAY Machine Learning Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-12T23:40:17'
