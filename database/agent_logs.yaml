@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Symonis Machine Learning Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-12T13:27:38'
-- agent: PracticeAgent
   action: 'Failed portal for Across The Globe (ATG) Artificial Intelligence Intern:
     Gemini failed to generate project recommendations'
   status: error
@@ -2499,3 +2494,8 @@ logs:
     generate project recommendations'
   status: error
   timestamp: '2026-04-12T15:32:00'
+- agent: PracticeAgent
+  action: 'Failed portal for Assetcues Solutions Private Limited Data Science Intern:
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-12T15:32:12'
