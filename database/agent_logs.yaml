@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for WayUp BMW, Overseas Supply Chain Operations and Data
-    Analysis Intern (Fall 2026) - Application via WayUp: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-12T09:45:59'
-- agent: PracticeAgent
   action: 'Failed portal for ASSA ABLOY Group Data Analyst Intern: Gemini failed to
     generate project recommendations'
   status: error
@@ -2498,3 +2492,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-12T11:47:28'
+- agent: PracticeAgent
+  action: 'Failed portal for Bio-Rad Laboratories Data Science Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-12T11:47:40'
