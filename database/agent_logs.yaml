@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Aviate Manpower Data Science: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-12T06:36:53'
-- agent: PracticeAgent
   action: 'Failed portal for Harman Connected Foundational Engineer - AI & Machine
     Learning: Gemini failed to generate project recommendations'
   status: error
@@ -2505,3 +2500,8 @@ logs:
     Intelligence Intern: Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-12T08:36:51'
+- agent: PracticeAgent
+  action: 'Failed portal for Continental Finance Company Data Science Intern: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-12T08:37:03'
