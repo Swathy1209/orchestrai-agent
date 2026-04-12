@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Outdoor Cap Company Product Development & Data Analysis
-    Intern: Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-12T13:58:03'
-- agent: PracticeAgent
   action: 'Failed portal for NHS Ayrshire & Arran Principal Analyst – Data Engineering:
     Gemini failed to generate project recommendations'
   status: error
@@ -2495,3 +2490,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-12T16:02:08'
+- agent: PracticeAgent
+  action: 'Failed portal for TikTok Data Analyst Intern (TikTok Shop AMS Data Science)
+    - 2026 Summer (BS/MS): Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-12T16:02:21'
