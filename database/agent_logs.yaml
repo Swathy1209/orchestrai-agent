@@ -1,9 +1,4 @@
 logs:
-- agent: PracticeAgent
-  action: 'Failed portal for Adex Media Hub Data Science Intern: Gemini failed to
-    generate project recommendations'
-  status: error
-  timestamp: '2026-04-12T05:27:35'
 - agent: OpportunityMatchingAgent
   action: Generated match scores for 739 internships
   status: success
@@ -2501,3 +2496,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-12T06:48:12'
+- agent: PracticeAgent
+  action: 'Failed portal for S&P Global Business Analyst: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-12T06:48:18'
