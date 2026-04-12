@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Perpay Inc. Data Science Internship, 2026: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-12T11:56:26'
-- agent: PracticeAgent
   action: 'Failed portal for Zoox Machine Learning Engineer Intern, Simulation: Gemini
     failed to generate project recommendations'
   status: error
@@ -2494,3 +2489,7 @@ logs:
   action: 108 jobs fetched
   level: INFO
   timestamp: '2026-04-12T14:00:56'
+- agent: CareerAgent
+  action: 108 jobs fetched, 93 relevant
+  level: INFO
+  timestamp: '2026-04-12T14:01:01'
