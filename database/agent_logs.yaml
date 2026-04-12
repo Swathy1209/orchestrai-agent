@@ -1,9 +1,4 @@
 logs:
-- agent: PracticeAgent
-  action: 'Failed portal for Ensono Intern - Capacity Management Data Analyst: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-12T06:05:37'
 - agent: RepoSecurityScannerAgent
   action: 'Scanned 47 repos, priority fix: Hardcoded API Key'
   status: completed
@@ -2499,3 +2494,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-12T07:49:50'
+- agent: PracticeAgent
+  action: 'Failed portal for TikTok Data Engineer Intern (Ads Data) - 2026 Summer
+    (BS/MS): Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-12T07:50:02'
