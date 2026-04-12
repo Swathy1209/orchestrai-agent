@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for VVP Healthcare Evolution Pvt Ltd AI/ML Engineer: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-12T19:05:58'
-- agent: PracticeAgent
   action: 'Failed portal for Zello AI & ML Engineering Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2497,3 +2492,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-12T21:09:07'
+- agent: PracticeAgent
+  action: 'Failed portal for Primetrade.ai Machine Learning (Modeling and Evaluation):
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-12T21:09:31'
