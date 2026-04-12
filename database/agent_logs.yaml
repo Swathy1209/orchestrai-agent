@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for IIT Guwahati Data Science Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-12T04:30:38'
-- agent: PracticeAgent
   action: 'Failed portal for Go Offer Data Analyst: Gemini failed to generate project
     recommendations'
   status: error
@@ -2505,3 +2500,7 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-12T06:00:22'
+- agent: CareerAgent
+  action: Fetch started
+  level: INFO
+  timestamp: '2026-04-12T06:00:33'
