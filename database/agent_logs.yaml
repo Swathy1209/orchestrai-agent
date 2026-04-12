@@ -1,9 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: PracticeAgent run initiated
-  status: success
-  timestamp: '2026-04-12T06:24:16'
-- agent: PracticeAgent
   action: 'Failed portal for Safalta Setu Data Science Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2507,3 +2503,8 @@ logs:
     Intern: Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-12T08:03:53'
+- agent: PracticeAgent
+  action: 'Failed portal for NHS Ayrshire & Arran Principal Analyst – Data Engineering:
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-12T08:04:05'
