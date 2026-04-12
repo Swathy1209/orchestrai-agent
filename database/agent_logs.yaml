@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for ServiceHive Machine Learning Intern: Gemini failed to
-    generate project recommendations'
-  status: error
-  timestamp: '2026-04-12T06:44:30'
-- agent: PracticeAgent
   action: 'Failed portal for Lensa Business Analyst (Intern) - United States: Gemini
     failed to generate project recommendations'
   status: error
@@ -2503,3 +2498,8 @@ logs:
     - 2026 Start (BS/MS): Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-12T08:53:28'
+- agent: PracticeAgent
+  action: 'Failed portal for MCube AI Private Limited Data Science: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-12T08:53:43'
