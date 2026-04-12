@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for HealthStream Intern, Business Analyst: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-12T04:44:01'
-- agent: PracticeAgent
   action: 'Failed portal for ARM Institute Data Analyst Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2496,3 +2491,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-12T06:27:28'
+- agent: PracticeAgent
+  action: 'Failed portal for Bright Media Solution Private Limited Machine Learning
+    Intern: Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-12T06:27:33'
