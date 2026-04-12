@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for The Bridge Artificial Intelligence Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-12T06:20:19'
-- agent: PracticeAgent
   action: 'Failed portal for Kanji Sweets Artificial Intelligence Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2509,3 +2504,7 @@ logs:
     Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-12T08:00:55'
+- agent: CareerAgent
+  action: 105 jobs fetched, 90 relevant
+  level: INFO
+  timestamp: '2026-04-12T08:01:01'
