@@ -1,8 +1,4 @@
 logs:
-- agent: CoverLetterAgent
-  action: Generated 748 cover letters
-  status: success
-  timestamp: '2026-04-12T18:20:19'
 - agent: PracticeAgent
   action: PracticeAgent run initiated
   status: success
@@ -2494,3 +2490,8 @@ logs:
     recommendations'
   status: error
   timestamp: '2026-04-12T20:22:47'
+- agent: PracticeAgent
+  action: 'Failed portal for Upstart Machine Learning Engineer Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-12T20:23:00'
