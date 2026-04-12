@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for CREATE Data Science Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-12T06:38:45'
-- agent: PracticeAgent
   action: 'Failed portal for Tatari Data Science BI, Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2504,3 +2499,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-12T08:40:54'
+- agent: PracticeAgent
+  action: 'Failed portal for EY Data Scientist – Machine Learning: Gemini failed to
+    generate project recommendations'
+  status: error
+  timestamp: '2026-04-12T08:41:07'
