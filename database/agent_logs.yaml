@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Reach Technologies Machine Learning Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-12T13:15:19'
-- agent: PracticeAgent
   action: 'Failed portal for Tejate Education Private Limited Machine Learning Intern:
     Gemini failed to generate project recommendations'
   status: error
@@ -2497,3 +2492,8 @@ logs:
   action: Generated match scores for 746 internships
   status: success
   timestamp: '2026-04-12T15:22:39'
+- agent: PracticeAgent
+  action: 'Failed portal for Russell Rowland, Inc. Fall 2026 Business Analyst Intern:
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-12T15:22:46'
