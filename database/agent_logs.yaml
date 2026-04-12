@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Technoculture Research Data Science Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-12T06:38:20'
-- agent: PracticeAgent
   action: 'Failed portal for Product Manager Accelerator AI Engineer Intern - AI/ML/GenAI
     Design & Development: Gemini failed to generate project recommendations'
   status: error
@@ -2504,3 +2499,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-12T08:40:03'
+- agent: PracticeAgent
+  action: 'Failed portal for Ondezx group Business Analyst: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-12T08:40:16'
