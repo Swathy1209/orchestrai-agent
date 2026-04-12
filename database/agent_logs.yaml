@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Jarurat Care Data Science Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-12T13:42:46'
-- agent: PracticeAgent
   action: 'Failed portal for Grameen Shramik Pratishthan Data Science Intern: Gemini
     failed to generate project recommendations'
   status: error
@@ -2502,3 +2497,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-12T15:47:15'
+- agent: PracticeAgent
+  action: 'Failed portal for Berkshire Hathaway GUARD Insurance Companies Data-AI
+    Engineering Intern: Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-12T15:47:26'
