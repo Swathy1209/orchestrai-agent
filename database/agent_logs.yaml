@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Symonis Machine Learning: Gemini failed to generate project
-    recommendations'
-  status: error
-  timestamp: '2026-04-12T14:31:21'
-- agent: PracticeAgent
   action: 'Failed portal for Cloud Back Machine Learning: Gemini failed to generate
     project recommendations'
   status: error
@@ -2499,3 +2494,8 @@ logs:
     generate project recommendations'
   status: error
   timestamp: '2026-04-12T16:34:38'
+- agent: PracticeAgent
+  action: 'Failed portal for EY Machine Learning Engineer: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-12T16:34:51'
