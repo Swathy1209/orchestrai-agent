@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Anubhav Singh Machine Learning Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-12T05:50:34'
-- agent: PracticeAgent
   action: 'Failed portal for KlassWAY Machine Learning Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2502,3 +2497,8 @@ logs:
     recommendations'
   status: error
   timestamp: '2026-04-12T06:59:01'
+- agent: PracticeAgent
+  action: 'Failed portal for Awarno Machine Learning Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-12T06:59:06'
