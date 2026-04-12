@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Red Ventures We''re Planning Ahead - Join the Talent
-    Pipeline for our 2027 Business Analyst Internship: Gemini failed to generate project
-    recommendations'
-  status: error
-  timestamp: '2026-04-12T01:44:02'
-- agent: PracticeAgent
   action: 'Failed portal for Gotion Inc. Data Analyst: Gemini failed to generate project
     recommendations'
   status: error
@@ -2493,3 +2487,9 @@ logs:
     (BS/MS): Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-12T03:43:43'
+- agent: PracticeAgent
+  action: 'Failed portal for TikTok Machine Learning Engineer Intern (Privacy and
+    Data Protection Office) - 2026 Start (PhD): Gemini failed to generate project
+    recommendations'
+  status: error
+  timestamp: '2026-04-12T03:43:54'
