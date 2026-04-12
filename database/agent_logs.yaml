@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Turing Labs AI Engineer Intern - build stealth model:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-12T06:15:20'
-- agent: PracticeAgent
   action: 'Failed portal for State of Florida DATA SCIENCE INTERNSHIP: Gemini failed
     to generate project recommendations'
   status: error
@@ -2506,3 +2501,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-12T07:56:40'
+- agent: PracticeAgent
+  action: 'Failed portal for BioQuant IQ Artificial Intelligence Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-12T07:56:51'
