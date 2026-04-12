@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for ByteDance Machine Learning Engineer Intern (Global E-commerce
-    Risk Control) - 2026 Summer (BS/MS): Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-12T18:00:10'
-- agent: PracticeAgent
   action: 'Failed portal for Intuit Compliance Assurance Staff Technical Data Analyst:
     Gemini failed to generate project recommendations'
   status: error
@@ -2488,3 +2483,8 @@ logs:
     - 2026 Summer (BS/MS): Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-12T20:01:57'
+- agent: PracticeAgent
+  action: 'Failed portal for GenPark Machine learning engineer intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-12T20:02:10'
