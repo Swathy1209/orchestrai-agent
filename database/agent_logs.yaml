@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Generate:Biomedicines Machine Learning Intern: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-12T06:42:37'
-- agent: PracticeAgent
   action: 'Failed portal for Bombardier Data Analyst Intern (Year-Round): Gemini failed
     to generate project recommendations'
   status: error
@@ -2503,3 +2498,8 @@ logs:
     Intern: Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-12T08:49:21'
+- agent: PracticeAgent
+  action: 'Failed portal for Zetheta Algorithms Private Limited Data Science Intern:
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-12T08:49:34'
