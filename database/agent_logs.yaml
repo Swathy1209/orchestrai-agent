@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Innoknowvex Machine Learning: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-12T20:29:02'
-- agent: PracticeAgent
   action: 'Failed portal for Innoknowvex Data Science: Gemini failed to generate project
     recommendations'
   status: error
@@ -2483,3 +2478,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-12T23:39:53'
+- agent: PracticeAgent
+  action: 'Failed portal for Anubhav Singh Machine Learning Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-12T23:40:05'
