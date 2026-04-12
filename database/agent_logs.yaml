@@ -1,8 +1,4 @@
 logs:
-- agent: ResumeOptimizationAgent
-  action: Generated optimizations for 744 internships
-  status: success
-  timestamp: '2026-04-12T13:06:09'
 - agent: PracticeAgent
   action: 'Failed portal for Nihon Kohden Digital Health Solutions Finance/Business
     Analyst Intern: Gemini failed to generate project recommendations'
@@ -2498,3 +2494,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-12T15:10:16'
+- agent: PracticeAgent
+  action: 'Failed portal for Tejate Education Private Limited Data Science Intern:
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-12T15:12:19'
