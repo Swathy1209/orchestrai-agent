@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Carer Ai Data Science: Gemini failed to generate project
-    recommendations'
-  status: error
-  timestamp: '2026-04-11T23:00:55'
-- agent: PracticeAgent
   action: 'Failed portal for Ball2Data Football Data Analysts: Gemini failed to generate
     project recommendations'
   status: error
@@ -2499,3 +2494,8 @@ logs:
     Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-12T01:04:49'
+- agent: PracticeAgent
+  action: 'Failed portal for Emoolar Technology Private Limited Data Science: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-12T01:05:14'
