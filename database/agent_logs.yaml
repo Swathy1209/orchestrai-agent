@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for S&P Global Loan Reference Data Analyst: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-12T08:43:51'
-- agent: PracticeAgent
   action: 'Failed portal for Cornerstone Associate AI Engineer: Gemini failed to generate
     project recommendations'
   status: error
@@ -2495,3 +2490,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-12T10:47:31'
+- agent: PracticeAgent
+  action: 'Failed portal for Saia Inc. Senior Internal Audit Data Analyst: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-12T10:47:45'
