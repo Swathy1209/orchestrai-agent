@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Verda Healthcare Business Analyst (Junior/Entry Level)
-    - no C2C: Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-12T17:58:03'
-- agent: PracticeAgent
   action: 'Failed portal for NewAge Industries, Inc. Data Analyst Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2493,3 +2488,8 @@ logs:
     recommendations'
   status: error
   timestamp: '2026-04-12T20:00:36'
+- agent: PracticeAgent
+  action: 'Failed portal for Statcon Energiaa Data Science Intern: Gemini failed to
+    generate project recommendations'
+  status: error
+  timestamp: '2026-04-12T20:00:50'
