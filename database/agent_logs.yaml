@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for NHS Ayrshire & Arran Principal Analyst – Data Engineering:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-12T15:58:19'
-- agent: PracticeAgent
   action: 'Failed portal for Verda Healthcare Business Analyst (Junior/Entry Level)
     - no C2C: Gemini failed to generate project recommendations'
   status: error
@@ -2490,3 +2485,8 @@ logs:
   status: success
   timestamp: '2026-04-12T18:01:36'
   details: Analyzed 748 jobs.
+- agent: PracticeAgent
+  action: 'Failed portal for Tax-O-Smart LLP Artificial Intelligence Intern: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-12T18:01:40'
