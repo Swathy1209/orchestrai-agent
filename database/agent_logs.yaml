@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Deloitte AWS Data Engineer: Detected incomplete placeholder
-    content. Regenerating...'
-  status: error
-  timestamp: '2026-04-12T20:49:53'
-- agent: PracticeAgent
   action: 'Failed portal for Fractal Data Engineer: Gemini failed to generate project
     recommendations'
   status: error
@@ -2490,3 +2485,7 @@ logs:
     generate project recommendations'
   status: error
   timestamp: '2026-04-13T00:00:27'
+- agent: CareerAgent
+  action: Fetch started
+  level: INFO
+  timestamp: '2026-04-13T00:00:35'
