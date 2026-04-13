@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Dassault Systèmes Data Science Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-13T09:42:54'
-- agent: PracticeAgent
   action: 'Failed portal for Legend Biotech PD Data Sciences, CMC Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2505,3 +2500,8 @@ logs:
     placeholder content. Regenerating...'
   status: error
   timestamp: '2026-04-13T11:54:15'
+- agent: PracticeAgent
+  action: 'Failed portal for Greenleap Robotics Private Limited Machine Learning Intern:
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-13T11:54:27'
