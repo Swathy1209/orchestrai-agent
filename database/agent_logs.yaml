@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Maximus Business Analyst Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-13T12:29:14'
-- agent: PracticeAgent
   action: 'Failed portal for Apollo Mission Critical Engineering Multiple U.S Locations
     - Business Analyst Intern (BA-I) - Summer 2026: Gemini failed to generate project
     recommendations'
@@ -2493,3 +2488,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-13T19:22:15'
+- agent: PracticeAgent
+  action: 'Failed portal for Handshake AI/Machine Learning Engineer Intern: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-13T19:22:27'
