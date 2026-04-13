@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for TSTEPS PRIVATE LIMITED Data Science Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-13T08:32:46'
-- agent: PracticeAgent
   action: 'Failed portal for Crossing Hurdles Data Science Intern: Gemini failed to
     generate project recommendations'
   status: error
@@ -2499,3 +2494,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-13T10:45:11'
+- agent: PracticeAgent
+  action: 'Failed portal for Resolute AI Software Private Limited AI Engineer: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-13T10:45:24'
