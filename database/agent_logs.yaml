@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Zetheta Algorithms Private Limited Artificial Intelligence
-    Intern: Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-13T10:51:01'
-- agent: PracticeAgent
   action: 'Failed portal for Zetheta Algorithms Private Limited Data Science Intern:
     Gemini failed to generate project recommendations'
   status: error
@@ -2505,3 +2500,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-13T13:04:11'
+- agent: PracticeAgent
+  action: 'Failed portal for Crustdata (YC F24) ML Engineer Intern (Summer 2026):
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-13T13:05:25'
