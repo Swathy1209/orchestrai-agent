@@ -1,9 +1,5 @@
 logs:
 - agent: CareerAgent
-  action: 105 jobs fetched, 90 relevant
-  level: INFO
-  timestamp: '2026-04-12T21:54:37'
-- agent: CareerAgent
   action: Stored in GitHub YAML
   level: INFO
   timestamp: '2026-04-12T21:54:46'
@@ -2485,3 +2481,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-13T00:23:11'
+- agent: PracticeAgent
+  action: 'Failed portal for TSTEPS PRIVATE LIMITED Data Science Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-13T00:23:53'
