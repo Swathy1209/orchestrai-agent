@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Brain Quest Artificial Intelligence Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-13T14:25:00'
-- agent: PracticeAgent
   action: 'Failed portal for Giftinguru Data Science Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2489,3 +2484,9 @@ logs:
     New Grad): Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-13T20:54:25'
+- agent: PracticeAgent
+  action: 'Failed portal for TikTok Machine Learning Engineer Intern (Trust and Safety
+    - CV/NLP/Multimodal LLM) - 2026 Summer(BS/MS): Gemini failed to generate project
+    recommendations'
+  status: error
+  timestamp: '2026-04-13T20:54:39'
