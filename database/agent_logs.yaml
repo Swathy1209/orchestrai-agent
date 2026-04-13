@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Los Angeles Kings Summer Intern, Data Science (LA Kings):
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-12T20:53:00'
-- agent: PracticeAgent
   action: 'Failed portal for Rebel Foods Private Limited Data Engineering: Gemini
     failed to generate project recommendations'
   status: error
@@ -2484,3 +2479,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-13T00:02:29'
+- agent: PracticeAgent
+  action: 'Failed portal for Tesla Internship, Data Engineer, Fleet Analytics (Summer
+    2026): Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-13T00:02:44'
