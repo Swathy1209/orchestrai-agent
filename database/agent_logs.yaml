@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Russell Rowland, Inc. Fall 2026 Business Analyst Intern:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-13T09:25:48'
-- agent: PracticeAgent
   action: 'Failed portal for KIDLOLAND KIDS & TODDLER GAMES PRIVATE LIMITED Data Science
     Intern: Gemini failed to generate project recommendations'
   status: error
@@ -2500,3 +2495,9 @@ logs:
     - 2026 Start (BS/MS): Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-13T11:47:47'
+- agent: PracticeAgent
+  action: 'Failed portal for WayUp BMW, Overseas Supply Chain Operations and Data
+    Analysis Intern (Fall 2026) - Application via WayUp: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-13T11:47:58'
