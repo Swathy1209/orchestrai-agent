@@ -1,8 +1,4 @@
 logs:
-- agent: OpportunityMatchingAgent
-  action: Generated match scores for 750 internships
-  status: success
-  timestamp: '2026-04-12T21:22:57'
 - agent: PracticeAgent
   action: 'Failed portal for Collective Artists Network Data Science Intern: Gemini
     failed to generate project recommendations'
@@ -2482,3 +2478,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-13T00:19:27'
+- agent: PracticeAgent
+  action: 'Failed portal for CarVach Machine Learning Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-13T00:19:40'
