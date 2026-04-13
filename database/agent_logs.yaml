@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Better Data Science Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-13T05:27:07'
-- agent: PracticeAgent
   action: 'Failed portal for SETV Global Machine Learning Intern: Gemini failed to
     generate project recommendations'
   status: error
@@ -2500,3 +2495,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-13T06:49:29'
+- agent: PracticeAgent
+  action: 'Failed portal for Bro''s Innovations And Technology. Data Science: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-13T06:49:38'
