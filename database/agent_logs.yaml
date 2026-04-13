@@ -1,9 +1,4 @@
 logs:
-- agent: PracticeAgent
-  action: 'Failed portal for AArete Intern, Data Science & Artificial Intelligence
-    (Summer 2026): Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-13T07:25:07'
 - agent: ResumeOptimizationAgent
   action: Generated optimizations for 765 internships
   status: success
@@ -2495,3 +2490,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-13T09:41:00'
+- agent: PracticeAgent
+  action: 'Failed portal for Megaminds IT Services Machine Learning Intern: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-13T09:41:12'
