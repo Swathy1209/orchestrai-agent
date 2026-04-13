@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Taylor Corporation Business Analyst Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-13T10:53:46'
-- agent: PracticeAgent
   action: 'Failed portal for REALBRIDGE Artificial Intelligence (AI): Gemini failed
     to generate project recommendations'
   status: error
@@ -2505,3 +2500,8 @@ logs:
     Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-13T13:13:41'
+- agent: PracticeAgent
+  action: 'Failed portal for Shunya Digital Data Science Intern: Gemini failed to
+    generate project recommendations'
+  status: error
+  timestamp: '2026-04-13T13:15:45'
