@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Robocapital Machine Learning Intern: Gemini failed to
-    generate project recommendations'
-  status: error
-  timestamp: '2026-04-13T00:41:32'
-- agent: PracticeAgent
   action: 'Failed portal for Zyndra Talent Solutions Business Analyst Innovation Intern:
     Gemini failed to generate project recommendations'
   status: error
@@ -2492,3 +2487,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-13T03:05:37'
+- agent: PracticeAgent
+  action: 'Failed portal for InfiVR Machine Learning Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-13T03:05:49'
