@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Giant Leap Data Science Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-13T11:42:13'
-- agent: PracticeAgent
   action: 'Failed portal for Marico Innovation Foundation Data Science Intern: Gemini
     failed to generate project recommendations'
   status: error
@@ -2509,3 +2504,8 @@ logs:
     placeholder content. Regenerating...'
   status: error
   timestamp: '2026-04-13T13:56:11'
+- agent: PracticeAgent
+  action: 'Failed portal for Greenleap Robotics Private Limited Machine Learning Intern:
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-13T13:56:23'
