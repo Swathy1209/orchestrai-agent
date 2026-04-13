@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Unknown Company – Source Incomplete Artificial Intelligence
-    Intern: Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-13T10:46:12'
-- agent: PracticeAgent
   action: 'Failed portal for Sungrow Power Supply Co., Ltd. Data Analyst Internship:
     Gemini failed to generate project recommendations'
   status: error
@@ -2505,3 +2500,8 @@ logs:
     recommendations'
   status: error
   timestamp: '2026-04-13T12:57:28'
+- agent: PracticeAgent
+  action: 'Failed portal for Bosch USA Artificial Intelligence / Machine Learning:
+    Foundation Models - Intern: Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-13T12:57:41'
