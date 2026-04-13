@@ -3,11 +3,6 @@ logs:
   action: 'Failed portal for Barclays Data Engineer: Gemini failed to generate project
     recommendations'
   status: error
-  timestamp: '2026-04-13T06:39:32'
-- agent: PracticeAgent
-  action: 'Failed portal for Barclays Data Engineer: Gemini failed to generate project
-    recommendations'
-  status: error
   timestamp: '2026-04-13T06:39:39'
 - agent: PracticeAgent
   action: 'Failed portal for IIT Guwahati Data Science Intern: Gemini failed to generate
@@ -2499,3 +2494,8 @@ logs:
     - 2026 Start (PhD): Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-13T08:15:06'
+- agent: PracticeAgent
+  action: 'Failed portal for TikTok Machine Learning Engineer Intern (Ads Measurement
+    Signal and Privacy) - 2026 Summer (BS/MS): Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-13T08:15:18'
