@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Morph Machine Learning Researcher PhD Intern: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-13T11:47:24'
-- agent: PracticeAgent
   action: 'Failed portal for ByteDance Machine Learning Engineer Intern (E-commerce-Supply
     Chain & Logistics) - 2026 Start (PhD): Gemini failed to generate project recommendations'
   status: error
@@ -2508,3 +2503,7 @@ logs:
   action: 106 jobs fetched, 91 relevant
   level: INFO
   timestamp: '2026-04-13T14:01:05'
+- agent: CareerAgent
+  action: Stored in GitHub YAML
+  level: INFO
+  timestamp: '2026-04-13T14:01:17'
