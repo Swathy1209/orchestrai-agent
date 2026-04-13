@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for The Skill Guru Foundation Data Science Intern: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-13T07:36:46'
-- agent: PracticeAgent
   action: 'Failed portal for RegisterKaro Machine Learning Intern: Gemini failed to
     generate project recommendations'
   status: error
@@ -2494,3 +2489,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-13T09:48:05'
+- agent: PracticeAgent
+  action: 'Failed portal for Grameen Shramik Pratishthan Artificial Intelligence Intern:
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-13T09:48:16'
