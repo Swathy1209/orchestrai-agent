@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Apollo Mission Critical Engineering Multiple U.S Locations
-    - Business Analyst Intern (BA-I) - Summer 2026: Gemini failed to generate project
-    recommendations'
-  status: error
-  timestamp: '2026-04-13T04:33:29'
-- agent: PracticeAgent
   action: 'Failed portal for Bombardier Data Analyst Intern (Year-Round): Gemini failed
     to generate project recommendations'
   status: error
@@ -2507,3 +2501,8 @@ logs:
     Architect/Data Analyst: Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-13T05:58:31'
+- agent: PracticeAgent
+  action: 'Failed portal for Connors Group Data Analyst Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-13T05:58:44'
