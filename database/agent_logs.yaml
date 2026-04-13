@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for New Jersey Resources Technical Data Analyst Intern: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-13T12:07:32'
-- agent: PracticeAgent
   action: 'Failed portal for Samaritan''s Purse Geospatial Data Analyst, North American
     Disaster Relief: Gemini failed to generate project recommendations'
   status: error
@@ -2503,3 +2498,8 @@ logs:
     incomplete placeholder content. Regenerating...'
   status: error
   timestamp: '2026-04-13T14:32:30'
+- agent: PracticeAgent
+  action: 'Failed portal for Stripe PhD Machine Learning Engineer, Intern: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-13T14:32:42'
