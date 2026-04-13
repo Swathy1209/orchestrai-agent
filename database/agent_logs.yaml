@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for ZKAP EDTECH SERVICES PRIVATE LIMITED Machine Learning
-    Intern: Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-13T06:35:25'
-- agent: PracticeAgent
   action: 'Failed portal for Argus Media Prices Data Analyst: Gemini failed to generate
     project recommendations'
   status: error
@@ -2498,3 +2493,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-13T08:01:50'
+- agent: PracticeAgent
+  action: 'Failed portal for Ekfrazo Technologies Azure Data Engineer: Detected incomplete
+    placeholder content. Regenerating...'
+  status: error
+  timestamp: '2026-04-13T08:02:03'
