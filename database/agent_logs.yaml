@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Iron Mountain Business Analyst Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-13T12:50:20'
-- agent: PracticeAgent
   action: 'Failed portal for Saia Inc. Senior Internal Audit Data Analyst: Gemini
     failed to generate project recommendations'
   status: error
@@ -2495,3 +2490,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-13T19:41:16'
+- agent: PracticeAgent
+  action: 'Failed portal for Veolia Business Analyst Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-13T19:41:28'
