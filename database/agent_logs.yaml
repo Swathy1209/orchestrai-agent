@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Booz Allen Hamilton Data Analyst, Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-12T23:54:24'
-- agent: PracticeAgent
   action: 'Failed portal for Hayward Holdings, Inc. ERP Dashboard and Data Analyst
     Intern: Gemini failed to generate project recommendations'
   status: error
@@ -2492,3 +2487,8 @@ logs:
     generate project recommendations'
   status: error
   timestamp: '2026-04-13T01:24:41'
+- agent: PracticeAgent
+  action: 'Failed portal for MSX International Data Analyst - Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-13T01:25:08'
