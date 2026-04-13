@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Raviraj Sarees Pvt Ltd Data Science Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-13T09:14:07'
-- agent: PracticeAgent
   action: 'Failed portal for Reach Technologies Data Science Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2498,3 +2493,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-13T11:42:01'
+- agent: PracticeAgent
+  action: 'Failed portal for Giant Leap Data Science Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-13T11:42:13'
