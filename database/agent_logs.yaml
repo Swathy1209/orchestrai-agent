@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Fractal Data Engineer: Gemini failed to generate project
-    recommendations'
-  status: error
-  timestamp: '2026-04-12T20:50:06'
-- agent: PracticeAgent
   action: 'Failed portal for HSBC Business Analyst- Transformation: Gemini failed
     to generate project recommendations'
   status: error
@@ -2489,3 +2484,8 @@ logs:
   action: Fetch started
   level: INFO
   timestamp: '2026-04-13T00:00:35'
+- agent: PracticeAgent
+  action: 'Failed portal for Jobs via Dice Machine Learning Engineer Intern: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-13T00:00:40'
