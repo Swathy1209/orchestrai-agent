@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Lensa AI/Machine Learning Engineering Intern (MS/Ph.D.
-    New Grad): Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-13T06:55:55'
-- agent: PracticeAgent
   action: 'Failed portal for Matson, Inc. AI & Machine Learning Intern – Operations:
     Gemini failed to generate project recommendations'
   status: error
@@ -2499,3 +2494,8 @@ logs:
     (AI): Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-13T08:55:19'
+- agent: PracticeAgent
+  action: 'Failed portal for Bizlem Private Limited AI/ML Engineering: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-13T08:55:33'
