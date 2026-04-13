@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for GreenLeaf, a Chefs'' Warehouse company Data Analyst Intern:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-12T20:50:56'
-- agent: PracticeAgent
   action: 'Failed portal for Relinns Technologies Artificial Intelligence (AI): Gemini
     failed to generate project recommendations'
   status: error
@@ -2487,3 +2482,8 @@ logs:
   action: 87 jobs fetched, 72 relevant
   level: INFO
   timestamp: '2026-04-13T00:01:09'
+- agent: PracticeAgent
+  action: 'Failed portal for ChatGPT Jobs SAP iXp Intern - AI Machine Learning: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-13T00:01:12'
