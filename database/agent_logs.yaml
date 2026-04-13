@@ -1,9 +1,5 @@
 logs:
 - agent: CareerAgent
-  action: 106 jobs fetched, 91 relevant
-  level: INFO
-  timestamp: '2026-04-13T14:01:05'
-- agent: CareerAgent
   action: Stored in GitHub YAML
   level: INFO
   timestamp: '2026-04-13T14:01:17'
@@ -2482,3 +2478,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-13T20:39:54'
+- agent: PracticeAgent
+  action: 'Failed portal for Giant Leap Data Science Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-13T20:40:07'
