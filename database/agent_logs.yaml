@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Learning Skills Academy Data And ML Engineer: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-13T12:43:12'
-- agent: PracticeAgent
   action: 'Failed portal for Catch Sports Analytics Sports Data Analyst: Gemini failed
     to generate project recommendations'
   status: error
@@ -2494,3 +2489,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-13T19:34:51'
+- agent: PracticeAgent
+  action: 'Failed portal for Pacific Seafood Machine Vision & Data Science Intern:
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-13T19:35:03'
