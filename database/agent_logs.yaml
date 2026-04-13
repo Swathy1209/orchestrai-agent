@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for The Souled Store Artificial Intelligence Intern: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-13T03:25:22'
-- agent: PracticeAgent
   action: 'Failed portal for RTW Institute Data Analyst Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2501,3 +2496,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-13T04:51:25'
+- agent: PracticeAgent
+  action: 'Failed portal for Tech Phoenix Data Engineer Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-13T04:51:32'
