@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for AARP Data Analyst Intern: Gemini failed to generate project
-    recommendations'
-  status: error
-  timestamp: '2026-04-13T06:52:38'
-- agent: PracticeAgent
   action: 'Failed portal for CiteSert Artificial Intelligence Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2499,3 +2494,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-13T08:48:25'
+- agent: PracticeAgent
+  action: 'Failed portal for S&P Global Business Analyst: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-13T08:48:38'
