@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Unnati Enterprises Data Science: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-13T04:34:41'
-- agent: PracticeAgent
   action: 'Failed portal for MyCloud Technology Data Science Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2505,3 +2500,7 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-13T06:00:55'
+- agent: CareerAgent
+  action: 105 jobs fetched
+  level: INFO
+  timestamp: '2026-04-13T06:01:00'
