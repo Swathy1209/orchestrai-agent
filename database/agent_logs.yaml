@@ -1,9 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: PracticeAgent run initiated
-  status: success
-  timestamp: '2026-04-13T14:24:38'
-- agent: PracticeAgent
   action: 'Failed portal for LivNSense Artificial Intelligence Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2488,3 +2484,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-13T20:53:57'
+- agent: PracticeAgent
+  action: 'Failed portal for Lensa Data Science Intern - Summer 2026 (Remote): Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-13T20:54:10'
