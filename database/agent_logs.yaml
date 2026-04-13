@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Stripe PhD Machine Learning Engineer, Intern: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-13T14:32:42'
-- agent: PracticeAgent
   action: 'Failed portal for CREATE Machine Learning Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2488,3 +2483,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-13T21:02:04'
+- agent: PracticeAgent
+  action: 'Failed portal for Lensa Business Analyst Intern Remote: Gemini failed to
+    generate project recommendations'
+  status: error
+  timestamp: '2026-04-13T21:02:17'
