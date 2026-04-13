@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Symonis Machine Learning Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-13T11:29:22'
-- agent: PracticeAgent
   action: 'Failed portal for Across The Globe (ATG) Artificial Intelligence Intern:
     Gemini failed to generate project recommendations'
   status: error
@@ -2505,3 +2500,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-13T13:47:43'
+- agent: PracticeAgent
+  action: 'Failed portal for Grameen Shramik Pratishthan Artificial Intelligence Intern:
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-13T13:47:55'
