@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for ASSA ABLOY Group Data Analyst Intern: Gemini failed to
-    generate project recommendations'
-  status: error
-  timestamp: '2026-04-13T11:48:10'
-- agent: PracticeAgent
   action: 'Failed portal for RELI Group, Inc. Data Analyst Intern: Gemini failed to
     generate project recommendations'
   status: error
@@ -2504,3 +2499,8 @@ logs:
   status: success
   timestamp: '2026-04-13T14:01:41'
   details: Analyzed 778 jobs.
+- agent: PracticeAgent
+  action: 'Failed portal for Perpay Inc. Data Science Internship, 2026: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-13T14:01:56'
