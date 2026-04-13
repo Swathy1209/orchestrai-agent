@@ -1,9 +1,5 @@
 logs:
 - agent: CareerAgent
-  action: 105 jobs fetched
-  level: INFO
-  timestamp: '2026-04-13T18:56:46'
-- agent: CareerAgent
   action: 105 jobs fetched, 90 relevant
   level: INFO
   timestamp: '2026-04-13T18:56:54'
@@ -2489,3 +2485,8 @@ logs:
     recommendations'
   status: error
   timestamp: '2026-04-13T21:12:15'
+- agent: PracticeAgent
+  action: 'Failed portal for FormsADDA Data Science Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-13T21:12:28'
