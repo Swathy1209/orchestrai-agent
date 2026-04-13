@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for SkillLevel Machine Learning: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-12T21:07:41'
-- agent: PracticeAgent
   action: 'Failed portal for Cult Fit Data Analyst: Gemini failed to generate project
     recommendations'
   status: error
@@ -2481,3 +2476,8 @@ logs:
     generate project recommendations'
   status: error
   timestamp: '2026-04-13T00:08:33'
+- agent: PracticeAgent
+  action: 'Failed portal for Woven by Toyota Machine Learning Engineer, Vehicle Perception
+    (Internship): Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-13T00:08:47'
