@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Zello AI & ML Engineering Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-13T11:08:36'
-- agent: PracticeAgent
   action: 'Failed portal for Deloitte Business Analyst: Gemini failed to generate
     project recommendations'
   status: error
@@ -2505,3 +2500,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-13T13:40:32'
+- agent: PracticeAgent
+  action: 'Failed portal for VIZON Machine Learning Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-13T13:40:44'
