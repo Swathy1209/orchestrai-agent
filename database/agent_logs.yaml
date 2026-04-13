@@ -1,9 +1,5 @@
 logs:
 - agent: CareerAgent
-  action: 105 jobs fetched
-  level: INFO
-  timestamp: '2026-04-13T06:01:00'
-- agent: CareerAgent
   action: 105 jobs fetched, 90 relevant
   level: INFO
   timestamp: '2026-04-13T06:01:05'
@@ -2502,3 +2498,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-13T07:05:06'
+- agent: PracticeAgent
+  action: 'Failed portal for The Rehancement Group, Inc. Data Analyst 1: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-13T07:05:10'
