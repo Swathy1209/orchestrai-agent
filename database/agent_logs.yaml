@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Outdoor Cap Company Product Development & Data Analysis
-    Intern: Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-13T12:00:22'
-- agent: PracticeAgent
   action: 'Failed portal for NHS Ayrshire & Arran Principal Analyst – Data Engineering:
     Gemini failed to generate project recommendations'
   status: error
@@ -2496,3 +2491,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-13T14:25:00'
+- agent: PracticeAgent
+  action: 'Failed portal for Giftinguru Data Science Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-13T14:25:11'
