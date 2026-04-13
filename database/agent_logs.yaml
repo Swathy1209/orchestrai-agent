@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Jobs via Dice Machine Learning Engineer Intern: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-13T10:04:53'
-- agent: PracticeAgent
   action: 'Failed portal for Dynamo AI ML Research Scientist Intern – Dynamo Guard
     / Dynamo Eval / AgentWarden: Gemini failed to generate project recommendations'
   status: error
@@ -2500,3 +2495,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-13T12:26:11'
+- agent: PracticeAgent
+  action: 'Failed portal for AIFINSPHERE INC. Data Analyst Intern: Gemini failed to
+    generate project recommendations'
+  status: error
+  timestamp: '2026-04-13T12:26:24'
