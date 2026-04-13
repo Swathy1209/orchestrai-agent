@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Peeko Data Science Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-13T04:45:59'
-- agent: PracticeAgent
   action: 'Failed portal for FinZebra AI Engineering & Learning Design: Gemini failed
     to generate project recommendations'
   status: error
@@ -2498,3 +2493,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-13T06:26:07'
+- agent: PracticeAgent
+  action: 'Failed portal for Tech Analogy Machine Learning Intern: Gemini failed to
+    generate project recommendations'
+  status: error
+  timestamp: '2026-04-13T06:26:26'
