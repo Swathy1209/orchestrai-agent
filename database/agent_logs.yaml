@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Maersk Business Analyst – Financial Planning & Reporting:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-12T23:51:33'
-- agent: PracticeAgent
   action: 'Failed portal for Procter & Gamble Data Engineer: Gemini failed to generate
     project recommendations'
   status: error
@@ -2495,3 +2490,8 @@ logs:
   action: Generated optimizations for 762 internships
   status: success
   timestamp: '2026-04-13T01:17:40'
+- agent: PracticeAgent
+  action: 'Failed portal for Shunya Digital Data Science Intern: Gemini failed to
+    generate project recommendations'
+  status: error
+  timestamp: '2026-04-13T01:17:44'
