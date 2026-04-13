@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Athena AI Engineer Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-13T09:51:34'
-- agent: PracticeAgent
   action: 'Failed portal for Berkshire Hathaway GUARD Insurance Companies Data-AI
     Engineering Intern: Gemini failed to generate project recommendations'
   status: error
@@ -2503,3 +2498,8 @@ logs:
     / Dynamo Eval / AgentWarden: Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-13T12:02:40'
+- agent: PracticeAgent
+  action: 'Failed portal for Physics World Graph Machine Learning Research Intern:
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-13T12:02:53'
