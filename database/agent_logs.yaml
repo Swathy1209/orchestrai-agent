@@ -1,9 +1,4 @@
 logs:
-- agent: PracticeAgent
-  action: 'Failed portal for Shivam Singh Machine Learning Intern: Gemini failed to
-    generate project recommendations'
-  status: error
-  timestamp: '2026-04-13T07:48:19'
 - agent: OpportunityMatchingAgent
   action: Generated match scores for 765 internships
   status: success
@@ -2501,3 +2496,9 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-13T09:57:43'
+- agent: PracticeAgent
+  action: 'Failed portal for TikTok (General Hire) Machine Learning Engineer Intern
+    (TikTok- Video Recommendation) - 2026 Summer (BS/MS): Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-13T09:57:54'
