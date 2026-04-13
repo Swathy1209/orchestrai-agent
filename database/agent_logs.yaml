@@ -3,11 +3,6 @@ logs:
   action: 'Failed portal for EY Business Analyst: Gemini failed to generate project
     recommendations'
   status: error
-  timestamp: '2026-04-13T07:03:06'
-- agent: PracticeAgent
-  action: 'Failed portal for EY Business Analyst: Gemini failed to generate project
-    recommendations'
-  status: error
   timestamp: '2026-04-13T07:03:10'
 - agent: PracticeAgent
   action: 'Failed portal for Scowtt Intern - ML Engineering: Gemini failed to generate
@@ -2500,3 +2495,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-13T09:12:41'
+- agent: PracticeAgent
+  action: 'Failed portal for Primetrade.ai Machine Learning (Modeling and Evaluation):
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-13T09:12:54'
