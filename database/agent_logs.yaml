@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for AIFINSPHERE INC. Machine Learning Engineer Intern: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-13T12:26:11'
-- agent: PracticeAgent
   action: 'Failed portal for AIFINSPHERE INC. Data Analyst Intern: Gemini failed to
     generate project recommendations'
   status: error
@@ -2503,3 +2498,7 @@ logs:
   action: 105 jobs fetched
   level: INFO
   timestamp: '2026-04-13T18:56:46'
+- agent: CareerAgent
+  action: 105 jobs fetched, 90 relevant
+  level: INFO
+  timestamp: '2026-04-13T18:56:54'
