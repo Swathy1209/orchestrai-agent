@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Praxis Home Retail Limited Data Science Intern: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-13T09:54:39'
-- agent: PracticeAgent
   action: 'Failed portal for Cardinal Health Machine Learning Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2499,3 +2494,8 @@ logs:
   action: Generated Portfolio
   status: success
   timestamp: '2026-04-13T12:05:36'
+- agent: PracticeAgent
+  action: 'Failed portal for Turing Labs AI Engineer Intern - build stealth model:
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-13T12:06:09'
