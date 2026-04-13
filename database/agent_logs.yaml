@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Nuro Machine Learning intern, Behavior Planning: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-13T00:39:00'
-- agent: PracticeAgent
   action: 'Failed portal for ServiceHive Machine Learning Intern: Gemini failed to
     generate project recommendations'
   status: error
@@ -2494,3 +2489,8 @@ logs:
     Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-13T02:57:22'
+- agent: PracticeAgent
+  action: 'Failed portal for Bloom Nutrition Influencer Marketing Data Analyst Intern:
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-13T02:57:35'
