@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Om Tekriwal Machine Learning Intern: Gemini failed to
-    generate project recommendations'
-  status: error
-  timestamp: '2026-04-13T04:14:51'
-- agent: PracticeAgent
   action: 'Failed portal for Restyle Machine Learning Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2504,3 +2499,8 @@ logs:
     Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-13T05:39:07'
+- agent: PracticeAgent
+  action: 'Failed portal for Allo Innoware Data Science Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-13T05:39:20'
