@@ -1,9 +1,5 @@
 logs:
 - agent: CareerAgent
-  action: Fetch started
-  level: INFO
-  timestamp: '2026-04-13T18:56:18'
-- agent: CareerAgent
   action: 105 jobs fetched
   level: INFO
   timestamp: '2026-04-13T18:56:46'
@@ -2488,3 +2484,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-13T21:12:01'
+- agent: PracticeAgent
+  action: 'Failed portal for Barclays Data Analyst: Gemini failed to generate project
+    recommendations'
+  status: error
+  timestamp: '2026-04-13T21:12:15'
