@@ -1,8 +1,4 @@
 logs:
-- agent: CareerAgent
-  action: Email delegation passed to ExecutionAgent
-  level: INFO
-  timestamp: '2026-04-13T10:01:21'
 - agent: SkillAgent
   action: SkillAgent run initiated
   status: success
@@ -2498,3 +2494,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-13T12:22:35'
+- agent: PracticeAgent
+  action: 'Failed portal for AI4SEE PRIVATE LIMITED Data Science Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-13T12:22:48'
