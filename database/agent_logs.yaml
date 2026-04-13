@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Lobo Worldwide (Toronto, Canada) Data Science Intern:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-13T00:49:05'
-- agent: PracticeAgent
   action: 'Failed portal for Fairassets Technologies India Private Limited Artificial
     Intelligence (AI): Gemini failed to generate project recommendations'
   status: error
@@ -2489,3 +2484,8 @@ logs:
     Intern: Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-13T03:31:02'
+- agent: PracticeAgent
+  action: 'Failed portal for Bosch Home Comfort USA Artificial Intelligence / Machine
+    Learning - Intern: Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-13T03:31:13'
