@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for RR HOLDINGS Artificial Intelligence Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-13T02:39:19'
-- agent: PracticeAgent
   action: 'Failed portal for MeshyAI Machine Learning Systems Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2499,3 +2494,8 @@ logs:
     recommendations'
   status: error
   timestamp: '2026-04-13T04:35:17'
+- agent: PracticeAgent
+  action: 'Failed portal for ServiceHive Machine Learning Intern: Gemini failed to
+    generate project recommendations'
+  status: error
+  timestamp: '2026-04-13T04:35:25'
