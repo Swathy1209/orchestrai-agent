@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for AmRit Hub Private Limited Artificial Intelligence (AI):
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-12T22:54:01'
-- agent: PracticeAgent
   action: 'Failed portal for Neoteric Analytics Data And AI Engineer Intern: Gemini
     failed to generate project recommendations'
   status: error
@@ -2496,3 +2491,8 @@ logs:
     Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-13T00:26:02'
+- agent: PracticeAgent
+  action: 'Failed portal for Lensa Machine Learning Engineer Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-13T00:26:06'
