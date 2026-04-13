@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for ConsultBae Data Science Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-13T09:46:33'
-- agent: PracticeAgent
   action: 'Failed portal for GAINS Data Science Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2508,3 +2503,8 @@ logs:
     Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-13T11:57:53'
+- agent: PracticeAgent
+  action: 'Failed portal for Wingman Pro Machine Learning Intern: Gemini failed to
+    generate project recommendations'
+  status: error
+  timestamp: '2026-04-13T11:58:04'
