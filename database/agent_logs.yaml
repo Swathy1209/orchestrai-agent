@@ -1,8 +1,4 @@
 logs:
-- agent: CareerAgent
-  action: 102 jobs fetched, 87 relevant
-  level: INFO
-  timestamp: '2026-04-13T08:01:02'
 - agent: PracticeAgent
   action: 'Failed portal for Aadi Foundation Machine Learning Intern: Gemini failed
     to generate project recommendations'
@@ -2492,3 +2488,8 @@ logs:
     placeholder content. Regenerating...'
   status: error
   timestamp: '2026-04-13T10:22:56'
+- agent: PracticeAgent
+  action: 'Failed portal for Tinder Machine Learning Engineer Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-13T10:23:09'
