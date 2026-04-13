@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Bizlem Private Limited AI/ML Engineering: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-12T22:54:30'
-- agent: PracticeAgent
   action: 'Failed portal for Vilya Intern - Machine Learning Engineer: Gemini failed
     to generate project recommendations'
   status: error
@@ -2496,3 +2491,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-13T00:26:30'
+- agent: PracticeAgent
+  action: 'Failed portal for AIFINSPHERE INC. Business Analysts Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-13T00:26:37'
