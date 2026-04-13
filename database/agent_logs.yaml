@@ -1,9 +1,4 @@
 logs:
-- agent: PracticeAgent
-  action: 'Failed portal for Gaba Telepsychiatry (New York, United States) Data Science
-    Intern: Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-13T09:42:25'
 - agent: OpportunityMatchingAgent
   action: Generated match scores for 771 internships
   status: success
@@ -2504,3 +2499,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-13T11:53:41'
+- agent: PracticeAgent
+  action: 'Failed portal for Maersk Business Analyst – Financial Planning & Reporting:
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-13T11:53:53'
