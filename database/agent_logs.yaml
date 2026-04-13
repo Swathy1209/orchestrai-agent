@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for AsiaDirect Data Science Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-12T21:10:57'
-- agent: PracticeAgent
   action: 'Failed portal for OMNIDYA TECH LLP Data Science Intern: Gemini failed to
     generate project recommendations'
   status: error
@@ -2481,3 +2476,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-13T00:10:33'
+- agent: PracticeAgent
+  action: 'Failed portal for TikTok Data Engineer Project Intern (Data Governance
+    Data Cycling Center) - 2026 Start (BS/MS): Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-13T00:10:47'
