@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Robocapital Data Science Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-13T14:40:59'
-- agent: PracticeAgent
   action: 'Failed portal for Black Belt Commandos Security Systems Data Science Intern:
     Gemini failed to generate project recommendations'
   status: error
@@ -2488,3 +2483,8 @@ logs:
     Intern: Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-13T21:10:17'
+- agent: PracticeAgent
+  action: 'Failed portal for Fermions Machine Learning Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-13T21:10:29'
