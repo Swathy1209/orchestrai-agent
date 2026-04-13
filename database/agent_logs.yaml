@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for CareerNest Machine Learning Intern: Gemini failed to
-    generate project recommendations'
-  status: error
-  timestamp: '2026-04-13T11:17:29'
-- agent: PracticeAgent
   action: 'Failed portal for OMNIDYA TECH LLP Artificial Intelligence Intern: Gemini
     failed to generate project recommendations'
   status: error
@@ -2505,3 +2500,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-13T13:43:48'
+- agent: PracticeAgent
+  action: 'Failed portal for Marico Innovation Foundation Data Science Intern: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-13T13:44:00'
