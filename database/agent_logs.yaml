@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Udan Foundation Artificial Intelligence Intern: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-13T00:43:43'
-- agent: PracticeAgent
   action: 'Failed portal for CarMax Business Analyst Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2492,3 +2487,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-13T03:11:54'
+- agent: PracticeAgent
+  action: 'Failed portal for Chamadia Group Data Science Intern: Gemini failed to
+    generate project recommendations'
+  status: error
+  timestamp: '2026-04-13T03:12:30'
