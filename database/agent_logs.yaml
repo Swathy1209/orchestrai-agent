@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Zoox Machine Learning Engineer Intern, Simulation: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-13T02:00:14'
-- agent: PracticeAgent
   action: 'Failed portal for Tesla Internship, Data Engineer, Fleet Analytics (Summer
     2026): Gemini failed to generate project recommendations'
   status: error
@@ -2490,3 +2485,8 @@ logs:
     generate project recommendations'
   status: error
   timestamp: '2026-04-13T04:03:24'
+- agent: PracticeAgent
+  action: 'Failed portal for Rebel Athletic Ai Engineer Internship: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-13T04:03:38'
