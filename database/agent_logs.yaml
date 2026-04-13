@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for TikTok Business Analyst Project Intern(TikTok- Operations)
-    - 2026 Start (BS/MS): Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-13T10:55:04'
-- agent: PracticeAgent
   action: 'Failed portal for MCube AI Private Limited Data Science: Gemini failed
     to generate project recommendations'
   status: error
@@ -2505,3 +2500,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-13T13:17:23'
+- agent: PracticeAgent
+  action: 'Failed portal for Reach Technologies Machine Learning Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-13T13:17:48'
