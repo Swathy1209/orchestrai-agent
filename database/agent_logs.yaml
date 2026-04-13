@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Emoolar Technology Private Limited Data Science: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-12T21:06:38'
-- agent: PracticeAgent
   action: 'Failed portal for Deloitte Business Analyst: Gemini failed to generate
     project recommendations'
   status: error
@@ -2481,3 +2476,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-13T00:07:31'
+- agent: PracticeAgent
+  action: 'Failed portal for Woven by Toyota Machine Learning Engineer, Perception
+    Autolabeling (Internship): Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-13T00:07:54'
