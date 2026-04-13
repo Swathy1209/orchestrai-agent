@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Vishwa Jagran Manav Sewa Sangh Charitable Trust Machine
-    Learning Intern: Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-13T07:50:55'
-- agent: PracticeAgent
   action: 'Failed portal for IWerk InfoSolutions LLP Machine Learning Intern: Gemini
     failed to generate project recommendations'
   status: error
@@ -2503,3 +2498,8 @@ logs:
   action: Fetch started
   level: INFO
   timestamp: '2026-04-13T10:00:34'
+- agent: PracticeAgent
+  action: 'Failed portal for Sameer Khatri Artificial Intelligence Intern: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-13T10:00:49'
