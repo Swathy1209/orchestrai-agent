@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Stealth Startup Machine Learning Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-13T13:27:37'
-- agent: PracticeAgent
   action: 'Failed portal for Joveo Machine Learning Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2493,3 +2488,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-13T19:59:45'
+- agent: PracticeAgent
+  action: 'Failed portal for Ball2Data Football Data Analysts: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-13T19:59:57'
