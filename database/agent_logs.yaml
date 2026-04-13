@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for The Rehancement Group, Inc. Data Analyst 1: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-13T04:56:37'
-- agent: PracticeAgent
   action: 'Failed portal for Flipkart Data Analysis Lead: Gemini failed to generate
     project recommendations'
   status: error
@@ -2499,3 +2494,8 @@ logs:
     Intern: Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-13T06:36:56'
+- agent: PracticeAgent
+  action: 'Failed portal for InstaCAD Solutions India Private Limited Machine Learning
+    Intern: Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-13T06:37:03'
