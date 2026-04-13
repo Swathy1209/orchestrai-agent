@@ -1,9 +1,5 @@
 logs:
 - agent: CareerAgent
-  action: Stored in GitHub YAML
-  level: INFO
-  timestamp: '2026-04-12T22:01:22'
-- agent: CareerAgent
   action: Email delegation passed to ExecutionAgent
   level: INFO
   timestamp: '2026-04-12T22:01:28'
@@ -2491,3 +2487,8 @@ logs:
   action: PracticeAgent run initiated
   status: success
   timestamp: '2026-04-13T00:25:14'
+- agent: PracticeAgent
+  action: 'Failed portal for Brain Quest Data Science Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-13T00:25:21'
