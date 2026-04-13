@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for The Goat Academy Private Limited Data Science Intern:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-13T01:15:03'
-- agent: PracticeAgent
   action: 'Failed portal for Raviraj Sarees Pvt Ltd Data Science Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2495,3 +2490,9 @@ logs:
     recommendations'
   status: error
   timestamp: '2026-04-13T03:52:55'
+- agent: PracticeAgent
+  action: 'Failed portal for TikTok Machine Learning Engineer Intern (Data-Search-TikTok
+    Recommendation Team) - 2026 Summer (BS/MS): Gemini failed to generate project
+    recommendations'
+  status: error
+  timestamp: '2026-04-13T03:53:07'
