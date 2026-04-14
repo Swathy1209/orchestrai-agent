@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Symonis Machine Learning: Gemini failed to generate project
-    recommendations'
-  status: error
-  timestamp: '2026-04-14T04:38:49'
-- agent: PracticeAgent
   action: 'Failed portal for MyCloud Technology Machine Learning Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2502,3 +2497,8 @@ logs:
     placeholder content. Regenerating...'
   status: error
   timestamp: '2026-04-14T06:03:54'
+- agent: PracticeAgent
+  action: 'Failed portal for Greenleap Robotics Private Limited Machine Learning Intern:
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-14T06:04:08'
