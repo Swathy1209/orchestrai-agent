@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Disruptive Consultancy Services Private Limited (Development
-    Monitors India) Artificial Intelligence Intern: Gemini failed to generate project
-    recommendations'
-  status: error
-  timestamp: '2026-04-14T04:22:10'
-- agent: PracticeAgent
   action: 'Failed portal for Macquarie Group Liquidity Business Analyst: Gemini failed
     to generate project recommendations'
   status: error
@@ -2504,3 +2498,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-14T05:38:32'
+- agent: PracticeAgent
+  action: 'Failed portal for Turing Machine Learning Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-14T05:39:24'
