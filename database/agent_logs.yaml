@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Okta for Developers Data Analyst Intern (Summer 2026):
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-14T12:29:23'
-- agent: PracticeAgent
   action: 'Failed portal for Washington Commanders Data Analyst (Intern): Gemini failed
     to generate project recommendations'
   status: error
@@ -2504,3 +2499,8 @@ logs:
     (AI): Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-14T14:43:47'
+- agent: PracticeAgent
+  action: 'Failed portal for EVgo Intern, Data Analyst (Winter / Spring): Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-14T14:44:01'
