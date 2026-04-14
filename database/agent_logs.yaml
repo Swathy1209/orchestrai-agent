@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Khurana Technology Solutions Data Science Intern: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-14T08:23:55'
-- agent: PracticeAgent
   action: 'Failed portal for RefinedScience Data Engineering Intern: Detected incomplete
     placeholder content. Regenerating...'
   status: error
@@ -2503,3 +2498,8 @@ logs:
     - Summer 2026: Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-14T10:38:47'
+- agent: PracticeAgent
+  action: 'Failed portal for Tatari Data Science BI, Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-14T10:39:01'
