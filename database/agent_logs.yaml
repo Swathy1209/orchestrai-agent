@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for CapitalXB Data Science Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-14T15:11:39'
-- agent: PracticeAgent
   action: 'Failed portal for Milliman India Private Limited AI/ML Engineer: Gemini
     failed to generate project recommendations'
   status: error
@@ -2498,3 +2493,8 @@ logs:
     recommendations'
   status: error
   timestamp: '2026-04-14T17:52:12'
+- agent: PracticeAgent
+  action: 'Failed portal for d-Matrix Machine Learning Research Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-14T17:52:23'
