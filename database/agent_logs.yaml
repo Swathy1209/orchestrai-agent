@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for HSBC Business Analyst: Gemini failed to generate project
-    recommendations'
-  status: error
-  timestamp: '2026-04-14T15:35:09'
-- agent: PracticeAgent
   action: 'Failed portal for RegisterKaro Machine Learning Intern: Gemini failed to
     generate project recommendations'
   status: error
@@ -2500,3 +2495,9 @@ logs:
   status: success
   timestamp: '2026-04-14T18:01:48'
   details: Analyzed 801 jobs.
+- agent: PracticeAgent
+  action: 'Failed portal for TikTok (General Hire) Machine Learning Engineer Intern
+    (TikTok- Video Recommendation) - 2026 Summer (BS/MS): Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-14T18:01:56'
