@@ -1,8 +1,4 @@
 logs:
-- agent: CareerAgent
-  action: 102 jobs fetched, 87 relevant
-  level: INFO
-  timestamp: '2026-04-14T18:01:05'
 - agent: PracticeAgent
   action: 'Failed portal for TikTok Machine Learning Engineer Intern (Trust and Safety
     - CV/NLP/Multimodal LLM) - 2026 Summer(BS/MS): Gemini failed to generate project
@@ -2495,3 +2491,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-14T20:14:56'
+- agent: PracticeAgent
+  action: 'Failed portal for Veritem Health Private Limited Data Science Intern: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-14T20:16:11'
