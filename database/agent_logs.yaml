@@ -1,9 +1,4 @@
 logs:
-- agent: PracticeAgent
-  action: 'Failed portal for Crossing Hurdles Data Science Intern: Gemini failed to
-    generate project recommendations'
-  status: error
-  timestamp: '2026-04-14T04:27:29'
 - agent: CoverLetterAgent
   action: Generated 785 cover letters
   status: success
@@ -2503,3 +2498,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-14T05:42:17'
+- agent: PracticeAgent
+  action: 'Failed portal for Bosch USA Artificial Intelligence / Machine Learning
+    - Intern: Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-14T05:42:44'
