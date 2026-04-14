@@ -1,9 +1,5 @@
 logs:
 - agent: CareerAgent
-  action: 106 jobs fetched
-  level: INFO
-  timestamp: '2026-04-14T10:01:00'
-- agent: CareerAgent
   action: 106 jobs fetched, 91 relevant
   level: INFO
   timestamp: '2026-04-14T10:01:05'
@@ -2495,3 +2491,8 @@ logs:
     Intern: Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-14T12:15:58'
+- agent: PracticeAgent
+  action: 'Failed portal for Shahin Pilli Artificial Intelligence Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-14T12:16:10'
