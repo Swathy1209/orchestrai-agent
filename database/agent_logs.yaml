@@ -1,9 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: PracticeAgent run initiated
-  status: success
-  timestamp: '2026-04-14T08:23:49'
-- agent: PracticeAgent
   action: 'Failed portal for Khurana Technology Solutions Data Science Intern: Gemini
     failed to generate project recommendations'
   status: error
@@ -2502,3 +2498,8 @@ logs:
     Design & Development: Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-14T10:38:32'
+- agent: PracticeAgent
+  action: 'Failed portal for Viant Technology Machine Learning Engineering Internship
+    - Summer 2026: Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-14T10:38:47'
