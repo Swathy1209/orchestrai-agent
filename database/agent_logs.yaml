@@ -1,9 +1,5 @@
 logs:
 - agent: CareerAgent
-  action: 105 jobs fetched
-  level: INFO
-  timestamp: '2026-04-14T12:01:02'
-- agent: CareerAgent
   action: 105 jobs fetched, 90 relevant
   level: INFO
   timestamp: '2026-04-14T12:01:06'
@@ -2493,3 +2489,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-14T14:26:48'
+- agent: PracticeAgent
+  action: 'Failed portal for Be Rolling Media Data Science Intern: Gemini failed to
+    generate project recommendations'
+  status: error
+  timestamp: '2026-04-14T14:26:55'
