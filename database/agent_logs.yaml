@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Storybizz Media Private Limited Artificial Intelligence
-    (AI): Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-14T00:40:56'
-- agent: PracticeAgent
   action: 'Failed portal for EVgo Intern, Data Analyst (Winter / Spring): Gemini failed
     to generate project recommendations'
   status: error
@@ -2499,3 +2494,8 @@ logs:
     generate project recommendations'
   status: error
   timestamp: '2026-04-14T02:38:23'
+- agent: PracticeAgent
+  action: 'Failed portal for EY Machine Learning Engineer: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-14T02:38:36'
