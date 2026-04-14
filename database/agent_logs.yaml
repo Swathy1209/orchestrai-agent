@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Morph Machine Learning Researcher PhD Intern: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-13T23:52:48'
-- agent: PracticeAgent
   action: 'Failed portal for ByteDance Machine Learning Engineer Intern (E-commerce-Supply
     Chain & Logistics) - 2026 Start (PhD): Gemini failed to generate project recommendations'
   status: error
@@ -2499,3 +2494,8 @@ logs:
   status: success
   timestamp: '2026-04-14T02:01:36'
   details: Analyzed 784 jobs.
+- agent: PracticeAgent
+  action: 'Failed portal for Tesla Internship, Data Engineer, Fleet Analytics (Summer
+    2026): Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-14T02:01:51'
