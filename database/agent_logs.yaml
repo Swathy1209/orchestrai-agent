@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Raviraj Sarees Pvt Ltd Machine Learning Intern: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-14T13:19:16'
-- agent: PracticeAgent
   action: 'Failed portal for OMNIDYA TECH LLP Machine Learning Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2500,3 +2495,7 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-14T15:50:43'
+- agent: OpportunityMatchingAgent
+  action: Generated match scores for 796 internships
+  status: success
+  timestamp: '2026-04-14T15:50:49'
