@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Emoolar Technology Private Limited Artificial Intelligence
-    (AI): Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-14T04:37:23'
-- agent: PracticeAgent
   action: 'Failed portal for XED Executive Development Private Limited Artificial
     Intelligence Intern: Gemini failed to generate project recommendations'
   status: error
@@ -2505,3 +2500,7 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-14T06:00:56'
+- agent: CareerAgent
+  action: 106 jobs fetched, 91 relevant
+  level: INFO
+  timestamp: '2026-04-14T06:01:07'
