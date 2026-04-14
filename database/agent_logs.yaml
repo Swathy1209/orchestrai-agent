@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Primetrade.ai Data Science: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-14T14:37:02'
-- agent: PracticeAgent
   action: 'Failed portal for Banner Engineering Careers Business Analyst Intern: Gemini
     failed to generate project recommendations'
   status: error
@@ -2499,3 +2494,8 @@ logs:
     content. Regenerating...'
   status: error
   timestamp: '2026-04-14T16:55:00'
+- agent: PracticeAgent
+  action: 'Failed portal for Fractal Data Engineer: Gemini failed to generate project
+    recommendations'
+  status: error
+  timestamp: '2026-04-14T16:55:12'
