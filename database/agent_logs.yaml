@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Sofar Ocean Machine Learning Intern: Gemini failed to
-    generate project recommendations'
-  status: error
-  timestamp: '2026-04-14T05:10:55'
-- agent: PracticeAgent
   action: 'Failed portal for Command Post Technologies, Inc AI/Machine Learning Software
     Engineering Intern: Gemini failed to generate project recommendations'
   status: error
@@ -2501,3 +2496,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-14T06:47:26'
+- agent: PracticeAgent
+  action: 'Failed portal for Airbnb Machine Learning Engineering Intern (PhD): Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-14T06:47:33'
