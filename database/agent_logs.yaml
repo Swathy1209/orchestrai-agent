@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Techphotonsolutions Pvt Data Engineer: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-14T10:37:38'
-- agent: PracticeAgent
   action: 'Failed portal for Nuro Machine Learning intern, Behavior Planning: Gemini
     failed to generate project recommendations'
   status: error
@@ -2500,3 +2495,8 @@ logs:
     Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-14T12:48:25'
+- agent: PracticeAgent
+  action: 'Failed portal for The Agency Source Data Science Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-14T12:48:38'
