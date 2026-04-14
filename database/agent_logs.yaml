@@ -1,8 +1,4 @@
 logs:
-- agent: CareerAgent
-  action: Fetch started
-  level: INFO
-  timestamp: '2026-04-14T06:00:34'
 - agent: PracticeAgent
   action: 'Failed portal for Connors Group Data Analyst Intern: Gemini failed to generate
     project recommendations'
@@ -2500,3 +2496,8 @@ logs:
     - Quality Assurance: Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-14T07:08:37'
+- agent: PracticeAgent
+  action: 'Failed portal for African American Planning Commission, Inc. Data Analyst
+    - Quality Assurance: Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-14T07:08:42'
