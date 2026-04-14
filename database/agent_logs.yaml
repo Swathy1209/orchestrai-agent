@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Transcarent Machine Learning Engineer Intern: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-14T04:30:36'
-- agent: PracticeAgent
   action: 'Failed portal for Moloco Machine Learning Engineer Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2505,3 +2500,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-14T05:46:34'
+- agent: PracticeAgent
+  action: 'Failed portal for VIZON Machine Learning Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-14T05:46:46'
