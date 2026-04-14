@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Statcon Energiaa Data Science Intern: Gemini failed to
-    generate project recommendations'
-  status: error
-  timestamp: '2026-04-14T02:05:23'
-- agent: PracticeAgent
   action: 'Failed portal for Tax-O-Smart LLP Data Science Intern: Gemini failed to
     generate project recommendations'
   status: error
@@ -2501,3 +2496,7 @@ logs:
     - no C2C: Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-14T04:01:27'
+- agent: CareerAgent
+  action: Stored in GitHub YAML
+  level: INFO
+  timestamp: '2026-04-14T04:01:36'
