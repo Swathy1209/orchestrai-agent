@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Zyndra Talent Solutions Business Analyst Innovation Intern:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-14T08:41:07'
-- agent: PracticeAgent
   action: 'Failed portal for Eightfold AI Senior Machine Learning Engineer: Gemini
     failed to generate project recommendations'
   status: error
@@ -2501,3 +2496,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-14T10:57:28'
+- agent: PracticeAgent
+  action: 'Failed portal for Vite Tech IT Solutions Private Limited Machine Learning
+    Intern  OCR & Document AI: Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-14T10:57:42'
