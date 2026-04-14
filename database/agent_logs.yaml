@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Cardinal Health Machine Learning Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-14T13:57:37'
-- agent: PracticeAgent
   action: 'Failed portal for Astra Security Machine Learning Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2493,3 +2488,8 @@ logs:
     - 2026 Start (BS): Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-14T16:14:41'
+- agent: PracticeAgent
+  action: 'Failed portal for Samaritan''s Purse Geospatial Data Analyst, North American
+    Disaster Relief: Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-14T16:14:53'
