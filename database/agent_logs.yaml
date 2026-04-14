@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for ADA Senior Data Engineer: Gemini failed to generate project
-    recommendations'
-  status: error
-  timestamp: '2026-04-14T15:12:44'
-- agent: PracticeAgent
   action: 'Failed portal for Infits Machine Learning: Gemini failed to generate project
     recommendations'
   status: error
@@ -2499,3 +2494,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-14T17:53:10'
+- agent: PracticeAgent
+  action: 'Failed portal for ByteDance Machine Learning Engineer Intern (E-commerce-Supply
+    Chain & Logistics) - 2026 Start (PhD): Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-14T17:53:22'
