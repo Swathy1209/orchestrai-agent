@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Wobot Intelligence Private Limited Machine Learning Intern:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-14T02:31:14'
-- agent: PracticeAgent
   action: 'Failed portal for Infinity Assurance Solutions Private Limited Computer
     Vision: Gemini failed to generate project recommendations'
   status: error
@@ -2498,3 +2493,8 @@ logs:
     Start (BS/MS): Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-14T04:34:47'
+- agent: PracticeAgent
+  action: 'Failed portal for Barclays Data Engineer: Gemini failed to generate project
+    recommendations'
+  status: error
+  timestamp: '2026-04-14T04:34:55'
