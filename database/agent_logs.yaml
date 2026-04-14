@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Russell Rowland, Inc. Fall 2026 Business Analyst Intern:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-14T09:27:06'
-- agent: PracticeAgent
   action: 'Failed portal for Collective Artists Network Data Science Intern: Gemini
     failed to generate project recommendations'
   status: error
@@ -2505,3 +2500,8 @@ logs:
     generate project recommendations'
   status: error
   timestamp: '2026-04-14T11:54:03'
+- agent: PracticeAgent
+  action: 'Failed portal for Stripe PhD Machine Learning Engineer, Intern: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-14T11:54:15'
