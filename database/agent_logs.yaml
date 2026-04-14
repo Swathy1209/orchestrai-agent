@@ -1,9 +1,4 @@
 logs:
-- agent: PracticeAgent
-  action: 'Failed portal for Mavoix Technology Solutions Pvt. Ltd. Machine Learning
-    Intern: Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-14T16:23:17'
 - agent: CoverLetterAgent
   action: Generated 801 cover letters
   status: success
@@ -2505,3 +2500,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-14T18:37:59'
+- agent: PracticeAgent
+  action: 'Failed portal for IIT Guwahati Machine Learning Intern: Gemini failed to
+    generate project recommendations'
+  status: error
+  timestamp: '2026-04-14T18:38:11'
