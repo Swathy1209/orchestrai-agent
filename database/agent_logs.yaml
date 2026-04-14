@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for ScentAir Technology & Data Science Intern – ScentAir
-    (Charlotte, NC): Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-14T11:07:52'
-- agent: PracticeAgent
   action: 'Failed portal for Sofar Ocean Machine Learning Intern: Gemini failed to
     generate project recommendations'
   status: error
@@ -2497,3 +2492,8 @@ logs:
   action: Generated optimizations for 796 internships
   status: success
   timestamp: '2026-04-14T13:29:11'
+- agent: PracticeAgent
+  action: 'Failed portal for CipherSchools Data Science Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-14T13:29:25'
