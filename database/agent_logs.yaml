@@ -3,11 +3,6 @@ logs:
   action: 'Failed portal for Blismos Solutions Private Limited Artificial Intelligence
     Intern: Gemini failed to generate project recommendations'
   status: error
-  timestamp: '2026-04-14T06:27:47'
-- agent: PracticeAgent
-  action: 'Failed portal for Blismos Solutions Private Limited Artificial Intelligence
-    Intern: Gemini failed to generate project recommendations'
-  status: error
   timestamp: '2026-04-14T06:27:54'
 - agent: PracticeAgent
   action: 'Failed portal for Safalta Setu Artificial Intelligence Intern: Gemini failed
@@ -2506,3 +2501,8 @@ logs:
   action: Generated match scores for 786 internships
   status: success
   timestamp: '2026-04-14T07:59:13'
+- agent: PracticeAgent
+  action: 'Failed portal for Stanford University School of Medicine Data Analyst 1
+    (1 Year Fixed Term): Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-14T07:59:17'
