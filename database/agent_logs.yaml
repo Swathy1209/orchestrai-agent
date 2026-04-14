@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Trader For Tomorrow Data Science Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-14T19:55:55'
-- agent: PracticeAgent
   action: 'Failed portal for Euphotic Labs Private Limited Data Science Intern: Gemini
     failed to generate project recommendations'
   status: error
@@ -2491,3 +2486,8 @@ logs:
     generate project recommendations'
   status: error
   timestamp: '2026-04-14T22:20:05'
+- agent: PracticeAgent
+  action: 'Failed portal for Blismos Solutions Private Limited Machine Learning Intern:
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-14T22:21:05'
