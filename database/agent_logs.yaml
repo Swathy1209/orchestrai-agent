@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for TSTEPS PRIVATE LIMITED Data Science Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-14T02:25:52'
-- agent: PracticeAgent
   action: 'Failed portal for Matson Logistics AI & Machine Learning Intern – Operations:
     Gemini failed to generate project recommendations'
   status: error
@@ -2499,3 +2494,8 @@ logs:
   action: PracticeAgent run initiated
   status: success
   timestamp: '2026-04-14T04:28:17'
+- agent: PracticeAgent
+  action: 'Failed portal for Liberdat B.V. Machine Learning Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-14T04:28:26'
