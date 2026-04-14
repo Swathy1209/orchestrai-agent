@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Restyle Machine Learning Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-14T10:20:37'
-- agent: PracticeAgent
   action: 'Failed portal for CarVach Machine Learning Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2500,3 +2495,8 @@ logs:
     Learning: Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-14T12:31:47'
+- agent: PracticeAgent
+  action: 'Failed portal for Capgemini Business Analyst-Contact Center Domain: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-14T12:32:00'
