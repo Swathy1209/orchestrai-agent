@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Wofo24 Technologies Private Limited Data Science Intern:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-14T10:59:32'
-- agent: PracticeAgent
   action: 'Failed portal for Hospitality Career Profile Artificial Intelligence Intern:
     Gemini failed to generate project recommendations'
   status: error
@@ -2500,3 +2495,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-14T13:10:04'
+- agent: PracticeAgent
+  action: 'Failed portal for Milliman India Private Limited AI/ML Engineer: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-14T13:10:18'
