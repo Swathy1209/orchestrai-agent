@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Configtap Machine Learning Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-14T07:28:23'
-- agent: PracticeAgent
   action: 'Failed portal for Global Ace Technology Machine Learning Intern: Gemini
     failed to generate project recommendations'
   status: error
@@ -2499,3 +2494,8 @@ logs:
     / Dynamo Eval / AgentWarden: Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-14T10:07:10'
+- agent: PracticeAgent
+  action: 'Failed portal for Statcon Energiaa Data Science Intern: Gemini failed to
+    generate project recommendations'
+  status: error
+  timestamp: '2026-04-14T10:08:12'
