@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Lakeview Loan Servicing, LLC. IT DATA ENGINEER INTERN:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-13T21:59:37'
-- agent: PracticeAgent
   action: 'Failed portal for Bloom Nutrition Influencer Marketing Data Analyst Intern:
     Gemini failed to generate project recommendations'
   status: error
@@ -2497,3 +2492,8 @@ logs:
     Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-14T00:39:02'
+- agent: PracticeAgent
+  action: 'Failed portal for Seaman Corporation Business Analyst Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-14T00:39:15'
