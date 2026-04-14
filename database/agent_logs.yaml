@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Expose Trendze Machine Learning Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-14T09:46:29'
-- agent: PracticeAgent
   action: 'Failed portal for Marico Innovation Foundation Artificial Intelligence
     Intern: Gemini failed to generate project recommendations'
   status: error
@@ -2508,3 +2503,8 @@ logs:
   action: Fetch started
   level: INFO
   timestamp: '2026-04-14T12:00:35'
+- agent: PracticeAgent
+  action: 'Failed portal for Strata Decision Technology Intern, Data Science: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-14T12:00:41'
