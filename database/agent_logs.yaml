@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Los Angeles Kings Summer Intern, Data Science (LA Kings):
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-14T16:58:10'
-- agent: PracticeAgent
   action: 'Failed portal for TikTok Business Analyst Project Intern(TikTok- Operations)
     - 2026 Start (BS/MS): Gemini failed to generate project recommendations'
   status: error
@@ -2503,3 +2498,8 @@ logs:
     Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-14T19:11:26'
+- agent: PracticeAgent
+  action: 'Failed portal for CapitalXB Data Science Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-14T19:11:39'
