@@ -1,9 +1,4 @@
 logs:
-- agent: PracticeAgent
-  action: 'Failed portal for Booz Allen Hamilton Data Analyst, Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-14T06:06:36'
 - agent: PortfolioBuilderAgent
   action: Generated Portfolio
   status: success
@@ -2503,3 +2498,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-14T07:11:37'
+- agent: PracticeAgent
+  action: 'Failed portal for eClerx Business Analyst: Gemini failed to generate project
+    recommendations'
+  status: error
+  timestamp: '2026-04-14T07:11:45'
