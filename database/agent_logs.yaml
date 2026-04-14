@@ -3,11 +3,6 @@ logs:
   action: 'Failed portal for PwC Consulting Solutions Python Data Engineer: Gemini
     failed to generate project recommendations'
   status: error
-  timestamp: '2026-04-14T05:01:12'
-- agent: PracticeAgent
-  action: 'Failed portal for PwC Consulting Solutions Python Data Engineer: Gemini
-    failed to generate project recommendations'
-  status: error
   timestamp: '2026-04-14T05:01:19'
 - agent: PracticeAgent
   action: 'Failed portal for GE Aerospace Data Science Specialist: Gemini failed to
@@ -2499,3 +2494,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-14T06:40:56'
+- agent: PracticeAgent
+  action: 'Failed portal for Nuro Machine Learning intern, Behavior Planning: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-14T06:41:00'
