@@ -3,11 +3,6 @@ logs:
   action: 'Failed portal for Intuit Staff Compliance Assurance  Technical Data Analyst:
     Gemini failed to generate project recommendations'
   status: error
-  timestamp: '2026-04-14T07:08:49'
-- agent: PracticeAgent
-  action: 'Failed portal for Intuit Staff Compliance Assurance  Technical Data Analyst:
-    Gemini failed to generate project recommendations'
-  status: error
   timestamp: '2026-04-14T07:08:54'
 - agent: PracticeAgent
   action: 'Failed portal for IT-Infotek Data Science Intern: Gemini failed to generate
@@ -2499,3 +2494,9 @@ logs:
   action: Generated Application Packages for 789 internships
   status: success
   timestamp: '2026-04-14T09:51:34'
+- agent: PracticeAgent
+  action: 'Failed portal for WayUp BMW, Overseas Supply Chain Operations and Data
+    Analysis Intern (Fall 2026) - Application via WayUp: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-14T09:51:49'
