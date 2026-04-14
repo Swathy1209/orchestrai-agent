@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for KAYVI BEVERAGES PRIVATE LIMITED Data Science Intern:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-14T07:13:22'
-- agent: PracticeAgent
   action: 'Failed portal for Raviraj Sarees Pvt Ltd Artificial Intelligence (AI):
     Gemini failed to generate project recommendations'
   status: error
@@ -2505,3 +2500,7 @@ logs:
     (BS/MS): Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-14T10:00:21'
+- agent: CareerAgent
+  action: Fetch started
+  level: INFO
+  timestamp: '2026-04-14T10:00:32'
