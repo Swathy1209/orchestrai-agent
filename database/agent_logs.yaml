@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Kidvento Education And Research Private Limited Data
-    Science Intern: Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-14T04:56:52'
-- agent: PracticeAgent
   action: 'Failed portal for Fractal Data Engineer: Gemini failed to generate project
     recommendations'
   status: error
@@ -2499,3 +2494,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-14T06:36:31'
+- agent: PracticeAgent
+  action: 'Failed portal for GigFloww Artificial Intelligence Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-14T06:36:36'
