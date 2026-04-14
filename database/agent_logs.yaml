@@ -1,9 +1,4 @@
 logs:
-- agent: PracticeAgent
-  action: 'Failed portal for Macquarie Group Liquidity Business Analyst: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-14T12:23:28'
 - agent: CoverLetterAgent
   action: Generated 796 cover letters
   status: success
@@ -2501,3 +2496,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-14T14:38:05'
+- agent: PracticeAgent
+  action: 'Failed portal for Fitbae Healthcare Private Limited Data Science: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-14T14:38:18'
