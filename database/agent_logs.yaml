@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Career Solutions Data Science: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-14T02:32:05'
-- agent: PracticeAgent
   action: 'Failed portal for Ayurveda House Private Limited Data Science Intern: Gemini
     failed to generate project recommendations'
   status: error
@@ -2500,3 +2495,8 @@ logs:
     generate project recommendations'
   status: error
   timestamp: '2026-04-14T04:35:43'
+- agent: PracticeAgent
+  action: 'Failed portal for MTX Group Business Analyst Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-14T04:35:48'
