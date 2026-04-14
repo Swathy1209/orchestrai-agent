@@ -1,8 +1,4 @@
 logs:
-- agent: OpportunityMatchingAgent
-  action: Generated match scores for 781 internships
-  status: success
-  timestamp: '2026-04-13T23:44:56'
 - agent: PracticeAgent
   action: 'Failed portal for Arhant Solutions Artificial Intelligence Intern: Gemini
     failed to generate project recommendations'
@@ -2500,3 +2496,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-14T01:53:58'
+- agent: PracticeAgent
+  action: 'Failed portal for Cardinal Health Machine Learning Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-14T01:54:09'
