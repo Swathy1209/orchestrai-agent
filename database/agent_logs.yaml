@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Deloitte AWS Data Engineer: Detected incomplete placeholder
-    content. Regenerating...'
-  status: error
-  timestamp: '2026-04-14T04:56:46'
-- agent: PracticeAgent
   action: 'Failed portal for Kidvento Education And Research Private Limited Data
     Science Intern: Gemini failed to generate project recommendations'
   status: error
@@ -2499,3 +2494,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-14T06:36:25'
+- agent: PracticeAgent
+  action: 'Failed portal for GigFloww Artificial Intelligence Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-14T06:36:31'
