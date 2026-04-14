@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Career Ease IT Solutions Data Analyst: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-14T07:13:34'
-- agent: PracticeAgent
   action: 'Failed portal for SkillLevel Machine Learning: Gemini failed to generate
     project recommendations'
   status: error
@@ -2504,3 +2499,7 @@ logs:
     Intern: Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-14T10:00:47'
+- agent: CareerAgent
+  action: 106 jobs fetched
+  level: INFO
+  timestamp: '2026-04-14T10:01:00'
