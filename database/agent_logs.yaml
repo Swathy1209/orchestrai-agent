@@ -1,9 +1,4 @@
 logs:
-- agent: PracticeAgent
-  action: 'Failed portal for Intuit Compliance Assurance Staff Technical Data Analyst:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-14T02:04:58'
 - agent: RepoSecurityScannerAgent
   action: 'Scanned 47 repos, priority fix: Hardcoded API Key'
   status: completed
@@ -2501,3 +2496,8 @@ logs:
   action: SkillAgent run initiated
   status: success
   timestamp: '2026-04-14T04:01:03'
+- agent: PracticeAgent
+  action: 'Failed portal for NHS Ayrshire & Arran Principal Analyst – Data Engineering:
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-14T04:01:11'
