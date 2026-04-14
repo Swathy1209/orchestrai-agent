@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Stripe Data Analyst, Intern (Master''s degree): Detected
-    incomplete placeholder content. Regenerating...'
-  status: error
-  timestamp: '2026-04-14T16:32:44'
-- agent: PracticeAgent
   action: 'Failed portal for Stripe PhD Machine Learning Engineer, Intern: Gemini
     failed to generate project recommendations'
   status: error
@@ -2503,3 +2498,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-14T18:46:08'
+- agent: PracticeAgent
+  action: 'Failed portal for S&P Global Business Analyst: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-14T18:46:20'
