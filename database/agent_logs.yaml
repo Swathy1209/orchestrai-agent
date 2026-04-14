@@ -1,9 +1,4 @@
 logs:
-- agent: PracticeAgent
-  action: 'Failed portal for Collective Artists Network Data Science Intern: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-14T21:28:52'
 - agent: ResumeOptimizationAgent
   action: Generated optimizations for 801 internships
   status: success
@@ -2496,3 +2491,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-14T23:46:11'
+- agent: PracticeAgent
+  action: 'Failed portal for GAINS Data Science Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-14T23:46:22'
