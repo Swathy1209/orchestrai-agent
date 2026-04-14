@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Strata Decision Technology Intern, Data Science: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-14T14:02:21'
-- agent: PracticeAgent
   action: 'Failed portal for Ensono Intern - Capacity Management Data Analyst: Gemini
     failed to generate project recommendations'
   status: error
@@ -2492,3 +2487,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-14T16:26:47'
+- agent: PracticeAgent
+  action: 'Failed portal for HDR Data Science/Analysis Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-14T16:27:00'
