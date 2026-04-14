@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Sudeva Sports Private Limited Artificial Intelligence
-    Intern: Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-14T21:27:49'
-- agent: PracticeAgent
   action: 'Failed portal for BNM Business Solutions LLP Data Science Intern: Gemini
     failed to generate project recommendations'
   status: error
@@ -2496,3 +2491,8 @@ logs:
   action: Generated match scores for 802 internships
   status: success
   timestamp: '2026-04-14T23:45:45'
+- agent: PracticeAgent
+  action: 'Failed portal for Cinemate™ Data Science Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-14T23:45:59'
