@@ -1,9 +1,4 @@
 logs:
-- agent: PracticeAgent
-  action: 'Failed portal for Hampious Artificial Intelligence Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-14T10:23:06'
 - agent: CoverLetterAgent
   action: Generated 792 cover letters
   status: success
@@ -2500,3 +2495,8 @@ logs:
     generate project recommendations'
   status: error
   timestamp: '2026-04-14T12:33:17'
+- agent: PracticeAgent
+  action: 'Failed portal for Technoculture Research Data Science Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-14T12:33:31'
