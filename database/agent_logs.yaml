@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for ZKAP EDTECH SERVICES PRIVATE LIMITED Machine Learning
-    Intern: Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-13T21:28:26'
-- agent: PracticeAgent
   action: 'Failed portal for Argus Media Prices Data Analyst: Gemini failed to generate
     project recommendations'
   status: error
@@ -2502,3 +2497,9 @@ logs:
   action: Fetch started
   level: INFO
   timestamp: '2026-04-14T00:00:36'
+- agent: PracticeAgent
+  action: 'Failed portal for TikTok Machine Learning Engineer Intern (Trust and Safety
+    - CV/NLP/Multimodal LLM) - 2026 Summer(BS/MS): Gemini failed to generate project
+    recommendations'
+  status: error
+  timestamp: '2026-04-14T00:00:40'
