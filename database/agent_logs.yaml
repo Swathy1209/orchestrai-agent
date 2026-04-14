@@ -3,11 +3,6 @@ logs:
   action: 'Failed portal for CarVach Machine Learning Intern: Gemini failed to generate
     project recommendations'
   status: error
-  timestamp: '2026-04-14T06:26:50'
-- agent: PracticeAgent
-  action: 'Failed portal for CarVach Machine Learning Intern: Gemini failed to generate
-    project recommendations'
-  status: error
   timestamp: '2026-04-14T06:27:04'
 - agent: PracticeAgent
   action: 'Failed portal for RefinedScience Data Engineering Intern: Detected incomplete
@@ -2506,3 +2501,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-14T07:57:01'
+- agent: PracticeAgent
+  action: 'Failed portal for TikTok Data Science Project Intern (Advertising Team)
+    - 2026 Start (BS/MS): Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-14T07:57:40'
