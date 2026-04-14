@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Trekion AI Data Science Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-14T17:07:47'
-- agent: PracticeAgent
   action: 'Failed portal for Maxgen Technologies Private Limited Data Science Intern:
     Gemini failed to generate project recommendations'
   status: error
@@ -2501,3 +2496,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-14T19:31:09'
+- agent: PracticeAgent
+  action: 'Failed portal for Emoolar Technology Private Limited Data Science Intern:
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-14T19:31:34'
