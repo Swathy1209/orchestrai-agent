@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for InstaCAD Solutions India Private Limited Machine Learning
-    Intern: Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-13T21:30:09'
-- agent: PracticeAgent
   action: 'Failed portal for ATPCO Data Analyst Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2499,3 +2494,8 @@ logs:
   status: success
   timestamp: '2026-04-14T00:01:45'
   details: Analyzed 784 jobs.
+- agent: PracticeAgent
+  action: 'Failed portal for TikTok Data Engineer Intern (E-commerce) - 2026 Summer
+    (BS/MS): Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-14T00:02:00'
