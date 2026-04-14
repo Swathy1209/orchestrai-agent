@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Bio-Rad Laboratories Data Science Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-14T05:59:49'
-- agent: PracticeAgent
   action: 'Failed portal for Metropolitan Transportation Authority Data Science Maintenance
     Support, Emerging Talent Intern (Summer): Gemini failed to generate project recommendations'
   status: error
@@ -2500,3 +2495,8 @@ logs:
     Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-14T07:08:14'
+- agent: PracticeAgent
+  action: 'Failed portal for Ampere Technical Intern, Data Analysis Tool Development:
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-14T07:08:17'
