@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for XED Executive Development Private Limited Artificial
-    Intelligence Intern: Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-14T04:37:29'
-- agent: PracticeAgent
   action: 'Failed portal for Infinity Assurance Solutions Private Limited Computer
     Vision: Gemini failed to generate project recommendations'
   status: error
@@ -2504,3 +2499,7 @@ logs:
   action: 106 jobs fetched, 91 relevant
   level: INFO
   timestamp: '2026-04-14T06:01:07'
+- agent: CareerAgent
+  action: Stored in GitHub YAML
+  level: INFO
+  timestamp: '2026-04-14T06:01:23'
