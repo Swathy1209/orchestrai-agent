@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Skill Bharat Association Artificial Intelligence Intern:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-14T02:44:32'
-- agent: PracticeAgent
   action: 'Failed portal for The Agency Source Data Science Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2500,3 +2495,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-14T04:41:49'
+- agent: PracticeAgent
+  action: 'Failed portal for Bosch Home Comfort USA Autonomous Driving – Internship
+    in Machine Learning: Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-14T04:41:54'
