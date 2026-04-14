@@ -1,9 +1,4 @@
 logs:
-- agent: PracticeAgent
-  action: 'Failed portal for ByteDance Machine Learning Engineer Intern (E-commerce-Conversational
-    AI) - 2026 Summer/Fall (PhD): Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-14T02:00:55'
 - agent: CareerAgent
   action: 103 jobs fetched, 88 relevant
   level: INFO
@@ -2499,3 +2494,8 @@ logs:
     (BS/MS): Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-14T03:56:39'
+- agent: PracticeAgent
+  action: 'Failed portal for Booz Allen Hamilton Data Analyst, Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-14T03:56:51'
