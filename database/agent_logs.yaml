@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Cardinal Health Machine Learning Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-14T01:54:09'
-- agent: PracticeAgent
   action: 'Failed portal for Astra Security Machine Learning Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2498,3 +2493,8 @@ logs:
     Engineering Intern: Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-14T03:50:01'
+- agent: PracticeAgent
+  action: 'Failed portal for Tesla Internship, Machine Learning Engineer, NVH, Vehicle
+    Engineering (Summer 2026): Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-14T03:50:12'
