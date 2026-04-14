@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Company 9 LLC AI Engineer Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-14T11:50:34'
-- agent: PracticeAgent
   action: 'Failed portal for Morph Machine Learning Researcher PhD Intern: Gemini
     failed to generate project recommendations'
   status: error
@@ -2500,3 +2495,8 @@ logs:
   action: 'Scanned 47 repos, priority fix: Hardcoded API Key'
   status: completed
   timestamp: '2026-04-14T14:05:11'
+- agent: PracticeAgent
+  action: 'Failed portal for Perpay Inc. Data Science Internship, 2026: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-14T14:05:15'
