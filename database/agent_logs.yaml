@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Black Potato Systems Data Engineering & Database Research:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-14T07:14:49'
-- agent: PracticeAgent
   action: 'Failed portal for Hexa Solution Data Analyst: Gemini failed to generate
     project recommendations'
   status: error
@@ -2502,3 +2497,8 @@ logs:
   action: 106 jobs fetched, 91 relevant
   level: INFO
   timestamp: '2026-04-14T10:01:05'
+- agent: PracticeAgent
+  action: 'Failed portal for Strata Decision Technology Intern, Data Science: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-14T10:01:14'
