@@ -1,9 +1,5 @@
 logs:
 - agent: CareerAgent
-  action: 103 jobs fetched, 88 relevant
-  level: INFO
-  timestamp: '2026-04-14T02:01:02'
-- agent: CareerAgent
   action: Stored in GitHub YAML
   level: INFO
   timestamp: '2026-04-14T02:01:10'
@@ -2499,3 +2495,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-14T03:56:51'
+- agent: PracticeAgent
+  action: 'Failed portal for Hayward Holdings, Inc. ERP Dashboard and Data Analyst
+    Intern: Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-14T03:57:02'
