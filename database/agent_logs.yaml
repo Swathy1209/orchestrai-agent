@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for AI4SEE PRIVATE LIMITED Artificial Intelligence Intern:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-14T08:35:33'
-- agent: PracticeAgent
   action: 'Failed portal for TSTEPS PRIVATE LIMITED Data Science Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2503,3 +2498,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-14T10:51:46'
+- agent: PracticeAgent
+  action: 'Failed portal for Qubixo Data Science Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-14T10:52:00'
