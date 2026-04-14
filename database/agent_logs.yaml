@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Technoculture Research Artificial Intelligence Intern:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-14T03:27:20'
-- agent: PracticeAgent
   action: 'Failed portal for Lensa AI Data Science Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2505,3 +2500,8 @@ logs:
     Intern: Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-14T04:56:11'
+- agent: PracticeAgent
+  action: 'Failed portal for RAJ DRISHTI OPTICS Data Science Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-14T04:56:16'
