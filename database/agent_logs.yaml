@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Dynamo AI ML Research Scientist Intern – Dynamo Guard
-    / Dynamo Eval / AgentWarden: Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-14T10:07:10'
-- agent: PracticeAgent
   action: 'Failed portal for Statcon Energiaa Data Science Intern: Gemini failed to
     generate project recommendations'
   status: error
@@ -2499,3 +2494,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-14T12:26:13'
+- agent: PracticeAgent
+  action: 'Failed portal for Moloco Machine Learning Engineer Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-14T12:26:25'
