@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for CareerNest Machine Learning Intern: Gemini failed to
-    generate project recommendations'
-  status: error
-  timestamp: '2026-04-14T17:21:54'
-- agent: PracticeAgent
   action: 'Failed portal for VISHVASNIYA EDUCATION FOUNDATION Artificial Intelligence
     Intern: Gemini failed to generate project recommendations'
   status: error
@@ -2499,3 +2494,8 @@ logs:
     recommendations'
   status: error
   timestamp: '2026-04-14T19:50:06'
+- agent: PracticeAgent
+  action: 'Failed portal for d-Matrix Machine Learning Research Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-14T19:50:19'
