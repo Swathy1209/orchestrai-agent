@@ -1,9 +1,4 @@
 logs:
-- agent: PracticeAgent
-  action: 'Failed portal for Across The Globe (ATG) Artificial Intelligence Intern:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-14T09:32:26'
 - agent: ResumeOptimizationAgent
   action: Generated optimizations for 789 internships
   status: success
@@ -2505,3 +2500,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-14T11:56:00'
+- agent: PracticeAgent
+  action: 'Failed portal for Cardinal Health Machine Learning Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-14T11:56:12'
