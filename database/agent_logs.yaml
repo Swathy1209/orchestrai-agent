@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Giant Leap Data Science Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-14T09:45:40'
-- agent: PracticeAgent
   action: 'Failed portal for Expose Trendze Machine Learning Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2509,3 +2504,7 @@ logs:
     | New York: Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-14T12:00:29'
+- agent: CareerAgent
+  action: Fetch started
+  level: INFO
+  timestamp: '2026-04-14T12:00:35'
