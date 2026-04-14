@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Fermions Machine Learning Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-14T16:16:31'
-- agent: PracticeAgent
   action: 'Failed portal for Kayno World Education Private Limited Machine Learning
     Intern: Gemini failed to generate project recommendations'
   status: error
@@ -2505,3 +2500,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-14T18:35:30'
+- agent: PracticeAgent
+  action: 'Failed portal for Primetrade.ai Data Science: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-14T18:35:44'
