@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Intuit Staff Compliance Assurance  Technical Data Analyst:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-14T07:08:54'
-- agent: PracticeAgent
   action: 'Failed portal for IT-Infotek Data Science Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2500,3 +2495,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-14T09:51:49'
+- agent: PracticeAgent
+  action: 'Failed portal for ASSA ABLOY Group Data Analyst Intern: Gemini failed to
+    generate project recommendations'
+  status: error
+  timestamp: '2026-04-14T09:52:02'
