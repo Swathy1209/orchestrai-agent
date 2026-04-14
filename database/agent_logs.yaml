@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Matson, Inc. AI & Machine Learning Intern – Operations:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-14T20:54:08'
-- agent: PracticeAgent
   action: 'Failed portal for Quarterhill Inc. Machine Learning Engineer Intern: Gemini
     failed to generate project recommendations'
   status: error
@@ -2499,3 +2494,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-14T23:03:47'
+- agent: PracticeAgent
+  action: 'Failed portal for 365 Retail Markets Business Analyst Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-14T23:03:59'
