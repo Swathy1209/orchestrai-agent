@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Infits Machine Learning: Gemini failed to generate project
-    recommendations'
-  status: error
-  timestamp: '2026-04-14T03:09:00'
-- agent: PracticeAgent
   action: 'Failed portal for DISH TV AI Data Analyst Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2504,3 +2499,8 @@ logs:
     Intelligence (AI): Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-14T04:52:18'
+- agent: PracticeAgent
+  action: 'Failed portal for Internet2 Data Analyst Intern - Internet2 NET+ Program:
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-14T04:52:25'
