@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Arvyax Technologies Private Limited Machine Learning:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-14T16:35:06'
-- agent: PracticeAgent
   action: 'Failed portal for Career Solutions Data Science: Gemini failed to generate
     project recommendations'
   status: error
@@ -2503,3 +2498,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-14T18:48:27'
+- agent: PracticeAgent
+  action: 'Failed portal for Orange Technologies Data Science Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-14T18:48:41'
