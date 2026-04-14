@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Connors Group Data Analyst Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-14T06:00:40'
-- agent: PracticeAgent
   action: 'Failed portal for Veracode Business Analyst Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2501,3 +2496,8 @@ logs:
     - Quality Assurance: Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-14T07:08:42'
+- agent: PracticeAgent
+  action: 'Failed portal for Intuit Staff Compliance Assurance  Technical Data Analyst:
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-14T07:08:49'
