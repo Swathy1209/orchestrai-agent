@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Red Ventures We''re Planning Ahead - Join the Talent
-    Pipeline for our 2027 Business Analyst Internship: Gemini failed to generate project
-    recommendations'
-  status: error
-  timestamp: '2026-04-14T05:57:04'
-- agent: PracticeAgent
   action: 'Failed portal for Gotion Inc. Data Analyst: Gemini failed to generate project
     recommendations'
   status: error
@@ -2501,3 +2495,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-14T07:06:54'
+- agent: PracticeAgent
+  action: 'Failed portal for ChatGPT Jobs Data Engineer Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-14T07:07:00'
