@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Goldman Sachs Business Analyst: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-15T10:51:57'
-- agent: PracticeAgent
   action: 'Failed portal for Orange Technologies Data Science Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2497,3 +2492,8 @@ logs:
     Internship: Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-15T13:09:09'
+- agent: PracticeAgent
+  action: 'Failed portal for Sofar Ocean Machine Learning Intern: Gemini failed to
+    generate project recommendations'
+  status: error
+  timestamp: '2026-04-15T13:09:22'
