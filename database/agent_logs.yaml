@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Trader For Tomorrow Data Science Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-14T21:56:42'
-- agent: PracticeAgent
   action: 'Failed portal for Euphotic Labs Private Limited Data Science Intern: Gemini
     failed to generate project recommendations'
   status: error
@@ -2500,3 +2495,8 @@ logs:
   action: Fetch started
   level: INFO
   timestamp: '2026-04-15T00:00:36'
+- agent: PracticeAgent
+  action: 'Failed portal for ChatGPT Jobs SAP iXp Intern - AI Machine Learning: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-15T00:00:51'
