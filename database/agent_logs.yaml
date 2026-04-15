@@ -1,8 +1,4 @@
 logs:
-- agent: PortfolioBuilderAgent
-  action: Generated Portfolio
-  status: success
-  timestamp: '2026-04-15T20:06:02'
 - agent: PracticeAgent
   action: 'Failed portal for ChatGPT Jobs Research Scientist Intern: Gemini failed
     to generate project recommendations'
@@ -2497,3 +2493,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-15T22:28:09'
+- agent: PracticeAgent
+  action: 'Failed portal for Calipers Consulting Private Limited Data Science Intern:
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-15T22:28:21'
