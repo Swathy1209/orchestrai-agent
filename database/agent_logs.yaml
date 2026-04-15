@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for PlanetMeta.Live Machine Learning Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-15T00:29:41'
-- agent: PracticeAgent
   action: 'Failed portal for Unknown Data Science Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2497,3 +2492,8 @@ logs:
     generate project recommendations'
   status: error
   timestamp: '2026-04-15T02:34:50'
+- agent: PracticeAgent
+  action: 'Failed portal for Mahindra & Mahindra Ltd. AI Engineer: Gemini failed to
+    generate project recommendations'
+  status: error
+  timestamp: '2026-04-15T02:35:02'
