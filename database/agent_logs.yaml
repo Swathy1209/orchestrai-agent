@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for eClerx Business Analyst: Gemini failed to generate project
-    recommendations'
-  status: error
-  timestamp: '2026-04-15T11:11:57'
-- agent: PracticeAgent
   action: 'Failed portal for StoryBizz Media Private Limited Data Science Intern:
     Gemini failed to generate project recommendations'
   status: error
@@ -2494,3 +2489,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-15T13:46:46'
+- agent: PracticeAgent
+  action: 'Failed portal for Zypp Electric Machine Learning Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-15T13:46:59'
