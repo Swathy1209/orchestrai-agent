@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for KAN Universal Private Limited Artificial Intelligence
-    Intern: Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-15T10:23:45'
-- agent: PracticeAgent
   action: 'Failed portal for Safalta Setu Data Science Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2496,3 +2491,8 @@ logs:
     Intelligence Intern: Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-15T12:40:50'
+- agent: PracticeAgent
+  action: 'Failed portal for Certiwisehub Data Science Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-15T12:41:02'
