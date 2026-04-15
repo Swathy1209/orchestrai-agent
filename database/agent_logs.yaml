@@ -1,8 +1,4 @@
 logs:
-- agent: OpportunityMatchingAgent
-  action: Generated match scores for 802 internships
-  status: success
-  timestamp: '2026-04-14T23:45:45'
 - agent: PracticeAgent
   action: 'Failed portal for Cinemate™ Data Science Intern: Gemini failed to generate
     project recommendations'
@@ -2499,3 +2495,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-15T01:42:17'
+- agent: PracticeAgent
+  action: 'Failed portal for Anubhav Singh Data Science Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-15T01:42:28'
