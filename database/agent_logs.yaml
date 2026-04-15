@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Greenlight Data Engineering Intern: Gemini failed to
-    generate project recommendations'
-  status: error
-  timestamp: '2026-04-15T00:07:44'
-- agent: PracticeAgent
   action: 'Failed portal for State of Florida DATA SCIENCE INTERNSHIP: Gemini failed
     to generate project recommendations'
   status: error
@@ -2503,3 +2498,8 @@ logs:
     generate project recommendations'
   status: error
   timestamp: '2026-04-15T02:03:49'
+- agent: PracticeAgent
+  action: 'Failed portal for Tax-O-Smart LLP Data Science Intern: Gemini failed to
+    generate project recommendations'
+  status: error
+  timestamp: '2026-04-15T02:04:01'
