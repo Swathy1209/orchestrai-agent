@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Irizpro Learning Solutions Artificial Intelligence (AI):
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-15T17:02:35'
-- agent: PracticeAgent
   action: 'Failed portal for Wofo24 Technologies Private Limited Data Science Intern:
     Gemini failed to generate project recommendations'
   status: error
@@ -2502,3 +2497,8 @@ logs:
     Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-15T19:15:19'
+- agent: PracticeAgent
+  action: 'Failed portal for Sanatan Organic Machine Learning Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-15T19:15:31'
