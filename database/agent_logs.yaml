@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for S&P Global Loan Reference Data Analyst: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-15T16:48:31'
-- agent: PracticeAgent
   action: 'Failed portal for Cornerstone Associate AI Engineer: Gemini failed to generate
     project recommendations'
   status: error
@@ -2500,3 +2495,8 @@ logs:
     Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-15T19:01:12'
+- agent: PracticeAgent
+  action: 'Failed portal for Suresh Dani''s Classes Data Science: Gemini failed to
+    generate project recommendations'
+  status: error
+  timestamp: '2026-04-15T19:01:27'
