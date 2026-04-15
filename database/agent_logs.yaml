@@ -1,9 +1,4 @@
 logs:
-- agent: PracticeAgent
-  action: 'Failed portal for TetraMem - Accelerate The World US 2026 Software - Machine
-    Learning Intern: Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-15T08:07:56'
 - agent: RepoSecurityScannerAgent
   action: 'Scanned 47 repos, priority fix: Hardcoded API Key'
   status: completed
@@ -2499,3 +2494,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-15T10:29:02'
+- agent: PracticeAgent
+  action: 'Failed portal for Twango Data Science Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-15T10:29:15'
