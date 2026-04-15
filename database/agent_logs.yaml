@@ -1,9 +1,4 @@
 logs:
-- agent: PracticeAgent
-  action: 'Failed portal for Login2Xplore Machine Learning Intern: Gemini failed to
-    generate project recommendations'
-  status: error
-  timestamp: '2026-04-15T07:39:44'
 - agent: ResumeOptimizationAgent
   action: Generated optimizations for 805 internships
   status: success
@@ -2500,3 +2495,8 @@ logs:
     generate project recommendations'
   status: error
   timestamp: '2026-04-15T10:14:41'
+- agent: PracticeAgent
+  action: 'Failed portal for Rebel Athletic Ai Engineer Internship: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-15T10:14:54'
