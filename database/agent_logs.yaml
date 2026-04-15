@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Stackwise Artificial Intelligence Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-15T18:28:21'
-- agent: PracticeAgent
   action: 'Failed portal for Cornerstone Building Brands Data Analyst Intern: Gemini
     failed to generate project recommendations'
   status: error
@@ -2502,3 +2497,8 @@ logs:
     recommendations'
   status: error
   timestamp: '2026-04-15T20:38:36'
+- agent: PracticeAgent
+  action: 'Failed portal for IIT Guwahati Data Science Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-15T20:38:50'
