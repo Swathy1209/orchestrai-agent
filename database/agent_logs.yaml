@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Stanford University School of Medicine Data Analyst 1
-    (1 Year Fixed Term): Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-15T19:54:50'
-- agent: PracticeAgent
   action: 'Failed portal for Berkshire Hathaway GUARD Insurance Companies Data-AI
     Engineering Intern: Gemini failed to generate project recommendations'
   status: error
@@ -2494,3 +2489,8 @@ logs:
     - 2026 Start (PhD): Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-15T22:13:08'
+- agent: PracticeAgent
+  action: 'Failed portal for Pairwise Data Science Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-15T22:13:32'
