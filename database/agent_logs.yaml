@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for 365 Retail Markets Business Analyst Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-15T09:09:26'
-- agent: PracticeAgent
   action: 'Failed portal for Carer Ai Data Science: Gemini failed to generate project
     recommendations'
   status: error
@@ -2502,3 +2497,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-15T11:23:58'
+- agent: PracticeAgent
+  action: 'Failed portal for Lensa Intern - Data Science, Generative AI: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-15T11:24:22'
