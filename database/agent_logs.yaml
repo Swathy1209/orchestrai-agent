@@ -1,8 +1,4 @@
 logs:
-- agent: AutoApplyAgent
-  action: Generated Application Packages for 804 internships
-  status: success
-  timestamp: '2026-04-15T01:41:26'
 - agent: PracticeAgent
   action: 'Failed portal for Career Solutions Machine Learning Intern: Gemini failed
     to generate project recommendations'
@@ -2498,3 +2494,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-15T03:52:34'
+- agent: PracticeAgent
+  action: 'Failed portal for Veracode Business Analyst Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-15T03:52:46'
