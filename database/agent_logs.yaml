@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for ASSA ABLOY Group Data Analyst Intern: Gemini failed to
-    generate project recommendations'
-  status: error
-  timestamp: '2026-04-15T17:54:09'
-- agent: PracticeAgent
   action: 'Failed portal for Red Ventures We''re Planning Ahead - Join the Talent
     Pipeline for our 2027 Business Analyst Internship: Gemini failed to generate project
     recommendations'
@@ -2500,3 +2495,8 @@ logs:
     Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-15T20:03:58'
+- agent: PracticeAgent
+  action: 'Failed portal for TZURONI LTD. (Kefar Sava, Israel) Data Science Intern:
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-15T20:04:11'
