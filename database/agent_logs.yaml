@@ -3,11 +3,6 @@ logs:
   action: 'Failed portal for The Skill Guru Foundation Data Science Intern: Gemini
     failed to generate project recommendations'
   status: error
-  timestamp: '2026-04-15T05:38:24'
-- agent: PracticeAgent
-  action: 'Failed portal for The Skill Guru Foundation Data Science Intern: Gemini
-    failed to generate project recommendations'
-  status: error
   timestamp: '2026-04-15T05:38:32'
 - agent: PracticeAgent
   action: 'Failed portal for Optum Senior Data Engineering Consultant: Gemini failed
@@ -2506,3 +2501,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-15T06:57:30'
+- agent: PracticeAgent
+  action: 'Failed portal for GreenLeaf, a Chefs'' Warehouse company Data Analyst Intern:
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-15T06:57:38'
