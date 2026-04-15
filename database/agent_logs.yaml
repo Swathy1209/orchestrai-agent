@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Go Offer Business Analyst Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-15T08:33:02'
-- agent: PracticeAgent
   action: 'Failed portal for Veolia Intern - Business Analyst: Gemini failed to generate
     project recommendations'
   status: error
@@ -2503,3 +2498,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-15T10:45:36'
+- agent: PracticeAgent
+  action: 'Failed portal for ServiceHive Machine Learning Intern: Gemini failed to
+    generate project recommendations'
+  status: error
+  timestamp: '2026-04-15T10:45:49'
