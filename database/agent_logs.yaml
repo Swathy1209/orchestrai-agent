@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Cardinal Health Machine Learning Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-15T17:59:07'
-- agent: PracticeAgent
   action: 'Failed portal for Aadi Foundation Machine Learning Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2496,3 +2491,8 @@ logs:
   action: Generated Portfolio
   status: success
   timestamp: '2026-04-15T20:06:02'
+- agent: PracticeAgent
+  action: 'Failed portal for ChatGPT Jobs Research Scientist Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-15T20:06:17'
