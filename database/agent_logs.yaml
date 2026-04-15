@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Skill Bharat Association Machine Learning Intern: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-15T00:44:19'
-- agent: PracticeAgent
   action: 'Failed portal for Skill Bharat Association Artificial Intelligence Intern:
     Gemini failed to generate project recommendations'
   status: error
@@ -2495,3 +2490,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-15T02:53:58'
+- agent: PracticeAgent
+  action: 'Failed portal for REALBRIDGE Artificial Intelligence (AI): Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-15T02:54:11'
