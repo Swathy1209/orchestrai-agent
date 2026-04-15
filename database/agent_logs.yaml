@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for ODN Digital Services Private Limited Data Science Intern:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-15T07:27:40'
-- agent: PracticeAgent
   action: 'Failed portal for Conversely Data Science Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2501,3 +2496,8 @@ logs:
     recommendations'
   status: error
   timestamp: '2026-04-15T10:04:27'
+- agent: PracticeAgent
+  action: 'Failed portal for Talkspace NLP Research Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-15T10:04:40'
