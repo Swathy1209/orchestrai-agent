@@ -1,8 +1,4 @@
 logs:
-- agent: CareerAgent
-  action: 103 jobs fetched, 88 relevant
-  level: INFO
-  timestamp: '2026-04-15T18:01:09'
 - agent: PracticeAgent
   action: 'Failed portal for Melotech Data Science Intern, Music & Audio: Gemini failed
     to generate project recommendations'
@@ -2499,3 +2495,8 @@ logs:
     - 2026 Summer (BS/MS): Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-15T20:11:24'
+- agent: PracticeAgent
+  action: 'Failed portal for Greenlight Data Engineering Intern: Gemini failed to
+    generate project recommendations'
+  status: error
+  timestamp: '2026-04-15T20:12:26'
