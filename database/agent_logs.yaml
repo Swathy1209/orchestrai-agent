@@ -1,9 +1,4 @@
 logs:
-- agent: PracticeAgent
-  action: 'Failed portal for Trader For Tomorrow Data Science Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-15T10:00:44'
 - agent: CareerAgent
   action: 106 jobs fetched
   level: INFO
@@ -2492,3 +2487,9 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-15T12:26:52'
+- agent: PracticeAgent
+  action: 'Failed portal for TikTok (General Hire) Machine Learning Engineer Intern
+    (TikTok-Recommendation) - 2026 Summer (BS/MS): Gemini failed to generate project
+    recommendations'
+  status: error
+  timestamp: '2026-04-15T12:27:07'
