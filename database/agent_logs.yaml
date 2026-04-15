@@ -1,9 +1,4 @@
 logs:
-- agent: SkillAgent
-  action: Skill gap analysis complete
-  status: success
-  timestamp: '2026-04-15T04:02:10'
-  details: Analyzed 805 jobs.
 - agent: PracticeAgent
   action: 'Failed portal for NewAge Industries, Inc. Data Analyst Intern: Gemini failed
     to generate project recommendations'
@@ -2507,3 +2502,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-15T05:18:13'
+- agent: PracticeAgent
+  action: 'Failed portal for The Goat Academy Private Limited Data Science Intern:
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-15T05:18:26'
