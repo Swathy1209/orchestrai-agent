@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Main Marshals Data Science Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-15T09:05:50'
-- agent: PracticeAgent
   action: 'Failed portal for Institute Of AI Machine Learning Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2502,3 +2497,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-15T11:18:04'
+- agent: PracticeAgent
+  action: 'Failed portal for SAV (Scale Asia Ventures) AI Engineer Intern: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-15T11:18:17'
