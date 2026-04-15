@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Ondezx group Business Analyst: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-15T18:43:41'
-- agent: PracticeAgent
   action: 'Failed portal for Mem0 AI Machine Learning Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2500,3 +2495,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-15T20:58:29'
+- agent: PracticeAgent
+  action: 'Failed portal for Xolver AI Physical AI Engineer (Internship): Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-15T20:58:42'
