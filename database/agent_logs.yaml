@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Hubnine India Private Limited Artificial Intelligence
-    Intern: Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-14T22:19:17'
-- agent: PracticeAgent
   action: 'Failed portal for Blismos Solutions Private Limited Data Science Intern:
     Gemini failed to generate project recommendations'
   status: error
@@ -2497,3 +2492,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-15T00:23:41'
+- agent: PracticeAgent
+  action: 'Failed portal for Calipers Consulting Private Limited Data Science Intern:
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-15T00:23:47'
