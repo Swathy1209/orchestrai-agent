@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Chamadia Group Data Science Intern: Gemini failed to
-    generate project recommendations'
-  status: error
-  timestamp: '2026-04-15T17:19:20'
-- agent: PracticeAgent
   action: 'Failed portal for Kumaresh Chinnaswamy Machine Learning Intern: Gemini
     failed to generate project recommendations'
   status: error
@@ -2499,3 +2494,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-15T19:42:55'
+- agent: PracticeAgent
+  action: 'Failed portal for Preplaced Machine Learning Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-15T19:43:08'
