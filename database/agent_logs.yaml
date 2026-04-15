@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for XED Executive Development Private Limited Artificial
-    Intelligence Intern: Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-15T18:41:19'
-- agent: PracticeAgent
   action: 'Failed portal for Certiwisehub Data Science Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2500,3 +2495,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-15T20:56:10'
+- agent: PracticeAgent
+  action: 'Failed portal for Newzeninfotech Solutions Data Science: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-15T20:56:23'
