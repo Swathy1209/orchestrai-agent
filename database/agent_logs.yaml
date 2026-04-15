@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Booz Allen Hamilton Data Analyst, Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-15T03:57:20'
-- agent: PracticeAgent
   action: 'Failed portal for Hayward Holdings, Inc. ERP Dashboard and Data Analyst
     Intern: Gemini failed to generate project recommendations'
   status: error
@@ -2501,3 +2496,8 @@ logs:
     Internship: Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-15T05:11:29'
+- agent: PracticeAgent
+  action: 'Failed portal for Sofar Ocean Machine Learning Intern: Gemini failed to
+    generate project recommendations'
+  status: error
+  timestamp: '2026-04-15T05:11:39'
