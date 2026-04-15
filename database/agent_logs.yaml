@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Red Ventures We''re Planning Ahead - Join the Talent
-    Pipeline for our 2027 Business Analyst Internship: Gemini failed to generate project
-    recommendations'
-  status: error
-  timestamp: '2026-04-15T19:54:12'
-- agent: PracticeAgent
   action: 'Failed portal for Envestnet Data Analyst II: Gemini failed to generate
     project recommendations'
   status: error
@@ -2495,3 +2489,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-15T22:12:43'
+- agent: PracticeAgent
+  action: 'Failed portal for webAI Summer Internship - Machine Learning Engineer:
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-15T22:12:56'
