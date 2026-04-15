@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Primetrade.ai Artificial Intelligence Intern: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-15T21:14:30'
-- agent: PracticeAgent
   action: 'Failed portal for Green Letter Technologies Artificial Intelligence Intern:
     Gemini failed to generate project recommendations'
   status: error
@@ -2495,3 +2490,8 @@ logs:
     Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-15T23:38:43'
+- agent: PracticeAgent
+  action: 'Failed portal for Bosch USA Artificial Intelligence / Machine Learning
+    - Intern: Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-15T23:38:55'
