@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Viant Technology Machine Learning Engineering Internship
-    - Summer 2026: Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-15T06:42:51'
-- agent: PracticeAgent
   action: 'Failed portal for Barclays Data Engineer: Gemini failed to generate project
     recommendations'
   status: error
@@ -2498,3 +2493,8 @@ logs:
     recommendations'
   status: error
   timestamp: '2026-04-15T08:31:09'
+- agent: PracticeAgent
+  action: 'Failed portal for AUMOVIO Data Analysis Intern (Yearlong): Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-15T08:31:21'
