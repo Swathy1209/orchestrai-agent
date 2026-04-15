@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for PathAI Machine Learning Intern/Co-op (Summer 2026): Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-15T16:27:16'
-- agent: PracticeAgent
   action: 'Failed portal for HDR Data Science/Analysis Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2504,3 +2499,8 @@ logs:
     generate project recommendations'
   status: error
   timestamp: '2026-04-15T18:39:19'
+- agent: PracticeAgent
+  action: 'Failed portal for The Walt Disney Company Machine Learning Engineer Intern,
+    Seattle, Summer 2026: Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-15T18:39:31'
