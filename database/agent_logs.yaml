@@ -1,9 +1,4 @@
 logs:
-- agent: PracticeAgent
-  action: 'Failed portal for Woven by Toyota Machine Learning Engineer, Vehicle Perception
-    (Internship): Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-15T04:07:44'
 - agent: PortfolioBuilderAgent
   action: Generated Portfolio
   status: success
@@ -2509,3 +2504,8 @@ logs:
     generate project recommendations'
   status: error
   timestamp: '2026-04-15T05:24:18'
+- agent: PracticeAgent
+  action: 'Failed portal for VISHVASNIYA EDUCATION FOUNDATION Artificial Intelligence
+    Intern: Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-15T05:24:45'
