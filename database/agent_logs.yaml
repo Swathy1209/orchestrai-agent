@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Artha Energy Projects Private Limited Data Science: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-15T07:12:20'
-- agent: PracticeAgent
   action: 'Failed portal for StoryBizz Media Private Limited Data Science Intern:
     Gemini failed to generate project recommendations'
   status: error
@@ -2500,3 +2495,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-15T09:43:43'
+- agent: PracticeAgent
+  action: 'Failed portal for Tidal7 Asia - A J7 Agency Data Science Intern: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-15T09:44:20'
