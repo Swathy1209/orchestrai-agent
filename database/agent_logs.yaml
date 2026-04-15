@@ -1,9 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: PracticeAgent run initiated
-  status: success
-  timestamp: '2026-04-14T22:22:25'
-- agent: PracticeAgent
   action: 'Failed portal for Tech Analogy Machine Learning Intern: Gemini failed to
     generate project recommendations'
   status: error
@@ -2498,3 +2494,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-15T00:24:21'
+- agent: PracticeAgent
+  action: 'Failed portal for Upstart Machine Learning Engineer Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-15T00:24:28'
