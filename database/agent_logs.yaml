@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for BrainChip Machine Learning Systems Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-15T12:34:50'
-- agent: PracticeAgent
   action: 'Failed portal for PlanetMeta.Live Machine Learning Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2492,3 +2487,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-15T14:53:00'
+- agent: PracticeAgent
+  action: 'Failed portal for Lensa Data Science Internship: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-15T14:53:14'
