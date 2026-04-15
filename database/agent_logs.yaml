@@ -1,9 +1,4 @@
 logs:
-- agent: PracticeAgent
-  action: 'Failed portal for Physics World Graph Machine Learning Research Intern:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-15T00:04:53'
 - agent: RepoSecurityScannerAgent
   action: 'Scanned 47 repos, priority fix: Hardcoded API Key'
   status: completed
@@ -2502,3 +2497,8 @@ logs:
   status: success
   timestamp: '2026-04-15T02:01:42'
   details: Analyzed 804 jobs.
+- agent: PracticeAgent
+  action: 'Failed portal for Inorbvict Healthcare India Private Limited Machine Learning
+    Intern: Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-15T02:01:56'
