@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Webbybutter Technologies Data Science Intern: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-15T17:16:44'
-- agent: PracticeAgent
   action: 'Failed portal for Fine Data Analytics Private Limited Data Science Intern:
     Gemini failed to generate project recommendations'
   status: error
@@ -2500,3 +2495,8 @@ logs:
     generate project recommendations'
   status: error
   timestamp: '2026-04-15T19:38:44'
+- agent: PracticeAgent
+  action: 'Failed portal for Talview Data Science Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-15T19:39:21'
