@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Stackwise Machine Learning Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-15T06:32:14'
-- agent: PracticeAgent
   action: 'Failed portal for Toshiba America Electronic Components, Inc. 5039 Data
     Analyst Engineering Intern: Gemini failed to generate project recommendations'
   status: error
@@ -2503,3 +2498,8 @@ logs:
     recommendations'
   status: error
   timestamp: '2026-04-15T07:58:19'
+- agent: PracticeAgent
+  action: 'Failed portal for Envestnet Data Analyst II: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-15T07:58:45'
