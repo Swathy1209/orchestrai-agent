@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Five9 Agentic AI Applied Scientist Internship - NLP:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-15T19:11:05'
-- agent: PracticeAgent
   action: 'Failed portal for GenPark Machine Learning Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2500,3 +2495,8 @@ logs:
     Learning Intern: Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-15T21:30:01'
+- agent: PracticeAgent
+  action: 'Failed portal for Technoculture Research Machine Learning Intern: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-15T21:30:13'
