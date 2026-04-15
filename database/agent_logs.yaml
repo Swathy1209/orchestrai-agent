@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for BrainChip Machine Learning Engineer Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-15T10:38:00'
-- agent: PracticeAgent
   action: 'Failed portal for BrainChip Machine Learning Systems Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2497,3 +2492,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-15T12:54:47'
+- agent: PracticeAgent
+  action: 'Failed portal for Pathward Data Science Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-15T12:54:59'
