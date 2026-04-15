@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Emoolar Technology Private Limited Machine Learning Intern:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-15T09:36:18'
-- agent: PracticeAgent
   action: 'Failed portal for HSBC Business Analyst: Gemini failed to generate project
     recommendations'
   status: error
@@ -2501,3 +2496,8 @@ logs:
     recommendations'
   status: error
   timestamp: '2026-04-15T12:00:39'
+- agent: PracticeAgent
+  action: 'Failed portal for Talkspace NLP Research Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-15T12:00:53'
