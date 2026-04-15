@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Neurasys Machine Learning Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-15T11:20:52'
-- agent: PracticeAgent
   action: 'Failed portal for CareerNest Machine Learning Intern: Gemini failed to
     generate project recommendations'
   status: error
@@ -2494,3 +2489,8 @@ logs:
     Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-15T13:59:38'
+- agent: PracticeAgent
+  action: 'Failed portal for Procter & Gamble Data Engineer: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-15T13:59:50'
