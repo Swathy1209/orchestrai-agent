@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for StoryBizz Media Private Limited Artificial Intelligence
-    Intern: Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-15T09:16:07'
-- agent: PracticeAgent
   action: 'Failed portal for ScentAir Technology & Data Science Intern – ScentAir
     (Charlotte, NC): Gemini failed to generate project recommendations'
   status: error
@@ -2499,3 +2494,8 @@ logs:
   action: Generated optimizations for 818 internships
   status: success
   timestamp: '2026-04-15T11:38:20'
+- agent: PracticeAgent
+  action: 'Failed portal for Talview Data Science Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-15T11:38:35'
