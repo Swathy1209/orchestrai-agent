@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Company 9 LLC Business Analyst Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-15T17:41:09'
-- agent: PracticeAgent
   action: 'Failed portal for Pipraiser Data Science Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2502,3 +2497,7 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-15T20:00:56'
+- agent: CareerAgent
+  action: 103 jobs fetched, 88 relevant
+  level: INFO
+  timestamp: '2026-04-15T20:01:02'
