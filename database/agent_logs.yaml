@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Wobot Intelligence Private Limited Computer Vision: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-15T04:51:39'
-- agent: PracticeAgent
   action: 'Failed portal for Matson, Inc. AI & Machine Learning Intern – Operations:
     Gemini failed to generate project recommendations'
   status: error
@@ -2504,3 +2499,8 @@ logs:
     generate project recommendations'
   status: error
   timestamp: '2026-04-15T06:27:11'
+- agent: PracticeAgent
+  action: 'Failed portal for Restyle Machine Learning Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-15T06:27:25'
