@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for The Skill Guru Foundation Data Science Intern: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-15T19:35:37'
-- agent: PracticeAgent
   action: 'Failed portal for OMR Shipping India Private Limited Machine Learning Intern:
     Gemini failed to generate project recommendations'
   status: error
@@ -2501,3 +2496,7 @@ logs:
     recommendations'
   status: error
   timestamp: '2026-04-15T22:00:56'
+- agent: CareerAgent
+  action: 101 jobs fetched, 86 relevant
+  level: INFO
+  timestamp: '2026-04-15T22:01:03'
