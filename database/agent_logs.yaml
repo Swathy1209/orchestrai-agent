@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Convergent Research Computer Vision and Machine Learning
-    Intern: Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-15T01:56:08'
-- agent: PracticeAgent
   action: 'Failed portal for TikTok Data Engineer Intern (E-commerce) - 2026 Summer
     (BS/MS): Gemini failed to generate project recommendations'
   status: error
@@ -2487,3 +2482,8 @@ logs:
   action: Generated 2 security fix PRs
   status: completed
   timestamp: '2026-04-15T04:07:36'
+- agent: PracticeAgent
+  action: 'Failed portal for Woven by Toyota Machine Learning Engineer, Vehicle Perception
+    (Internship): Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-15T04:07:44'
