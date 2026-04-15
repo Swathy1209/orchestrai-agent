@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for CiteSert Artificial Intelligence Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-15T04:48:30'
-- agent: PracticeAgent
   action: 'Failed portal for PathAI Machine Learning Intern/Co-op (Summer/Fall 2026):
     Gemini failed to generate project recommendations'
   status: error
@@ -2504,3 +2499,8 @@ logs:
     Data Cycling Center) - 2026 Start (BS/MS): Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-15T06:18:32'
+- agent: PracticeAgent
+  action: 'Failed portal for ByteDance Benefits Operation Data Analyst Project Intern
+    - 2026 Start (BS): Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-15T06:18:47'
