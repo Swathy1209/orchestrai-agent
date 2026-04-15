@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Edify Equity Data Science Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-15T04:34:51'
-- agent: PracticeAgent
   action: 'Failed portal for Lensa Data Analyst Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2507,3 +2502,8 @@ logs:
     Learning Intern: Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-15T05:52:17'
+- agent: PracticeAgent
+  action: 'Failed portal for IWerk InfoSolutions LLP Machine Learning Intern: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-15T05:52:29'
