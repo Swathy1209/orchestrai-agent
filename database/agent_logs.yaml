@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for InfiVR Machine Learning Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-15T01:07:18'
-- agent: PracticeAgent
   action: 'Failed portal for Cognitiv Machine Learning Engineer Intern (Summer 2026):
     Gemini failed to generate project recommendations'
   status: error
@@ -2494,3 +2489,8 @@ logs:
     generate project recommendations'
   status: error
   timestamp: '2026-04-15T03:34:27'
+- agent: PracticeAgent
+  action: 'Failed portal for Assetcues Solutions Private Limited Data Science Intern:
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-15T03:34:39'
