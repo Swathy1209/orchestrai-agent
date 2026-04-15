@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Athena AI Engineer Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-15T17:55:36'
-- agent: PracticeAgent
   action: 'Failed portal for Tailorbird Software AI Engineering Internships: Gemini
     failed to generate project recommendations'
   status: error
@@ -2499,3 +2494,8 @@ logs:
     generate project recommendations'
   status: error
   timestamp: '2026-04-15T20:04:36'
+- agent: PracticeAgent
+  action: 'Failed portal for Euromonitor International Associate Data Analyst: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-15T20:04:49'
