@@ -1,8 +1,4 @@
 logs:
-- agent: CareerAgent
-  action: 77 jobs fetched, 62 relevant
-  level: INFO
-  timestamp: '2026-04-15T00:01:00'
 - agent: PracticeAgent
   action: 'Failed portal for Benjamin Moore Data Science & Analytics Intern: Gemini
     failed to generate project recommendations'
@@ -2502,3 +2498,8 @@ logs:
     Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-15T01:57:41'
+- agent: PracticeAgent
+  action: 'Failed portal for TZURONI LTD. (Kefar Sava, Israel) Machine Learning Intern:
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-15T01:57:53'
