@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for NewAge Industries, Inc. Data Analyst Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-15T16:08:17'
-- agent: PracticeAgent
   action: 'Failed portal for TechTrapture Machine Learning Intern: Gemini failed to
     generate project recommendations'
   status: error
@@ -2502,3 +2497,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-15T18:29:27'
+- agent: PracticeAgent
+  action: 'Failed portal for LivNSense Artificial Intelligence Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-15T18:29:31'
