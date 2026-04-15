@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Warewe Consultancy Private Limited Data Science Intern:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-15T11:14:57'
-- agent: PracticeAgent
   action: 'Failed portal for CapitalXB Data Science Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2496,3 +2491,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-15T13:54:20'
+- agent: PracticeAgent
+  action: 'Failed portal for Stanford University School of Medicine Data Analyst 1
+    (1 Year Fixed Term): Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-15T13:54:33'
