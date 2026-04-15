@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Innomax IT Solutions Machine Learning Intern: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-15T11:36:16'
-- agent: PracticeAgent
   action: 'Failed portal for Turing Machine Learning Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2487,3 +2482,8 @@ logs:
   action: 'Scanned 47 repos, priority fix: Hardcoded API Key'
   status: completed
   timestamp: '2026-04-15T14:05:15'
+- agent: PracticeAgent
+  action: 'Failed portal for ChatGPT Jobs SAP iXp Intern - AI Machine Learning: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-15T14:05:22'
