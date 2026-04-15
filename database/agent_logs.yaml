@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Bellwood Business Analyst / QA Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-15T17:01:16'
-- agent: PracticeAgent
   action: 'Failed portal for AmRit Hub Private Limited Artificial Intelligence (AI):
     Gemini failed to generate project recommendations'
   status: error
@@ -2502,3 +2497,8 @@ logs:
     recommendations'
   status: error
   timestamp: '2026-04-15T19:14:03'
+- agent: PracticeAgent
+  action: 'Failed portal for Primetrade.ai Data Science Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-15T19:14:15'
