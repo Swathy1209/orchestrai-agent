@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for CREATE Machine Learning Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-15T12:36:48'
-- agent: PracticeAgent
   action: 'Failed portal for SUN GROUP Artificial Intelligence Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2492,3 +2487,8 @@ logs:
     generate project recommendations'
   status: error
   timestamp: '2026-04-15T14:54:57'
+- agent: PracticeAgent
+  action: 'Failed portal for Aurora Financials AI / ML Engineering Intern: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-15T14:55:10'
