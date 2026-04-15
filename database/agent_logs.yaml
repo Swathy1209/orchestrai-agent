@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for IIIT Hyderabad Data Science Intern: Gemini failed to
-    generate project recommendations'
-  status: error
-  timestamp: '2026-04-15T15:19:36'
-- agent: PracticeAgent
   action: 'Failed portal for Chamadia Group Data Science Intern: Gemini failed to
     generate project recommendations'
   status: error
@@ -2506,3 +2501,8 @@ logs:
     Governance Algorithms) - 2026 Start (Phd): Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-15T17:56:38'
+- agent: PracticeAgent
+  action: 'Failed portal for Stripe PhD Machine Learning Engineer, Intern: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-15T17:57:03'
