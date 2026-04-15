@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for TZURONI LTD. (Kefar Sava, Israel) Data Science Intern:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-15T12:03:18'
-- agent: PracticeAgent
   action: 'Failed portal for TZURONI LTD. (Kefar Sava, Israel) Machine Learning Intern:
     Gemini failed to generate project recommendations'
   status: error
@@ -2486,3 +2481,9 @@ logs:
     Start (BS/MS): Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-15T14:32:31'
+- agent: PracticeAgent
+  action: 'Failed portal for TikTok Business Analyst Project Intern - Monetization
+    Strategy & Operations - 2026 Start (BS/MS): Gemini failed to generate project
+    recommendations'
+  status: error
+  timestamp: '2026-04-15T14:32:43'
