@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for IIDE Education Private Limited Artificial Intelligence
-    Intern: Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-15T15:38:35'
-- agent: PracticeAgent
   action: 'Failed portal for TÜV SÜD Intern - Business Analyst / Process Engineer:
     Gemini failed to generate project recommendations'
   status: error
@@ -2502,3 +2497,8 @@ logs:
   action: Generated 3 security fix PRs
   status: completed
   timestamp: '2026-04-15T18:05:54'
+- agent: PracticeAgent
+  action: 'Failed portal for Domyn AI Engineering and Research Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-15T18:05:59'
