@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Qwings Data Science Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-14T22:15:25'
-- agent: PracticeAgent
   action: 'Failed portal for Daten & Wissen Private Limited Machine Learning Intern:
     Gemini failed to generate project recommendations'
   status: error
@@ -2497,3 +2492,8 @@ logs:
     placeholder content. Regenerating...'
   status: error
   timestamp: '2026-04-15T00:22:32'
+- agent: PracticeAgent
+  action: 'Failed portal for Stackwise Machine Learning Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-15T00:22:38'
