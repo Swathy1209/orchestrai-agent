@@ -3,11 +3,6 @@ logs:
   action: 'Failed portal for LivNSense Machine Learning Intern: Gemini failed to generate
     project recommendations'
   status: error
-  timestamp: '2026-04-15T06:33:38'
-- agent: PracticeAgent
-  action: 'Failed portal for LivNSense Machine Learning Intern: Gemini failed to generate
-    project recommendations'
-  status: error
   timestamp: '2026-04-15T06:33:47'
 - agent: PracticeAgent
   action: 'Failed portal for LivNSense Artificial Intelligence Intern: Gemini failed
@@ -2502,3 +2497,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-15T08:03:09'
+- agent: PracticeAgent
+  action: 'Failed portal for Astra Security Machine Learning Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-15T08:03:56'
