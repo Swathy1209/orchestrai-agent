@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Siemens Agentic AI Engineer: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-15T06:51:01'
-- agent: PracticeAgent
   action: 'Failed portal for Bro''s Innovations And Technology. Data Science: Gemini
     failed to generate project recommendations'
   status: error
@@ -2500,3 +2495,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-15T08:48:31'
+- agent: PracticeAgent
+  action: 'Failed portal for MyCloud Technology Machine Learning Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-15T08:48:43'
