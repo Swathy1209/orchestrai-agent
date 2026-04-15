@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Mahindra & Mahindra Ltd. AI Engineer: Gemini failed to
-    generate project recommendations'
-  status: error
-  timestamp: '2026-04-15T18:42:11'
-- agent: PracticeAgent
   action: 'Failed portal for MyCloud Technology Data Science Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2500,3 +2495,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-15T20:57:01'
+- agent: PracticeAgent
+  action: 'Failed portal for Neoteric Analytics Data And AI Engineer Intern: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-15T20:57:13'
