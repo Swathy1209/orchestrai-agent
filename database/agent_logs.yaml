@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Outdoor Cap Company Product Development & Data Analysis
-    Intern: Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-15T10:09:47'
-- agent: PracticeAgent
   action: 'Failed portal for NewAge Industries, Inc. Data Analyst Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2496,3 +2491,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-15T12:34:36'
+- agent: PracticeAgent
+  action: 'Failed portal for BrainChip Machine Learning Systems Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-15T12:34:50'
