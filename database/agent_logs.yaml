@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for PathAI Machine Learning Intern/Co-op (Summer 2026): Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-15T06:30:43'
-- agent: PracticeAgent
   action: 'Failed portal for Disruptive Consultancy Services Private Limited (Development
     Monitors India) Artificial Intelligence Intern: Gemini failed to generate project
     recommendations'
@@ -2503,3 +2498,8 @@ logs:
   action: Generated optimizations for 805 internships
   status: success
   timestamp: '2026-04-15T07:39:54'
+- agent: PracticeAgent
+  action: 'Failed portal for IIDE Education Private Limited Artificial Intelligence
+    Intern: Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-15T07:39:59'
