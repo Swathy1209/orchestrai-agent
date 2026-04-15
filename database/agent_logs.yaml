@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Arthagro Agronomy Artificial Intelligence Intern: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-15T15:45:13'
-- agent: PracticeAgent
   action: 'Failed portal for Andaz Kumar Artificial Intelligence Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2501,3 +2496,8 @@ logs:
     - 2026 Summer (BS/MS): Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-15T18:12:00'
+- agent: PracticeAgent
+  action: 'Failed portal for Woven by Toyota Machine Learning Engineer, Perception
+    Autolabeling (Internship): Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-15T18:12:25'
