@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for TESK Labs Data Science Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-15T12:48:05'
-- agent: PracticeAgent
   action: 'Failed portal for TESK Labs Machine Learning Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2492,3 +2487,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-15T15:06:18'
+- agent: PracticeAgent
+  action: 'Failed portal for Sungrow Data Analyst Internship: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-15T15:06:31'
