@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Dassault Systèmes Data Science Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-15T19:46:01'
-- agent: PracticeAgent
   action: 'Failed portal for Automation Anywhere AI Engineer: Gemini failed to generate
     project recommendations'
   status: error
@@ -2497,3 +2492,8 @@ logs:
   action: Generated Portfolio
   status: success
   timestamp: '2026-04-15T22:05:59'
+- agent: PracticeAgent
+  action: 'Failed portal for Zoox Machine Learning Engineer Intern, Simulation: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-15T22:06:03'
