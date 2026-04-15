@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for TikTok (General Hire) Machine Learning Engineer Intern
-    (TikTok- Video Recommendation) - 2026 Summer (BS/MS): Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-14T23:57:33'
-- agent: PracticeAgent
   action: 'Failed portal for TetraMem - Accelerate The World US 2026 Software - Machine
     Learning Intern: Gemini failed to generate project recommendations'
   status: error
@@ -2498,3 +2492,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-15T01:54:01'
+- agent: PracticeAgent
+  action: 'Failed portal for Ekfrazo Technologies Azure Data Engineer: Detected incomplete
+    placeholder content. Regenerating...'
+  status: error
+  timestamp: '2026-04-15T01:54:12'
