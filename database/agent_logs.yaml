@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for REALBRIDGE Data Science Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-15T17:26:19'
-- agent: PracticeAgent
   action: 'Failed portal for California Medical Behavioral Health Data Science Intern:
     Gemini failed to generate project recommendations'
   status: error
@@ -2500,3 +2495,9 @@ logs:
     Chain & Logistics) - 2026 Start (PhD): Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-15T19:53:11'
+- agent: PracticeAgent
+  action: 'Failed portal for WayUp BMW, Overseas Supply Chain Operations and Data
+    Analysis Intern (Fall 2026) - Application via WayUp: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-15T19:53:36'
