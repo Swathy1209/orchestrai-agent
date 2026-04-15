@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Shunya Digital Data Science Intern: Gemini failed to
-    generate project recommendations'
-  status: error
-  timestamp: '2026-04-15T17:19:08'
-- agent: PracticeAgent
   action: 'Failed portal for Chamadia Group Data Science Intern: Gemini failed to
     generate project recommendations'
   status: error
@@ -2499,3 +2494,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-15T19:42:16'
+- agent: PracticeAgent
+  action: 'Failed portal for LawDocs Machine Learning Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-15T19:42:55'
