@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Tejate Education Private Limited Artificial Intelligence
-    Intern: Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-15T11:23:08'
-- agent: PracticeAgent
   action: 'Failed portal for The Hustle House Artificial Intelligence Intern: Gemini
     failed to generate project recommendations'
   status: error
@@ -2494,3 +2489,7 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-15T14:00:26'
+- agent: CareerAgent
+  action: Fetch started
+  level: INFO
+  timestamp: '2026-04-15T14:00:34'
