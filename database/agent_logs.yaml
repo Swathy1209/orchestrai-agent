@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for AIFINSPHERE INC. Business Analysts Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-15T00:28:10'
-- agent: PracticeAgent
   action: 'Failed portal for Maximus Business Analyst Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2498,3 +2493,8 @@ logs:
     recommendations'
   status: error
   timestamp: '2026-04-15T02:31:26'
+- agent: PracticeAgent
+  action: 'Failed portal for IIT Guwahati Data Science Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-15T02:31:38'
