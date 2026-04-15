@@ -1,9 +1,4 @@
 logs:
-- agent: PracticeAgent
-  action: 'Failed portal for STARTUP GROWW CONSULTING SERVICES PRIVATE LIMITED Data
-    Science Intern: Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-15T02:01:15'
 - agent: CareerAgent
   action: Email delegation passed to ExecutionAgent
   level: INFO
@@ -2489,3 +2484,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-15T04:20:07'
+- agent: PracticeAgent
+  action: 'Failed portal for Tech Analogy Machine Learning Intern: Gemini failed to
+    generate project recommendations'
+  status: error
+  timestamp: '2026-04-15T04:20:47'
