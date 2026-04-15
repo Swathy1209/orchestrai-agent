@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Innomax IT Solutions Machine Learning Intern: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-15T05:40:00'
-- agent: PracticeAgent
   action: 'Failed portal for Vaibhav Wakade Machine Learning Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2506,3 +2501,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-15T06:57:52'
+- agent: PracticeAgent
+  action: 'Failed portal for ILEAD Kolkata Artificial Intelligence (AI): Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-15T06:58:01'
