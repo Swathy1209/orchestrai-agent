@@ -1,9 +1,4 @@
 logs:
-- agent: PracticeAgent
-  action: 'Failed portal for Hubnine India Private Limited Artificial Intelligence
-    Intern: Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-15T08:26:57'
 - agent: CoverLetterAgent
   action: Generated 812 cover letters
   status: success
@@ -2502,3 +2497,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-15T10:39:19'
+- agent: PracticeAgent
+  action: 'Failed portal for Wobot Intelligence Private Limited Data Science Intern:
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-15T10:39:32'
