@@ -1,8 +1,4 @@
 logs:
-- agent: CoverLetterAgent
-  action: Generated 812 cover letters
-  status: success
-  timestamp: '2026-04-15T08:27:03'
 - agent: PracticeAgent
   action: PracticeAgent run initiated
   status: success
@@ -2502,3 +2498,8 @@ logs:
     Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-15T10:39:32'
+- agent: PracticeAgent
+  action: 'Failed portal for CREATE Data Science Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-15T10:39:44'
