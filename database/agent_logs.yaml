@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for WeJoy Phonfix Private Limited Artificial Intelligence
-    (AI): Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-14T22:54:54'
-- agent: PracticeAgent
   action: 'Failed portal for Bizlem Private Limited AI/ML Engineering: Gemini failed
     to generate project recommendations'
   status: error
@@ -2499,3 +2494,8 @@ logs:
     content. Regenerating...'
   status: error
   timestamp: '2026-04-15T00:50:32'
+- agent: PracticeAgent
+  action: 'Failed portal for Fractal Data Engineer: Gemini failed to generate project
+    recommendations'
+  status: error
+  timestamp: '2026-04-15T00:50:45'
