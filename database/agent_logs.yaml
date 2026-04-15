@@ -3,11 +3,6 @@ logs:
   action: 'Failed portal for SAV (Scale Asia Ventures) AI Engineer Intern: Gemini
     failed to generate project recommendations'
   status: error
-  timestamp: '2026-04-15T07:18:04'
-- agent: PracticeAgent
-  action: 'Failed portal for SAV (Scale Asia Ventures) AI Engineer Intern: Gemini
-    failed to generate project recommendations'
-  status: error
   timestamp: '2026-04-15T07:18:11'
 - agent: PracticeAgent
   action: 'Failed portal for Shunya Digital Data Science Intern: Gemini failed to
@@ -2502,3 +2497,7 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-15T10:00:44'
+- agent: CareerAgent
+  action: 106 jobs fetched
+  level: INFO
+  timestamp: '2026-04-15T10:00:57'
