@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for IndiaBizForSale.com Data Science Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-15T19:35:11'
-- agent: PracticeAgent
   action: 'Failed portal for CipherSchools (Chandigarh, India) Data Science Intern:
     Gemini failed to generate project recommendations'
   status: error
@@ -2499,3 +2494,9 @@ logs:
   action: Fetch started
   level: INFO
   timestamp: '2026-04-15T22:00:35'
+- agent: PracticeAgent
+  action: 'Failed portal for TikTok Machine Learning Engineer Intern (Trust and Safety
+    - CV/NLP/Multimodal LLM) - 2026 Summer(BS/MS): Gemini failed to generate project
+    recommendations'
+  status: error
+  timestamp: '2026-04-15T22:00:43'
