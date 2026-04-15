@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Gainwell Technologies Pharmacy Benefit Management Business
-    Architect/Data Analyst: Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-14T23:53:18'
-- agent: PracticeAgent
   action: 'Failed portal for Connors Group Data Analyst Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2499,3 +2494,8 @@ logs:
     Engineering (Summer 2026): Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-15T01:49:46'
+- agent: PracticeAgent
+  action: 'Failed portal for Tailorbird Software AI Engineering Internships: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-15T01:49:58'
