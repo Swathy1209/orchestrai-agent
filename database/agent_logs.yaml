@@ -1,9 +1,4 @@
 logs:
-- agent: PracticeAgent
-  action: 'Failed portal for NHS Ayrshire & Arran Principal Analyst – Data Engineering:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-14T22:05:31'
 - agent: AutoFixPRGeneratorAgent
   action: Generated 3 security fix PRs
   status: completed
@@ -2497,3 +2492,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-15T00:12:25'
+- agent: PracticeAgent
+  action: 'Failed portal for Daten & Wissen Private Limited Machine Learning Intern:
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-15T00:12:50'
