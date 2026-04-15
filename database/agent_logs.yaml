@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Tercept Incorporation Data Science Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-15T03:28:33'
-- agent: PracticeAgent
   action: 'Failed portal for Across The Globe (ATG) Data Science Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2506,3 +2501,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-15T04:59:23'
+- agent: PracticeAgent
+  action: 'Failed portal for Newzeninfotech Solutions Data Science: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-15T04:59:27'
