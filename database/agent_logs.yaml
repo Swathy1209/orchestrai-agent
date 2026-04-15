@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for ByteDance Machine Learning Engineer Intern (E-commerce-Conversational
-    AI) - 2026 Summer/Fall (PhD): Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-15T10:08:45'
-- agent: PracticeAgent
   action: 'Failed portal for Zoox Machine Learning Engineer Intern, Simulation: Gemini
     failed to generate project recommendations'
   status: error
@@ -2496,3 +2491,8 @@ logs:
     Learning: Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-15T12:34:08'
+- agent: PracticeAgent
+  action: 'Failed portal for Capgemini Business Analyst-Contact Center Domain: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-15T12:34:22'
