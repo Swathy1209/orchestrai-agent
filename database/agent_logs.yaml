@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Ayurveda House Private Limited Data Science Intern: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-15T00:31:58'
-- agent: PracticeAgent
   action: 'Failed portal for Lensa Data Science Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2497,3 +2492,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-15T02:39:57'
+- agent: PracticeAgent
+  action: 'Failed portal for S&P Global Loan Reference Data Analyst: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-15T02:40:10'
