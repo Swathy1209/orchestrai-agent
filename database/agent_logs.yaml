@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for ChatGPT Jobs Research Scientist Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-15T12:05:25'
-- agent: PracticeAgent
   action: 'Failed portal for Perpay Inc. Data Science Internship, 2026: Gemini failed
     to generate project recommendations'
   status: error
@@ -2489,3 +2484,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-15T14:34:46'
+- agent: PracticeAgent
+  action: 'Failed portal for Innoknowvex Data Science: Gemini failed to generate project
+    recommendations'
+  status: error
+  timestamp: '2026-04-15T14:35:00'
