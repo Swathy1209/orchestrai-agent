@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for NESA Innovation Labs Artificial Intelligence Intern:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-16T11:10:17'
-- agent: PracticeAgent
   action: 'Failed portal for Trading Smart Edge Data Science Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2503,3 +2498,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-16T13:26:25'
+- agent: PracticeAgent
+  action: 'Failed portal for OMNIDYA TECH LLP Machine Learning Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-16T13:26:38'
