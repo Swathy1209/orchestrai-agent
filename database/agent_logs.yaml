@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Cinemate™ Data Science Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-16T13:57:11'
-- agent: PracticeAgent
   action: 'Failed portal for ConsultBae Data Science Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2494,3 +2489,8 @@ logs:
   action: PracticeAgent run initiated
   status: success
   timestamp: '2026-04-16T16:32:14'
+- agent: PracticeAgent
+  action: 'Failed portal for Khurana Technology Solutions Data Science Intern: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-16T16:32:24'
