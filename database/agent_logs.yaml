@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Primetrade.ai Machine Learning Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-16T01:11:47'
-- agent: PracticeAgent
   action: 'Failed portal for Abhimanyu  Singhal Artificial Intelligence Intern: Gemini
     failed to generate project recommendations'
   status: error
@@ -2494,3 +2489,8 @@ logs:
   action: Generated optimizations for 849 internships
   status: success
   timestamp: '2026-04-16T03:35:54'
+- agent: PracticeAgent
+  action: 'Failed portal for Innomax IT Solutions Machine Learning Intern: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-16T03:35:58'
