@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for The Hustle House Artificial Intelligence Intern: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-16T03:23:09'
-- agent: PracticeAgent
   action: 'Failed portal for Lensa Intern - Data Science, Generative AI: Gemini failed
     to generate project recommendations'
   status: error
@@ -2493,3 +2488,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-16T05:02:55'
+- agent: PracticeAgent
+  action: 'Failed portal for Ufeus Data Science Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-16T05:03:01'
