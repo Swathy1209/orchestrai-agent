@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for New Jersey Resources Technical Data Analyst Intern: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-16T00:12:22'
-- agent: PracticeAgent
   action: 'Failed portal for Samaritan''s Purse Geospatial Data Analyst, North American
     Disaster Relief: Gemini failed to generate project recommendations'
   status: error
@@ -2497,3 +2492,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-16T02:32:59'
+- agent: PracticeAgent
+  action: 'Failed portal for VIZON Artificial Intelligence Intern: Gemini failed to
+    generate project recommendations'
+  status: error
+  timestamp: '2026-04-16T02:33:12'
