@@ -1,9 +1,4 @@
 logs:
-- agent: SkillAgent
-  action: Skill gap analysis complete
-  status: success
-  timestamp: '2026-04-16T04:01:33'
-  details: Analyzed 850 jobs.
 - agent: PracticeAgent
   action: 'Failed portal for Booz Allen Hamilton Data Analyst, Intern: Gemini failed
     to generate project recommendations'
@@ -2502,3 +2497,8 @@ logs:
     Analyst Intern: Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-16T05:14:22'
+- agent: PracticeAgent
+  action: 'Failed portal for SAV (Scale Asia Ventures) AI Engineer Intern: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-16T05:14:28'
