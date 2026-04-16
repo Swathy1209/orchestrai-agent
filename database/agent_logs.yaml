@@ -3,11 +3,6 @@ logs:
   action: 'Failed portal for Career Ease IT Solutions Data Analyst: Gemini failed
     to generate project recommendations'
   status: error
-  timestamp: '2026-04-16T07:18:01'
-- agent: PracticeAgent
-  action: 'Failed portal for Career Ease IT Solutions Data Analyst: Gemini failed
-    to generate project recommendations'
-  status: error
   timestamp: '2026-04-16T07:18:05'
 - agent: PracticeAgent
   action: 'Failed portal for Quizzy Data Science Intern: Gemini failed to generate
@@ -2495,3 +2490,8 @@ logs:
     recommendations'
   status: error
   timestamp: '2026-04-16T10:03:52'
+- agent: PracticeAgent
+  action: 'Failed portal for Envestnet Data Analyst II: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-16T10:04:19'
