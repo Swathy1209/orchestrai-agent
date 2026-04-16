@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for The Data Mine-Purdue University GTI Energy Intern-Data
-    Science (Summer 2026): Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-16T11:16:23'
-- agent: PracticeAgent
   action: 'Failed portal for Ampere Technical Intern, Data Analysis Tool Development:
     Gemini failed to generate project recommendations'
   status: error
@@ -2501,3 +2496,8 @@ logs:
     Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-16T13:32:58'
+- agent: PracticeAgent
+  action: 'Failed portal for TRISKN Data Science Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-16T13:33:11'
