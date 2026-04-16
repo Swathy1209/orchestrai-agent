@@ -1,9 +1,4 @@
 logs:
-- agent: PracticeAgent
-  action: 'Failed portal for Encrobytes Technologies Private Limited Data Science
-    Intern: Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-16T12:30:21'
 - agent: CoverLetterAgent
   action: Generated 874 cover letters
   status: success
@@ -2495,3 +2490,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-16T14:45:02'
+- agent: PracticeAgent
+  action: 'Failed portal for Harman Connected Foundational Engineer - AI & Machine
+    Learning: Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-16T14:45:15'
