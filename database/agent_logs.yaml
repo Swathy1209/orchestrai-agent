@@ -3,11 +3,6 @@ logs:
   action: 'Failed portal for S&P Global Business Analyst: Gemini failed to generate
     project recommendations'
   status: error
-  timestamp: '2026-04-16T06:55:06'
-- agent: PracticeAgent
-  action: 'Failed portal for S&P Global Business Analyst: Gemini failed to generate
-    project recommendations'
-  status: error
   timestamp: '2026-04-16T06:55:12'
 - agent: PracticeAgent
   action: 'Failed portal for S&P Global Loan Reference Data Analyst: Gemini failed
@@ -2499,3 +2494,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-16T09:01:35'
+- agent: PracticeAgent
+  action: 'Failed portal for Tatari Data Science Analyst, Intern: Gemini failed to
+    generate project recommendations'
+  status: error
+  timestamp: '2026-04-16T09:01:47'
