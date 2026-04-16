@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Talkspace Marketing Data Analyst Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-16T13:17:08'
-- agent: PracticeAgent
   action: 'Failed portal for Havas Edge Business Analyst Intern: Gemini failed to
     generate project recommendations'
   status: error
@@ -2494,3 +2489,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-16T15:32:57'
+- agent: PracticeAgent
+  action: 'Failed portal for Wake Up Whistle Data Science Intern (Python, SQL, Pandas):
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-16T15:33:11'
