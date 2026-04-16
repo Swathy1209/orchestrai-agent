@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Alster IT Solutions Machine Learning Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-16T13:35:08'
-- agent: PracticeAgent
   action: 'Failed portal for Sudeva Sports Private Limited Artificial Intelligence
     Intern: Gemini failed to generate project recommendations'
   status: error
@@ -2495,3 +2490,7 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-16T16:00:58'
+- agent: CareerAgent
+  action: 97 jobs fetched, 82 relevant
+  level: INFO
+  timestamp: '2026-04-16T16:01:11'
