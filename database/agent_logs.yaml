@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for The Institute for Advanced Learning and Research Artificial
-    Intelligence / Machine Learning Intern: Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-16T16:53:58'
-- agent: PracticeAgent
   action: 'Failed portal for Lensa Business Analyst (Intern) - United States: Gemini
     failed to generate project recommendations'
   status: error
@@ -2495,3 +2490,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-16T19:05:07'
+- agent: PracticeAgent
+  action: 'Failed portal for Qubixo Data Science Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-16T19:05:20'
