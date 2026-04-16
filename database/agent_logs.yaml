@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Genesis Molecular AI Cheminformatics and Machine Learning
-    Intern: Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-16T05:04:42'
-- agent: PracticeAgent
   action: 'Failed portal for Bloom Nutrition Influencer Marketing Data Analyst Intern:
     Gemini failed to generate project recommendations'
   status: error
@@ -2503,3 +2498,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-16T06:37:53'
+- agent: PracticeAgent
+  action: 'Failed portal for LivNSense Artificial Intelligence Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-16T06:37:58'
