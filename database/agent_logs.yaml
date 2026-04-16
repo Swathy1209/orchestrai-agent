@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Carufus Technology Private Limited Machine Learning Intern:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-16T03:12:59'
-- agent: PracticeAgent
   action: 'Failed portal for Earthed Soul PVT LTD Artificial Intelligence Intern:
     Gemini failed to generate project recommendations'
   status: error
@@ -2493,3 +2488,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-16T04:59:53'
+- agent: PracticeAgent
+  action: 'Failed portal for GreenLeaf, a Chefs'' Warehouse company Data Analyst Intern:
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-16T05:00:00'
