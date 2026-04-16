@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Raviraj Sarees Pvt Ltd Artificial Intelligence Intern:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-16T05:25:00'
-- agent: PracticeAgent
   action: 'Failed portal for Shunya Digital Artificial Intelligence Intern: Gemini
     failed to generate project recommendations'
   status: error
@@ -2506,3 +2501,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-16T06:57:38'
+- agent: PracticeAgent
+  action: 'Failed portal for Dharsha Advisors Data Science Intern: Gemini failed to
+    generate project recommendations'
+  status: error
+  timestamp: '2026-04-16T06:57:46'
