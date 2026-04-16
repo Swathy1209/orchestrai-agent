@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Xolver AI Physical AI Engineer (Internship): Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-16T21:06:18'
-- agent: PracticeAgent
   action: 'Failed portal for Vite Tech IT Solutions Private Limited Machine Learning
     Intern  OCR & Document AI: Gemini failed to generate project recommendations'
   status: error
@@ -2504,3 +2499,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-16T23:16:29'
+- agent: PracticeAgent
+  action: 'Failed portal for InfiVR Machine Learning Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-16T23:16:41'
