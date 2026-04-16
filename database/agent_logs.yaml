@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Solvitude Data Science Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-16T06:40:37'
-- agent: PracticeAgent
   action: 'Failed portal for Stripe PhD Machine Learning Engineer, Intern: Gemini
     failed to generate project recommendations'
   status: error
@@ -2504,3 +2499,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-16T07:33:10'
+- agent: PracticeAgent
+  action: 'Failed portal for SETV Global Machine Learning Intern: Gemini failed to
+    generate project recommendations'
+  status: error
+  timestamp: '2026-04-16T07:33:39'
