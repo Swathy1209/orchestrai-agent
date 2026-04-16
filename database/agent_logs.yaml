@@ -1,8 +1,4 @@
 logs:
-- agent: CareerAgent
-  action: 96 jobs fetched, 81 relevant
-  level: INFO
-  timestamp: '2026-04-16T14:01:11'
 - agent: PracticeAgent
   action: 'Failed portal for ASSA ABLOY Group Data Analyst Intern: Gemini failed to
     generate project recommendations'
@@ -2495,3 +2491,8 @@ logs:
     Intern: Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-16T16:34:21'
+- agent: PracticeAgent
+  action: 'Failed portal for Safalta Setu Data Science Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-16T16:34:33'
