@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Collective Artists Network Data Science Intern: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-16T03:28:19'
-- agent: PracticeAgent
   action: 'Failed portal for Globik AI Private Limited Data Science Intern: Gemini
     failed to generate project recommendations'
   status: error
@@ -2495,3 +2490,8 @@ logs:
     Foundation Models - Intern: Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-16T05:04:24'
+- agent: PracticeAgent
+  action: 'Failed portal for Cohere Machine Learning Intern/Co-op  (Spring/Summer
+    2026): Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-16T05:04:29'
