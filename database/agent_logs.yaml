@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for AmRit Hub Private Limited Artificial Intelligence (AI):
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-16T09:09:28'
-- agent: PracticeAgent
   action: 'Failed portal for Suresh Dani''s Classes Data Science: Gemini failed to
     generate project recommendations'
   status: error
@@ -2506,3 +2501,8 @@ logs:
     - Quality Assurance: Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-16T11:17:02'
+- agent: PracticeAgent
+  action: 'Failed portal for Intuit Staff Compliance Assurance  Technical Data Analyst:
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-16T11:17:15'
