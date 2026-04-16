@@ -3,11 +3,6 @@ logs:
   action: 'Failed portal for IIT Guwahati Data Science Intern: Gemini failed to generate
     project recommendations'
   status: error
-  timestamp: '2026-04-16T06:47:01'
-- agent: PracticeAgent
-  action: 'Failed portal for IIT Guwahati Data Science Intern: Gemini failed to generate
-    project recommendations'
-  status: error
   timestamp: '2026-04-16T06:47:07'
 - agent: PracticeAgent
   action: 'Failed portal for IIT Guwahati Machine Learning Intern: Gemini failed to
@@ -2504,3 +2499,8 @@ logs:
   status: success
   timestamp: '2026-04-16T08:02:25'
   details: Analyzed 860 jobs.
+- agent: PracticeAgent
+  action: 'Failed portal for Gotion Inc. Data Analyst: Gemini failed to generate project
+    recommendations'
+  status: error
+  timestamp: '2026-04-16T08:03:13'
