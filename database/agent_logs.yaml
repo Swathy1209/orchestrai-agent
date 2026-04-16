@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Brain Quest Artificial Intelligence Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-16T04:30:51'
-- agent: PracticeAgent
   action: 'Failed portal for Cylinder Health Junior Data Engineer: Detected incomplete
     placeholder content. Regenerating...'
   status: error
@@ -2506,3 +2501,8 @@ logs:
     generate project recommendations'
   status: error
   timestamp: '2026-04-16T05:21:38'
+- agent: PracticeAgent
+  action: 'Failed portal for Nomagic Machine Learning Intern (202641): Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-16T05:21:44'
