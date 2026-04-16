@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Maersk Business Analyst – Financial Planning & Reporting:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-16T06:05:59'
-- agent: PracticeAgent
   action: 'Failed portal for Procter & Gamble Data Engineer: Gemini failed to generate
     project recommendations'
   status: error
@@ -2508,3 +2503,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-16T07:13:31'
+- agent: PracticeAgent
+  action: 'Failed portal for IT-Infotek Data Science Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-16T07:13:36'
