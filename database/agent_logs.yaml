@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for 10x Impact Labs Artificial Intelligence Intern: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-16T15:44:12'
-- agent: PracticeAgent
   action: 'Failed portal for IndiaBizForSale.com Data Science Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2495,3 +2490,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-16T18:11:28'
+- agent: PracticeAgent
+  action: 'Failed portal for TikTok Data Engineer Intern (E-commerce) - 2026 Summer
+    (BS/MS): Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-16T18:12:10'
