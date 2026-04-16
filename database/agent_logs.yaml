@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Lobo Worldwide (Toronto, Canada) Data Science Intern:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-16T00:51:23'
-- agent: PracticeAgent
   action: 'Failed portal for ABUEM WORKIFYING LLP Data Science Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2495,3 +2490,8 @@ logs:
     Intern: Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-16T03:05:13'
+- agent: PracticeAgent
+  action: 'Failed portal for GenPark Data science engineer intern: Gemini failed to
+    generate project recommendations'
+  status: error
+  timestamp: '2026-04-16T03:05:25'
