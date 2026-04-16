@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Internet2 Data Analyst Intern - Internet2 NET+ Program:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-16T15:08:27'
-- agent: PracticeAgent
   action: 'Failed portal for Paramount+ Data Science Intern (Summer 2026 - In-Person
     - NYC): Gemini failed to generate project recommendations'
   status: error
@@ -2504,3 +2499,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-16T17:24:50'
+- agent: PracticeAgent
+  action: 'Failed portal for Indika AI Private Limited Data Science Intern: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-16T17:25:02'
