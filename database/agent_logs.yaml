@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Greenleap Robotics Private Limited Machine Learning Intern:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-16T01:57:46'
-- agent: PracticeAgent
   action: 'Failed portal for Melotech Data Science Intern, Music & Audio: Gemini failed
     to generate project recommendations'
   status: error
@@ -2485,3 +2480,8 @@ logs:
     Intern: Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-16T04:17:07'
+- agent: PracticeAgent
+  action: 'Failed portal for Kayno World Education Private Limited Artificial Intelligence
+    Intern: Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-16T04:17:20'
