@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Vishwa Jagran Manav Sewa Sangh Charitable Trust Machine
-    Learning Intern: Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-16T01:45:49'
-- agent: PracticeAgent
   action: 'Failed portal for Anubhav Singh Machine Learning Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2487,3 +2482,8 @@ logs:
     Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-16T04:02:55'
+- agent: PracticeAgent
+  action: 'Failed portal for TZURONI LTD. (Kefar Sava, Israel) Data Science Intern:
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-16T04:03:09'
