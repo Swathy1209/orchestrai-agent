@@ -1,9 +1,5 @@
 logs:
 - agent: CareerAgent
-  action: 96 jobs fetched
-  level: INFO
-  timestamp: '2026-04-16T14:01:06'
-- agent: CareerAgent
   action: 96 jobs fetched, 81 relevant
   level: INFO
   timestamp: '2026-04-16T14:01:11'
@@ -2494,3 +2490,8 @@ logs:
     Intern: Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-16T16:34:08'
+- agent: PracticeAgent
+  action: 'Failed portal for Hubnine India Private Limited Artificial Intelligence
+    Intern: Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-16T16:34:21'
