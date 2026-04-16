@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Cognitiv Machine Learning Engineer Intern (Summer 2026):
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-16T21:19:29'
-- agent: PracticeAgent
   action: 'Failed portal for Zello AI & ML Engineering Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2502,3 +2497,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-16T23:29:07'
+- agent: PracticeAgent
+  action: 'Failed portal for AArete Intern, Data Science & Artificial Intelligence
+    (Summer 2026): Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-16T23:29:21'
