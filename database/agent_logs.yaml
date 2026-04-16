@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Sankar Group Data Science Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-16T07:15:51'
-- agent: PracticeAgent
   action: 'Failed portal for AndOr Communications Private Limited Data Science Intern:
     Gemini failed to generate project recommendations'
   status: error
@@ -2495,3 +2490,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-16T09:54:25'
+- agent: PracticeAgent
+  action: 'Failed portal for Legend Biotech PD Data Sciences, CMC Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-16T09:55:13'
