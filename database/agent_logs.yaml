@@ -3,11 +3,6 @@ logs:
   action: 'Failed portal for Nyoutaa Data Science Intern: Gemini failed to generate
     project recommendations'
   status: error
-  timestamp: '2026-04-16T07:20:40'
-- agent: PracticeAgent
-  action: 'Failed portal for Nyoutaa Data Science Intern: Gemini failed to generate
-    project recommendations'
-  status: error
   timestamp: '2026-04-16T07:20:45'
 - agent: PracticeAgent
   action: 'Failed portal for Primetrade.ai Machine Learning Intern: Gemini failed
@@ -2498,3 +2493,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-16T10:17:13'
+- agent: PracticeAgent
+  action: 'Failed portal for Zoox Machine Learning Engineer Intern, Simulation: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-16T10:17:27'
