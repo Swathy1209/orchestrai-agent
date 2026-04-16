@@ -1,9 +1,5 @@
 logs:
 - agent: CareerAgent
-  action: 96 jobs fetched
-  level: INFO
-  timestamp: '2026-04-16T18:01:04'
-- agent: CareerAgent
   action: 96 jobs fetched, 81 relevant
   level: INFO
   timestamp: '2026-04-16T18:01:11'
@@ -2496,3 +2492,8 @@ logs:
     Summer (BS/MS): Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-16T20:24:06'
+- agent: PracticeAgent
+  action: 'Failed portal for webAI Summer Internship - Machine Learning Engineer:
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-16T20:24:32'
