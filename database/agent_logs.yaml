@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Mple AI Machine Learning Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-16T09:28:55'
-- agent: PracticeAgent
   action: 'Failed portal for Amber Flux Private Limited Data Science Intern: Gemini
     failed to generate project recommendations'
   status: error
@@ -2506,3 +2501,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-16T11:36:15'
+- agent: PracticeAgent
+  action: 'Failed portal for Stealth Startup Machine Learning Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-16T11:36:28'
