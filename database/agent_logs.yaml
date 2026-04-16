@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Wake Up Whistle Data Science Intern (Python, SQL, Pandas):
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-16T15:33:11'
-- agent: PracticeAgent
   action: 'Failed portal for Zypp Electric Artificial Intelligence (AI) Internship
     in Gurgaon: Gemini failed to generate project recommendations'
   status: error
@@ -2502,3 +2497,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-16T17:54:09'
+- agent: PracticeAgent
+  action: 'Failed portal for Automation Anywhere AI Engineer: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-16T17:54:58'
