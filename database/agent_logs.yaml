@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for KlassWAY Machine Learning Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-16T11:54:45'
-- agent: PracticeAgent
   action: 'Failed portal for Marico Innovation Foundation Artificial Intelligence
     Intern: Gemini failed to generate project recommendations'
   status: error
@@ -2495,3 +2490,8 @@ logs:
   action: Generated match scores for 876 internships
   status: success
   timestamp: '2026-04-16T14:27:22'
+- agent: PracticeAgent
+  action: 'Failed portal for Qwings Data Science Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-16T14:27:26'
