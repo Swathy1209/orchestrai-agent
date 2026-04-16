@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Pathward Data Science Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-16T00:53:33'
-- agent: PracticeAgent
   action: 'Failed portal for Donor Alliance Data Science Intern: Gemini failed to
     generate project recommendations'
   status: error
@@ -2495,3 +2490,8 @@ logs:
     Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-16T03:07:18'
+- agent: PracticeAgent
+  action: 'Failed portal for Five9 Agentic AI Applied Scientist Internship - NLP:
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-16T03:07:30'
