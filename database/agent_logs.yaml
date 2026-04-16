@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for MCube AI Private Limited Data Science: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-16T21:05:53'
-- agent: PracticeAgent
   action: 'Failed portal for Rebel Foods Private Limited Data Engineering: Gemini
     failed to generate project recommendations'
   status: error
@@ -2504,3 +2499,8 @@ logs:
     Analyst Intern: Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-16T23:16:05'
+- agent: PracticeAgent
+  action: 'Failed portal for Artha Energy Projects Private Limited Data Science: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-16T23:16:17'
