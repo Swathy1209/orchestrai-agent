@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for GreenGas USA Data Engineer - Intern: Gemini failed to
-    generate project recommendations'
-  status: error
-  timestamp: '2026-04-15T23:54:56'
-- agent: PracticeAgent
   action: 'Failed portal for Stripe PhD Machine Learning Engineer, Intern: Gemini
     failed to generate project recommendations'
   status: error
@@ -2495,3 +2490,8 @@ logs:
     recommendations'
   status: error
   timestamp: '2026-04-16T02:07:14'
+- agent: PracticeAgent
+  action: 'Failed portal for Statcon Energiaa Data Science Intern: Gemini failed to
+    generate project recommendations'
+  status: error
+  timestamp: '2026-04-16T02:07:26'
