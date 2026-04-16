@@ -1,8 +1,4 @@
 logs:
-- agent: CareerAgent
-  action: Fetch started
-  level: INFO
-  timestamp: '2026-04-16T02:00:31'
 - agent: PracticeAgent
   action: 'Failed portal for Ensono Intern - Capacity Management Data Analyst: Gemini
     failed to generate project recommendations'
@@ -2482,3 +2478,9 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-16T04:26:45'
+- agent: PracticeAgent
+  action: 'Failed portal for Disruptive Consultancy Services Private Limited (Development
+    Monitors India) Artificial Intelligence Intern: Gemini failed to generate project
+    recommendations'
+  status: error
+  timestamp: '2026-04-16T04:27:12'
