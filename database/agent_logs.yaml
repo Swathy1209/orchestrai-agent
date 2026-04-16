@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Red Ventures We''re Planning Ahead - Join the Talent
-    Pipeline for our 2027 Business Analyst Internship: Gemini failed to generate project
-    recommendations'
-  status: error
-  timestamp: '2026-04-16T10:03:52'
-- agent: PracticeAgent
   action: 'Failed portal for Envestnet Data Analyst II: Gemini failed to generate
     project recommendations'
   status: error
@@ -2506,3 +2500,8 @@ logs:
     Autolabeling (Internship): Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-16T12:19:17'
+- agent: PracticeAgent
+  action: 'Failed portal for Woven by Toyota Machine Learning Engineer, Vehicle Perception
+    (Internship): Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-16T12:20:11'
