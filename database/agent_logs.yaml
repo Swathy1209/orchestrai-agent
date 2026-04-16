@@ -3,11 +3,6 @@ logs:
   action: 'Failed portal for Graindigits Machine Learning Intern: Gemini failed to
     generate project recommendations'
   status: error
-  timestamp: '2026-04-16T06:56:20'
-- agent: PracticeAgent
-  action: 'Failed portal for Graindigits Machine Learning Intern: Gemini failed to
-    generate project recommendations'
-  status: error
   timestamp: '2026-04-16T06:56:26'
 - agent: PracticeAgent
   action: 'Failed portal for TESK Labs Data Science Intern: Gemini failed to generate
@@ -2499,3 +2494,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-16T09:04:09'
+- agent: PracticeAgent
+  action: 'Failed portal for ILEAD Kolkata Artificial Intelligence (AI): Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-16T09:04:22'
