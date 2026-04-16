@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Aadi Foundation Machine Learning Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-16T01:56:48'
-- agent: PracticeAgent
   action: 'Failed portal for BioQuant IQ Artificial Intelligence Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2485,3 +2480,8 @@ logs:
     Disaster Relief: Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-16T04:15:03'
+- agent: PracticeAgent
+  action: 'Failed portal for Handshake Spatial Data Analyst - AI Trainer: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-16T04:15:30'
