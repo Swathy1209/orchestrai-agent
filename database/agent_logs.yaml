@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Moët Hennessy Business Analyst Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-16T15:36:36'
-- agent: PracticeAgent
   action: 'Failed portal for Boston Consulting Group (BCG) Business Analyst, Internship,
     Vietnam: Gemini failed to generate project recommendations'
   status: error
@@ -2501,3 +2496,7 @@ logs:
   action: 96 jobs fetched
   level: INFO
   timestamp: '2026-04-16T18:01:04'
+- agent: CareerAgent
+  action: 96 jobs fetched, 81 relevant
+  level: INFO
+  timestamp: '2026-04-16T18:01:11'
