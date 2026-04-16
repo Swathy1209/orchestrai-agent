@@ -3,11 +3,6 @@ logs:
   action: 'Failed portal for Barclays Data Engineer: Gemini failed to generate project
     recommendations'
   status: error
-  timestamp: '2026-04-16T06:46:49'
-- agent: PracticeAgent
-  action: 'Failed portal for Barclays Data Engineer: Gemini failed to generate project
-    recommendations'
-  status: error
   timestamp: '2026-04-16T06:46:55'
 - agent: PracticeAgent
   action: 'Failed portal for IIT Guwahati Data Science Intern: Gemini failed to generate
@@ -2503,3 +2498,9 @@ logs:
     - 2026 Start (BS/MS): Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-16T08:01:54'
+- agent: PracticeAgent
+  action: 'Failed portal for WayUp BMW, Overseas Supply Chain Operations and Data
+    Analysis Intern (Fall 2026) - Application via WayUp: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-16T08:02:10'
