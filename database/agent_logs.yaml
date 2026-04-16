@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Neurasys Machine Learning Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-16T13:27:57'
-- agent: PracticeAgent
   action: 'Failed portal for CareerNest Machine Learning Intern: Gemini failed to
     generate project recommendations'
   status: error
@@ -2496,3 +2491,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-16T15:46:15'
+- agent: PracticeAgent
+  action: 'Failed portal for Medidata Solutions Data Science Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-16T15:46:27'
