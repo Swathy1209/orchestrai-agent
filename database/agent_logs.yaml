@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for VIZON Artificial Intelligence Intern: Gemini failed to
-    generate project recommendations'
-  status: error
-  timestamp: '2026-04-15T22:35:40'
-- agent: PracticeAgent
   action: 'Failed portal for Technoculture Research Data Science Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2504,3 +2499,8 @@ logs:
     Intern: Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-16T00:49:13'
+- agent: PracticeAgent
+  action: 'Failed portal for Rx One Care Private Limited Machine Learning Intern:
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-16T00:49:25'
