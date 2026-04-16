@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for TikTok Data Business Analyst Project Intern - 2025 Start
-    (BS/MS): Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-16T15:42:11'
-- agent: PracticeAgent
   action: 'Failed portal for Tercept Incorporation Data Science Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2494,3 +2489,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-16T18:09:24'
+- agent: PracticeAgent
+  action: 'Failed portal for Ekfrazo Technologies Azure Data Engineer: Detected incomplete
+    placeholder content. Regenerating...'
+  status: error
+  timestamp: '2026-04-16T18:09:38'
