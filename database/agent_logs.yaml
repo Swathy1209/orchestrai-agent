@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for OxiqAI Machine Learning Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-16T07:20:09'
-- agent: PracticeAgent
   action: 'Failed portal for ADA Senior Data Engineer: Gemini failed to generate project
     recommendations'
   status: error
@@ -2498,3 +2493,8 @@ logs:
     Learning Intern: Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-16T10:12:41'
+- agent: PracticeAgent
+  action: 'Failed portal for Wingman Pro Machine Learning Intern: Gemini failed to
+    generate project recommendations'
+  status: error
+  timestamp: '2026-04-16T10:15:11'
