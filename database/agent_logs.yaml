@@ -1,9 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: PracticeAgent run initiated
-  status: success
-  timestamp: '2026-04-16T06:33:04'
-- agent: PracticeAgent
   action: 'Failed portal for Restyle Artificial Intelligence Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2508,3 +2504,8 @@ logs:
     generate project recommendations'
   status: error
   timestamp: '2026-04-16T07:24:13'
+- agent: PracticeAgent
+  action: 'Failed portal for SkillsCapital Machine Learning Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-16T07:24:21'
