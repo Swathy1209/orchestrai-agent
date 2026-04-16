@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for IIT Guwahati Data Science Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-16T20:50:50'
-- agent: PracticeAgent
   action: 'Failed portal for IIT Guwahati Machine Learning Intern: Gemini failed to
     generate project recommendations'
   status: error
@@ -2504,3 +2499,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-16T23:01:24'
+- agent: PracticeAgent
+  action: 'Failed portal for ILEAD Kolkata Artificial Intelligence (AI): Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-16T23:01:37'
