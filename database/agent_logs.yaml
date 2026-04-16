@@ -1,9 +1,4 @@
 logs:
-- agent: PracticeAgent
-  action: 'Failed portal for Stanford University School of Medicine Data Analyst 1
-    (1 Year Fixed Term): Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-16T03:53:45'
 - agent: OpportunityMatchingAgent
   action: Generated match scores for 849 internships
   status: success
@@ -2497,3 +2492,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-16T05:10:10'
+- agent: PracticeAgent
+  action: 'Failed portal for KAYVI BEVERAGES PRIVATE LIMITED Data Science Intern:
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-16T05:10:16'
