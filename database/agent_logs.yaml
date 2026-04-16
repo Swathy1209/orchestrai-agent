@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for L''OCCITANE Group (B Corp) Data Analyst Intern: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-16T15:41:33'
-- agent: PracticeAgent
   action: 'Failed portal for Bumi Armada Intern - Data Analyst: Gemini failed to generate
     project recommendations'
   status: error
@@ -2494,3 +2489,8 @@ logs:
   action: Generated Portfolio
   status: success
   timestamp: '2026-04-16T18:07:54'
+- agent: PracticeAgent
+  action: 'Failed portal for CodeTikki WorkSpace Machine Learning Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-16T18:08:18'
