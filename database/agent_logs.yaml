@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Lensa Data Analyst Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-16T04:35:47'
-- agent: PracticeAgent
   action: 'Failed portal for Capgemini Business Analyst-Contact Center Domain: Gemini
     failed to generate project recommendations'
   status: error
@@ -2505,3 +2500,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-16T05:31:18'
+- agent: PracticeAgent
+  action: 'Failed portal for Sudeva Sports Private Limited Artificial Intelligence
+    Intern: Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-16T05:31:31'
