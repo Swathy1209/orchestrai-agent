@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for INFICON Data Science Intern (Remote): Gemini failed to
-    generate project recommendations'
-  status: error
-  timestamp: '2026-04-15T22:08:24'
-- agent: PracticeAgent
   action: 'Failed portal for Dynamo AI ML Research Scientist Intern – Dynamo Guard
     / Dynamo Eval / AgentWarden: Gemini failed to generate project recommendations'
   status: error
@@ -2499,3 +2494,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-16T00:29:28'
+- agent: PracticeAgent
+  action: 'Failed portal for Veolia Intern - Business Analyst: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-16T00:29:41'
