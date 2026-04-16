@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Fitbae Healthcare Private Limited Data Science: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-16T12:44:06'
-- agent: PracticeAgent
   action: 'Failed portal for Aviate Manpower Data Science: Gemini failed to generate
     project recommendations'
   status: error
@@ -2494,3 +2489,8 @@ logs:
     generate project recommendations'
   status: error
   timestamp: '2026-04-16T14:59:16'
+- agent: PracticeAgent
+  action: 'Failed portal for TESK Labs Data Science Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-16T14:59:28'
