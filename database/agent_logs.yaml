@@ -3,11 +3,6 @@ logs:
   action: 'Failed portal for Skill Bharat Association Data Science Intern: Gemini
     failed to generate project recommendations'
   status: error
-  timestamp: '2026-04-16T06:58:23'
-- agent: PracticeAgent
-  action: 'Failed portal for Skill Bharat Association Data Science Intern: Gemini
-    failed to generate project recommendations'
-  status: error
   timestamp: '2026-04-16T06:58:28'
 - agent: PracticeAgent
   action: 'Failed portal for Skill Bharat Association Machine Learning Intern: Gemini
@@ -2499,3 +2494,8 @@ logs:
     - NYC): Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-16T09:08:25'
+- agent: PracticeAgent
+  action: 'Failed portal for Cohere Machine Learning Intern/Co-op  (Spring/Summer
+    2026): Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-16T09:08:37'
