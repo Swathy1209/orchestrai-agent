@@ -1,8 +1,4 @@
 logs:
-- agent: ResumeOptimizationAgent
-  action: Generated optimizations for 830 internships
-  status: success
-  timestamp: '2026-04-15T23:37:26'
 - agent: PracticeAgent
   action: 'Failed portal for Zeko Data Science Intern: Gemini failed to generate project
     recommendations'
@@ -2505,3 +2501,9 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-16T01:58:54'
+- agent: PracticeAgent
+  action: 'Failed portal for TikTok (General Hire) Machine Learning Engineer Intern
+    (TikTok- Video Recommendation) - 2026 Summer (BS/MS): Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-16T01:59:06'
