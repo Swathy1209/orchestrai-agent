@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Infits Machine Learning: Gemini failed to generate project
-    recommendations'
-  status: error
-  timestamp: '2026-04-16T09:21:07'
-- agent: PracticeAgent
   action: 'Failed portal for Deloitte Business Analyst: Gemini failed to generate
     project recommendations'
   status: error
@@ -2506,3 +2501,8 @@ logs:
     Data Science Intern: Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-16T11:28:25'
+- agent: PracticeAgent
+  action: 'Failed portal for STRIDE School Of Business Data Science Intern: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-16T11:28:39'
