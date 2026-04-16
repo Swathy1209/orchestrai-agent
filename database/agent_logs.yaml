@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for ByteDance Machine Learning Engineer Intern (E-commerce
-    Governance Algorithms) - 2026 Summer (BS/MS): Gemini failed to generate project
-    recommendations'
-  status: error
-  timestamp: '2026-04-16T15:40:29'
-- agent: PracticeAgent
   action: 'Failed portal for Shopee Business Data Analyst Intern - Commercial Management,
     Business Development (Summer 2026): Gemini failed to generate project recommendations'
   status: error
@@ -2498,3 +2492,7 @@ logs:
     Architect/Data Analyst: Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-16T18:06:26'
+- agent: RepoSecurityScannerAgent
+  action: 'Scanned 47 repos, priority fix: Hardcoded API Key'
+  status: completed
+  timestamp: '2026-04-16T18:06:52'
