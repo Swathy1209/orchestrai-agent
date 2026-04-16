@@ -3,11 +3,6 @@ logs:
   action: 'Failed portal for The Rehancement Group, Inc. Data Analyst 1: Gemini failed
     to generate project recommendations'
   status: error
-  timestamp: '2026-04-16T07:12:55'
-- agent: PracticeAgent
-  action: 'Failed portal for The Rehancement Group, Inc. Data Analyst 1: Gemini failed
-    to generate project recommendations'
-  status: error
   timestamp: '2026-04-16T07:12:59'
 - agent: PracticeAgent
   action: 'Failed portal for African American Planning Commission, Inc. Data Analyst
@@ -2495,3 +2490,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-16T09:42:22'
+- agent: PracticeAgent
+  action: 'Failed portal for Symonis Machine Learning Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-16T09:42:59'
