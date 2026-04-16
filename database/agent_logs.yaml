@@ -1,9 +1,4 @@
 logs:
-- agent: PracticeAgent
-  action: 'Failed portal for The Bridge Artificial Intelligence Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-16T16:30:44'
 - agent: CoverLetterAgent
   action: Generated 877 cover letters
   status: success
@@ -2494,3 +2489,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-16T18:43:07'
+- agent: PracticeAgent
+  action: 'Failed portal for Liberdat B.V. Machine Learning Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-16T18:43:20'
