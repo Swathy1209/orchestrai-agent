@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Benjamin Moore Data Science & Analytics Intern: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-16T06:12:47'
-- agent: PracticeAgent
   action: 'Failed portal for ByteDance Machine Learning Engineer Intern (E-commerce-Conversational
     AI) - 2026 Summer/Fall (PhD): Gemini failed to generate project recommendations'
   status: error
@@ -2507,3 +2502,8 @@ logs:
     recommendations'
   status: error
   timestamp: '2026-04-16T07:16:11'
+- agent: PracticeAgent
+  action: 'Failed portal for eClerx Business Analyst: Gemini failed to generate project
+    recommendations'
+  status: error
+  timestamp: '2026-04-16T07:16:16'
