@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for STRIDE School Of Business Data Science Intern: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-16T05:16:16'
-- agent: PracticeAgent
   action: 'Failed portal for Raviraj Sarees Pvt Ltd Artificial Intelligence (AI):
     Gemini failed to generate project recommendations'
   status: error
@@ -2506,3 +2501,8 @@ logs:
     generate project recommendations'
   status: error
   timestamp: '2026-04-16T06:49:33'
+- agent: PracticeAgent
+  action: 'Failed portal for Certiwisehub Data Science Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-16T06:49:38'
