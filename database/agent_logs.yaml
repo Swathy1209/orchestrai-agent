@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for CiteSert Machine Learning Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-16T07:00:15'
-- agent: PracticeAgent
   action: 'Failed portal for TSTEPS PRIVATE LIMITED Senior Machine Learning Engineer:
     Gemini failed to generate project recommendations'
   status: error
@@ -2499,3 +2494,8 @@ logs:
     generate project recommendations'
   status: error
   timestamp: '2026-04-16T09:12:22'
+- agent: PracticeAgent
+  action: 'Failed portal for Unessa Foundation Artificial Intelligence (AI): Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-16T09:12:35'
