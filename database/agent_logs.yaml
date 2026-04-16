@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Procter & Gamble Data Engineer: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-15T21:59:32'
-- agent: PracticeAgent
   action: 'Failed portal for Ekfrazo Technologies Azure Data Engineer: Detected incomplete
     placeholder content. Regenerating...'
   status: error
@@ -2495,3 +2490,8 @@ logs:
     Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-16T00:14:00'
+- agent: PracticeAgent
+  action: 'Failed portal for Fermions Machine Learning Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-16T00:14:37'
