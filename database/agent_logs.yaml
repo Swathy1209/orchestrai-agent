@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Crustdata (YC F24) ML Engineer Intern (Summer 2026):
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-16T13:14:14'
-- agent: PracticeAgent
   action: 'Failed portal for Infoware Artificial Intelligence (AI): Gemini failed
     to generate project recommendations'
   status: error
@@ -2494,3 +2489,8 @@ logs:
     Intern: Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-16T15:29:56'
+- agent: PracticeAgent
+  action: 'Failed portal for Helix DIgital Artificial Intelligence Intern: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-16T15:30:11'
