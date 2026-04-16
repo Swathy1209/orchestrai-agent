@@ -3,11 +3,6 @@ logs:
   action: 'Failed portal for CREATE Machine Learning Intern: Gemini failed to generate
     project recommendations'
   status: error
-  timestamp: '2026-04-16T06:45:38'
-- agent: PracticeAgent
-  action: 'Failed portal for CREATE Machine Learning Intern: Gemini failed to generate
-    project recommendations'
-  status: error
   timestamp: '2026-04-16T06:45:42'
 - agent: PracticeAgent
   action: 'Failed portal for SUN GROUP Artificial Intelligence Intern: Gemini failed
@@ -2503,3 +2498,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-16T07:54:57'
+- agent: PracticeAgent
+  action: 'Failed portal for Marico Innovation Foundation Data Science Intern: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-16T07:55:15'
