@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Gharpayy Artificial Intelligence (AI): Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-16T09:13:14'
-- agent: PracticeAgent
   action: 'Failed portal for Sungrow Data Analyst Internship: Gemini failed to generate
     project recommendations'
   status: error
@@ -2506,3 +2501,8 @@ logs:
     Intern: Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-16T11:20:42'
+- agent: PracticeAgent
+  action: 'Failed portal for ScentAir Technology & Data Science Intern – ScentAir
+    (Charlotte, NC): Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-16T11:20:56'
