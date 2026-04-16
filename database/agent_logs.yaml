@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for RELI Group, Inc. Data Analyst Intern: Gemini failed to
-    generate project recommendations'
-  status: error
-  timestamp: '2026-04-16T16:04:36'
-- agent: PracticeAgent
   action: 'Failed portal for Red Ventures We''re Planning Ahead - Join the Talent
     Pipeline for our 2027 Business Analyst Internship: Gemini failed to generate project
     recommendations'
@@ -2496,3 +2491,8 @@ logs:
   action: Generated Application Packages for 877 internships
   status: success
   timestamp: '2026-04-16T18:30:49'
+- agent: PracticeAgent
+  action: 'Failed portal for Protecht (Wyoming, United States) Machine Learning Intern:
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-16T18:31:06'
