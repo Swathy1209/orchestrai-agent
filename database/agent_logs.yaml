@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for EY Machine Learning Engineer: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-16T12:53:08'
-- agent: PracticeAgent
   action: 'Failed portal for Sparksoft Corporation Data Science -Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2492,3 +2487,8 @@ logs:
     - NYC): Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-16T15:08:41'
+- agent: PracticeAgent
+  action: 'Failed portal for Cohere Machine Learning Intern/Co-op  (Spring/Summer
+    2026): Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-16T15:08:55'
