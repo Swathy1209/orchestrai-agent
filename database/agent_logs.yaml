@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Emoolar Technology Private Limited Data Science Intern:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-16T11:38:49'
-- agent: PracticeAgent
   action: 'Failed portal for Across The Globe (ATG) Machine Learning Intern: Gemini
     failed to generate project recommendations'
   status: error
@@ -2495,3 +2490,8 @@ logs:
   action: Generated Portfolio
   status: success
   timestamp: '2026-04-16T14:07:52'
+- agent: PracticeAgent
+  action: 'Failed portal for Aadi Foundation Machine Learning Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-16T14:08:03'
