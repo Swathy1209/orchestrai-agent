@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Enlight Lab Data Science Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-16T14:52:28'
-- agent: PracticeAgent
   action: 'Failed portal for Enlight Lab Machine Learning Intern: Gemini failed to
     generate project recommendations'
   status: error
@@ -2502,3 +2497,8 @@ logs:
     generate project recommendations'
   status: error
   timestamp: '2026-04-16T17:09:24'
+- agent: PracticeAgent
+  action: 'Failed portal for Matson, Inc. AI & Machine Learning Intern – Operations:
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-16T17:09:36'
