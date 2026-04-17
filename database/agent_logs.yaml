@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Crossing Hurdles Data Science Intern: Gemini failed to
-    generate project recommendations'
-  status: error
-  timestamp: '2026-04-17T14:34:45'
-- agent: PracticeAgent
   action: 'Failed portal for Matson Logistics AI & Machine Learning Intern – Operations:
     Gemini failed to generate project recommendations'
   status: error
@@ -2505,3 +2500,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-17T16:44:13'
+- agent: PracticeAgent
+  action: 'Failed portal for Aviate Manpower Data Science: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-17T16:44:26'
