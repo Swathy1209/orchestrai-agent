@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Andaz Kumar Machine Learning Intern: Gemini failed to
-    generate project recommendations'
-  status: error
-  timestamp: '2026-04-17T17:50:40'
-- agent: PracticeAgent
   action: 'Failed portal for Indiaum Solutions Machine Learning Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2497,3 +2492,7 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-17T20:00:26'
+- agent: CareerAgent
+  action: Fetch started
+  level: INFO
+  timestamp: '2026-04-17T20:00:31'
