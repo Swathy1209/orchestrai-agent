@@ -3,11 +3,6 @@ logs:
   action: 'Failed portal for BrainChip Machine Learning Engineer Intern: Gemini failed
     to generate project recommendations'
   status: error
-  timestamp: '2026-04-17T06:48:02'
-- agent: PracticeAgent
-  action: 'Failed portal for BrainChip Machine Learning Engineer Intern: Gemini failed
-    to generate project recommendations'
-  status: error
   timestamp: '2026-04-17T06:48:06'
 - agent: PracticeAgent
   action: 'Failed portal for BrainChip Machine Learning Systems Intern: Gemini failed
@@ -2503,3 +2498,8 @@ logs:
     and Data Analysis Intern (San Francisco): Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-17T07:39:23'
+- agent: PracticeAgent
+  action: 'Failed portal for Collective Artists Network Data Science Intern: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-17T07:39:31'
