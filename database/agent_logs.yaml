@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for VerbaFlo.AI Machine Learning Intern: Gemini failed to
-    generate project recommendations'
-  status: error
-  timestamp: '2026-04-17T07:41:15'
-- agent: PracticeAgent
   action: 'Failed portal for Globik AI Private Limited Artificial Intelligence Intern:
     Gemini failed to generate project recommendations'
   status: error
@@ -2501,3 +2496,8 @@ logs:
     recommendations'
   status: error
   timestamp: '2026-04-17T11:02:25'
+- agent: PracticeAgent
+  action: 'Failed portal for HSBC Business Analyst- Transformation: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-17T11:02:37'
