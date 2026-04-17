@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Quarterhill Inc. Machine Learning Engineer Intern: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-17T05:02:49'
-- agent: PracticeAgent
   action: 'Failed portal for Institute Of AI Machine Learning Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2509,3 +2504,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-17T06:28:04'
+- agent: PracticeAgent
+  action: 'Failed portal for GenPark Artificial intelligence intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-17T06:28:17'
