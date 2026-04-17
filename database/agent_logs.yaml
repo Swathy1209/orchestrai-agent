@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for LawDocs Machine Learning Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-17T13:44:12'
-- agent: PracticeAgent
   action: 'Failed portal for Preplaced Machine Learning Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2505,3 +2500,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-17T15:58:28'
+- agent: PracticeAgent
+  action: 'Failed portal for TikTok Data Engineer Intern (Ads Data) - 2026 Summer
+    (BS/MS): Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-17T15:58:41'
