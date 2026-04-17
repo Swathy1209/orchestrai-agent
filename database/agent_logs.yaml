@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Zeroharm Sciences Private Limited Data Science Intern:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-17T09:21:06'
-- agent: PracticeAgent
   action: 'Failed portal for Ufeus Data Science Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2505,3 +2500,8 @@ logs:
     Learning - Intern: Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-17T11:45:49'
+- agent: PracticeAgent
+  action: 'Failed portal for TÜV SÜD Intern - Business Analyst / Process Engineer:
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-17T11:46:02'
