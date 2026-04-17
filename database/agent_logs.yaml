@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Almost Magic Private Limited Machine Learning Intern:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-17T17:25:48'
-- agent: PracticeAgent
   action: 'Failed portal for Fine Data Analytics Private Limited Machine Learning
     Intern: Gemini failed to generate project recommendations'
   status: error
@@ -2497,3 +2492,8 @@ logs:
     in Gurgaon: Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-17T19:31:15'
+- agent: PracticeAgent
+  action: 'Failed portal for CoreTek Labs Artificial Intelligence Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-17T19:31:27'
