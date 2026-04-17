@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Fintervue Artificial Intelligence (AI) Internship in
-    Bangalore, Indore (Hybrid): Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-17T09:40:17'
-- agent: PracticeAgent
   action: 'Failed portal for Arhant Solutions Pvt.ltd Artificial Intelligence (AI)
     Internship in Ahmedabad: Gemini failed to generate project recommendations'
   status: error
@@ -2501,3 +2496,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-17T12:10:03'
+- agent: PracticeAgent
+  action: 'Failed portal for Tesla AI Engineering Intern, Summer 2026: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-17T12:10:16'
