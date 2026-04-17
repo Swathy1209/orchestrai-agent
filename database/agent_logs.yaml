@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Great Indian Trade Alliance Artificial Intelligence Intern:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-17T00:50:15'
-- agent: PracticeAgent
   action: 'Failed portal for Zenotalent Machine learning Internship: Gemini failed
     to generate project recommendations'
   status: error
@@ -2503,3 +2498,8 @@ logs:
     Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-17T02:59:23'
+- agent: PracticeAgent
+  action: 'Failed portal for Uber Data Engineer II: Gemini failed to generate project
+    recommendations'
+  status: error
+  timestamp: '2026-04-17T02:59:35'
