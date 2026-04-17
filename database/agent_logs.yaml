@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Learning Skills Academy Data And ML Engineer: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-17T06:57:36'
-- agent: PracticeAgent
   action: 'Failed portal for Black Belt Commandos Security Systems Data Science Intern:
     Gemini failed to generate project recommendations'
   status: error
@@ -2500,3 +2495,8 @@ logs:
     & Analytics (Summer 2026): Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-17T08:10:45'
+- agent: PracticeAgent
+  action: 'Failed portal for Connors Group Data Analyst Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-17T08:11:15'
