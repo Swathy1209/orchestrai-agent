@@ -1,8 +1,4 @@
 logs:
-- agent: CareerAgent
-  action: Stored in GitHub YAML
-  level: INFO
-  timestamp: '2026-04-17T10:01:33'
 - agent: PracticeAgent
   action: 'Failed portal for Pipraiser Data Science Intern: Gemini failed to generate
     project recommendations'
@@ -2502,3 +2498,8 @@ logs:
     generate project recommendations'
   status: error
   timestamp: '2026-04-17T13:03:50'
+- agent: PracticeAgent
+  action: 'Failed portal for INDUS Technology, Inc. Business Analyst, Intern: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-17T13:04:02'
