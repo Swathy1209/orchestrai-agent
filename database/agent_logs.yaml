@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Tejate Education Private Limited Machine Learning Intern:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-17T07:31:22'
-- agent: PracticeAgent
   action: 'Failed portal for Matricstek Inc. Junior Data Analyst: Gemini failed to
     generate project recommendations'
   status: error
@@ -2500,3 +2495,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-17T10:14:01'
+- agent: PracticeAgent
+  action: 'Failed portal for TikTok Data Science Project Intern (Advertising Team)
+    - 2026 Start (BS/MS): Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-17T10:14:27'
