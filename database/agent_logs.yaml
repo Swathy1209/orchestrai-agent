@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Expose Trendze Machine Learning Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-17T11:56:18'
-- agent: PracticeAgent
   action: 'Failed portal for Vishwa Jagran Manav Sewa Sangh Charitable Trust Machine
     Learning Intern: Gemini failed to generate project recommendations'
   status: error
@@ -2501,3 +2496,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-17T14:43:25'
+- agent: PracticeAgent
+  action: 'Failed portal for Accredian Data Science: Gemini failed to generate project
+    recommendations'
+  status: error
+  timestamp: '2026-04-17T14:43:39'
