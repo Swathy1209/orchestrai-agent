@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Thermo Fisher Data Engineer II: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-16T22:49:39'
-- agent: PracticeAgent
   action: 'Failed portal for Cvent Data Science Intern (Summer 2026): Gemini failed
     to generate project recommendations'
   status: error
@@ -2500,3 +2495,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-17T00:59:26'
+- agent: PracticeAgent
+  action: 'Failed portal for Lobo Worldwide (Toronto, Canada) Data Science Intern:
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-17T00:59:39'
