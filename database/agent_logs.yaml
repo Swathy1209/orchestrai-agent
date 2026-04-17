@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for GenPark Artificial intelligence intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-17T06:28:17'
-- agent: PracticeAgent
   action: 'Failed portal for ZenAppStudio Machine Learning Intern: Gemini failed to
     generate project recommendations'
   status: error
@@ -2502,3 +2497,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-17T07:25:41'
+- agent: PracticeAgent
+  action: 'Failed portal for Primetrade.ai Artificial Intelligence Intern: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-17T07:25:46'
