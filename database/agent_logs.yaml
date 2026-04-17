@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Saia Inc. Senior Internal Audit Data Analyst: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-17T05:00:23'
-- agent: PracticeAgent
   action: 'Failed portal for AARP Data Analyst Intern: Gemini failed to generate project
     recommendations'
   status: error
@@ -2510,3 +2505,8 @@ logs:
     - 2026 Summer (BS/MS): Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-17T06:23:15'
+- agent: PracticeAgent
+  action: 'Failed portal for GenPark Machine learning engineer intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-17T06:23:29'
