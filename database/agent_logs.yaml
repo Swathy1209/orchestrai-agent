@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Hamsi Marketing Private Limited Artificial Intelligence
-    (AI): Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-17T21:12:58'
-- agent: PracticeAgent
   action: 'Failed portal for Maiway Technologies Data Engineer (Data Engineer/Data
     Collection): Gemini failed to generate project recommendations'
   status: error
@@ -2504,3 +2499,8 @@ logs:
     recommendations'
   status: error
   timestamp: '2026-04-17T23:11:54'
+- agent: PracticeAgent
+  action: 'Failed portal for Scowtt Intern - ML Engineering: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-17T23:12:07'
