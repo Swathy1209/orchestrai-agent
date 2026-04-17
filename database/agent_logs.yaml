@@ -1,9 +1,4 @@
 logs:
-- agent: PracticeAgent
-  action: 'Failed portal for Career Solutions Machine Learning Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-17T10:07:22'
 - agent: PortfolioBuilderAgent
   action: Generated Portfolio
   status: success
@@ -2503,3 +2498,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-17T13:06:55'
+- agent: PracticeAgent
+  action: 'Failed portal for Cisco Staff Machine Learning Engineer: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-17T13:07:08'
