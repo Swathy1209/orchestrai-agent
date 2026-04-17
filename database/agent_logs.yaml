@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for BioQuant IQ Artificial Intelligence Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-17T04:02:51'
-- agent: PracticeAgent
   action: 'Failed portal for Maersk Business Analyst – Financial Planning & Reporting:
     Gemini failed to generate project recommendations'
   status: error
@@ -2503,3 +2498,8 @@ logs:
   action: Email delegation passed to ExecutionAgent
   level: INFO
   timestamp: '2026-04-17T06:01:40'
+- agent: PracticeAgent
+  action: 'Failed portal for Morph Machine Learning Researcher PhD Intern: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-17T06:01:48'
