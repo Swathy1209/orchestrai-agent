@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Swiggy Business Analyst: Gemini failed to generate project
-    recommendations'
-  status: error
-  timestamp: '2026-04-17T05:05:05'
-- agent: PracticeAgent
   action: 'Failed portal for Taylor Corporation Business Analyst Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2509,3 +2504,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-17T06:34:14'
+- agent: PracticeAgent
+  action: 'Failed portal for Hubnine India Private Limited Artificial Intelligence
+    Intern: Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-17T06:34:41'
