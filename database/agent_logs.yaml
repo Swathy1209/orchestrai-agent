@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for TikTok Machine Learning Engineer Intern (Trust and Safety
-    - CV/NLP/Multimodal LLM) - 2026 Summer(BS/MS): Gemini failed to generate project
-    recommendations'
-  status: error
-  timestamp: '2026-04-17T20:09:55'
-- agent: PracticeAgent
   action: 'Failed portal for TikTok Machine Learning Engineer Intern (Data-Search-TikTok
     Recommendation Team) - 2026 Summer (BS/MS): Gemini failed to generate project
     recommendations'
@@ -2502,3 +2496,8 @@ logs:
     Intern: Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-17T22:30:50'
+- agent: PracticeAgent
+  action: 'Failed portal for Cylinder Health Junior Data Engineer: Detected incomplete
+    placeholder content. Regenerating...'
+  status: error
+  timestamp: '2026-04-17T22:30:56'
