@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Allo Innoware Data Science Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-17T05:46:00'
-- agent: PracticeAgent
   action: 'Failed portal for Deep Life Savers Data Science Intern: Gemini failed to
     generate project recommendations'
   status: error
@@ -2506,3 +2501,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-17T07:08:44'
+- agent: PracticeAgent
+  action: 'Failed portal for Krause Group Data Analyst Intern (Finance): Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-17T07:08:48'
