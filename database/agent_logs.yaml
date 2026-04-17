@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for RegisterKaro Machine Learning Intern: Gemini failed to
-    generate project recommendations'
-  status: error
-  timestamp: '2026-04-16T23:40:33'
-- agent: PracticeAgent
   action: 'Failed portal for OMR Shipping India Private Limited Machine Learning Intern:
     Gemini failed to generate project recommendations'
   status: error
@@ -2504,3 +2499,8 @@ logs:
   action: SkillAgent run initiated
   status: success
   timestamp: '2026-04-17T02:01:36'
+- agent: PracticeAgent
+  action: 'Failed portal for Trader For Tomorrow Data Science Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-17T02:01:43'
