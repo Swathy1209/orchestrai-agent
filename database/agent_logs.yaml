@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Skill Bharat Association Artificial Intelligence Intern:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-17T17:00:11'
-- agent: PracticeAgent
   action: 'Failed portal for The Agency Source Data Science Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2499,3 +2494,8 @@ logs:
     Intern  OCR & Document AI: Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-17T19:05:57'
+- agent: PracticeAgent
+  action: 'Failed portal for ARVO Internship - Computer Vision: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-17T19:06:09'
