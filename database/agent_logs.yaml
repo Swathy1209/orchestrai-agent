@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Albert Einstein College of Medicine Data Analyst - Education:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-17T12:03:43'
-- agent: PracticeAgent
   action: 'Failed portal for Berkshire Hathaway GUARD Insurance Companies Data-AI
     Engineering Intern: Gemini failed to generate project recommendations'
   status: error
@@ -2505,3 +2500,8 @@ logs:
     E-Commerce team - 2026 Summer (BS/MS): Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-17T14:49:01'
+- agent: PracticeAgent
+  action: 'Failed portal for ARM Institute Data Analyst Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-17T14:49:14'
