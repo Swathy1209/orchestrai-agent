@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Zenotalent Machine learning Internship: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-17T16:53:30'
-- agent: PracticeAgent
   action: 'Failed portal for EY Data Scientist – Machine Learning: Gemini failed to
     generate project recommendations'
   status: error
@@ -2499,3 +2494,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-17T18:59:16'
+- agent: PracticeAgent
+  action: 'Failed portal for Orange Technologies Data Science Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-17T18:59:28'
