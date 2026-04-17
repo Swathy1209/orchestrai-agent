@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for The Institute for Advanced Learning and Research Artificial
-    Intelligence / Machine Learning Intern: Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-17T06:58:25'
-- agent: PracticeAgent
   action: 'Failed portal for Bosch Home Comfort USA Autonomous Driving – Internship
     in Machine Learning: Gemini failed to generate project recommendations'
   status: error
@@ -2500,3 +2495,9 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-17T08:16:09'
+- agent: PracticeAgent
+  action: 'Failed portal for TikTok (General Hire) Machine Learning Engineer Intern
+    (TikTok- Video Recommendation) - 2026 Summer (BS/MS): Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-17T08:16:24'
