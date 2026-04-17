@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Chamadia Group Data Science Intern: Gemini failed to
-    generate project recommendations'
-  status: error
-  timestamp: '2026-04-17T05:25:48'
-- agent: PracticeAgent
   action: 'Failed portal for Boston Consulting Group (BCG) Business Analyst, Internship,
     Vietnam: Gemini failed to generate project recommendations'
   status: error
@@ -2508,3 +2503,8 @@ logs:
     Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-17T06:56:58'
+- agent: PracticeAgent
+  action: 'Failed portal for EY Machine Learning Engineer: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-17T06:57:04'
