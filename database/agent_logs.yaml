@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Almost Magic Private Limited Machine Learning Intern:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-17T07:29:44'
-- agent: PracticeAgent
   action: 'Failed portal for Yoliday LLP Data Science Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2499,3 +2494,8 @@ logs:
   action: Generated Portfolio
   status: success
   timestamp: '2026-04-17T10:07:30'
+- agent: PracticeAgent
+  action: 'Failed portal for Zypp Electric Machine Learning Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-17T10:07:36'
