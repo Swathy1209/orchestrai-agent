@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for 10x Impact Labs Artificial Intelligence Intern: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-16T21:42:00'
-- agent: PracticeAgent
   action: 'Failed portal for Wish A Brand Artificial Intelligence Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2504,3 +2499,7 @@ logs:
     generate project recommendations'
   status: error
   timestamp: '2026-04-17T00:01:06'
+- agent: CareerAgent
+  action: 99 jobs fetched, 84 relevant
+  level: INFO
+  timestamp: '2026-04-17T00:01:13'
