@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Internet2 Data Analyst Intern - Internet2 NET+ Program:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-17T07:09:01'
-- agent: PracticeAgent
   action: 'Failed portal for Bizlem Private Limited AI/ML Engineering: Gemini failed
     to generate project recommendations'
   status: error
@@ -2501,3 +2496,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-17T09:18:04'
+- agent: PracticeAgent
+  action: 'Failed portal for Main Marshals Artificial Intelligence Intern: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-17T09:18:17'
