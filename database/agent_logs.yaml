@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for New Jersey Courts Business Analyst Intern (Hourly): Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-17T03:08:16'
-- agent: PracticeAgent
   action: 'Failed portal for Hamsi Marketing Private Limited Artificial Intelligence
     (AI): Gemini failed to generate project recommendations'
   status: error
@@ -2501,3 +2496,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-17T05:23:23'
+- agent: PracticeAgent
+  action: 'Failed portal for Melotech AI/ML Engineer Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-17T05:23:29'
