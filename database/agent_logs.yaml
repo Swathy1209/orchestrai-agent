@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Grameen Shramik Pratishthan Data Science Intern: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-17T17:58:07'
-- agent: PracticeAgent
   action: 'Failed portal for Goodera Data Science Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2496,3 +2491,8 @@ logs:
   action: Generated 3 security fix PRs
   status: completed
   timestamp: '2026-04-17T20:07:24'
+- agent: PracticeAgent
+  action: 'Failed portal for Euphotic Labs Private Limited Machine Learning Intern:
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-17T20:07:39'
