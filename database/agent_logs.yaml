@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for GNG Developers Machine Learning Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-17T13:21:53'
-- agent: PracticeAgent
   action: 'Failed portal for Neurasys Machine Learning Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2506,3 +2501,8 @@ logs:
     Panvel, Thane: Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-17T15:26:54'
+- agent: PracticeAgent
+  action: 'Failed portal for Shopee Data Analyst Intern - Regional BI & Planning (Summer
+    2026): Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-17T15:27:08'
