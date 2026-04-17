@@ -1,8 +1,4 @@
 logs:
-- agent: OpportunityMatchingAgent
-  action: Generated match scores for 884 internships
-  status: success
-  timestamp: '2026-04-17T04:24:42'
 - agent: PracticeAgent
   action: 'Failed portal for Kanji Sweets Artificial Intelligence Intern: Gemini failed
     to generate project recommendations'
@@ -2509,3 +2505,8 @@ logs:
     Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-17T06:15:08'
+- agent: PracticeAgent
+  action: 'Failed portal for Wingman Pro Machine Learning Intern: Gemini failed to
+    generate project recommendations'
+  status: error
+  timestamp: '2026-04-17T06:15:23'
