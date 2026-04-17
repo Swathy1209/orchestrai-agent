@@ -1,9 +1,4 @@
 logs:
-- agent: PracticeAgent
-  action: 'Failed portal for Athena AI Engineer Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-17T08:08:08'
 - agent: ResumeOptimizationAgent
   action: Generated optimizations for 886 internships
   status: success
@@ -2503,3 +2498,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-17T11:17:30'
+- agent: PracticeAgent
+  action: 'Failed portal for Qubixo Data Science Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-17T11:17:43'
