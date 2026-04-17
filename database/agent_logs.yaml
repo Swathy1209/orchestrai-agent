@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Indiaum Solutions Data Science Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-17T21:52:10'
-- agent: PracticeAgent
   action: 'Failed portal for Awakn Machine Learning Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2504,3 +2499,8 @@ logs:
     Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-17T23:50:52'
+- agent: PracticeAgent
+  action: 'Failed portal for Automation Anywhere AI Engineer: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-17T23:51:04'
