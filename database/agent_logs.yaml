@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for CareerNest Machine Learning Intern: Gemini failed to
-    generate project recommendations'
-  status: error
-  timestamp: '2026-04-17T05:28:25'
-- agent: PracticeAgent
   action: 'Failed portal for Premix Productions Data Science Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2508,3 +2503,8 @@ logs:
     Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-17T06:59:35'
+- agent: PracticeAgent
+  action: 'Failed portal for S&P Global Loan Reference Data Analyst: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-17T06:59:44'
