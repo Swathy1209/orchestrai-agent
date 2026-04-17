@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Echodyne Summer Intern Data Engineer/Software Engineer:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-17T01:01:10'
-- agent: PracticeAgent
   action: 'Failed portal for Uber Data Engineer II: Gemini failed to generate project
     recommendations'
   status: error
@@ -2503,3 +2498,8 @@ logs:
     Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-17T03:10:24'
+- agent: PracticeAgent
+  action: 'Failed portal for Infoware Artificial Intelligence (AI): Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-17T03:10:38'
