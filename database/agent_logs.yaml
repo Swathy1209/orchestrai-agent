@@ -1,8 +1,4 @@
 logs:
-- agent: PortfolioBuilderAgent
-  action: Generated Portfolio
-  status: success
-  timestamp: '2026-04-17T10:07:30'
 - agent: PracticeAgent
   action: 'Failed portal for Zypp Electric Machine Learning Intern: Gemini failed
     to generate project recommendations'
@@ -2503,3 +2499,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-17T13:07:08'
+- agent: PracticeAgent
+  action: 'Failed portal for 365 Retail Markets Business Analyst Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-17T13:07:21'
