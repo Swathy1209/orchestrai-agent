@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Motovolt Machine Learning Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-17T04:33:36'
-- agent: PracticeAgent
   action: 'Failed portal for Macquarie Group Liquidity Business Analyst: Gemini failed
     to generate project recommendations'
   status: error
@@ -2510,3 +2505,8 @@ logs:
     recommendations'
   status: error
   timestamp: '2026-04-17T06:21:51'
+- agent: PracticeAgent
+  action: 'Failed portal for Statcon Energiaa Data Science Intern: Gemini failed to
+    generate project recommendations'
+  status: error
+  timestamp: '2026-04-17T06:22:05'
