@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for CipherSchools Data Science Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-17T11:37:22'
-- agent: PracticeAgent
   action: 'Failed portal for TMRW - House Of Brands Machine Learning Intern: Gemini
     failed to generate project recommendations'
   status: error
@@ -2498,3 +2493,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-17T14:33:16'
+- agent: PracticeAgent
+  action: 'Failed portal for Giftinguru Data Science Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-17T14:33:23'
