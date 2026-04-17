@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Primetrade.ai Machine Learning (Modeling and Evaluation):
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-17T05:22:36'
-- agent: PracticeAgent
   action: 'Failed portal for Wake Up Whistle Data Science Intern (Python, SQL, Pandas):
     Gemini failed to generate project recommendations'
   status: error
@@ -2508,3 +2503,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-17T06:53:46'
+- agent: PracticeAgent
+  action: 'Failed portal for XED Executive Development Private Limited Artificial
+    Intelligence Intern: Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-17T06:53:53'
