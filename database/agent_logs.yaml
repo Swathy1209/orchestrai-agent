@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for RSHCE Renu Sharma Health Care And Education Foundation
-    Data Science Intern: Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-17T09:35:27'
-- agent: PracticeAgent
   action: 'Failed portal for STRIDE School Of Business Data Science Intern: Gemini
     failed to generate project recommendations'
   status: error
@@ -2501,3 +2496,8 @@ logs:
   action: 100 jobs fetched, 85 relevant
   level: INFO
   timestamp: '2026-04-17T12:01:07'
+- agent: PracticeAgent
+  action: 'Failed portal for Morph Machine Learning Researcher PhD Intern: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-17T12:01:24'
