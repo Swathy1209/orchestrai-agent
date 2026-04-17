@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Tech Economy ML-AI Engineering Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-17T07:13:01'
-- agent: PracticeAgent
   action: 'Failed portal for Wofo24 Technologies Private Limited Data Science Intern:
     Gemini failed to generate project recommendations'
   status: error
@@ -2503,3 +2498,8 @@ logs:
     Intern: Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-17T09:26:19'
+- agent: PracticeAgent
+  action: 'Failed portal for GenPark Data science engineer intern: Gemini failed to
+    generate project recommendations'
+  status: error
+  timestamp: '2026-04-17T09:26:33'
