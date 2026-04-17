@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Robocapital Data Science Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-17T06:57:27'
-- agent: PracticeAgent
   action: 'Failed portal for Learning Skills Academy Data And ML Engineer: Gemini
     failed to generate project recommendations'
   status: error
@@ -2500,3 +2495,8 @@ logs:
   action: Generated 3 security fix PRs
   status: completed
   timestamp: '2026-04-17T08:09:39'
+- agent: PracticeAgent
+  action: 'Failed portal for Tesla Internship, Machine Learning Engineer, Data Engineering
+    & Analytics (Summer 2026): Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-17T08:10:45'
