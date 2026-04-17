@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Envision Next Data Analyst Internship in Thane, Navi
-    Mumbai, Panvel: Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-17T13:30:30'
-- agent: PracticeAgent
   action: 'Failed portal for Paracoat Products Limited Data Science Intern: Gemini
     failed to generate project recommendations'
   status: error
@@ -2507,3 +2502,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-17T15:35:40'
+- agent: PracticeAgent
+  action: 'Failed portal for PetSapiens Private Limited Data Science Intern: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-17T15:35:53'
