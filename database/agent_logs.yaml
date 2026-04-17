@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Weframe Tech Artificial Intelligence Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-17T13:52:53'
-- agent: PracticeAgent
   action: 'Failed portal for Emerson Data Engineer: Gemini failed to generate project
     recommendations'
   status: error
@@ -2504,3 +2499,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-17T16:04:35'
+- agent: PracticeAgent
+  action: 'Failed portal for Veracode Business Analyst Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-17T16:04:49'
