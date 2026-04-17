@@ -1,9 +1,4 @@
 logs:
-- agent: PracticeAgent
-  action: 'Failed portal for Astra Security Machine Learning Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-17T14:00:21'
 - agent: CareerAgent
   action: Fetch started
   level: INFO
@@ -2502,3 +2497,8 @@ logs:
     Intern: Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-17T16:09:48'
+- agent: PracticeAgent
+  action: 'Failed portal for Booz Allen Hamilton Data Analyst, Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-17T16:10:14'
