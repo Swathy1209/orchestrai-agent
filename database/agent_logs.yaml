@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for SETV Global Machine Learning Intern: Gemini failed to
-    generate project recommendations'
-  status: error
-  timestamp: '2026-04-16T23:32:30'
-- agent: PracticeAgent
   action: 'Failed portal for Alster IT Solutions Machine Learning Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2504,3 +2499,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-17T01:48:35'
+- agent: PracticeAgent
+  action: 'Failed portal for Awakn Machine Learning Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-17T01:48:48'
