@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for PlanetMeta.Live Machine Learning Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-17T14:38:38'
-- agent: PracticeAgent
   action: 'Failed portal for Stripe Data Analyst, Intern (Master''s degree): Detected
     incomplete placeholder content. Regenerating...'
   status: error
@@ -2505,3 +2500,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-17T16:53:03'
+- agent: PracticeAgent
+  action: 'Failed portal for Great Indian Trade Alliance Artificial Intelligence Intern:
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-17T16:53:17'
