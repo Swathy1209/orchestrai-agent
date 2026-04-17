@@ -1,9 +1,5 @@
 logs:
 - agent: CareerAgent
-  action: 99 jobs fetched
-  level: INFO
-  timestamp: '2026-04-17T04:00:31'
-- agent: CareerAgent
   action: 99 jobs fetched, 84 relevant
   level: INFO
   timestamp: '2026-04-17T04:00:36'
@@ -2500,3 +2496,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-17T05:58:24'
+- agent: PracticeAgent
+  action: 'Failed portal for Athena Data Science Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-17T05:58:38'
