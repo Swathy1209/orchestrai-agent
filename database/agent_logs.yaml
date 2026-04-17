@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Lensa Intern - Data Science, Generative AI: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-17T13:25:44'
-- agent: PracticeAgent
   action: 'Failed portal for LTM Artificial Intelligence Intern: Gemini failed to
     generate project recommendations'
   status: error
@@ -2506,3 +2501,8 @@ logs:
     (Summer 2026): Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-17T15:30:57'
+- agent: PracticeAgent
+  action: 'Failed portal for Peakflo (YC W22) Machine Learning (ML) Engineer Intern
+    - (Paid - India/Remote): Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-17T15:31:11'
