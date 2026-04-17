@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for GenPark Data science engineer intern: Gemini failed to
-    generate project recommendations'
-  status: error
-  timestamp: '2026-04-17T07:19:54'
-- agent: PracticeAgent
   action: 'Failed portal for FTI Defense - Frontier Technology Inc. AI/ML Engineering
     Internship: Gemini failed to generate project recommendations'
   status: error
@@ -2501,3 +2496,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-17T09:40:04'
+- agent: PracticeAgent
+  action: 'Failed portal for Fintervue Artificial Intelligence (AI) Internship in
+    Bangalore, Indore (Hybrid): Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-17T09:40:17'
