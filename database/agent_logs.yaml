@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Milliman India Private Limited AI/ML Engineer: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-17T19:22:40'
-- agent: PracticeAgent
   action: 'Failed portal for Argmac Data Science Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2503,3 +2498,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-17T21:34:25'
+- agent: PracticeAgent
+  action: 'Failed portal for Boston Consulting Group (BCG) Business Analyst, Internship,
+    Vietnam: Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-17T21:34:38'
