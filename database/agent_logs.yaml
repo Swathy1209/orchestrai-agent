@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for ILEAD Kolkata Artificial Intelligence (AI): Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-17T05:04:36'
-- agent: PracticeAgent
   action: 'Failed portal for Kidvento Education And Research Private Limited Data
     Science Intern: Gemini failed to generate project recommendations'
   status: error
@@ -2509,3 +2504,8 @@ logs:
     Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-17T06:32:50'
+- agent: PracticeAgent
+  action: 'Failed portal for LI Blocks Private Limited Data Science Intern: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-17T06:33:03'
