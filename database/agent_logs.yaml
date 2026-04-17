@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Global Ace Technology Machine Learning Intern: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-17T07:37:41'
-- agent: PracticeAgent
   action: 'Failed portal for Premix Productions Data Science Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2502,3 +2497,8 @@ logs:
   action: Generated Application Packages for 890 internships
   status: success
   timestamp: '2026-04-17T10:36:47'
+- agent: PracticeAgent
+  action: 'Failed portal for TikTok Data Engineer Project Intern (Data Governance
+    Data Cycling Center) - 2026 Start (BS/MS): Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-17T10:36:54'
