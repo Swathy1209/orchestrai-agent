@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for OyeLabs Machine Learning Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-17T15:36:46'
-- agent: PracticeAgent
   action: 'Failed portal for Payoneer Senior Data Engineer: Gemini failed to generate
     project recommendations'
   status: error
@@ -2501,3 +2496,8 @@ logs:
     recommendations'
   status: error
   timestamp: '2026-04-17T18:02:05'
+- agent: PracticeAgent
+  action: 'Failed portal for Envestnet Data Analyst II: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-17T18:02:18'
