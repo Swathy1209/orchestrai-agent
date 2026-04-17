@@ -1,9 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: PracticeAgent run initiated
-  status: success
-  timestamp: '2026-04-17T00:29:32'
-- agent: PracticeAgent
   action: 'Failed portal for Blismos Solutions Private Limited Machine Learning Intern:
     Gemini failed to generate project recommendations'
   status: error
@@ -2503,3 +2499,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-17T02:38:31'
+- agent: PracticeAgent
+  action: 'Failed portal for ZKAP EDTECH SERVICES PRIVATE LIMITED Machine Learning
+    Intern: Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-17T02:38:44'
