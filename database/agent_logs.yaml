@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Pathward Data Science Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-17T11:19:17'
-- agent: PracticeAgent
   action: 'Failed portal for Donor Alliance Data Science Intern: Gemini failed to
     generate project recommendations'
   status: error
@@ -2502,3 +2497,7 @@ logs:
   action: Fetch started
   level: INFO
   timestamp: '2026-04-17T14:00:32'
+- agent: CareerAgent
+  action: 100 jobs fetched
+  level: INFO
+  timestamp: '2026-04-17T14:01:01'
