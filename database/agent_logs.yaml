@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Awarno Data Science Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-17T03:02:45'
-- agent: PracticeAgent
   action: 'Failed portal for Awarno Machine Learning Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2501,3 +2496,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-17T05:20:48'
+- agent: PracticeAgent
+  action: 'Failed portal for Webosphere Technolabs LLP Machine Learning Intern: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-17T05:20:54'
