@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Poshmark AI/ML Engineering Intern (Summer 2026): Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-17T21:31:04'
-- agent: PracticeAgent
   action: 'Failed portal for Wake Up Whistle Data Science Intern (Python, SQL, Pandas):
     Gemini failed to generate project recommendations'
   status: error
@@ -2506,3 +2501,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-17T23:30:00'
+- agent: PracticeAgent
+  action: 'Failed portal for California Medical Behavioral Health Data Science Intern:
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-17T23:30:13'
