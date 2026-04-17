@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Apollo Mission Critical Engineering Multiple U.S Locations
-    - Business Analyst Intern (BA-I) - Summer 2026: Gemini failed to generate project
-    recommendations'
-  status: error
-  timestamp: '2026-04-17T10:38:18'
-- agent: PracticeAgent
   action: 'Failed portal for Kayno World Education Private Limited Data Science Intern:
     Gemini failed to generate project recommendations'
   status: error
@@ -2501,3 +2495,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-17T13:26:59'
+- agent: PracticeAgent
+  action: 'Failed portal for ODN Digital Services Private Limited Data Science Intern:
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-17T13:27:12'
