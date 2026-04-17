@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for GreenGas USA Data Engineer - Intern: Gemini failed to
-    generate project recommendations'
-  status: error
-  timestamp: '2026-04-17T13:57:53'
-- agent: PracticeAgent
   action: 'Failed portal for Tesla Internship, Machine Learning Engineer, Data Engineering
     & Analytics (Summer 2026): Gemini failed to generate project recommendations'
   status: error
@@ -2501,3 +2496,8 @@ logs:
   action: Generated Portfolio
   status: success
   timestamp: '2026-04-17T16:07:31'
+- agent: PracticeAgent
+  action: 'Failed portal for Greenleap Robotics Private Limited Machine Learning Intern:
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-17T16:07:47'
