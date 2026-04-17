@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Carer Ai Data Science: Gemini failed to generate project
-    recommendations'
-  status: error
-  timestamp: '2026-04-17T13:07:33'
-- agent: PracticeAgent
   action: 'Failed portal for Career Solutions Artificial Intelligence (AI): Gemini
     failed to generate project recommendations'
   status: error
@@ -2506,3 +2501,8 @@ logs:
     Intern: Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-17T15:12:32'
+- agent: PracticeAgent
+  action: 'Failed portal for ScentAir Technology & Data Science Intern – ScentAir
+    (Charlotte, NC): Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-17T15:12:43'
