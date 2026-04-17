@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Melotech Data Science Intern, Music & Audio: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-17T08:14:56'
-- agent: PracticeAgent
   action: 'Failed portal for Tesla AI Engineering Intern, Summer 2026: Gemini failed
     to generate project recommendations'
   status: error
@@ -2504,3 +2499,8 @@ logs:
     Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-17T11:19:42'
+- agent: PracticeAgent
+  action: 'Failed portal for JK Moving Services Data Science and AI Intern: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-17T11:19:55'
