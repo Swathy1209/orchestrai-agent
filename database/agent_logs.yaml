@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Black Potato Systems Data Engineering & Database Research:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-17T19:21:18'
-- agent: PracticeAgent
   action: 'Failed portal for Saniya SanjayGaikwad Data Science: Gemini failed to generate
     project recommendations'
   status: error
@@ -2503,3 +2498,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-17T21:33:11'
+- agent: PracticeAgent
+  action: 'Failed portal for Nomagic Machine Learning Intern (202641): Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-17T21:33:23'
