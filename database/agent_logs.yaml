@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Irizpro Learning Solutions Artificial Intelligence (AI):
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-17T11:09:45'
-- agent: PracticeAgent
   action: 'Failed portal for Barclays Private Bank Processing Business Analyst: Gemini
     failed to generate project recommendations'
   status: error
@@ -2502,3 +2497,8 @@ logs:
     Learning - Intern: Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-17T13:39:32'
+- agent: PracticeAgent
+  action: 'Failed portal for TÜV SÜD Intern - Business Analyst / Process Engineer:
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-17T13:39:45'
