@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for AndOr Communications Private Limited Data Science Intern:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-17T07:20:31'
-- agent: PracticeAgent
   action: 'Failed portal for Neurasys Machine Learning: Gemini failed to generate
     project recommendations'
   status: error
@@ -2501,3 +2496,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-17T09:41:21'
+- agent: PracticeAgent
+  action: 'Failed portal for Nexus Energy Inc. Junior Data Analyst Intern: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-17T09:41:34'
