@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for MTX Group Business Analyst Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-17T14:38:31'
-- agent: PracticeAgent
   action: 'Failed portal for PlanetMeta.Live Machine Learning Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2505,3 +2500,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-17T16:52:50'
+- agent: PracticeAgent
+  action: 'Failed portal for Mem0 AI Machine Learning Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-17T16:53:03'
