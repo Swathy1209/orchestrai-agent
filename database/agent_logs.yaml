@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Mple AI Machine Learning Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-17T17:26:55'
-- agent: PracticeAgent
   action: 'Failed portal for White & Co Machine Learning Intern: Gemini failed to
     generate project recommendations'
   status: error
@@ -2497,3 +2492,8 @@ logs:
     Internship in Ahmedabad: Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-17T19:32:20'
+- agent: PracticeAgent
+  action: 'Failed portal for FlyNava Technologies Data Science Internship in Bangalore:
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-17T19:32:32'
