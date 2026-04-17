@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Nomagic Machine Learning Intern (202641): Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-17T09:41:21'
-- agent: PracticeAgent
   action: 'Failed portal for Nexus Energy Inc. Junior Data Analyst Intern: Gemini
     failed to generate project recommendations'
   status: error
@@ -2502,3 +2497,8 @@ logs:
     Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-17T12:13:26'
+- agent: PracticeAgent
+  action: 'Failed portal for TZURONI LTD. (Kefar Sava, Israel) Data Science Intern:
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-17T12:13:40'
