@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for The International Council on Clean Transportation Policy
-    and Data Analysis Intern (San Francisco): Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-17T07:39:23'
-- agent: PracticeAgent
   action: 'Failed portal for Collective Artists Network Data Science Intern: Gemini
     failed to generate project recommendations'
   status: error
@@ -2501,3 +2496,8 @@ logs:
     generate project recommendations'
   status: error
   timestamp: '2026-04-17T10:38:33'
+- agent: PracticeAgent
+  action: 'Failed portal for MTX Group Business Analyst Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-17T10:38:41'
