@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Bombardier Data Analyst Intern (Year-Round): Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-17T02:45:35'
-- agent: PracticeAgent
   action: 'Failed portal for XED Executive Development Private Limited Artificial
     Intelligence Intern: Gemini failed to generate project recommendations'
   status: error
@@ -2501,3 +2496,8 @@ logs:
     Intern: Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-17T05:12:22'
+- agent: PracticeAgent
+  action: 'Failed portal for REVOLVE Data Science Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-17T05:12:28'
