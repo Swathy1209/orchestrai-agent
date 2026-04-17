@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Kidvento Education And Research Private Limited Data
-    Science Intern: Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-17T05:04:42'
-- agent: PracticeAgent
   action: 'Failed portal for Newzeninfotech Solutions Data Science: Gemini failed
     to generate project recommendations'
   status: error
@@ -2509,3 +2504,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-17T06:33:03'
+- agent: PracticeAgent
+  action: 'Failed portal for Protecht (Wyoming, United States) Machine Learning Intern:
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-17T06:33:18'
