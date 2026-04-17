@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Bharat Diamond Bourse Artificial Intelligence (AI): Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-17T05:17:45'
-- agent: PracticeAgent
   action: 'Failed portal for Earthed Soul PVT LTD Machine Learning Intern: Gemini
     failed to generate project recommendations'
   status: error
@@ -2508,3 +2503,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-17T06:49:17'
+- agent: PracticeAgent
+  action: 'Failed portal for Technoculture Research Data Science Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-17T06:49:22'
