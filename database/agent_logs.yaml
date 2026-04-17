@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for KIDLOLAND KIDS & TODDLER GAMES PRIVATE LIMITED Artificial
-    Intelligence Intern: Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-16T23:36:05'
-- agent: PracticeAgent
   action: 'Failed portal for Technoculture Research Artificial Intelligence Intern:
     Gemini failed to generate project recommendations'
   status: error
@@ -2504,3 +2499,8 @@ logs:
     Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-17T01:55:09'
+- agent: PracticeAgent
+  action: 'Failed portal for Emerson Data Engineer: Gemini failed to generate project
+    recommendations'
+  status: error
+  timestamp: '2026-04-17T01:55:21'
