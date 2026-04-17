@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for SAV (Scale Asia Ventures) AI Engineer Intern: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-17T21:25:44'
-- agent: PracticeAgent
   action: 'Failed portal for Carufus Technology Private Limited Data Science Intern:
     Gemini failed to generate project recommendations'
   status: error
@@ -2506,3 +2501,8 @@ logs:
     generate project recommendations'
   status: error
   timestamp: '2026-04-17T23:24:48'
+- agent: PracticeAgent
+  action: 'Failed portal for Reach Technologies Machine Learning Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-17T23:25:01'
