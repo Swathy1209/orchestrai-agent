@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Nyoutaa Data Science Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-17T09:32:20'
-- agent: PracticeAgent
   action: 'Failed portal for Primetrade.ai Machine Learning Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2503,3 +2498,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-17T11:56:46'
+- agent: PracticeAgent
+  action: 'Failed portal for Apport Software Solutions Private Limited Data Science
+    Intern: Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-17T11:57:00'
