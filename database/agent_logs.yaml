@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Fendi Intern, Retail Business Analyst: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-17T11:54:24'
-- agent: PracticeAgent
   action: 'Failed portal for The Middleby Corporation Business Analyst Internship:
     Gemini failed to generate project recommendations'
   status: error
@@ -2501,3 +2496,8 @@ logs:
     recommendations'
   status: error
   timestamp: '2026-04-17T14:41:26'
+- agent: PracticeAgent
+  action: 'Failed portal for IIT Guwahati Data Science Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-17T14:41:40'
