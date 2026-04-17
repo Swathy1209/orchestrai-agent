@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for The International Council on Clean Transportation Policy
-    and Data Analysis Intern (San Francisco): Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-17T13:33:53'
-- agent: PracticeAgent
   action: 'Failed portal for Shopee Data Analyst Intern - Warehouse Operations, Regional
     Operations (Spring 2025): Gemini failed to generate project recommendations'
   status: error
@@ -2505,3 +2500,8 @@ logs:
     Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-17T15:40:00'
+- agent: PracticeAgent
+  action: 'Failed portal for Symonis Machine Learning Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-17T15:40:25'
