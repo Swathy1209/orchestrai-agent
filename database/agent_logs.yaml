@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Awakn Machine Learning Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-17T07:56:30'
-- agent: PracticeAgent
   action: 'Failed portal for Gaba Telepsychiatry (New York, United States) Data Science
     Intern: Gemini failed to generate project recommendations'
   status: error
@@ -2501,3 +2496,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-17T11:11:11'
+- agent: PracticeAgent
+  action: 'Failed portal for Hooman Digital LLP Machine Learning: Gemini failed to
+    generate project recommendations'
+  status: error
+  timestamp: '2026-04-17T11:11:23'
