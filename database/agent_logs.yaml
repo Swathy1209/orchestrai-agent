@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Maxgen Technologies Private Limited Data Science Intern:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-17T11:30:58'
-- agent: PracticeAgent
   action: 'Failed portal for Trekion AI Machine Learning Intern: Gemini failed to
     generate project recommendations'
   status: error
@@ -2499,3 +2494,8 @@ logs:
   action: Generated Application Packages for 898 internships
   status: success
   timestamp: '2026-04-17T14:25:24'
+- agent: PracticeAgent
+  action: 'Failed portal for Blismos Solutions Private Limited Data Science Intern:
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-17T14:25:41'
