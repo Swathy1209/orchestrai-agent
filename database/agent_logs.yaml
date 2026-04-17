@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Aadi Foundation Machine Learning Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-17T10:21:06'
-- agent: PracticeAgent
   action: 'Failed portal for Procter & Gamble Data Engineer: Gemini failed to generate
     project recommendations'
   status: error
@@ -2501,3 +2496,8 @@ logs:
     generate project recommendations'
   status: error
   timestamp: '2026-04-17T13:13:25'
+- agent: PracticeAgent
+  action: 'Failed portal for DISH TV AI Data Analyst Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-17T13:13:39'
