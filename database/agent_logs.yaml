@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for LeadUpAI AI Engineer: Gemini failed to generate project
-    recommendations'
-  status: error
-  timestamp: '2026-04-17T03:05:34'
-- agent: PracticeAgent
   action: 'Failed portal for PRGX Global Inc. Artificial Intelligence Intern: Gemini
     failed to generate project recommendations'
   status: error
@@ -2501,3 +2496,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-17T05:22:06'
+- agent: PracticeAgent
+  action: 'Failed portal for Hexa Solution Data Analyst: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-17T05:22:11'
