@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Tax-O-Smart LLP Artificial Intelligence (AI): Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-17T09:06:35'
-- agent: PracticeAgent
   action: 'Failed portal for Talent Corner HR Services Machine Learning Engineer:
     Gemini failed to generate project recommendations'
   status: error
@@ -2505,3 +2500,8 @@ logs:
     Intern: Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-17T11:31:36'
+- agent: PracticeAgent
+  action: 'Failed portal for GenPark Data science engineer intern: Gemini failed to
+    generate project recommendations'
+  status: error
+  timestamp: '2026-04-17T11:31:49'
