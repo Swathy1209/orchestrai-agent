@@ -3,11 +3,6 @@ logs:
   action: 'Failed portal for ByteDance Benefits Operation Data Analyst Project Intern
     - 2026 Start (BS): Gemini failed to generate project recommendations'
   status: error
-  timestamp: '2026-04-17T06:27:00'
-- agent: PracticeAgent
-  action: 'Failed portal for ByteDance Benefits Operation Data Analyst Project Intern
-    - 2026 Start (BS): Gemini failed to generate project recommendations'
-  status: error
   timestamp: '2026-04-17T06:27:15'
 - agent: OpportunityMatchingAgent
   action: Generated match scores for 886 internships
@@ -2501,3 +2496,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-17T07:25:09'
+- agent: PracticeAgent
+  action: 'Failed portal for Black Potato Systems Data Engineering & Database Research:
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-17T07:25:17'
