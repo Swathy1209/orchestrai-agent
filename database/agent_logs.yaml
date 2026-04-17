@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Tesla Internship, Machine Learning Engineer, Data Engineering
-    & Analytics (Summer 2026): Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-17T18:05:18'
-- agent: PracticeAgent
   action: 'Failed portal for Connors Group Data Analyst Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2500,3 +2495,8 @@ logs:
     / Dynamo Eval / AgentWarden: Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-17T20:18:29'
+- agent: PracticeAgent
+  action: 'Failed portal for Statcon Energiaa Data Science Intern: Gemini failed to
+    generate project recommendations'
+  status: error
+  timestamp: '2026-04-17T20:19:37'
