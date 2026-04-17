@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Wofo24 Technologies Private Limited Data Science Intern:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-17T01:07:24'
-- agent: PracticeAgent
   action: 'Failed portal for Hospitality Career Profile Artificial Intelligence Intern:
     Gemini failed to generate project recommendations'
   status: error
@@ -2503,3 +2498,8 @@ logs:
     recommendations'
   status: error
   timestamp: '2026-04-17T03:16:41'
+- agent: PracticeAgent
+  action: 'Failed portal for Black Potato Systems Data Engineering & Database Research:
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-17T03:16:54'
