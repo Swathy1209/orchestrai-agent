@@ -3,11 +3,6 @@ logs:
   action: 'Failed portal for MyCloud Technology Data Science Intern: Gemini failed
     to generate project recommendations'
   status: error
-  timestamp: '2026-04-17T06:54:54'
-- agent: PracticeAgent
-  action: 'Failed portal for MyCloud Technology Data Science Intern: Gemini failed
-    to generate project recommendations'
-  status: error
   timestamp: '2026-04-17T06:54:58'
 - agent: PracticeAgent
   action: 'Failed portal for ServiceHive Data Science Intern: Gemini failed to generate
@@ -2503,3 +2498,8 @@ logs:
     Learning Intern: Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-17T07:59:53'
+- agent: PracticeAgent
+  action: 'Failed portal for IWerk InfoSolutions LLP Machine Learning Intern: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-17T08:00:05'
