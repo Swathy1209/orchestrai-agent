@@ -1,9 +1,5 @@
 logs:
 - agent: CareerAgent
-  action: Fetch started
-  level: INFO
-  timestamp: '2026-04-17T14:00:32'
-- agent: CareerAgent
   action: 100 jobs fetched
   level: INFO
   timestamp: '2026-04-17T14:01:01'
@@ -2502,3 +2498,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-17T16:10:14'
+- agent: PracticeAgent
+  action: 'Failed portal for Ekimetrics 6 months Internship in Strategy & Data Science
+    | New York: Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-17T16:10:41'
