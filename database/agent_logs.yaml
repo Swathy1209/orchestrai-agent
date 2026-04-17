@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Hone Health Data Science Intern (Summer 2026): Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-17T07:26:29'
-- agent: PracticeAgent
   action: 'Failed portal for SAV (Scale Asia Ventures) AI Engineer Intern: Gemini
     failed to generate project recommendations'
   status: error
@@ -2503,3 +2498,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-17T09:55:55'
+- agent: PracticeAgent
+  action: 'Failed portal for Medidata Solutions Data Science Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-17T09:56:19'
