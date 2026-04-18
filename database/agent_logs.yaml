@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Aviraj Infotech Private Limited Machine Learning Intern:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-17T22:56:20'
-- agent: PracticeAgent
   action: 'Failed portal for CarMax Business Analyst Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2503,3 +2498,8 @@ logs:
     Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-18T00:51:43'
+- agent: PracticeAgent
+  action: 'Failed portal for Wobot Intelligence Private Limited Computer Vision: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-18T00:51:55'
