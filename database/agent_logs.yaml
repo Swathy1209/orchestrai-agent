@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Giant Leap Data Science Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-18T15:47:15'
-- agent: PracticeAgent
   action: 'Failed portal for Marico Innovation Foundation Data Science Intern: Gemini
     failed to generate project recommendations'
   status: error
@@ -2489,3 +2484,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-18T19:24:35'
+- agent: PracticeAgent
+  action: 'Failed portal for Hone Health Data Science Intern (Summer 2026): Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-18T19:24:47'
