@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Founding Years Learning Solutions Private Limited Data
-    Science Intern: Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-18T13:49:52'
-- agent: PracticeAgent
   action: 'Failed portal for IWerk InfoSolutions LLP Machine Learning Intern: Gemini
     failed to generate project recommendations'
   status: error
@@ -2499,3 +2494,8 @@ logs:
   action: Generated optimizations for 914 internships
   status: success
   timestamp: '2026-04-18T15:57:44'
+- agent: PracticeAgent
+  action: 'Failed portal for Euphotic Labs Private Limited Data Science Intern: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-18T15:58:10'
