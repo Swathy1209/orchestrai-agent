@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for OMNIDYA TECH LLP Data Science Intern: Gemini failed to
-    generate project recommendations'
-  status: error
-  timestamp: '2026-04-18T19:25:57'
-- agent: PracticeAgent
   action: 'Failed portal for Career-Domain Data Science Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2503,3 +2498,8 @@ logs:
     recommendations'
   status: error
   timestamp: '2026-04-18T21:14:11'
+- agent: PracticeAgent
+  action: 'Failed portal for Black Potato Systems Data Engineering & Database Research:
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-18T21:14:25'
