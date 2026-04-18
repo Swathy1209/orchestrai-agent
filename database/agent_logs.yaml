@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Legend Biotech PD Data Sciences, CMC Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-18T19:52:43'
-- agent: PracticeAgent
   action: 'Failed portal for Fendi Intern, Retail Business Analyst: Gemini failed
     to generate project recommendations'
   status: error
@@ -2504,3 +2499,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-18T21:43:55'
+- agent: PracticeAgent
+  action: 'Failed portal for Primenumbers Technologies Machine Learning Intern: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-18T21:44:07'
