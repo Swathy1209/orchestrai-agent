@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for BNM Business Solutions LLP Data Science Intern: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-18T05:36:51'
-- agent: PracticeAgent
   action: 'Failed portal for Pehchaan AI Technologies Artificial Intelligence Intern:
     Gemini failed to generate project recommendations'
   status: error
@@ -2499,3 +2494,8 @@ logs:
     generate project recommendations'
   status: error
   timestamp: '2026-04-18T07:01:55'
+- agent: PracticeAgent
+  action: 'Failed portal for Goldman Sachs Business Analyst: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-18T07:02:02'
