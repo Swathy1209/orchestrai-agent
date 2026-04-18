@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Benjamin Moore Data Science & Analytics Intern: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-18T06:18:06'
-- agent: PracticeAgent
   action: 'Failed portal for NHS Ayrshire & Arran Principal Analyst – Data Engineering:
     Gemini failed to generate project recommendations'
   status: error
@@ -2504,3 +2499,8 @@ logs:
     Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-18T07:19:18'
+- agent: PracticeAgent
+  action: 'Failed portal for Trekion AI Machine Learning Intern: Gemini failed to
+    generate project recommendations'
+  status: error
+  timestamp: '2026-04-18T07:19:24'
