@@ -1,9 +1,5 @@
 logs:
 - agent: CareerAgent
-  action: 100 jobs fetched, 85 relevant
-  level: INFO
-  timestamp: '2026-04-18T16:01:07'
-- agent: CareerAgent
   action: Email delegation passed to ExecutionAgent
   level: INFO
   timestamp: '2026-04-18T16:01:24'
@@ -2490,3 +2486,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-18T19:32:17'
+- agent: PracticeAgent
+  action: 'Failed portal for Nebula Personalization Tech Solutions Private Limited
+    Artificial Intelligence Intern: Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-18T19:32:29'
