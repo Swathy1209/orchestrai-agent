@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for The Rehancement Group, Inc. Data Analyst 1: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-18T07:16:47'
-- agent: PracticeAgent
   action: 'Failed portal for Sungrow Data Analyst Internship: Gemini failed to generate
     project recommendations'
   status: error
@@ -2500,3 +2495,8 @@ logs:
     generate project recommendations'
   status: error
   timestamp: '2026-04-18T09:11:18'
+- agent: PracticeAgent
+  action: 'Failed portal for JK Moving Services Data Science and AI Intern: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-18T09:11:23'
