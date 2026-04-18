@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for The Hustle House Artificial Intelligence Intern: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-18T15:24:03'
-- agent: PracticeAgent
   action: 'Failed portal for Nebula Personalization Tech Solutions Private Limited
     Artificial Intelligence Intern: Gemini failed to generate project recommendations'
   status: error
@@ -2497,3 +2492,9 @@ logs:
     - (Paid - India/Remote): Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-18T17:28:52'
+- agent: PracticeAgent
+  action: 'Failed portal for ByteDance Machine Learning Engineer Intern (E-commerce
+    Governance Algorithms) - 2026 Summer (BS/MS): Gemini failed to generate project
+    recommendations'
+  status: error
+  timestamp: '2026-04-18T17:29:06'
