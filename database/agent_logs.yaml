@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Los Angeles Kings Summer Intern, Data Science (LA Kings):
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-18T05:09:25'
-- agent: PracticeAgent
   action: 'Failed portal for ChatGPT Jobs Data Engineer Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2497,3 +2492,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-18T06:32:11'
+- agent: PracticeAgent
+  action: 'Failed portal for Protecht (Wyoming, United States) Data Science Intern:
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-18T06:32:19'
