@@ -1,8 +1,4 @@
 logs:
-- agent: CareerAgent
-  action: Email delegation passed to ExecutionAgent
-  level: INFO
-  timestamp: '2026-04-18T18:14:18'
 - agent: SkillAgent
   action: SkillAgent run initiated
   status: success
@@ -2496,3 +2492,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-18T20:58:25'
+- agent: PracticeAgent
+  action: 'Failed portal for Anavai Technologies Machine Learning Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-18T20:58:39'
