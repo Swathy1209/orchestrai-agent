@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Maximus Business Analyst Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-18T06:45:07'
-- agent: PracticeAgent
   action: 'Failed portal for Plus Barrels Data Science Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2504,3 +2499,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-18T07:35:01'
+- agent: PracticeAgent
+  action: 'Failed portal for Boston Consulting Group (BCG) Business Analyst, Internship,
+    Vietnam: Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-18T07:35:08'
