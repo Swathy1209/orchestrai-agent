@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Talkspace NLP Research Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-18T11:55:09'
-- agent: PracticeAgent
   action: 'Failed portal for TikTok (General Hire) Machine Learning Engineer Intern
     (TikTok- Video Recommendation) - 2026 Summer (BS/MS): Gemini failed to generate
     project recommendations'
@@ -2497,3 +2492,8 @@ logs:
   action: Generated Application Packages for 913 internships
   status: success
   timestamp: '2026-04-18T14:05:18'
+- agent: PracticeAgent
+  action: 'Failed portal for Hayward Holdings, Inc. ERP Dashboard and Data Analyst
+    Intern: Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-18T14:05:25'
