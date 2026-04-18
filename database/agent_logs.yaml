@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for RAJ DRISHTI OPTICS Data Science Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-18T05:07:02'
-- agent: PracticeAgent
   action: 'Failed portal for HSBC Business Analyst- Transformation: Gemini failed
     to generate project recommendations'
   status: error
@@ -2499,3 +2494,8 @@ logs:
     generate project recommendations'
   status: error
   timestamp: '2026-04-18T06:27:58'
+- agent: PracticeAgent
+  action: 'Failed portal for Samaritan''s Purse Geospatial Data Analyst, North American
+    Disaster Relief: Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-18T06:28:03'
