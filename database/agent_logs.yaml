@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for S&P Global Business Analyst: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-18T16:48:12'
-- agent: PracticeAgent
   action: 'Failed portal for S&P Global Loan Reference Data Analyst: Gemini failed
     to generate project recommendations'
   status: error
@@ -2492,3 +2487,8 @@ logs:
   action: 'Scanned 47 repos, priority fix: Hardcoded API Key'
   status: completed
   timestamp: '2026-04-18T20:05:09'
+- agent: PracticeAgent
+  action: 'Failed portal for Astra Security Machine Learning Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-18T20:05:14'
