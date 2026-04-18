@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Abkasa Designer Apparels Private Limited Artificial Intelligence
-    Intern: Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-18T14:50:50'
-- agent: PracticeAgent
   action: 'Failed portal for Goldman Sachs Business Analyst: Gemini failed to generate
     project recommendations'
   status: error
@@ -2494,3 +2489,8 @@ logs:
     Learning: Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-18T16:54:52'
+- agent: PracticeAgent
+  action: 'Failed portal for Lensa Artificial Intelligence (AI) Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-18T16:55:05'
