@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Bumi Armada Intern - Data Analyst: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-18T17:30:23'
-- agent: PracticeAgent
   action: 'Failed portal for The Level Group Online Business Analyst Intern: Gemini
     failed to generate project recommendations'
   status: error
@@ -2492,3 +2487,8 @@ logs:
     generate project recommendations'
   status: error
   timestamp: '2026-04-18T20:53:08'
+- agent: PracticeAgent
+  action: 'Failed portal for Aurora Financials AI / ML Engineering Intern: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-18T20:53:22'
