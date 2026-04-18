@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for OMNIDYA TECH LLP Machine Learning Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-18T11:17:55'
-- agent: PracticeAgent
   action: 'Failed portal for Mple AI Machine Learning Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2502,3 +2497,8 @@ logs:
     (AI): Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-18T13:10:37'
+- agent: PracticeAgent
+  action: 'Failed portal for GCCX AI/ML Engineer: Gemini failed to generate project
+    recommendations'
+  status: error
+  timestamp: '2026-04-18T13:10:49'
