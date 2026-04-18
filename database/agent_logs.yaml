@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for OyeLabs Data Science Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-18T01:37:17'
-- agent: PracticeAgent
   action: 'Failed portal for Apport Software Solutions Private Limited Data Science
     Intern: Gemini failed to generate project recommendations'
   status: error
@@ -2504,3 +2499,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-18T03:53:54'
+- agent: PracticeAgent
+  action: 'Failed portal for Reducate.ai Machine Learning Intern: Gemini failed to
+    generate project recommendations'
+  status: error
+  timestamp: '2026-04-18T03:54:19'
