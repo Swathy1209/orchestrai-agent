@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Intuit Staff Compliance Assurance  Technical Data Analyst:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-18T07:17:58'
-- agent: PracticeAgent
   action: 'Failed portal for Cisco Staff Machine Learning Engineer: Gemini failed
     to generate project recommendations'
   status: error
@@ -2500,3 +2495,8 @@ logs:
     recommendations'
   status: error
   timestamp: '2026-04-18T09:12:27'
+- agent: PracticeAgent
+  action: 'Failed portal for Saia Inc. Senior Internal Audit Data Analyst: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-18T09:12:32'
