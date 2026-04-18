@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Maxgen Technologies Private Limited Data Science Intern:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-18T07:19:12'
-- agent: PracticeAgent
   action: 'Failed portal for Crustdata (YC F24) ML Engineer Intern (Summer 2026):
     Gemini failed to generate project recommendations'
   status: error
@@ -2500,3 +2495,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-18T09:13:36'
+- agent: PracticeAgent
+  action: 'Failed portal for Daice Labs Machine Learning Intern: Gemini failed to
+    generate project recommendations'
+  status: error
+  timestamp: '2026-04-18T09:13:42'
