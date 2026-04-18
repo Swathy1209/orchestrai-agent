@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Morph Machine Learning Researcher PhD Intern: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-18T06:03:22'
-- agent: PracticeAgent
   action: 'Failed portal for RELI Group, Inc. Data Analyst Intern: Gemini failed to
     generate project recommendations'
   status: error
@@ -2501,3 +2496,8 @@ logs:
     generate project recommendations'
   status: error
   timestamp: '2026-04-18T07:13:30'
+- agent: PracticeAgent
+  action: 'Failed portal for Swiggy Business Analyst: Gemini failed to generate project
+    recommendations'
+  status: error
+  timestamp: '2026-04-18T07:13:36'
