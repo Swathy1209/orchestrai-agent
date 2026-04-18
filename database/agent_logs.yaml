@@ -1,9 +1,4 @@
 logs:
-- agent: SkillAgent
-  action: Skill gap analysis complete
-  status: success
-  timestamp: '2026-04-18T20:01:45'
-  details: Analyzed 915 jobs.
 - agent: PracticeAgent
   action: 'Failed portal for Tesla Internship, Machine Learning Engineer, NVH, Vehicle
     Engineering (Summer 2026): Gemini failed to generate project recommendations'
@@ -2506,3 +2501,9 @@ logs:
   status: success
   timestamp: '2026-04-18T22:02:02'
   details: Analyzed 915 jobs.
+- agent: PracticeAgent
+  action: 'Failed portal for TikTok Machine Learning Engineer Intern (Trust and Safety
+    - CV/NLP/Multimodal LLM) - 2026 Summer(BS/MS): Gemini failed to generate project
+    recommendations'
+  status: error
+  timestamp: '2026-04-18T22:02:24'
