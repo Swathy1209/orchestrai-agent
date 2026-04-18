@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for S&P Global Loan Reference Data Analyst: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-18T06:59:21'
-- agent: PracticeAgent
   action: 'Failed portal for Lensa Business Analyst (Intern) - United States: Gemini
     failed to generate project recommendations'
   status: error
@@ -2503,3 +2498,8 @@ logs:
     Science Intern: Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-18T07:59:03'
+- agent: PracticeAgent
+  action: 'Failed portal for Expose Trendze Machine Learning Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-18T07:59:16'
