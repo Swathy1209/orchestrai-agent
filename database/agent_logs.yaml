@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Tesla AI Engineering Intern, Summer 2026: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-18T00:05:51'
-- agent: PracticeAgent
   action: 'Failed portal for TikTok Machine Learning Engineer Intern (Trust and Safety
     - CV/NLP/Multimodal LLM) - 2026 Summer(BS/MS): Gemini failed to generate project
     recommendations'
@@ -2503,3 +2498,7 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-18T02:01:17'
+- agent: CareerAgent
+  action: Stored in GitHub YAML
+  level: INFO
+  timestamp: '2026-04-18T02:01:24'
