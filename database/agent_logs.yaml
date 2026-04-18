@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Saniya SanjayGaikwad Data Science: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-18T19:23:50'
-- agent: PracticeAgent
   action: 'Failed portal for Hexa Solution Data Analyst: Gemini failed to generate
     project recommendations'
   status: error
@@ -2503,3 +2498,8 @@ logs:
     Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-18T21:11:46'
+- agent: PracticeAgent
+  action: 'Failed portal for Zello AI & ML Engineering Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-18T21:12:01'
