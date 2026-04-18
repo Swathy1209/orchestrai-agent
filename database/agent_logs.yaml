@@ -1,9 +1,4 @@
 logs:
-- agent: PracticeAgent
-  action: 'Failed portal for Metropolitan Transportation Authority Data Science Maintenance
-    Support, Emerging Talent Intern (Summer): Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-18T15:56:55'
 - agent: ResumeOptimizationAgent
   action: Generated optimizations for 914 internships
   status: success
@@ -2488,3 +2483,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-18T19:29:36'
+- agent: PracticeAgent
+  action: 'Failed portal for Neurasys Machine Learning Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-18T19:29:47'
