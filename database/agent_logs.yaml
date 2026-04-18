@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Webbybutter Technologies Data Science Intern: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-18T05:25:20'
-- agent: PracticeAgent
   action: 'Failed portal for FlyNava Technologies Data Science Internship in Bangalore:
     Gemini failed to generate project recommendations'
   status: error
@@ -2499,3 +2494,8 @@ logs:
     Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-18T06:50:00'
+- agent: PracticeAgent
+  action: 'Failed portal for SUN GROUP Artificial Intelligence Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-18T06:50:07'
