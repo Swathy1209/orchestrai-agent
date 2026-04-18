@@ -1,9 +1,4 @@
 logs:
-- agent: PracticeAgent
-  action: 'Failed portal for Veracode Business Analyst Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-17T22:05:29'
 - agent: ResumeOptimizationAgent
   action: Generated optimizations for 898 internships
   status: success
@@ -2504,3 +2499,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-18T00:03:51'
+- agent: PracticeAgent
+  action: 'Failed portal for Euphotic Labs Private Limited Machine Learning Intern:
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-18T00:04:04'
