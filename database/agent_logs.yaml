@@ -1,9 +1,4 @@
 logs:
-- agent: PracticeAgent
-  action: 'Failed portal for Albert Einstein College of Medicine Data Analyst - Education:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-18T20:01:08'
 - agent: CareerAgent
   action: Stored in GitHub YAML
   level: INFO
@@ -2505,3 +2500,7 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-18T22:00:53'
+- agent: CareerAgent
+  action: 103 jobs fetched
+  level: INFO
+  timestamp: '2026-04-18T22:01:06'
