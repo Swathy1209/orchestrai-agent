@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Accredian Data Science: Gemini failed to generate project
-    recommendations'
-  status: error
-  timestamp: '2026-04-17T22:42:26'
-- agent: PracticeAgent
   action: 'Failed portal for targetjobs UK Business Analyst Internship: Gemini failed
     to generate project recommendations'
   status: error
@@ -2505,3 +2500,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-18T00:38:56'
+- agent: PracticeAgent
+  action: 'Failed portal for AIFINSPHERE INC. Data Analyst Intern: Gemini failed to
+    generate project recommendations'
+  status: error
+  timestamp: '2026-04-18T00:39:03'
