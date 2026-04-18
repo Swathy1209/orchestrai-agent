@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Tatari Data Science BI, Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-18T04:56:10'
-- agent: PracticeAgent
   action: 'Failed portal for S&P Global Business Analyst: Gemini failed to generate
     project recommendations'
   status: error
@@ -2503,3 +2498,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-18T05:48:30'
+- agent: PracticeAgent
+  action: 'Failed portal for Assetcues Solutions Private Limited Machine Learning
+    Intern: Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-18T05:48:43'
