@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Cloud Back Machine Learning Intern: Gemini failed to
-    generate project recommendations'
-  status: error
-  timestamp: '2026-04-18T20:21:48'
-- agent: PracticeAgent
   action: 'Failed portal for ZenAppStudio Machine Learning Intern: Gemini failed to
     generate project recommendations'
   status: error
@@ -2502,3 +2497,8 @@ logs:
   action: PracticeAgent run initiated
   status: success
   timestamp: '2026-04-18T22:31:25'
+- agent: PracticeAgent
+  action: 'Failed portal for Stackwise Artificial Intelligence Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-18T22:31:35'
