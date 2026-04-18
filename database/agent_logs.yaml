@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Apport Software Solutions Private Limited Data Science
-    Intern: Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-18T07:43:20'
-- agent: PracticeAgent
   action: 'Failed portal for Kasbah Films & Media Pvt Ltd Data Science Intern: Gemini
     failed to generate project recommendations'
   status: error
@@ -2501,3 +2496,7 @@ logs:
   action: Fetch started
   level: INFO
   timestamp: '2026-04-18T10:00:30'
+- agent: CareerAgent
+  action: 100 jobs fetched
+  level: INFO
+  timestamp: '2026-04-18T10:01:02'
