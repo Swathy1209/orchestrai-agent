@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for REVOLVE Data Science Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-18T19:14:41'
-- agent: PracticeAgent
   action: 'Failed portal for Xometry Machine Learning Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2501,3 +2496,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-18T21:01:32'
+- agent: PracticeAgent
+  action: 'Failed portal for Echodyne Summer Intern Data Engineer/Software Engineer:
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-18T21:01:45'
