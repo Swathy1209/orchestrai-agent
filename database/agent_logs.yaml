@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Unnati Enterprises Data Science Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-18T01:45:23'
-- agent: PracticeAgent
   action: 'Failed portal for VIZON Data Science Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2500,3 +2495,8 @@ logs:
   status: success
   timestamp: '2026-04-18T04:01:46'
   details: Analyzed 905 jobs.
+- agent: PracticeAgent
+  action: 'Failed portal for Praxis Home Retail Limited Data Science Intern: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-18T04:02:09'
