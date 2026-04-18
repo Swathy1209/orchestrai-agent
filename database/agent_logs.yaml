@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for RefinedScience Data Engineering Intern: Detected incomplete
-    placeholder content. Regenerating...'
-  status: error
-  timestamp: '2026-04-18T14:26:09'
-- agent: PracticeAgent
   action: 'Failed portal for Cylinder Health Junior Data Engineer: Detected incomplete
     placeholder content. Regenerating...'
   status: error
@@ -2499,3 +2494,8 @@ logs:
     Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-18T16:30:32'
+- agent: PracticeAgent
+  action: 'Failed portal for LivNSense Machine Learning Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-18T16:30:44'
