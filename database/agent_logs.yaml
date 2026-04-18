@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Zenotalent Machine learning Internship: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-18T06:57:14'
-- agent: PracticeAgent
   action: 'Failed portal for Robocapital Data Science Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2503,3 +2498,8 @@ logs:
     Intern: Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-18T07:49:50'
+- agent: PracticeAgent
+  action: 'Failed portal for Procter & Gamble Senior IT Data Engineer- DMO Pipelines:
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-18T07:50:31'
