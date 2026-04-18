@@ -1,9 +1,5 @@
 logs:
 - agent: CareerAgent
-  action: 100 jobs fetched
-  level: INFO
-  timestamp: '2026-04-18T18:13:55'
-- agent: CareerAgent
   action: 100 jobs fetched, 85 relevant
   level: INFO
   timestamp: '2026-04-18T18:14:04'
@@ -2493,3 +2489,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-18T20:57:46'
+- agent: PracticeAgent
+  action: 'Failed portal for Sybrant Technologies Private Limited Machine Learning
+    Intern: Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-18T20:57:58'
