@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Iron Mountain Business Analyst Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-18T05:03:56'
-- agent: PracticeAgent
   action: 'Failed portal for EXL Data Analyst Associate: Gemini failed to generate
     project recommendations'
   status: error
@@ -2499,3 +2494,8 @@ logs:
     - no C2C: Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-18T06:19:54'
+- agent: PracticeAgent
+  action: 'Failed portal for Inorbvict Healthcare India Private Limited Machine Learning
+    Intern: Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-18T06:20:01'
