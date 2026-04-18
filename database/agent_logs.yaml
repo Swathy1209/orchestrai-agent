@@ -1,9 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: PracticeAgent run initiated
-  status: success
-  timestamp: '2026-04-18T20:24:21'
-- agent: PracticeAgent
   action: 'Failed portal for FormsADDA Data Science Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2503,3 +2499,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-18T22:32:17'
+- agent: PracticeAgent
+  action: 'Failed portal for Calipers Consulting Private Limited Data Science Intern:
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-18T22:32:25'
