@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for EXL Data Analyst Associate: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-18T05:04:03'
-- agent: PracticeAgent
   action: 'Failed portal for Saia Inc. Senior Internal Audit Data Analyst: Gemini
     failed to generate project recommendations'
   status: error
@@ -2499,3 +2494,8 @@ logs:
     Intern: Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-18T06:20:01'
+- agent: PracticeAgent
+  action: 'Failed portal for NewAge Industries, Inc. Data Analyst Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-18T06:20:07'
