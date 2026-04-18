@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for The Agency Source Data Science Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-18T14:52:55'
-- agent: PracticeAgent
   action: 'Failed portal for Sybrant Technologies Private Limited Machine Learning
     Intern: Gemini failed to generate project recommendations'
   status: error
@@ -2494,3 +2489,8 @@ logs:
     generate project recommendations'
   status: error
   timestamp: '2026-04-18T16:56:56'
+- agent: PracticeAgent
+  action: 'Failed portal for Aurora Financials AI / ML Engineering Intern: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-18T16:57:11'
