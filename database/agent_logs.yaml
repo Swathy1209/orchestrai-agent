@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for ServiceHive Machine Learning Intern: Gemini failed to
-    generate project recommendations'
-  status: error
-  timestamp: '2026-04-18T16:44:21'
-- agent: PracticeAgent
   action: 'Failed portal for ServiceHive Artificial Intelligence Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2492,3 +2487,8 @@ logs:
   action: SkillAgent run initiated
   status: success
   timestamp: '2026-04-18T20:01:31'
+- agent: PracticeAgent
+  action: 'Failed portal for Berkshire Hathaway GUARD Insurance Companies Data-AI
+    Engineering Intern: Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-18T20:01:38'
