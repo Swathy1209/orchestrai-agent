@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for GenPark Artificial intelligence engineer intern: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-18T05:00:51'
-- agent: PracticeAgent
   action: 'Failed portal for Bankers Financial Corporation Business Analyst Intern:
     Gemini failed to generate project recommendations'
   status: error
@@ -2501,3 +2496,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-18T06:08:44'
+- agent: PracticeAgent
+  action: 'Failed portal for Praxis Home Retail Limited Data Science Intern: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-18T06:08:57'
