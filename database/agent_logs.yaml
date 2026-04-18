@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for IT-Infotek Data Science Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-18T07:17:22'
-- agent: PracticeAgent
   action: 'Failed portal for Hamsi Marketing Private Limited Artificial Intelligence
     (AI): Gemini failed to generate project recommendations'
   status: error
@@ -2500,3 +2495,8 @@ logs:
     Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-18T09:11:53'
+- agent: PracticeAgent
+  action: 'Failed portal for Krause Group Data Analyst Intern (Finance): Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-18T09:11:58'
