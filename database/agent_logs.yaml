@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Quizzy Data Science Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-18T01:15:44'
-- agent: PracticeAgent
   action: 'Failed portal for Indika AI Private Limited Data Science Intern: Gemini
     failed to generate project recommendations'
   status: error
@@ -2504,3 +2499,8 @@ logs:
     generate project recommendations'
   status: error
   timestamp: '2026-04-18T03:24:38'
+- agent: PracticeAgent
+  action: 'Failed portal for Poshmark AI/ML Engineering Intern (Summer 2026): Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-18T03:24:50'
