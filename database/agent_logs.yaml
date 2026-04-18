@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Zyndra Talent Solutions Business Analyst Innovation Intern:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-18T06:55:01'
-- agent: PracticeAgent
   action: 'Failed portal for MyCloud Technology Machine Learning Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2503,3 +2498,8 @@ logs:
     Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-18T07:45:01'
+- agent: PracticeAgent
+  action: 'Failed portal for Novaflow (YC S25) Machine Learning Engineer Intern -
+    Summer 2026: Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-18T07:45:09'
