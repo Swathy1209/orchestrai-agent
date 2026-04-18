@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for The Great Indian Studio Artificial Intelligence Intern:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-18T00:33:54'
-- agent: PracticeAgent
   action: 'Failed portal for AUMOVIO Data Analysis Intern (Yearlong): Gemini failed
     to generate project recommendations'
   status: error
@@ -2503,3 +2498,8 @@ logs:
     recommendations'
   status: error
   timestamp: '2026-04-18T02:35:11'
+- agent: PracticeAgent
+  action: 'Failed portal for Maximus Business Analyst Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-18T02:35:23'
