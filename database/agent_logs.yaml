@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Tailorbird Software AI Engineering Internships: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-18T20:02:05'
-- agent: PracticeAgent
   action: 'Failed portal for ForFutures Financial, Planning, a financial advisory
     practice of Ameriprise Financial Services LLC AI/Data Science Graduate Intern:
     Gemini failed to generate project recommendations'
@@ -2508,3 +2503,8 @@ logs:
     recommendations'
   status: error
   timestamp: '2026-04-18T22:02:38'
+- agent: PracticeAgent
+  action: 'Failed portal for Talkspace NLP Research Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-18T22:02:52'
