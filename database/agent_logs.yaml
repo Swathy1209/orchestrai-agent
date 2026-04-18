@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Talentrift Business Analyst Intern: Gemini failed to
-    generate project recommendations'
-  status: error
-  timestamp: '2026-04-18T14:42:44'
-- agent: PracticeAgent
   action: 'Failed portal for Zyndra Talent Solutions Business Analyst Innovation Intern:
     Gemini failed to generate project recommendations'
   status: error
@@ -2494,3 +2489,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-18T16:47:01'
+- agent: PracticeAgent
+  action: 'Failed portal for Bosch Home Comfort USA Autonomous Driving – Internship
+    in Machine Learning: Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-18T16:47:13'
