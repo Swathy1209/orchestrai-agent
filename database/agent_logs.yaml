@@ -1,9 +1,4 @@
 logs:
-- agent: PracticeAgent
-  action: 'Failed portal for Stanford University School of Medicine Data Analyst 1
-    (1 Year Fixed Term): Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-18T20:00:54'
 - agent: CareerAgent
   action: 71 jobs fetched, 56 relevant
   level: INFO
@@ -2504,3 +2499,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-18T22:00:25'
+- agent: PracticeAgent
+  action: 'Failed portal for Maersk Business Analyst – Financial Planning & Reporting:
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-18T22:00:38'
