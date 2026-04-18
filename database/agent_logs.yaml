@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Newzeninfotech Solutions Data Science: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-18T05:08:10'
-- agent: PracticeAgent
   action: 'Failed portal for Amdocs Data Engineer: Gemini failed to generate project
     recommendations'
   status: error
@@ -2499,3 +2494,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-18T06:29:47'
+- agent: PracticeAgent
+  action: 'Failed portal for Daten & Wissen Private Limited Machine Learning Intern:
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-18T06:30:01'
