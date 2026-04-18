@@ -1,8 +1,4 @@
 logs:
-- agent: CoverLetterAgent
-  action: Generated 914 cover letters
-  status: success
-  timestamp: '2026-04-18T14:25:50'
 - agent: PracticeAgent
   action: PracticeAgent run initiated
   status: success
@@ -2497,3 +2493,8 @@ logs:
     generate project recommendations'
   status: error
   timestamp: '2026-04-18T16:29:55'
+- agent: PracticeAgent
+  action: 'Failed portal for Brain Quest Data Science Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-18T16:30:07'
