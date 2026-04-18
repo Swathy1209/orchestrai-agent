@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Arihant Publications Artificial Intelligence Intern:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-18T07:33:24'
-- agent: PracticeAgent
   action: 'Failed portal for Flutter UK & Ireland Data Analyst Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2502,3 +2497,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-18T09:34:28'
+- agent: PracticeAgent
+  action: 'Failed portal for IIIT Hyderabad Data Science Intern: Gemini failed to
+    generate project recommendations'
+  status: error
+  timestamp: '2026-04-18T09:34:41'
