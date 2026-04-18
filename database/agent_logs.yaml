@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Megaminds IT Services Machine Learning Intern: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-18T15:44:12'
-- agent: PracticeAgent
   action: 'Failed portal for Arhant Solutions Artificial Intelligence Intern: Gemini
     failed to generate project recommendations'
   status: error
@@ -2489,3 +2484,8 @@ logs:
     Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-18T19:22:27'
+- agent: PracticeAgent
+  action: 'Failed portal for SkillLevel Machine Learning: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-18T19:22:39'
