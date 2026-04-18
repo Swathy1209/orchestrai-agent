@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Connors Group Data Analyst Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-18T11:51:29'
-- agent: PracticeAgent
   action: 'Failed portal for Euphotic Labs Private Limited Data Science Intern: Gemini
     failed to generate project recommendations'
   status: error
@@ -2497,3 +2492,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-18T14:02:10'
+- agent: PracticeAgent
+  action: 'Failed portal for Ekfrazo Technologies Azure Data Engineer: Detected incomplete
+    placeholder content. Regenerating...'
+  status: error
+  timestamp: '2026-04-18T14:02:25'
