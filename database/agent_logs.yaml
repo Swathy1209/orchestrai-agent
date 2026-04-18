@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Allo Innoware Data Science Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-18T01:41:43'
-- agent: PracticeAgent
   action: 'Failed portal for Assetcues Solutions Private Limited Data Science Intern:
     Gemini failed to generate project recommendations'
   status: error
@@ -2503,3 +2498,8 @@ logs:
   action: Fetch started
   level: INFO
   timestamp: '2026-04-18T04:00:00'
+- agent: PracticeAgent
+  action: 'Failed portal for Metropolitan Transportation Authority Data Science Maintenance
+    Support, Emerging Talent Intern (Summer): Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-18T04:00:05'
