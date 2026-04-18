@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Khurana Technology Solutions Data Science Intern: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-18T06:33:11'
-- agent: PracticeAgent
   action: 'Failed portal for Protecht (Wyoming, United States) Data Science Intern:
     Gemini failed to generate project recommendations'
   status: error
@@ -2505,3 +2500,8 @@ logs:
     Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-18T07:26:01'
+- agent: PracticeAgent
+  action: 'Failed portal for C3 AI Data Science - Intern (Summer 2026): Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-18T07:26:06'
