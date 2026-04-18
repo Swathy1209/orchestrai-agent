@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Inorbvict Healthcare India Private Limited Machine Learning
-    Intern: Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-18T06:21:00'
-- agent: PracticeAgent
   action: 'Failed portal for INFICON Data Science Intern (Remote): Gemini failed to
     generate project recommendations'
   status: error
@@ -2504,3 +2499,8 @@ logs:
     generate project recommendations'
   status: error
   timestamp: '2026-04-18T07:20:44'
+- agent: PracticeAgent
+  action: 'Failed portal for eClerx Business Analyst: Gemini failed to generate project
+    recommendations'
+  status: error
+  timestamp: '2026-04-18T07:20:51'
