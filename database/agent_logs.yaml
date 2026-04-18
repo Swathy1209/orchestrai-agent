@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for StoryMirror Infotech Private Limited Machine Learning
-    Intern: Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-18T05:27:29'
-- agent: PracticeAgent
   action: 'Failed portal for Reach Technologies Data Science Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2499,3 +2494,8 @@ logs:
     generate project recommendations'
   status: error
   timestamp: '2026-04-18T06:52:14'
+- agent: PracticeAgent
+  action: 'Failed portal for Nuro Machine Learning intern, Behavior Planning: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-18T06:52:20'
