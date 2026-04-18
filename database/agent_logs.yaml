@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Zoox Machine Learning Engineer Intern, Simulation: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-18T11:59:27'
-- agent: PracticeAgent
   action: 'Failed portal for Verda Healthcare Business Analyst (Junior/Entry Level)
     - no C2C: Gemini failed to generate project recommendations'
   status: error
@@ -2494,3 +2489,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-18T14:07:22'
+- agent: PracticeAgent
+  action: 'Failed portal for Domyn AI Engineering and Research Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-18T14:07:47'
