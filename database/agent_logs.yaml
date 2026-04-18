@@ -1,9 +1,4 @@
 logs:
-- agent: PracticeAgent
-  action: 'Failed portal for NewAge Industries, Inc. Data Analyst Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-18T12:00:24'
 - agent: CareerAgent
   action: Fetch started
   level: INFO
@@ -2494,3 +2489,8 @@ logs:
     AI) - 2026 Summer/Fall (PhD): Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-18T14:08:24'
+- agent: PracticeAgent
+  action: 'Failed portal for Zoox Machine Learning Engineer Intern, Simulation: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-18T14:09:00'
