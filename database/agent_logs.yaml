@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Unimonks Data Science Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-18T07:18:37'
-- agent: PracticeAgent
   action: 'Failed portal for Career Solutions Artificial Intelligence (AI): Gemini
     failed to generate project recommendations'
   status: error
@@ -2500,3 +2495,8 @@ logs:
     New Grad): Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-18T09:13:01'
+- agent: PracticeAgent
+  action: 'Failed portal for Awarno Data Science Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-18T09:13:07'
