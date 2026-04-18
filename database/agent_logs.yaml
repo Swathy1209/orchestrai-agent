@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Tesla AI Engineering Intern, Summer 2026: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-18T02:04:36'
-- agent: PracticeAgent
   action: 'Failed portal for AARP Data Science Intern: Gemini failed to generate project
     recommendations'
   status: error
@@ -2502,3 +2497,8 @@ logs:
     Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-18T04:28:23'
+- agent: PracticeAgent
+  action: 'Failed portal for JK Crockery Artificial Intelligence Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-18T04:28:37'
