@@ -1,9 +1,4 @@
 logs:
-- agent: PracticeAgent
-  action: 'Failed portal for Tesla AI Engineering Intern, Summer 2026: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-18T16:00:54'
 - agent: CareerAgent
   action: 100 jobs fetched, 85 relevant
   level: INFO
@@ -2490,3 +2485,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-18T19:32:06'
+- agent: PracticeAgent
+  action: 'Failed portal for The Hustle House Artificial Intelligence Intern: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-18T19:32:17'
