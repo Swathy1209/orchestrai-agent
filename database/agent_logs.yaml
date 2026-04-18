@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Aviraj Infotech Private Limited Machine Learning Intern:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-18T04:56:42'
-- agent: PracticeAgent
   action: 'Failed portal for Lensa Data Analyst Internship (Summer 2026): Gemini failed
     to generate project recommendations'
   status: error
@@ -2502,3 +2497,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-18T05:51:30'
+- agent: PracticeAgent
+  action: 'Failed portal for VIZON Data Science Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-18T05:51:44'
