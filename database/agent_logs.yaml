@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Apollo Mission Critical Engineering Multiple U.S Locations
-    - Business Analyst Intern (BA-I) - Summer 2026: Gemini failed to generate project
-    recommendations'
-  status: error
-  timestamp: '2026-04-18T06:45:18'
-- agent: PracticeAgent
   action: 'Failed portal for Ophtechnics Eyeline Systems Private Limited Data Science
     Intern: Gemini failed to generate project recommendations'
   status: error
@@ -2504,3 +2498,8 @@ logs:
     (Summer 2026): Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-18T07:35:12'
+- agent: PracticeAgent
+  action: 'Failed portal for FRND Business Analyst Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-18T07:35:20'
