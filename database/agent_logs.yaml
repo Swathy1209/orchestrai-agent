@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Envestnet Data Analyst II: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-18T11:48:43'
-- agent: PracticeAgent
   action: 'Failed portal for Berkshire Hathaway GUARD Insurance Companies Data-AI
     Engineering Intern: Gemini failed to generate project recommendations'
   status: error
@@ -2498,3 +2493,8 @@ logs:
   action: 100 jobs fetched, 85 relevant
   level: INFO
   timestamp: '2026-04-18T14:01:05'
+- agent: PracticeAgent
+  action: 'Failed portal for Euphotic Labs Private Limited Machine Learning Intern:
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-18T14:01:10'
