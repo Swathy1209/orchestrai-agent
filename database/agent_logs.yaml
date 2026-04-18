@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Cardinal Health Machine Learning Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-18T00:03:24'
-- agent: PracticeAgent
   action: 'Failed portal for CodeTikki WorkSpace Machine Learning Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2504,3 +2499,8 @@ logs:
     Governance Algorithms) - 2026 Start (Phd): Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-18T01:59:16'
+- agent: PracticeAgent
+  action: 'Failed portal for Bio-Rad Laboratories Data Science Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-18T01:59:53'
