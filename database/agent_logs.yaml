@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Gaba Telepsychiatry (New York, United States) Data Science
-    Intern: Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-18T13:47:23'
-- agent: PracticeAgent
   action: 'Failed portal for Dassault Systèmes Data Science Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2500,3 +2495,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-18T15:55:41'
+- agent: PracticeAgent
+  action: 'Failed portal for ByteDance Machine Learning Engineer Intern (E-commerce
+    Governance Algorithms) - 2026 Start (Phd): Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-18T15:56:05'
