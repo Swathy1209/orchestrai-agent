@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Force-Intellect Private Limited Data Science Intern:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-18T01:44:34'
-- agent: PracticeAgent
   action: 'Failed portal for Andaz Kumar Data Science Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2501,3 +2496,7 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-18T04:01:12'
+- agent: CareerAgent
+  action: 100 jobs fetched, 85 relevant
+  level: INFO
+  timestamp: '2026-04-18T04:01:26'
