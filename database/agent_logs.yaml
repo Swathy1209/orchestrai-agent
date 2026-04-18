@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Albert Einstein College of Medicine Data Analyst - Education:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-18T06:04:45'
-- agent: PracticeAgent
   action: 'Failed portal for Athena AI Engineer Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2500,3 +2495,8 @@ logs:
     recommendations'
   status: error
   timestamp: '2026-04-18T07:14:07'
+- agent: PracticeAgent
+  action: 'Failed portal for Zeroharm Sciences Private Limited Data Science Intern:
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-18T07:14:12'
