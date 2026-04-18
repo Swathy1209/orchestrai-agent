@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Technoculture Research Artificial Intelligence Intern:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-18T15:31:35'
-- agent: PracticeAgent
   action: 'Failed portal for PULPUL SOFTTECH PRIVATE LIMITED Artificial Intelligence
     Intern: Gemini failed to generate project recommendations'
   status: error
@@ -2489,3 +2484,8 @@ logs:
   action: Generated Portfolio
   status: success
   timestamp: '2026-04-18T18:19:51'
+- agent: PracticeAgent
+  action: 'Failed portal for LeadUpAI AI Engineer: Gemini failed to generate project
+    recommendations'
+  status: error
+  timestamp: '2026-04-18T19:13:08'
