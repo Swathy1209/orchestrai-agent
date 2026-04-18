@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Paramount+ Data Science Intern (Summer 2026 - In-Person
-    - NYC): Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-18T05:11:24'
-- agent: PracticeAgent
   action: 'Failed portal for CleverTap Data Science Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2497,3 +2492,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-18T06:35:30'
+- agent: PracticeAgent
+  action: 'Failed portal for Blismos Solutions Private Limited Data Science Intern:
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-18T06:35:44'
