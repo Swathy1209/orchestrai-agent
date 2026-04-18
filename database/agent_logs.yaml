@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Fintervue Artificial Intelligence (AI) Internship in
-    Bangalore, Indore (Hybrid): Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-18T05:25:05'
-- agent: PracticeAgent
   action: 'Failed portal for The Goat Academy Private Limited Data Science Intern:
     Gemini failed to generate project recommendations'
   status: error
@@ -2499,3 +2494,8 @@ logs:
     Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-18T06:49:42'
+- agent: PracticeAgent
+  action: 'Failed portal for Technoculture Research Data Science Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-18T06:49:48'
