@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Cognitiv Machine Learning Engineer Intern (Summer 2026):
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-18T07:23:08'
-- agent: PracticeAgent
   action: 'Failed portal for Indika AI Private Limited Machine Learning Intern: Gemini
     failed to generate project recommendations'
   status: error
@@ -2500,3 +2495,8 @@ logs:
     Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-18T09:17:22'
+- agent: PracticeAgent
+  action: 'Failed portal for Cohere Machine Learning Intern/Co-op  (Spring/Summer
+    2026): Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-18T09:17:27'
