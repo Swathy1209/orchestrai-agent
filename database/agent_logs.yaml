@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Cisco Staff Machine Learning Engineer: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-18T07:18:03'
-- agent: PracticeAgent
   action: 'Failed portal for IT-Infotek Data Science Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2500,3 +2495,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-18T09:12:32'
+- agent: PracticeAgent
+  action: 'Failed portal for HSBC Business Analyst- Transformation: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-18T09:12:38'
