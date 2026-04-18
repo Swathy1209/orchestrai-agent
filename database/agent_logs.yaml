@@ -1,8 +1,4 @@
 logs:
-- agent: CareerAgent
-  action: Email delegation passed to ExecutionAgent
-  level: INFO
-  timestamp: '2026-04-18T20:01:21'
 - agent: SkillAgent
   action: SkillAgent run initiated
   status: success
@@ -2505,3 +2501,7 @@ logs:
     Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-18T22:01:23'
+- agent: CareerAgent
+  action: Email delegation passed to ExecutionAgent
+  level: INFO
+  timestamp: '2026-04-18T22:01:33'
