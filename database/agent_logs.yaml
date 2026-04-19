@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Shunya Digital Data Science Intern: Gemini failed to
-    generate project recommendations'
-  status: error
-  timestamp: '2026-04-19T03:23:30'
-- agent: PracticeAgent
   action: 'Failed portal for Pehchaan AI Technologies Machine Learning Intern: Gemini
     failed to generate project recommendations'
   status: error
@@ -2503,3 +2498,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-19T05:07:31'
+- agent: PracticeAgent
+  action: 'Failed portal for Unessa Foundation Artificial Intelligence (AI): Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-19T05:07:37'
