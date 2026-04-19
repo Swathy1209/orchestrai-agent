@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Syncretic Engineering Business Analyst/Data Analyst/Office
-    Executive: Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-19T00:17:19'
-- agent: PracticeAgent
   action: 'Failed portal for TikTok (General Hire) Machine Learning Engineer Intern
     (TikTok-Recommendation) - 2026 Summer (BS/MS): Gemini failed to generate project
     recommendations'
@@ -2509,3 +2504,8 @@ logs:
     Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-19T01:39:41'
+- agent: PracticeAgent
+  action: 'Failed portal for Emerson Data Engineer: Gemini failed to generate project
+    recommendations'
+  status: error
+  timestamp: '2026-04-19T01:39:54'
