@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for TikTok Data Engineer Intern (Ads Data) - 2026 Summer
-    (BS/MS): Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-19T03:56:53'
-- agent: PracticeAgent
   action: 'Failed portal for Company 9 LLC AI Engineer Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2505,3 +2500,8 @@ logs:
     recommendations'
   status: error
   timestamp: '2026-04-19T05:16:14'
+- agent: PracticeAgent
+  action: 'Failed portal for Primetrade.ai Data Science Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-19T05:16:22'
