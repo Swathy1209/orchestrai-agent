@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Lensa AI Data Science Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-19T15:28:05'
-- agent: PracticeAgent
   action: 'Failed portal for RTW Institute Data Analyst Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2499,3 +2494,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-19T16:52:37'
+- agent: PracticeAgent
+  action: 'Failed portal for Fortem Biosciences Private Limited Machine Learning Intern:
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-19T16:52:50'
