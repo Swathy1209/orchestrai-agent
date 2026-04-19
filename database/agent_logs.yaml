@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Grinning Co. (Fremont, United States) Machine Learning
-    Intern: Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-19T01:24:38'
-- agent: PracticeAgent
   action: 'Failed portal for Shahin Pilli Artificial Intelligence Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2506,3 +2501,8 @@ logs:
     recommendations'
   status: error
   timestamp: '2026-04-19T03:02:28'
+- agent: PracticeAgent
+  action: 'Failed portal for Primetrade.ai Data Science Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-19T03:02:41'
