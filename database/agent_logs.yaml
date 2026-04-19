@@ -3,11 +3,6 @@ logs:
   action: 'Failed portal for Lensa Business Analyst Intern: Gemini failed to generate
     project recommendations'
   status: error
-  timestamp: '2026-04-19T04:42:29'
-- agent: PracticeAgent
-  action: 'Failed portal for Lensa Business Analyst Intern: Gemini failed to generate
-    project recommendations'
-  status: error
   timestamp: '2026-04-19T04:42:35'
 - agent: PracticeAgent
   action: 'Failed portal for Accredian Data Science: Gemini failed to generate project
@@ -2504,3 +2499,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-19T05:32:13'
+- agent: PracticeAgent
+  action: 'Failed portal for Joveo Machine Learning Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-19T05:32:21'
