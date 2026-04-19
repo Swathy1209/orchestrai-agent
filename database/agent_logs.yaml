@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for HSBC Business Analyst: Gemini failed to generate project
-    recommendations'
-  status: error
-  timestamp: '2026-04-19T07:46:31'
-- agent: PracticeAgent
   action: 'Failed portal for Novaflow (YC S25) Machine Learning Engineer Intern -
     Summer 2026: Gemini failed to generate project recommendations'
   status: error
@@ -2488,3 +2483,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-19T15:03:20'
+- agent: PracticeAgent
+  action: 'Failed portal for Ball2Data Football Data Analysts: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-19T15:03:33'
