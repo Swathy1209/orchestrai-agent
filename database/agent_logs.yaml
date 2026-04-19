@@ -3,11 +3,6 @@ logs:
   action: 'Failed portal for CoreTek Labs Artificial Intelligence Intern: Gemini failed
     to generate project recommendations'
   status: error
-  timestamp: '2026-04-19T07:24:38'
-- agent: PracticeAgent
-  action: 'Failed portal for CoreTek Labs Artificial Intelligence Intern: Gemini failed
-    to generate project recommendations'
-  status: error
   timestamp: '2026-04-19T07:24:43'
 - agent: PracticeAgent
   action: 'Failed portal for Newron Artificial Intelligence (AI) Internship in Bangalore:
@@ -2492,3 +2487,7 @@ logs:
     recommendations'
   status: error
   timestamp: '2026-04-19T14:01:07'
+- agent: CareerAgent
+  action: Email delegation passed to ExecutionAgent
+  level: INFO
+  timestamp: '2026-04-19T14:01:15'
