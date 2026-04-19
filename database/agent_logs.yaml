@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for ILEAD Kolkata Artificial Intelligence (AI): Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-19T04:59:57'
-- agent: PracticeAgent
   action: 'Failed portal for Newzeninfotech Solutions Data Science: Gemini failed
     to generate project recommendations'
   status: error
@@ -2503,3 +2498,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-19T06:03:26'
+- agent: PracticeAgent
+  action: 'Failed portal for AARP Data Science Intern: Gemini failed to generate project
+    recommendations'
+  status: error
+  timestamp: '2026-04-19T06:03:41'
