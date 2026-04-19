@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Ball2Data Football Data Analysts: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-19T03:12:18'
-- agent: PracticeAgent
   action: 'Failed portal for Envision Next Data Analyst Internship in Navi Mumbai,
     Panvel, Thane: Gemini failed to generate project recommendations'
   status: error
@@ -2503,3 +2498,8 @@ logs:
     Intern  OCR & Document AI: Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-19T05:02:36'
+- agent: PracticeAgent
+  action: 'Failed portal for NESA Innovation Labs Artificial Intelligence Intern:
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-19T05:02:43'
