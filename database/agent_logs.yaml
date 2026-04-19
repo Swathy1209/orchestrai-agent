@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for REALBRIDGE Artificial Intelligence (AI): Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-19T14:53:18'
-- agent: PracticeAgent
   action: 'Failed portal for Neoteric Analytics Data And AI Engineer Intern: Gemini
     failed to generate project recommendations'
   status: error
@@ -2495,3 +2490,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-19T16:35:52'
+- agent: PracticeAgent
+  action: 'Failed portal for Quantiphi Machine Learning Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-19T16:36:01'
