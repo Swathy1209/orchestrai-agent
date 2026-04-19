@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Shunya Digital Artificial Intelligence Intern: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-19T05:24:21'
-- agent: PracticeAgent
   action: 'Failed portal for FlyNava Technologies Data Science Internship in Bangalore:
     Gemini failed to generate project recommendations'
   status: error
@@ -2504,3 +2499,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-19T06:49:54'
+- agent: PracticeAgent
+  action: 'Failed portal for EY Data Scientist – Machine Learning: Gemini failed to
+    generate project recommendations'
+  status: error
+  timestamp: '2026-04-19T06:50:00'
