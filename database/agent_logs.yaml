@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for DeepThought CultureTech Ventures Private Limited Machine
-    Learning Intern: Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-19T07:40:54'
-- agent: PracticeAgent
   action: 'Failed portal for Globik AI Private Limited Data Science Intern: Gemini
     failed to generate project recommendations'
   status: error
@@ -2488,3 +2483,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-19T15:00:11'
+- agent: PracticeAgent
+  action: 'Failed portal for Hooman Digital LLP Machine Learning: Gemini failed to
+    generate project recommendations'
+  status: error
+  timestamp: '2026-04-19T15:00:24'
