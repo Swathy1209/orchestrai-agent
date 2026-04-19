@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Alchelyst India Pvt Ltd Techno Functional Operations/Data
-    Analyst: Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-19T05:12:43'
-- agent: PracticeAgent
   action: 'Failed portal for ScentAir Technology & Data Science Intern – ScentAir
     (Charlotte, NC): Gemini failed to generate project recommendations'
   status: error
@@ -2504,3 +2499,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-19T06:35:07'
+- agent: PracticeAgent
+  action: 'Failed portal for LivNSense Artificial Intelligence Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-19T06:35:22'
