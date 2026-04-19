@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Bharat Diamond Bourse Artificial Intelligence (AI): Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-19T00:57:49'
-- agent: PracticeAgent
   action: 'Failed portal for Syncretic Engineering Business Analyst/Data Analyst/Office
     Executive: Gemini failed to generate project recommendations'
   status: error
@@ -2508,3 +2503,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-19T02:38:07'
+- agent: PracticeAgent
+  action: 'Failed portal for OyeLabs Data Science Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-19T02:38:13'
