@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for FTI Defense - Frontier Technology Inc. AI/ML Engineering
-    Internship: Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-19T07:21:37'
-- agent: PracticeAgent
   action: 'Failed portal for Helix DIgital Artificial Intelligence Intern: Gemini
     failed to generate project recommendations'
   status: error
@@ -2502,3 +2497,8 @@ logs:
     Analyst): Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-19T09:54:07'
+- agent: PracticeAgent
+  action: 'Failed portal for University of Alabama at Birmingham CLINICAL DATA ANALYST:
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-19T09:54:19'
