@@ -3,11 +3,6 @@ logs:
   action: 'Failed portal for StarPoint Properties Artificial Intelligence Intern:
     Gemini failed to generate project recommendations'
   status: error
-  timestamp: '2026-04-19T07:38:08'
-- agent: PracticeAgent
-  action: 'Failed portal for StarPoint Properties Artificial Intelligence Intern:
-    Gemini failed to generate project recommendations'
-  status: error
   timestamp: '2026-04-19T07:38:12'
 - agent: PracticeAgent
   action: 'Failed portal for Pike Partners Group Data Analyst Intern: Gemini failed
@@ -2488,3 +2483,8 @@ logs:
     - 2026 Start (BS/MS): Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-19T14:54:24'
+- agent: PracticeAgent
+  action: 'Failed portal for MCube AI Private Limited Data Science: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-19T14:54:37'
