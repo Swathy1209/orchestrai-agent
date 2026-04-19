@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Newron Artificial Intelligence (AI) Internship in Bangalore:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-19T09:38:24'
-- agent: PracticeAgent
   action: 'Failed portal for Melotech AI/ML Engineer Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2490,3 +2485,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-19T15:49:25'
+- agent: PracticeAgent
+  action: 'Failed portal for ByteDance Machine Learning Engineer Intern (E-commerce-Supply
+    Chain & Logistics) - 2026 Start (PhD): Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-19T15:49:38'
