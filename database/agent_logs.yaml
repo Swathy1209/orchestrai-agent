@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Bellwood Business Analyst / QA Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-19T00:48:43'
-- agent: PracticeAgent
   action: 'Failed portal for AmRit Hub Private Limited Artificial Intelligence (AI):
     Gemini failed to generate project recommendations'
   status: error
@@ -2506,3 +2501,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-19T02:34:00'
+- agent: PracticeAgent
+  action: 'Failed portal for AUMOVIO Data Analysis Intern (Yearlong): Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-19T02:34:04'
