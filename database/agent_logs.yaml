@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Fortem Biosciences Private Limited Data Science Intern:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-19T09:36:16'
-- agent: PracticeAgent
   action: 'Failed portal for Lumiq.ai Machine Learning Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2489,3 +2484,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-19T15:47:18'
+- agent: PracticeAgent
+  action: 'Failed portal for Mindenious Edutech Machine Learning Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-19T15:47:30'
