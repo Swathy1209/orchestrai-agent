@@ -215,6 +215,16 @@ security_reports:
     instead of pickle'
   scanned_files: 2
   auto_fix_pr: ''
+- repo: Cold_Email_System
+  repo_url: https://github.com/Swathy1209/Cold_Email_System
+  risk_level: Safe
+  risk_score: 0
+  total_vulnerabilities: 0
+  vulnerabilities: []
+  issues:
+  - No critical issues detected.
+  scanned_files: 4
+  auto_fix_pr: ''
 - repo: CLI_non-LLM
   repo_url: https://github.com/Swathy1209/CLI_non-LLM
   risk_level: Safe
@@ -595,9 +605,9 @@ priority_security_fix:
   snippet: ''
   fix: Apply secure coding practices.
 summary:
-  total_repos: 47
+  total_repos: 48
   high_risk: 2
   medium_risk: 4
   low_risk: 4
-  safe: 37
-  scanned_at: '2026-04-19T06:08:45'
+  safe: 38
+  scanned_at: '2026-04-19T13:37:58'
