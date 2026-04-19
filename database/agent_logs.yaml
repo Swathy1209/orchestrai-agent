@@ -1,9 +1,4 @@
 logs:
-- agent: PracticeAgent
-  action: 'Failed portal for Idea Elan India Private Limited AI Engineer: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-19T04:30:10'
 - agent: CoverLetterAgent
   action: Generated 915 cover letters
   status: success
@@ -2505,3 +2500,8 @@ logs:
     Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-19T05:20:11'
+- agent: PracticeAgent
+  action: 'Failed portal for Globuzz Digital Marketing Solutions Artificial Intelligence
+    Intern: Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-19T05:20:16'
