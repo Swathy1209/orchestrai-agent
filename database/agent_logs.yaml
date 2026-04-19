@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Swiggy Business Analyst: Gemini failed to generate project
-    recommendations'
-  status: error
-  timestamp: '2026-04-19T07:06:37'
-- agent: PracticeAgent
   action: 'Failed portal for TSTEPS PRIVATE LIMITED Senior Machine Learning Engineer:
     Gemini failed to generate project recommendations'
   status: error
@@ -2502,3 +2497,8 @@ logs:
     (AI): Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-19T09:23:01'
+- agent: PracticeAgent
+  action: 'Failed portal for GCCX AI/ML Engineer: Gemini failed to generate project
+    recommendations'
+  status: error
+  timestamp: '2026-04-19T09:23:14'
