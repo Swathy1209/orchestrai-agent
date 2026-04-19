@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for TikTok Machine Learning Engineer Intern (Monetization
-    Technology - Ads Core Global) - 2026 Summer (BS/MS): Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-19T16:37:49'
-- agent: PracticeAgent
   action: 'Failed portal for Antariksha.co - Purely Precious Jewellery Artificial
     Intelligence Intern: Gemini failed to generate project recommendations'
   status: error
@@ -2508,3 +2502,8 @@ logs:
   action: Generated match scores for 929 internships
   status: success
   timestamp: '2026-04-19T18:03:13'
+- agent: PracticeAgent
+  action: 'Failed portal for GreenGas USA Data Engineer - Intern: Gemini failed to
+    generate project recommendations'
+  status: error
+  timestamp: '2026-04-19T18:03:21'
