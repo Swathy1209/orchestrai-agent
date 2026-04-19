@@ -2,10 +2,6 @@ logs:
 - agent: PracticeAgent
   action: PracticeAgent run initiated
   status: success
-  timestamp: '2026-04-19T04:30:23'
-- agent: PracticeAgent
-  action: PracticeAgent run initiated
-  status: success
   timestamp: '2026-04-19T04:30:33'
 - agent: PracticeAgent
   action: 'Failed portal for Bright Media Solution Private Limited Machine Learning
@@ -2506,3 +2502,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-19T05:20:23'
+- agent: PracticeAgent
+  action: 'Failed portal for Helix DIgital Artificial Intelligence Intern: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-19T05:20:28'
