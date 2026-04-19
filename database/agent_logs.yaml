@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Alchelyst India Pvt Ltd Techno Functional Operations/Data
-    Analyst: Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-19T03:14:51'
-- agent: PracticeAgent
   action: 'Failed portal for Bharat Diamond Bourse Artificial Intelligence (AI): Gemini
     failed to generate project recommendations'
   status: error
@@ -2503,3 +2498,8 @@ logs:
     - NYC): Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-19T05:03:49'
+- agent: PracticeAgent
+  action: 'Failed portal for Ericsson Gen AI ML Engineer: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-19T05:03:54'
