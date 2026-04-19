@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Greenlight Data Engineering Intern: Gemini failed to
-    generate project recommendations'
-  status: error
-  timestamp: '2026-04-18T22:14:28'
-- agent: PracticeAgent
   action: 'Failed portal for Woven by Toyota Machine Learning Engineer, Vehicle Perception
     (Internship): Gemini failed to generate project recommendations'
   status: error
@@ -2491,3 +2486,8 @@ logs:
     Internship: Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-19T00:56:43'
+- agent: PracticeAgent
+  action: 'Failed portal for Sofar Ocean Machine Learning Intern: Gemini failed to
+    generate project recommendations'
+  status: error
+  timestamp: '2026-04-19T00:56:57'
