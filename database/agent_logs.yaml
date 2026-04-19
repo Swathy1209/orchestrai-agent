@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Boston Consulting Group (BCG) Business Analyst, Internship,
-    Vietnam: Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-19T09:41:07'
-- agent: PracticeAgent
   action: 'Failed portal for FRND Business Analyst Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2491,3 +2486,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-19T15:52:12'
+- agent: PracticeAgent
+  action: 'Failed portal for Grinning Co. (Fremont, United States) Machine Learning
+    Intern: Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-19T15:52:26'
