@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Innoknowvex Data Science: Gemini failed to generate project
-    recommendations'
-  status: error
-  timestamp: '2026-04-19T00:23:20'
-- agent: PracticeAgent
   action: 'Failed portal for Career-Domain Data Science Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2513,3 +2508,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-19T01:53:02'
+- agent: PracticeAgent
+  action: 'Failed portal for Sameer Khatri Data Science Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-19T01:53:14'
