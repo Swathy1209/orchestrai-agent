@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for FRND Business Analyst Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-19T05:26:23'
-- agent: PracticeAgent
   action: 'Failed portal for AArete Intern, Data Science & Artificial Intelligence
     (Summer 2026): Gemini failed to generate project recommendations'
   status: error
@@ -2504,3 +2499,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-19T06:52:14'
+- agent: PracticeAgent
+  action: 'Failed portal for Accredian Data Science: Gemini failed to generate project
+    recommendations'
+  status: error
+  timestamp: '2026-04-19T06:52:18'
