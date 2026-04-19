@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for OralKart Machine Learning: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-19T14:44:56'
-- agent: PracticeAgent
   action: 'Failed portal for Bro''s Innovations And Technology. Data Science: Gemini
     failed to generate project recommendations'
   status: error
@@ -2495,3 +2490,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-19T16:31:59'
+- agent: PracticeAgent
+  action: 'Failed portal for ZKAP EDTECH SERVICES PRIVATE LIMITED Machine Learning
+    Intern: Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-19T16:32:03'
