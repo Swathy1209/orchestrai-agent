@@ -1,9 +1,4 @@
 logs:
-- agent: PracticeAgent
-  action: 'Failed portal for Stackwise Machine Learning Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-19T16:01:26'
 - agent: CareerAgent
   action: Email delegation passed to ExecutionAgent
   level: INFO
@@ -2502,3 +2497,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-19T17:08:35'
+- agent: PracticeAgent
+  action: 'Failed portal for Argmac Data Science Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-19T17:08:40'
