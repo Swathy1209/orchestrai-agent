@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Euphotic Labs Private Limited Data Science Intern: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-19T01:46:33'
-- agent: PracticeAgent
   action: 'Failed portal for Praxis Home Retail Limited Data Science Intern: Gemini
     failed to generate project recommendations'
   status: error
@@ -2501,3 +2496,8 @@ logs:
     Analyst): Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-19T03:26:03'
+- agent: PracticeAgent
+  action: 'Failed portal for SkySlope Data Analyst 3: Gemini failed to generate project
+    recommendations'
+  status: error
+  timestamp: '2026-04-19T03:26:27'
