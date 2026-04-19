@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for TikTok Machine Learning Engineer Intern - Global E-Commerce
-    Content Recommendation - 2026 Summer (BS/MS): Gemini failed to generate project
-    recommendations'
-  status: error
-  timestamp: '2026-04-19T06:55:07'
-- agent: PracticeAgent
   action: 'Failed portal for Vouvray Artificial Intelligence Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2504,3 +2498,7 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-19T08:00:22'
+- agent: CareerAgent
+  action: 103 jobs fetched
+  level: INFO
+  timestamp: '2026-04-19T08:01:06'
