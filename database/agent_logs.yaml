@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Alchelyst India Pvt Ltd Techno Functional Operations/Data
-    Analyst: Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-19T07:22:25'
-- agent: PracticeAgent
   action: 'Failed portal for Webosphere Technolabs LLP Machine Learning Intern: Gemini
     failed to generate project recommendations'
   status: error
@@ -2501,3 +2496,7 @@ logs:
   action: Fetch started
   level: INFO
   timestamp: '2026-04-19T13:32:21'
+- agent: CareerAgent
+  action: 100 jobs fetched
+  level: INFO
+  timestamp: '2026-04-19T13:32:47'
