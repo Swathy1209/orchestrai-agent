@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Conversely Data Science Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-19T07:38:35'
-- agent: PracticeAgent
   action: 'Failed portal for Finxbridge Machine Learning Intern: Gemini failed to
     generate project recommendations'
   status: error
@@ -2488,3 +2483,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-19T14:55:27'
+- agent: PracticeAgent
+  action: 'Failed portal for PwC Consulting Solutions Python Data Engineer: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-19T14:55:40'
