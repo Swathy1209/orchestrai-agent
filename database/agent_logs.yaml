@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Ophtechnics Eyeline Systems Private Limited Data Science
-    Intern: Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-19T16:05:41'
-- agent: PracticeAgent
   action: 'Failed portal for Solvitude Data Science Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2503,3 +2498,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-19T17:11:00'
+- agent: PracticeAgent
+  action: 'Failed portal for SAV (Scale Asia Ventures) AI Engineer Intern: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-19T17:11:07'
