@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Boston Consulting Group (BCG) Business Analyst, Internship,
-    Vietnam: Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-19T05:26:11'
-- agent: PracticeAgent
   action: 'Failed portal for Lemnisk Artificial Intelligence Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2504,3 +2499,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-19T06:52:03'
+- agent: PracticeAgent
+  action: 'Failed portal for Lensa Business Analyst Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-19T06:52:06'
