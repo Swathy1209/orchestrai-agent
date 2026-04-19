@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Fitbae Healthcare Private Limited Data Science: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-19T06:52:43'
-- agent: PracticeAgent
   action: 'Failed portal for Cornerstone Associate AI Engineer: Gemini failed to generate
     project recommendations'
   status: error
@@ -2505,3 +2500,8 @@ logs:
     Intern: Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-19T07:49:52'
+- agent: PracticeAgent
+  action: 'Failed portal for Allo Innoware Data Science Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-19T07:50:32'
