@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Ufeus Data Science Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-19T02:08:55'
-- agent: PracticeAgent
   action: 'Failed portal for EY Business Analyst: Gemini failed to generate project
     recommendations'
   status: error
@@ -2504,3 +2499,8 @@ logs:
     generate project recommendations'
   status: error
   timestamp: '2026-04-19T04:27:45'
+- agent: PracticeAgent
+  action: 'Failed portal for Encrobytes Technologies Private Limited Data Science
+    Intern: Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-19T04:27:58'
