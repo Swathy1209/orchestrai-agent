@@ -1,8 +1,4 @@
 logs:
-- agent: CareerAgent
-  action: Email delegation passed to ExecutionAgent
-  level: INFO
-  timestamp: '2026-04-18T23:13:46'
 - agent: SkillAgent
   action: SkillAgent run initiated
   status: success
@@ -2500,3 +2496,8 @@ logs:
     Intern: Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-19T01:29:18'
+- agent: PracticeAgent
+  action: 'Failed portal for Encrobytes Technologies Private Limited Artificial Intelligence
+    Intern: Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-19T01:29:31'
