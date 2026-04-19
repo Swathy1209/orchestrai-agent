@@ -3,11 +3,6 @@ logs:
   action: 'Failed portal for Tesla Internship, Data Engineer, Energy (Summer 2026):
     Gemini failed to generate project recommendations'
   status: error
-  timestamp: '2026-04-19T04:46:15'
-- agent: PracticeAgent
-  action: 'Failed portal for Tesla Internship, Data Engineer, Energy (Summer 2026):
-    Gemini failed to generate project recommendations'
-  status: error
   timestamp: '2026-04-19T04:46:21'
 - agent: PracticeAgent
   action: 'Failed portal for Seaman Corporation Business Analyst Intern: Gemini failed
@@ -2501,3 +2496,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-19T05:35:47'
+- agent: PracticeAgent
+  action: 'Failed portal for HSBC Business Analyst: Gemini failed to generate project
+    recommendations'
+  status: error
+  timestamp: '2026-04-19T05:35:52'
