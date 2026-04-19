@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Sanatan Organic Machine Learning Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-19T17:10:42'
-- agent: PracticeAgent
   action: 'Failed portal for Barclays Business Analyst: Gemini failed to generate
     project recommendations'
   status: error
@@ -2497,3 +2492,7 @@ logs:
   action: 99 jobs fetched, 84 relevant
   level: INFO
   timestamp: '2026-04-19T22:56:32'
+- agent: CareerAgent
+  action: Stored in GitHub YAML
+  level: INFO
+  timestamp: '2026-04-19T22:56:42'
