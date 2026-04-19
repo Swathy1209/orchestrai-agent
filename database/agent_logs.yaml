@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for TikTok Research Scientist Intern (TikTok - NextGen Recommendation)
-    - 2026 Start (PhD): Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-19T17:11:24'
-- agent: PracticeAgent
   action: 'Failed portal for Earthed Soul PVT LTD Machine Learning Intern: Gemini
     failed to generate project recommendations'
   status: error
@@ -2491,3 +2486,8 @@ logs:
   action: Generated Portfolio
   status: success
   timestamp: '2026-04-19T23:02:26'
+- agent: PracticeAgent
+  action: 'Failed portal for INDUS Technology, Inc. Business Analyst, Intern: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-19T23:55:37'
