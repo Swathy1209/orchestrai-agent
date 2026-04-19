@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for INFICON Data Science Intern (Remote): Gemini failed to
-    generate project recommendations'
-  status: error
-  timestamp: '2026-04-19T01:57:11'
-- agent: PracticeAgent
   action: 'Failed portal for Jobs via Dice Machine Learning Engineer Intern: Gemini
     failed to generate project recommendations'
   status: error
@@ -2497,3 +2492,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-19T03:47:43'
+- agent: PracticeAgent
+  action: 'Failed portal for Andaz Kumar Machine Learning Intern: Gemini failed to
+    generate project recommendations'
+  status: error
+  timestamp: '2026-04-19T03:47:55'
