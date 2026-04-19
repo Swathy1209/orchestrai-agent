@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Finxbridge Machine Learning Intern: Gemini failed to
-    generate project recommendations'
-  status: error
-  timestamp: '2026-04-19T09:53:04'
-- agent: PracticeAgent
   action: 'Failed portal for JP IT STAFFING LLC Machine Learning Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2487,3 +2482,8 @@ logs:
     Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-19T16:02:45'
+- agent: PracticeAgent
+  action: 'Failed portal for LivNSense Machine Learning Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-19T16:02:59'
