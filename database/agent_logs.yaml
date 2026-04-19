@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Jarvis Technology & Strategy Consulting Machine Learning
-    Intern: Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-19T09:51:10'
-- agent: PracticeAgent
   action: 'Failed portal for Globik AI Private Limited Machine Learning Intern: Gemini
     failed to generate project recommendations'
   status: error
@@ -2487,3 +2482,8 @@ logs:
     Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-19T16:01:40'
+- agent: PracticeAgent
+  action: 'Failed portal for Euromonitor International Associate Data Analyst: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-19T16:01:44'
