@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Handshake AI/Machine Learning Engineer Intern: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-19T16:32:10'
-- agent: PracticeAgent
   action: 'Failed portal for Argus Media Prices Data Analyst: Gemini failed to generate
     project recommendations'
   status: error
@@ -2510,3 +2505,8 @@ logs:
     Summer 2026: Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-19T17:39:23'
+- agent: PracticeAgent
+  action: 'Failed portal for IndiaBizForSale.com Data Science Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-19T17:39:36'
