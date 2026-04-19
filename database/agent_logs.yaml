@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Experian ML Engineer Summer Intern (Remote & Paid): Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-19T09:48:59'
-- agent: PracticeAgent
   action: 'Failed portal for PetSapiens Private Limited Data Science Intern: Gemini
     failed to generate project recommendations'
   status: error
@@ -2490,3 +2485,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-19T16:00:05'
+- agent: PracticeAgent
+  action: 'Failed portal for Twango Data Science Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-19T16:00:18'
