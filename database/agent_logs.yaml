@@ -1,8 +1,4 @@
 logs:
-- agent: CareerAgent
-  action: Fetch started
-  level: INFO
-  timestamp: '2026-04-19T02:00:30'
 - agent: PracticeAgent
   action: 'Failed portal for Rebel Athletic Ai Engineer Internship: Gemini failed
     to generate project recommendations'
@@ -2497,3 +2493,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-19T03:54:00'
+- agent: PracticeAgent
+  action: 'Failed portal for Cinemate™ Data Science Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-19T03:54:12'
