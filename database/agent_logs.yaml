@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Barclays Private Bank Processing Business Analyst: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-19T09:17:32'
-- agent: PracticeAgent
   action: 'Failed portal for LeadUpAI AI Engineer: Gemini failed to generate project
     recommendations'
   status: error
@@ -2489,3 +2484,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-19T15:28:17'
+- agent: PracticeAgent
+  action: 'Failed portal for Tercept Incorporation Data Science Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-19T15:28:29'
