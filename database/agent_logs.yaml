@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Tesla Internship, Machine Learning Engineer, NVH, Vehicle
-    Engineering (Summer 2026): Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-18T21:56:16'
-- agent: PracticeAgent
   action: 'Failed portal for ForFutures Financial, Planning, a financial advisory
     practice of Ameriprise Financial Services LLC AI/Data Science Graduate Intern:
     Gemini failed to generate project recommendations'
@@ -2491,3 +2486,8 @@ logs:
     generate project recommendations'
   status: error
   timestamp: '2026-04-19T00:47:16'
+- agent: PracticeAgent
+  action: 'Failed portal for Lensa Artificial Intelligence/Machine Learning - Summer
+    2026 Intern: Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-19T00:47:29'
