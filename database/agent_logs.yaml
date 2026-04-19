@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Zulitech Solution Artificial Intelligence (AI): Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-19T00:27:44'
-- agent: PracticeAgent
   action: 'Failed portal for Raviraj Sarees Pvt Ltd Artificial Intelligence Intern:
     Gemini failed to generate project recommendations'
   status: error
@@ -2508,3 +2503,8 @@ logs:
   status: success
   timestamp: '2026-04-19T02:01:51'
   details: Analyzed 915 jobs.
+- agent: PracticeAgent
+  action: 'Failed portal for State of Florida DATA SCIENCE INTERNSHIP: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-19T02:01:55'
