@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for AndOr Communications Private Limited Data Science Intern:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-19T02:14:27'
-- agent: PracticeAgent
   action: 'Failed portal for eClerx Business Analyst: Gemini failed to generate project
     recommendations'
   status: error
@@ -2501,3 +2496,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-19T04:32:02'
+- agent: PracticeAgent
+  action: 'Failed portal for Macquarie Group Liquidity Business Analyst: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-19T04:32:09'
