@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for ARVO Internship - Computer Vision: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-19T07:12:22'
-- agent: PracticeAgent
   action: 'Failed portal for STEMpedia Data Science Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2500,3 +2495,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-19T09:35:01'
+- agent: PracticeAgent
+  action: 'Failed portal for Amber Flux Private Limited Data Science Intern: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-19T09:35:14'
