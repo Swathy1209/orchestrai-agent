@@ -1,9 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: PracticeAgent run initiated
-  status: success
-  timestamp: '2026-04-19T04:30:33'
-- agent: PracticeAgent
   action: 'Failed portal for Bright Media Solution Private Limited Machine Learning
     Intern: Gemini failed to generate project recommendations'
   status: error
@@ -2507,3 +2503,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-19T05:20:28'
+- agent: PracticeAgent
+  action: 'Failed portal for IIIT Hyderabad Data Science Intern: Gemini failed to
+    generate project recommendations'
+  status: error
+  timestamp: '2026-04-19T05:20:35'
