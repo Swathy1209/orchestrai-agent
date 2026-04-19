@@ -1,8 +1,4 @@
 logs:
-- agent: RepoSecurityScannerAgent
-  action: 'Scanned 48 repos, priority fix: Hardcoded API Key'
-  status: completed
-  timestamp: '2026-04-19T16:06:17'
 - agent: PracticeAgent
   action: 'Failed portal for TSTEPS PRIVATE LIMITED Machine Learning Intern: Gemini
     failed to generate project recommendations'
@@ -2503,3 +2499,8 @@ logs:
     Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-19T17:11:18'
+- agent: PracticeAgent
+  action: 'Failed portal for TikTok Research Scientist Intern (TikTok - NextGen Recommendation)
+    - 2026 Start (PhD): Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-19T17:11:24'
