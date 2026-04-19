@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Innoknowvex Machine Learning: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-19T04:38:58'
-- agent: PracticeAgent
   action: 'Failed portal for Innoknowvex Data Science: Gemini failed to generate project
     recommendations'
   status: error
@@ -2504,3 +2499,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-19T05:28:46'
+- agent: PracticeAgent
+  action: 'Failed portal for Configtap Machine Learning Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-19T05:28:53'
