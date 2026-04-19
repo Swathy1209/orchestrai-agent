@@ -1,9 +1,4 @@
 logs:
-- agent: PracticeAgent
-  action: 'Failed portal for Marico Innovation Foundation Data Science Intern: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-19T08:00:22'
 - agent: CareerAgent
   action: 103 jobs fetched
   level: INFO
@@ -2488,3 +2483,8 @@ logs:
     recommendations'
   status: error
   timestamp: '2026-04-19T15:09:54'
+- agent: PracticeAgent
+  action: 'Failed portal for Lensa Artificial Intelligence Intern: Gemini failed to
+    generate project recommendations'
+  status: error
+  timestamp: '2026-04-19T15:10:07'
