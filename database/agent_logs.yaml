@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Andaz Kumar Machine Learning Intern: Gemini failed to
-    generate project recommendations'
-  status: error
-  timestamp: '2026-04-19T05:44:20'
-- agent: PracticeAgent
   action: 'Failed portal for Primenumbers Technologies Machine Learning Intern: Gemini
     failed to generate project recommendations'
   status: error
@@ -2506,3 +2501,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-19T07:08:00'
+- agent: PracticeAgent
+  action: 'Failed portal for Deloitte AWS Data Engineer: Detected incomplete placeholder
+    content. Regenerating...'
+  status: error
+  timestamp: '2026-04-19T07:08:09'
