@@ -3,11 +3,6 @@ logs:
   action: 'Failed portal for StoryMirror Infotech Private Limited Artificial Intelligence
     Intern: Gemini failed to generate project recommendations'
   status: error
-  timestamp: '2026-04-19T07:23:23'
-- agent: PracticeAgent
-  action: 'Failed portal for StoryMirror Infotech Private Limited Artificial Intelligence
-    Intern: Gemini failed to generate project recommendations'
-  status: error
   timestamp: '2026-04-19T07:23:31'
 - agent: PracticeAgent
   action: 'Failed portal for Olsen Spaces Artificial Intelligence Intern: Gemini failed
@@ -2492,3 +2487,8 @@ logs:
   action: Generated 928 cover letters
   status: success
   timestamp: '2026-04-19T13:58:54'
+- agent: PracticeAgent
+  action: 'Failed portal for RefinedScience Data Engineering Intern: Detected incomplete
+    placeholder content. Regenerating...'
+  status: error
+  timestamp: '2026-04-19T13:59:09'
