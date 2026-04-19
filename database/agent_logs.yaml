@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Twango Artificial Intelligence Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-19T16:24:39'
-- agent: PracticeAgent
   action: 'Failed portal for HDR Data Science/Analysis Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2507,3 +2502,8 @@ logs:
     Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-19T17:30:57'
+- agent: PracticeAgent
+  action: 'Failed portal for MedPharm Artificial Intelligence (AI) Intern: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-19T17:31:11'
