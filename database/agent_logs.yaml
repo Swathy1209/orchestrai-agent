@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Emoolar Technology Private Limited Data Science: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-19T00:19:02'
-- agent: PracticeAgent
   action: 'Failed portal for AUMOVIO Data Analysis Intern (Yearlong): Gemini failed
     to generate project recommendations'
   status: error
@@ -2511,3 +2506,8 @@ logs:
     Engineering Intern: Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-19T01:43:31'
+- agent: PracticeAgent
+  action: 'Failed portal for Tesla Internship, Machine Learning Engineer, NVH, Vehicle
+    Engineering (Summer 2026): Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-19T01:43:43'
