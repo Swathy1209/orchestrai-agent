@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Almost Magic Private Limited Artificial Intelligence
-    (AI): Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-19T03:13:08'
-- agent: PracticeAgent
   action: 'Failed portal for StoryMirror Infotech Private Limited Machine Learning
     Intern: Gemini failed to generate project recommendations'
   status: error
@@ -2503,3 +2498,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-19T05:02:59'
+- agent: PracticeAgent
+  action: 'Failed portal for WhiteMagnet Capital Data Science Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-19T05:03:06'
