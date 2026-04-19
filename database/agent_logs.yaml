@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Cognitiv Machine Learning Engineer Intern (Summer 2026):
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-19T00:18:40'
-- agent: PracticeAgent
   action: 'Failed portal for Cornerstone Building Brands Data Analyst Intern: Gemini
     failed to generate project recommendations'
   status: error
@@ -2511,3 +2506,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-19T01:42:40'
+- agent: PracticeAgent
+  action: 'Failed portal for Stanford University School of Medicine Data Analyst 1
+    (1 Year Fixed Term): Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-19T01:42:53'
