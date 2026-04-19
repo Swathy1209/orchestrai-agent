@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Marico Innovation Foundation Artificial Intelligence
-    Intern: Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-19T15:45:33'
-- agent: PracticeAgent
   action: 'Failed portal for Greenlight Data Engineering Intern: Gemini failed to
     generate project recommendations'
   status: error
@@ -2503,3 +2498,8 @@ logs:
     Foundation Models - Intern: Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-19T17:00:58'
+- agent: PracticeAgent
+  action: 'Failed portal for The International Council on Clean Transportation Policy
+    and Data Analysis Intern (San Francisco): Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-19T17:01:05'
