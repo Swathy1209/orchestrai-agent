@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Brain Quest Data Science Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-19T06:34:21'
-- agent: PracticeAgent
   action: 'Failed portal for LivNSense Data Science Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2503,3 +2498,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-19T07:28:17'
+- agent: PracticeAgent
+  action: 'Failed portal for Envision Next Data Analyst Internship in Thane, Navi
+    Mumbai, Panvel: Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-19T07:28:25'
