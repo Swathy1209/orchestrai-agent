@@ -1,9 +1,4 @@
 logs:
-- agent: PracticeAgent
-  action: 'Failed portal for Moloco Machine Learning Engineer Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-19T14:00:55'
 - agent: CareerAgent
   action: 100 jobs fetched, 85 relevant
   level: INFO
@@ -2494,3 +2489,8 @@ logs:
     generate project recommendations'
   status: error
   timestamp: '2026-04-19T16:09:23'
+- agent: PracticeAgent
+  action: 'Failed portal for InstaCAD Solutions India Private Limited Machine Learning
+    Intern: Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-19T16:09:43'
