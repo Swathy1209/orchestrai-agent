@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Matson, Inc. AI & Machine Learning Intern – Operations:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-18T21:02:47'
-- agent: PracticeAgent
   action: 'Failed portal for JK Moving Services Data Science and AI Intern: Gemini
     failed to generate project recommendations'
   status: error
@@ -2491,3 +2486,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-19T00:19:36'
+- agent: PracticeAgent
+  action: 'Failed portal for Aday Data Analysis Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-19T00:19:43'
