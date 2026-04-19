@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for ZKAP EDTECH SERVICES PRIVATE LIMITED Machine Learning
-    Intern: Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-19T06:40:09'
-- agent: PracticeAgent
   action: 'Failed portal for RefinedScience Data Engineering Intern: Detected incomplete
     placeholder content. Regenerating...'
   status: error
@@ -2505,3 +2500,8 @@ logs:
     - (Paid - India/Remote): Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-19T07:30:47'
+- agent: PracticeAgent
+  action: 'Failed portal for Kumaresh Chinnaswamy Machine Learning Intern: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-19T07:30:53'
