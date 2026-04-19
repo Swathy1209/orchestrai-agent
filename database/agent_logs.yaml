@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for DISH TV AI Data Analyst Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-19T05:15:27'
-- agent: PracticeAgent
   action: 'Failed portal for Argmac Data Science Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2503,3 +2498,8 @@ logs:
     Learning: Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-19T06:40:53'
+- agent: PracticeAgent
+  action: 'Failed portal for Lensa Machine Learning Engineer Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-19T06:40:58'
