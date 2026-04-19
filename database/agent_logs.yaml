@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for ByteDance Benefits Operation Data Analyst Project Intern
-    - 2026 Start (BS): Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-19T01:20:31'
-- agent: PracticeAgent
   action: 'Failed portal for Samaritan''s Purse Geospatial Data Analyst, North American
     Disaster Relief: Gemini failed to generate project recommendations'
   status: error
@@ -2506,3 +2501,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-19T02:56:40'
+- agent: PracticeAgent
+  action: 'Failed portal for GenPark Data science engineer intern: Gemini failed to
+    generate project recommendations'
+  status: error
+  timestamp: '2026-04-19T02:57:08'
