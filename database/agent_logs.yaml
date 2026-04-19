@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Bizlem Private Limited AI/ML Engineering: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-19T14:53:58'
-- agent: PracticeAgent
   action: 'Failed portal for Los Angeles Kings Summer Intern, Data Science (LA Kings):
     Gemini failed to generate project recommendations'
   status: error
@@ -2495,3 +2490,8 @@ logs:
     recommendations'
   status: error
   timestamp: '2026-04-19T16:36:14'
+- agent: PracticeAgent
+  action: 'Failed portal for Barclays Data Engineer: Gemini failed to generate project
+    recommendations'
+  status: error
+  timestamp: '2026-04-19T16:36:18'
