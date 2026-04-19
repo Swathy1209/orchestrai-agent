@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Stirring Minds Artificial Intelligence Intern: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-19T07:35:07'
-- agent: PracticeAgent
   action: 'Failed portal for PetSapiens Private Limited Data Science Intern: Gemini
     failed to generate project recommendations'
   status: error
@@ -2488,3 +2483,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-19T14:47:55'
+- agent: PracticeAgent
+  action: 'Failed portal for Lensa Data Science Internship: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-19T14:48:09'
