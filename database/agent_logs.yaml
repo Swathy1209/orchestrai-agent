@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for StarPoint Properties Artificial Intelligence Intern:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-19T09:52:25'
-- agent: PracticeAgent
   action: 'Failed portal for Pike Partners Group Data Analyst Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2487,3 +2482,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-19T16:02:20'
+- agent: PracticeAgent
+  action: 'Failed portal for Domyn AI Engineering and Research Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-19T16:02:24'
