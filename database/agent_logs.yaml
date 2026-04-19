@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Saia Inc. Senior Internal Audit Data Analyst: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-18T21:04:19'
-- agent: PracticeAgent
   action: 'Failed portal for South Bay Cities Council of Governments (SBCCOG) Data
     Analyst Job Opening: Gemini failed to generate project recommendations'
   status: error
@@ -2491,3 +2486,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-19T00:20:17'
+- agent: PracticeAgent
+  action: 'Failed portal for Cult Fit Data Analyst: Gemini failed to generate project
+    recommendations'
+  status: error
+  timestamp: '2026-04-19T00:20:22'
