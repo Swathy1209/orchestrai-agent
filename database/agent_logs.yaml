@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Echodyne Summer Intern Data Engineer/Software Engineer:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-19T06:59:59'
-- agent: PracticeAgent
   action: 'Failed portal for Uber Data Engineer II: Gemini failed to generate project
     recommendations'
   status: error
@@ -2502,3 +2497,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-19T08:28:55'
+- agent: PracticeAgent
+  action: 'Failed portal for TikTok Data Analyst Intern (TikTok Shop AMS Data Science)
+    - 2026 Summer (BS/MS): Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-19T08:29:25'
