@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Accredian Data Science: Gemini failed to generate project
-    recommendations'
-  status: error
-  timestamp: '2026-04-19T00:26:45'
-- agent: PracticeAgent
   action: 'Failed portal for GNG Developers Machine Learning Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2512,3 +2507,8 @@ logs:
   action: Fetch started
   level: INFO
   timestamp: '2026-04-19T02:00:30'
+- agent: PracticeAgent
+  action: 'Failed portal for Rebel Athletic Ai Engineer Internship: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-19T02:00:35'
