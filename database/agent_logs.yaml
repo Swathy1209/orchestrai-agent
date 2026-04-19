@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Twango Data Science Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-19T16:24:26'
-- agent: PracticeAgent
   action: 'Failed portal for Twango Artificial Intelligence Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2507,3 +2502,8 @@ logs:
     Intern: Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-19T17:30:43'
+- agent: PracticeAgent
+  action: 'Failed portal for Pehchaan AI Technologies Artificial Intelligence Intern:
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-19T17:30:57'
