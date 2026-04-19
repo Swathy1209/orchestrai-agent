@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Samaritan''s Purse Geospatial Data Analyst, North American
-    Disaster Relief: Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-19T16:12:15'
-- agent: PracticeAgent
   action: 'Failed portal for IIT Guwahati Machine Learning Intern: Gemini failed to
     generate project recommendations'
   status: error
@@ -2507,3 +2502,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-19T17:15:34'
+- agent: PracticeAgent
+  action: 'Failed portal for Cognitiv Machine Learning Engineer Intern (Summer 2026):
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-19T17:15:47'
