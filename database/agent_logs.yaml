@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for SkySlope Data Analyst 3: Gemini failed to generate project
-    recommendations'
-  status: error
-  timestamp: '2026-04-19T17:09:46'
-- agent: PracticeAgent
   action: 'Failed portal for Primetrade.ai Machine Learning Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2500,3 +2495,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-19T19:38:36'
+- agent: PracticeAgent
+  action: 'Failed portal for The International Council on Clean Transportation Policy
+    and Data Analysis Intern (San Francisco): Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-19T19:38:49'
