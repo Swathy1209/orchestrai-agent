@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Reach Technologies Data Science Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-19T03:22:40'
-- agent: PracticeAgent
   action: 'Failed portal for Kasbah Films & Media Pvt Ltd Data Science Intern: Gemini
     failed to generate project recommendations'
   status: error
@@ -2502,3 +2497,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-19T05:07:01'
+- agent: PracticeAgent
+  action: 'Failed portal for Scowtt Intern - ML Engineering: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-19T05:07:06'
