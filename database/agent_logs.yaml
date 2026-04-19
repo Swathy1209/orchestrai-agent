@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Vilya Intern - Machine Learning Engineer: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-19T00:49:32'
-- agent: PracticeAgent
   action: 'Failed portal for Ramesh S AI/ML Engineer: Gemini failed to generate project
     recommendations'
   status: error
@@ -2506,3 +2501,8 @@ logs:
     Operations (Spring 2025): Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-19T02:34:24'
+- agent: PracticeAgent
+  action: 'Failed portal for Robocapital Machine Learning Intern: Gemini failed to
+    generate project recommendations'
+  status: error
+  timestamp: '2026-04-19T02:34:28'
