@@ -3,11 +3,6 @@ logs:
   action: 'Failed portal for Tatari Data Science, Intern: Gemini failed to generate
     project recommendations'
   status: error
-  timestamp: '2026-04-19T04:42:17'
-- agent: PracticeAgent
-  action: 'Failed portal for Tatari Data Science, Intern: Gemini failed to generate
-    project recommendations'
-  status: error
   timestamp: '2026-04-19T04:42:23'
 - agent: PracticeAgent
   action: 'Failed portal for Lensa Business Analyst Intern: Gemini failed to generate
@@ -2504,3 +2499,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-19T05:32:01'
+- agent: PracticeAgent
+  action: 'Failed portal for Stealth Startup Machine Learning Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-19T05:32:09'
