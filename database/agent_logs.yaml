@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Webosphere Technolabs LLP Artificial Intelligence Intern:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-19T19:29:33'
-- agent: PracticeAgent
   action: 'Failed portal for Fortem Biosciences Private Limited Data Science Intern:
     Gemini failed to generate project recommendations'
   status: error
@@ -2491,3 +2486,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-20T01:35:26'
+- agent: PracticeAgent
+  action: 'Failed portal for Mem0 AI Machine Learning Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-20T01:35:39'
