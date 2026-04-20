@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for GigFloww Artificial Intelligence Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-20T12:47:02'
-- agent: PracticeAgent
   action: 'Failed portal for Aviate Manpower Data Science: Gemini failed to generate
     project recommendations'
   status: error
@@ -2483,3 +2478,8 @@ logs:
     recommendations'
   status: error
   timestamp: '2026-04-20T15:30:44'
+- agent: PracticeAgent
+  action: 'Failed portal for Cognitiv Machine Learning Engineer Intern (Summer 2026):
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-20T15:30:58'
