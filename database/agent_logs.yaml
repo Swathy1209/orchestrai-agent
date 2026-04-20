@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for University of Alabama at Birmingham CLINICAL DATA ANALYST:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-20T03:40:05'
-- agent: PracticeAgent
   action: 'Failed portal for SkySlope Data Analyst 3: Gemini failed to generate project
     recommendations'
   status: error
@@ -2499,3 +2494,8 @@ logs:
     2026 Intern: Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-20T05:23:33'
+- agent: PracticeAgent
+  action: 'Failed portal for CareerNest Data Science Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-20T05:23:40'
