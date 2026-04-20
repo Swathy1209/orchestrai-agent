@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for SportVot Machine Learning Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-20T12:53:08'
-- agent: PracticeAgent
   action: 'Failed portal for PathAI Machine Learning Intern/Co-op (Summer/Fall 2026):
     Gemini failed to generate project recommendations'
   status: error
@@ -2481,3 +2476,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-20T15:43:48'
+- agent: PracticeAgent
+  action: 'Failed portal for AArete Intern, Data Science & Artificial Intelligence
+    (Summer 2026): Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-20T15:44:01'
