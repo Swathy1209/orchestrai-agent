@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Zello AI & ML Engineering Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-19T17:16:01'
-- agent: PracticeAgent
   action: 'Failed portal for Matricstek Inc. Junior Data Analyst: Gemini failed to
     generate project recommendations'
   status: error
@@ -2489,3 +2484,8 @@ logs:
   action: 99 jobs fetched, 84 relevant
   level: INFO
   timestamp: '2026-04-20T00:01:08'
+- agent: PracticeAgent
+  action: 'Failed portal for Neurasys Machine Learning: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-20T00:01:16'
