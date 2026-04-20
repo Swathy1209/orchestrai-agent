@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Crossing Hurdles Data Science Intern: Gemini failed to
-    generate project recommendations'
-  status: error
-  timestamp: '2026-04-20T08:58:40'
-- agent: PracticeAgent
   action: 'Failed portal for Ophtechnics Eyeline Systems Private Limited Data Science
     Intern: Gemini failed to generate project recommendations'
   status: error
@@ -2495,3 +2490,8 @@ logs:
   action: Generated match scores for 945 internships
   status: success
   timestamp: '2026-04-20T11:02:53'
+- agent: PracticeAgent
+  action: 'Failed portal for TikTok Business Analyst Intern (Business Integrity) -
+    2026 Summer (BS/MS): Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-20T11:02:59'
