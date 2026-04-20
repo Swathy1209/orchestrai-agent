@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for KIDLOLAND KIDS & TODDLER GAMES PRIVATE LIMITED Machine
-    Learning Intern: Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-20T11:41:01'
-- agent: PracticeAgent
   action: 'Failed portal for Technoculture Research Machine Learning Intern: Gemini
     failed to generate project recommendations'
   status: error
@@ -2495,3 +2490,7 @@ logs:
   action: Fetch started
   level: INFO
   timestamp: '2026-04-20T13:56:16'
+- agent: CareerAgent
+  action: 100 jobs fetched
+  level: INFO
+  timestamp: '2026-04-20T13:56:44'
