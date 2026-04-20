@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Lensa AI Data Science Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-20T11:42:58'
-- agent: PracticeAgent
   action: 'Failed portal for RTW Institute Data Analyst Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2487,3 +2482,7 @@ logs:
   action: 101 jobs fetched, 86 relevant
   level: INFO
   timestamp: '2026-04-20T14:01:13'
+- agent: CareerAgent
+  action: Stored in GitHub YAML
+  level: INFO
+  timestamp: '2026-04-20T14:01:27'
