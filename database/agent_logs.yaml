@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for The Hustle House Machine Learning Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-20T09:43:58'
-- agent: PracticeAgent
   action: 'Failed portal for OMNIDYA TECH LLP Machine Learning Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2497,3 +2492,8 @@ logs:
     Summer 2026: Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-20T11:45:45'
+- agent: PracticeAgent
+  action: 'Failed portal for IndiaBizForSale.com Data Science Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-20T11:45:58'
