@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Maiway Technologies Data Engineer (Data Engineer/Data
-    Collection): Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-20T19:35:17'
-- agent: PracticeAgent
   action: 'Failed portal for Plix - The Plant Flix Artificial Intelligence (AI): Gemini
     failed to generate project recommendations'
   status: error
@@ -2494,3 +2489,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-20T21:25:39'
+- agent: PracticeAgent
+  action: 'Failed portal for Mple AI Machine Learning Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-20T21:25:44'
