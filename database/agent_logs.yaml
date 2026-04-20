@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Sungrow Power Supply Co., Ltd. Data Analyst Internship:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-20T00:48:13'
-- agent: PracticeAgent
   action: 'Failed portal for Unimonks Artificial Intelligence (AI): Gemini failed
     to generate project recommendations'
   status: error
@@ -2501,3 +2496,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-20T02:35:13'
+- agent: PracticeAgent
+  action: 'Failed portal for Harman Connected Foundational Engineer - AI & Machine
+    Learning: Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-20T02:35:25'
