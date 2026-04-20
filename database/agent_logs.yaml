@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Barclays Data Analyst: Gemini failed to generate project
-    recommendations'
-  status: error
-  timestamp: '2026-04-20T16:38:31'
-- agent: PracticeAgent
   action: 'Failed portal for UNITED CARBON TECHNOLOGIES PRIVATE LIMITED Machine Learning
     Intern: Gemini failed to generate project recommendations'
   status: error
@@ -2504,3 +2499,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-20T17:29:34'
+- agent: PracticeAgent
+  action: 'Failed portal for Indika AI Private Limited Data Science Intern: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-20T17:29:42'
