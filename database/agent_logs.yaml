@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Cisco Staff Machine Learning Engineer: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-20T11:16:57'
-- agent: PracticeAgent
   action: 'Failed portal for 365 Retail Markets Business Analyst Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2497,3 +2492,7 @@ logs:
     Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-20T13:06:06'
+- agent: OpportunityMatchingAgent
+  action: Generated match scores for 950 internships
+  status: success
+  timestamp: '2026-04-20T13:06:16'
