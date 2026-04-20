@@ -1,9 +1,4 @@
 logs:
-- agent: PracticeAgent
-  action: 'Failed portal for Reingold, Inc. Business Analyst Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-20T16:00:31'
 - agent: CareerAgent
   action: Fetch started
   level: INFO
@@ -2501,3 +2496,8 @@ logs:
     Intern: Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-20T17:12:28'
+- agent: PracticeAgent
+  action: 'Failed portal for Unessa Foundation Artificial Intelligence (AI): Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-20T17:12:36'
