@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Sungrow Data Analyst Internship: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-20T19:34:30'
-- agent: PracticeAgent
   action: 'Failed portal for SAV (Scale Asia Ventures) AI Engineer Intern: Gemini
     failed to generate project recommendations'
   status: error
@@ -2494,3 +2489,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-20T21:24:53'
+- agent: PracticeAgent
+  action: 'Failed portal for Fine Data Analytics Private Limited Machine Learning
+    Intern: Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-20T21:24:57'
