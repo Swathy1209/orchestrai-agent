@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Lensa Artificial Intelligence/Machine Learning - Summer
-    2026 Intern: Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-20T17:08:17'
-- agent: PracticeAgent
   action: 'Failed portal for S&P Global Business Analyst: Gemini failed to generate
     project recommendations'
   status: error
@@ -2504,3 +2499,8 @@ logs:
     recommendations'
   status: error
   timestamp: '2026-04-20T17:59:20'
+- agent: PracticeAgent
+  action: 'Failed portal for The Caliper Lab (Toronto, Canada) Data Science Intern:
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-20T17:59:27'
