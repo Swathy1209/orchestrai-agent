@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for FlyNava Technologies Data Science Internship in Bangalore:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-20T07:51:33'
-- agent: PracticeAgent
   action: 'Failed portal for Arhant Solutions Pvt.ltd Artificial Intelligence (AI)
     Internship in Ahmedabad: Gemini failed to generate project recommendations'
   status: error
@@ -2498,3 +2493,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-20T10:00:04'
+- agent: PracticeAgent
+  action: 'Failed portal for VerbaFlo.AI Machine Learning Intern: Gemini failed to
+    generate project recommendations'
+  status: error
+  timestamp: '2026-04-20T10:00:16'
