@@ -1,9 +1,4 @@
 logs:
-- agent: PracticeAgent
-  action: 'Failed portal for Neuvosoft Solutions Machine Learning Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-20T18:01:10'
 - agent: CareerAgent
   action: 113 jobs fetched
   level: INFO
@@ -2489,3 +2484,9 @@ logs:
     Chain & Logistics) - 2026 Start (PhD): Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-20T20:24:08'
+- agent: PracticeAgent
+  action: 'Failed portal for WayUp BMW, Overseas Supply Chain Operations and Data
+    Analysis Intern (Fall 2026) - Application via WayUp: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-20T20:24:34'
