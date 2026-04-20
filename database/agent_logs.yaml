@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for ConsultBae Data Science Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-20T17:56:35'
-- agent: PracticeAgent
   action: 'Failed portal for SkySlope Data Analyst 3: Gemini failed to generate project
     recommendations'
   status: error
@@ -2491,3 +2486,8 @@ logs:
     generate project recommendations'
   status: error
   timestamp: '2026-04-20T20:07:21'
+- agent: PracticeAgent
+  action: 'Failed portal for IIDE Education Private Limited Artificial Intelligence
+    Intern: Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-20T20:07:36'
