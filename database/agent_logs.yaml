@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for The Goat Academy Private Limited Data Science Intern:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-20T01:14:41'
-- agent: PracticeAgent
   action: 'Failed portal for Webbybutter Technologies Data Science Intern: Gemini
     failed to generate project recommendations'
   status: error
@@ -2504,3 +2499,8 @@ logs:
     Intern: Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-20T03:09:54'
+- agent: PracticeAgent
+  action: 'Failed portal for Lensa Business Analyst Intern Remote: Gemini failed to
+    generate project recommendations'
+  status: error
+  timestamp: '2026-04-20T03:10:04'
