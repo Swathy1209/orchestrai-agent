@@ -1,8 +1,4 @@
 logs:
-- agent: OpportunityMatchingAgent
-  action: Generated match scores for 933 internships
-  status: success
-  timestamp: '2026-04-20T07:00:09'
 - agent: PracticeAgent
   action: 'Failed portal for LivNSense Machine Learning Intern: Gemini failed to generate
     project recommendations'
@@ -2501,3 +2497,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-20T07:52:40'
+- agent: PracticeAgent
+  action: 'Failed portal for Emoolar Technology Private Limited Machine Learning Intern:
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-20T07:52:46'
