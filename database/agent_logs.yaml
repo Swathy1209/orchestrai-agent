@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for IIT Guwahati Machine Learning Intern: Gemini failed to
-    generate project recommendations'
-  status: error
-  timestamp: '2026-04-20T12:52:56'
-- agent: PracticeAgent
   action: 'Failed portal for Generate:Biomedicines Machine Learning Intern: Gemini
     failed to generate project recommendations'
   status: error
@@ -2481,3 +2476,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-20T15:43:23'
+- agent: PracticeAgent
+  action: 'Failed portal for Nebula Personalization Tech Solutions Private Limited
+    Artificial Intelligence Intern: Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-20T15:43:35'
