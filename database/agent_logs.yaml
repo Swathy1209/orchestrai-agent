@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Daice Labs Machine Learning Intern: Gemini failed to
-    generate project recommendations'
-  status: error
-  timestamp: '2026-04-20T05:16:02'
-- agent: PracticeAgent
   action: 'Failed portal for Lensa Data Science Internship: Gemini failed to generate
     project recommendations'
   status: error
@@ -2498,3 +2493,8 @@ logs:
     Support, Emerging Talent Intern (Summer): Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-20T06:22:14'
+- agent: PracticeAgent
+  action: 'Failed portal for Tesla Internship, Machine Learning Engineer, Data Engineering
+    & Analytics (Summer 2026): Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-20T06:22:29'
