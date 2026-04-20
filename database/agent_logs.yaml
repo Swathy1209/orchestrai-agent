@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Booz Allen Hamilton Data Analyst, Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-20T02:02:37'
-- agent: PracticeAgent
   action: 'Failed portal for Hayward Holdings, Inc. ERP Dashboard and Data Analyst
     Intern: Gemini failed to generate project recommendations'
   status: error
@@ -2494,3 +2489,9 @@ logs:
   action: Generated Portfolio
   status: success
   timestamp: '2026-04-20T04:11:04'
+- agent: PracticeAgent
+  action: 'Failed portal for TikTok (General Hire) Machine Learning Engineer Intern
+    (TikTok- Video Recommendation) - 2026 Summer (BS/MS): Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-20T04:12:10'
