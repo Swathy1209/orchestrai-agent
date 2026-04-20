@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Echodyne Summer Intern Data Engineer/Software Engineer:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-20T07:25:26'
-- agent: PracticeAgent
   action: 'Failed portal for Sungrow Data Analyst Internship: Gemini failed to generate
     project recommendations'
   status: error
@@ -2499,3 +2494,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-20T09:07:59'
+- agent: PracticeAgent
+  action: 'Failed portal for Antariksha.co - Purely Precious Jewellery Artificial
+    Intelligence Intern: Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-20T09:08:26'
