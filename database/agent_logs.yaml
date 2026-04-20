@@ -3,11 +3,6 @@ logs:
   action: 'Failed portal for RefinedScience Data Engineering Intern: Detected incomplete
     placeholder content. Regenerating...'
   status: error
-  timestamp: '2026-04-20T04:49:14'
-- agent: PracticeAgent
-  action: 'Failed portal for RefinedScience Data Engineering Intern: Detected incomplete
-    placeholder content. Regenerating...'
-  status: error
   timestamp: '2026-04-20T04:49:32'
 - agent: PracticeAgent
   action: 'Failed portal for Solvitude Machine Learning Intern: Gemini failed to generate
@@ -2506,3 +2501,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-20T05:42:55'
+- agent: PracticeAgent
+  action: 'Failed portal for White & Co Machine Learning Intern: Gemini failed to
+    generate project recommendations'
+  status: error
+  timestamp: '2026-04-20T05:43:00'
