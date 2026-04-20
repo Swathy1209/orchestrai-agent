@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for IT-Infotek Data Science Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-20T19:26:26'
-- agent: PracticeAgent
   action: 'Failed portal for Newzeninfotech Solutions Data Science: Gemini failed
     to generate project recommendations'
   status: error
@@ -2494,3 +2489,8 @@ logs:
     Executive: Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-20T21:16:47'
+- agent: PracticeAgent
+  action: 'Failed portal for MeshyAI Machine Learning Systems Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-20T21:16:54'
