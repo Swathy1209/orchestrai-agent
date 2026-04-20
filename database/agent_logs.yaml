@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Waters Corporation AI Engineer Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-20T05:31:44'
-- agent: PracticeAgent
   action: 'Failed portal for MeshyAI Data Science Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2498,3 +2493,8 @@ logs:
     Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-20T06:57:29'
+- agent: PracticeAgent
+  action: 'Failed portal for Macquarie Group Liquidity Business Analyst: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-20T06:57:38'
