@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for KAN Universal Private Limited Artificial Intelligence
-    Intern: Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-20T12:35:16'
-- agent: PracticeAgent
   action: 'Failed portal for CarVach Data Science Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2482,3 +2477,8 @@ logs:
     generate project recommendations'
   status: error
   timestamp: '2026-04-20T15:20:09'
+- agent: PracticeAgent
+  action: 'Failed portal for INDUS Technology, Inc. Business Analyst, Intern: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-20T15:20:22'
