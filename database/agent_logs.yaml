@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Euphotic Labs Private Limited Machine Learning Intern:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-20T04:08:51'
-- agent: PracticeAgent
   action: 'Failed portal for Aadi Foundation Machine Learning Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2503,3 +2498,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-20T05:31:52'
+- agent: PracticeAgent
+  action: 'Failed portal for FTI Defense - Frontier Technology Inc. AI/ML Engineering
+    Internship: Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-20T05:31:56'
