@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for The Agency Source Data Science Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-20T05:08:45'
-- agent: PracticeAgent
   action: 'Failed portal for Cvent Data Science Intern (Summer 2026): Gemini failed
     to generate project recommendations'
   status: error
@@ -2499,3 +2494,8 @@ logs:
   action: 99 jobs fetched, 84 relevant
   level: INFO
   timestamp: '2026-04-20T06:01:16'
+- agent: PracticeAgent
+  action: 'Failed portal for Assetcues Solutions Private Limited Machine Learning
+    Intern: Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-20T06:01:25'
