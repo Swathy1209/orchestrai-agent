@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Echodyne Summer Intern Data Engineer/Software Engineer:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-20T01:46:47'
-- agent: PracticeAgent
   action: 'Failed portal for Anubhav Singh Data Science Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2503,3 +2498,8 @@ logs:
     recommendations'
   status: error
   timestamp: '2026-04-20T03:43:01'
+- agent: PracticeAgent
+  action: 'Failed portal for Johns Hopkins Applied Physics Laboratory 2026 PhD Graduate
+    - Modeler and Data Analyst: Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-20T03:43:13'
