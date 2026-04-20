@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for The Souled Store Data Science Intern: Gemini failed to
-    generate project recommendations'
-  status: error
-  timestamp: '2026-04-20T05:33:39'
-- agent: PracticeAgent
   action: 'Failed portal for Nihon Kohden Digital Health Solutions Finance/Business
     Analyst Intern: Gemini failed to generate project recommendations'
   status: error
@@ -2497,3 +2492,8 @@ logs:
   action: Generated match scores for 933 internships
   status: success
   timestamp: '2026-04-20T07:00:09'
+- agent: PracticeAgent
+  action: 'Failed portal for LivNSense Machine Learning Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-20T07:00:13'
