@@ -1,9 +1,5 @@
 logs:
 - agent: CareerAgent
-  action: Fetch started
-  level: INFO
-  timestamp: '2026-04-19T22:55:56'
-- agent: CareerAgent
   action: 99 jobs fetched
   level: INFO
   timestamp: '2026-04-19T22:56:23'
@@ -2489,3 +2485,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-20T01:46:09'
+- agent: PracticeAgent
+  action: 'Failed portal for Qubixo Machine Learning Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-20T01:46:21'
