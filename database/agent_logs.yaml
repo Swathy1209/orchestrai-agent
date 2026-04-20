@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for PwC Consulting Solutions Python Data Engineer: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-20T21:06:58'
-- agent: PracticeAgent
   action: 'Failed portal for InstaCAD Solutions India Private Limited Machine Learning
     Intern: Gemini failed to generate project recommendations'
   status: error
@@ -2498,3 +2493,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-20T22:33:52'
+- agent: PracticeAgent
+  action: 'Failed portal for Twango Artificial Intelligence Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-20T22:34:05'
