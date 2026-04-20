@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Great Indian Trade Alliance Artificial Intelligence Intern:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-20T07:15:09'
-- agent: PracticeAgent
   action: 'Failed portal for EY Data Scientist – Machine Learning: Gemini failed to
     generate project recommendations'
   status: error
@@ -2497,3 +2492,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-20T08:08:00'
+- agent: PracticeAgent
+  action: 'Failed portal for DeepThought CultureTech Ventures Private Limited Machine
+    Learning Intern: Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-20T08:08:07'
