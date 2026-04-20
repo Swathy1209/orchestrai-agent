@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Bosch USA Artificial Intelligence / Machine Learning:
-    Foundation Models - Intern: Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-20T07:34:56'
-- agent: PracticeAgent
   action: 'Failed portal for C3 AI Data Science - Intern (Summer 2026): Gemini failed
     to generate project recommendations'
   status: error
@@ -2496,3 +2491,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-20T09:27:40'
+- agent: PracticeAgent
+  action: 'Failed portal for INDUS Technology, Inc. Business Analyst, Intern: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-20T09:27:43'
