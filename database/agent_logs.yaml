@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Primetrade.ai Artificial Intelligence Intern: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-20T13:28:36'
-- agent: PracticeAgent
   action: 'Failed portal for Green Letter Technologies Artificial Intelligence Intern:
     Gemini failed to generate project recommendations'
   status: error
@@ -2483,3 +2478,8 @@ logs:
     AI) - 2026 Summer/Fall (PhD): Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-20T16:25:33'
+- agent: PracticeAgent
+  action: 'Failed portal for Perpay Inc. Data Science Internship, 2026: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-20T16:25:59'
