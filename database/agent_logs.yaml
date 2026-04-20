@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Spectrum 2026 Spectrum Summer Intern: Business Analyst:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-20T17:16:54'
-- agent: PracticeAgent
   action: 'Failed portal for FTI Defense - Frontier Technology Inc. AI/ML Engineering
     Internship: Gemini failed to generate project recommendations'
   status: error
@@ -2501,3 +2496,8 @@ logs:
     Summer (BS/MS): Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-20T18:23:29'
+- agent: PracticeAgent
+  action: 'Failed portal for webAI Summer Internship - Machine Learning Engineer:
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-20T18:24:00'
