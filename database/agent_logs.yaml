@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for TESK Labs Machine Learning Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-20T17:09:59'
-- agent: PracticeAgent
   action: 'Failed portal for Tech Economy ML-AI Engineering Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2506,3 +2501,7 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-20T18:01:10'
+- agent: CareerAgent
+  action: 113 jobs fetched
+  level: INFO
+  timestamp: '2026-04-20T18:01:15'
