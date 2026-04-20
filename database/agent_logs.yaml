@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for eClerx Business Analyst: Gemini failed to generate project
-    recommendations'
-  status: error
-  timestamp: '2026-04-20T07:38:58'
-- agent: PracticeAgent
   action: 'Failed portal for Fine Data Analytics Private Limited Machine Learning
     Intern: Gemini failed to generate project recommendations'
   status: error
@@ -2496,3 +2491,8 @@ logs:
     generate project recommendations'
   status: error
   timestamp: '2026-04-20T09:33:18'
+- agent: PracticeAgent
+  action: 'Failed portal for Command Post Technologies, Inc AI/Machine Learning Software
+    Engineering Intern: Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-20T09:33:30'
