@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Ensono Intern - Capacity Management Data Analyst: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-20T10:30:29'
-- agent: PracticeAgent
   action: 'Failed portal for TZURONI LTD. (Kefar Sava, Israel) Machine Learning Intern:
     Gemini failed to generate project recommendations'
   status: error
@@ -2494,3 +2489,8 @@ logs:
   action: Generated optimizations for 950 internships
   status: success
   timestamp: '2026-04-20T12:40:24'
+- agent: PracticeAgent
+  action: 'Failed portal for Motovolt Machine Learning Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-20T12:40:27'
