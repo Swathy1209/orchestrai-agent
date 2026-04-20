@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Hone Health Data Science Intern (Summer 2026): Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-20T03:23:14'
-- agent: PracticeAgent
   action: 'Failed portal for Poshmark AI/ML Engineering Intern (Summer 2026): Gemini
     failed to generate project recommendations'
   status: error
@@ -2497,3 +2492,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-20T05:15:09'
+- agent: PracticeAgent
+  action: 'Failed portal for EXL Data Analyst Associate: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-20T05:15:15'
