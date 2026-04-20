@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Resolute AI Software Private Limited AI Engineer: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-20T07:09:10'
-- agent: PracticeAgent
   action: 'Failed portal for Unknown Company – Source Incomplete Machine Learning
     Intern: Gemini failed to generate project recommendations'
   status: error
@@ -2501,3 +2496,7 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-20T08:01:02'
+- agent: CareerAgent
+  action: 99 jobs fetched
+  level: INFO
+  timestamp: '2026-04-20T08:01:10'
