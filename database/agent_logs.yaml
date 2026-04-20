@@ -1,9 +1,4 @@
 logs:
-- agent: PracticeAgent
-  action: 'Failed portal for Reducate.ai Machine Learning Intern: Gemini failed to
-    generate project recommendations'
-  status: error
-  timestamp: '2026-04-20T03:58:51'
 - agent: CareerAgent
   action: Fetch started
   level: INFO
@@ -2498,3 +2493,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-20T05:28:46'
+- agent: PracticeAgent
+  action: 'Failed portal for Milliman India Private Limited AI/ML Engineer: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-20T05:28:51'
