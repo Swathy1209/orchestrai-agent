@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Tejate Education Private Limited Data Science Intern:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-20T05:40:16'
-- agent: PracticeAgent
   action: 'Failed portal for Reach Technologies Data Science Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2499,3 +2494,8 @@ logs:
     generate project recommendations'
   status: error
   timestamp: '2026-04-20T07:07:04'
+- agent: PracticeAgent
+  action: 'Failed portal for Airbnb Machine Learning Engineering Intern (PhD): Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-20T07:07:09'
