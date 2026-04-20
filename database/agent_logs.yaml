@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Khurana Technology Solutions Data Science Intern: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-20T16:39:45'
-- agent: PracticeAgent
   action: 'Failed portal for Daten & Wissen Private Limited Machine Learning Intern:
     Gemini failed to generate project recommendations'
   status: error
@@ -2504,3 +2499,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-20T17:30:47'
+- agent: PracticeAgent
+  action: 'Failed portal for Argmac Data Science Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-20T17:30:53'
