@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Mulberry Leaf Artificial Intelligence (AI): Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-20T05:15:09'
-- agent: PracticeAgent
   action: 'Failed portal for EXL Data Analyst Associate: Gemini failed to generate
     project recommendations'
   status: error
@@ -2497,3 +2492,8 @@ logs:
     (1 Year Fixed Term): Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-20T06:19:31'
+- agent: PracticeAgent
+  action: 'Failed portal for Albert Einstein College of Medicine Data Analyst - Education:
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-20T06:19:47'
