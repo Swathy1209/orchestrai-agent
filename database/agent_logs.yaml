@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Gotion Inc. Data Analyst: Gemini failed to generate project
-    recommendations'
-  status: error
-  timestamp: '2026-04-20T01:53:46'
-- agent: PracticeAgent
   action: 'Failed portal for Envestnet Data Analyst II: Gemini failed to generate
     project recommendations'
   status: error
@@ -2500,3 +2495,8 @@ logs:
     Learning Intern: Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-20T03:56:01'
+- agent: PracticeAgent
+  action: 'Failed portal for KlassWAY Machine Learning Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-20T03:56:37'
