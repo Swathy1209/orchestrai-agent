@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for InstaCAD Solutions India Private Limited Machine Learning
-    Intern: Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-20T02:36:28'
-- agent: PracticeAgent
   action: 'Failed portal for ATPCO Data Analyst Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2497,3 +2492,8 @@ logs:
     Seattle, Summer 2026: Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-20T04:57:53'
+- agent: PracticeAgent
+  action: 'Failed portal for Stripe Data Analyst, Intern (Master''s degree): Detected
+    incomplete placeholder content. Regenerating...'
+  status: error
+  timestamp: '2026-04-20T04:58:01'
