@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Capgemini Business Analyst-Contact Center Domain: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-20T12:49:04'
-- agent: PracticeAgent
   action: 'Failed portal for Tatari Data Science BI, Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2482,3 +2477,8 @@ logs:
     Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-20T15:35:11'
+- agent: PracticeAgent
+  action: 'Failed portal for Webbybutter Technologies Data Science Intern: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-20T15:35:23'
