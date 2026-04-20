@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Antariksha.co - Purely Precious Jewellery Artificial
-    Intelligence Intern: Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-20T21:11:06'
-- agent: PracticeAgent
   action: 'Failed portal for Hooman Digital LLP Machine Learning: Gemini failed to
     generate project recommendations'
   status: error
@@ -2499,3 +2494,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-20T22:45:38'
+- agent: PracticeAgent
+  action: 'Failed portal for CREATE Artificial Intelligence Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-20T22:45:51'
