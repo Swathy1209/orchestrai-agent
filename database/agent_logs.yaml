@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for S&P Global Loan Reference Data Analyst: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-20T13:00:58'
-- agent: PracticeAgent
   action: 'Failed portal for Above Alpha Solutions LLP Machine Learning: Gemini failed
     to generate project recommendations'
   status: error
@@ -2481,3 +2476,8 @@ logs:
     Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-20T15:55:09'
+- agent: PracticeAgent
+  action: 'Failed portal for The Skill Guru Foundation Data Science Intern: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-20T15:55:21'
