@@ -1,8 +1,4 @@
 logs:
-- agent: CareerAgent
-  action: 99 jobs fetched, 84 relevant
-  level: INFO
-  timestamp: '2026-04-20T06:01:16'
 - agent: PracticeAgent
   action: 'Failed portal for Assetcues Solutions Private Limited Machine Learning
     Intern: Gemini failed to generate project recommendations'
@@ -2500,3 +2496,8 @@ logs:
     Junior Associate Consultant (Intern): Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-20T07:27:10'
+- agent: PracticeAgent
+  action: 'Failed portal for Krause Group Data Analyst Intern (Finance): Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-20T07:27:15'
