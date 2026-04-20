@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Stirring Minds Artificial Intelligence Intern: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-20T00:14:26'
-- agent: PracticeAgent
   action: 'Failed portal for Nebula Personalization Tech Solutions Private Limited
     Artificial Intelligence Intern: Gemini failed to generate project recommendations'
   status: error
@@ -2505,3 +2500,8 @@ logs:
     Intern: Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-20T02:02:50'
+- agent: PracticeAgent
+  action: 'Failed portal for Ekimetrics 6 months Internship in Strategy & Data Science
+    | New York: Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-20T02:03:04'
