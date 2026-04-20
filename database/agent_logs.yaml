@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for FlyNava Technologies Data Science Internship in Bangalore:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-20T07:51:54'
-- agent: PracticeAgent
   action: 'Failed portal for SAP SAP iXp Intern - AI Machine Learning: Gemini failed
     to generate project recommendations'
   status: error
@@ -2497,3 +2492,8 @@ logs:
   action: Fetch started
   level: INFO
   timestamp: '2026-04-20T10:00:34'
+- agent: PracticeAgent
+  action: 'Failed portal for Realogix AI Engineer Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-20T10:00:41'
