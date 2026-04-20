@@ -1,9 +1,5 @@
 logs:
 - agent: CareerAgent
-  action: 99 jobs fetched, 84 relevant
-  level: INFO
-  timestamp: '2026-04-19T22:56:32'
-- agent: CareerAgent
   action: Stored in GitHub YAML
   level: INFO
   timestamp: '2026-04-19T22:56:42'
@@ -2491,3 +2487,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-20T01:46:34'
+- agent: PracticeAgent
+  action: 'Failed portal for Echodyne Summer Intern Data Engineer/Software Engineer:
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-20T01:46:47'
