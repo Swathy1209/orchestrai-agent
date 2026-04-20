@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Sofar Ocean Machine Learning Intern: Gemini failed to
-    generate project recommendations'
-  status: error
-  timestamp: '2026-04-20T05:32:27'
-- agent: PracticeAgent
   action: 'Failed portal for Krasa Care Artificial Intelligence Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2498,3 +2493,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-20T06:58:26'
+- agent: PracticeAgent
+  action: 'Failed portal for Stackwise Machine Learning Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-20T06:58:39'
