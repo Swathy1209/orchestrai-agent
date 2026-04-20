@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Paramount+ Data Science Intern (Summer 2026 - In-Person
-    - NYC): Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-20T13:08:31'
-- agent: PracticeAgent
   action: 'Failed portal for Cohere Machine Learning Intern/Co-op  (Spring/Summer
     2026): Gemini failed to generate project recommendations'
   status: error
@@ -2479,3 +2474,8 @@ logs:
   action: Email delegation passed to ExecutionAgent
   level: INFO
   timestamp: '2026-04-20T16:01:37'
+- agent: PracticeAgent
+  action: 'Failed portal for Tidal7 Asia - A J7 Agency Data Science Intern: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-20T16:01:41'
