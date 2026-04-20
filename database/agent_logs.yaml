@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for White & Co Machine Learning Intern: Gemini failed to
-    generate project recommendations'
-  status: error
-  timestamp: '2026-04-20T00:11:35'
-- agent: PracticeAgent
   action: 'Failed portal for GNG Developers Machine Learning Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2505,3 +2500,8 @@ logs:
     Learning Intern: Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-20T02:01:59'
+- agent: PracticeAgent
+  action: 'Failed portal for Convergent Research Computer Vision and Machine Learning
+    Intern: Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-20T02:02:12'
