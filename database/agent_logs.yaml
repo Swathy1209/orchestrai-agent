@@ -1,9 +1,4 @@
 logs:
-- agent: PracticeAgent
-  action: 'Failed portal for Kodiak Fall 2026 Intern, Artificial Intelligence/Machine
-    Learning: Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-20T02:57:53'
 - agent: ResumeOptimizationAgent
   action: Generated optimizations for 929 internships
   status: success
@@ -2494,3 +2489,8 @@ logs:
     recommendations'
   status: error
   timestamp: '2026-04-20T05:05:25'
+- agent: PracticeAgent
+  action: 'Failed portal for Aviraj Infotech Private Limited Machine Learning Intern:
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-20T05:05:31'
