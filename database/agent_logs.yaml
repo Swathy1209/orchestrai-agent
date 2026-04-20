@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for IIIT Hyderabad Data Science Intern: Gemini failed to
-    generate project recommendations'
-  status: error
-  timestamp: '2026-04-20T13:26:49'
-- agent: PracticeAgent
   action: 'Failed portal for Shunya Digital Data Science Intern: Gemini failed to
     generate project recommendations'
   status: error
@@ -2483,3 +2478,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-20T16:22:22'
+- agent: PracticeAgent
+  action: 'Failed portal for Ensono Intern - Capacity Management Data Analyst: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-20T16:23:13'
