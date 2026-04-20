@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Wobot Intelligence Private Limited Machine Learning Intern:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-20T12:51:07'
-- agent: PracticeAgent
   action: 'Failed portal for Lensa Intern, Data Science: Gemini failed to generate
     project recommendations'
   status: error
@@ -2481,3 +2476,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-20T15:39:30'
+- agent: PracticeAgent
+  action: 'Failed portal for White & Co Machine Learning Intern: Gemini failed to
+    generate project recommendations'
+  status: error
+  timestamp: '2026-04-20T15:39:43'
