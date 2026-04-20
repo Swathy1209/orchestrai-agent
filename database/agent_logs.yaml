@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Myntra Associate -Data Analyst: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-20T15:32:47'
-- agent: PracticeAgent
   action: 'Failed portal for Cult Fit Data Analyst: Gemini failed to generate project
     recommendations'
   status: error
@@ -2501,3 +2496,8 @@ logs:
     Seattle, Summer 2026: Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-20T16:59:15'
+- agent: PracticeAgent
+  action: 'Failed portal for Heptaverse Technologies Private Limited Artificial Intelligence
+    (AI): Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-20T16:59:20'
