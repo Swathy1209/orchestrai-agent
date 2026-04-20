@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Carufus Technology Private Limited Data Science Intern:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-20T21:44:18'
-- agent: PracticeAgent
   action: 'Failed portal for Earthed Soul PVT LTD Machine Learning Intern: Gemini
     failed to generate project recommendations'
   status: error
@@ -2499,3 +2494,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-20T23:52:28'
+- agent: PracticeAgent
+  action: 'Failed portal for Refresh Kid LLC (Milwaukee, United States) Data Science
+    Intern: Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-20T23:52:41'
