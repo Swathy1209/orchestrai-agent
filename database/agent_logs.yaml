@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for AARP Data Analyst Intern: Gemini failed to generate project
-    recommendations'
-  status: error
-  timestamp: '2026-04-20T15:11:02'
-- agent: PracticeAgent
   action: 'Failed portal for TikTok Business Analyst Intern (Business Integrity) -
     2026 Summer (BS/MS): Gemini failed to generate project recommendations'
   status: error
@@ -2500,3 +2495,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-20T16:48:55'
+- agent: PracticeAgent
+  action: 'Failed portal for Calipers Consulting Private Limited Data Science Intern:
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-20T16:49:01'
