@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for StarPoint Properties Artificial Intelligence Intern:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-20T17:52:43'
-- agent: PracticeAgent
   action: 'Failed portal for Legend Biotech PD Data Sciences, CMC Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2496,3 +2491,7 @@ logs:
   action: 110 jobs fetched
   level: INFO
   timestamp: '2026-04-20T20:01:03'
+- agent: CareerAgent
+  action: 110 jobs fetched, 95 relevant
+  level: INFO
+  timestamp: '2026-04-20T20:01:06'
