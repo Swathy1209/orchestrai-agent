@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for South Bay Cities Council of Governments (SBCCOG) Data
-    Analyst Job Opening: Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-20T07:28:03'
-- agent: PracticeAgent
   action: 'Failed portal for Saia Inc. Senior Internal Audit Data Analyst: Gemini
     failed to generate project recommendations'
   status: error
@@ -2499,3 +2494,8 @@ logs:
     recommendations'
   status: error
   timestamp: '2026-04-20T09:15:44'
+- agent: PracticeAgent
+  action: 'Failed portal for TikTok Business Analyst Intern (Business Integrity) -
+    2026 Summer (BS/MS): Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-20T09:15:57'
