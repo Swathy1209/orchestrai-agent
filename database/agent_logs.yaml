@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Encrobytes Technologies Private Limited Artificial Intelligence
-    Intern: Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-20T06:54:03'
-- agent: PracticeAgent
   action: 'Failed portal for Blismos Solutions Private Limited Artificial Intelligence
     Intern: Gemini failed to generate project recommendations'
   status: error
@@ -2502,3 +2497,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-20T07:48:52'
+- agent: PracticeAgent
+  action: 'Failed portal for Lumiq.ai Machine Learning Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-20T07:48:58'
