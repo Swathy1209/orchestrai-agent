@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Stealth Startup Machine Learning Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-19T17:34:57'
-- agent: PracticeAgent
   action: 'Failed portal for Joveo Machine Learning Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2483,3 +2478,8 @@ logs:
     placeholder content. Regenerating...'
   status: error
   timestamp: '2026-04-20T00:24:30'
+- agent: PracticeAgent
+  action: 'Failed portal for Symonis Machine Learning Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-20T00:24:36'
