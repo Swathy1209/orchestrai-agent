@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Krasa Care Artificial Intelligence Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-20T17:34:21'
-- agent: PracticeAgent
   action: 'Failed portal for Primetrade.ai Artificial Intelligence Intern: Gemini
     failed to generate project recommendations'
   status: error
@@ -2500,3 +2495,8 @@ logs:
     (Charlotte, NC): Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-20T19:29:32'
+- agent: PracticeAgent
+  action: 'Failed portal for Lensa Artificial Intelligence/Machine Learning - Summer
+    2026 Intern: Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-20T19:29:38'
