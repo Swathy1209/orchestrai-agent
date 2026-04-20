@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for webAI Summer Internship - Machine Learning Engineer:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-20T18:24:00'
-- agent: PracticeAgent
   action: 'Failed portal for ByteDance Machine Learning Engineer Intern (E-commerce-Recommendation)
     - 2026 Start (PhD): Gemini failed to generate project recommendations'
   status: error
@@ -2495,3 +2490,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-20T20:59:30'
+- agent: PracticeAgent
+  action: 'Failed portal for AARP Data Analyst Intern: Gemini failed to generate project
+    recommendations'
+  status: error
+  timestamp: '2026-04-20T20:59:44'
