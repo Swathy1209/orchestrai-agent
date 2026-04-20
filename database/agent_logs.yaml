@@ -3,11 +3,6 @@ logs:
   action: 'Failed portal for Barclays Data Analyst: Gemini failed to generate project
     recommendations'
   status: error
-  timestamp: '2026-04-20T06:47:23'
-- agent: PracticeAgent
-  action: 'Failed portal for Barclays Data Analyst: Gemini failed to generate project
-    recommendations'
-  status: error
   timestamp: '2026-04-20T06:47:26'
 - agent: PracticeAgent
   action: 'Failed portal for FormsADDA Data Science Intern: Gemini failed to generate
@@ -2504,3 +2499,8 @@ logs:
     Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-20T07:44:18'
+- agent: PracticeAgent
+  action: 'Failed portal for Lensa Intern - Data Science, Generative AI: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-20T07:44:24'
