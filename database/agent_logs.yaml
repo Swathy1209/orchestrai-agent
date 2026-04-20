@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Web Management Consultants Ltd Business Analyst Intern:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-20T21:12:23'
-- agent: PracticeAgent
   action: 'Failed portal for Enlight Lab Data Science Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2499,3 +2494,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-20T22:59:24'
+- agent: PracticeAgent
+  action: 'Failed portal for Orange Technologies Data Science Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-20T22:59:37'
