@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for AndOr Communications Private Limited Data Science Intern:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-20T17:27:15'
-- agent: PracticeAgent
   action: 'Failed portal for OMNIDYA TECH LLP Machine Learning Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2499,3 +2494,7 @@ logs:
     recommendations'
   status: error
   timestamp: '2026-04-20T19:22:41'
+- agent: OpportunityMatchingAgent
+  action: Generated match scores for 958 internships
+  status: success
+  timestamp: '2026-04-20T19:22:48'
