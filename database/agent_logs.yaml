@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Aviate Manpower Data Science: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-20T00:37:19'
-- agent: PracticeAgent
   action: 'Failed portal for Zulitech Solution Machine Learning: Gemini failed to
     generate project recommendations'
   status: error
@@ -2505,3 +2500,8 @@ logs:
     Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-20T02:27:56'
+- agent: PracticeAgent
+  action: 'Failed portal for Stackwise Data Science Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-20T02:28:10'
