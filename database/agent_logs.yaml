@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for MCube AI Private Limited Data Science: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-20T07:18:56'
-- agent: PracticeAgent
   action: 'Failed portal for Rebel Foods Private Limited Data Science Intern: Gemini
     failed to generate project recommendations'
   status: error
@@ -2498,3 +2493,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-20T08:21:41'
+- agent: PracticeAgent
+  action: 'Failed portal for Ekfrazo Technologies Azure Data Engineer: Detected incomplete
+    placeholder content. Regenerating...'
+  status: error
+  timestamp: '2026-04-20T08:22:42'
