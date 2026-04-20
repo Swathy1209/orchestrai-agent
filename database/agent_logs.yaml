@@ -1,9 +1,5 @@
 logs:
 - agent: CareerAgent
-  action: Stored in GitHub YAML
-  level: INFO
-  timestamp: '2026-04-20T06:01:40'
-- agent: CareerAgent
   action: Email delegation passed to ExecutionAgent
   level: INFO
   timestamp: '2026-04-20T06:01:44'
@@ -2501,3 +2497,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-20T07:27:22'
+- agent: PracticeAgent
+  action: 'Failed portal for Internet2 Data Analyst Intern - Internet2 NET+ Program:
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-20T07:27:27'
