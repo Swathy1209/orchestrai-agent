@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Wake Up Whistle Data Science Intern (Python, SQL, Pandas):
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-20T05:36:48'
-- agent: PracticeAgent
   action: 'Failed portal for Lensa Artificial Intelligence Intern: Gemini failed to
     generate project recommendations'
   status: error
@@ -2499,3 +2494,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-20T07:03:43'
+- agent: PracticeAgent
+  action: 'Failed portal for GigFloww Artificial Intelligence Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-20T07:03:51'
