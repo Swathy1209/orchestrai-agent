@@ -1,9 +1,4 @@
 logs:
-- agent: PracticeAgent
-  action: 'Failed portal for Emoolar Technology Private Limited Artificial Intelligence
-    Intern: Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-20T10:01:48'
 - agent: SkillAgent
   action: Skill gap analysis complete
   status: success
@@ -2499,3 +2494,8 @@ logs:
     Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-20T12:04:15'
+- agent: PracticeAgent
+  action: 'Failed portal for Kasbah Films & Media Pvt Ltd Data Science Intern: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-20T12:04:29'
