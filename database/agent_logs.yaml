@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Tercept Incorporation Data Science Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-19T17:36:55'
-- agent: PracticeAgent
   action: 'Failed portal for Alster IT Solutions Data Science Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2482,3 +2477,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-20T00:25:11'
+- agent: PracticeAgent
+  action: 'Failed portal for Handshake AI/Machine Learning Engineer Intern: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-20T00:25:17'
