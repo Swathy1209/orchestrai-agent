@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Bankers Financial Corporation Business Analyst Intern:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-20T19:16:37'
-- agent: PracticeAgent
   action: 'Failed portal for Iron Mountain Business Analyst Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2493,3 +2488,8 @@ logs:
     Intelligence Intern: Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-20T21:11:06'
+- agent: PracticeAgent
+  action: 'Failed portal for Hooman Digital LLP Machine Learning: Gemini failed to
+    generate project recommendations'
+  status: error
+  timestamp: '2026-04-20T21:11:13'
