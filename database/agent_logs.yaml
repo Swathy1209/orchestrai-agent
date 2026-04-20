@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Verda Healthcare Business Analyst (Junior/Entry Level)
-    - no C2C: Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-20T10:34:28'
-- agent: PracticeAgent
   action: 'Failed portal for Handshake AI/Machine Learning Engineer Intern: Gemini
     failed to generate project recommendations'
   status: error
@@ -2495,3 +2490,8 @@ logs:
     recommendations'
   status: error
   timestamp: '2026-04-20T12:44:29'
+- agent: PracticeAgent
+  action: 'Failed portal for Unessa Foundation Machine Learning Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-20T12:44:48'
