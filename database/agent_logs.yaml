@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Lightmatter Machine Learning Research Intern: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-20T05:17:32'
-- agent: PracticeAgent
   action: 'Failed portal for SmartLabprojects Data Science Intern: Gemini failed to
     generate project recommendations'
   status: error
@@ -2498,3 +2493,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-20T06:26:50'
+- agent: PracticeAgent
+  action: 'Failed portal for AARP Data Science Intern: Gemini failed to generate project
+    recommendations'
+  status: error
+  timestamp: '2026-04-20T06:27:04'
