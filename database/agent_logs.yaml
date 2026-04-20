@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for GAINS Data Science Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-20T17:56:48'
-- agent: PracticeAgent
   action: 'Failed portal for Gurucool Data Science Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2491,3 +2486,8 @@ logs:
     Learning - Intern: Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-20T20:07:50'
+- agent: PracticeAgent
+  action: 'Failed portal for TÜV SÜD Intern - Business Analyst / Process Engineer:
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-20T20:08:03'
