@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Grameen Shramik Pratishthan Artificial Intelligence Intern:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-20T01:51:01'
-- agent: PracticeAgent
   action: 'Failed portal for Emerson Data Engineer: Gemini failed to generate project
     recommendations'
   status: error
@@ -2503,3 +2498,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-20T03:50:18'
+- agent: PracticeAgent
+  action: 'Failed portal for Preplaced Machine Learning Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-20T03:50:42'
