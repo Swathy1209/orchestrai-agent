@@ -1,9 +1,4 @@
 logs:
-- agent: PracticeAgent
-  action: 'Failed portal for Horizon9 Advertising & Brand Consultants Limited Artificial
-    Intelligence Intern: Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-20T10:00:29'
 - agent: CareerAgent
   action: Fetch started
   level: INFO
@@ -2494,3 +2489,8 @@ logs:
   status: success
   timestamp: '2026-04-20T12:02:00'
   details: Analyzed 950 jobs.
+- agent: PracticeAgent
+  action: 'Failed portal for Deep Life Savers Machine Learning Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-20T12:02:08'
