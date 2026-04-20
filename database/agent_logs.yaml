@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Earthed Soul PVT LTD Machine Learning Intern: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-20T07:45:21'
-- agent: PracticeAgent
   action: 'Failed portal for California Medical Behavioral Health Data Science Intern:
     Gemini failed to generate project recommendations'
   status: error
@@ -2496,3 +2491,8 @@ logs:
     Data Science Intern: Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-20T09:46:40'
+- agent: PracticeAgent
+  action: 'Failed portal for STRIDE School Of Business Data Science Intern: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-20T09:46:52'
