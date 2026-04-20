@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Emerson Data Engineer: Gemini failed to generate project
-    recommendations'
-  status: error
-  timestamp: '2026-04-20T20:22:47'
-- agent: PracticeAgent
   action: 'Failed portal for TikTok Machine Learning Engineer Intern (Privacy and
     Data Protection Office) - 2026 Start (PhD): Gemini failed to generate project
     recommendations'
@@ -2504,3 +2499,8 @@ logs:
     generate project recommendations'
   status: error
   timestamp: '2026-04-20T22:02:02'
+- agent: PracticeAgent
+  action: 'Failed portal for Payoneer Senior Data Engineer: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-20T22:02:10'
