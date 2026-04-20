@@ -1,9 +1,4 @@
 logs:
-- agent: PracticeAgent
-  action: 'Failed portal for Carufus Technology Private Limited Machine Learning Intern:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-20T13:30:12'
 - agent: CareerAgent
   action: Fetch started
   level: INFO
@@ -2483,3 +2478,8 @@ logs:
     generate project recommendations'
   status: error
   timestamp: '2026-04-20T16:27:47'
+- agent: PracticeAgent
+  action: 'Failed portal for Inorbvict Healthcare India Private Limited Data Science
+    Intern: Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-20T16:27:59'
