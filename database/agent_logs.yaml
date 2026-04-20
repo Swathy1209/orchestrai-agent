@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Nuro Machine Learning intern, Behavior Planning: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-20T07:00:39'
-- agent: PracticeAgent
   action: 'Failed portal for ForFutures Financial, Planning, a financial advisory
     practice of Ameriprise Financial Services LLC Data Science Intern: Gemini failed
     to generate project recommendations'
@@ -2502,3 +2497,8 @@ logs:
     Panvel, Thane: Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-20T07:53:03'
+- agent: PracticeAgent
+  action: 'Failed portal for Symonis Machine Learning Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-20T07:53:11'
