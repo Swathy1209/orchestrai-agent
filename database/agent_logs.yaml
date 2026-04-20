@@ -1,9 +1,5 @@
 logs:
 - agent: CareerAgent
-  action: 100 jobs fetched, 85 relevant
-  level: INFO
-  timestamp: '2026-04-20T13:56:54'
-- agent: CareerAgent
   action: Stored in GitHub YAML
   level: INFO
   timestamp: '2026-04-20T13:57:10'
@@ -2485,3 +2481,8 @@ logs:
     Intelligence Intern: Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-20T16:28:25'
+- agent: PracticeAgent
+  action: 'Failed portal for Jobs via Dice Machine Learning Engineer Intern: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-20T16:28:55'
