@@ -1,8 +1,4 @@
 logs:
-- agent: CareerAgent
-  action: 100 jobs fetched
-  level: INFO
-  timestamp: '2026-04-19T18:01:11'
 - agent: PracticeAgent
   action: 'Failed portal for Athena AI Engineer Intern: Gemini failed to generate
     project recommendations'
@@ -2482,3 +2478,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-20T00:35:48'
+- agent: PracticeAgent
+  action: 'Failed portal for Banner Engineering Careers Business Analyst Intern: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-20T00:36:01'
