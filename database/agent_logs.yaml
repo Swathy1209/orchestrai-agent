@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for TÜV SÜD Intern - Business Analyst / Process Engineer:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-20T07:57:20'
-- agent: PracticeAgent
   action: 'Failed portal for The International Council on Clean Transportation Policy
     and Data Analysis Intern (San Francisco): Gemini failed to generate project recommendations'
   status: error
@@ -2490,3 +2485,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-20T10:06:42'
+- agent: PracticeAgent
+  action: 'Failed portal for Excelitas Technologies Corp. Data Analyst Intern: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-20T10:06:47'
