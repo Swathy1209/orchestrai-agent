@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for 1stop.ai Artificial Intelligence (AI): Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-20T16:59:08'
-- agent: PracticeAgent
   action: 'Failed portal for The Walt Disney Company Machine Learning Engineer Intern,
     Seattle, Summer 2026: Gemini failed to generate project recommendations'
   status: error
@@ -2503,3 +2498,8 @@ logs:
     generate project recommendations'
   status: error
   timestamp: '2026-04-20T17:49:58'
+- agent: PracticeAgent
+  action: 'Failed portal for OyeLabs Data Science Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-20T17:50:06'
