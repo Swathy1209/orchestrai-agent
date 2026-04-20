@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Cinemate™ Artificial Intelligence Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-20T08:09:39'
-- agent: PracticeAgent
   action: 'Failed portal for US Modules Student Worker - Production Data Analyst:
     Gemini failed to generate project recommendations'
   status: error
@@ -2498,3 +2493,8 @@ logs:
     Autolabeling (Internship): Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-20T10:38:49'
+- agent: PracticeAgent
+  action: 'Failed portal for Dunedain AI & ML Engineering Intern: Gemini failed to
+    generate project recommendations'
+  status: error
+  timestamp: '2026-04-20T10:39:02'
