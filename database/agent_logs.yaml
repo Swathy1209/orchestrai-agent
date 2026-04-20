@@ -1,9 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: PracticeAgent run initiated
-  status: success
-  timestamp: '2026-04-20T06:42:17'
-- agent: PracticeAgent
   action: 'Failed portal for ByteDance Benefits Operation Data Analyst Project Intern
     - 2026 Start (BS): Gemini failed to generate project recommendations'
   status: error
@@ -2503,3 +2499,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-20T07:41:59'
+- agent: PracticeAgent
+  action: 'Failed portal for Warewe Consultancy Private Limited Data Science Intern:
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-20T07:42:08'
