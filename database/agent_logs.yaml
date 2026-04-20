@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Harman Connected Foundational Engineer - AI & Machine
-    Learning: Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-19T18:45:24'
-- agent: PracticeAgent
   action: 'Failed portal for Capgemini Business Analyst-Contact Center Domain: Gemini
     failed to generate project recommendations'
   status: error
@@ -2493,3 +2488,8 @@ logs:
     2026 Summer (BS/MS): Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-20T00:51:14'
+- agent: PracticeAgent
+  action: 'Failed portal for Namaah Pvt Ltd AI/ML Engineer: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-20T00:51:26'
