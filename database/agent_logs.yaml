@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Emoolar Technology Private Limited Data Science: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-20T11:22:39'
-- agent: PracticeAgent
   action: 'Failed portal for Infits Machine Learning: Gemini failed to generate project
     recommendations'
   status: error
@@ -2496,3 +2491,8 @@ logs:
     Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-20T13:11:52'
+- agent: PracticeAgent
+  action: 'Failed portal for Awarno Data Science Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-20T13:12:04'
