@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for EXL Data Analyst Associate: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-20T05:15:15'
-- agent: PracticeAgent
   action: 'Failed portal for Tech Phoenix Data Engineer Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2497,3 +2492,8 @@ logs:
     Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-20T06:19:47'
+- agent: PracticeAgent
+  action: 'Failed portal for Tesla Internship, Machine Learning Engineer, NVH, Vehicle
+    Engineering (Summer 2026): Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-20T06:20:03'
