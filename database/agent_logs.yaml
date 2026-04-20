@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Matricstek Inc. Junior Data Analyst: Gemini failed to
-    generate project recommendations'
-  status: error
-  timestamp: '2026-04-19T19:30:48'
-- agent: PracticeAgent
   action: 'Failed portal for Poshmark AI/ML Engineering Intern (Summer 2026): Gemini
     failed to generate project recommendations'
   status: error
@@ -2491,3 +2486,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-20T01:36:46'
+- agent: PracticeAgent
+  action: 'Failed portal for Robocapital Data Science Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-20T01:36:59'
