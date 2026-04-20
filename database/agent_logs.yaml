@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for SportVot Machine Learning Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-20T07:10:07'
-- agent: PracticeAgent
   action: 'Failed portal for Sungrow Power Supply Co., Ltd. Data Analyst Internship:
     Gemini failed to generate project recommendations'
   status: error
@@ -2497,3 +2492,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-20T08:01:54'
+- agent: PracticeAgent
+  action: 'Failed portal for Apport Software Solutions Private Limited Data Science
+    Intern: Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-20T08:02:06'
