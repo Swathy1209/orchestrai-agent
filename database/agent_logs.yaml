@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for ELLIPSIS INFOTECH Artificial Intelligence Intern: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-20T17:44:24'
-- agent: PracticeAgent
   action: 'Failed portal for Login2Xplore Machine Learning Intern: Gemini failed to
     generate project recommendations'
   status: error
@@ -2500,3 +2495,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-20T19:43:47'
+- agent: PracticeAgent
+  action: 'Failed portal for Hexa Solution Data Analyst: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-20T19:43:59'
