@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Bankers Financial Corporation Business Analyst Intern:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-20T05:11:46'
-- agent: PracticeAgent
   action: 'Failed portal for Talent Corner HR Services Machine Learning Engineer:
     Gemini failed to generate project recommendations'
   status: error
@@ -2496,3 +2491,8 @@ logs:
   action: Generated Portfolio
   status: success
   timestamp: '2026-04-20T06:09:36'
+- agent: PracticeAgent
+  action: 'Failed portal for The Middleby Corporation Business Analyst Internship:
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-20T06:09:41'
