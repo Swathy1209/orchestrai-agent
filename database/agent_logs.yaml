@@ -1,9 +1,5 @@
 logs:
 - agent: CareerAgent
-  action: 100 jobs fetched
-  level: INFO
-  timestamp: '2026-04-20T13:56:44'
-- agent: CareerAgent
   action: 100 jobs fetched, 85 relevant
   level: INFO
   timestamp: '2026-04-20T13:56:54'
@@ -2484,3 +2480,8 @@ logs:
     Intern: Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-20T16:28:12'
+- agent: PracticeAgent
+  action: 'Failed portal for Inorbvict Healthcare India Private Limited Artificial
+    Intelligence Intern: Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-20T16:28:25'
