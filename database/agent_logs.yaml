@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Lensa Business Analyst (Intern) - United States: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-20T12:55:06'
-- agent: PracticeAgent
   action: 'Failed portal for XED Executive Development Private Limited Artificial
     Intelligence Intern: Gemini failed to generate project recommendations'
   status: error
@@ -2481,3 +2476,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-20T15:47:57'
+- agent: PracticeAgent
+  action: 'Failed portal for Russell Rowland, Inc. Fall 2026 Business Analyst Intern:
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-20T15:48:10'
