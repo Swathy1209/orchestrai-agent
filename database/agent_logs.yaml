@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Peeko Data Science Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-20T01:46:09'
-- agent: PracticeAgent
   action: 'Failed portal for Qubixo Machine Learning Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2503,3 +2498,8 @@ logs:
     recommendations'
   status: error
   timestamp: '2026-04-20T03:42:23'
+- agent: PracticeAgent
+  action: 'Failed portal for All-Star Sports Academy FlightScope Data Analyst Intern
+    - Spring/Summer 2026: Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-20T03:42:36'
