@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Unknown Data Science Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-20T12:42:25'
-- agent: PracticeAgent
   action: 'Failed portal for Innoknowvex Machine Learning: Gemini failed to generate
     project recommendations'
   status: error
@@ -2483,3 +2478,8 @@ logs:
     Internship: Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-20T15:25:57'
+- agent: PracticeAgent
+  action: 'Failed portal for Sofar Ocean Machine Learning Intern: Gemini failed to
+    generate project recommendations'
+  status: error
+  timestamp: '2026-04-20T15:26:10'
