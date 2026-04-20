@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Mple AI Machine Learning Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-20T11:30:33'
-- agent: PracticeAgent
   action: 'Failed portal for White & Co Machine Learning Intern: Gemini failed to
     generate project recommendations'
   status: error
@@ -2496,3 +2491,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-20T13:19:54'
+- agent: PracticeAgent
+  action: 'Failed portal for InfiVR Machine Learning Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-20T13:20:08'
