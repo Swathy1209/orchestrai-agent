@@ -1,9 +1,4 @@
 logs:
-- agent: PracticeAgent
-  action: 'Failed portal for Swiggy Business Analyst: Gemini failed to generate project
-    recommendations'
-  status: error
-  timestamp: '2026-04-20T19:22:41'
 - agent: OpportunityMatchingAgent
   action: Generated match scores for 958 internships
   status: success
@@ -2495,3 +2490,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-20T21:13:09'
+- agent: PracticeAgent
+  action: 'Failed portal for ServiceHive Data Science Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-20T21:13:13'
