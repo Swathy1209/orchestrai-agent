@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for GenPark Artificial intelligence intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-20T12:29:12'
-- agent: PracticeAgent
   action: 'Failed portal for Kayno World Education Private Limited Data Science Intern:
     Gemini failed to generate project recommendations'
   status: error
@@ -2482,3 +2477,8 @@ logs:
     Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-20T15:16:47'
+- agent: PracticeAgent
+  action: 'Failed portal for Paramount+ Data Science Intern (Summer 2026 - In-Person
+    - NYC): Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-20T15:17:00'
