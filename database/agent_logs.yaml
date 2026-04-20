@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Old World Industries Data Analyst Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-20T05:47:38'
-- agent: PracticeAgent
   action: 'Failed portal for REALBRIDGE Data Science Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2499,3 +2494,8 @@ logs:
     generate project recommendations'
   status: error
   timestamp: '2026-04-20T07:15:14'
+- agent: PracticeAgent
+  action: 'Failed portal for Zenotalent Machine learning Internship: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-20T07:15:21'
