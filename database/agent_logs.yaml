@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Nexus Energy Inc. Junior Data Analyst Intern: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-20T05:39:03'
-- agent: PracticeAgent
   action: 'Failed portal for Fine Data Analytics Private Limited Data Science Intern:
     Gemini failed to generate project recommendations'
   status: error
@@ -2499,3 +2494,8 @@ logs:
     Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-20T07:05:57'
+- agent: PracticeAgent
+  action: 'Failed portal for BrainChip Machine Learning Engineer Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-20T07:06:04'
