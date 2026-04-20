@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Apollo Mission Critical Engineering Multiple U.S Locations
-    - Business Analyst Intern (BA-I) - Summer 2026: Gemini failed to generate project
-    recommendations'
-  status: error
-  timestamp: '2026-04-20T14:48:05'
-- agent: PracticeAgent
   action: 'Failed portal for Okta for Developers Data Analyst Intern (Summer 2026):
     Gemini failed to generate project recommendations'
   status: error
@@ -2501,3 +2495,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-20T16:38:20'
+- agent: PracticeAgent
+  action: 'Failed portal for ZenAppStudio Machine Learning Intern: Gemini failed to
+    generate project recommendations'
+  status: error
+  timestamp: '2026-04-20T16:38:26'
