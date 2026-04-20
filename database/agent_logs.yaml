@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Maxgen Technologies Private Limited Artificial Intelligence
-    Intern: Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-19T19:36:42'
-- agent: PracticeAgent
   action: 'Failed portal for FabAlley Artificial Intelligence Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2491,3 +2486,8 @@ logs:
     Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-20T01:42:44'
+- agent: PracticeAgent
+  action: 'Failed portal for The Agency Source Data Science Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-20T01:42:56'
