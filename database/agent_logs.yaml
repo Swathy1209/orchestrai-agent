@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Brain Quest Data Science Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-20T06:59:46'
-- agent: PracticeAgent
   action: 'Failed portal for Zulitech Solution Artificial Intelligence (AI): Gemini
     failed to generate project recommendations'
   status: error
@@ -2501,3 +2496,8 @@ logs:
     Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-20T07:52:21'
+- agent: PracticeAgent
+  action: 'Failed portal for Nomagic Machine Learning Intern (202641): Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-20T07:52:29'
