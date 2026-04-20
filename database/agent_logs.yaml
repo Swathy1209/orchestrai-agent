@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Turerz Sole Proprietorship Data Science Intern: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-19T17:34:20'
-- agent: PracticeAgent
   action: 'Failed portal for Stealth Startup Machine Learning Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2483,3 +2478,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-20T00:24:23'
+- agent: PracticeAgent
+  action: 'Failed portal for RefinedScience Data Engineering Intern: Detected incomplete
+    placeholder content. Regenerating...'
+  status: error
+  timestamp: '2026-04-20T00:24:30'
