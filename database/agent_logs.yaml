@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Cinemate™ Artificial Intelligence Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-20T20:20:08'
-- agent: PracticeAgent
   action: 'Failed portal for Cinemate™ Data Science Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2503,3 +2498,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-20T22:01:13'
+- agent: PracticeAgent
+  action: 'Failed portal for Tailorbird Software AI Engineering Internships: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-20T22:01:23'
