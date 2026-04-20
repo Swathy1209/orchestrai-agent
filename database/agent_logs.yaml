@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for INDUS Technology, Inc. Business Analyst, Intern: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-20T15:20:22'
-- agent: PracticeAgent
   action: 'Failed portal for DevTown Data Science Mentor: Gemini failed to generate
     project recommendations'
   status: error
@@ -2501,3 +2496,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-20T16:53:17'
+- agent: PracticeAgent
+  action: 'Failed portal for Cvent Data Science Intern (Summer 2026): Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-20T16:53:22'
