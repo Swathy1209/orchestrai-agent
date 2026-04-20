@@ -1,9 +1,4 @@
 logs:
-- agent: PracticeAgent
-  action: 'Failed portal for StoryBizz Media Private Limited Data Science Intern:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-20T02:00:56'
 - agent: CareerAgent
   action: 99 jobs fetched, 84 relevant
   level: INFO
@@ -2495,3 +2490,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-20T04:08:20'
+- agent: PracticeAgent
+  action: 'Failed portal for Euphotic Labs Private Limited Machine Learning Intern:
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-20T04:08:51'
