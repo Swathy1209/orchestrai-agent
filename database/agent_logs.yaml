@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Bosch USA Artificial Intelligence / Machine Learning:
-    Foundation Models - Intern: Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-21T07:25:16'
-- agent: PracticeAgent
   action: 'Failed portal for SkillLevel Machine Learning: Gemini failed to generate
     project recommendations'
   status: error
@@ -2503,3 +2498,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-21T09:09:54'
+- agent: PracticeAgent
+  action: 'Failed portal for Talentrift Business Analyst Intern: Gemini failed to
+    generate project recommendations'
+  status: error
+  timestamp: '2026-04-21T09:10:09'
