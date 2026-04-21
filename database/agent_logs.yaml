@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for The Cincinnati Insurance Companies Student Opportunities
-    - Data Science Intern - Summer 2026 (Hybrid): Gemini failed to generate project
-    recommendations'
-  status: error
-  timestamp: '2026-04-21T07:58:49'
-- agent: PracticeAgent
   action: 'Failed portal for TikTok Research Scientist Intern (TikTok - NextGen Recommendation)
     - 2026 Start (PhD): Gemini failed to generate project recommendations'
   status: error
@@ -2497,3 +2491,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-21T10:29:56'
+- agent: PracticeAgent
+  action: 'Failed portal for Euphotic Labs Private Limited Data Science Intern: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-21T10:30:09'
