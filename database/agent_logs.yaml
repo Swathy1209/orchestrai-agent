@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Founding Years Learning Solutions Private Limited Data
-    Science Intern: Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-21T16:01:52'
-- agent: PracticeAgent
   action: 'Failed portal for The Caliper Lab (Toronto, Canada) Data Science Intern:
     Gemini failed to generate project recommendations'
   status: error
@@ -2501,3 +2496,7 @@ logs:
     Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-21T18:01:03'
+- agent: CareerAgent
+  action: 102 jobs fetched, 87 relevant
+  level: INFO
+  timestamp: '2026-04-21T18:01:10'
