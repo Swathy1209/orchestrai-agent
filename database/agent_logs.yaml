@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Growify Digital Data Science Intern: Gemini failed to
-    generate project recommendations'
-  status: error
-  timestamp: '2026-04-21T05:40:07'
-- agent: PracticeAgent
   action: 'Failed portal for GNG Developers Machine Learning Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2501,3 +2496,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-21T07:19:05'
+- agent: PracticeAgent
+  action: 'Failed portal for Carer Ai Data Science: Gemini failed to generate project
+    recommendations'
+  status: error
+  timestamp: '2026-04-21T07:19:11'
