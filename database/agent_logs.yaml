@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Hughes ML Engineering Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-21T18:54:53'
-- agent: PracticeAgent
   action: 'Failed portal for IIT Guwahati Machine Learning Intern: Gemini failed to
     generate project recommendations'
   status: error
@@ -2499,3 +2494,8 @@ logs:
     2026): Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-21T21:08:34'
+- agent: PracticeAgent
+  action: 'Failed portal for Genesis Molecular AI Cheminformatics and Machine Learning
+    Intern: Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-21T21:08:46'
