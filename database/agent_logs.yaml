@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Premix Productions Data Science Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-20T23:37:23'
-- agent: PracticeAgent
   action: 'Failed portal for SANOVIO AI Engineering Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2503,3 +2498,8 @@ logs:
     Governance Algorithms) - 2026 Start (Phd): Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-21T02:03:27'
+- agent: PracticeAgent
+  action: 'Failed portal for Stripe PhD Machine Learning Engineer, Intern: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-21T02:03:54'
