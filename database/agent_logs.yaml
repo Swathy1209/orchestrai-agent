@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Bumi Armada Intern - Data Analyst: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-21T07:48:42'
-- agent: PracticeAgent
   action: 'Failed portal for Shopee Data Analyst Intern - Warehouse Operations, Regional
     Operations (Spring 2025): Gemini failed to generate project recommendations'
   status: error
@@ -2498,3 +2493,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-21T09:59:26'
+- agent: PracticeAgent
+  action: 'Failed portal for StarPoint Properties Artificial Intelligence Intern:
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-21T09:59:39'
