@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Realogix AI Engineer Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-21T09:55:00'
-- agent: PracticeAgent
   action: 'Failed portal for apexanalytix Business Analyst Intern: Gemini failed to
     generate project recommendations'
   status: error
@@ -2499,3 +2494,8 @@ logs:
     Engineering (Summer 2026): Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-21T12:06:08'
+- agent: PracticeAgent
+  action: 'Failed portal for Tailorbird Software AI Engineering Internships: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-21T12:06:22'
