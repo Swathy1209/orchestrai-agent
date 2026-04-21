@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for OyeLabs Machine Learning Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-21T07:53:02'
-- agent: PracticeAgent
   action: 'Failed portal for Kasbah Films & Media Pvt Ltd Data Science Intern: Gemini
     failed to generate project recommendations'
   status: error
@@ -2494,3 +2489,8 @@ logs:
   action: Generated Portfolio
   status: success
   timestamp: '2026-04-21T10:07:22'
+- agent: PracticeAgent
+  action: 'Failed portal for Ask First Machine Learning Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-21T10:07:31'
