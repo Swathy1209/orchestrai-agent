@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for SAP SAP iXp Intern - AI Machine Learning: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-20T21:51:23'
-- agent: PracticeAgent
   action: 'Failed portal for Nomagic Machine Learning Intern (202641): Gemini failed
     to generate project recommendations'
   status: error
@@ -2499,3 +2494,7 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-21T00:00:02'
+- agent: CareerAgent
+  action: Fetch started
+  level: INFO
+  timestamp: '2026-04-21T00:00:37'
