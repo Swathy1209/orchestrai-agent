@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for NESA Innovation Labs Artificial Intelligence Intern:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-21T07:20:31'
-- agent: PracticeAgent
   action: 'Failed portal for GCCX AI/ML Engineer: Gemini failed to generate project
     recommendations'
   status: error
@@ -2503,3 +2498,8 @@ logs:
     Summer (BS/MS): Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-21T08:28:02'
+- agent: PracticeAgent
+  action: 'Failed portal for State of Florida DATA SCIENCE INTERNSHIP: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-21T08:28:17'
