@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Quantiphi Machine Learning Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-21T01:15:15'
-- agent: PracticeAgent
   action: 'Failed portal for Swiggy Business Analyst: Gemini failed to generate project
     recommendations'
   status: error
@@ -2501,3 +2496,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-21T03:29:33'
+- agent: PracticeAgent
+  action: 'Failed portal for ELLIPSIS INFOTECH Artificial Intelligence Intern: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-21T03:29:46'
