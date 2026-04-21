@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Zeroharm Sciences Private Limited Data Science Intern:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-21T01:16:06'
-- agent: PracticeAgent
   action: 'Failed portal for Ufeus Data Science Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2502,3 +2497,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-21T03:30:24'
+- agent: PracticeAgent
+  action: 'Failed portal for Peakflo (YC W22) Machine Learning (ML) Engineer Intern
+    - (Paid - India/Remote): Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-21T03:30:38'
