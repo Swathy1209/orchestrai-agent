@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Rebel Foods Private Limited Data Science Intern: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-21T07:09:30'
-- agent: PracticeAgent
   action: 'Failed portal for Aviraj Infotech Private Limited Machine Learning Intern:
     Gemini failed to generate project recommendations'
   status: error
@@ -2506,3 +2501,8 @@ logs:
   action: Fetch started
   level: INFO
   timestamp: '2026-04-21T08:00:31'
+- agent: PracticeAgent
+  action: 'Failed portal for ConsultBae Data Science Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-21T08:00:41'
