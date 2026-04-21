@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Wabtec Data Science Engineer: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-21T08:07:03'
-- agent: PracticeAgent
   action: 'Failed portal for WAH Care Artificial Intelligence Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2500,3 +2495,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-21T11:00:34'
+- agent: PracticeAgent
+  action: 'Failed portal for AARP Data Analyst Intern: Gemini failed to generate project
+    recommendations'
+  status: error
+  timestamp: '2026-04-21T11:00:48'
