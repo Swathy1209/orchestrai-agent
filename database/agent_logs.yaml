@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for D''Moksha Homes Data Science Intern: Gemini failed to
-    generate project recommendations'
-  status: error
-  timestamp: '2026-04-21T05:30:22'
-- agent: PracticeAgent
   action: 'Failed portal for Talkspace Marketing Data Analyst Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2503,3 +2498,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-21T07:08:47'
+- agent: PracticeAgent
+  action: 'Failed portal for Cornerstone Associate AI Engineer: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-21T07:08:54'
