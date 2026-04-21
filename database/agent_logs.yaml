@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for DeepThought CultureTech Ventures Private Limited Machine
-    Learning Intern: Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-21T19:45:47'
-- agent: PracticeAgent
   action: 'Failed portal for Barclays Business Analyst: Gemini failed to generate
     project recommendations'
   status: error
@@ -2491,3 +2486,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-21T23:48:07'
+- agent: PracticeAgent
+  action: 'Failed portal for The Hustle House Artificial Intelligence Intern: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-21T23:48:18'
