@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Tax-O-Smart LLP Data Science Intern: Gemini failed to
-    generate project recommendations'
-  status: error
-  timestamp: '2026-04-21T16:25:45'
-- agent: PracticeAgent
   action: 'Failed portal for Statcon Energiaa Artificial Intelligence Intern: Gemini
     failed to generate project recommendations'
   status: error
@@ -2496,3 +2491,8 @@ logs:
   action: Generated 982 cover letters
   status: success
   timestamp: '2026-04-21T18:33:47'
+- agent: PracticeAgent
+  action: 'Failed portal for Kanji Sweets Artificial Intelligence Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-21T18:33:54'
