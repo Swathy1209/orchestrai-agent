@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Goodera Data Science Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-21T16:04:48'
-- agent: PracticeAgent
   action: 'Failed portal for Nomiso AI ML Engineering Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2497,3 +2492,8 @@ logs:
     recommendations'
   status: error
   timestamp: '2026-04-21T18:06:26'
+- agent: PracticeAgent
+  action: 'Failed portal for HSBC Senior Business Analyst: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-21T18:06:38'
