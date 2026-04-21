@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Earthed Soul PVT LTD Artificial Intelligence Intern:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-21T01:29:10'
-- agent: PracticeAgent
   action: 'Failed portal for Krasa Care Artificial Intelligence Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2502,3 +2497,8 @@ logs:
     - Modeler and Data Analyst: Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-21T03:43:25'
+- agent: PracticeAgent
+  action: 'Failed portal for Udaghosh Social Welfare Society Machine Learning Intern:
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-21T03:43:39'
