@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for ServiceHive Data Science Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-21T07:04:43'
-- agent: PracticeAgent
   action: 'Failed portal for ServiceHive Artificial Intelligence Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2505,3 +2500,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-21T07:55:48'
+- agent: PracticeAgent
+  action: 'Failed portal for Finxbridge Machine Learning Intern: Gemini failed to
+    generate project recommendations'
+  status: error
+  timestamp: '2026-04-21T07:55:53'
