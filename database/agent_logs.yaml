@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Unknown Company – Source Incomplete Machine Learning
-    Intern: Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-21T18:56:42'
-- agent: PracticeAgent
   action: 'Failed portal for XED Executive Development Private Limited Artificial
     Intelligence Intern: Gemini failed to generate project recommendations'
   status: error
@@ -2499,3 +2494,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-21T21:13:03'
+- agent: PracticeAgent
+  action: 'Failed portal for Web Management Consultants Ltd Business Analyst Intern:
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-21T21:13:14'
