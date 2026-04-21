@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Euphotic Labs Private Limited Machine Learning Intern:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-21T06:23:04'
-- agent: PracticeAgent
   action: 'Failed portal for Procter & Gamble Data Engineer: Gemini failed to generate
     project recommendations'
   status: error
@@ -2504,3 +2499,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-21T07:42:13'
+- agent: PracticeAgent
+  action: 'Failed portal for Fintervue Artificial Intelligence (AI) Internship in
+    Bangalore, Indore (Hybrid): Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-21T07:42:21'
