@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Go Offer Data Analyst: Gemini failed to generate project
-    recommendations'
-  status: error
-  timestamp: '2026-04-21T04:55:13'
-- agent: PracticeAgent
   action: 'Failed portal for EY Data Scientist – Machine Learning: Gemini failed to
     generate project recommendations'
   status: error
@@ -2505,3 +2500,8 @@ logs:
     generate project recommendations'
   status: error
   timestamp: '2026-04-21T05:45:26'
+- agent: PracticeAgent
+  action: 'Failed portal for SkillOrbit Data Science Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-21T05:45:32'
