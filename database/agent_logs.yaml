@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for GPTZero Machine Learning Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-21T16:08:11'
-- agent: PracticeAgent
   action: 'Failed portal for California Burrito Data Science Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2498,3 +2493,8 @@ logs:
     Support, Emerging Talent Intern (Summer): Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-21T18:11:26'
+- agent: PracticeAgent
+  action: 'Failed portal for Trader For Tomorrow Data Science Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-21T18:12:33'
