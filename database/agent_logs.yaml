@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Booz Allen Hamilton Data Analyst, Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-21T06:26:05'
-- agent: PracticeAgent
   action: 'Failed portal for TetraMem - Accelerate The World US 2026 Software - Machine
     Learning Intern: Gemini failed to generate project recommendations'
   status: error
@@ -2501,3 +2496,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-21T07:43:34'
+- agent: PracticeAgent
+  action: 'Failed portal for RTW Institute Data Analyst Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-21T07:43:39'
