@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Deloitte Business Analyst: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-21T05:33:14'
-- agent: PracticeAgent
   action: 'Failed portal for Myntra Associate -Data Analyst: Gemini failed to generate
     project recommendations'
   status: error
@@ -2501,3 +2496,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-21T07:11:53'
+- agent: PracticeAgent
+  action: 'Failed portal for Skill Bharat Association Machine Learning Intern: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-21T07:11:58'
