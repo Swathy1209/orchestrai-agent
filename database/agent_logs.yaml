@@ -1,9 +1,4 @@
 logs:
-- agent: PracticeAgent
-  action: 'Failed portal for MeshyAI Machine Learning Systems Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-21T04:57:04'
 - agent: OpportunityMatchingAgent
   action: Generated match scores for 960 internships
   status: success
@@ -2505,3 +2500,8 @@ logs:
     Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-21T05:48:09'
+- agent: PracticeAgent
+  action: 'Failed portal for Russell Rowland, Inc. Fall 2026 Business Analyst Intern:
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-21T05:48:14'
