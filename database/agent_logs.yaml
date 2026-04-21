@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Cyberwarfare Labs Artificial Intelligence Intern: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-21T07:10:54'
-- agent: PracticeAgent
   action: 'Failed portal for Dharsha Advisors Data Science Intern: Gemini failed to
     generate project recommendations'
   status: error
@@ -2504,3 +2499,8 @@ logs:
   status: success
   timestamp: '2026-04-21T08:02:24'
   details: Analyzed 965 jobs.
+- agent: PracticeAgent
+  action: 'Failed portal for Ask First Data Science Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-21T08:02:30'
