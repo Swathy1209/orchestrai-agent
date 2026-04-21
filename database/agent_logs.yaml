@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Zyndra Talent Solutions Business Analyst Innovation Intern:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-21T05:06:04'
-- agent: PracticeAgent
   action: 'Failed portal for Spectrum 2026 Spectrum Summer Intern: Business Analyst:
     Gemini failed to generate project recommendations'
   status: error
@@ -2500,3 +2495,8 @@ logs:
   action: SkillAgent run initiated
   status: success
   timestamp: '2026-04-21T06:01:55'
+- agent: PracticeAgent
+  action: 'Failed portal for Tidal7 Asia - A J7 Agency Data Science Intern: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-21T06:01:59'
