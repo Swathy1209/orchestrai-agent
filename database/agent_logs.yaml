@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for CoPatible AI/ML Engineer Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-20T23:35:15'
-- agent: PracticeAgent
   action: 'Failed portal for Envision Next Data Analyst Internship in Thane, Navi
     Mumbai, Panvel: Gemini failed to generate project recommendations'
   status: error
@@ -2505,3 +2500,7 @@ logs:
   action: 108 jobs fetched
   level: INFO
   timestamp: '2026-04-21T02:00:58'
+- agent: CareerAgent
+  action: 108 jobs fetched, 93 relevant
+  level: INFO
+  timestamp: '2026-04-21T02:01:03'
