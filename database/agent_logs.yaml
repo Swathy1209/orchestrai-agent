@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for PetSapiens Private Limited Data Science Intern: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-21T07:52:13'
-- agent: PracticeAgent
   action: 'Failed portal for Apport Software Solutions Private Limited Data Science
     Intern: Gemini failed to generate project recommendations'
   status: error
@@ -2496,3 +2491,8 @@ logs:
     Intern: Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-21T10:05:58'
+- agent: PracticeAgent
+  action: 'Failed portal for SkillOrbit Data Science Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-21T10:06:12'
