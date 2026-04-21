@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for SkySlope Data Analyst 3: Gemini failed to generate project
-    recommendations'
-  status: error
-  timestamp: '2026-04-21T05:41:42'
-- agent: PracticeAgent
   action: 'Failed portal for Arihant Publications Artificial Intelligence Intern:
     Gemini failed to generate project recommendations'
   status: error
@@ -2501,3 +2496,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-21T07:20:43'
+- agent: PracticeAgent
+  action: 'Failed portal for MeshyAI Data Science Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-21T07:20:48'
