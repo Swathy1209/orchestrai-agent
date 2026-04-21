@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for The Skill Guru Foundation Data Science Intern: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-21T05:54:28'
-- agent: PracticeAgent
   action: 'Failed portal for Novaflow (YC S25) Machine Learning Engineer Intern -
     Summer 2026: Gemini failed to generate project recommendations'
   status: error
@@ -2502,3 +2497,8 @@ logs:
     generate project recommendations'
   status: error
   timestamp: '2026-04-21T07:32:03'
+- agent: PracticeAgent
+  action: 'Failed portal for Quizzy Data Science Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-21T07:32:10'
