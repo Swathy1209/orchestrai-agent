@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Verda Healthcare Business Analyst (Junior/Entry Level)
-    - no C2C: Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-21T00:20:22'
-- agent: PracticeAgent
   action: 'Failed portal for STARTUP GROWW CONSULTING SERVICES PRIVATE LIMITED Data
     Science Intern: Gemini failed to generate project recommendations'
   status: error
@@ -2501,3 +2496,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-21T03:04:15'
+- agent: PracticeAgent
+  action: 'Failed portal for LeadUpAI AI Engineer: Gemini failed to generate project
+    recommendations'
+  status: error
+  timestamp: '2026-04-21T03:04:27'
