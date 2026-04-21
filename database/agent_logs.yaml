@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Raletta Technology Private Limited Machine Learning Intern:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-21T01:47:05'
-- agent: PracticeAgent
   action: 'Failed portal for Jarvis Technology & Strategy Consulting Machine Learning
     Intern: Gemini failed to generate project recommendations'
   status: error
@@ -2498,3 +2493,8 @@ logs:
     AI) - 2026 Summer/Fall (PhD): Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-21T04:09:26'
+- agent: PracticeAgent
+  action: 'Failed portal for ChatGPT Jobs Research Scientist Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-21T04:09:42'
