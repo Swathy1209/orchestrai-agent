@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Cult Fit Data Analyst: Gemini failed to generate project
-    recommendations'
-  status: error
-  timestamp: '2026-04-21T05:33:29'
-- agent: PracticeAgent
   action: 'Failed portal for Raviraj Sarees Pvt Ltd Artificial Intelligence (AI):
     Gemini failed to generate project recommendations'
   status: error
@@ -2501,3 +2496,8 @@ logs:
     generate project recommendations'
   status: error
   timestamp: '2026-04-21T07:12:20'
+- agent: PracticeAgent
+  action: 'Failed portal for The Agency Source Data Science Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-21T07:12:23'
