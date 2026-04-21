@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for MedPharm Artificial Intelligence (AI) Intern: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-21T07:55:05'
-- agent: PracticeAgent
   action: 'Failed portal for Growify Digital Data Science Intern: Gemini failed to
     generate project recommendations'
   status: error
@@ -2494,3 +2489,8 @@ logs:
     generate project recommendations'
   status: error
   timestamp: '2026-04-21T10:13:51'
+- agent: PracticeAgent
+  action: 'Failed portal for VIZON Machine Learning Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-21T10:14:47'
