@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Neurasys Machine Learning Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-21T05:40:24'
-- agent: PracticeAgent
   action: 'Failed portal for JP IT STAFFING LLC Machine Learning Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2501,3 +2496,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-21T07:19:22'
+- agent: PracticeAgent
+  action: 'Failed portal for Spectrum 2026 Spectrum Summer Intern: Business Analyst:
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-21T07:19:29'
