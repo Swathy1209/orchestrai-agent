@@ -1,9 +1,4 @@
 logs:
-- agent: PracticeAgent
-  action: 'Failed portal for Certiwisehub Data Science Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-21T18:56:55'
 - agent: OpportunityMatchingAgent
   action: Generated match scores for 982 internships
   status: success
@@ -2500,3 +2495,8 @@ logs:
     Collection): Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-21T21:13:51'
+- agent: PracticeAgent
+  action: 'Failed portal for Plix - The Plant Flix Artificial Intelligence (AI): Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-21T21:14:03'
