@@ -1,9 +1,4 @@
 logs:
-- agent: PracticeAgent
-  action: 'Failed portal for JP IT STAFFING LLC Machine Learning Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-21T10:00:30'
 - agent: CareerAgent
   action: Fetch started
   level: INFO
@@ -2499,3 +2494,8 @@ logs:
     recommendations'
   status: error
   timestamp: '2026-04-21T12:12:45'
+- agent: PracticeAgent
+  action: 'Failed portal for TetraMem - Accelerate The World US 2026 Software - Machine
+    Learning Intern: Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-21T12:13:25'
