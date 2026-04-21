@@ -1,9 +1,4 @@
 logs:
-- agent: PracticeAgent
-  action: 'Failed portal for SkySlope Data Analyst 3: Gemini failed to generate project
-    recommendations'
-  status: error
-  timestamp: '2026-04-21T10:01:52'
 - agent: SkillAgent
   action: Skill gap analysis complete
   status: success
@@ -2502,3 +2497,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-21T12:16:38'
+- agent: PracticeAgent
+  action: 'Failed portal for Smart Rotamach Private Limited Machine Learning Intern:
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-21T12:17:06'
