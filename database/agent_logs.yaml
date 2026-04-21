@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Invensis Technologies Artificial Intelligence Intern:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-21T05:41:36'
-- agent: PracticeAgent
   action: 'Failed portal for SkySlope Data Analyst 3: Gemini failed to generate project
     recommendations'
   status: error
@@ -2501,3 +2496,8 @@ logs:
     recommendations'
   status: error
   timestamp: '2026-04-21T07:20:37'
+- agent: PracticeAgent
+  action: 'Failed portal for Trading Smart Edge Data Science Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-21T07:20:43'
