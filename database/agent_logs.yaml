@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for RefinedScience Data Engineering Intern: Detected incomplete
-    placeholder content. Regenerating...'
-  status: error
-  timestamp: '2026-04-21T10:34:25'
-- agent: PracticeAgent
   action: 'Failed portal for Convergent Research Computer Vision and Machine Learning
     Intern: Gemini failed to generate project recommendations'
   status: error
@@ -2500,3 +2495,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-21T12:51:05'
+- agent: PracticeAgent
+  action: 'Failed portal for Qorvo, Inc. Data Science Engineer Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-21T12:51:45'
