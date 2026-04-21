@@ -1,8 +1,4 @@
 logs:
-- agent: PortfolioBuilderAgent
-  action: Generated Portfolio
-  status: success
-  timestamp: '2026-04-21T12:07:38'
 - agent: PracticeAgent
   action: 'Failed portal for Metropolitan Transportation Authority Data Science Maintenance
     Support, Emerging Talent Intern (Summer): Gemini failed to generate project recommendations'
@@ -2503,3 +2499,8 @@ logs:
     generate project recommendations'
   status: error
   timestamp: '2026-04-21T14:24:49'
+- agent: PracticeAgent
+  action: 'Failed portal for Intuit Compliance Assurance Staff Technical Data Analyst:
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-21T14:25:56'
