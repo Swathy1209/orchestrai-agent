@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for TikTok Research Scientist Intern (TikTok - NextGen Recommendation)
-    - 2026 Start (PhD): Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-21T10:03:41'
-- agent: PracticeAgent
   action: 'Failed portal for Docusign Product Data Science Intern: Gemini failed to
     generate project recommendations'
   status: error
@@ -2502,3 +2497,8 @@ logs:
     Intelligence Intern: Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-21T12:20:03'
+- agent: PracticeAgent
+  action: 'Failed portal for INFICON Data Science Intern (Remote): Gemini failed to
+    generate project recommendations'
+  status: error
+  timestamp: '2026-04-21T12:20:16'
