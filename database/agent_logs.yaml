@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Trinidad Benham Intern, Information Technology (IT Business
-    Analyst): Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-20T23:47:38'
-- agent: PracticeAgent
   action: 'Failed portal for University of Alabama at Birmingham CLINICAL DATA ANALYST:
     Gemini failed to generate project recommendations'
   status: error
@@ -2501,3 +2496,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-21T02:22:49'
+- agent: PracticeAgent
+  action: 'Failed portal for Samaritan''s Purse Geospatial Data Analyst, North American
+    Disaster Relief: Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-21T02:23:29'
