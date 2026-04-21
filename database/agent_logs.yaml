@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for The Cincinnati Insurance Companies Student Opportunities
-    - Data Science Intern - Summer 2026 (Hybrid): Gemini failed to generate project
-    recommendations'
-  status: error
-  timestamp: '2026-04-21T01:52:53'
-- agent: PracticeAgent
   action: 'Failed portal for All-Star Sports Academy FlightScope Data Analyst Intern
     - Spring/Summer 2026: Gemini failed to generate project recommendations'
   status: error
@@ -2495,3 +2489,8 @@ logs:
     Intern: Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-21T04:24:42'
+- agent: PracticeAgent
+  action: 'Failed portal for LawDocs Artificial Intelligence Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-21T04:25:14'
