@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Wish A Brand Artificial Intelligence Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-21T05:54:13'
-- agent: PracticeAgent
   action: 'Failed portal for The Skill Guru Foundation Data Science Intern: Gemini
     failed to generate project recommendations'
   status: error
@@ -2502,3 +2497,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-21T07:31:58'
+- agent: PracticeAgent
+  action: 'Failed portal for White & Co Machine Learning Intern: Gemini failed to
+    generate project recommendations'
+  status: error
+  timestamp: '2026-04-21T07:32:03'
