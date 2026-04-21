@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Swiggy Business Analyst: Gemini failed to generate project
-    recommendations'
-  status: error
-  timestamp: '2026-04-21T05:09:37'
-- agent: PracticeAgent
   action: 'Failed portal for Lensa Business Analyst (Intern) - United States: Gemini
     failed to generate project recommendations'
   status: error
@@ -2499,3 +2494,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-21T06:13:01'
+- agent: PracticeAgent
+  action: 'Failed portal for d-Matrix Machine Learning Research Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-21T06:13:33'
