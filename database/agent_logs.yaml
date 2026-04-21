@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Tesla Internship, Data Engineer, Fleet Analytics (Summer
-    2026): Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-21T08:20:40'
-- agent: PracticeAgent
   action: 'Failed portal for Outdoor Cap Company Product Development & Data Analysis
     Intern: Gemini failed to generate project recommendations'
   status: error
@@ -2500,3 +2495,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-21T11:08:23'
+- agent: PracticeAgent
+  action: 'Failed portal for GE Aerospace Data Science Specialist: Gemini failed to
+    generate project recommendations'
+  status: error
+  timestamp: '2026-04-21T11:08:37'
