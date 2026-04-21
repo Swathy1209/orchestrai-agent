@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for TikTok Machine Learning Engineer Intern (Data-Search-TikTok
-    Recommendation Team) - 2026 Summer (BS/MS): Gemini failed to generate project
-    recommendations'
-  status: error
-  timestamp: '2026-04-21T08:14:23'
-- agent: PracticeAgent
   action: 'Failed portal for TikTok Data Engineer Intern (E-commerce) - 2026 Summer
     (BS/MS): Gemini failed to generate project recommendations'
   status: error
@@ -2502,3 +2496,7 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-21T11:06:11'
+- agent: OpportunityMatchingAgent
+  action: Generated match scores for 971 internships
+  status: success
+  timestamp: '2026-04-21T11:06:21'
