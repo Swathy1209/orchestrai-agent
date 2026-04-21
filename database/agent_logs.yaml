@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for EY Machine Learning Engineer: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-21T07:06:17'
-- agent: PracticeAgent
   action: 'Failed portal for Zenotalent Machine learning Internship: Gemini failed
     to generate project recommendations'
   status: error
@@ -2505,3 +2500,8 @@ logs:
     recommendations'
   status: error
   timestamp: '2026-04-21T07:57:18'
+- agent: PracticeAgent
+  action: 'Failed portal for Turerz Sole Proprietorship Artificial Intelligence Intern:
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-21T07:57:25'
