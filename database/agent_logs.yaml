@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for AndOr Communications Private Limited Data Science Intern:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-21T07:29:55'
-- agent: PracticeAgent
   action: 'Failed portal for IIIT Hyderabad Data Science Intern: Gemini failed to
     generate project recommendations'
   status: error
@@ -2503,3 +2498,8 @@ logs:
     Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-21T09:23:49'
+- agent: PracticeAgent
+  action: 'Failed portal for Institute Of AI Machine Learning Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-21T09:24:10'
