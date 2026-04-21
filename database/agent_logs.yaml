@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for BrainChip Machine Learning Systems Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-21T06:57:51'
-- agent: PracticeAgent
   action: 'Failed portal for ATPCO Data Analyst Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2505,3 +2500,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-21T07:48:54'
+- agent: PracticeAgent
+  action: 'Failed portal for L''OCCITANE Group (B Corp) Data Analyst Intern: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-21T07:48:59'
