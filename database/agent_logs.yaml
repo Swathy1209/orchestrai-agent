@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Lensa Intern, Data Science and Analytics: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-21T04:53:18'
-- agent: PracticeAgent
   action: 'Failed portal for Mahindra & Mahindra Ltd. AI Engineer: Gemini failed to
     generate project recommendations'
   status: error
@@ -2506,3 +2501,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-21T05:42:09'
+- agent: PracticeAgent
+  action: 'Failed portal for Turerz Sole Proprietorship Artificial Intelligence Intern:
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-21T05:42:21'
