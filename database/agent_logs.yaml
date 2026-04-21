@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for TikTok Data Engineer Intern (E-commerce) - 2026 Summer
-    (BS/MS): Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-21T08:15:39'
-- agent: PracticeAgent
   action: 'Failed portal for Hayward Holdings, Inc. ERP Dashboard and Data Analyst
     Intern: Gemini failed to generate project recommendations'
   status: error
@@ -2500,3 +2495,8 @@ logs:
   action: Generated match scores for 971 internships
   status: success
   timestamp: '2026-04-21T11:06:21'
+- agent: PracticeAgent
+  action: 'Failed portal for WeJoy Phonfix Private Limited Artificial Intelligence
+    (AI): Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-21T11:06:26'
