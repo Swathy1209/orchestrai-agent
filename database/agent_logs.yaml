@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Shopee Business Analyst Intern, Group President’s Strategy
-    Office (Summer 2026): Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-20T23:40:21'
-- agent: PracticeAgent
   action: 'Failed portal for PracVerse Private Limited Data Science Intern: Gemini
     failed to generate project recommendations'
   status: error
@@ -2499,3 +2494,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-21T02:07:45'
+- agent: PracticeAgent
+  action: 'Failed portal for Ekfrazo Technologies Azure Data Engineer: Detected incomplete
+    placeholder content. Regenerating...'
+  status: error
+  timestamp: '2026-04-21T02:07:57'
