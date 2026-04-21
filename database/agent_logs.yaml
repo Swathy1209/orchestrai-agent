@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Fintervue Artificial Intelligence (AI) Internship in
-    Bangalore, Indore (Hybrid): Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-21T19:30:45'
-- agent: PracticeAgent
   action: 'Failed portal for Collective Artists Network Data Science Intern: Gemini
     failed to generate project recommendations'
   status: error
@@ -2492,3 +2487,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-21T23:33:19'
+- agent: PracticeAgent
+  action: 'Failed portal for Ball2Data Football Data Analysts: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-21T23:33:31'
