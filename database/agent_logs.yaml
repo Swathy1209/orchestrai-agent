@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Turerz Sole Proprietorship Artificial Intelligence Intern:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-21T07:57:25'
-- agent: PracticeAgent
   action: 'Failed portal for Gurucool Data Science Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2495,3 +2490,9 @@ logs:
     generate project recommendations'
   status: error
   timestamp: '2026-04-21T10:25:27'
+- agent: PracticeAgent
+  action: 'Failed portal for Red Ventures We''re Planning Ahead - Join the Talent
+    Pipeline for our 2027 Business Analyst Internship: Gemini failed to generate project
+    recommendations'
+  status: error
+  timestamp: '2026-04-21T10:25:41'
