@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for MyCloud Technology Artificial Intelligence Intern: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-21T18:58:29'
-- agent: PracticeAgent
   action: 'Failed portal for Ondezx group Business Analyst: Gemini failed to generate
     project recommendations'
   status: error
@@ -2501,3 +2496,8 @@ logs:
     (AI): Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-21T21:15:56'
+- agent: PracticeAgent
+  action: 'Failed portal for GCCX AI/ML Engineer: Gemini failed to generate project
+    recommendations'
+  status: error
+  timestamp: '2026-04-21T21:16:08'
