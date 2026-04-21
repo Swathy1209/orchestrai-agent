@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for VISHVASNIYA EDUCATION FOUNDATION Artificial Intelligence
-    Intern: Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-21T05:41:00'
-- agent: PracticeAgent
   action: 'Failed portal for Excelitas Technologies Corp. Data Analyst Intern: Gemini
     failed to generate project recommendations'
   status: error
@@ -2501,3 +2496,8 @@ logs:
     Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-21T07:19:58'
+- agent: PracticeAgent
+  action: 'Failed portal for Awarno Artificial Intelligence Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-21T07:20:07'
