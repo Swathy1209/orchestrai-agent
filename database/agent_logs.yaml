@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Aira Wedding Planners Data Science Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-21T19:40:23'
-- agent: PracticeAgent
   action: 'Failed portal for OyeLabs Data Science Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2491,3 +2486,8 @@ logs:
     Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-21T23:42:49'
+- agent: PracticeAgent
+  action: 'Failed portal for Neha Singh Data Science Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-21T23:43:00'
