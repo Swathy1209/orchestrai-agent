@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Univo Edtech Data Science Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-20T23:41:39'
-- agent: PracticeAgent
   action: 'Failed portal for EnergyBae Machine Learning Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2501,3 +2496,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-21T02:09:43'
+- agent: PracticeAgent
+  action: 'Failed portal for Convergent Research Computer Vision and Machine Learning
+    Intern: Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-21T02:10:10'
