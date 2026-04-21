@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Johns Hopkins Applied Physics Laboratory 2026 PhD Graduate
-    - Modeler and Data Analyst: Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-21T05:44:34'
-- agent: PracticeAgent
   action: 'Failed portal for REALBRIDGE Data Science Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2500,3 +2495,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-21T07:23:28'
+- agent: PracticeAgent
+  action: 'Failed portal for Swiggy Business Analyst: Gemini failed to generate project
+    recommendations'
+  status: error
+  timestamp: '2026-04-21T07:23:36'
