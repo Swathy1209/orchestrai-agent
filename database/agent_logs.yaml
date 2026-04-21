@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Bombardier Data Analyst Intern (Year-Round): Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-21T18:56:34'
-- agent: PracticeAgent
   action: 'Failed portal for Unknown Company – Source Incomplete Machine Learning
     Intern: Gemini failed to generate project recommendations'
   status: error
@@ -2499,3 +2494,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-21T21:12:51'
+- agent: PracticeAgent
+  action: 'Failed portal for Sungrow Data Analyst Internship: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-21T21:13:03'
