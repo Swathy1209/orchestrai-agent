@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Maxgen Technologies Private Limited Artificial Intelligence
-    Intern: Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-21T05:31:09'
-- agent: PracticeAgent
   action: 'Failed portal for VVP Healthcare Evolution Pvt Ltd AI/ML Engineer: Gemini
     failed to generate project recommendations'
   status: error
@@ -2503,3 +2498,8 @@ logs:
     Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-21T07:09:35'
+- agent: PracticeAgent
+  action: 'Failed portal for Graindigits Machine Learning Intern: Gemini failed to
+    generate project recommendations'
+  status: error
+  timestamp: '2026-04-21T07:09:42'
