@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for SavvyTrix Education Pvt. Ltd. Data Science Intern: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-20T23:57:43'
-- agent: PracticeAgent
   action: 'Failed portal for WAH Care Artificial Intelligence Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2500,3 +2495,8 @@ logs:
     recommendations'
   status: error
   timestamp: '2026-04-21T02:57:06'
+- agent: PracticeAgent
+  action: 'Failed portal for Lobo Worldwide (Toronto, Canada) Data Science Intern:
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-21T02:57:11'
