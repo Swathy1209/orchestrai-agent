@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Main Marshals Artificial Intelligence Intern: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-21T19:11:54'
-- agent: PracticeAgent
   action: 'Failed portal for Ericsson Gen AI ML Engineer: Gemini failed to generate
     project recommendations'
   status: error
@@ -2501,3 +2496,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-21T21:31:57'
+- agent: PracticeAgent
+  action: 'Failed portal for LTM Artificial Intelligence Intern: Gemini failed to
+    generate project recommendations'
+  status: error
+  timestamp: '2026-04-21T21:32:09'
