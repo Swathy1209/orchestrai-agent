@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for MyCloud Technology Data Science Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-22T19:03:32'
-- agent: PracticeAgent
   action: 'Failed portal for ServiceHive Data Science Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2493,3 +2488,8 @@ logs:
     E-Commerce team - 2026 Summer (BS/MS): Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-22T21:59:15'
+- agent: PracticeAgent
+  action: 'Failed portal for ARM Institute Data Analyst Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-22T21:59:27'
