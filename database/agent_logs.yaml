@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Shahin Pilli Artificial Intelligence Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-21T20:20:00'
-- agent: PracticeAgent
   action: 'Failed portal for LawDocs Artificial Intelligence Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2485,3 +2480,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-22T00:15:36'
+- agent: PracticeAgent
+  action: 'Failed portal for TikTok Data Science Project Intern (Advertising Team)
+    - 2026 Start (BS/MS): Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-22T00:16:00'
