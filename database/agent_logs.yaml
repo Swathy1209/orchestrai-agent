@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for NickPat Media Machine Learning Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-22T07:07:37'
-- agent: PracticeAgent
   action: 'Failed portal for Krause Group Data Analyst Intern (Finance): Gemini failed
     to generate project recommendations'
   status: error
@@ -2503,3 +2498,8 @@ logs:
     recommendations'
   status: error
   timestamp: '2026-04-22T09:44:24'
+- agent: PracticeAgent
+  action: 'Failed portal for Scowtt Intern - ML Engineering: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-22T09:44:37'
