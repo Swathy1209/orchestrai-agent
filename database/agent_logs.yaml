@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Qorvo, Inc. Data Science Engineer Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-22T12:52:23'
-- agent: PracticeAgent
   action: 'Failed portal for Lensa Data Analyst Internship (Summer 2026): Gemini failed
     to generate project recommendations'
   status: error
@@ -2496,3 +2491,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-22T14:56:43'
+- agent: PracticeAgent
+  action: 'Failed portal for Family Tree Farms Data Analyst Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-22T14:56:57'
