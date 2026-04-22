@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Earthed Soul PVT LTD Artificial Intelligence Intern:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-22T06:29:34'
-- agent: PracticeAgent
   action: 'Failed portal for JK Crockery Artificial Intelligence Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2508,3 +2503,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-22T07:44:53'
+- agent: PracticeAgent
+  action: 'Failed portal for OyeLabs Data Science Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-22T07:45:07'
