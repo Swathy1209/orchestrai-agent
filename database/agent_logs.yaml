@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Ampere Technical Intern, Data Analysis Tool Development:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-22T06:18:36'
-- agent: PracticeAgent
   action: 'Failed portal for The Rehancement Group, Inc. Data Analyst 1: Gemini failed
     to generate project recommendations'
   status: error
@@ -2504,3 +2499,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-22T07:34:14'
+- agent: PracticeAgent
+  action: 'Failed portal for InfiVR Machine Learning Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-22T07:34:27'
