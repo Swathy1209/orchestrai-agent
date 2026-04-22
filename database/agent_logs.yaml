@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Ensono Project Portfolio Data Analyst Intern: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-22T07:40:25'
-- agent: PracticeAgent
   action: 'Failed portal for The International Council on Clean Transportation Policy
     and Data Analysis Intern (San Francisco): Gemini failed to generate project recommendations'
   status: error
@@ -2492,3 +2487,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-22T10:22:21'
+- agent: PracticeAgent
+  action: 'Failed portal for Primenumbers Technologies Machine Learning Intern: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-22T10:22:35'
