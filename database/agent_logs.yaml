@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Green Letter Technologies Artificial Intelligence Intern:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-22T11:58:40'
-- agent: PracticeAgent
   action: 'Failed portal for Sanatan Organic Machine Learning Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2497,3 +2492,8 @@ logs:
     recommendations'
   status: error
   timestamp: '2026-04-22T13:53:12'
+- agent: PracticeAgent
+  action: 'Failed portal for Talview Data Science Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-22T13:53:25'
