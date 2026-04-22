@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for REALBRIDGE Data Science Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-22T19:40:15'
-- agent: PracticeAgent
   action: 'Failed portal for California Medical Behavioral Health Data Science Intern:
     Gemini failed to generate project recommendations'
   status: error
@@ -2488,3 +2483,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-22T22:40:50'
+- agent: PracticeAgent
+  action: 'Failed portal for Kensho Technologies Machine Learning Intern - Summer
+    2026: Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-22T22:41:02'
