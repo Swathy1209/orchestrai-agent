@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Enlight Lab Machine Learning Intern: Gemini failed to
-    generate project recommendations'
-  status: error
-  timestamp: '2026-04-22T01:04:38'
-- agent: PracticeAgent
   action: 'Failed portal for Mahindra & Mahindra Ltd. AI Engineer: Gemini failed to
     generate project recommendations'
   status: error
@@ -2490,3 +2485,8 @@ logs:
     recommendations'
   status: error
   timestamp: '2026-04-22T03:45:12'
+- agent: PracticeAgent
+  action: 'Failed portal for ACCA Careers Business Analyst Intern: Gemini failed to
+    generate project recommendations'
+  status: error
+  timestamp: '2026-04-22T03:45:24'
