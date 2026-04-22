@@ -1,9 +1,5 @@
 logs:
 - agent: CareerAgent
-  action: Stored in GitHub YAML
-  level: INFO
-  timestamp: '2026-04-22T02:01:20'
-- agent: CareerAgent
   action: Email delegation passed to ExecutionAgent
   level: INFO
   timestamp: '2026-04-22T02:01:24'
@@ -2478,3 +2474,8 @@ logs:
     Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-22T04:45:14'
+- agent: PracticeAgent
+  action: 'Failed portal for Career Solutions Data Science: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-22T04:45:20'
