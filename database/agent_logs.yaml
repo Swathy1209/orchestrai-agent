@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for The Level Group Online Business Analyst Intern: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-22T15:49:51'
-- agent: PracticeAgent
   action: 'Failed portal for TikTok Data Business Analyst Project Intern - 2025 Start
     (BS/MS): Gemini failed to generate project recommendations'
   status: error
@@ -2501,3 +2496,7 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-22T18:01:15'
+- agent: CareerAgent
+  action: Stored in GitHub YAML
+  level: INFO
+  timestamp: '2026-04-22T18:01:29'
