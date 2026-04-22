@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Primetrade.ai Machine Learning (Modeling and Evaluation):
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-21T21:22:38'
-- agent: PracticeAgent
   action: 'Failed portal for DivyaNetra AI Artificial Intelligence (AI): Gemini failed
     to generate project recommendations'
   status: error
@@ -2489,3 +2484,8 @@ logs:
     recommendations'
   status: error
   timestamp: '2026-04-22T00:49:51'
+- agent: PracticeAgent
+  action: 'Failed portal for TikTok Business Analyst Intern (Business Integrity) -
+    2026 Summer (BS/MS): Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-22T00:50:04'
