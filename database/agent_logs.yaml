@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for CareerNest Data Science Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-22T06:20:08'
-- agent: PracticeAgent
   action: 'Failed portal for TikTok Data Analyst Intern (TikTok Shop AMS Data Science)
     - 2026 Summer (BS/MS): Gemini failed to generate project recommendations'
   status: error
@@ -2504,3 +2499,8 @@ logs:
     2026): Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-22T07:35:37'
+- agent: PracticeAgent
+  action: 'Failed portal for Moët Hennessy Business Analyst Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-22T07:35:53'
