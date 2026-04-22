@@ -3,11 +3,6 @@ logs:
   action: 'Failed portal for StoryBizz Media Private Limited Data Science Intern:
     Gemini failed to generate project recommendations'
   status: error
-  timestamp: '2026-04-22T07:20:41'
-- agent: PracticeAgent
-  action: 'Failed portal for StoryBizz Media Private Limited Data Science Intern:
-    Gemini failed to generate project recommendations'
-  status: error
   timestamp: '2026-04-22T07:20:46'
 - agent: PracticeAgent
   action: 'Failed portal for StoryBizz Media Private Limited Artificial Intelligence
@@ -2502,3 +2497,7 @@ logs:
     Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-22T10:00:57'
+- agent: CareerAgent
+  action: 98 jobs fetched
+  level: INFO
+  timestamp: '2026-04-22T10:01:04'
