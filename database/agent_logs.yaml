@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Tech Analogy Artificial Intelligence Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-22T02:24:52'
-- agent: PracticeAgent
   action: 'Failed portal for Motovolt Data Science Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2486,3 +2481,8 @@ logs:
     (AI): Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-22T04:53:09'
+- agent: PracticeAgent
+  action: 'Failed portal for Talview Data Science Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-22T04:53:14'
