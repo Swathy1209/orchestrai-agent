@@ -1,8 +1,4 @@
 logs:
-- agent: CareerAgent
-  action: Email delegation passed to ExecutionAgent
-  level: INFO
-  timestamp: '2026-04-22T21:13:46'
 - agent: SkillAgent
   action: SkillAgent run initiated
   status: success
@@ -2495,3 +2491,8 @@ logs:
     Intern: Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-22T23:33:22'
+- agent: PracticeAgent
+  action: 'Failed portal for Shahin Pilli Artificial Intelligence Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-22T23:33:34'
