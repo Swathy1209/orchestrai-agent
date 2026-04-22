@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Sameer Khatri Artificial Intelligence Intern: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-22T02:03:33'
-- agent: PracticeAgent
   action: 'Failed portal for Domyn AI Engineering and Research Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2481,3 +2476,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-22T04:46:27'
+- agent: PracticeAgent
+  action: 'Failed portal for Primetrade.ai Machine Learning (Modeling + Evaluation):
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-22T04:46:35'
