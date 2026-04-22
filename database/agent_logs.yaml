@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for IWerk InfoSolutions LLP Machine Learning Intern: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-22T16:04:57'
-- agent: PracticeAgent
   action: 'Failed portal for Anubhav Singh Machine Learning Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2499,3 +2494,8 @@ logs:
     - Summer 2026: Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-22T18:18:35'
+- agent: PracticeAgent
+  action: 'Failed portal for Dassault Systèmes INTERNSHIP: Data Science (6mo June
+    2026): Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-22T18:19:15'
