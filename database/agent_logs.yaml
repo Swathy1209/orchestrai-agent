@@ -1,9 +1,5 @@
 logs:
 - agent: CareerAgent
-  action: Stored in GitHub YAML
-  level: INFO
-  timestamp: '2026-04-22T14:01:31'
-- agent: CareerAgent
   action: Email delegation passed to ExecutionAgent
   level: INFO
   timestamp: '2026-04-22T14:01:35'
@@ -2499,3 +2495,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-22T16:07:02'
+- agent: PracticeAgent
+  action: 'Failed portal for Grameen Shramik Pratishthan Data Science Intern: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-22T16:07:15'
