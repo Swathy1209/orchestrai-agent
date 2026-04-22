@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Cloud Back Machine Learning: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-22T12:46:47'
-- agent: PracticeAgent
   action: 'Failed portal for METRO Regional Transit Authority Data Analyst Intern:
     Gemini failed to generate project recommendations'
   status: error
@@ -2497,3 +2492,8 @@ logs:
     - Summer 2026: Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-22T14:52:54'
+- agent: PracticeAgent
+  action: 'Failed portal for Tatari Data Science BI, Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-22T14:53:08'
