@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for The Hustle House Artificial Intelligence Intern: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-22T01:21:32'
-- agent: PracticeAgent
   action: 'Failed portal for Nebula Personalization Tech Solutions Private Limited
     Artificial Intelligence Intern: Gemini failed to generate project recommendations'
   status: error
@@ -2490,3 +2485,7 @@ logs:
   action: 103 jobs fetched, 88 relevant
   level: INFO
   timestamp: '2026-04-22T04:00:27'
+- agent: CareerAgent
+  action: Fetch started
+  level: INFO
+  timestamp: '2026-04-22T04:00:32'
