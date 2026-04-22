@@ -3,11 +3,6 @@ logs:
   action: 'Failed portal for Five9 Agentic AI Applied Scientist Internship - NLP:
     Gemini failed to generate project recommendations'
   status: error
-  timestamp: '2026-04-22T07:21:47'
-- agent: PracticeAgent
-  action: 'Failed portal for Five9 Agentic AI Applied Scientist Internship - NLP:
-    Gemini failed to generate project recommendations'
-  status: error
   timestamp: '2026-04-22T07:21:53'
 - agent: PracticeAgent
   action: 'Failed portal for GenPark Machine Learning Intern: Gemini failed to generate
@@ -2497,3 +2492,8 @@ logs:
   status: success
   timestamp: '2026-04-22T10:01:59'
   details: Analyzed 1004 jobs.
+- agent: PracticeAgent
+  action: 'Failed portal for Nebula Personalization Tech Solutions Private Limited
+    Artificial Intelligence Intern: Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-22T10:02:06'
