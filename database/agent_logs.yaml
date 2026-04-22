@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Trico Electric Cooperative Artificial Intelligence (AI)
-    Intern: Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-22T18:12:39'
-- agent: PracticeAgent
   action: 'Failed portal for Booz Allen Hamilton Data Analyst Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2500,3 +2495,8 @@ logs:
     - 2026 Summer (BS/MS): Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-22T20:28:35'
+- agent: PracticeAgent
+  action: 'Failed portal for Woven by Toyota Machine Learning Engineer, Perception
+    Autolabeling (Internship): Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-22T20:29:02'
