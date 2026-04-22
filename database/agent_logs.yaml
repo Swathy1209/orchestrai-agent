@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Veracode Business Analyst Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-22T06:05:42'
-- agent: PracticeAgent
   action: 'Failed portal for Trader For Tomorrow Data Science Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2505,3 +2500,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-22T07:19:47'
+- agent: PracticeAgent
+  action: 'Failed portal for Sankar Group Data Science Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-22T07:20:00'
