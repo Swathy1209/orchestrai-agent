@@ -1,8 +1,4 @@
 logs:
-- agent: CareerAgent
-  action: Fetch started
-  level: INFO
-  timestamp: '2026-04-22T16:00:34'
 - agent: PracticeAgent
   action: 'Failed portal for All-Star Sports Academy FlightScope Data Analyst Intern
     - Spring/Summer 2026: Gemini failed to generate project recommendations'
@@ -2496,3 +2492,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-22T18:12:13'
+- agent: PracticeAgent
+  action: 'Failed portal for Trico Electric Cooperative Artificial Intelligence (AI)
+    Intern: Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-22T18:12:39'
