@@ -1,9 +1,4 @@
 logs:
-- agent: PracticeAgent
-  action: 'Failed portal for Crossing Hurdles Data Science Intern: Gemini failed to
-    generate project recommendations'
-  status: error
-  timestamp: '2026-04-22T02:31:17'
 - agent: CoverLetterAgent
   action: Generated 984 cover letters
   status: success
@@ -2486,3 +2481,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-22T04:54:27'
+- agent: PracticeAgent
+  action: 'Failed portal for Anne Klein Official Data Analyst Internship Spring 2026:
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-22T04:54:32'
