@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for WayUp BMW, Overseas Supply Chain Operations and Data
-    Analysis Intern (Fall 2026) - Application via WayUp: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-22T14:08:33'
-- agent: PracticeAgent
   action: 'Failed portal for SavvyTrix Education Pvt. Ltd. Data Science Intern: Gemini
     failed to generate project recommendations'
   status: error
@@ -2508,3 +2502,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-22T16:30:10'
+- agent: PracticeAgent
+  action: 'Failed portal for Woven by Toyota Machine Learning Engineer, Perception
+    Autolabeling (Internship): Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-22T16:30:24'
