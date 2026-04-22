@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Wish A Brand Artificial Intelligence Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-22T05:41:49'
-- agent: PracticeAgent
   action: 'Failed portal for Calipers Consulting Private Limited Data Science Intern:
     Gemini failed to generate project recommendations'
   status: error
@@ -2503,3 +2498,8 @@ logs:
     recommendations'
   status: error
   timestamp: '2026-04-22T06:50:34'
+- agent: PracticeAgent
+  action: 'Failed portal for Finxbridge Machine Learning Intern: Gemini failed to
+    generate project recommendations'
+  status: error
+  timestamp: '2026-04-22T06:50:40'
