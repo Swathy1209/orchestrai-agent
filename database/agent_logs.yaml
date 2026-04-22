@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for MeshyAI Machine Learning Systems Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-22T01:09:16'
-- agent: PracticeAgent
   action: 'Failed portal for Siemens Agentic AI Engineer: Gemini failed to generate
     project recommendations'
   status: error
@@ -2490,3 +2485,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-22T03:49:29'
+- agent: PracticeAgent
+  action: 'Failed portal for Primetrade.ai Data Science: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-22T03:49:41'
