@@ -1,9 +1,5 @@
 logs:
 - agent: CareerAgent
-  action: 103 jobs fetched, 88 relevant
-  level: INFO
-  timestamp: '2026-04-22T03:13:56'
-- agent: CareerAgent
   action: Stored in GitHub YAML
   level: INFO
   timestamp: '2026-04-22T03:14:08'
@@ -2489,3 +2485,8 @@ logs:
     New Grad): Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-22T05:04:36'
+- agent: PracticeAgent
+  action: 'Failed portal for Lensa AI/Machine Learning Engineering Intern (MS/Ph.D.
+    New Grad): Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-22T05:04:41'
