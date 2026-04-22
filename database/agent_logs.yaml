@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Main Marshals Artificial Intelligence Intern: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-22T07:11:10'
-- agent: PracticeAgent
   action: 'Failed portal for Unknown Company – Source Incomplete Artificial Intelligence
     Intern: Gemini failed to generate project recommendations'
   status: error
@@ -2505,3 +2500,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-22T09:48:46'
+- agent: PracticeAgent
+  action: 'Failed portal for Maxgen Technologies Private Limited Machine Learning
+    Intern: Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-22T09:48:59'
