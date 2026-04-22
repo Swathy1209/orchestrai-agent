@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Bizlem Private Limited AI/ML Engineering: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-22T00:55:14'
-- agent: PracticeAgent
   action: 'Failed portal for Los Angeles Kings Summer Intern, Data Science (LA Kings):
     Gemini failed to generate project recommendations'
   status: error
@@ -2497,3 +2492,7 @@ logs:
   action: Fetch started
   level: INFO
   timestamp: '2026-04-22T03:13:21'
+- agent: CareerAgent
+  action: 103 jobs fetched
+  level: INFO
+  timestamp: '2026-04-22T03:13:47'
