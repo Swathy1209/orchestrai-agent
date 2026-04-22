@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Emerson Data Engineer: Gemini failed to generate project
-    recommendations'
-  status: error
-  timestamp: '2026-04-22T01:49:39'
-- agent: PracticeAgent
   action: 'Failed portal for d-Matrix Machine Learning Research Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2482,3 +2477,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-22T04:39:31'
+- agent: PracticeAgent
+  action: 'Failed portal for AUMOVIO Data Analysis Intern (Yearlong): Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-22T04:39:38'
