@@ -1,9 +1,5 @@
 logs:
 - agent: CareerAgent
-  action: 104 jobs fetched, 89 relevant
-  level: INFO
-  timestamp: '2026-04-22T21:13:29'
-- agent: CareerAgent
   action: Stored in GitHub YAML
   level: INFO
   timestamp: '2026-04-22T21:13:41'
@@ -2493,3 +2489,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-22T23:32:56'
+- agent: PracticeAgent
+  action: 'Failed portal for Veritem Health Private Limited Data Science Intern: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-22T23:33:09'
