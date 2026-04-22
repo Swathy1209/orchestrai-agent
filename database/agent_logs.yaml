@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Better Artificial Intelligence Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-22T01:25:56'
-- agent: PracticeAgent
   action: 'Failed portal for Russell Rowland, Inc. Fall 2026 Business Analyst Intern:
     Gemini failed to generate project recommendations'
   status: error
@@ -2485,3 +2480,8 @@ logs:
     recommendations'
   status: error
   timestamp: '2026-04-22T04:04:31'
+- agent: PracticeAgent
+  action: 'Failed portal for TikTok Business Analyst Intern (Business Integrity) -
+    2026 Summer (BS/MS): Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-22T04:04:45'
