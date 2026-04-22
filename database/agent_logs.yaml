@@ -1,9 +1,5 @@
 logs:
 - agent: CareerAgent
-  action: 106 jobs fetched
-  level: INFO
-  timestamp: '2026-04-22T22:01:01'
-- agent: CareerAgent
   action: 106 jobs fetched, 91 relevant
   level: INFO
   timestamp: '2026-04-22T22:01:05'
@@ -2499,3 +2495,8 @@ logs:
     Intelligence Intern: Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-22T23:54:49'
+- agent: PracticeAgent
+  action: 'Failed portal for Continental Finance Company Data Science Intern: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-22T23:55:01'
