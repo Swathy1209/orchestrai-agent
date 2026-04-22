@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for TESK Labs Data Science Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-22T06:59:13'
-- agent: PracticeAgent
   action: 'Failed portal for OBLYTECH INDIA PRIVATE LIMITED Machine Learning Intern:
     Gemini failed to generate project recommendations'
   status: error
@@ -2505,3 +2500,8 @@ logs:
     recommendations'
   status: error
   timestamp: '2026-04-22T08:54:49'
+- agent: PracticeAgent
+  action: 'Failed portal for FormsADDA Data Science Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-22T08:55:05'
