@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Milliman India Private Limited AI/ML Engineer: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-22T07:24:03'
-- agent: PracticeAgent
   action: 'Failed portal for Suresh Dani''s Classes Data Science: Gemini failed to
     generate project recommendations'
   status: error
@@ -2497,3 +2492,8 @@ logs:
     Internship in Ahmedabad: Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-22T10:03:29'
+- agent: PracticeAgent
+  action: 'Failed portal for REALBRIDGE Data Science Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-22T10:03:36'
