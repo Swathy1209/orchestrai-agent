@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Career Solutions Machine Learning Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-22T01:44:37'
-- agent: PracticeAgent
   action: 'Failed portal for Zypp Electric Machine Learning Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2481,3 +2476,8 @@ logs:
     Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-22T04:37:04'
+- agent: PracticeAgent
+  action: 'Failed portal for Transcarent Machine Learning Engineer Intern: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-22T04:37:09'
