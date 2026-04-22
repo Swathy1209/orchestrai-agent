@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Enlight Lab Machine Learning Intern: Gemini failed to
-    generate project recommendations'
-  status: error
-  timestamp: '2026-04-22T02:42:24'
-- agent: PracticeAgent
   action: 'Failed portal for MyCloud Technology Data Science Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2488,3 +2483,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-22T04:58:04'
+- agent: PracticeAgent
+  action: 'Failed portal for Bro''s Innovations And Technology. Data Science: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-22T04:58:09'
