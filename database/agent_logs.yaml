@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for S&P Global Business Analyst: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-22T11:31:23'
-- agent: PracticeAgent
   action: 'Failed portal for S&P Global Loan Reference Data Analyst: Gemini failed
     to generate project recommendations'
   status: error
@@ -2496,3 +2491,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-22T13:13:25'
+- agent: PracticeAgent
+  action: 'Failed portal for Bellwood Business Analyst / QA Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-22T13:13:39'
