@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Metropolitan Transportation Authority Data Science Maintenance
-    Support, Emerging Talent Intern (Summer): Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-22T14:12:25'
-- agent: PracticeAgent
   action: 'Failed portal for Tesla Internship, Machine Learning Engineer, Data Engineering
     & Analytics (Summer 2026): Gemini failed to generate project recommendations'
   status: error
@@ -2505,3 +2500,8 @@ logs:
   action: Generated 1008 cover letters
   status: success
   timestamp: '2026-04-22T16:36:29'
+- agent: PracticeAgent
+  action: 'Failed portal for Cylinder Health Junior Data Engineer: Detected incomplete
+    placeholder content. Regenerating...'
+  status: error
+  timestamp: '2026-04-22T16:37:08'
