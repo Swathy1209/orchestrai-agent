@@ -1,8 +1,4 @@
 logs:
-- agent: CoverLetterAgent
-  action: Generated 994 cover letters
-  status: success
-  timestamp: '2026-04-22T04:34:51'
 - agent: PracticeAgent
   action: PracticeAgent run initiated
   status: success
@@ -2506,3 +2502,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-22T05:26:43'
+- agent: PracticeAgent
+  action: 'Failed portal for Chamadia Group Data Science Intern: Gemini failed to
+    generate project recommendations'
+  status: error
+  timestamp: '2026-04-22T05:26:47'
