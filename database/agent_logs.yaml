@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Tesla Internship, Machine Learning Engineer, Data Engineering
-    & Analytics (Summer 2026): Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-22T01:55:10'
-- agent: PracticeAgent
   action: 'Failed portal for Gainwell Technologies Pharmacy Benefit Management Business
     Architect/Data Analyst: Gemini failed to generate project recommendations'
   status: error
@@ -2479,3 +2474,9 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-22T04:42:11'
+- agent: PracticeAgent
+  action: 'Failed portal for Apollo Mission Critical Engineering Multiple U.S Locations
+    - Business Analyst Intern (BA-I) - Summer 2026: Gemini failed to generate project
+    recommendations'
+  status: error
+  timestamp: '2026-04-22T04:42:18'
