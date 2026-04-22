@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Maximus Business Analyst Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-22T18:43:30'
-- agent: PracticeAgent
   action: 'Failed portal for Apollo Mission Critical Engineering Multiple U.S Locations
     - Business Analyst Intern (BA-I) - Summer 2026: Gemini failed to generate project
     recommendations'
@@ -2490,3 +2485,9 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-22T21:44:48'
+- agent: PracticeAgent
+  action: 'Failed portal for TikTok (General Hire) Machine Learning Engineer Intern
+    (TikTok-Recommendation) - 2026 Summer (BS/MS): Gemini failed to generate project
+    recommendations'
+  status: error
+  timestamp: '2026-04-22T21:45:00'
