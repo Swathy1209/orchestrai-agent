@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for IWerk InfoSolutions LLP Machine Learning Intern: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-22T05:02:20'
-- agent: PracticeAgent
   action: 'Failed portal for TSTEPS PRIVATE LIMITED Senior Machine Learning Engineer:
     Gemini failed to generate project recommendations'
   status: error
@@ -2504,3 +2499,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-22T05:53:20'
+- agent: PracticeAgent
+  action: 'Failed portal for Fendi Intern, Retail Business Analyst: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-22T05:53:26'
