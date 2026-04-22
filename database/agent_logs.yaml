@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for RR HOLDINGS Artificial Intelligence Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-22T02:46:59'
-- agent: PracticeAgent
   action: 'Failed portal for Nuro Machine Learning intern, Behavior Planning: Gemini
     failed to generate project recommendations'
   status: error
@@ -2488,3 +2483,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-22T04:59:34'
+- agent: PracticeAgent
+  action: 'Failed portal for Dassault Systèmes Data Science Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-22T04:59:41'
