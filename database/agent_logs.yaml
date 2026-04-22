@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Jewellers Digest Artificial Intelligence Intern: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-22T02:46:46'
-- agent: PracticeAgent
   action: 'Failed portal for RR HOLDINGS Artificial Intelligence Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2488,3 +2483,8 @@ logs:
     generate project recommendations'
   status: error
   timestamp: '2026-04-22T04:59:29'
+- agent: PracticeAgent
+  action: 'Failed portal for 1stop.ai Artificial Intelligence (AI): Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-22T04:59:34'
