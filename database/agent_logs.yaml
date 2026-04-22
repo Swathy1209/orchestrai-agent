@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for TRISKN Data Science Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-22T19:40:41'
-- agent: PracticeAgent
   action: 'Failed portal for ODN Digital Services Private Limited Data Science Intern:
     Gemini failed to generate project recommendations'
   status: error
@@ -2488,3 +2483,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-22T22:41:15'
+- agent: PracticeAgent
+  action: 'Failed portal for Nuro Machine Learning intern, Behavior Planning: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-22T22:41:27'
