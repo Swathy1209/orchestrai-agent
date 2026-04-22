@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Unnati Enterprises Data Science Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-22T04:56:05'
-- agent: PracticeAgent
   action: 'Failed portal for Lensa Business Analyst (Intern) - United States: Gemini
     failed to generate project recommendations'
   status: error
@@ -2504,3 +2499,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-22T05:47:09'
+- agent: PracticeAgent
+  action: 'Failed portal for Procter & Gamble Senior IT Data Engineer- DMO Pipelines:
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-22T05:47:14'
