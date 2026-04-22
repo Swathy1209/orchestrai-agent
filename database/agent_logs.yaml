@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Infoware Artificial Intelligence (AI): Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-22T15:22:18'
-- agent: PracticeAgent
   action: 'Failed portal for Almost Magic Private Limited Artificial Intelligence
     (AI): Gemini failed to generate project recommendations'
   status: error
@@ -2504,3 +2499,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-22T17:36:51'
+- agent: PracticeAgent
+  action: 'Failed portal for Primetrade.ai Artificial Intelligence Intern: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-22T17:37:03'
