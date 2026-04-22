@@ -1,9 +1,4 @@
 logs:
-- agent: PracticeAgent
-  action: 'Failed portal for Dassault Systèmes Data Science Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-22T14:00:21'
 - agent: CareerAgent
   action: Fetch started
   level: INFO
@@ -2497,3 +2492,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-22T16:05:54'
+- agent: PracticeAgent
+  action: 'Failed portal for Cinemate™ Data Science Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-22T16:06:08'
