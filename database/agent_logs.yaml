@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Tesla Internship, Machine Learning Engineer, NVH, Vehicle
-    Engineering (Summer 2026): Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-22T06:03:07'
-- agent: PracticeAgent
   action: 'Failed portal for Skill Bharat Association Machine Learning Intern: Gemini
     failed to generate project recommendations'
   status: error
@@ -2505,3 +2500,9 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-22T07:15:25'
+- agent: PracticeAgent
+  action: 'Failed portal for TikTok Machine Learning Scientist Intern - Global E-Commerce
+    Content Recommendation - 2026 Summer (PhD): Gemini failed to generate project
+    recommendations'
+  status: error
+  timestamp: '2026-04-22T07:15:38'
