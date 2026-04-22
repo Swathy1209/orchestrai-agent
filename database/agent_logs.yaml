@@ -3,11 +3,6 @@ logs:
   action: 'Failed portal for Refresh Kid LLC (Milwaukee, United States) Data Science
     Intern: Gemini failed to generate project recommendations'
   status: error
-  timestamp: '2026-04-22T07:54:35'
-- agent: PracticeAgent
-  action: 'Failed portal for Refresh Kid LLC (Milwaukee, United States) Data Science
-    Intern: Gemini failed to generate project recommendations'
-  status: error
   timestamp: '2026-04-22T07:54:39'
 - agent: PracticeAgent
   action: 'Failed portal for The Caliper Lab (Toronto, Canada) Data Science Intern:
@@ -2491,3 +2486,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-22T10:37:21'
+- agent: PracticeAgent
+  action: 'Failed portal for Transcarent Machine Learning Engineer Intern: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-22T10:37:28'
