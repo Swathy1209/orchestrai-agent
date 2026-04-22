@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Raletta Technology Private Limited Data Science Intern:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-22T13:54:56'
-- agent: PracticeAgent
   action: 'Failed portal for Kasbah Films & Media Pvt Ltd Data Science Intern: Gemini
     failed to generate project recommendations'
   status: error
@@ -2500,3 +2495,7 @@ logs:
     recommendations'
   status: error
   timestamp: '2026-04-22T16:00:29'
+- agent: CareerAgent
+  action: Fetch started
+  level: INFO
+  timestamp: '2026-04-22T16:00:34'
