@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Aadi Foundation Machine Learning Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-22T00:22:05'
-- agent: PracticeAgent
   action: 'Failed portal for BioQuant IQ Artificial Intelligence Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2501,3 +2496,8 @@ logs:
   action: Generated 3 security fix PRs
   status: completed
   timestamp: '2026-04-22T02:06:52'
+- agent: PracticeAgent
+  action: 'Failed portal for GanitSphere Machine Learning Intern: Gemini failed to
+    generate project recommendations'
+  status: error
+  timestamp: '2026-04-22T02:06:56'
