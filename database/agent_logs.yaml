@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for FinZebra AI Engineering & Learning Design: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-22T14:58:19'
-- agent: PracticeAgent
   action: 'Failed portal for Techphotonsolutions Pvt Data Engineer: Gemini failed
     to generate project recommendations'
   status: error
@@ -2502,3 +2497,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-22T17:16:56'
+- agent: PracticeAgent
+  action: 'Failed portal for DevTown Data Science Mentor: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-22T17:17:11'
