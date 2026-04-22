@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Dharsha Advisors Data Science Intern: Gemini failed to
-    generate project recommendations'
-  status: error
-  timestamp: '2026-04-22T01:12:27'
-- agent: PracticeAgent
   action: 'Failed portal for Vouvray Artificial Intelligence Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2491,3 +2486,8 @@ logs:
     Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-22T03:52:24'
+- agent: PracticeAgent
+  action: 'Failed portal for Product Manager Accelerator AI Engineer Intern - AI/ML/GenAI
+    Design & Development: Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-22T03:52:36'
