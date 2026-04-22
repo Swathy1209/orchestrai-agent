@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Shopee Business Data Analyst Intern - Commercial Management,
-    Business Development (Summer 2026): Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-22T07:40:11'
-- agent: PracticeAgent
   action: 'Failed portal for Ensono Project Portfolio Data Analyst Intern: Gemini
     failed to generate project recommendations'
   status: error
@@ -2492,3 +2487,8 @@ logs:
     generate project recommendations'
   status: error
   timestamp: '2026-04-22T10:22:07'
+- agent: PracticeAgent
+  action: 'Failed portal for Indiaum Solutions Machine Learning Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-22T10:22:21'
