@@ -1,9 +1,4 @@
 logs:
-- agent: PracticeAgent
-  action: 'Failed portal for Lensa Data Science Intern - Summer 2026 (Remote): Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-22T04:08:05'
 - agent: AutoFixPRGeneratorAgent
   action: Generated 1 security fix PRs
   status: completed
@@ -2505,3 +2500,8 @@ logs:
     recommendations'
   status: error
   timestamp: '2026-04-22T05:20:45'
+- agent: PracticeAgent
+  action: 'Failed portal for Infits Machine Learning: Gemini failed to generate project
+    recommendations'
+  status: error
+  timestamp: '2026-04-22T05:20:50'
