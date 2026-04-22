@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for RefinedScience Data Engineering Intern: Detected incomplete
-    placeholder content. Regenerating...'
-  status: error
-  timestamp: '2026-04-22T06:46:41'
-- agent: PracticeAgent
   action: 'Failed portal for PetSapiens Private Limited Data Science Intern: Gemini
     failed to generate project recommendations'
   status: error
@@ -2505,3 +2500,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-22T08:03:15'
+- agent: PracticeAgent
+  action: 'Failed portal for SWOT Careers Machine Learning Intern: Gemini failed to
+    generate project recommendations'
+  status: error
+  timestamp: '2026-04-22T08:03:33'
