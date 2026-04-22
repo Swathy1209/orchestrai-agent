@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Neurasys Machine Learning: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-22T04:23:06'
-- agent: PracticeAgent
   action: 'Failed portal for Bharat Diamond Bourse Artificial Intelligence (AI): Gemini
     failed to generate project recommendations'
   status: error
@@ -2506,3 +2501,8 @@ logs:
     generate project recommendations'
   status: error
   timestamp: '2026-04-22T05:23:54'
+- agent: PracticeAgent
+  action: 'Failed portal for The Goat Academy Private Limited Data Science Intern:
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-22T05:23:59'
