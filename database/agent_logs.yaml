@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Innovexis Machine Learning Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-22T15:42:38'
-- agent: PracticeAgent
   action: 'Failed portal for SAP SAP iXp Intern - AI Machine Learning: Gemini failed
     to generate project recommendations'
   status: error
@@ -2504,3 +2499,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-22T17:54:04'
+- agent: PracticeAgent
+  action: 'Failed portal for EnergyBae Machine Learning Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-22T17:54:17'
