@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Nomagic Machine Learning Intern (202641): Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-22T13:44:12'
-- agent: PracticeAgent
   action: 'Failed portal for Technoculture Research Machine Learning Intern: Gemini
     failed to generate project recommendations'
   status: error
@@ -2499,3 +2494,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-22T15:49:24'
+- agent: PracticeAgent
+  action: 'Failed portal for Bumi Armada Intern - Data Analyst: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-22T15:49:38'
