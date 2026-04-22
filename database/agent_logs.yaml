@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Procter & Gamble Senior IT Data Engineer- DMO Pipelines:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-22T13:54:17'
-- agent: PracticeAgent
   action: 'Failed portal for OyeLabs Machine Learning Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2499,3 +2494,8 @@ logs:
     - 2026 Summer (BS/MS): Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-22T15:59:49'
+- agent: PracticeAgent
+  action: 'Failed portal for TikTok Research Scientist Intern (TikTok - NextGen Recommendation)
+    - 2026 Start (PhD): Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-22T16:00:03'
