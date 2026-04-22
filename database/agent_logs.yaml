@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Fintervue Artificial Intelligence (AI) Internship in
-    Bangalore, Indore (Hybrid): Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-22T06:35:46'
-- agent: PracticeAgent
   action: 'Failed portal for Disruptive Consultancy Services Private Limited (Development
     Monitors India) Artificial Intelligence Intern: Gemini failed to generate project
     recommendations'
@@ -2508,3 +2503,8 @@ logs:
     Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-22T07:53:31'
+- agent: PracticeAgent
+  action: 'Failed portal for Relish Artificial Intelligence Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-22T07:53:48'
