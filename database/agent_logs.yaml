@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Stripe PhD Machine Learning Engineer, Intern: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-22T16:13:42'
-- agent: PracticeAgent
   action: 'Failed portal for Bio-Rad Laboratories Data Science Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2497,3 +2492,8 @@ logs:
     placeholder content. Regenerating...'
   status: error
   timestamp: '2026-04-22T18:36:16'
+- agent: PracticeAgent
+  action: 'Failed portal for Cylinder Health Junior Data Engineer: Detected incomplete
+    placeholder content. Regenerating...'
+  status: error
+  timestamp: '2026-04-22T18:36:30'
