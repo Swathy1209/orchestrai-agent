@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Giftinguru Data Science Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-22T16:49:29'
-- agent: PracticeAgent
   action: 'Failed portal for Accredian Data Science: Gemini failed to generate project
     recommendations'
   status: error
@@ -2499,3 +2494,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-22T19:02:10'
+- agent: PracticeAgent
+  action: 'Failed portal for XED Executive Development Private Limited Artificial
+    Intelligence Intern: Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-22T19:02:24'
