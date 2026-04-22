@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for InvoiceBingo Data Science Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-22T19:15:46'
-- agent: PracticeAgent
   action: 'Failed portal for Peeko Data Science Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2485,3 +2480,8 @@ logs:
     content. Regenerating...'
   status: error
   timestamp: '2026-04-22T22:10:27'
+- agent: PracticeAgent
+  action: 'Failed portal for HSBC Business Analyst- Transformation: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-22T22:10:52'
