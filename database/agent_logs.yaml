@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for rms Company Data Science Internship - Summer 2026: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-22T07:08:16'
-- agent: PracticeAgent
   action: 'Failed portal for Saia Inc. Senior Internal Audit Data Analyst: Gemini
     failed to generate project recommendations'
   status: error
@@ -2505,3 +2500,8 @@ logs:
     Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-22T09:45:45'
+- agent: PracticeAgent
+  action: 'Failed portal for Bloom Nutrition Influencer Marketing Data Analyst Intern:
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-22T09:45:59'
