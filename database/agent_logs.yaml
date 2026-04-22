@@ -3,11 +3,6 @@ logs:
   action: 'Failed portal for Sparksoft Corporation Data Science -Intern: Gemini failed
     to generate project recommendations'
   status: error
-  timestamp: '2026-04-22T06:55:25'
-- agent: PracticeAgent
-  action: 'Failed portal for Sparksoft Corporation Data Science -Intern: Gemini failed
-    to generate project recommendations'
-  status: error
   timestamp: '2026-04-22T06:55:32'
 - agent: PracticeAgent
   action: 'Failed portal for Robocapital Data Science Intern: Gemini failed to generate
@@ -2504,3 +2499,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-22T08:31:56'
+- agent: PracticeAgent
+  action: 'Failed portal for Ekfrazo Technologies Azure Data Engineer: Detected incomplete
+    placeholder content. Regenerating...'
+  status: error
+  timestamp: '2026-04-22T08:32:44'
