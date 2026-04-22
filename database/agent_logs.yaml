@@ -1,8 +1,4 @@
 logs:
-- agent: CoverLetterAgent
-  action: Generated 996 cover letters
-  status: success
-  timestamp: '2026-04-22T06:46:04'
 - agent: PracticeAgent
   action: PracticeAgent run initiated
   status: success
@@ -2503,3 +2499,8 @@ logs:
   action: SkillAgent run initiated
   status: success
   timestamp: '2026-04-22T08:02:36'
+- agent: PracticeAgent
+  action: 'Failed portal for TÜV SÜD Intern - Business Analyst / Process Engineer:
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-22T08:02:46'
