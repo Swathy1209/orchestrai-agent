@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Disruptive Consultancy Services Private Limited (Development
-    Monitors India) Artificial Intelligence Intern: Gemini failed to generate project
-    recommendations'
-  status: error
-  timestamp: '2026-04-22T16:45:45'
-- agent: PracticeAgent
   action: 'Failed portal for Twango Data Science Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2500,3 +2494,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-22T18:59:13'
+- agent: PracticeAgent
+  action: 'Failed portal for Barclays Data Engineer: Gemini failed to generate project
+    recommendations'
+  status: error
+  timestamp: '2026-04-22T18:59:27'
