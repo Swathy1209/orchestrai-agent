@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for IIDE Education Private Limited Artificial Intelligence
-    Intern: Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-22T04:51:51'
-- agent: PracticeAgent
   action: 'Failed portal for Zyndra Talent Solutions Business Analyst Innovation Intern:
     Gemini failed to generate project recommendations'
   status: error
@@ -2504,3 +2499,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-22T05:42:54'
+- agent: PracticeAgent
+  action: 'Failed portal for RegisterKaro Machine Learning Intern: Gemini failed to
+    generate project recommendations'
+  status: error
+  timestamp: '2026-04-22T05:42:59'
