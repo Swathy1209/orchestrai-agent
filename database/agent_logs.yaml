@@ -3,11 +3,6 @@ logs:
   action: 'Failed portal for Verda Healthcare Business Analyst (Junior/Entry Level)
     - no C2C: Gemini failed to generate project recommendations'
   status: error
-  timestamp: '2026-04-22T06:15:50'
-- agent: PracticeAgent
-  action: 'Failed portal for Verda Healthcare Business Analyst (Junior/Entry Level)
-    - no C2C: Gemini failed to generate project recommendations'
-  status: error
   timestamp: '2026-04-22T06:15:59'
 - agent: PracticeAgent
   action: 'Failed portal for Ufeus Data Science Intern: Gemini failed to generate
@@ -2504,3 +2499,8 @@ logs:
     Intern: Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-22T07:31:43'
+- agent: PracticeAgent
+  action: 'Failed portal for Olsen Spaces Artificial Intelligence Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-22T07:31:56'
