@@ -3,11 +3,6 @@ logs:
   action: 'Failed portal for Fractal Data Engineer: Gemini failed to generate project
     recommendations'
   status: error
-  timestamp: '2026-04-22T05:03:57'
-- agent: PracticeAgent
-  action: 'Failed portal for Fractal Data Engineer: Gemini failed to generate project
-    recommendations'
-  status: error
   timestamp: '2026-04-22T05:04:04'
 - agent: PracticeAgent
   action: 'Failed portal for HSBC Business Analyst- Transformation: Gemini failed
@@ -2504,3 +2499,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-22T05:54:52'
+- agent: PracticeAgent
+  action: 'Failed portal for Anubhav Singh Data Science Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-22T05:54:57'
