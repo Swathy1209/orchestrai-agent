@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Cisco Staff Machine Learning Engineer: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-22T19:20:22'
-- agent: PracticeAgent
   action: 'Failed portal for 365 Retail Markets Business Analyst Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2487,3 +2482,8 @@ logs:
     Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-22T22:17:48'
+- agent: PracticeAgent
+  action: 'Failed portal for DevTown Data Science Mentor: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-22T22:19:04'
