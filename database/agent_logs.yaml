@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Trekion AI Machine Learning Intern: Gemini failed to
-    generate project recommendations'
-  status: error
-  timestamp: '2026-04-22T07:18:53'
-- agent: PracticeAgent
   action: 'Failed portal for TRIKSHA Machine Learning Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2503,3 +2498,8 @@ logs:
     Intern: Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-22T09:58:58'
+- agent: PracticeAgent
+  action: 'Failed portal for Helix DIgital Artificial Intelligence Intern: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-22T09:59:11'
