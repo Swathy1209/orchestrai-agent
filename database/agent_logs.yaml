@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for ServiceHive Machine Learning Intern: Gemini failed to
-    generate project recommendations'
-  status: error
-  timestamp: '2026-04-22T15:01:47'
-- agent: PracticeAgent
   action: 'Failed portal for ServiceHive Artificial Intelligence Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2501,3 +2496,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-22T17:19:17'
+- agent: PracticeAgent
+  action: 'Failed portal for Hamsi Marketing Private Limited Artificial Intelligence
+    (AI): Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-22T17:19:29'
