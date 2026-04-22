@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for HSBC Business Analyst- Transformation: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-22T04:07:50'
-- agent: PracticeAgent
   action: 'Failed portal for Lensa Data Science Intern - Summer 2026 (Remote): Gemini
     failed to generate project recommendations'
   status: error
@@ -2505,3 +2500,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-22T05:20:38'
+- agent: PracticeAgent
+  action: 'Failed portal for Infits Machine Learning: Gemini failed to generate project
+    recommendations'
+  status: error
+  timestamp: '2026-04-22T05:20:45'
