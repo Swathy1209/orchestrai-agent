@@ -1,9 +1,5 @@
 logs:
 - agent: CareerAgent
-  action: Fetch started
-  level: INFO
-  timestamp: '2026-04-21T22:28:41'
-- agent: CareerAgent
   action: 102 jobs fetched
   level: INFO
   timestamp: '2026-04-21T22:29:06'
@@ -2489,3 +2485,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-22T01:13:20'
+- agent: PracticeAgent
+  action: 'Failed portal for Skill Bharat Association Artificial Intelligence Intern:
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-22T01:13:33'
