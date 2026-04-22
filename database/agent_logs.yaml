@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Legend Biotech PD Data Sciences, CMC Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-22T20:01:04'
-- agent: PracticeAgent
   action: 'Failed portal for Turerz Sole Proprietorship Artificial Intelligence Intern:
     Gemini failed to generate project recommendations'
   status: error
@@ -2491,3 +2486,8 @@ logs:
     2026 Intern: Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-22T23:00:49'
+- agent: PracticeAgent
+  action: 'Failed portal for Spectral AI Deep Learning Data Science Intern: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-22T23:01:02'
