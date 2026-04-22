@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Reingold, Inc. Business Analyst Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-22T10:19:10'
-- agent: PracticeAgent
   action: 'Failed portal for Company 9 LLC Business Analyst Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2492,3 +2487,9 @@ logs:
   action: Generated Portfolio
   status: success
   timestamp: '2026-04-22T12:07:50'
+- agent: PracticeAgent
+  action: 'Failed portal for TikTok Machine Learning Engineer Intern (Privacy and
+    Data Protection Office) - 2026 Start (PhD): Gemini failed to generate project
+    recommendations'
+  status: error
+  timestamp: '2026-04-22T12:07:54'
