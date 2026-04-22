@@ -3,11 +3,6 @@ logs:
   action: 'Failed portal for UnifyXperts Data Science Intern: Gemini failed to generate
     project recommendations'
   status: error
-  timestamp: '2026-04-22T07:54:22'
-- agent: PracticeAgent
-  action: 'Failed portal for UnifyXperts Data Science Intern: Gemini failed to generate
-    project recommendations'
-  status: error
   timestamp: '2026-04-22T07:54:27'
 - agent: PracticeAgent
   action: 'Failed portal for Refresh Kid LLC (Milwaukee, United States) Data Science
@@ -2491,3 +2486,8 @@ logs:
     2026): Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-22T10:37:08'
+- agent: PracticeAgent
+  action: 'Failed portal for Lensa Intern, Data Science and Analytics: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-22T10:37:16'
