@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for ZenAppStudio Machine Learning Intern: Gemini failed to
-    generate project recommendations'
-  status: error
-  timestamp: '2026-04-22T02:15:21'
-- agent: PracticeAgent
   action: 'Failed portal for Kayno World Education Private Limited Machine Learning
     Intern: Gemini failed to generate project recommendations'
   status: error
@@ -2486,3 +2481,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-22T04:51:13'
+- agent: PracticeAgent
+  action: 'Failed portal for Tesla Internship, Data Engineer, Energy (Summer 2026):
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-22T04:51:18'
