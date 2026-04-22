@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for African American Planning Commission, Inc. Data Analyst
-    - Quality Assurance: Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-22T19:28:41'
-- agent: PracticeAgent
   action: 'Failed portal for Black Potato Systems Data Engineering & Database Research:
     Gemini failed to generate project recommendations'
   status: error
@@ -2486,3 +2481,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-22T22:29:44'
+- agent: PracticeAgent
+  action: 'Failed portal for C3 AI Data Science - Intern (Summer 2026): Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-22T22:29:56'
