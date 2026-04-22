@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for ServiceHive Data Science Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-22T01:05:15'
-- agent: PracticeAgent
   action: 'Failed portal for MyCloud Technology Machine Learning Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2490,3 +2485,8 @@ logs:
     incomplete placeholder content. Regenerating...'
   status: error
   timestamp: '2026-04-22T03:45:47'
+- agent: PracticeAgent
+  action: 'Failed portal for Stripe PhD Machine Learning Engineer, Intern: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-22T03:45:59'
