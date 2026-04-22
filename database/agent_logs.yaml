@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Dassault Systèmes INTERNSHIP: Data Science (6mo June
-    2026): Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-22T14:16:52'
-- agent: PracticeAgent
   action: 'Failed portal for Gala Circle Inc. Marketing Data Analyst: Gemini failed
     to generate project recommendations'
   status: error
@@ -2505,3 +2500,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-22T16:40:31'
+- agent: PracticeAgent
+  action: 'Failed portal for Go Offer Data Analyst: Gemini failed to generate project
+    recommendations'
+  status: error
+  timestamp: '2026-04-22T16:40:43'
