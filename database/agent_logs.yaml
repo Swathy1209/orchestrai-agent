@@ -1,9 +1,4 @@
 logs:
-- agent: PracticeAgent
-  action: 'Failed portal for NESA Innovation Labs Artificial Intelligence Intern:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-22T02:59:42'
 - agent: CareerAgent
   action: Fetch started
   level: INFO
@@ -2487,3 +2482,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-22T05:04:15'
+- agent: PracticeAgent
+  action: 'Failed portal for Lensa Data Science Intern - Summer 2026 (Remote): Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-22T05:04:23'
