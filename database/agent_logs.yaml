@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Cult Fit Data Analyst: Gemini failed to generate project
-    recommendations'
-  status: error
-  timestamp: '2026-04-22T09:51:13'
-- agent: PracticeAgent
   action: 'Failed portal for Lensa Artificial Intelligence Intern: Gemini failed to
     generate project recommendations'
   status: error
@@ -2493,3 +2488,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-22T11:38:52'
+- agent: PracticeAgent
+  action: 'Failed portal for Uber Data Engineer II: Gemini failed to generate project
+    recommendations'
+  status: error
+  timestamp: '2026-04-22T11:38:58'
