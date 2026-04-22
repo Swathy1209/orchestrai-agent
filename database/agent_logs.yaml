@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Global Ace Technology Machine Learning Intern: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-22T01:24:53'
-- agent: PracticeAgent
   action: 'Failed portal for Zetheta Algorithms Private Limited Machine Learning Intern:
     Gemini failed to generate project recommendations'
   status: error
@@ -2485,3 +2480,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-22T04:03:18'
+- agent: PracticeAgent
+  action: 'Failed portal for EXL Data Analyst Associate: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-22T04:03:33'
