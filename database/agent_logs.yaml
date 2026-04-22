@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Booz Allen Hamilton Data Analyst, Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-22T14:18:51'
-- agent: PracticeAgent
   action: 'Failed portal for Ekimetrics 6 months Internship in Strategy & Data Science
     | New York: Gemini failed to generate project recommendations'
   status: error
@@ -2504,3 +2499,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-22T16:42:08'
+- agent: PracticeAgent
+  action: 'Failed portal for Blismos Solutions Private Limited Machine Learning Intern:
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-22T16:42:35'
