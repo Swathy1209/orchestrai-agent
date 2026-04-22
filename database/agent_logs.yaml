@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Trico Electric Cooperative Artificial Intelligence (AI)
-    Intern: Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-22T20:11:32'
-- agent: PracticeAgent
   action: 'Failed portal for ForFutures Financial, Planning, a financial advisory
     practice of Ameriprise Financial Services LLC AI/Data Science Graduate Intern:
     Gemini failed to generate project recommendations'
@@ -2494,3 +2489,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-22T23:09:10'
+- agent: PracticeAgent
+  action: 'Failed portal for FTI Defense - Frontier Technology Inc. AI/ML Engineering
+    Internship: Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-22T23:09:23'
