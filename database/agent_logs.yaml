@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Envision Next Data Analyst Internship in Navi Mumbai,
-    Panvel, Thane: Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-22T15:43:44'
-- agent: PracticeAgent
   action: 'Failed portal for Shopee Data Analyst Intern - Regional BI & Planning (Summer
     2026): Gemini failed to generate project recommendations'
   status: error
@@ -2504,3 +2499,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-22T17:55:12'
+- agent: PracticeAgent
+  action: 'Failed portal for Aira Wedding Planners Data Science Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-22T17:55:26'
