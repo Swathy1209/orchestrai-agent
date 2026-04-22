@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Stanford University School of Medicine Data Analyst 1
-    (1 Year Fixed Term): Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-22T05:08:33'
-- agent: PracticeAgent
   action: 'Failed portal for Lensa Artificial Intelligence/Machine Learning - Summer
     2026 Intern: Gemini failed to generate project recommendations'
   status: error
@@ -2501,3 +2496,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-22T05:59:19'
+- agent: PracticeAgent
+  action: 'Failed portal for S&P Global Loan Reference Data Analyst: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-22T05:59:24'
