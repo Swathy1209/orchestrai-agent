@@ -1,8 +1,4 @@
 logs:
-- agent: CareerAgent
-  action: 98 jobs fetched
-  level: INFO
-  timestamp: '2026-04-22T16:01:08'
 - agent: PracticeAgent
   action: 'Failed portal for Zearn Data Analyst: Gemini failed to generate project
     recommendations'
@@ -2497,3 +2493,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-22T18:13:05'
+- agent: PracticeAgent
+  action: 'Failed portal for DataVinci Private Limited Data Science Intern: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-22T18:13:19'
