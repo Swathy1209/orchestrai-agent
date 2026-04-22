@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Novaflow (YC S25) Machine Learning Engineer Intern -
-    Summer 2026: Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-22T05:42:13'
-- agent: PracticeAgent
   action: 'Failed portal for LivNSense Artificial Intelligence Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2503,3 +2498,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-22T06:51:00'
+- agent: PracticeAgent
+  action: 'Failed portal for Growify Digital Artificial Intelligence Intern: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-22T06:51:05'
