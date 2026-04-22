@@ -7,7 +7,7 @@ Resume:
 https://orchestrai-agent.onrender.com/application_packages/resume.pdf
 
 Cover Letter:
-No Cover Letter Generated
+https://orchestrai-agent.onrender.com/cover_letters/naturals_salon_private_limited_data_science_intern.md
 
 Apply Here:
 https://internshala.com/internship/detail/operation-executive-internship-in-bangalore-at-naturals-salon-private-limited1776834692
