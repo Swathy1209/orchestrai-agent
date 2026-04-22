@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for IT-Infotek Data Science Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-22T09:47:16'
-- agent: PracticeAgent
   action: 'Failed portal for CleverTap Data Science Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2493,3 +2488,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-22T11:37:08'
+- agent: PracticeAgent
+  action: 'Failed portal for GenPark Artificial intelligence engineer intern: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-22T11:37:14'
