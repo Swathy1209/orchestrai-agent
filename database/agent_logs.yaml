@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for TikTok Data Science Project Intern (Advertising Team)
-    - 2026 Start (BS/MS): Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-22T14:08:19'
-- agent: PracticeAgent
   action: 'Failed portal for WayUp BMW, Overseas Supply Chain Operations and Data
     Analysis Intern (Fall 2026) - Application via WayUp: Gemini failed to generate
     project recommendations'
@@ -2508,3 +2503,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-22T16:29:43'
+- agent: PracticeAgent
+  action: 'Failed portal for GenPark Machine learning engineer intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-22T16:30:10'
