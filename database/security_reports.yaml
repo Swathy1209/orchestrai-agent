@@ -127,7 +127,7 @@ security_reports:
   - '[HIGH] Hardcoded Token in `stock_sentiment_analysis.py` line 8 | Fix: Store tokens
     in environment variables'
   scanned_files: 1
-  auto_fix_pr: ''
+  auto_fix_pr: https://github.com/Swathy1209/Stock_Sentiment_Analysis/pull/286
 - repo: DOCBOT
   repo_url: https://github.com/Swathy1209/DOCBOT
   risk_level: Medium
@@ -595,19 +595,3 @@ security_reports:
   - No critical issues detected.
   scanned_files: 0
   auto_fix_pr: ''
-priority_security_fix:
-  repo: CLI_LLM
-  repo_url: https://github.com/Swathy1209/CLI_LLM
-  risk: HIGH
-  issue: Hardcoded API Key
-  file: Project_LLM/project/agent.py
-  line: 553
-  snippet: ''
-  fix: Apply secure coding practices.
-summary:
-  total_repos: 48
-  high_risk: 2
-  medium_risk: 4
-  low_risk: 4
-  safe: 38
-  scanned_at: '2026-04-22T04:07:30'
