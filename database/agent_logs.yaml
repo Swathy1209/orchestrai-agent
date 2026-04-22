@@ -1,8 +1,4 @@
 logs:
-- agent: OpportunityMatchingAgent
-  action: Generated match scores for 1006 internships
-  status: success
-  timestamp: '2026-04-22T13:42:06'
 - agent: PracticeAgent
   action: 'Failed portal for Wake Up Whistle Data Science Intern (Python, SQL, Pandas):
     Gemini failed to generate project recommendations'
@@ -2496,3 +2492,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-22T15:44:39'
+- agent: PracticeAgent
+  action: 'Failed portal for StoryMirror Infotech Private Limited Machine Learning
+    Intern: Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-22T15:44:53'
