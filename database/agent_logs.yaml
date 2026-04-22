@@ -3,11 +3,6 @@ logs:
   action: 'Failed portal for Infits Machine Learning: Gemini failed to generate project
     recommendations'
   status: error
-  timestamp: '2026-04-22T05:20:45'
-- agent: PracticeAgent
-  action: 'Failed portal for Infits Machine Learning: Gemini failed to generate project
-    recommendations'
-  status: error
   timestamp: '2026-04-22T05:20:50'
 - agent: PracticeAgent
   action: 'Failed portal for Deloitte Business Analyst: Gemini failed to generate
@@ -2503,3 +2498,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-22T06:15:06'
+- agent: PracticeAgent
+  action: 'Failed portal for Amdocs Data Engineer: Gemini failed to generate project
+    recommendations'
+  status: error
+  timestamp: '2026-04-22T06:15:43'
