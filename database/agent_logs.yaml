@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for d-Matrix Machine Learning Research Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-22T05:59:19'
-- agent: PracticeAgent
   action: 'Failed portal for S&P Global Loan Reference Data Analyst: Gemini failed
     to generate project recommendations'
   status: error
@@ -2505,3 +2500,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-22T07:11:04'
+- agent: PracticeAgent
+  action: 'Failed portal for Main Marshals Artificial Intelligence Intern: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-22T07:11:10'
