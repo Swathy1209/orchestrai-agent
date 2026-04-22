@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for EXL Data Analyst Associate: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-22T07:13:32'
-- agent: PracticeAgent
   action: 'Failed portal for ZRPL Data Science Intern: Gemini failed to generate project
     recommendations'
   status: error
@@ -2505,3 +2500,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-22T09:52:23'
+- agent: PracticeAgent
+  action: 'Failed portal for Indika AI Private Limited Data Science Intern: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-22T09:52:37'
