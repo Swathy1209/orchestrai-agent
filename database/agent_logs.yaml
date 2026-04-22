@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Premix Productions Data Science Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-22T07:39:06'
-- agent: PracticeAgent
   action: 'Failed portal for SANOVIO AI Engineering Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2496,3 +2491,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-22T10:20:19'
+- agent: PracticeAgent
+  action: 'Failed portal for Andaz Kumar Data Science Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-22T10:20:34'
