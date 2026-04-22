@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for ACCA Careers Business Analyst Intern: Gemini failed to
-    generate project recommendations'
-  status: error
-  timestamp: '2026-04-22T03:45:24'
-- agent: PracticeAgent
   action: 'Failed portal for MTX Group Business Analyst Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2498,3 +2493,8 @@ logs:
     - NYC): Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-22T05:09:03'
+- agent: PracticeAgent
+  action: 'Failed portal for Berkshire Hathaway GUARD Insurance Companies Data-AI
+    Engineering Intern: Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-22T05:09:09'
