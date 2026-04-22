@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for PetSapiens Private Limited Data Science Intern: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-22T17:55:12'
-- agent: PracticeAgent
   action: 'Failed portal for Aira Wedding Planners Data Science Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2494,3 +2489,8 @@ logs:
     Learning Intern: Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-22T20:03:42'
+- agent: PracticeAgent
+  action: 'Failed portal for IWerk InfoSolutions LLP Machine Learning Intern: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-22T20:03:54'
