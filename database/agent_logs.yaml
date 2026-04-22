@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for CarMax Business Analyst Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-22T02:48:30'
-- agent: PracticeAgent
   action: 'Failed portal for Rebel Foods Private Limited Data Science Intern: Gemini
     failed to generate project recommendations'
   status: error
@@ -2488,3 +2483,8 @@ logs:
     Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-22T05:00:19'
+- agent: PracticeAgent
+  action: 'Failed portal for Tech Phoenix Data Engineer Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-22T05:00:23'
