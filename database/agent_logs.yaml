@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for EXL Data Analyst Associate: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-22T05:00:36'
-- agent: PracticeAgent
   action: 'Failed portal for Career Solutions Machine Learning Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2504,3 +2499,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-22T05:51:39'
+- agent: PracticeAgent
+  action: 'Failed portal for Arthagro Agronomy Artificial Intelligence Intern: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-22T05:51:44'
