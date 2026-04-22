@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for TESK Labs Machine Learning Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-22T06:59:27'
-- agent: PracticeAgent
   action: 'Failed portal for OBLYTECH INDIA PRIVATE LIMITED Artificial Intelligence
     Intern: Gemini failed to generate project recommendations'
   status: error
@@ -2504,3 +2499,8 @@ logs:
   action: Generated optimizations for 1000 internships
   status: success
   timestamp: '2026-04-22T08:55:17'
+- agent: PracticeAgent
+  action: 'Failed portal for Grinning Co. (Fremont, United States) Machine Learning
+    Intern: Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-22T08:55:35'
