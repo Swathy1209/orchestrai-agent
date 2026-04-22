@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Wobot Intelligence Private Limited Data Science Intern:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-22T16:56:40'
-- agent: PracticeAgent
   action: 'Failed portal for CREATE Data Science Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2499,3 +2494,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-22T19:07:37'
+- agent: PracticeAgent
+  action: 'Failed portal for Deloitte AWS Data Engineer: Detected incomplete placeholder
+    content. Regenerating...'
+  status: error
+  timestamp: '2026-04-22T19:07:53'
