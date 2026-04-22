@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for ARM Institute Data Analyst Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-22T14:56:13'
-- agent: PracticeAgent
   action: 'Failed portal for Storybizz Media Private Limited Artificial Intelligence
     (AI): Gemini failed to generate project recommendations'
   status: error
@@ -2502,3 +2497,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-22T17:14:54'
+- agent: PracticeAgent
+  action: 'Failed portal for Vilya Intern - Machine Learning Engineer: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-22T17:15:09'
