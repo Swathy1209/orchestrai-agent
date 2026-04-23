@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for SkillOrbit Data Science Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-23T10:22:40'
-- agent: PracticeAgent
   action: 'Failed portal for Giant Leap Data Science Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2494,3 +2489,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-23T12:27:54'
+- agent: PracticeAgent
+  action: 'Failed portal for GenPark Machine learning engineer intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-23T12:28:09'
