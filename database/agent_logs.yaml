@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for JP IT STAFFING LLC Machine Learning Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-23T08:06:36'
-- agent: PracticeAgent
   action: 'Failed portal for Excelitas Technologies Corp. Data Analyst Intern: Gemini
     failed to generate project recommendations'
   status: error
@@ -2501,3 +2496,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-23T10:39:49'
+- agent: PracticeAgent
+  action: 'Failed portal for SAS Group Data Science Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-23T10:39:54'
