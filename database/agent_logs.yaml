@@ -1,8 +1,4 @@
 logs:
-- agent: CareerAgent
-  action: Email delegation passed to ExecutionAgent
-  level: INFO
-  timestamp: '2026-04-23T22:01:29'
 - agent: PracticeAgent
   action: 'Failed portal for Ask First Machine Learning Intern: Gemini failed to generate
     project recommendations'
@@ -2507,3 +2503,8 @@ logs:
     Intern: Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-23T23:48:35'
+- agent: PracticeAgent
+  action: 'Failed portal for Experian ML Engineer Summer Intern (Remote & Paid): Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-23T23:48:47'
