@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Unnati Enterprises Data Science: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-23T10:44:14'
-- agent: PracticeAgent
   action: 'Failed portal for Unknown Data Science Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2493,3 +2488,8 @@ logs:
     Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-23T12:48:49'
+- agent: PracticeAgent
+  action: 'Failed portal for Primetrade.ai Artificial Intelligence (AI): Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-23T12:49:03'
