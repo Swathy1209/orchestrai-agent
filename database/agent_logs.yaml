@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Smart Rotamach Private Limited Machine Learning Intern:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-23T14:03:38'
-- agent: PracticeAgent
   action: 'Failed portal for Vishwa Jagran Manav Sewa Sangh Charitable Trust Machine
     Learning Intern: Gemini failed to generate project recommendations'
   status: error
@@ -2497,3 +2492,8 @@ logs:
     Governance Algorithms) - 2026 Start (Phd): Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-23T16:13:12'
+- agent: PracticeAgent
+  action: 'Failed portal for PhonePe Business Analyst: Gemini failed to generate project
+    recommendations'
+  status: error
+  timestamp: '2026-04-23T16:13:42'
