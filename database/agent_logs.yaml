@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Cognitiv Machine Learning Engineer Intern (Summer 2026):
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-23T11:25:02'
-- agent: PracticeAgent
   action: 'Failed portal for Robocapital Artificial Intelligence Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2496,3 +2491,8 @@ logs:
     Data Science Intern: Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-23T13:36:26'
+- agent: PracticeAgent
+  action: 'Failed portal for STRIDE School Of Business Data Science Intern: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-23T13:36:41'
