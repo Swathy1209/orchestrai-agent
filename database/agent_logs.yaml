@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Lensa Intern - Data Science, Generative AI: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-23T01:31:16'
-- agent: PracticeAgent
   action: 'Failed portal for TikTok Data Business Analyst Project Intern - 2025 Start
     (BS/MS): Gemini failed to generate project recommendations'
   status: error
@@ -2505,3 +2500,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-23T03:44:45'
+- agent: PracticeAgent
+  action: 'Failed portal for PetSapiens Private Limited Data Science Intern: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-23T03:44:57'
