@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Talent Corner HR Services Machine Learning Engineer:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-23T10:59:15'
-- agent: PracticeAgent
   action: 'Failed portal for Unknown Company – Source Incomplete Data Science Intern:
     Gemini failed to generate project recommendations'
   status: error
@@ -2494,3 +2489,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-23T13:08:57'
+- agent: PracticeAgent
+  action: 'Failed portal for ILEAD Kolkata Artificial Intelligence (AI): Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-23T13:09:10'
