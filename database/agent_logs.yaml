@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for The International Council on Clean Transportation Policy
-    and Data Analysis Intern (San Francisco): Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-23T07:58:14'
-- agent: PracticeAgent
   action: 'Failed portal for Novaflow (YC S25) Machine Learning Engineer Intern -
     Summer 2026: Gemini failed to generate project recommendations'
   status: error
@@ -2497,3 +2492,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-23T10:23:45'
+- agent: PracticeAgent
+  action: 'Failed portal for Ask First Machine Learning Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-23T10:23:58'
