@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for BNM Business Solutions LLP Data Science Intern: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-23T13:43:20'
-- agent: PracticeAgent
   action: 'Failed portal for Envision Next Data Analyst Internship in Navi Mumbai,
     Panvel, Thane: Gemini failed to generate project recommendations'
   status: error
@@ -2495,3 +2490,8 @@ logs:
     generate project recommendations'
   status: error
   timestamp: '2026-04-23T15:51:06'
+- agent: PracticeAgent
+  action: 'Failed portal for Univo Edtech Data Science Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-23T15:51:18'
