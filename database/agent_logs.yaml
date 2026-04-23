@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Tax-O-Smart LLP Machine Learning Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-23T14:27:19'
-- agent: PracticeAgent
   action: 'Failed portal for Woven by Toyota Machine Learning Engineer, Perception
     Autolabeling (Internship): Gemini failed to generate project recommendations'
   status: error
@@ -2500,3 +2495,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-23T16:44:11'
+- agent: PracticeAgent
+  action: 'Failed portal for Sloan Data Analyst Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-23T16:44:26'
