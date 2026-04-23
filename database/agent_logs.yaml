@@ -1,9 +1,4 @@
 logs:
-- agent: SkillAgent
-  action: Skill gap analysis complete
-  status: success
-  timestamp: '2026-04-23T08:02:38'
-  details: Analyzed 1022 jobs.
 - agent: PracticeAgent
   action: 'Failed portal for Assetcues Solutions Private Limited Data Science Intern:
     Gemini failed to generate project recommendations'
@@ -2500,3 +2495,8 @@ logs:
   action: PracticeAgent run initiated
   status: success
   timestamp: '2026-04-23T10:35:50'
+- agent: PracticeAgent
+  action: 'Failed portal for Dassault Systèmes INTERNSHIP: Data Science (6mo June
+    2026): Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-23T10:35:56'
