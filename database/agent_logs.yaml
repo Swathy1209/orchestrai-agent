@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for STRIDE School Of Business Data Science Intern: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-23T19:41:05'
-- agent: PracticeAgent
   action: 'Failed portal for The Souled Store Data Science Intern: Gemini failed to
     generate project recommendations'
   status: error
@@ -2494,3 +2489,8 @@ logs:
     Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-23T21:55:53'
+- agent: PracticeAgent
+  action: 'Failed portal for Pipraiser Data Science Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-23T21:56:07'
