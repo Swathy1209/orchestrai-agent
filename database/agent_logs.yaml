@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Belleaves Artificial Intelligence Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-23T20:21:29'
-- agent: PracticeAgent
   action: 'Failed portal for Next Labs Data Science Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2501,3 +2496,8 @@ logs:
     2026: Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-23T22:49:21'
+- agent: PracticeAgent
+  action: 'Failed portal for PANTHERx Rare Pharmacy Intern, Data Science: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-23T22:49:35'
