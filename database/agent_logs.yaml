@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Realogix AI Engineer Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-23T07:59:55'
-- agent: PracticeAgent
   action: 'Failed portal for VerbaFlo.AI Machine Learning Intern: Gemini failed to
     generate project recommendations'
   status: error
@@ -2497,3 +2492,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-23T10:28:21'
+- agent: PracticeAgent
+  action: 'Failed portal for HSBC Senior Business Analyst: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-23T10:28:34'
