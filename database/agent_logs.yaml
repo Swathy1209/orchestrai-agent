@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for The Cincinnati Insurance Companies Student Opportunities
-    - Data Science Intern - Summer 2026 (Hybrid): Gemini failed to generate project
-    recommendations'
-  status: error
-  timestamp: '2026-04-23T20:04:19'
-- agent: PracticeAgent
   action: 'Failed portal for GAINS Data Science Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2498,3 +2492,8 @@ logs:
     Intern: Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-23T22:24:11'
+- agent: PracticeAgent
+  action: 'Failed portal for Inorbvict Healthcare India Private Limited Machine Learning
+    Intern: Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-23T22:24:24'
