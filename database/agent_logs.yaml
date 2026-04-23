@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Spectral AI Deep Learning Data Science Intern: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-23T03:14:48'
-- agent: PracticeAgent
   action: 'Failed portal for Paramount+ Data Science Intern (Summer 2026 - In-Person
     - NYC): Gemini failed to generate project recommendations'
   status: error
@@ -2504,3 +2499,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-23T05:35:20'
+- agent: PracticeAgent
+  action: 'Failed portal for Deloitte Business Analyst: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-23T05:35:25'
