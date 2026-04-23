@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Ibhatech.com Data Science Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-23T07:53:07'
-- agent: PracticeAgent
   action: 'Failed portal for Flutter UK & Ireland Data Analyst Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2498,3 +2493,8 @@ logs:
     Operations (Spring 2025): Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-23T10:09:10'
+- agent: PracticeAgent
+  action: 'Failed portal for L''OCCITANE Group (B Corp) Data Analyst Intern: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-23T10:09:24'
