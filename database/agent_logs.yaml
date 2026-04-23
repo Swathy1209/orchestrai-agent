@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Micronxt Solutions Private Limited Data Science Intern:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-23T22:08:19'
-- agent: PracticeAgent
   action: 'Failed portal for RELI Group, Inc. Data Analyst Intern: Gemini failed to
     generate project recommendations'
   status: error
@@ -2508,3 +2503,8 @@ logs:
     - 2026 Summer (BS/MS): Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-23T23:55:56'
+- agent: PracticeAgent
+  action: 'Failed portal for TikTok Research Scientist Intern (TikTok - NextGen Recommendation)
+    - 2026 Start (PhD): Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-23T23:56:09'
