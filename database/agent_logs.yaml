@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Zearn Data Analyst: Gemini failed to generate project
-    recommendations'
-  status: error
-  timestamp: '2026-04-23T20:04:56'
-- agent: PracticeAgent
   action: 'Failed portal for Grameen Shramik Pratishthan Data Science Intern: Gemini
     failed to generate project recommendations'
   status: error
@@ -2497,3 +2492,8 @@ logs:
     generate project recommendations'
   status: error
   timestamp: '2026-04-23T22:26:39'
+- agent: PracticeAgent
+  action: 'Failed portal for Tax-O-Smart LLP Machine Learning Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-23T22:26:52'
