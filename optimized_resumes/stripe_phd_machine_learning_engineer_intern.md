@@ -2,9 +2,5 @@
 
 ## Recommended Additions
 
-- Add a project showcasing Scala
-- Add a project showcasing Spark
-
-## Suggested Project to Add
-
-Build a project focusing on: Scala, Spark
+- Highlight your existing skills matching the role requirements.
+- Tailor your project descriptions to the company operations.
