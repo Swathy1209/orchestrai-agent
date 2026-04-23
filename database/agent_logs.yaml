@@ -1,9 +1,4 @@
 logs:
-- agent: PracticeAgent
-  action: 'Failed portal for Anubhav Singh Data Science Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-23T18:07:04'
 - agent: PortfolioBuilderAgent
   action: Generated Portfolio
   status: success
@@ -2500,3 +2495,8 @@ logs:
     Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-23T20:19:59'
+- agent: PracticeAgent
+  action: 'Failed portal for Boston Consulting Group Data Analyst: Gemini failed to
+    generate project recommendations'
+  status: error
+  timestamp: '2026-04-23T20:20:38'
