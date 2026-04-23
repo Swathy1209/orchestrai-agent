@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for AMETEK Data Science and AI Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-23T16:14:31'
-- agent: PracticeAgent
   action: 'Failed portal for Connors Group Data Analyst Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2502,3 +2497,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-23T18:38:54'
+- agent: PracticeAgent
+  action: 'Failed portal for Daten & Wissen Private Limited Machine Learning Intern:
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-23T18:38:59'
