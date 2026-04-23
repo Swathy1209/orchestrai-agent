@@ -1,9 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: PracticeAgent run initiated
-  status: success
-  timestamp: '2026-04-22T22:27:37'
-- agent: PracticeAgent
   action: 'Failed portal for Deloitte Business Analyst: Gemini failed to generate
     project recommendations'
   status: error
@@ -2498,3 +2494,8 @@ logs:
     recommendations'
   status: error
   timestamp: '2026-04-23T00:10:13'
+- agent: PracticeAgent
+  action: 'Failed portal for Merck Group Master Data Analyst – SAP (Materials): Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-23T00:10:27'
