@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for INDUS Technology, Inc. Data Analyst Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-23T15:14:41'
-- agent: PracticeAgent
   action: 'Failed portal for Bellwood Business Analyst / QA Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2499,3 +2494,8 @@ logs:
     Intern: Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-23T17:32:01'
+- agent: PracticeAgent
+  action: 'Failed portal for ScentAir Technology & Data Science Intern – ScentAir
+    (Charlotte, NC): Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-23T17:32:14'
