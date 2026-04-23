@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Bain & Company Data ML Engineer Associate: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-23T14:19:38'
-- agent: PracticeAgent
   action: 'Failed portal for Mariana Minerals Machine Learning Engineering Intern:
     Gemini failed to generate project recommendations'
   status: error
@@ -2499,3 +2494,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-23T16:39:01'
+- agent: PracticeAgent
+  action: 'Failed portal for Lensa Machine Learning Engineer Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-23T16:39:14'
