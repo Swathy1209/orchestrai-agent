@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Krause Group Data Analyst Intern (Finance): Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-23T13:15:26'
-- agent: PracticeAgent
   action: 'Failed portal for Iron Mountain Business Analyst Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2493,3 +2488,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-23T15:30:42'
+- agent: PracticeAgent
+  action: 'Failed portal for The Goat Academy Private Limited Data Science Intern:
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-23T15:30:56'
