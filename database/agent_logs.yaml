@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Milliman India Private Limited AI/ML Engineer: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-23T01:13:53'
-- agent: PracticeAgent
   action: 'Failed portal for GCCX AI/ML Engineer: Gemini failed to generate project
     recommendations'
   status: error
@@ -2506,3 +2501,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-23T03:30:44'
+- agent: PracticeAgent
+  action: 'Failed portal for ESSI Integrated Technologies Data Science Intern: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-23T03:30:57'
