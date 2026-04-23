@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Woven by Toyota Machine Learning Engineer, Perception
-    Autolabeling (Internship): Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-23T14:28:25'
-- agent: PracticeAgent
   action: 'Failed portal for TikTok Data Scientist Intern (TikTok-Product-Data Science)-2026
     Summer (BS/MS): Gemini failed to generate project recommendations'
   status: error
@@ -2500,3 +2495,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-23T16:44:26'
+- agent: PracticeAgent
+  action: 'Failed portal for Macquarie Group Liquidity Business Analyst: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-23T16:44:40'
