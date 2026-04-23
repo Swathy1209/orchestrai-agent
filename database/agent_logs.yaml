@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Apollo Mission Critical Engineering Multiple U.S Locations
-    - Business Analyst Intern (BA-I) - Summer 2026: Gemini failed to generate project
-    recommendations'
-  status: error
-  timestamp: '2026-04-23T06:53:00'
-- agent: PracticeAgent
   action: 'Failed portal for Motovolt Data Science Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2500,3 +2494,8 @@ logs:
   status: success
   timestamp: '2026-04-23T08:02:38'
   details: Analyzed 1022 jobs.
+- agent: PracticeAgent
+  action: 'Failed portal for Assetcues Solutions Private Limited Data Science Intern:
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-23T08:02:46'
