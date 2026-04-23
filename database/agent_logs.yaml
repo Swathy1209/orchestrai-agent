@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Wobot Intelligence Private Limited Computer Vision: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-23T13:00:45'
-- agent: PracticeAgent
   action: 'Failed portal for Resolute AI Software Private Limited AI Engineer: Gemini
     failed to generate project recommendations'
   status: error
@@ -2494,3 +2489,8 @@ logs:
     Collection): Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-23T15:20:05'
+- agent: PracticeAgent
+  action: 'Failed portal for Cisco Staff Machine Learning Engineer: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-23T15:20:34'
