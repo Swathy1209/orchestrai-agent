@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Ask First Artificial Intelligence Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-23T14:03:50'
-- agent: PracticeAgent
   action: 'Failed portal for IWerk InfoSolutions LLP Machine Learning Intern: Gemini
     failed to generate project recommendations'
   status: error
@@ -2497,3 +2492,8 @@ logs:
     2026: Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-23T16:13:55'
+- agent: PracticeAgent
+  action: 'Failed portal for rms Company Data Science Internship - Summer 2026: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-23T16:14:07'
