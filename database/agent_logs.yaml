@@ -1,8 +1,4 @@
 logs:
-- agent: OpportunityMatchingAgent
-  action: Generated match scores for 1030 internships
-  status: success
-  timestamp: '2026-04-23T13:43:13'
 - agent: PracticeAgent
   action: 'Failed portal for BNM Business Solutions LLP Data Science Intern: Gemini
     failed to generate project recommendations'
@@ -2494,3 +2490,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-23T15:50:54'
+- agent: PracticeAgent
+  action: 'Failed portal for apexanalytix Business Analyst Intern: Gemini failed to
+    generate project recommendations'
+  status: error
+  timestamp: '2026-04-23T15:51:06'
