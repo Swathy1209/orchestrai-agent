@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Robin Bosky Artificial Intelligence Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-23T06:43:37'
-- agent: PracticeAgent
   action: 'Failed portal for The Bridge Artificial Intelligence Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2505,3 +2500,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-23T07:57:12'
+- agent: PracticeAgent
+  action: 'Failed portal for Symonis Machine Learning Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-23T07:57:17'
