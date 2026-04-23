@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Talentrift Business Analyst Intern: Gemini failed to
-    generate project recommendations'
-  status: error
-  timestamp: '2026-04-22T22:43:51'
-- agent: PracticeAgent
   action: 'Failed portal for Zyndra Talent Solutions Business Analyst Innovation Intern:
     Gemini failed to generate project recommendations'
   status: error
@@ -2495,3 +2490,8 @@ logs:
   action: PracticeAgent run initiated
   status: success
   timestamp: '2026-04-23T00:32:59'
+- agent: PracticeAgent
+  action: 'Failed portal for STRIDE School Of Business Data Science Intern: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-23T00:33:10'
