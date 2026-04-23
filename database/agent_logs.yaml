@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Quizzy Data Science Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-23T01:12:37'
-- agent: PracticeAgent
   action: 'Failed portal for Boston Consulting Grp Lead AI Engineer: Gemini failed
     to generate project recommendations'
   status: error
@@ -2506,3 +2501,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-23T03:28:45'
+- agent: PracticeAgent
+  action: 'Failed portal for SPG LiFe Artificial Intelligence Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-23T03:28:57'
