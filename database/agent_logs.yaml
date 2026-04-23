@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Crossing Hurdles Data Science Intern: Gemini failed to
-    generate project recommendations'
-  status: error
-  timestamp: '2026-04-23T16:50:11'
-- agent: PracticeAgent
   action: 'Failed portal for Plus Barrels Data Science Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2503,3 +2498,8 @@ logs:
     - 2026 Start (BS/MS): Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-23T19:09:10'
+- agent: PracticeAgent
+  action: 'Failed portal for MCube AI Private Limited Data Science: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-23T19:09:23'
