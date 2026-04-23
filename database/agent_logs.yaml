@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for The Middleby Corporation Business Analyst Internship:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-23T16:03:08'
-- agent: PracticeAgent
   action: 'Failed portal for The Caliper Lab (Toronto, Canada) Data Science Intern:
     Gemini failed to generate project recommendations'
   status: error
@@ -2503,3 +2498,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-23T18:23:25'
+- agent: PracticeAgent
+  action: 'Failed portal for Hayward Holdings, Inc. ERP Dashboard and Data Analyst
+    Intern: Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-23T18:23:42'
