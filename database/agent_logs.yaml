@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for GenPark Data science engineer intern: Gemini failed to
-    generate project recommendations'
-  status: error
-  timestamp: '2026-04-23T13:27:00'
-- agent: PracticeAgent
   action: 'Failed portal for STEMpedia Data Science Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2492,3 +2487,8 @@ logs:
     Intern: Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-23T15:37:52'
+- agent: PracticeAgent
+  action: 'Failed portal for Helix DIgital Artificial Intelligence Intern: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-23T15:38:04'
