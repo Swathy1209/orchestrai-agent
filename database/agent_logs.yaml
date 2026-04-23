@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Refresh Kid LLC (Milwaukee, United States) Data Science
-    Intern: Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-23T20:06:38'
-- agent: PracticeAgent
   action: 'Failed portal for TikTok Data Engineer Intern (Ads Data) - 2026 Summer
     (BS/MS): Gemini failed to generate project recommendations'
   status: error
@@ -2498,3 +2493,8 @@ logs:
     Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-23T22:32:24'
+- agent: PracticeAgent
+  action: 'Failed portal for ZenAppStudio Machine Learning Intern: Gemini failed to
+    generate project recommendations'
+  status: error
+  timestamp: '2026-04-23T22:32:38'
