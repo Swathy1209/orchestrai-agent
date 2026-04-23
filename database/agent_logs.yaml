@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Ekimetrics 6 months Internship in Strategy & Data Science
-    | New York: Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-23T06:27:16'
-- agent: PracticeAgent
   action: 'Failed portal for Ensono Intern - Capacity Management Data Analyst: Gemini
     failed to generate project recommendations'
   status: error
@@ -2504,3 +2499,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-23T07:50:51'
+- agent: PracticeAgent
+  action: 'Failed portal for Melotech AI/ML Engineer Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-23T07:50:57'
