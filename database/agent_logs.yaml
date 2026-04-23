@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Matricstek Inc. Junior Data Analyst: Gemini failed to
-    generate project recommendations'
-  status: error
-  timestamp: '2026-04-23T07:49:43'
-- agent: PracticeAgent
   action: 'Failed portal for ODN Digital Services Private Limited Data Science Intern:
     Gemini failed to generate project recommendations'
   status: error
@@ -2497,3 +2492,8 @@ logs:
   status: success
   timestamp: '2026-04-23T10:02:10'
   details: Analyzed 1025 jobs.
+- agent: PracticeAgent
+  action: 'Failed portal for FlyNava Technologies Data Science Internship in Bangalore:
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-23T10:02:14'
