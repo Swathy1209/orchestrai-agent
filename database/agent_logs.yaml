@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Refresh Kid LLC (Milwaukee, United States) Data Science
-    Intern: Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-23T12:23:44'
-- agent: PracticeAgent
   action: 'Failed portal for The Caliper Lab (Toronto, Canada) Data Science Intern:
     Gemini failed to generate project recommendations'
   status: error
@@ -2496,3 +2491,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-23T14:32:26'
+- agent: PracticeAgent
+  action: 'Failed portal for Kayno World Education Private Limited Data Science Intern:
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-23T14:32:52'
