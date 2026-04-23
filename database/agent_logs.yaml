@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Domyn AI Engineering and Research Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-23T00:07:11'
-- agent: PracticeAgent
   action: 'Failed portal for CiteSert Machine Learning Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2504,3 +2499,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-23T01:14:48'
+- agent: PracticeAgent
+  action: 'Failed portal for FTI Defense - Frontier Technology Inc. AI/ML Engineering
+    Internship: Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-23T01:15:01'
