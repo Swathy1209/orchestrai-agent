@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Career Solutions Data Science Intern: Gemini failed to
-    generate project recommendations'
-  status: error
-  timestamp: '2026-04-23T14:19:00'
-- agent: PracticeAgent
   action: 'Failed portal for SAS Group Data Science Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2499,3 +2494,8 @@ logs:
     Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-23T16:37:26'
+- agent: PracticeAgent
+  action: 'Failed portal for JK Crockery Artificial Intelligence Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-23T16:38:07'
