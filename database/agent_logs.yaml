@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Career Ease IT Solutions Data Analyst: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-23T01:12:24'
-- agent: PracticeAgent
   action: 'Failed portal for SAS Group Data Science Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2506,3 +2501,8 @@ logs:
     Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-23T03:28:21'
+- agent: PracticeAgent
+  action: 'Failed portal for Earthed Soul PVT LTD Artificial Intelligence Intern:
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-23T03:28:33'
