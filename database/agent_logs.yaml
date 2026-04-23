@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for LawDocs Machine Learning Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-23T06:05:27'
-- agent: PracticeAgent
   action: 'Failed portal for Andaz Kumar Machine Learning Intern: Gemini failed to
     generate project recommendations'
   status: error
@@ -2505,3 +2500,8 @@ logs:
     recommendations'
   status: error
   timestamp: '2026-04-23T07:37:38'
+- agent: PracticeAgent
+  action: 'Failed portal for Maxgen Technologies Private Limited Data Science Intern:
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-23T07:37:47'
