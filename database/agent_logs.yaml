@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Tech Phoenix Data Engineer Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-23T15:04:25'
-- agent: PracticeAgent
   action: 'Failed portal for EXL Data Analyst Associate: Gemini failed to generate
     project recommendations'
   status: error
@@ -2499,3 +2494,8 @@ logs:
     (AI): Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-23T17:14:08'
+- agent: PracticeAgent
+  action: 'Failed portal for Los Angeles Kings Summer Intern, Data Science (LA Kings):
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-23T17:14:36'
