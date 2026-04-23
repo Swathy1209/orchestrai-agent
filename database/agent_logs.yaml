@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Lensa Machine Learning Engineer Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-22T22:28:25'
-- agent: PracticeAgent
   action: 'Failed portal for Myntra Associate -Data Analyst: Gemini failed to generate
     project recommendations'
   status: error
@@ -2499,3 +2494,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-23T00:11:57'
+- agent: PracticeAgent
+  action: 'Failed portal for Internet2 Data Analyst Intern - Internet2 NET+ Program:
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-23T00:12:10'
