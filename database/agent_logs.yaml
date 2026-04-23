@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for VIZON Data Science Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-23T21:56:35'
-- agent: PracticeAgent
   action: 'Failed portal for Primenumbers Technologies Data Science Intern: Gemini
     failed to generate project recommendations'
   status: error
@@ -2503,3 +2498,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-23T23:43:21'
+- agent: PracticeAgent
+  action: 'Failed portal for ELLIPSIS INFOTECH Artificial Intelligence Intern: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-23T23:43:33'
