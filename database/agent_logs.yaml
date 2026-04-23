@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for CoreTek Labs Artificial Intelligence Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-23T00:37:02'
-- agent: PracticeAgent
   action: 'Failed portal for AUMOVIO Data Analysis Intern (Yearlong): Gemini failed
     to generate project recommendations'
   status: error
@@ -2505,3 +2500,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-23T01:52:16'
+- agent: PracticeAgent
+  action: 'Failed portal for SWOT Careers Artificial Intelligence Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-23T01:52:26'
