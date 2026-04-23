@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Octave Project Accounting - Business Analyst Intern:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-23T20:19:59'
-- agent: PracticeAgent
   action: 'Failed portal for Boston Consulting Group Data Analyst: Gemini failed to
     generate project recommendations'
   status: error
@@ -2501,3 +2496,8 @@ logs:
     recommendations'
   status: error
   timestamp: '2026-04-23T22:48:03'
+- agent: PracticeAgent
+  action: 'Failed portal for targetjobs UK Business Analyst Internship: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-23T22:48:16'
