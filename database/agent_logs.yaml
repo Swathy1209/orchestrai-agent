@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for JK Crockery Artificial Intelligence Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-23T08:48:53'
-- agent: PracticeAgent
   action: 'Failed portal for Accredian Data Science Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2499,3 +2494,8 @@ logs:
     generate project recommendations'
   status: error
   timestamp: '2026-04-23T11:24:06'
+- agent: PracticeAgent
+  action: 'Failed portal for EY Machine Learning Engineer: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-23T11:24:19'
