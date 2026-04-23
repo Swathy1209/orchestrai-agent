@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for IndiaBizForSale.com Data Science Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-23T11:49:15'
-- agent: PracticeAgent
   action: 'Failed portal for CipherSchools (Chandigarh, India) Data Science Intern:
     Gemini failed to generate project recommendations'
   status: error
@@ -2496,3 +2491,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-23T13:57:34'
+- agent: PracticeAgent
+  action: 'Failed portal for LawDocs Machine Learning Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-23T13:57:46'
