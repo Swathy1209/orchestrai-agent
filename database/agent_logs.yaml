@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Johns Hopkins Applied Physics Laboratory 2026 PhD Graduate
-    - Modeler and Data Analyst: Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-23T12:22:14'
-- agent: PracticeAgent
   action: 'Failed portal for ANZ Banking Group Data Engineer - Data Governance & Quality:
     Gemini failed to generate project recommendations'
   status: error
@@ -2496,3 +2491,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-23T14:31:06'
+- agent: PracticeAgent
+  action: 'Failed portal for ByteDance Benefits Operation Data Analyst Project Intern
+    - 2026 Start (BS): Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-23T14:31:33'
