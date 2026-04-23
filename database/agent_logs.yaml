@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Strata Decision Technology Intern, Data Science: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-23T02:12:56'
-- agent: PracticeAgent
   action: 'Failed portal for TZURONI LTD. (Kefar Sava, Israel) Machine Learning Intern:
     Gemini failed to generate project recommendations'
   status: error
@@ -2497,3 +2492,8 @@ logs:
     Engineering (Summer 2026): Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-23T04:12:59'
+- agent: PracticeAgent
+  action: 'Failed portal for Bain & Company Data ML Engineer Associate: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-23T04:13:15'
