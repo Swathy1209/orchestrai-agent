@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Mavoix Technology Solutions Pvt. Ltd. Machine Learning
-    Intern: Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-23T06:50:22'
-- agent: PracticeAgent
   action: 'Failed portal for Blismos Solutions Private Limited Machine Learning Intern:
     Gemini failed to generate project recommendations'
   status: error
@@ -2504,3 +2499,8 @@ logs:
   action: Fetch started
   level: INFO
   timestamp: '2026-04-23T08:00:32'
+- agent: PracticeAgent
+  action: 'Failed portal for apexanalytix Business Analyst Intern: Gemini failed to
+    generate project recommendations'
+  status: error
+  timestamp: '2026-04-23T08:00:39'
