@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Bellwood Business Analyst / QA Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-23T07:23:26'
-- agent: PracticeAgent
   action: 'Failed portal for Uber Data Engineer II: Gemini failed to generate project
     recommendations'
   status: error
@@ -2503,3 +2498,8 @@ logs:
     generate project recommendations'
   status: error
   timestamp: '2026-04-23T08:28:43'
+- agent: PracticeAgent
+  action: 'Failed portal for Dev Story Data Science Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-23T08:28:51'
