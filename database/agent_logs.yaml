@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for White & Co Machine Learning Intern: Gemini failed to
-    generate project recommendations'
-  status: error
-  timestamp: '2026-04-23T05:42:41'
-- agent: PracticeAgent
   action: 'Failed portal for STRIDE School Of Business Data Science Intern: Gemini
     failed to generate project recommendations'
   status: error
@@ -2500,3 +2495,8 @@ logs:
     Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-23T07:02:59'
+- agent: PracticeAgent
+  action: 'Failed portal for InstaCAD Solutions India Private Limited Machine Learning
+    Intern: Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-23T07:03:05'
