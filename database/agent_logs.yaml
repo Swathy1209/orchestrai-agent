@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for TZURONI LTD. (Kefar Sava, Israel) Machine Learning Intern:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-23T18:25:01'
-- agent: PracticeAgent
   action: 'Failed portal for Wingman Pro Machine Learning Intern: Gemini failed to
     generate project recommendations'
   status: error
@@ -2497,3 +2492,8 @@ logs:
     recommendations'
   status: error
   timestamp: '2026-04-23T20:43:09'
+- agent: PracticeAgent
+  action: 'Failed portal for Maximus Business Analyst Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-23T20:43:23'
