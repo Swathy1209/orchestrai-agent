@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Dassault Systèmes Data Science Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-23T16:02:30'
-- agent: PracticeAgent
   action: 'Failed portal for SkillOrbit Data Science Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2502,3 +2497,8 @@ logs:
     recommendations'
   status: error
   timestamp: '2026-04-23T18:21:33'
+- agent: PracticeAgent
+  action: 'Failed portal for Talkspace NLP Research Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-23T18:22:12'
