@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Morph Machine Learning Researcher PhD Intern: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-23T14:08:19'
-- agent: PracticeAgent
   action: 'Failed portal for GPTZero Machine Learning Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2499,3 +2494,8 @@ logs:
     - no C2C: Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-23T16:24:18'
+- agent: PracticeAgent
+  action: 'Failed portal for TechTrapture Machine Learning Intern: Gemini failed to
+    generate project recommendations'
+  status: error
+  timestamp: '2026-04-23T16:24:59'
