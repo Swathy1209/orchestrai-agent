@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for AIFINSPHERE INC. Data Analyst Intern: Gemini failed to
-    generate project recommendations'
-  status: error
-  timestamp: '2026-04-23T14:51:23'
-- agent: PracticeAgent
   action: 'Failed portal for Aviate Manpower Data Science: Gemini failed to generate
     project recommendations'
   status: error
@@ -2500,3 +2495,8 @@ logs:
     generate project recommendations'
   status: error
   timestamp: '2026-04-23T16:59:27'
+- agent: PracticeAgent
+  action: 'Failed portal for The Walt Disney Company Machine Learning Engineer Intern,
+    Seattle, Summer 2026: Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-23T16:59:40'
