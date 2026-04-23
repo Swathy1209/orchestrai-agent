@@ -1,8 +1,4 @@
 logs:
-- agent: SkillAgent
-  action: SkillAgent run initiated
-  status: success
-  timestamp: '2026-04-23T10:01:52'
 - agent: PracticeAgent
   action: 'Failed portal for Arhant Solutions Pvt.ltd Artificial Intelligence (AI)
     Internship in Ahmedabad: Gemini failed to generate project recommendations'
@@ -2497,3 +2493,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-23T12:04:41'
+- agent: PracticeAgent
+  action: 'Failed portal for Boston Consulting Group (BCG) Business Analyst, Internship,
+    Vietnam: Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-23T12:04:58'
