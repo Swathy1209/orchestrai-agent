@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Next Leap Artificial Intelligence Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-23T01:04:42'
-- agent: PracticeAgent
   action: 'Failed portal for Ufeus Data Science Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2506,3 +2501,8 @@ logs:
     Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-23T03:12:46'
+- agent: PracticeAgent
+  action: 'Failed portal for TikTok Business Analyst Project Intern(TikTok- Operations)
+    - 2026 Start (BS/MS): Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-23T03:12:59'
