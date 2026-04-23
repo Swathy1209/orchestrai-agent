@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Parqis Artificial Intelligence Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-23T20:57:17'
-- agent: PracticeAgent
   action: 'Failed portal for Learning Skills Academy Data And ML Engineer: Gemini
     failed to generate project recommendations'
   status: error
@@ -2502,3 +2497,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-23T23:15:52'
+- agent: PracticeAgent
+  action: 'Failed portal for South Bay Cities Council of Governments (SBCCOG) Data
+    Analyst Job Opening: Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-23T23:16:05'
