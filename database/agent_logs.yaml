@@ -1,9 +1,5 @@
 logs:
 - agent: CareerAgent
-  action: 108 jobs fetched
-  level: INFO
-  timestamp: '2026-04-23T04:00:31'
-- agent: CareerAgent
   action: 108 jobs fetched, 93 relevant
   level: INFO
   timestamp: '2026-04-23T04:00:35'
@@ -2502,3 +2498,8 @@ logs:
     Summer 2026: Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-23T05:56:41'
+- agent: PracticeAgent
+  action: 'Failed portal for HSBC Business Analyst: Gemini failed to generate project
+    recommendations'
+  status: error
+  timestamp: '2026-04-23T05:56:48'
