@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for InvoiceBingo Data Science Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-23T07:22:22'
-- agent: PracticeAgent
   action: 'Failed portal for Peeko Data Science Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2503,3 +2498,8 @@ logs:
     Learning Intern: Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-23T08:27:43'
+- agent: PracticeAgent
+  action: 'Failed portal for MHLondon Data Science Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-23T08:27:49'
