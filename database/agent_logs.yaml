@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Monkhub Data Science Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-23T14:05:57'
-- agent: PracticeAgent
   action: 'Failed portal for Grameen Shramik Pratishthan Data Science Intern: Gemini
     failed to generate project recommendations'
   status: error
@@ -2498,3 +2493,8 @@ logs:
     Intern: Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-23T16:19:22'
+- agent: PracticeAgent
+  action: 'Failed portal for Boston Consulting Grp Lead AI Engineer: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-23T16:19:28'
