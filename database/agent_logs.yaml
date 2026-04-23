@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for StoryMirror Infotech Private Limited Machine Learning
-    Intern: Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-23T10:04:42'
-- agent: PracticeAgent
   action: 'Failed portal for CoPatible AI/ML Engineer Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2495,3 +2490,8 @@ logs:
   action: Generated Portfolio
   status: success
   timestamp: '2026-04-23T12:07:35'
+- agent: PracticeAgent
+  action: 'Failed portal for FabAlley Artificial Intelligence Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-23T12:07:39'
