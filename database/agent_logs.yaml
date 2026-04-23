@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Boston Consulting Grp Lead AI Engineer: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-23T02:01:09'
-- agent: PracticeAgent
   action: 'Failed portal for Bain & Company Data ML Engineer Associate: Gemini failed
     to generate project recommendations'
   status: error
@@ -2499,3 +2494,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-23T04:06:14'
+- agent: PracticeAgent
+  action: 'Failed portal for PhonePe Business Analyst: Gemini failed to generate project
+    recommendations'
+  status: error
+  timestamp: '2026-04-23T04:06:28'
