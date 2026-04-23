@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Nomagic Machine Learning Intern (202641): Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-23T00:38:38'
-- agent: PracticeAgent
   action: 'Failed portal for PlanetMeta.Live Machine Learning Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2505,3 +2500,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-23T01:56:54'
+- agent: PracticeAgent
+  action: 'Failed portal for Friendship Public Charter School Data Analyst: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-23T01:57:07'
