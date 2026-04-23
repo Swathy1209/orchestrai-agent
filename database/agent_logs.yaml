@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for OBLYTECH INDIA PRIVATE LIMITED Data Science Intern: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-23T14:04:02'
-- agent: PracticeAgent
   action: 'Failed portal for Anubhav Singh Machine Learning Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2497,3 +2492,8 @@ logs:
     & Analytics (Summer 2026): Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-23T16:14:15'
+- agent: PracticeAgent
+  action: 'Failed portal for AMETEK Data Science and AI Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-23T16:14:31'
