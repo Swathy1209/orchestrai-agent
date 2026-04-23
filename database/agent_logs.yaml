@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for State of Florida DATA SCIENCE INTERNSHIP: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-23T02:23:50'
-- agent: PracticeAgent
   action: 'Failed portal for webAI Summer Internship - Machine Learning Engineer:
     Gemini failed to generate project recommendations'
   status: error
@@ -2501,3 +2496,8 @@ logs:
     Intern: Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-23T04:43:47'
+- agent: PracticeAgent
+  action: 'Failed portal for Pradip Nichite Data Science Intern: Gemini failed to
+    generate project recommendations'
+  status: error
+  timestamp: '2026-04-23T04:44:46'
