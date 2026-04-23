@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for AsiaDirect Data Science Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-23T11:30:10'
-- agent: PracticeAgent
   action: 'Failed portal for Reach Technologies Data Science Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2496,3 +2491,8 @@ logs:
     in Gurgaon: Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-23T13:40:40'
+- agent: PracticeAgent
+  action: 'Failed portal for CoreTek Labs Artificial Intelligence Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-23T13:40:53'
