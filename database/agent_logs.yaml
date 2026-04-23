@@ -1,8 +1,4 @@
 logs:
-- agent: ResumeOptimizationAgent
-  action: Generated optimizations for 1037 internships
-  status: success
-  timestamp: '2026-04-23T20:57:12'
 - agent: PracticeAgent
   action: 'Failed portal for Parqis Artificial Intelligence Intern: Gemini failed
     to generate project recommendations'
@@ -2501,3 +2497,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-23T23:15:38'
+- agent: PracticeAgent
+  action: 'Failed portal for Saia Inc. Senior Internal Audit Data Analyst: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-23T23:15:52'
