@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Cornerstone Associate AI Engineer: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-23T00:50:06'
-- agent: PracticeAgent
   action: 'Failed portal for Pehchaan AI Technologies Artificial Intelligence Intern:
     Gemini failed to generate project recommendations'
   status: error
@@ -2506,3 +2501,8 @@ logs:
     Intern: Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-23T02:32:36'
+- agent: PracticeAgent
+  action: 'Failed portal for CarVach Data Science Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-23T02:33:14'
