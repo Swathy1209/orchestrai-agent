@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Unknown Company – Source Incomplete Machine Learning
-    Intern: Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-22T22:50:07'
-- agent: PracticeAgent
   action: 'Failed portal for OralKart Machine Learning: Gemini failed to generate
     project recommendations'
   status: error
@@ -2496,3 +2491,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-23T00:36:08'
+- agent: PracticeAgent
+  action: 'Failed portal for Matricstek Inc. Junior Data Analyst: Gemini failed to
+    generate project recommendations'
+  status: error
+  timestamp: '2026-04-23T00:36:14'
