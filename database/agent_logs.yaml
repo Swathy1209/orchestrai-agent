@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for All-Star Sports Academy FlightScope Data Analyst Intern
-    - Spring/Summer 2026: Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-23T20:04:31'
-- agent: PracticeAgent
   action: 'Failed portal for Athena Data Science Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2497,3 +2492,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-23T22:25:06'
+- agent: PracticeAgent
+  action: 'Failed portal for Dynamo AI ML Research Scientist Intern – Dynamo Guard
+    / Dynamo Eval / AgentWarden: Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-23T22:25:19'
