@@ -1,9 +1,4 @@
 logs:
-- agent: PracticeAgent
-  action: 'Failed portal for Maxgen Technologies Private Limited Artificial Intelligence
-    Intern: Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-23T12:07:24'
 - agent: PortfolioBuilderAgent
   action: Generated Portfolio
   status: success
@@ -2496,3 +2491,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-23T14:11:56'
+- agent: PracticeAgent
+  action: 'Failed portal for Reducate.ai Artificial Intelligence Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-23T14:12:09'
