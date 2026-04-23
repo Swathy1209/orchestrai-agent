@@ -1,8 +1,4 @@
 logs:
-- agent: CareerAgent
-  action: Email delegation passed to ExecutionAgent
-  level: INFO
-  timestamp: '2026-04-23T16:01:27'
 - agent: PracticeAgent
   action: 'Failed portal for Indiaum Solutions Data Science Intern: Gemini failed
     to generate project recommendations'
@@ -2501,3 +2497,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-23T18:19:58'
+- agent: PracticeAgent
+  action: 'Failed portal for Maersk Business Analyst – Financial Planning & Reporting:
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-23T18:20:11'
