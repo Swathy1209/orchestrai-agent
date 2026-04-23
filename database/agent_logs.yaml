@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Kasbah Films & Media Pvt Ltd Artificial Intelligence
-    Intern: Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-23T01:36:47'
-- agent: PracticeAgent
   action: 'Failed portal for Pehchaan AI Technologies Artificial Intelligence Intern:
     Gemini failed to generate project recommendations'
   status: error
@@ -2505,3 +2500,8 @@ logs:
     generate project recommendations'
   status: error
   timestamp: '2026-04-23T03:48:26'
+- agent: PracticeAgent
+  action: 'Failed portal for Finxbridge Machine Learning Intern: Gemini failed to
+    generate project recommendations'
+  status: error
+  timestamp: '2026-04-23T03:48:40'
