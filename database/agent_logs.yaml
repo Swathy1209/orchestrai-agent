@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Tatari Data Science, Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-23T20:49:01'
-- agent: PracticeAgent
   action: 'Failed portal for Accredian Data Science: Gemini failed to generate project
     recommendations'
   status: error
@@ -2501,3 +2496,8 @@ logs:
     Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-23T23:09:08'
+- agent: PracticeAgent
+  action: 'Failed portal for MCube AI Private Limited Data Science: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-23T23:09:13'
