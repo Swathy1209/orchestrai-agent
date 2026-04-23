@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Qwings Data Science Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-23T08:45:25'
-- agent: PracticeAgent
   action: 'Failed portal for Daten & Wissen Private Limited Machine Learning Intern:
     Gemini failed to generate project recommendations'
   status: error
@@ -2498,3 +2493,8 @@ logs:
     generate project recommendations'
   status: error
   timestamp: '2026-04-23T11:22:25'
+- agent: PracticeAgent
+  action: 'Failed portal for Command Post Technologies, Inc AI/Machine Learning Software
+    Engineering Intern: Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-23T11:22:40'
