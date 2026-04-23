@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Moët Hennessy Business Analyst Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-23T01:25:47'
-- agent: PracticeAgent
   action: 'Failed portal for Boston Consulting Group (BCG) Business Analyst, Internship,
     Vietnam: Gemini failed to generate project recommendations'
   status: error
@@ -2507,3 +2502,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-23T03:40:22'
+- agent: PracticeAgent
+  action: 'Failed portal for Shopee Business Data Analyst Intern - Commercial Management,
+    Business Development (Summer 2026): Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-23T03:40:37'
