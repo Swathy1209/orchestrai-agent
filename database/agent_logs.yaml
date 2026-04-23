@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for The Caliper Lab (Toronto, Canada) Data Science Intern:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-23T20:06:50'
-- agent: PracticeAgent
   action: 'Failed portal for TikTok Machine Learning Engineer Intern (Privacy and
     Data Protection Office) - 2026 Start (PhD): Gemini failed to generate project
     recommendations'
@@ -2498,3 +2493,8 @@ logs:
     Intern: Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-23T22:32:52'
+- agent: PracticeAgent
+  action: 'Failed portal for Robin Bosky Artificial Intelligence Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-23T22:33:45'
