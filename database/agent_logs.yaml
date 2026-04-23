@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Sparksoft Corporation Data Science -Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-23T11:24:33'
-- agent: PracticeAgent
   action: 'Failed portal for Robocapital Data Science Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2496,3 +2491,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-23T13:35:55'
+- agent: PracticeAgent
+  action: 'Failed portal for Business Mail Data Data Analyst: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-23T13:36:11'
