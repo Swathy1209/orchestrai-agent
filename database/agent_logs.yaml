@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for 10x Impact Labs Artificial Intelligence Intern: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-23T19:47:46'
-- agent: PracticeAgent
   action: 'Failed portal for Wish A Brand Artificial Intelligence Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2491,3 +2486,8 @@ logs:
   status: success
   timestamp: '2026-04-23T22:01:57'
   details: Analyzed 1037 jobs.
+- agent: PracticeAgent
+  action: 'Failed portal for Marico Innovation Foundation Data Science Intern: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-23T22:02:02'
