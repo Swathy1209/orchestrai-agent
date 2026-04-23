@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Helix DIgital Artificial Intelligence Intern: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-23T01:19:37'
-- agent: PracticeAgent
   action: 'Failed portal for Amber Flux Private Limited Data Science Intern: Gemini
     failed to generate project recommendations'
   status: error
@@ -2506,3 +2501,8 @@ logs:
     Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-23T03:34:46'
+- agent: PracticeAgent
+  action: 'Failed portal for Innovexis Machine Learning Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-23T03:34:58'
