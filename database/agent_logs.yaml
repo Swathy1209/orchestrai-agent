@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Marico Innovation Foundation Artificial Intelligence
-    Intern: Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-23T20:03:35'
-- agent: PracticeAgent
   action: 'Failed portal for TikTok Machine Learning Engineer Intern (Commerce Ads)
     - 2026 Summer (BS/MS): Gemini failed to generate project recommendations'
   status: error
@@ -2498,3 +2493,8 @@ logs:
     AI) - 2026 Summer/Fall (PhD): Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-23T22:21:49'
+- agent: PracticeAgent
+  action: 'Failed portal for ChatGPT Jobs Research Scientist Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-23T22:22:03'
