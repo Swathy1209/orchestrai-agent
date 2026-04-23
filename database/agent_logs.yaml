@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Xolver AI Physical AI Engineer (Internship): Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-22T22:14:19'
-- agent: PracticeAgent
   action: 'Failed portal for GE Aerospace Data Science Specialist: Gemini failed to
     generate project recommendations'
   status: error
@@ -2501,3 +2496,8 @@ logs:
     Intern: Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-23T00:03:48'
+- agent: PracticeAgent
+  action: 'Failed portal for Goldman Sachs Business Analyst: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-23T00:04:01'
