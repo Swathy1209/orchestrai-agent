@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Bloom Nutrition Influencer Marketing Data Analyst Intern:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-23T05:31:20'
-- agent: PracticeAgent
   action: 'Failed portal for GCCX AI/ML Engineer: Gemini failed to generate project
     recommendations'
   status: error
@@ -2496,3 +2491,8 @@ logs:
     - 2026 Summer (BS/MS): Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-23T06:36:54'
+- agent: PracticeAgent
+  action: 'Failed portal for GenPark Machine learning engineer intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-23T06:37:08'
