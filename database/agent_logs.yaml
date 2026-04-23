@@ -1,8 +1,4 @@
 logs:
-- agent: CoverLetterAgent
-  action: Generated 1034 cover letters
-  status: success
-  timestamp: '2026-04-23T14:37:36'
 - agent: PracticeAgent
   action: PracticeAgent run initiated
   status: success
@@ -2500,3 +2496,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-23T16:49:27'
+- agent: PracticeAgent
+  action: 'Failed portal for Unknown Artificial Intelligence Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-23T16:49:42'
