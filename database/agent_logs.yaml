@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Smart Rotamach Private Limited Machine Learning Intern:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-23T16:04:04'
-- agent: PracticeAgent
   action: 'Failed portal for Marico Innovation Foundation Data Science Intern: Gemini
     failed to generate project recommendations'
   status: error
@@ -2503,3 +2498,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-23T18:25:41'
+- agent: PracticeAgent
+  action: 'Failed portal for Sameer Khatri Artificial Intelligence Intern: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-23T18:25:55'
