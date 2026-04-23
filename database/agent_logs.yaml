@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for TikTok (General Hire) Machine Learning Engineer Intern
-    (TikTok-Recommendation) - 2026 Summer (BS/MS): Gemini failed to generate project
-    recommendations'
-  status: error
-  timestamp: '2026-04-23T14:40:10'
-- agent: PracticeAgent
   action: 'Failed portal for Upstart Machine Learning Engineer Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2502,3 +2496,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-23T16:52:13'
+- agent: PracticeAgent
+  action: 'Failed portal for Accredian Data Science: Gemini failed to generate project
+    recommendations'
+  status: error
+  timestamp: '2026-04-23T16:52:29'
