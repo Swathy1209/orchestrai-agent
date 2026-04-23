@@ -1,9 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: PracticeAgent run initiated
-  status: success
-  timestamp: '2026-04-23T20:36:23'
-- agent: PracticeAgent
   action: 'Failed portal for Cylinder Health Junior Data Engineer: Detected incomplete
     placeholder content. Regenerating...'
   status: error
@@ -2502,3 +2498,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-23T22:59:22'
+- agent: PracticeAgent
+  action: 'Failed portal for Enlight Lab Data Science Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-23T22:59:37'
