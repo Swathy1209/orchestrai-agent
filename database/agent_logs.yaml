@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for NXTTOUR INDIA Machine Learning Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-23T12:34:13'
-- agent: PracticeAgent
   action: 'Failed portal for NickPat Media Machine Learning Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2496,3 +2491,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-23T14:45:27'
+- agent: PracticeAgent
+  action: 'Failed portal for Stripe Data Analyst, Intern (Master''s degree): Detected
+    incomplete placeholder content. Regenerating...'
+  status: error
+  timestamp: '2026-04-23T14:45:39'
