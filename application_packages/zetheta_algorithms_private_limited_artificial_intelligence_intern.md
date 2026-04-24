@@ -10,7 +10,7 @@ Cover Letter:
 https://orchestrai-agent.onrender.com/cover_letters/zetheta_algorithms_private_limited_artificial_intelligence_intern.md
 
 Apply Here:
-https://internshala.com/internship/detail/work-from-home-artificial-intelligence-intern-internship-at-zetheta-algorithms-private-limited1772876167
+https://www.linkedin.com/jobs/view/artificial-intelligence-intern-at-zetheta-algorithms-private-limited-4401303913?position=5&pageNum=0&refId=9aZXkhDDt5pr6UcVKWwIVA%3D%3D&trackingId=qA2Q4AZItLvG%2F5LYb0M4ZA%3D%3D
 
 Status:
 Ready to Apply
