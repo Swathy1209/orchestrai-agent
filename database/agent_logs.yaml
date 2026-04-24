@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Ayurveda House Private Limited Data Science Intern: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-24T08:48:23'
-- agent: PracticeAgent
   action: 'Failed portal for Nomagic Machine Learning Intern (202641): Gemini failed
     to generate project recommendations'
   status: error
@@ -2505,3 +2500,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-24T09:56:36'
+- agent: PracticeAgent
+  action: 'Failed portal for Enroute Law Artificial Intelligence Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-24T09:56:51'
