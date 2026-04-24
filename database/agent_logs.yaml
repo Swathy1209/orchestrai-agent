@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Grivaa Consultancy Services Artificial Intelligence Intern:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-24T12:27:56'
-- agent: PracticeAgent
   action: 'Failed portal for Infoware Data Science Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2500,3 +2495,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-24T14:39:15'
+- agent: PracticeAgent
+  action: 'Failed portal for Krause Group Data Analyst Intern (M&A): Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-24T14:39:20'
