@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Dassault Systèmes INTERNSHIP: Data Science (6mo June
-    2026): Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-24T10:06:01'
-- agent: PracticeAgent
   action: 'Failed portal for Morph Machine Learning Researcher PhD Intern: Gemini
     failed to generate project recommendations'
   status: error
@@ -2501,3 +2496,8 @@ logs:
     generate project recommendations'
   status: error
   timestamp: '2026-04-24T12:14:58'
+- agent: PracticeAgent
+  action: 'Failed portal for SWOT Careers Artificial Intelligence Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-24T12:15:12'
