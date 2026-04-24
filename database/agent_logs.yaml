@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for GanitSphere Machine Learning Intern: Gemini failed to
-    generate project recommendations'
-  status: error
-  timestamp: '2026-04-24T12:08:58'
-- agent: PracticeAgent
   action: 'Failed portal for OBLYTECH INDIA PRIVATE LIMITED Machine Learning Intern:
     Gemini failed to generate project recommendations'
   status: error
@@ -2506,3 +2501,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-24T14:20:05'
+- agent: PracticeAgent
+  action: 'Failed portal for Sameer Khatri Data Science Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-24T14:20:20'
