@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Finxbridge Machine Learning Intern: Gemini failed to
-    generate project recommendations'
-  status: error
-  timestamp: '2026-04-24T17:58:28'
-- agent: PracticeAgent
   action: 'Failed portal for JP IT STAFFING LLC Machine Learning Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2491,3 +2486,8 @@ logs:
   status: success
   timestamp: '2026-04-24T20:02:04'
   details: Analyzed 1059 jobs.
+- agent: PracticeAgent
+  action: 'Failed portal for Legend Biotech PD Data Sciences, CMC Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-24T20:02:09'
