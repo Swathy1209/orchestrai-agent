@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Career Solutions Artificial Intelligence (AI): Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-24T21:20:24'
-- agent: PracticeAgent
   action: 'Failed portal for Hone Health Data Science Intern (Summer 2026): Gemini
     failed to generate project recommendations'
   status: error
@@ -2505,3 +2500,8 @@ logs:
     Learning Intern: Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-24T23:40:54'
+- agent: PracticeAgent
+  action: 'Failed portal for Technoculture Research Machine Learning Intern: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-24T23:41:07'
