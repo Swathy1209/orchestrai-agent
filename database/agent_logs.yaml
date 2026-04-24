@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Dynamo AI ML Research Scientist Intern – Dynamo Guard
-    / Dynamo Eval / AgentWarden: Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-23T22:25:19'
-- agent: PracticeAgent
   action: 'Failed portal for ByteDance Machine Learning Engineer Intern (Global E-commerce
     Risk Control) - 2026 Summer (BS/MS): Gemini failed to generate project recommendations'
   status: error
@@ -2506,3 +2501,8 @@ logs:
     generate project recommendations'
   status: error
   timestamp: '2026-04-24T00:07:11'
+- agent: PracticeAgent
+  action: 'Failed portal for Stripe PhD Machine Learning Engineer, Intern: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-24T00:07:24'
