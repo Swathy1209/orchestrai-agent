@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Next Labs Data Science Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-24T10:08:50'
-- agent: PracticeAgent
   action: 'Failed portal for Berkshire Hathaway GUARD Insurance Companies Data-AI
     Engineering Intern: Gemini failed to generate project recommendations'
   status: error
@@ -2499,3 +2494,8 @@ logs:
     via WayUp: Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-24T12:20:27'
+- agent: PracticeAgent
+  action: 'Failed portal for Mindenious Edutech Machine Learning Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-24T12:20:33'
