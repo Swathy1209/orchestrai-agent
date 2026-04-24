@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for rms Company Data Science Internship - Summer 2026: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-24T12:18:12'
-- agent: PracticeAgent
   action: 'Failed portal for INDUS Technology, Inc. Business Analyst Intern: Gemini
     failed to generate project recommendations'
   status: error
@@ -2506,3 +2501,8 @@ logs:
     Summer (BS/MS): Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-24T14:29:03'
+- agent: PracticeAgent
+  action: 'Failed portal for webAI Summer Internship - Machine Learning Engineer:
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-24T14:29:31'
