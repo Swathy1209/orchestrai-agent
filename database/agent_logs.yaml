@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Lightmatter Machine Learning Research Intern: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-24T09:03:54'
-- agent: PracticeAgent
   action: 'Failed portal for TikTok Machine Learning Engineer Intern (Commerce Ads)
     - 2026 Summer (BS/MS): Gemini failed to generate project recommendations'
   status: error
@@ -2507,3 +2502,7 @@ logs:
     Intern: Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-24T10:40:40'
+- agent: OpportunityMatchingAgent
+  action: Generated match scores for 1049 internships
+  status: success
+  timestamp: '2026-04-24T10:41:14'
