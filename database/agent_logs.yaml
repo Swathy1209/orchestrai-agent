@@ -1,9 +1,5 @@
 logs:
 - agent: CareerAgent
-  action: 108 jobs fetched
-  level: INFO
-  timestamp: '2026-04-24T01:15:50'
-- agent: CareerAgent
   action: 108 jobs fetched, 93 relevant
   level: INFO
   timestamp: '2026-04-24T01:15:58'
@@ -2495,3 +2491,8 @@ logs:
     generate project recommendations'
   status: error
   timestamp: '2026-04-24T03:08:59'
+- agent: PracticeAgent
+  action: 'Failed portal for Command Post Technologies, Inc AI/Machine Learning Software
+    Engineering Intern: Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-24T03:09:12'
