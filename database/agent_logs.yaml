@@ -1,9 +1,4 @@
 logs:
-- agent: PracticeAgent
-  action: 'Failed portal for Plymouth Rock Assurance Artificial Intelligence Intern:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-24T12:00:59'
 - agent: CareerAgent
   action: 104 jobs fetched, 89 relevant
   level: INFO
@@ -2496,3 +2491,9 @@ logs:
     generate project recommendations'
   status: error
   timestamp: '2026-04-24T14:08:05'
+- agent: PracticeAgent
+  action: 'Failed portal for Red Ventures We''re Planning Ahead - Join the Talent
+    Pipeline for our 2027 Business Analyst Internship: Gemini failed to generate project
+    recommendations'
+  status: error
+  timestamp: '2026-04-24T14:08:18'
