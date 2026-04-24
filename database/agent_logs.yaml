@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Zyndra Talent Solutions Business Analyst Innovation Intern:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-23T22:52:48'
-- agent: PracticeAgent
   action: 'Failed portal for Eightfold AI Senior Machine Learning Engineer: Gemini
     failed to generate project recommendations'
   status: error
@@ -2503,3 +2498,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-24T00:35:13'
+- agent: PracticeAgent
+  action: 'Failed portal for Lensa Machine Learning Intern - Summer 2026: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-24T00:35:26'
