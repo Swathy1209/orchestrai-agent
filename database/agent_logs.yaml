@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Sungrow Power Supply Co., Ltd. Data Analyst Internship:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-24T05:09:00'
-- agent: PracticeAgent
   action: 'Failed portal for TikTok Machine Learning Scientist Intern - Global E-Commerce
     Content Recommendation - 2026 Summer (PhD): Gemini failed to generate project
     recommendations'
@@ -2490,3 +2485,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-24T07:40:44'
+- agent: PracticeAgent
+  action: 'Failed portal for HSBC Business Analyst: Gemini failed to generate project
+    recommendations'
+  status: error
+  timestamp: '2026-04-24T07:40:57'
