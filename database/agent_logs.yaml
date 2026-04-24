@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for ZURU Toys Data Analyst Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-24T08:41:05'
-- agent: PracticeAgent
   action: 'Failed portal for SAV (Scale Asia Ventures) AI Engineer Intern: Gemini
     failed to generate project recommendations'
   status: error
@@ -2504,3 +2499,8 @@ logs:
     and Data Analysis Intern (San Francisco): Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-24T09:37:40'
+- agent: PracticeAgent
+  action: 'Failed portal for Shopee Data Analyst Intern - Warehouse Operations, Regional
+    Operations (Spring 2025): Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-24T09:37:55'
