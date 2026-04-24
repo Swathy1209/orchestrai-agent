@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Primetrade.ai Machine Learning Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-24T09:22:56'
-- agent: PracticeAgent
   action: 'Failed portal for Boston Consulting Grp Lead AI Engineer: Gemini failed
     to generate project recommendations'
   status: error
@@ -2507,3 +2502,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-24T11:30:25'
+- agent: PracticeAgent
+  action: 'Failed portal for Trekion AI Data Science Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-24T11:30:39'
