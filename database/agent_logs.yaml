@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Toshiba America Electronic Components, Inc. 5039 Data
-    Analyst Engineering Intern: Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-24T08:41:16'
-- agent: PracticeAgent
   action: 'Failed portal for Carufus Technology Private Limited Data Science Intern:
     Gemini failed to generate project recommendations'
   status: error
@@ -2504,3 +2499,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-24T09:38:35'
+- agent: PracticeAgent
+  action: 'Failed portal for TikTok Data Business Analyst Project Intern - 2025 Start
+    (BS/MS): Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-24T09:38:48'
