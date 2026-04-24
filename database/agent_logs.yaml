@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Helix DIgital Artificial Intelligence Intern: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-24T09:26:51'
-- agent: PracticeAgent
   action: 'Failed portal for Career-Domain Data Science Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2507,3 +2502,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-24T11:38:30'
+- agent: PracticeAgent
+  action: 'Failed portal for SAV (Scale Asia Ventures) AI Engineer Intern: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-24T11:38:42'
