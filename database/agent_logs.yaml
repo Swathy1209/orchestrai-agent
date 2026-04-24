@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for TÜV SÜD Intern - Business Analyst / Process Engineer:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-24T15:54:27'
-- agent: PracticeAgent
   action: 'Failed portal for Allo Innoware Data Science Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2491,3 +2486,8 @@ logs:
   action: Generated 3 security fix PRs
   status: completed
   timestamp: '2026-04-24T18:07:09'
+- agent: PracticeAgent
+  action: 'Failed portal for Reducate.ai Machine Learning Intern: Gemini failed to
+    generate project recommendations'
+  status: error
+  timestamp: '2026-04-24T18:07:14'
