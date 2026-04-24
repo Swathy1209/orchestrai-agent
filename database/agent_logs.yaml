@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Pairwise Data Science Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-24T20:32:04'
-- agent: PracticeAgent
   action: 'Failed portal for Samaritan''s Purse Geospatial Data Analyst, North American
     Disaster Relief: Gemini failed to generate project recommendations'
   status: error
@@ -2505,3 +2500,8 @@ logs:
     Design & Development: Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-24T22:50:47'
+- agent: PracticeAgent
+  action: 'Failed portal for Viant Technology Machine Learning Engineering Internship
+    - Summer 2026: Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-24T22:51:01'
