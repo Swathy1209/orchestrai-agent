@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for CareerNest Machine Learning: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-24T13:02:02'
-- agent: PracticeAgent
   action: 'Failed portal for Random Groups Of Companies Data Science: Gemini failed
     to generate project recommendations'
   status: error
@@ -2498,3 +2493,8 @@ logs:
     Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-24T15:07:30'
+- agent: PracticeAgent
+  action: 'Failed portal for Quarterhill Inc. Machine Learning Engineer Intern: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-24T15:07:44'
