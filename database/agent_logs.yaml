@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Zeko Data Science Intern: Gemini failed to generate project
-    recommendations'
-  status: error
-  timestamp: '2026-04-24T19:54:46'
-- agent: PracticeAgent
   action: 'Failed portal for Talview Data Science Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2499,3 +2494,8 @@ logs:
   status: success
   timestamp: '2026-04-24T22:02:00'
   details: Analyzed 1059 jobs.
+- agent: PracticeAgent
+  action: 'Failed portal for Automation Anywhere AI Engineer: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-24T22:02:05'
