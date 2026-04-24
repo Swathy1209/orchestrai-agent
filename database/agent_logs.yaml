@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Thinkpond Services Private Limited Data Science Intern:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-24T15:29:03'
-- agent: PracticeAgent
   action: 'Failed portal for Five9 Agentic AI Applied Scientist Internship - NLP:
     Gemini failed to generate project recommendations'
   status: error
@@ -2495,3 +2490,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-24T17:45:29'
+- agent: PracticeAgent
+  action: 'Failed portal for Globik AI Private Limited Artificial Intelligence Intern:
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-24T17:45:41'
