@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Staffline Solutions Machine Learning Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-24T02:29:51'
-- agent: PracticeAgent
   action: 'Failed portal for The Hustle House Artificial Intelligence Intern: Gemini
     failed to generate project recommendations'
   status: error
@@ -2503,3 +2498,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-24T03:59:21'
+- agent: PracticeAgent
+  action: 'Failed portal for Echodyne Summer Intern Data Engineer/Software Engineer:
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-24T03:59:34'
