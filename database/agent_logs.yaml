@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for apexanalytix Business Analyst Intern: Gemini failed to
-    generate project recommendations'
-  status: error
-  timestamp: '2026-04-23T23:47:45'
-- agent: PracticeAgent
   action: 'Failed portal for Univo Edtech Data Science Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2496,3 +2491,8 @@ logs:
     - 2026 Start (BS/MS): Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-24T02:05:29'
+- agent: PracticeAgent
+  action: 'Failed portal for MCube AI Private Limited Data Science: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-24T02:05:42'
