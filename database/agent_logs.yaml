@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Zenotalent Machine learning Internship: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-24T04:49:20'
-- agent: PracticeAgent
   action: 'Failed portal for ZURU Toys Data Analyst Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2487,3 +2482,8 @@ logs:
     content. Regenerating...'
   status: error
   timestamp: '2026-04-24T06:59:33'
+- agent: PracticeAgent
+  action: 'Failed portal for Fractal Data Engineer: Gemini failed to generate project
+    recommendations'
+  status: error
+  timestamp: '2026-04-24T06:59:46'
