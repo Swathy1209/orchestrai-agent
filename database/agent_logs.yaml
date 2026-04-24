@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Banner Engineering Careers Business Analyst Intern: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-24T14:49:29'
-- agent: PracticeAgent
   action: 'Failed portal for Unimonks Artificial Intelligence Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2496,3 +2491,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-24T16:59:05'
+- agent: PracticeAgent
+  action: 'Failed portal for Lensa Machine Learning Science Intern - Summer 2026 Start:
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-24T16:59:19'
