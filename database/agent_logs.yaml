@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Red Ventures We''re Planning Ahead - Join the Talent
-    Pipeline for our 2027 Business Analyst Internship: Gemini failed to generate project
-    recommendations'
-  status: error
-  timestamp: '2026-04-24T12:23:38'
-- agent: PracticeAgent
   action: 'Failed portal for Bain & Company Data ML Engineer Associate: Gemini failed
     to generate project recommendations'
   status: error
@@ -2504,3 +2498,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-24T14:36:35'
+- agent: PracticeAgent
+  action: 'Failed portal for Accredian Data Science Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-24T14:36:57'
