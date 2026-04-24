@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for FTI Defense - Frontier Technology Inc. AI/ML Engineering
-    Internship: Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-23T23:19:58'
-- agent: PracticeAgent
   action: 'Failed portal for Kidvento Education And Research Private Limited Data
     Science Intern: Gemini failed to generate project recommendations'
   status: error
@@ -2508,3 +2503,8 @@ logs:
     - 2026 Start (BS/MS): Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-24T01:08:23'
+- agent: PracticeAgent
+  action: 'Failed portal for Xolver AI Physical AI Engineer (Internship): Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-24T01:09:00'
