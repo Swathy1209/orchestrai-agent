@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Talent Corner HR Services Machine Learning Engineer:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-24T15:00:24'
-- agent: PracticeAgent
   action: 'Failed portal for Unknown Company – Source Incomplete Data Science Intern:
     Gemini failed to generate project recommendations'
   status: error
@@ -2495,3 +2490,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-24T17:10:17'
+- agent: PracticeAgent
+  action: 'Failed portal for Newzeninfotech Solutions Data Science: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-24T17:10:32'
