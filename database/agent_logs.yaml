@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for WayUp BMW, Overseas Supply Chain Operations and Data
-    Analysis Intern (Fall 2026) - Application via WayUp: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-24T10:06:49'
-- agent: PracticeAgent
   action: 'Failed portal for Octave Project Accounting - Business Analyst Intern:
     Gemini failed to generate project recommendations'
   status: error
@@ -2501,3 +2495,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-24T12:16:17'
+- agent: PracticeAgent
+  action: 'Failed portal for Reducate.ai Data Science Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-24T12:16:30'
