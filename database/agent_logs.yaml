@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for TSTEPS PRIVATE LIMITED Machine Learning Intern: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-24T20:51:38'
-- agent: PracticeAgent
   action: 'Failed portal for Solvitude Machine Learning Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2505,3 +2500,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-24T23:06:50'
+- agent: PracticeAgent
+  action: 'Failed portal for Newzeninfotech Solutions Data Science: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-24T23:07:03'
