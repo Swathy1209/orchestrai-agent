@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for StarPoint Properties Artificial Intelligence Intern:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-23T23:52:13'
-- agent: PracticeAgent
   action: 'Failed portal for Pike Partners Group Data Analyst Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2496,3 +2491,8 @@ logs:
     generate project recommendations'
   status: error
   timestamp: '2026-04-24T02:15:59'
+- agent: PracticeAgent
+  action: 'Failed portal for Command Post Technologies, Inc AI/Machine Learning Software
+    Engineering Intern: Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-24T02:16:11'
