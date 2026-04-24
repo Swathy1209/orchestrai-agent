@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Harman Connected Foundational Engineer - AI & Machine
-    Learning: Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-24T14:51:18'
-- agent: PracticeAgent
   action: 'Failed portal for PlanetMeta.Live Machine Learning Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2495,3 +2490,8 @@ logs:
     Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-24T17:01:39'
+- agent: PracticeAgent
+  action: 'Failed portal for Adsoc Media Artificial Intelligence Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-24T17:01:46'
