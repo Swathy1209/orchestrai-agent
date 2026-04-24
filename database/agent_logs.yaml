@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Pehchaan AI Technologies Artificial Intelligence Intern:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-23T23:51:48'
-- agent: PracticeAgent
   action: 'Failed portal for MedPharm Artificial Intelligence (AI) Intern: Gemini
     failed to generate project recommendations'
   status: error
@@ -2496,3 +2491,8 @@ logs:
     (AI): Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-24T02:14:22'
+- agent: PracticeAgent
+  action: 'Failed portal for GCCX AI/ML Engineer: Gemini failed to generate project
+    recommendations'
+  status: error
+  timestamp: '2026-04-24T02:15:11'
