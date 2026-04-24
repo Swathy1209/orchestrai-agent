@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Octave Project Accounting - Business Analyst Intern:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-23T22:14:25'
-- agent: PracticeAgent
   action: 'Failed portal for Euphotic Labs Private Limited Machine Learning Intern:
     Gemini failed to generate project recommendations'
   status: error
@@ -2506,3 +2501,7 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-24T00:01:00'
+- agent: CareerAgent
+  action: 108 jobs fetched
+  level: INFO
+  timestamp: '2026-04-24T00:01:06'
