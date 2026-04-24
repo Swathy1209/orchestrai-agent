@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Property Ledge (Sydney, Australia) Data Science Intern:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-24T14:39:32'
-- agent: PracticeAgent
   action: 'Failed portal for TikTok (General Hire) Machine Learning Engineer Intern
     (TikTok-Recommendation) - 2026 Summer (BS/MS): Gemini failed to generate project
     recommendations'
@@ -2497,3 +2492,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-24T16:46:34'
+- agent: PracticeAgent
+  action: 'Failed portal for Innoknowvex Machine Learning: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-24T16:46:47'
