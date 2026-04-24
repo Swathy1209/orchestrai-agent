@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for LTM Artificial Intelligence Intern: Gemini failed to
-    generate project recommendations'
-  status: error
-  timestamp: '2026-04-24T02:30:55'
-- agent: PracticeAgent
   action: 'Failed portal for ZURU Toys Data Analyst Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2503,3 +2498,7 @@ logs:
     recommendations'
   status: error
   timestamp: '2026-04-24T04:01:17'
+- agent: CareerAgent
+  action: 108 jobs fetched, 93 relevant
+  level: INFO
+  timestamp: '2026-04-24T04:01:26'
