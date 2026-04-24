@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Mesilla Valley Transportation Data Analyst Intern: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-24T05:01:28'
-- agent: PracticeAgent
   action: 'Failed portal for Seaman Corporation Business Analyst Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2491,3 +2486,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-24T07:25:28'
+- agent: PracticeAgent
+  action: 'Failed portal for The Hustle House Machine Learning Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-24T07:25:40'
