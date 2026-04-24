@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for KAYVI BEVERAGES PRIVATE LIMITED Data Science Intern:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-24T08:36:46'
-- agent: PracticeAgent
   action: 'Failed portal for RefinedScience Data Engineering Intern: Detected incomplete
     placeholder content. Regenerating...'
   status: error
@@ -2503,3 +2498,8 @@ logs:
     Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-24T09:28:05'
+- agent: PracticeAgent
+  action: 'Failed portal for Shunya Digital Data Science Intern: Gemini failed to
+    generate project recommendations'
+  status: error
+  timestamp: '2026-04-24T09:28:11'
