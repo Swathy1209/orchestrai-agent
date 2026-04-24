@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for RefinedScience Data Engineering Intern: Detected incomplete
-    placeholder content. Regenerating...'
-  status: error
-  timestamp: '2026-04-23T22:34:54'
-- agent: PracticeAgent
   action: 'Failed portal for Lensa Machine Learning Engineer Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2507,3 +2502,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-24T00:14:02'
+- agent: PracticeAgent
+  action: 'Failed portal for Hayward Holdings, Inc. ERP Dashboard and Data Analyst
+    Intern: Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-24T00:14:16'
