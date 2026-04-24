@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for EnergyBae Machine Learning Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-24T08:56:35'
-- agent: PracticeAgent
   action: 'Failed portal for Siemens Agentic AI Engineer: Gemini failed to generate
     project recommendations'
   status: error
@@ -2505,3 +2500,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-24T10:14:35'
+- agent: PracticeAgent
+  action: 'Failed portal for Greenleap Robotics Private Limited Machine Learning Intern:
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-24T10:15:03'
