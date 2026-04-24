@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Stackwise Data Science Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-24T04:31:20'
-- agent: PracticeAgent
   action: 'Failed portal for Stackwise Machine Learning Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2488,3 +2483,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-24T06:38:50'
+- agent: PracticeAgent
+  action: 'Failed portal for OMNIDYA TECH LLP Machine Learning Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-24T06:39:04'
