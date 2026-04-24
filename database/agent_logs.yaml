@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Praxis Home Retail Limited Data Science Intern: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-23T22:13:40'
-- agent: PracticeAgent
   action: 'Failed portal for Astra Security Machine Learning Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2506,3 +2501,8 @@ logs:
   action: Fetch started
   level: INFO
   timestamp: '2026-04-24T00:00:36'
+- agent: PracticeAgent
+  action: 'Failed portal for Anurag MN Machine Learning Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-24T00:00:45'
