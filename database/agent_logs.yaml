@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for UnifyXperts Data Science Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-24T20:02:39'
-- agent: PracticeAgent
   action: 'Failed portal for Automation Anywhere AI Engineer: Gemini failed to generate
     project recommendations'
   status: error
@@ -2504,3 +2499,8 @@ logs:
     Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-24T22:12:13'
+- agent: PracticeAgent
+  action: 'Failed portal for GreenGas USA Data Engineer - Intern: Gemini failed to
+    generate project recommendations'
+  status: error
+  timestamp: '2026-04-24T22:12:41'
