@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for PracVerse Private Limited Data Science Intern: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-24T04:38:51'
-- agent: PracticeAgent
   action: 'Failed portal for Harman Connected Foundational Engineer - AI & Machine
     Learning: Gemini failed to generate project recommendations'
   status: error
@@ -2486,3 +2481,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-24T06:45:04'
+- agent: PracticeAgent
+  action: 'Failed portal for REALBRIDGE Data Science Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-24T06:45:16'
