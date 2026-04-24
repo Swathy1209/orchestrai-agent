@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for ANZ Banking Group Data Engineer - Data Governance & Quality:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-23T23:57:55'
-- agent: PracticeAgent
   action: 'Failed portal for Relish Artificial Intelligence Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2493,3 +2488,8 @@ logs:
     Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-24T02:27:03'
+- agent: PracticeAgent
+  action: 'Failed portal for RefinedScience Data Engineering Intern: Detected incomplete
+    placeholder content. Regenerating...'
+  status: error
+  timestamp: '2026-04-24T02:27:10'
