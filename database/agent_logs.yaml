@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Trico Electric Cooperative Artificial Intelligence (AI)
-    Intern: Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-24T18:10:55'
-- agent: PracticeAgent
   action: 'Failed portal for Stanford University School of Medicine Data Analyst 1
     (1 Year Fixed Term): Gemini failed to generate project recommendations'
   status: error
@@ -2498,3 +2493,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-24T20:09:41'
+- agent: PracticeAgent
+  action: 'Failed portal for ASSA ABLOY Group Data Analyst Intern: Gemini failed to
+    generate project recommendations'
+  status: error
+  timestamp: '2026-04-24T20:09:53'
