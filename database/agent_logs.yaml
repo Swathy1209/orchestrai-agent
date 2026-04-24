@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Qubixo Artificial Intelligence Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-24T03:59:21'
-- agent: PracticeAgent
   action: 'Failed portal for Echodyne Summer Intern Data Engineer/Software Engineer:
     Gemini failed to generate project recommendations'
   status: error
@@ -2487,3 +2482,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-24T06:01:44'
+- agent: PracticeAgent
+  action: 'Failed portal for Lensa Intern, Data Science: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-24T06:01:58'
