@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Zetheta Algorithms Private Limited Machine Learning Intern:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-24T03:26:46'
-- agent: PracticeAgent
   action: 'Failed portal for SETV Global Machine Learning Intern: Gemini failed to
     generate project recommendations'
   status: error
@@ -2496,3 +2491,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-24T05:03:04'
+- agent: PracticeAgent
+  action: 'Failed portal for Awarno Machine Learning Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-24T05:03:11'
