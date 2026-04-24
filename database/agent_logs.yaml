@@ -1,9 +1,5 @@
 logs:
 - agent: CareerAgent
-  action: 102 jobs fetched
-  level: INFO
-  timestamp: '2026-04-24T16:01:04'
-- agent: CareerAgent
   action: 102 jobs fetched, 87 relevant
   level: INFO
   timestamp: '2026-04-24T16:01:08'
@@ -2492,3 +2488,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-24T18:14:44'
+- agent: PracticeAgent
+  action: 'Failed portal for Astra Security Machine Learning Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-24T18:15:08'
