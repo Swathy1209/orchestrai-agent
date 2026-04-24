@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Spectrum 2026 Spectrum Summer Intern: Business Analyst:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-24T04:03:07'
-- agent: PracticeAgent
   action: 'Failed portal for Awarno Data Science Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2487,3 +2482,8 @@ logs:
   action: Generated Portfolio
   status: success
   timestamp: '2026-04-24T06:06:11'
+- agent: PracticeAgent
+  action: 'Failed portal for Veolia Business Analyst Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-24T06:06:16'
