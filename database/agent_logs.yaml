@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Spotlyte Artificial Intelligence Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-24T04:52:00'
-- agent: PracticeAgent
   action: 'Failed portal for S&P Global Business Analyst: Gemini failed to generate
     project recommendations'
   status: error
@@ -2487,3 +2482,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-24T07:05:10'
+- agent: PracticeAgent
+  action: 'Failed portal for Paramount+ Data Science Intern (Summer 2026 - In-Person
+    - NYC): Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-24T07:05:24'
