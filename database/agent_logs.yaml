@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Cinemate™ Data Science Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-24T12:19:06'
-- agent: PracticeAgent
   action: 'Failed portal for Texas Workforce Commission Data Analyst (Austin): Gemini
     failed to generate project recommendations'
   status: error
@@ -2506,3 +2501,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-24T14:30:09'
+- agent: PracticeAgent
+  action: 'Failed portal for New Jersey Resources Technical Data Analyst Intern: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-24T14:30:22'
