@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for FabAlley Artificial Intelligence Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-24T08:51:56'
-- agent: PracticeAgent
   action: 'Failed portal for Enlight Lab Machine Learning Intern: Gemini failed to
     generate project recommendations'
   status: error
@@ -2505,3 +2500,8 @@ logs:
     recommendations'
   status: error
   timestamp: '2026-04-24T10:04:59'
+- agent: PracticeAgent
+  action: 'Failed portal for AMETEK Data Science and AI Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-24T10:05:07'
