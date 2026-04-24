@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Lensa Business Analyst Intern Remote: Gemini failed to
-    generate project recommendations'
-  status: error
-  timestamp: '2026-04-24T21:16:30'
-- agent: PracticeAgent
   action: 'Failed portal for INDUS Technology, Inc. Business Analyst, Intern: Gemini
     failed to generate project recommendations'
   status: error
@@ -2505,3 +2500,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-24T23:37:29'
+- agent: PracticeAgent
+  action: 'Failed portal for Global Ace Technology Machine Learning Intern: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-24T23:37:41'
