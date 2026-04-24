@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Dassault Systèmes INTERNSHIP: Data Science (6mo June
-    2026): Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-24T18:17:08'
-- agent: PracticeAgent
   action: 'Failed portal for Texas Workforce Commission Data Analyst (Austin): Gemini
     failed to generate project recommendations'
   status: error
@@ -2499,3 +2494,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-24T20:14:55'
+- agent: PracticeAgent
+  action: 'Failed portal for Praxis Home Retail Limited Data Science Intern: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-24T20:15:09'
