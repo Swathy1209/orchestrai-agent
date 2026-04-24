@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Toshiba America Electronic Components, Inc. 5039 Data
-    Analyst Engineering Intern: Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-24T02:31:10'
-- agent: PracticeAgent
   action: 'Failed portal for MSX International Data Analyst - Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2503,3 +2498,7 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-24T04:01:44'
+- agent: CareerAgent
+  action: Stored in GitHub YAML
+  level: INFO
+  timestamp: '2026-04-24T04:02:01'
