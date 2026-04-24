@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Washington Commanders Data Analyst (Intern): Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-23T22:40:13'
-- agent: PracticeAgent
   action: 'Failed portal for Lensa Data Analyst Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2506,3 +2501,8 @@ logs:
     Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-24T00:18:43'
+- agent: PracticeAgent
+  action: 'Failed portal for Verda Healthcare Business Analyst (Junior/Entry Level)
+    - no C2C: Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-24T00:18:56'
