@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Lemnisk Artificial Intelligence Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-24T15:39:30'
-- agent: PracticeAgent
   action: 'Failed portal for AArete Intern, Data Science & Artificial Intelligence
     (Summer 2026): Gemini failed to generate project recommendations'
   status: error
@@ -2495,3 +2490,8 @@ logs:
     Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-24T17:53:42'
+- agent: PracticeAgent
+  action: 'Failed portal for Zeko Data Science Intern: Gemini failed to generate project
+    recommendations'
+  status: error
+  timestamp: '2026-04-24T17:53:56'
