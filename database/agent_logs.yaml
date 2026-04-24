@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Chamadia Group Artificial Intelligence Intern: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-24T21:37:45'
-- agent: PracticeAgent
   action: 'Failed portal for OMNIDYA TECH LLP Artificial Intelligence Intern: Gemini
     failed to generate project recommendations'
   status: error
@@ -2505,3 +2500,8 @@ logs:
     generate project recommendations'
   status: error
   timestamp: '2026-04-24T23:48:19'
+- agent: PracticeAgent
+  action: 'Failed portal for IIDE Education Private Limited Artificial Intelligence
+    Intern: Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-24T23:48:32'
