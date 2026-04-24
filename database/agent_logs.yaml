@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for ACCA Careers Business Analyst Intern: Gemini failed to
-    generate project recommendations'
-  status: error
-  timestamp: '2026-04-23T22:42:14'
-- agent: PracticeAgent
   action: 'Failed portal for MTX Group Business Analyst Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2505,3 +2500,8 @@ logs:
     Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-24T00:21:04'
+- agent: PracticeAgent
+  action: 'Failed portal for ByteDance Machine Learning Engineer Intern (Global E-commerce
+    Risk Control) - 2026 Summer (BS/MS): Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-24T00:21:18'
