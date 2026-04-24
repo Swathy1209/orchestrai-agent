@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for NESA Innovation Labs Artificial Intelligence Intern:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-24T05:03:48'
-- agent: PracticeAgent
   action: 'Failed portal for Thermo Fisher Data Engineer II: Gemini failed to generate
     project recommendations'
   status: error
@@ -2491,3 +2486,8 @@ logs:
     Artificial Intelligence Intern: Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-24T07:30:09'
+- agent: PracticeAgent
+  action: 'Failed portal for Lemnisk Artificial Intelligence Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-24T07:30:22'
