@@ -1,9 +1,4 @@
 logs:
-- agent: PracticeAgent
-  action: 'Failed portal for VIZON Machine Learning Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-24T16:00:28'
 - agent: CareerAgent
   action: Fetch started
   level: INFO
@@ -2491,3 +2486,8 @@ logs:
     Support, Emerging Talent Intern (Summer): Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-24T18:13:17'
+- agent: PracticeAgent
+  action: 'Failed portal for SystemaOps Data Science Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-24T18:13:36'
