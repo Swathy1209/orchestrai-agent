@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Swiggy Business Analyst: Gemini failed to generate project
-    recommendations'
-  status: error
-  timestamp: '2026-04-23T23:20:23'
-- agent: PracticeAgent
   action: 'Failed portal for Neurasys Machine Learning: Gemini failed to generate
     project recommendations'
   status: error
@@ -2508,3 +2503,8 @@ logs:
     generate project recommendations'
   status: error
   timestamp: '2026-04-24T01:09:29'
+- agent: PracticeAgent
+  action: 'Failed portal for JK Moving Services Data Science and AI Intern: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-24T01:09:54'
