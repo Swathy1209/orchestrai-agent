@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for SAV (Scale Asia Ventures) AI Engineer Intern: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-24T09:24:09'
-- agent: PracticeAgent
   action: 'Failed portal for Black Potato Systems Data Engineering & Database Research:
     Gemini failed to generate project recommendations'
   status: error
@@ -2507,3 +2502,8 @@ logs:
     Intern: Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-24T11:32:57'
+- agent: PracticeAgent
+  action: 'Failed portal for ScentAir Technology & Data Science Intern – ScentAir
+    (Charlotte, NC): Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-24T11:33:09'
