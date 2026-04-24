@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for HSBC Business Analyst- Transformation: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-24T15:08:26'
-- agent: PracticeAgent
   action: 'Failed portal for Lensa AI/Machine Learning Engineering Intern (MS/Ph.D.
     New Grad): Gemini failed to generate project recommendations'
   status: error
@@ -2495,3 +2490,8 @@ logs:
     Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-24T17:19:51'
+- agent: PracticeAgent
+  action: 'Failed portal for Awarno Data Science Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-24T17:20:05'
