@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for PULPUL SOFTTECH PRIVATE LIMITED Artificial Intelligence
-    Intern: Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-24T11:59:45'
-- agent: PracticeAgent
   action: 'Failed portal for The Souled Store Artificial Intelligence Intern: Gemini
     failed to generate project recommendations'
   status: error
@@ -2496,3 +2491,8 @@ logs:
   action: Generated 3 security fix PRs
   status: completed
   timestamp: '2026-04-24T14:07:10'
+- agent: PracticeAgent
+  action: 'Failed portal for Globik AI Private Limited Machine Learning Intern: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-24T14:07:14'
