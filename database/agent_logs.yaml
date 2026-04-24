@@ -1,9 +1,4 @@
 logs:
-- agent: PracticeAgent
-  action: 'Failed portal for White & Co Machine Learning Intern: Gemini failed to
-    generate project recommendations'
-  status: error
-  timestamp: '2026-04-24T02:26:38'
 - agent: CoverLetterAgent
   action: Generated 1037 cover letters
   status: success
@@ -2502,3 +2497,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-24T03:52:35'
+- agent: PracticeAgent
+  action: 'Failed portal for Rebel Foods Private Limited Data Science Intern: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-24T03:52:47'
