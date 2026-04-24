@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Greater Than Educational Technologies Data Science Intern:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-24T09:59:44'
-- agent: PracticeAgent
   action: 'Failed portal for Floneo Data Science Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2501,3 +2496,8 @@ logs:
   action: Generated Portfolio
   status: success
   timestamp: '2026-04-24T12:07:28'
+- agent: PracticeAgent
+  action: 'Failed portal for Ask First Machine Learning Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-24T12:07:36'
