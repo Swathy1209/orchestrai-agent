@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Aadi Foundation Machine Learning Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-23T22:14:53'
-- agent: PracticeAgent
   action: 'Failed portal for BioQuant IQ Artificial Intelligence Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2504,3 +2499,8 @@ logs:
   action: 108 jobs fetched, 93 relevant
   level: INFO
   timestamp: '2026-04-24T00:01:11'
+- agent: PracticeAgent
+  action: 'Failed portal for Mindenious Edutech Machine Learning Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-24T00:01:16'
