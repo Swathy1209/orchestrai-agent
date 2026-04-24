@@ -1,9 +1,4 @@
 logs:
-- agent: SkillAgent
-  action: Skill gap analysis complete
-  status: success
-  timestamp: '2026-04-24T12:02:06'
-  details: Analyzed 1054 jobs.
 - agent: PracticeAgent
   action: 'Failed portal for Across The Globe (ATG) Machine Learning Intern: Gemini
     failed to generate project recommendations'
@@ -2501,3 +2496,9 @@ logs:
     Engineering (Summer 2026): Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-24T14:09:51'
+- agent: PracticeAgent
+  action: 'Failed portal for ForFutures Financial, Planning, a financial advisory
+    practice of Ameriprise Financial Services LLC AI/Data Science Graduate Intern:
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-24T14:10:20'
