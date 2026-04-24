@@ -1,9 +1,5 @@
 logs:
 - agent: CareerAgent
-  action: Stored in GitHub YAML
-  level: INFO
-  timestamp: '2026-04-24T01:16:10'
-- agent: CareerAgent
   action: Email delegation passed to ExecutionAgent
   level: INFO
   timestamp: '2026-04-24T01:16:15'
@@ -2497,3 +2493,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-24T03:09:25'
+- agent: PracticeAgent
+  action: 'Failed portal for Alchelyst India Pvt Ltd Techno Functional Operations/Data
+    Analyst: Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-24T03:09:38'
