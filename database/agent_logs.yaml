@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Webs IT Solution Business Analyst Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-24T11:53:34'
-- agent: PracticeAgent
   action: 'Failed portal for Shopee Business Analyst Intern, Group President’s Strategy
     Office (Summer 2026): Gemini failed to generate project recommendations'
   status: error
@@ -2498,3 +2493,8 @@ logs:
   action: Email delegation passed to ExecutionAgent
   level: INFO
   timestamp: '2026-04-24T14:01:34'
+- agent: PracticeAgent
+  action: 'Failed portal for Expose Trendze Machine Learning Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-24T14:01:38'
