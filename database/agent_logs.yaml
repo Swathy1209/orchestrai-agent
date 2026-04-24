@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Metropolitan Transportation Authority Data Science Maintenance
-    Support, Emerging Talent Intern (Summer): Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-24T10:10:55'
-- agent: PracticeAgent
   action: 'Failed portal for Befach Data Science Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2500,3 +2495,8 @@ logs:
     Chain & Logistics) - 2026 Start (PhD): Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-24T12:22:36'
+- agent: PracticeAgent
+  action: 'Failed portal for Dev Story Data Science Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-24T12:22:44'
