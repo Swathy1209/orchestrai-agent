@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for State of Florida DATA SCIENCE INTERNSHIP: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-23T22:29:32'
-- agent: PracticeAgent
   action: 'Failed portal for Pairwise Data Science Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2506,3 +2501,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-24T00:10:33'
+- agent: PracticeAgent
+  action: 'Failed portal for BioQuant IQ Artificial Intelligence Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-24T00:10:45'
