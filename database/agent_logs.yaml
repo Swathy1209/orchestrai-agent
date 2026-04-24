@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Soch Pe Kharoch Artificial Intelligence Intern: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-24T09:01:48'
-- agent: PracticeAgent
   action: 'Failed portal for EXL Data Analyst Associate: Gemini failed to generate
     project recommendations'
   status: error
@@ -2507,3 +2502,8 @@ logs:
     (Internship): Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-24T10:30:13'
+- agent: PracticeAgent
+  action: 'Failed portal for Turing Labs AI Engineer Intern - build stealth model:
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-24T10:30:27'
