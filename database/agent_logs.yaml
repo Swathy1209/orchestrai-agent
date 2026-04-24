@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Gala Circle Inc. Data Analyst Intern-Mandarin Bilingual:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-24T00:15:09'
-- agent: PracticeAgent
   action: 'Failed portal for TZURONI LTD. (Kefar Sava, Israel) Data Science Intern:
     Gemini failed to generate project recommendations'
   status: error
@@ -2495,3 +2490,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-24T02:34:54'
+- agent: PracticeAgent
+  action: 'Failed portal for Innoknowvex Data Science: Gemini failed to generate project
+    recommendations'
+  status: error
+  timestamp: '2026-04-24T02:34:59'
