@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for ZURU Toys Data Analyst Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-24T02:30:59'
-- agent: PracticeAgent
   action: 'Failed portal for Old World Industries Data Analyst Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2502,3 +2497,9 @@ logs:
   action: 108 jobs fetched, 93 relevant
   level: INFO
   timestamp: '2026-04-24T04:01:26'
+- agent: PracticeAgent
+  action: 'Failed portal for TikTok Machine Learning Engineer Intern (Data-Search-TikTok
+    Recommendation Team) - 2026 Summer (BS/MS): Gemini failed to generate project
+    recommendations'
+  status: error
+  timestamp: '2026-04-24T04:01:32'
