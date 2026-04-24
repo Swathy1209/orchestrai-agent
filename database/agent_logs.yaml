@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Krasa Care Artificial Intelligence Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-24T09:25:11'
-- agent: PracticeAgent
   action: 'Failed portal for DivyaNetra AI Artificial Intelligence (AI): Gemini failed
     to generate project recommendations'
   status: error
@@ -2507,3 +2502,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-24T11:35:07'
+- agent: PracticeAgent
+  action: 'Failed portal for QuantGlobal Artificial Intelligence Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-24T11:35:20'
