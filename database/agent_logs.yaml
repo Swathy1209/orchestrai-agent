@@ -1,8 +1,4 @@
 logs:
-- agent: PortfolioBuilderAgent
-  action: Generated Portfolio
-  status: success
-  timestamp: '2026-04-24T16:07:41'
 - agent: PracticeAgent
   action: 'Failed portal for Elite Workforce Machine Learning Intern: Gemini failed
     to generate project recommendations'
@@ -2499,3 +2495,8 @@ logs:
     Intelligence Intern: Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-24T18:24:51'
+- agent: PracticeAgent
+  action: 'Failed portal for INFICON Data Science Intern (Remote): Gemini failed to
+    generate project recommendations'
+  status: error
+  timestamp: '2026-04-24T18:25:04'
