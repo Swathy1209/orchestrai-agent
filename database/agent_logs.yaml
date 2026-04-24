@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Alchelyst India Pvt Ltd Techno Functional Operations/Data
-    Analyst: Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-23T23:20:42'
-- agent: PracticeAgent
   action: 'Failed portal for Amdocs Data Engineer: Gemini failed to generate project
     recommendations'
   status: error
@@ -2508,3 +2503,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-24T01:10:20'
+- agent: PracticeAgent
+  action: 'Failed portal for Krause Group Data Analyst Intern (Finance): Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-24T01:10:32'
