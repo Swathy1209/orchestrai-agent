@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for ARVO Internship - Computer Vision: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-23T23:10:02'
-- agent: PracticeAgent
   action: 'Failed portal for Anavai Technologies Machine Learning Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2507,3 +2502,8 @@ logs:
     Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-24T00:54:44'
+- agent: PracticeAgent
+  action: 'Failed portal for Learning Skills Academy Data And ML Engineer: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-24T00:55:35'
