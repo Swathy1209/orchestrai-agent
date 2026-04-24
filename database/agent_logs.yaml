@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Paramount+ Data Science Intern (Summer 2026 - In-Person
-    - NYC): Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-24T15:13:52'
-- agent: PracticeAgent
   action: 'Failed portal for Cohere Machine Learning Intern/Co-op  (Spring/Summer
     2026): Gemini failed to generate project recommendations'
   status: error
@@ -2495,3 +2490,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-24T17:33:31'
+- agent: PracticeAgent
+  action: 'Failed portal for Warewe Consultancy Private Limited Data Science Intern:
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-24T17:33:45'
