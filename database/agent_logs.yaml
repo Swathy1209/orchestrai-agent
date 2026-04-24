@@ -1,9 +1,4 @@
 logs:
-- agent: PracticeAgent
-  action: 'Failed portal for Allo Innoware Data Science Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-24T12:07:17'
 - agent: PortfolioBuilderAgent
   action: Generated Portfolio
   status: success
@@ -2505,3 +2500,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-24T14:17:52'
+- agent: PracticeAgent
+  action: 'Failed portal for Ekimetrics 6 months Internship in Strategy & Data Science
+    | New York: Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-24T14:18:24'
