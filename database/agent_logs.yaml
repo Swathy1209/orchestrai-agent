@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Relinns Technologies Artificial Intelligence (AI): Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-24T01:06:14'
-- agent: PracticeAgent
   action: 'Failed portal for ILEAD Kolkata Artificial Intelligence (AI): Gemini failed
     to generate project recommendations'
   status: error
@@ -2494,3 +2489,8 @@ logs:
     generate project recommendations'
   status: error
   timestamp: '2026-04-24T03:01:24'
+- agent: PracticeAgent
+  action: 'Failed portal for Tech Economy ML-AI Engineering Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-24T03:01:36'
