@@ -1,9 +1,4 @@
 logs:
-- agent: PracticeAgent
-  action: 'Failed portal for ByteDance Machine Learning Engineer Intern (E-commerce
-    Governance Algorithms) - 2026 Start (Phd): Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-25T12:00:47'
 - agent: CareerAgent
   action: 100 jobs fetched
   level: INFO
@@ -2501,3 +2496,8 @@ logs:
     Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-25T14:03:46'
+- agent: PracticeAgent
+  action: 'Failed portal for Ekfrazo Technologies Azure Data Engineer: Detected incomplete
+    placeholder content. Regenerating...'
+  status: error
+  timestamp: '2026-04-25T14:03:51'
