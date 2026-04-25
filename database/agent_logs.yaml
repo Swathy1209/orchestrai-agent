@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Udaghosh Social Welfare Society Machine Learning Intern:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-25T01:55:46'
-- agent: PracticeAgent
   action: 'Failed portal for ANZ Banking Group Data Engineer - Data Governance & Quality:
     Gemini failed to generate project recommendations'
   status: error
@@ -2497,3 +2492,7 @@ logs:
   action: Fetch started
   level: INFO
   timestamp: '2026-04-25T04:00:29'
+- agent: CareerAgent
+  action: 100 jobs fetched, 85 relevant
+  level: INFO
+  timestamp: '2026-04-25T04:00:39'
