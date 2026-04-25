@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for SreeMedhas Software Technologies Data Science Intern:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-25T20:16:55'
-- agent: PracticeAgent
   action: 'Failed portal for Kneron ALGORITHM DEVELOPMENT INTERN (DEEP LEARNING):
     Gemini failed to generate project recommendations'
   status: error
@@ -2500,3 +2495,8 @@ logs:
     recommendations'
   status: error
   timestamp: '2026-04-25T22:08:46'
+- agent: PracticeAgent
+  action: 'Failed portal for Talkspace NLP Research Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-25T22:09:01'
