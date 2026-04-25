@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Pairwise Data Science Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-24T22:31:30'
-- agent: PracticeAgent
   action: 'Failed portal for New Jersey Resources Technical Data Analyst Intern: Gemini
     failed to generate project recommendations'
   status: error
@@ -2503,3 +2498,8 @@ logs:
     generate project recommendations'
   status: error
   timestamp: '2026-04-25T00:44:05'
+- agent: PracticeAgent
+  action: 'Failed portal for Symonis Machine Learning: Gemini failed to generate project
+    recommendations'
+  status: error
+  timestamp: '2026-04-25T00:44:16'
