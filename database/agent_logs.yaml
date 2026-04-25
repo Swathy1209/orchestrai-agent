@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for AMETEK Data Science and AI Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-25T21:59:16'
-- agent: PracticeAgent
   action: 'Failed portal for Greater New York Insurance Companies Data Science Intern
     - Summer 2026: Gemini failed to generate project recommendations'
   status: error
@@ -2501,3 +2496,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-25T23:58:20'
+- agent: PracticeAgent
+  action: 'Failed portal for Reducate.ai Machine Learning Intern: Gemini failed to
+    generate project recommendations'
+  status: error
+  timestamp: '2026-04-25T23:58:32'
