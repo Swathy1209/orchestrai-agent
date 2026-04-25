@@ -1,9 +1,4 @@
 logs:
-- agent: PracticeAgent
-  action: 'Failed portal for LawDocs Machine Learning Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-25T06:00:26'
 - agent: CareerAgent
   action: Fetch started
   level: INFO
@@ -2498,3 +2493,8 @@ logs:
     generate project recommendations'
   status: error
   timestamp: '2026-04-25T07:38:02'
+- agent: PracticeAgent
+  action: 'Failed portal for Sanatan Organic Artificial Intelligence Intern: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-25T07:38:07'
