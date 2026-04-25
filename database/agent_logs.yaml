@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Futurewei Technologies, Inc. Computer Vision Research
-    Intern: Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-25T21:59:54'
-- agent: PracticeAgent
   action: 'Failed portal for Dassault Systèmes INTERNSHIP: Data Science (6mo June
     2026): Gemini failed to generate project recommendations'
   status: error
@@ -2501,3 +2496,8 @@ logs:
     Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-25T23:58:57'
+- agent: PracticeAgent
+  action: 'Failed portal for Emerson Data Engineer: Gemini failed to generate project
+    recommendations'
+  status: error
+  timestamp: '2026-04-25T23:59:10'
