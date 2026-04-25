@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for New Jersey Courts Business Analyst Intern (Hourly): Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-25T21:12:47'
-- agent: PracticeAgent
   action: 'Failed portal for Intuit Staff Compliance Assurance  Technical Data Analyst:
     Gemini failed to generate project recommendations'
   status: error
@@ -2500,3 +2495,8 @@ logs:
     generate project recommendations'
   status: error
   timestamp: '2026-04-25T23:09:05'
+- agent: PracticeAgent
+  action: 'Failed portal for SmartLabprojects Machine Learning Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-25T23:09:17'
