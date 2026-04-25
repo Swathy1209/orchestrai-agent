@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for SavvyTrix Education Pvt. Ltd. Data Science Intern: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-25T19:55:14'
-- agent: PracticeAgent
   action: 'Failed portal for WAH Care Artificial Intelligence Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2499,3 +2494,8 @@ logs:
     Learning Intern: Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-25T21:44:28'
+- agent: PracticeAgent
+  action: 'Failed portal for Barclays Business Analyst: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-25T21:44:39'
