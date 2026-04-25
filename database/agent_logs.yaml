@@ -1,8 +1,4 @@
 logs:
-- agent: CareerAgent
-  action: Fetch started
-  level: INFO
-  timestamp: '2026-04-24T22:00:33'
 - agent: PracticeAgent
   action: 'Failed portal for Barclays Business Analyst: Gemini failed to generate
     project recommendations'
@@ -2502,3 +2498,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-25T00:11:55'
+- agent: PracticeAgent
+  action: 'Failed portal for BioQuant IQ Artificial Intelligence Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-25T00:12:09'
