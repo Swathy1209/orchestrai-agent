@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for ForFutures Financial, Planning, a financial advisory
-    practice of Ameriprise Financial Services LLC Data Science Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-25T06:58:44'
-- agent: PracticeAgent
   action: 'Failed portal for Wobot Intelligence Private Limited Machine Learning Intern:
     Gemini failed to generate project recommendations'
   status: error
@@ -2502,3 +2496,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-25T08:12:32'
+- agent: PracticeAgent
+  action: 'Failed portal for AgileOne Data Analyst: Gemini failed to generate project
+    recommendations'
+  status: error
+  timestamp: '2026-04-25T08:12:44'
