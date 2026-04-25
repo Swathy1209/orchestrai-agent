@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for BioQuant IQ Artificial Intelligence Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-25T20:05:57'
-- agent: PracticeAgent
   action: 'Failed portal for Capgemini Data Analyst: Gemini failed to generate project
     recommendations'
   status: error
@@ -2504,3 +2499,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-25T22:00:20'
+- agent: PracticeAgent
+  action: 'Failed portal for Friendship Public Charter School Data Analyst: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-25T22:00:32'
