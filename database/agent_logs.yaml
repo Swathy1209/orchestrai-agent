@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Infosys Senior Azure AI Engineer: Detected incomplete
-    placeholder content. Regenerating...'
-  status: error
-  timestamp: '2026-04-25T16:05:57'
-- agent: PracticeAgent
   action: 'Failed portal for Passerine Wealth Solution Private Limited Machine Learning
     Intern: Gemini failed to generate project recommendations'
   status: error
@@ -2487,3 +2482,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-25T18:08:17'
+- agent: PracticeAgent
+  action: 'Failed portal for CloudZapier Machine Learning Intern: Gemini failed to
+    generate project recommendations'
+  status: error
+  timestamp: '2026-04-25T18:08:31'
