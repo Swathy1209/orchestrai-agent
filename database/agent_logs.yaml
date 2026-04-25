@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Procter & Gamble Data Engineer: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-25T08:19:19'
-- agent: PracticeAgent
   action: 'Failed portal for MHLondon Data Science Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2495,3 +2490,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-25T10:33:04'
+- agent: PracticeAgent
+  action: 'Failed portal for Handshake AI/Machine Learning Engineer Intern: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-25T10:33:11'
