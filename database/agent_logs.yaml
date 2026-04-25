@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for SmartLabprojects Artificial Intelligence Intern: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-25T13:04:49'
-- agent: PracticeAgent
   action: 'Failed portal for RAJ DRISHTI OPTICS Data Science Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2501,3 +2496,8 @@ logs:
     generate project recommendations'
   status: error
   timestamp: '2026-04-25T15:11:05'
+- agent: PracticeAgent
+  action: 'Failed portal for Unimonks Data Science Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-25T15:11:10'
