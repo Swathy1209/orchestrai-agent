@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Qubixo Artificial Intelligence Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-25T21:01:29'
-- agent: PracticeAgent
   action: 'Failed portal for Uber Data Engineer II: Gemini failed to generate project
     recommendations'
   status: error
@@ -2500,3 +2495,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-25T22:56:07'
+- agent: PracticeAgent
+  action: 'Failed portal for Aviraj Infotech Private Limited Machine Learning Intern:
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-25T22:56:20'
