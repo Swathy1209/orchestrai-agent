@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Gainwell Technologies Pharmacy Benefit Management Business
-    Architect/Data Analyst: Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-25T12:02:13'
-- agent: PracticeAgent
   action: 'Failed portal for TikTok Research Scientist Intern (TikTok - NextGen Recommendation)
     - 2026 Start (PhD): Gemini failed to generate project recommendations'
   status: error
@@ -2505,3 +2500,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-25T14:04:48'
+- agent: PracticeAgent
+  action: 'Failed portal for Infosys Senior Azure AI Engineer: Detected incomplete
+    placeholder content. Regenerating...'
+  status: error
+  timestamp: '2026-04-25T14:05:01'
