@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Primetrade.ai Machine Learning (Modeling and Evaluation):
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-25T05:34:11'
-- agent: PracticeAgent
   action: 'Failed portal for Fortem Biosciences Private Limited Data Science Intern:
     Gemini failed to generate project recommendations'
   status: error
@@ -2496,3 +2491,8 @@ logs:
     generate project recommendations'
   status: error
   timestamp: '2026-04-25T06:44:14'
+- agent: PracticeAgent
+  action: 'Failed portal for Cylinder Health Junior Data Engineer: Detected incomplete
+    placeholder content. Regenerating...'
+  status: error
+  timestamp: '2026-04-25T06:44:21'
