@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Astra Security Machine Learning Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-24T22:15:22'
-- agent: PracticeAgent
   action: 'Failed portal for CodeTikki WorkSpace Machine Learning Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2505,3 +2500,8 @@ logs:
     Data Cycling Center) - 2026 Start (BS/MS): Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-25T00:27:03'
+- agent: PracticeAgent
+  action: 'Failed portal for ByteDance Benefits Operation Data Analyst Project Intern
+    - 2026 Start (BS): Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-25T00:27:16'
