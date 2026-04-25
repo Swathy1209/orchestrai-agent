@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for REALBRIDGE Data Science Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-25T19:31:50'
-- agent: PracticeAgent
   action: 'Failed portal for California Medical Behavioral Health Data Science Intern:
     Gemini failed to generate project recommendations'
   status: error
@@ -2497,3 +2492,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-25T21:20:40'
+- agent: PracticeAgent
+  action: 'Failed portal for Green Letter Technologies Artificial Intelligence Intern:
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-25T21:20:52'
