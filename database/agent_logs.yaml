@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Catch Sports Analytics Sports Data Analyst: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-25T07:04:56'
-- agent: PracticeAgent
   action: 'Failed portal for ServiceHive Machine Learning Intern: Gemini failed to
     generate project recommendations'
   status: error
@@ -2502,3 +2497,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-25T08:18:54'
+- agent: PracticeAgent
+  action: 'Failed portal for Next Labs Data Science Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-25T08:19:00'
