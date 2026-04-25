@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Yoliday LLP Data Science Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-25T07:40:54'
-- agent: PracticeAgent
   action: 'Failed portal for Fine Data Analytics Private Limited Artificial Intelligence
     Intern: Gemini failed to generate project recommendations'
   status: error
@@ -2503,3 +2498,8 @@ logs:
     Analyst Intern: Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-25T09:36:40'
+- agent: PracticeAgent
+  action: 'Failed portal for STEMpedia Data Science Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-25T09:37:04'
