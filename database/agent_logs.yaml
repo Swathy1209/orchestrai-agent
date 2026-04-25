@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Optum Senior Data Engineering Consultant: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-25T19:42:22'
-- agent: PracticeAgent
   action: 'Failed portal for Medidata Solutions Data Science Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2497,3 +2492,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-25T21:31:24'
+- agent: PracticeAgent
+  action: 'Failed portal for D''Moksha Homes Data Science Intern: Gemini failed to
+    generate project recommendations'
+  status: error
+  timestamp: '2026-04-25T21:31:36'
