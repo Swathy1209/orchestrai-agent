@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Continental Finance Company Data Science Intern: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-25T12:45:07'
-- agent: PracticeAgent
   action: 'Failed portal for Adsoc Media Artificial Intelligence Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2500,3 +2495,8 @@ logs:
   action: Generated match scores for 1067 internships
   status: success
   timestamp: '2026-04-25T15:03:35'
+- agent: PracticeAgent
+  action: 'Failed portal for GreenLeaf, a Chefs'' Warehouse company Data Analyst Intern:
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-25T15:03:40'
