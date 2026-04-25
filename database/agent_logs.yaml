@@ -1,9 +1,4 @@
 logs:
-- agent: PracticeAgent
-  action: 'Failed portal for Everstylish Lifestyle Private Limited Data Science Intern:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-25T14:32:12'
 - agent: CoverLetterAgent
   action: Generated 1067 cover letters
   status: success
@@ -2505,3 +2500,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-25T15:58:26'
+- agent: PracticeAgent
+  action: 'Failed portal for Next Labs Data Science Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-25T15:58:39'
