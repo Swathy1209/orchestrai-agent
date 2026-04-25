@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Turerz Sole Proprietorship Artificial Intelligence Intern:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-25T15:40:22'
-- agent: PracticeAgent
   action: 'Failed portal for DeepThought CultureTech Ventures Private Limited Machine
     Learning Intern: Gemini failed to generate project recommendations'
   status: error
@@ -2493,3 +2488,8 @@ logs:
     recommendations'
   status: error
   timestamp: '2026-04-25T17:42:41'
+- agent: PracticeAgent
+  action: 'Failed portal for Novaflow (YC S25) Machine Learning Engineer Intern -
+    Summer 2026: Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-25T17:42:54'
