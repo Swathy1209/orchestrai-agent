@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Grivaa Consultancy Services Data Science Intern: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-25T14:03:21'
-- agent: PracticeAgent
   action: 'Failed portal for Maersk Business Analyst – Financial Planning & Reporting:
     Gemini failed to generate project recommendations'
   status: error
@@ -2503,3 +2498,8 @@ logs:
     Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-25T15:40:22'
+- agent: PracticeAgent
+  action: 'Failed portal for DeepThought CultureTech Ventures Private Limited Machine
+    Learning Intern: Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-25T15:40:35'
