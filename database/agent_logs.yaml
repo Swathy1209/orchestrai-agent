@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Arhant Solutions Data Science Intern: Gemini failed to
-    generate project recommendations'
-  status: error
-  timestamp: '2026-04-25T05:59:09'
-- agent: PracticeAgent
   action: 'Failed portal for Tidal7 Asia - A J7 Agency Data Science Intern: Gemini
     failed to generate project recommendations'
   status: error
@@ -2498,3 +2493,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-25T07:36:44'
+- agent: PracticeAgent
+  action: 'Failed portal for Career-Domain Data Science Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-25T07:36:51'
