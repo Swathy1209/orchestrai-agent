@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Go Offer Data Analyst: Gemini failed to generate project
-    recommendations'
-  status: error
-  timestamp: '2026-04-25T14:36:34'
-- agent: PracticeAgent
   action: 'Failed portal for Ophtechnics Eyeline Systems Private Limited Data Science
     Intern: Gemini failed to generate project recommendations'
   status: error
@@ -2504,3 +2499,8 @@ logs:
   action: 100 jobs fetched, 85 relevant
   level: INFO
   timestamp: '2026-04-25T16:01:09'
+- agent: PracticeAgent
+  action: 'Failed portal for GreenGas USA Data Engineer - Intern: Gemini failed to
+    generate project recommendations'
+  status: error
+  timestamp: '2026-04-25T16:01:15'
