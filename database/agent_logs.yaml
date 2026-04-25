@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Anavai Technologies Machine Learning Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-25T11:17:01'
-- agent: PracticeAgent
   action: 'Failed portal for Artha Energy Projects Private Limited Data Science: Gemini
     failed to generate project recommendations'
   status: error
@@ -2504,3 +2499,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-25T13:33:01'
+- agent: PracticeAgent
+  action: 'Failed portal for Ibhatech.com Data Science Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-25T13:33:13'
