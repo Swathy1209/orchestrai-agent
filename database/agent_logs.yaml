@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for GenPark Artificial intelligence engineer intern: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-25T12:57:11'
-- agent: PracticeAgent
   action: 'Failed portal for Kodiak Fall 2026 Intern, Artificial Intelligence/Machine
     Learning: Gemini failed to generate project recommendations'
   status: error
@@ -2499,3 +2494,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-25T15:08:27'
+- agent: PracticeAgent
+  action: 'Failed portal for Scowtt Intern - ML Engineering: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-25T15:08:32'
