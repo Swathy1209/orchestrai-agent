@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for SAS Group Data Science Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-25T18:05:28'
-- agent: PracticeAgent
   action: 'Failed portal for Boston Consulting Grp Lead AI Engineer: Gemini failed
     to generate project recommendations'
   status: error
@@ -2491,3 +2486,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-25T20:04:32'
+- agent: PracticeAgent
+  action: 'Failed portal for Grroom Data Science Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-25T20:04:38'
