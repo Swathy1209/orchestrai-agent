@@ -1,9 +1,4 @@
 logs:
-- agent: PracticeAgent
-  action: 'Failed portal for HSBC Senior Business Analyst: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-25T04:02:22'
 - agent: SkillAgent
   action: Skill gap analysis complete
   status: success
@@ -2501,3 +2496,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-25T05:53:18'
+- agent: PracticeAgent
+  action: 'Failed portal for The Skill Guru Foundation Data Science Intern: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-25T05:53:25'
