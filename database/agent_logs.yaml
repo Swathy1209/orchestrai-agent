@@ -1,8 +1,4 @@
 logs:
-- agent: CareerAgent
-  action: Email delegation passed to ExecutionAgent
-  level: INFO
-  timestamp: '2026-04-25T20:01:22'
 - agent: SkillAgent
   action: SkillAgent run initiated
   status: success
@@ -2503,3 +2499,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-25T21:51:05'
+- agent: PracticeAgent
+  action: 'Failed portal for Monkhub Data Science Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-25T21:51:17'
