@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Excelitas Technologies Corp. Data Analyst Intern: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-25T21:42:56'
-- agent: PracticeAgent
   action: 'Failed portal for Trinidad Benham Intern, Information Technology (IT Business
     Analyst): Gemini failed to generate project recommendations'
   status: error
@@ -2502,3 +2497,8 @@ logs:
     Summer 2026: Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-25T23:42:04'
+- agent: PracticeAgent
+  action: 'Failed portal for IndiaBizForSale.com Data Science Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-25T23:42:16'
