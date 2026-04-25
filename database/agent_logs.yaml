@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for CoPatible AI/ML Engineer Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-25T21:30:59'
-- agent: PracticeAgent
   action: 'Failed portal for Envision Next Data Analyst Internship in Thane, Navi
     Mumbai, Panvel: Gemini failed to generate project recommendations'
   status: error
@@ -2502,3 +2497,8 @@ logs:
     Internship in Ahmedabad: Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-25T23:30:00'
+- agent: PracticeAgent
+  action: 'Failed portal for FlyNava Technologies Data Science Internship in Bangalore:
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-25T23:30:13'
