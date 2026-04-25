@@ -1,8 +1,4 @@
 logs:
-- agent: CareerAgent
-  action: Email delegation passed to ExecutionAgent
-  level: INFO
-  timestamp: '2026-04-25T02:01:18'
 - agent: SkillAgent
   action: SkillAgent run initiated
   status: success
@@ -2497,3 +2493,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-25T04:07:09'
+- agent: PracticeAgent
+  action: 'Failed portal for Reducate.ai Artificial Intelligence Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-25T04:07:24'
