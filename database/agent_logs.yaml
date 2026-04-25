@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for The Caliper Lab (Toronto, Canada) Data Science Intern:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-25T12:05:07'
-- agent: PracticeAgent
   action: 'Failed portal for Greenleap Robotics Private Limited Machine Learning Intern:
     Gemini failed to generate project recommendations'
   status: error
@@ -2502,3 +2497,8 @@ logs:
     Intelligence Intern: Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-25T14:12:38'
+- agent: PracticeAgent
+  action: 'Failed portal for INFICON Data Science Intern (Remote): Gemini failed to
+    generate project recommendations'
+  status: error
+  timestamp: '2026-04-25T14:12:51'
