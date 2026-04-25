@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Novaflow (YC S25) Machine Learning Engineer Intern -
-    Summer 2026: Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-25T09:59:36'
-- agent: PracticeAgent
   action: 'Failed portal for PetSapiens Private Limited Data Science Intern: Gemini
     failed to generate project recommendations'
   status: error
@@ -2497,3 +2492,8 @@ logs:
   action: Fetch started
   level: INFO
   timestamp: '2026-04-25T12:00:30'
+- agent: PracticeAgent
+  action: 'Failed portal for ByteDance Machine Learning Engineer Intern (E-commerce
+    Governance Algorithms) - 2026 Start (Phd): Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-25T12:00:47'
