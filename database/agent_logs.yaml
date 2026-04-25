@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Nexus Energy Inc. Junior Data Analyst Intern: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-25T05:37:56'
-- agent: PracticeAgent
   action: 'Failed portal for Kumaresh Chinnaswamy Machine Learning Intern: Gemini
     failed to generate project recommendations'
   status: error
@@ -2497,3 +2492,9 @@ logs:
     Start (BS/MS): Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-25T06:50:16'
+- agent: PracticeAgent
+  action: 'Failed portal for TikTok Business Analyst Project Intern - Monetization
+    Strategy & Operations - 2026 Start (BS/MS): Gemini failed to generate project
+    recommendations'
+  status: error
+  timestamp: '2026-04-25T06:50:28'
