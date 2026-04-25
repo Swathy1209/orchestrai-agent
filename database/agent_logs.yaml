@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Anurag MN Machine Learning Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-25T05:57:17'
-- agent: PracticeAgent
   action: 'Failed portal for Talview Data Science Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2498,3 +2493,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-25T07:34:53'
+- agent: PracticeAgent
+  action: 'Failed portal for Indika AI Private Limited Machine Learning Intern: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-25T07:34:58'
