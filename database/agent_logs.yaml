@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for PhonePe Business Analyst: Gemini failed to generate project
-    recommendations'
-  status: error
-  timestamp: '2026-04-25T17:59:17'
-- agent: PracticeAgent
   action: 'Failed portal for Cretex Companies, Inc. Data Science Internship - Summer
     2026: Gemini failed to generate project recommendations'
   status: error
@@ -2488,3 +2483,7 @@ logs:
     2026: Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-25T20:01:04'
+- agent: CareerAgent
+  action: Stored in GitHub YAML
+  level: INFO
+  timestamp: '2026-04-25T20:01:19'
