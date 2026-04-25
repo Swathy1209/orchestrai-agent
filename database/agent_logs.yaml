@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Plymouth Rock Assurance Artificial Intelligence Intern:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-24T23:55:15'
-- agent: PracticeAgent
   action: 'Failed portal for Excelitas Technologies Corp. Data Analyst Intern: Gemini
     failed to generate project recommendations'
   status: error
@@ -2498,3 +2493,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-25T02:02:20'
+- agent: PracticeAgent
+  action: 'Failed portal for Mindenious Edutech Machine Learning Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-25T02:02:27'
