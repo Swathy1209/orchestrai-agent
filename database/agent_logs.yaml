@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Zypp Electric Machine Learning Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-24T22:02:31'
-- agent: PracticeAgent
   action: 'Failed portal for Giant Leap Data Science Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2507,3 +2502,8 @@ logs:
     Learning Intern: Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-25T00:14:47'
+- agent: PracticeAgent
+  action: 'Failed portal for Convergent Research Computer Vision and Machine Learning
+    Intern: Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-25T00:15:01'
