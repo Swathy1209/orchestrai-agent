@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for GPTZero Machine Learning Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-25T21:54:12'
-- agent: PracticeAgent
   action: 'Failed portal for DataVinci Private Limited Data Science Intern: Gemini
     failed to generate project recommendations'
   status: error
@@ -2501,3 +2496,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-25T23:53:18'
+- agent: PracticeAgent
+  action: 'Failed portal for Fendi Intern, Retail Business Analyst: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-25T23:53:31'
