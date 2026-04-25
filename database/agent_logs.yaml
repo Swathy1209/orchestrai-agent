@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Internet2 Data Analyst Intern - Internet2 NET+ Program:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-25T13:01:02'
-- agent: PracticeAgent
   action: 'Failed portal for Iron Mountain Business Analyst Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2501,3 +2496,8 @@ logs:
     Science (Summer 2026): Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-25T15:09:51'
+- agent: PracticeAgent
+  action: 'Failed portal for LeadUpAI AI Engineer: Gemini failed to generate project
+    recommendations'
+  status: error
+  timestamp: '2026-04-25T15:09:57'
