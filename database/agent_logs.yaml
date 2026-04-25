@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Quarterhill Inc. Machine Learning Engineer Intern: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-25T07:13:29'
-- agent: PracticeAgent
   action: 'Failed portal for Deloitte AWS Data Engineer: Detected incomplete placeholder
     content. Regenerating...'
   status: error
@@ -2503,3 +2498,8 @@ logs:
     generate project recommendations'
   status: error
   timestamp: '2026-04-25T08:27:03'
+- agent: PracticeAgent
+  action: 'Failed portal for Zycus InfoTech Machine Learning Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-25T08:27:15'
