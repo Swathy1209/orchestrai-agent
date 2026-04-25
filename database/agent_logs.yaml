@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Nomiso AI ML Engineering Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-25T10:12:26'
-- agent: PracticeAgent
   action: 'Failed portal for Anubhav Singh Data Science Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2500,3 +2495,8 @@ logs:
     2026): Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-25T12:11:29'
+- agent: PracticeAgent
+  action: 'Failed portal for Greater Than Educational Technologies Artificial Intelligence
+    Intern: Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-25T12:11:56'
