@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Elite Workforce Artificial Intelligence Intern: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-25T17:53:22'
-- agent: PracticeAgent
   action: 'Failed portal for SavvyTrix Education Pvt. Ltd. Data Science Intern: Gemini
     failed to generate project recommendations'
   status: error
@@ -2490,3 +2485,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-25T19:55:41'
+- agent: PracticeAgent
+  action: 'Failed portal for Wabtec Data Science Engineer: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-25T19:55:53'
