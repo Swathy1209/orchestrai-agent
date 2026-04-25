@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Cabswale Data Science Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-25T05:36:12'
-- agent: PracticeAgent
   action: 'Failed portal for Newron Artificial Intelligence (AI) Internship in Bangalore:
     Gemini failed to generate project recommendations'
   status: error
@@ -2496,3 +2491,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-25T06:47:49'
+- agent: PracticeAgent
+  action: 'Failed portal for Go Offer Data Analyst: Gemini failed to generate project
+    recommendations'
+  status: error
+  timestamp: '2026-04-25T06:47:56'
