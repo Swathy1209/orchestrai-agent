@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Capgemini Business Analyst-Contact Center Domain: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-25T14:39:48'
-- agent: PracticeAgent
   action: 'Failed portal for MTX Group Business Analyst Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2501,3 +2496,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-25T16:02:33'
+- agent: PracticeAgent
+  action: 'Failed portal for DeepMechanix Artificial Intelligence Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-25T16:02:47'
