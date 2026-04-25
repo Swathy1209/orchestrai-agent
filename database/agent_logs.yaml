@@ -1,8 +1,4 @@
 logs:
-- agent: OpportunityMatchingAgent
-  action: Generated match scores for 1059 internships
-  status: success
-  timestamp: '2026-04-25T03:18:30'
 - agent: PracticeAgent
   action: 'Failed portal for TikTok Machine Learning Scientist Intern - Global E-Commerce
     Content Recommendation - 2026 Summer (PhD): Gemini failed to generate project
@@ -2497,3 +2493,8 @@ logs:
     Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-25T05:34:19'
+- agent: PracticeAgent
+  action: 'Failed portal for DivyaNetra AI Artificial Intelligence (AI): Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-25T05:34:23'
