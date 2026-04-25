@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Technoculture Research Artificial Intelligence Intern:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-25T09:56:35'
-- agent: PracticeAgent
   action: 'Failed portal for L''OCCITANE Group (B Corp) Data Analyst Intern: Gemini
     failed to generate project recommendations'
   status: error
@@ -2495,3 +2490,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-25T11:53:54'
+- agent: PracticeAgent
+  action: 'Failed portal for Cinemate™ Data Science Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-25T11:54:05'
