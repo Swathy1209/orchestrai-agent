@@ -1,9 +1,4 @@
 logs:
-- agent: PracticeAgent
-  action: 'Failed portal for Elite Workforce Machine Learning Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-25T04:01:15'
 - agent: CareerAgent
   action: 100 jobs fetched, 85 relevant
   level: INFO
@@ -2499,3 +2494,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-25T05:52:42'
+- agent: PracticeAgent
+  action: 'Failed portal for Novaflow (YC S25) Machine Learning Engineer Intern -
+    Summer 2026: Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-25T05:52:49'
