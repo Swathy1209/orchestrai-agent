@@ -1,9 +1,4 @@
 logs:
-- agent: PracticeAgent
-  action: 'Failed portal for US Modules Student Worker - Production Data Analyst:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-25T08:01:07'
 - agent: CareerAgent
   action: 106 jobs fetched, 91 relevant
   level: INFO
@@ -2497,3 +2492,8 @@ logs:
     Intern: Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-25T10:02:40'
+- agent: PracticeAgent
+  action: 'Failed portal for Bosch Home Comfort USA Artificial Intelligence / Machine
+    Learning - Intern: Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-25T10:02:54'
