@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Weframe Tech Artificial Intelligence Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-25T02:02:52'
-- agent: PracticeAgent
   action: 'Failed portal for Trico Electric Cooperative Artificial Intelligence (AI)
     Intern: Gemini failed to generate project recommendations'
   status: error
@@ -2496,3 +2491,8 @@ logs:
   action: Generated Portfolio
   status: success
   timestamp: '2026-04-25T04:10:01'
+- agent: PracticeAgent
+  action: 'Failed portal for Praxis Home Retail Limited Data Science Intern: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-25T04:10:08'
