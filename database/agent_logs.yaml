@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Graindigits Machine Learning Intern: Gemini failed to
-    generate project recommendations'
-  status: error
-  timestamp: '2026-04-25T20:55:00'
-- agent: PracticeAgent
   action: 'Failed portal for TESK Labs Data Science Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2500,3 +2495,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-25T22:49:18'
+- agent: PracticeAgent
+  action: 'Failed portal for Tesla Internship, Data Engineer, Energy (Summer 2026):
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-25T22:49:31'
