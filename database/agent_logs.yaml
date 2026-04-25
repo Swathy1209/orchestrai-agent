@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Staffline Solutions Machine Learning Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-25T14:35:42'
-- agent: PracticeAgent
   action: 'Failed portal for Cohere Machine Learning Intern/Co-op  (Spring 2026):
     Gemini failed to generate project recommendations'
   status: error
@@ -2506,3 +2501,8 @@ logs:
     recommendations'
   status: error
   timestamp: '2026-04-25T16:00:43'
+- agent: PracticeAgent
+  action: 'Failed portal for Mariana Minerals Machine Learning Engineering Intern:
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-25T16:00:57'
