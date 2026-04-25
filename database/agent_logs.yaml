@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for PatilKaki Data Science Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-25T15:58:51'
-- agent: PracticeAgent
   action: 'Failed portal for MHLondon Data Science Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2490,3 +2485,7 @@ logs:
     2026): Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-25T18:01:09'
+- agent: CareerAgent
+  action: Stored in GitHub YAML
+  level: INFO
+  timestamp: '2026-04-25T18:01:22'
