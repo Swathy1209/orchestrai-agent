@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Saia Inc. Senior Internal Audit Data Analyst: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-25T13:01:28'
-- agent: PracticeAgent
   action: 'Failed portal for Spectrum 2026 Spectrum Summer Intern: Business Analyst:
     Gemini failed to generate project recommendations'
   status: error
@@ -2501,3 +2496,8 @@ logs:
     Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-25T15:10:03'
+- agent: PracticeAgent
+  action: 'Failed portal for PRGX Global Inc. Artificial Intelligence Intern: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-25T15:10:09'
