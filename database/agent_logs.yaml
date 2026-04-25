@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Ensono Intern - Capacity Management Data Analyst: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-25T12:08:18'
-- agent: PracticeAgent
   action: 'Failed portal for Gala Circle Inc. Data Analyst Intern-Mandarin Bilingual:
     Gemini failed to generate project recommendations'
   status: error
@@ -2501,3 +2496,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-25T14:22:36'
+- agent: PracticeAgent
+  action: 'Failed portal for FormsADDA Data Science Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-25T14:23:02'
