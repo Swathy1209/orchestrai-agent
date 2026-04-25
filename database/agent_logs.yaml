@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Zycus InfoTech Data Science Intern: Gemini failed to
-    generate project recommendations'
-  status: error
-  timestamp: '2026-04-25T06:19:54'
-- agent: PracticeAgent
   action: 'Failed portal for AARP Data Science Intern: Gemini failed to generate project
     recommendations'
   status: error
@@ -2505,3 +2500,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-25T07:52:24'
+- agent: PracticeAgent
+  action: 'Failed portal for Symonis Machine Learning Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-25T07:52:29'
