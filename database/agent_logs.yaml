@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Deep Life Savers Machine Learning Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-25T07:53:03'
-- agent: PracticeAgent
   action: 'Failed portal for apexanalytix Business Analyst Intern: Gemini failed to
     generate project recommendations'
   status: error
@@ -2499,3 +2494,8 @@ logs:
     Intern: Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-25T09:54:25'
+- agent: PracticeAgent
+  action: 'Failed portal for Collective Artists Network Data Science Intern: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-25T09:54:31'
