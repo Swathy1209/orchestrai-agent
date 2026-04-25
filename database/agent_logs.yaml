@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for BNM Business Solutions LLP Data Science Intern: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-25T05:47:23'
-- agent: PracticeAgent
   action: 'Failed portal for Collective Artists Network Data Science Intern: Gemini
     failed to generate project recommendations'
   status: error
@@ -2498,3 +2493,8 @@ logs:
     Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-25T07:07:38'
+- agent: PracticeAgent
+  action: 'Failed portal for Bro''s Innovations And Technology. Data Science: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-25T07:07:59'
