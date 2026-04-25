@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Tech Economy ML-AI Engineering Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-25T11:07:46'
-- agent: PracticeAgent
   action: 'Failed portal for Vilya Intern - Machine Learning Engineer: Gemini failed
     to generate project recommendations'
   status: error
@@ -2504,3 +2499,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-25T13:12:25'
+- agent: PracticeAgent
+  action: 'Failed portal for Sankar Group Data Science Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-25T13:12:37'
