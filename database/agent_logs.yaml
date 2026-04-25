@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Be Rolling Media Data Science Intern: Gemini failed to
-    generate project recommendations'
-  status: error
-  timestamp: '2026-04-25T06:50:00'
-- agent: PracticeAgent
   action: 'Failed portal for TikTok Business Analyst Project Intern (GBS SMB) - 2026
     Start (BS/MS): Gemini failed to generate project recommendations'
   status: error
@@ -2502,3 +2497,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-25T08:06:00'
+- agent: PracticeAgent
+  action: 'Failed portal for GanitSphere Artificial Intelligence Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-25T08:06:09'
