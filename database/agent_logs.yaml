@@ -1,8 +1,4 @@
 logs:
-- agent: CareerAgent
-  action: 101 jobs fetched, 86 relevant
-  level: INFO
-  timestamp: '2026-04-25T18:01:03'
 - agent: PracticeAgent
   action: 'Failed portal for Dassault Systèmes INTERNSHIP: Data Science (6mo June
     2026): Gemini failed to generate project recommendations'
@@ -2486,3 +2482,9 @@ logs:
     Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-25T20:02:11'
+- agent: PracticeAgent
+  action: 'Failed portal for ForFutures Financial, Planning, a financial advisory
+    practice of Ameriprise Financial Services LLC AI/Data Science Graduate Intern:
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-25T20:02:18'
