@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Nihon Kohden Digital Health Solutions Finance/Business
-    Analyst Intern: Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-25T09:36:40'
-- agent: PracticeAgent
   action: 'Failed portal for STEMpedia Data Science Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2496,3 +2491,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-25T11:12:28'
+- agent: PracticeAgent
+  action: 'Failed portal for 365 Retail Markets Business Analyst Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-25T11:12:41'
