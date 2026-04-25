@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Donor Alliance Data Science Intern: Gemini failed to
-    generate project recommendations'
-  status: error
-  timestamp: '2026-04-25T21:02:37'
-- agent: PracticeAgent
   action: 'Failed portal for Matson, Inc. AI & Machine Learning Intern – Operations:
     Gemini failed to generate project recommendations'
   status: error
@@ -2500,3 +2495,8 @@ logs:
     generate project recommendations'
   status: error
   timestamp: '2026-04-25T22:56:59'
+- agent: PracticeAgent
+  action: 'Failed portal for TESK Labs Data Science Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-25T22:57:12'
