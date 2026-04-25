@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for EY Business Analyst: Gemini failed to generate project
-    recommendations'
-  status: error
-  timestamp: '2026-04-25T17:10:18'
-- agent: PracticeAgent
   action: 'Failed portal for Scowtt Intern - ML Engineering: Gemini failed to generate
     project recommendations'
   status: error
@@ -2492,3 +2487,8 @@ logs:
     recommendations'
   status: error
   timestamp: '2026-04-25T19:13:57'
+- agent: PracticeAgent
+  action: 'Failed portal for Career Solutions Artificial Intelligence (AI): Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-25T19:14:09'
