@@ -1,8 +1,4 @@
 logs:
-- agent: ResumeOptimizationAgent
-  action: Generated optimizations for 1068 internships
-  status: success
-  timestamp: '2026-04-25T18:44:20'
 - agent: PracticeAgent
   action: 'Failed portal for ZKAP EDTECH SERVICES PRIVATE LIMITED Machine Learning
     Intern: Gemini failed to generate project recommendations'
@@ -2494,3 +2490,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-25T20:36:58'
+- agent: PracticeAgent
+  action: 'Failed portal for Toshiba America Electronic Components, Inc. 5039 Data
+    Analyst Engineering Intern: Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-25T20:37:04'
