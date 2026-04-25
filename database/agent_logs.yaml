@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Ekimetrics 6 months Internship in Strategy & Data Science
-    | New York: Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-25T02:15:11'
-- agent: PracticeAgent
   action: 'Failed portal for Strata Decision Technology Intern, Data Science: Gemini
     failed to generate project recommendations'
   status: error
@@ -2495,3 +2490,8 @@ logs:
     Autolabeling (Internship): Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-25T04:25:12'
+- agent: PracticeAgent
+  action: 'Failed portal for Dunedain AI & ML Engineering Intern: Gemini failed to
+    generate project recommendations'
+  status: error
+  timestamp: '2026-04-25T04:25:27'
