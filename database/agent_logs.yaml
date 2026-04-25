@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Connors Group Data Analyst Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-25T06:16:46'
-- agent: PracticeAgent
   action: 'Failed portal for Ogmen Robotics Machine Learning Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2505,3 +2500,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-25T07:50:40'
+- agent: PracticeAgent
+  action: 'Failed portal for The International Council on Clean Transportation Policy
+    and Data Analysis Intern (San Francisco): Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-25T07:50:48'
