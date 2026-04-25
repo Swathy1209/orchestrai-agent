@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Envestnet Data Analyst II: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-25T02:06:04'
-- agent: PracticeAgent
   action: 'Failed portal for Stanford University School of Medicine Data Analyst 1
     (1 Year Fixed Term): Gemini failed to generate project recommendations'
   status: error
@@ -2496,3 +2491,8 @@ logs:
     recommendations'
   status: error
   timestamp: '2026-04-25T04:14:42'
+- agent: PracticeAgent
+  action: 'Failed portal for TikTok Data Engineer Intern (E-commerce) - 2026 Summer
+    (BS/MS): Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-25T04:14:59'
