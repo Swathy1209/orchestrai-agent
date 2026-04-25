@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Across The Globe (ATG) Artificial Intelligence Intern:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-25T19:40:05'
-- agent: PracticeAgent
   action: 'Failed portal for 10x Impact Labs Artificial Intelligence Intern: Gemini
     failed to generate project recommendations'
   status: error
@@ -2497,3 +2492,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-25T21:29:10'
+- agent: PracticeAgent
+  action: 'Failed portal for Nexus Energy Inc. Junior Data Analyst Intern: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-25T21:29:22'
