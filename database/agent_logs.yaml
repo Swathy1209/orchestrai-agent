@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Wish A Brand Artificial Intelligence Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-25T19:40:29'
-- agent: PracticeAgent
   action: 'Failed portal for HSBC Business Analyst: Gemini failed to generate project
     recommendations'
   status: error
@@ -2497,3 +2492,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-25T21:29:34'
+- agent: PracticeAgent
+  action: 'Failed portal for Envision Next Data Analyst Internship in Navi Mumbai,
+    Panvel, Thane: Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-25T21:29:46'
