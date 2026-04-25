@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Rx One Care Private Limited Machine Learning Intern:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-25T20:58:16'
-- agent: PracticeAgent
   action: 'Failed portal for Udan Foundation Artificial Intelligence Intern: Gemini
     failed to generate project recommendations'
   status: error
@@ -2500,3 +2495,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-25T22:52:55'
+- agent: PracticeAgent
+  action: 'Failed portal for EY Machine Learning Engineer: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-25T22:53:21'
