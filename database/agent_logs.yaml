@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Product Manager Accelerator AI Engineer Intern - AI/ML/GenAI
-    Design & Development: Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-25T02:47:39'
-- agent: PracticeAgent
   action: 'Failed portal for Viant Technology Machine Learning Engineering Internship
     - Summer 2026: Gemini failed to generate project recommendations'
   status: error
@@ -2497,3 +2492,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-25T04:57:38'
+- agent: PracticeAgent
+  action: 'Failed portal for Lensa Business Analyst Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-25T04:57:45'
