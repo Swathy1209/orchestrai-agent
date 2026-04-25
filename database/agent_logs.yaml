@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for DIGI VIPANAN Data Science Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-25T15:08:09'
-- agent: PracticeAgent
   action: 'Failed portal for INDUS Technology, Inc. Data Analyst Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2497,3 +2492,8 @@ logs:
     generate project recommendations'
   status: error
   timestamp: '2026-04-25T16:45:31'
+- agent: PracticeAgent
+  action: 'Failed portal for SportVot Machine Learning Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-25T16:45:44'
