@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for InfiVR Machine Learning Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-25T05:30:46'
-- agent: PracticeAgent
   action: 'Failed portal for VVP Healthcare Evolution Pvt Ltd AI/ML Engineer: Gemini
     failed to generate project recommendations'
   status: error
@@ -2497,3 +2492,8 @@ logs:
     Summer (BS/MS): Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-25T06:33:33'
+- agent: PracticeAgent
+  action: 'Failed portal for State of Florida DATA SCIENCE INTERNSHIP: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-25T06:33:46'
