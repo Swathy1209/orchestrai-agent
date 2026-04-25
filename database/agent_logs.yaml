@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Orange Technologies Data Science Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-25T05:05:57'
-- agent: PracticeAgent
   action: 'Failed portal for Learning Skills Academy Data And ML Engineer: Gemini
     failed to generate project recommendations'
   status: error
@@ -2497,3 +2492,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-25T06:25:06'
+- agent: PracticeAgent
+  action: 'Failed portal for ChatGPT Jobs Research Scientist Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-25T06:25:22'
