@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for TRIKSHA Machine Learning Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-25T07:31:22'
-- agent: PracticeAgent
   action: 'Failed portal for Sankar Group Data Science Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2503,3 +2498,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-25T08:38:23'
+- agent: PracticeAgent
+  action: 'Failed portal for Grinning Co. (Fremont, United States) Machine Learning
+    Intern: Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-25T08:39:18'
