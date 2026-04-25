@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Grivaa Consultancy Services Machine Learning Intern:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-25T00:22:15'
-- agent: PracticeAgent
   action: 'Failed portal for ByteDance Machine Learning Engineer Intern (Global E-commerce
     Risk Control) - 2026 Summer (BS/MS): Gemini failed to generate project recommendations'
   status: error
@@ -2501,3 +2496,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-25T02:33:30'
+- agent: PracticeAgent
+  action: 'Failed portal for Lensa Machine Learning Engineer Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-25T02:33:35'
