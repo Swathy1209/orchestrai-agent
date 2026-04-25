@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Mindenious Edutech Machine Learning Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-25T06:09:24'
-- agent: PracticeAgent
   action: 'Failed portal for Arihant Publications Data Science Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2504,3 +2499,8 @@ logs:
     Vietnam: Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-25T07:46:00'
+- agent: PracticeAgent
+  action: 'Failed portal for Configtap Machine Learning Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-25T07:46:08'
