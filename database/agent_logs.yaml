@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Mediosim Technology Private Limited Data Science Intern:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-25T14:06:46'
-- agent: PracticeAgent
   action: 'Failed portal for Zycus InfoTech Data Science Intern: Gemini failed to
     generate project recommendations'
   status: error
@@ -2506,3 +2501,8 @@ logs:
     Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-25T15:45:17'
+- agent: PracticeAgent
+  action: 'Failed portal for Ask First Artificial Intelligence Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-25T15:45:29'
