@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for The Bridge Artificial Intelligence Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-25T18:27:55'
-- agent: PracticeAgent
   action: 'Failed portal for Barclays Data Analyst: Gemini failed to generate project
     recommendations'
   status: error
@@ -2495,3 +2490,8 @@ logs:
     Data Cycling Center) - 2026 Start (BS/MS): Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-25T20:21:09'
+- agent: PracticeAgent
+  action: 'Failed portal for Samaritan''s Purse Geospatial Data Analyst, North American
+    Disaster Relief: Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-25T20:21:35'
