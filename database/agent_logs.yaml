@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for AndOr Communications Private Limited Data Science Intern:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-25T13:12:50'
-- agent: PracticeAgent
   action: 'Failed portal for eClerx Business Analyst: Gemini failed to generate project
     recommendations'
   status: error
@@ -2500,3 +2495,8 @@ logs:
     (Charlotte, NC): Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-25T15:13:48'
+- agent: PracticeAgent
+  action: 'Failed portal for Ball2Data Football Data Analysts: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-25T15:13:55'
