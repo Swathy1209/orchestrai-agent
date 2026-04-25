@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Apollo Mission Critical Engineering Multiple U.S Locations
-    - Business Analyst Intern (BA-I) - Summer 2026: Gemini failed to generate project
-    recommendations'
-  status: error
-  timestamp: '2026-04-25T04:52:30'
-- agent: PracticeAgent
   action: 'Failed portal for MTX Group Business Analyst Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2495,3 +2489,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-25T06:12:23'
+- agent: PracticeAgent
+  action: 'Failed portal for RELI Group, Inc. Data Analyst Intern: Gemini failed to
+    generate project recommendations'
+  status: error
+  timestamp: '2026-04-25T06:12:31'
