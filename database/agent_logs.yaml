@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for ScentAir Technology & Data Science Intern – ScentAir
-    (Charlotte, NC): Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-25T07:33:10'
-- agent: PracticeAgent
   action: 'Failed portal for GenPark Machine Learning Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2501,3 +2496,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-25T08:45:12'
+- agent: PracticeAgent
+  action: 'Failed portal for Idea Elan India Private Limited AI Engineer: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-25T08:45:39'
