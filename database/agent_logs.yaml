@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for FlyNava Technologies Data Science Internship in Bangalore:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-25T15:24:55'
-- agent: PracticeAgent
   action: 'Failed portal for OMNIDYA TECH LLP Machine Learning Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2495,3 +2490,8 @@ logs:
     Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-25T17:26:39'
+- agent: PracticeAgent
+  action: 'Failed portal for Kumaresh Chinnaswamy Machine Learning Intern: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-25T17:26:53'
