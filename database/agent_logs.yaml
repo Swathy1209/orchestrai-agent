@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Bosch Home Comfort USA Artificial Intelligence / Machine
-    Learning - Intern: Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-25T05:56:11'
-- agent: PracticeAgent
   action: 'Failed portal for Ask First Data Science Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2498,3 +2493,8 @@ logs:
     Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-25T07:33:46'
+- agent: PracticeAgent
+  action: 'Failed portal for Quizzy Data Science Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-25T07:33:50'
