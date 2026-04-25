@@ -1,12 +1,4 @@
 executions:
-- run_at: '2026-04-09T16:00:36'
-  fetched: 104
-  relevant: 89
-  stored_new: 3
-  total_in_db: 670
-  email_sent: false
-  status: success
-  errors: []
 - run_at: '2026-04-09T17:22:36'
   fetched: 113
   relevant: 98
@@ -1596,6 +1588,14 @@ executions:
   relevant: 91
   stored_new: 1
   total_in_db: 1060
+  email_sent: false
+  status: success
+  errors: []
+- run_at: '2026-04-25T10:00:31'
+  fetched: 102
+  relevant: 87
+  stored_new: 3
+  total_in_db: 1063
   email_sent: false
   status: success
   errors: []
