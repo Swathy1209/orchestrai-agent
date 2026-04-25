@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Tatari Data Science BI, Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-25T12:47:02'
-- agent: PracticeAgent
   action: 'Failed portal for ServiceHive Data Science Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2500,3 +2495,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-25T15:04:32'
+- agent: PracticeAgent
+  action: 'Failed portal for Taylor Corporation Business Analyst Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-25T15:04:40'
