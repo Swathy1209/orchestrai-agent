@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Calipers Consulting Private Limited Data Science Intern:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-25T06:50:37'
-- agent: PracticeAgent
   action: 'Failed portal for LivNSense Machine Learning Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2501,3 +2496,8 @@ logs:
     Intern: Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-25T08:06:21'
+- agent: PracticeAgent
+  action: 'Failed portal for OBLYTECH INDIA PRIVATE LIMITED Machine Learning Intern:
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-25T08:06:29'
