@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Aira Wedding Planners Data Science Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-25T21:38:28'
-- agent: PracticeAgent
   action: 'Failed portal for OyeLabs Data Science Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2502,3 +2497,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-25T23:37:38'
+- agent: PracticeAgent
+  action: 'Failed portal for Shopee Business Analyst Intern, Group President’s Strategy
+    Office (Summer 2026): Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-25T23:37:52'
