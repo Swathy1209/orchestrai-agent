@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Om Tekriwal Machine Learning Intern: Gemini failed to
-    generate project recommendations'
-  status: error
-  timestamp: '2026-04-25T02:35:31'
-- agent: PracticeAgent
   action: 'Failed portal for Restyle Machine Learning Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2494,3 +2489,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-25T04:48:58'
+- agent: PracticeAgent
+  action: 'Failed portal for Cohere Machine Learning Intern/Co-op  (Spring 2026):
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-25T04:49:06'
