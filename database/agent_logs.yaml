@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Morph Machine Learning Researcher PhD Intern: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-25T00:04:46'
-- agent: PracticeAgent
   action: 'Failed portal for ByteDance Machine Learning Engineer Intern (E-commerce-Supply
     Chain & Logistics) - 2026 Start (PhD): Gemini failed to generate project recommendations'
   status: error
@@ -2500,3 +2495,8 @@ logs:
     Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-25T02:11:44'
+- agent: PracticeAgent
+  action: 'Failed portal for Procter & Gamble Data Engineer: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-25T02:11:57'
