@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Kensho Technologies Machine Learning Intern - Summer
-    2026: Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-25T06:58:03'
-- agent: PracticeAgent
   action: 'Failed portal for Technoculture Research Data Science Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2502,3 +2497,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-25T08:11:56'
+- agent: PracticeAgent
+  action: 'Failed portal for Morph Machine Learning Researcher PhD Intern: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-25T08:12:02'
