@@ -3,11 +3,6 @@ logs:
   action: 'Failed portal for TZURONI LTD. (Kefar Sava, Israel) Machine Learning Intern:
     Gemini failed to generate project recommendations'
   status: error
-  timestamp: '2026-04-25T06:23:16'
-- agent: PracticeAgent
-  action: 'Failed portal for TZURONI LTD. (Kefar Sava, Israel) Machine Learning Intern:
-    Gemini failed to generate project recommendations'
-  status: error
   timestamp: '2026-04-25T06:23:35'
 - agent: PracticeAgent
   action: 'Failed portal for Euromonitor International Associate Data Analyst: Gemini
@@ -2503,3 +2498,8 @@ logs:
     Intern: Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-25T07:54:16'
+- agent: PracticeAgent
+  action: 'Failed portal for OyeLabs Machine Learning Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-25T07:54:30'
