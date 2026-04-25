@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Lensa Data Science Summer Intern (Remote & Paid): Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-25T04:47:01'
-- agent: PracticeAgent
   action: 'Failed portal for Lensa Intern, Data Science and Analytics: Gemini failed
     to generate project recommendations'
   status: error
@@ -2498,3 +2493,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-25T06:08:16'
+- agent: PracticeAgent
+  action: 'Failed portal for Texas Workforce Commission Data Analyst (Austin): Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-25T06:08:25'
