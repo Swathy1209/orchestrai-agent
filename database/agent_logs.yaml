@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Novartis RWD Data Engineer (Pharma): Gemini failed to
-    generate project recommendations'
-  status: error
-  timestamp: '2026-04-25T16:11:39'
-- agent: PracticeAgent
   action: 'Failed portal for Brainwave Nextgen Technologies Machine Learning Intern:
     Gemini failed to generate project recommendations'
   status: error
@@ -2489,3 +2484,8 @@ logs:
     generate project recommendations'
   status: error
   timestamp: '2026-04-25T18:15:43'
+- agent: PracticeAgent
+  action: 'Failed portal for Growth Slack Artificial Intelligence Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-25T18:15:56'
