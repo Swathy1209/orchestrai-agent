@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for AMETEK Data Science and AI Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-25T06:07:17'
-- agent: PracticeAgent
   action: 'Failed portal for Marico Innovation Foundation Artificial Intelligence
     Intern: Gemini failed to generate project recommendations'
   status: error
@@ -2503,3 +2498,8 @@ logs:
     generate project recommendations'
   status: error
   timestamp: '2026-04-25T07:44:07'
+- agent: PracticeAgent
+  action: 'Failed portal for FlyNava Technologies Data Science Internship in Bangalore:
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-25T07:44:15'
