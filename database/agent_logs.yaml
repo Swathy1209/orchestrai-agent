@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Moët Hennessy Business Analyst Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-25T05:38:43'
-- agent: PracticeAgent
   action: 'Failed portal for The Hustle House Machine Learning Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2498,3 +2493,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-25T06:51:43'
+- agent: PracticeAgent
+  action: 'Failed portal for Giftinguru Data Science Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-25T06:51:47'
