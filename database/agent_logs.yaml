@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Friendship Public Charter School Data Analyst: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-25T22:00:32'
-- agent: PracticeAgent
   action: 'Failed portal for Gala Circle Inc. Marketing Data Analyst: Gemini failed
     to generate project recommendations'
   status: error
@@ -2501,3 +2496,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-25T23:59:37'
+- agent: PracticeAgent
+  action: 'Failed portal for NXTTOUR INDIA Machine Learning Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-25T23:59:50'
