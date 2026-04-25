@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for GNG Developers Machine Learning Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-24T23:31:25'
-- agent: PracticeAgent
   action: 'Failed portal for Neurasys Machine Learning Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2501,3 +2496,8 @@ logs:
     generate project recommendations'
   status: error
   timestamp: '2026-04-25T01:40:46'
+- agent: PracticeAgent
+  action: 'Failed portal for Surdeep Singh Data Science Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-25T01:40:59'
