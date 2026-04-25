@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Pehchaan AI Technologies Artificial Intelligence Intern:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-25T17:41:49'
-- agent: PracticeAgent
   action: 'Failed portal for Across The Globe (ATG) Artificial Intelligence Intern:
     Gemini failed to generate project recommendations'
   status: error
@@ -2490,3 +2485,8 @@ logs:
     Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-25T19:44:13'
+- agent: PracticeAgent
+  action: 'Failed portal for Allo Innoware Data Science Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-25T19:44:26'
