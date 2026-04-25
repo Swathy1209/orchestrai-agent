@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Ogmen Robotics Machine Learning Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-25T06:16:52'
-- agent: PracticeAgent
   action: 'Failed portal for Trader For Tomorrow Data Science Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2505,3 +2500,8 @@ logs:
     and Data Analysis Intern (San Francisco): Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-25T07:50:48'
+- agent: PracticeAgent
+  action: 'Failed portal for Lensa AI Data Science Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-25T07:50:53'
