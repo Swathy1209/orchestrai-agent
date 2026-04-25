@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for TikTok Machine Learning Engineer Intern - Data-Search-TikTok
-    Recommendation Team - 2026 Summer (BS/MS): Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-25T14:48:29'
-- agent: PracticeAgent
   action: 'Failed portal for Qorvo, Inc. Data Science Engineer Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2497,3 +2492,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-25T16:10:07'
+- agent: PracticeAgent
+  action: 'Failed portal for NTT Data Artificial Intelligence Associate: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-25T16:10:20'
