@@ -1,9 +1,4 @@
 logs:
-- agent: PracticeAgent
-  action: 'Failed portal for Stanford University School of Medicine Data Analyst 1
-    (1 Year Fixed Term): Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-25T02:06:17'
 - agent: AutoFixPRGeneratorAgent
   action: Generated 3 security fix PRs
   status: completed
@@ -2496,3 +2491,8 @@ logs:
     (BS/MS): Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-25T04:14:59'
+- agent: PracticeAgent
+  action: 'Failed portal for SAS Group Data Science Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-25T04:15:09'
