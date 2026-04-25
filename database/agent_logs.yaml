@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Mavoix Technology Solutions Pvt. Ltd. Machine Learning
-    Intern: Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-25T06:45:29'
-- agent: PracticeAgent
   action: 'Failed portal for Lensa Intern, Data Science and Analytics: Gemini failed
     to generate project recommendations'
   status: error
@@ -2503,3 +2498,8 @@ logs:
     - Modeler and Data Analyst: Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-25T08:02:37'
+- agent: PracticeAgent
+  action: 'Failed portal for Udaghosh Social Welfare Society Machine Learning Intern:
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-25T08:02:52'
