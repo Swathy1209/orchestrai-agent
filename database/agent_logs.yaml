@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Veolia Business Analyst Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-25T05:07:18'
-- agent: PracticeAgent
   action: 'Failed portal for Lensa Business Analyst (Intern) - United States: Gemini
     failed to generate project recommendations'
   status: error
@@ -2497,3 +2492,8 @@ logs:
     Intern: Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-25T06:26:42'
+- agent: PracticeAgent
+  action: 'Failed portal for STARTUP GROWW CONSULTING SERVICES PRIVATE LIMITED Data
+    Science Intern: Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-25T06:27:14'
