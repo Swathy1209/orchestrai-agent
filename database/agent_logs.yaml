@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Pehchaan AI Technologies Artificial Intelligence Intern:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-25T01:50:13'
-- agent: PracticeAgent
   action: 'Failed portal for MedPharm Artificial Intelligence (AI) Intern: Gemini
     failed to generate project recommendations'
   status: error
@@ -2500,3 +2495,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-25T03:54:50'
+- agent: PracticeAgent
+  action: 'Failed portal for Gaba Telepsychiatry (New York, United States) Data Science
+    Intern: Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-25T03:55:03'
