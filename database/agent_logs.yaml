@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for DeepMechanix Artificial Intelligence Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-25T16:02:47'
-- agent: PracticeAgent
   action: 'Failed portal for Ethara AI Data Science Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2490,3 +2485,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-25T18:05:40'
+- agent: PracticeAgent
+  action: 'Failed portal for Bain & Company Data ML Engineer Associate: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-25T18:05:53'
