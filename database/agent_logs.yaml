@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Motovolt Machine Learning Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-25T06:48:02'
-- agent: PracticeAgent
   action: 'Failed portal for Disruptive Consultancy Services Private Limited (Development
     Monitors India) Artificial Intelligence Intern: Gemini failed to generate project
     recommendations'
@@ -2503,3 +2498,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-25T08:04:35'
+- agent: PracticeAgent
+  action: 'Failed portal for Ask First Artificial Intelligence Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-25T08:04:41'
