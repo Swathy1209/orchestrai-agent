@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for SkillOrbit Data Science Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-25T01:56:33'
-- agent: PracticeAgent
   action: 'Failed portal for UnifyXperts Data Science Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2495,3 +2490,7 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-25T04:01:15'
+- agent: CareerAgent
+  action: 100 jobs fetched, 85 relevant
+  level: INFO
+  timestamp: '2026-04-25T04:01:25'
