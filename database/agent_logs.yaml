@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for The Hustle House Machine Learning Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-25T05:38:51'
-- agent: PracticeAgent
   action: 'Failed portal for Boston Consulting Group (BCG) Business Analyst, Internship,
     Vietnam: Gemini failed to generate project recommendations'
   status: error
@@ -2498,3 +2493,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-25T06:51:47'
+- agent: PracticeAgent
+  action: 'Failed portal for AI4SEE PRIVATE LIMITED Data Science Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-25T06:51:59'
