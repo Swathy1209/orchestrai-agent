@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Outdoor Cap Company Product Development & Data Analysis
-    Intern: Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-25T06:26:42'
-- agent: PracticeAgent
   action: 'Failed portal for STARTUP GROWW CONSULTING SERVICES PRIVATE LIMITED Data
     Science Intern: Gemini failed to generate project recommendations'
   status: error
@@ -2503,3 +2498,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-25T07:55:40'
+- agent: PracticeAgent
+  action: 'Failed portal for Turing Machine Learning Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-25T07:55:45'
