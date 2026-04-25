@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for SavvyTrix Education Pvt. Ltd. Data Science Intern: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-25T10:14:04'
-- agent: PracticeAgent
   action: 'Failed portal for HSBC Senior Business Analyst: Gemini failed to generate
     project recommendations'
   status: error
@@ -2500,3 +2495,8 @@ logs:
     Intern: Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-25T12:13:11'
+- agent: PracticeAgent
+  action: 'Failed portal for Inorbvict Healthcare India Private Limited Artificial
+    Intelligence Intern: Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-25T12:13:24'
