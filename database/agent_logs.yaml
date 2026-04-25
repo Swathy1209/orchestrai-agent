@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Carer Ai Data Science: Gemini failed to generate project
-    recommendations'
-  status: error
-  timestamp: '2026-04-24T23:17:51'
-- agent: PracticeAgent
   action: 'Failed portal for Career Solutions Artificial Intelligence (AI): Gemini
     failed to generate project recommendations'
   status: error
@@ -2501,3 +2496,8 @@ logs:
     Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-25T01:37:42'
+- agent: PracticeAgent
+  action: 'Failed portal for Innovexis Machine Learning Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-25T01:37:54'
