@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Neurasys Machine Learning: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-25T15:15:58'
-- agent: PracticeAgent
   action: 'Failed portal for CapitalXB Data Science Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2493,3 +2488,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-25T17:06:25'
+- agent: PracticeAgent
+  action: 'Failed portal for Main Marshals Data Science Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-25T17:06:38'
