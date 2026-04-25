@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Motovolt Machine Learning Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-25T20:33:10'
-- agent: PracticeAgent
   action: 'Failed portal for Lensa Machine Learning Engineer Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2502,3 +2497,8 @@ logs:
     Intern: Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-25T22:22:51'
+- agent: PracticeAgent
+  action: 'Failed portal for GenPark Artificial intelligence intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-25T22:23:17'
