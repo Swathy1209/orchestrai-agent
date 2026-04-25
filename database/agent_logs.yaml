@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Bosch Home Comfort USA Artificial Intelligence / Machine
-    Learning - Intern: Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-24T21:52:57'
-- agent: PracticeAgent
   action: 'Failed portal for TÜV SÜD Intern - Business Analyst / Process Engineer:
     Gemini failed to generate project recommendations'
   status: error
@@ -2502,3 +2497,8 @@ logs:
     Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-25T00:03:23'
+- agent: PracticeAgent
+  action: 'Failed portal for Emerson Data Engineer: Gemini failed to generate project
+    recommendations'
+  status: error
+  timestamp: '2026-04-25T00:03:37'
