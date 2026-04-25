@@ -1,9 +1,4 @@
 logs:
-- agent: SkillAgent
-  action: Skill gap analysis complete
-  status: success
-  timestamp: '2026-04-25T10:01:56'
-  details: Analyzed 1063 jobs.
 - agent: PracticeAgent
   action: 'Failed portal for Turing Machine Learning Intern: Gemini failed to generate
     project recommendations'
@@ -2498,3 +2493,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-25T12:03:12'
+- agent: PracticeAgent
+  action: 'Failed portal for Zearn Data Analyst: Gemini failed to generate project
+    recommendations'
+  status: error
+  timestamp: '2026-04-25T12:03:18'
