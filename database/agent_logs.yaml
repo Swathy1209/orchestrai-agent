@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Bumi Armada Intern - Data Analyst: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-25T13:30:51'
-- agent: PracticeAgent
   action: 'Failed portal for The Level Group Online Business Analyst Intern: Gemini
     failed to generate project recommendations'
   status: error
@@ -2500,3 +2495,8 @@ logs:
     Analyst: Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-25T15:16:09'
+- agent: PracticeAgent
+  action: 'Failed portal for Milliman India Private Limited AI/ML Engineer: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-25T15:16:14'
