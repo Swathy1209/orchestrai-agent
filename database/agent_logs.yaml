@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Rao Valuers Artificial Intelligence Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-25T08:12:23'
-- agent: PracticeAgent
   action: 'Failed portal for Next Leap Artificial Intelligence Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2497,3 +2492,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-25T10:24:15'
+- agent: PracticeAgent
+  action: 'Failed portal for MHLondon Data Science Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-25T10:24:40'
