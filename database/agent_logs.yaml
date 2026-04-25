@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for KAYVI BEVERAGES PRIVATE LIMITED Data Science Intern:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-25T07:33:28'
-- agent: PracticeAgent
   action: 'Failed portal for Thinkpond Services Private Limited Data Science Intern:
     Gemini failed to generate project recommendations'
   status: error
@@ -2501,3 +2496,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-25T08:46:25'
+- agent: PracticeAgent
+  action: 'Failed portal for Motovolt Machine Learning Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-25T08:47:20'
