@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Fractal Data Engineer: Gemini failed to generate project
-    recommendations'
-  status: error
-  timestamp: '2026-04-25T03:03:04'
-- agent: PracticeAgent
   action: 'Failed portal for Lensa Data Science Intern - Summer 2026 (Remote): Gemini
     failed to generate project recommendations'
   status: error
@@ -2498,3 +2493,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-25T05:07:44'
+- agent: PracticeAgent
+  action: 'Failed portal for Bankers Financial Corporation Business Analyst Intern:
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-25T05:07:50'
