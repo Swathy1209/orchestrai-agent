@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for rms Company Data Science Internship - Summer 2026: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-25T08:14:28'
-- agent: PracticeAgent
   action: 'Failed portal for NickPat Media Machine Learning Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2496,3 +2491,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-25T10:28:17'
+- agent: PracticeAgent
+  action: 'Failed portal for Ethara AI Data Science Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-25T10:28:30'
