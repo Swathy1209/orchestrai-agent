@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for ScentAir Technology & Data Science Intern – ScentAir
-    (Charlotte, NC): Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-25T21:16:10'
-- agent: PracticeAgent
   action: 'Failed portal for Zetheta Algorithms Private Limited Artificial Intelligence
     Intern: Gemini failed to generate project recommendations'
   status: error
@@ -2502,3 +2497,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-25T23:15:10'
+- agent: PracticeAgent
+  action: 'Failed portal for Trekion AI Data Science Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-25T23:15:24'
