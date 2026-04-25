@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Maiway Technologies Data Engineer (Data Engineer/Data
-    Collection): Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-25T09:31:28'
-- agent: PracticeAgent
   action: 'Failed portal for DIGI VIPANAN Data Science Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2496,3 +2491,8 @@ logs:
     generate project recommendations'
   status: error
   timestamp: '2026-04-25T11:09:17'
+- agent: PracticeAgent
+  action: 'Failed portal for INDUS Technology, Inc. Business Analyst, Intern: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-25T11:09:30'
