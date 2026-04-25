@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for CipherSchools Data Science Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-25T07:48:42'
-- agent: PracticeAgent
   action: 'Failed portal for SANOVIO AI Engineering Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2502,3 +2497,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-25T09:50:16'
+- agent: PracticeAgent
+  action: 'Failed portal for AArete Intern, Data Science & Artificial Intelligence
+    (Summer 2026): Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-25T09:50:23'
