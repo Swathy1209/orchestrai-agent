@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Uber Data Engineer II: Gemini failed to generate project
-    recommendations'
-  status: error
-  timestamp: '2026-04-25T12:59:07'
-- agent: PracticeAgent
   action: 'Failed portal for Merck Group Master Data Analyst – SAP (Materials): Gemini
     failed to generate project recommendations'
   status: error
@@ -2501,3 +2496,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-25T15:09:12'
+- agent: PracticeAgent
+  action: 'Failed portal for Bosch USA Artificial Intelligence / Machine Learning:
+    Foundation Models - Intern: Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-25T15:09:17'
