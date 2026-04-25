@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for ScentAir Technology & Data Science Intern – ScentAir
-    (Charlotte, NC): Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-25T07:32:29'
-- agent: PracticeAgent
   action: 'Failed portal for eClerx Business Analyst: Gemini failed to generate project
     recommendations'
   status: error
@@ -2501,3 +2496,8 @@ logs:
     placeholder content. Regenerating...'
   status: error
   timestamp: '2026-04-25T08:43:29'
+- agent: PracticeAgent
+  action: 'Failed portal for Om Tekriwal Machine Learning Intern: Gemini failed to
+    generate project recommendations'
+  status: error
+  timestamp: '2026-04-25T08:43:38'
