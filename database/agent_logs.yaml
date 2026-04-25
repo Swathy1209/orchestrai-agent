@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Stirring Minds Artificial Intelligence Intern: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-25T05:42:12'
-- agent: PracticeAgent
   action: 'Failed portal for Pure Plan Artificial Intelligence Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2497,3 +2492,8 @@ logs:
     generate project recommendations'
   status: error
   timestamp: '2026-04-25T06:57:55'
+- agent: PracticeAgent
+  action: 'Failed portal for Kensho Technologies Machine Learning Intern - Summer
+    2026: Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-25T06:58:03'
