@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Picasso Artificial Intelligence Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-25T16:10:07'
-- agent: PracticeAgent
   action: 'Failed portal for NTT Data Artificial Intelligence Associate: Gemini failed
     to generate project recommendations'
   status: error
@@ -2489,3 +2484,8 @@ logs:
     generate project recommendations'
   status: error
   timestamp: '2026-04-25T18:13:09'
+- agent: PracticeAgent
+  action: 'Failed portal for Mediosim Technology Private Limited Machine Learning
+    Intern: Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-25T18:13:34'
