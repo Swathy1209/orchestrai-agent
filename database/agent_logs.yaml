@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Barclays Business Analyst: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-24T22:00:37'
-- agent: PracticeAgent
   action: 'Failed portal for Shivam Singh Machine Learning Intern: Gemini failed to
     generate project recommendations'
   status: error
@@ -2503,3 +2498,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-25T00:12:09'
+- agent: PracticeAgent
+  action: 'Failed portal for Maersk Business Analyst – Financial Planning & Reporting:
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-25T00:12:23'
