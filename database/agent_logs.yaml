@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Macquarie Group Liquidity Business Analyst: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-25T12:31:17'
-- agent: PracticeAgent
   action: 'Failed portal for Kneron ALGORITHM DEVELOPMENT INTERN (DEEP LEARNING):
     Gemini failed to generate project recommendations'
   status: error
@@ -2503,3 +2498,8 @@ logs:
     - Summer 2026: Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-25T14:47:47'
+- agent: PracticeAgent
+  action: 'Failed portal for Tatari Data Science BI, Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-25T14:48:00'
