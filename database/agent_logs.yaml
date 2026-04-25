@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Pacific Seafood Machine Vision & Data Science Intern:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-25T05:00:23'
-- agent: PracticeAgent
   action: 'Failed portal for Great Indian Trade Alliance Artificial Intelligence Intern:
     Gemini failed to generate project recommendations'
   status: error
@@ -2496,3 +2491,8 @@ logs:
     placeholder content. Regenerating...'
   status: error
   timestamp: '2026-04-25T06:19:12'
+- agent: PracticeAgent
+  action: 'Failed portal for CloudZapier Data Science Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-25T06:19:16'
