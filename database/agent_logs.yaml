@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for PROVEN PATH CONSULTANCY Data Science Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-25T08:26:37'
-- agent: PracticeAgent
   action: 'Failed portal for Mediosim Technology Private Limited Data Science Intern:
     Gemini failed to generate project recommendations'
   status: error
@@ -2495,3 +2490,8 @@ logs:
     Autolabeling (Internship): Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-25T10:37:19'
+- agent: PracticeAgent
+  action: 'Failed portal for Lensa Data Analyst Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-25T10:37:27'
