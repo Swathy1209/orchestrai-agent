@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for OMNIDYA TECH LLP Artificial Intelligence Intern: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-24T23:33:34'
-- agent: PracticeAgent
   action: 'Failed portal for Stirring Minds Artificial Intelligence Intern: Gemini
     failed to generate project recommendations'
   status: error
@@ -2502,3 +2497,9 @@ logs:
     - (Paid - India/Remote): Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-25T01:42:50'
+- agent: PracticeAgent
+  action: 'Failed portal for ByteDance Machine Learning Engineer Intern (E-commerce
+    Governance Algorithms) - 2026 Summer (BS/MS): Gemini failed to generate project
+    recommendations'
+  status: error
+  timestamp: '2026-04-25T01:43:02'
