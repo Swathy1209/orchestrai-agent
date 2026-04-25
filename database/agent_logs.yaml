@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Newron Artificial Intelligence (AI) Internship in Bangalore:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-25T15:24:10'
-- agent: PracticeAgent
   action: 'Failed portal for Almost Magic Private Limited Machine Learning Intern:
     Gemini failed to generate project recommendations'
   status: error
@@ -2495,3 +2490,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-25T17:24:47'
+- agent: PracticeAgent
+  action: 'Failed portal for Career-Domain Data Science Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-25T17:25:00'
