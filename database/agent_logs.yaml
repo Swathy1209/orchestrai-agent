@@ -1,9 +1,4 @@
 logs:
-- agent: PracticeAgent
-  action: 'Failed portal for The Middleby Corporation Business Analyst Internship:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-24T22:01:49'
 - agent: SkillAgent
   action: Skill gap analysis complete
   status: success
@@ -2505,3 +2500,9 @@ logs:
     recommendations'
   status: error
   timestamp: '2026-04-25T00:13:41'
+- agent: PracticeAgent
+  action: 'Failed portal for TikTok Machine Learning Engineer Intern (Trust and Safety
+    - CV/NLP/Multimodal LLM) - 2026 Summer(BS/MS): Gemini failed to generate project
+    recommendations'
+  status: error
+  timestamp: '2026-04-25T00:13:54'
