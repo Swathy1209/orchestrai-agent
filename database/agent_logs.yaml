@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Wabtec Data Science Engineer: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-25T10:14:44'
-- agent: PracticeAgent
   action: 'Failed portal for Honeywell Automation India Limited Data Engineer II:
     Gemini failed to generate project recommendations'
   status: error
@@ -2500,3 +2495,8 @@ logs:
     / Dynamo Eval / AgentWarden: Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-25T12:14:02'
+- agent: PracticeAgent
+  action: 'Failed portal for ByteDance Machine Learning Engineer Intern (Global E-commerce
+    Risk Control) - 2026 Summer (BS/MS): Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-25T12:14:27'
