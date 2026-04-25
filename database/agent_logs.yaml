@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Stirring Minds Artificial Intelligence Intern: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-25T01:34:32'
-- agent: PracticeAgent
   action: 'Failed portal for Fortem Biosciences Private Limited Data Science Intern:
     Gemini failed to generate project recommendations'
   status: error
@@ -2500,3 +2495,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-25T03:38:31'
+- agent: PracticeAgent
+  action: 'Failed portal for StoryMirror Infotech Private Limited Machine Learning
+    Intern: Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-25T03:38:44'
