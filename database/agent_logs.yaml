@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for JK Crockery Artificial Intelligence Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-25T18:30:37'
-- agent: PracticeAgent
   action: 'Failed portal for Hubnine India Private Limited Artificial Intelligence
     Intern: Gemini failed to generate project recommendations'
   status: error
@@ -2495,3 +2490,8 @@ logs:
     Intern: Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-25T20:23:07'
+- agent: PracticeAgent
+  action: 'Failed portal for Fermions Machine Learning Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-25T20:23:19'
