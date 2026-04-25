@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for NTT Data Artificial Intelligence Associate: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-25T16:10:20'
-- agent: PracticeAgent
   action: 'Failed portal for Pawzz Foundation Data Science Intern: Gemini failed to
     generate project recommendations'
   status: error
@@ -2489,3 +2484,8 @@ logs:
     Intern: Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-25T18:13:34'
+- agent: PracticeAgent
+  action: 'Failed portal for Old Economy Data Science Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-25T18:14:01'
