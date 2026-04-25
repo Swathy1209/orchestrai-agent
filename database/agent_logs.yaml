@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Anubhav Singh Data Science Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-25T10:12:31'
-- agent: PracticeAgent
   action: 'Failed portal for Vishwa Jagran Manav Sewa Sangh Charitable Trust Machine
     Learning Intern: Gemini failed to generate project recommendations'
   status: error
@@ -2500,3 +2495,8 @@ logs:
     Intern: Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-25T12:11:56'
+- agent: PracticeAgent
+  action: 'Failed portal for Verda Healthcare Business Analyst (Junior/Entry Level)
+    - no C2C: Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-25T12:12:06'
