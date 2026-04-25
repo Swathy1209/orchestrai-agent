@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for SWOT Careers Artificial Intelligence Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-25T19:58:20'
-- agent: PracticeAgent
   action: 'Failed portal for Next Leap Artificial Intelligence Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2500,3 +2495,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-25T21:47:36'
+- agent: PracticeAgent
+  action: 'Failed portal for UnifyXperts Data Science Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-25T21:47:48'
