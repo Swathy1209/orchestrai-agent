@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for The Cincinnati Insurance Companies Student Opportunities
-    - Data Science Intern - Summer 2026 (Hybrid): Gemini failed to generate project
-    recommendations'
-  status: error
-  timestamp: '2026-04-25T08:00:34'
-- agent: PracticeAgent
   action: 'Failed portal for VIZON Data Science Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2498,3 +2492,8 @@ logs:
   status: success
   timestamp: '2026-04-25T10:01:56'
   details: Analyzed 1063 jobs.
+- agent: PracticeAgent
+  action: 'Failed portal for Turing Machine Learning Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-25T10:02:02'
