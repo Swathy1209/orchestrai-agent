@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Dev Story Data Science Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-25T15:59:29'
-- agent: PracticeAgent
   action: 'Failed portal for Capgemini Data Analyst: Gemini failed to generate project
     recommendations'
   status: error
@@ -2487,3 +2482,8 @@ logs:
   action: SkillAgent run initiated
   status: success
   timestamp: '2026-04-25T18:01:37'
+- agent: PracticeAgent
+  action: 'Failed portal for Friendship Public Charter School Data Analyst: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-25T18:01:42'
