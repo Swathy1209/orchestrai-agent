@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Monkhub Data Science Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-25T08:06:46'
-- agent: PracticeAgent
   action: 'Failed portal for GanitSphere Artificial Intelligence Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2497,3 +2492,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-25T10:12:31'
+- agent: PracticeAgent
+  action: 'Failed portal for Vishwa Jagran Manav Sewa Sangh Charitable Trust Machine
+    Learning Intern: Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-25T10:13:07'
