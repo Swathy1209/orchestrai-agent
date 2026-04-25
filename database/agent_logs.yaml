@@ -1,9 +1,4 @@
 logs:
-- agent: PracticeAgent
-  action: 'Failed portal for Scowtt Intern - ML Engineering: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-25T21:10:44'
 - agent: OpportunityMatchingAgent
   action: Generated match scores for 1069 internships
   status: success
@@ -2501,3 +2496,8 @@ logs:
     Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-25T23:05:43'
+- agent: PracticeAgent
+  action: 'Failed portal for Iron Mountain Business Analyst Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-25T23:05:56'
