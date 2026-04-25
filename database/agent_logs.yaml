@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Shahin Pilli Artificial Intelligence Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-25T06:40:26'
-- agent: PracticeAgent
   action: 'Failed portal for Khurana Technology Solutions Data Science Intern: Gemini
     failed to generate project recommendations'
   status: error
@@ -2503,3 +2498,8 @@ logs:
     - 2026 Start (PhD): Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-25T08:00:11'
+- agent: PracticeAgent
+  action: 'Failed portal for Pipraiser Data Science Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-25T08:00:18'
