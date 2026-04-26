@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for KIDLOLAND KIDS & TODDLER GAMES PRIVATE LIMITED Data Science
-    Intern: Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-26T07:44:51'
-- agent: PracticeAgent
   action: 'Failed portal for Moët Hennessy Business Analyst Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2504,3 +2499,8 @@ logs:
   action: Generated match scores for 1072 internships
   status: success
   timestamp: '2026-04-26T09:45:33'
+- agent: PracticeAgent
+  action: 'Failed portal for Webosphere Technolabs LLP Machine Learning Intern: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-26T09:45:38'
