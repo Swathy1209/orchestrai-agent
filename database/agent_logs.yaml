@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Relish Artificial Intelligence Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-26T08:01:56'
-- agent: PracticeAgent
   action: 'Failed portal for Automation Anywhere AI Engineer: Gemini failed to generate
     project recommendations'
   status: error
@@ -2501,3 +2496,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-26T10:22:16'
+- agent: PracticeAgent
+  action: 'Failed portal for Boston Consulting Group Data Analyst: Gemini failed to
+    generate project recommendations'
+  status: error
+  timestamp: '2026-04-26T10:22:29'
