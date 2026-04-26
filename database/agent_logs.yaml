@@ -1,9 +1,4 @@
 logs:
-- agent: SkillAgent
-  action: Skill gap analysis complete
-  status: success
-  timestamp: '2026-04-26T06:02:13'
-  details: Analyzed 1070 jobs.
 - agent: PracticeAgent
   action: 'Failed portal for Primenumbers Technologies Machine Learning Intern: Gemini
     failed to generate project recommendations'
@@ -2507,3 +2502,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-26T07:39:54'
+- agent: PracticeAgent
+  action: 'Failed portal for Yoliday LLP Data Science Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-26T07:40:02'
