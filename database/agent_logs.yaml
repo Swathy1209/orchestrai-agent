@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Unknown Company – Source Incomplete Data Science Intern:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-26T05:06:50'
-- agent: PracticeAgent
   action: 'Failed portal for Wobot Intelligence Private Limited Computer Vision: Gemini
     failed to generate project recommendations'
   status: error
@@ -2504,3 +2499,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-26T06:32:38'
+- agent: PracticeAgent
+  action: 'Failed portal for TikTok Data Analyst Intern (TikTok Shop AMS Data Science)
+    - 2026 Summer (BS/MS): Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-26T06:32:51'
