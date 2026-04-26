@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Refresh Kid LLC (Milwaukee, United States) Data Science
-    Intern: Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-26T08:02:54'
-- agent: PracticeAgent
   action: 'Failed portal for Ask First Machine Learning Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2501,3 +2496,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-26T10:25:01'
+- agent: PracticeAgent
+  action: 'Failed portal for Boston Consulting Grp Lead AI Engineer: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-26T10:25:14'
