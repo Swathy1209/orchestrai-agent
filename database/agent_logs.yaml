@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Peeko Data Science Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-26T07:16:44'
-- agent: PracticeAgent
   action: 'Failed portal for Merck Group Master Data Analyst – SAP (Materials): Gemini
     failed to generate project recommendations'
   status: error
@@ -2502,3 +2497,8 @@ logs:
     Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-26T08:29:23'
+- agent: PracticeAgent
+  action: 'Failed portal for Kneron ALGORITHM DEVELOPMENT INTERN (DEEP LEARNING):
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-26T08:29:37'
