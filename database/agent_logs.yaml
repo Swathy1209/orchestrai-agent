@@ -1,8 +1,4 @@
 logs:
-- agent: CareerAgent
-  action: 101 jobs fetched, 86 relevant
-  level: INFO
-  timestamp: '2026-04-26T10:01:03'
 - agent: PracticeAgent
   action: 'Failed portal for Kasbah Films & Media Pvt Ltd Artificial Intelligence
     Intern: Gemini failed to generate project recommendations'
@@ -2499,3 +2495,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-26T12:00:42'
+- agent: PracticeAgent
+  action: 'Failed portal for TikTok Data Engineer Intern (Ads Data) - 2026 Summer
+    (BS/MS): Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-26T12:00:57'
