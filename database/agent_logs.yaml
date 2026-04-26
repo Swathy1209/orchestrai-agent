@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Stanford University School of Medicine Data Analyst 1
-    (1 Year Fixed Term): Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-26T06:13:49'
-- agent: PracticeAgent
   action: 'Failed portal for Red Ventures We''re Planning Ahead - Join the Talent
     Pipeline for our 2027 Business Analyst Internship: Gemini failed to generate project
     recommendations'
@@ -2509,3 +2504,9 @@ logs:
     and Data Analysis Intern (San Francisco): Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-26T07:49:04'
+- agent: PracticeAgent
+  action: 'Failed portal for ByteDance Machine Learning Engineer Intern (E-commerce
+    Governance Algorithms) - 2026 Summer (BS/MS): Gemini failed to generate project
+    recommendations'
+  status: error
+  timestamp: '2026-04-26T07:49:10'
