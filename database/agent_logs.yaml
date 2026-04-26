@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for WayUp BMW, Overseas Supply Chain Operations and Data
-    Analysis Intern (Fall 2026) - Application via WayUp: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-26T12:02:16'
-- agent: PracticeAgent
   action: 'Failed portal for Aira Wedding Planners Data Science Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2498,3 +2492,7 @@ logs:
   action: 100 jobs fetched
   level: INFO
   timestamp: '2026-04-26T15:05:25'
+- agent: CareerAgent
+  action: 100 jobs fetched, 85 relevant
+  level: INFO
+  timestamp: '2026-04-26T15:05:33'
