@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for OBLYTECH INDIA PRIVATE LIMITED Artificial Intelligence
-    Intern: Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-26T12:14:44'
-- agent: PracticeAgent
   action: 'Failed portal for EFABLINK SYSTEMS PRIVATE LIMITED Artificial Intelligence
     Intern: Gemini failed to generate project recommendations'
   status: error
@@ -2467,3 +2462,8 @@ logs:
     (AI): Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-26T18:17:55'
+- agent: PracticeAgent
+  action: 'Failed portal for EVgo Intern, Data Analyst (Winter / Spring): Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-26T18:18:07'
