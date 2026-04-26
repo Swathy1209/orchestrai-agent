@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for WayUp BMW, Overseas Supply Chain Operations and Data
-    Analysis Intern (Fall 2026) - Application via WayUp: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-26T03:58:08'
-- agent: PracticeAgent
   action: 'Failed portal for Futurewei Technologies, Inc. Computer Vision Research
     Intern: Gemini failed to generate project recommendations'
   status: error
@@ -2501,3 +2495,8 @@ logs:
     recommendations'
   status: error
   timestamp: '2026-04-26T05:50:39'
+- agent: PracticeAgent
+  action: 'Failed portal for The Souled Store Artificial Intelligence Intern: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-26T05:50:44'
