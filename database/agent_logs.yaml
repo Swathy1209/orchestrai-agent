@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Ramyoz Artificial Intelligence Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-25T23:43:18'
-- agent: PracticeAgent
   action: 'Failed portal for Optum Senior Data Engineering Consultant: Gemini failed
     to generate project recommendations'
   status: error
@@ -2505,3 +2500,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-26T01:38:20'
+- agent: PracticeAgent
+  action: 'Failed portal for apexanalytix Business Analyst Intern: Gemini failed to
+    generate project recommendations'
+  status: error
+  timestamp: '2026-04-26T01:38:32'
