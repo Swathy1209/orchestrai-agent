@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Vipracube AI Machine Learning Intern: Gemini failed to
-    generate project recommendations'
-  status: error
-  timestamp: '2026-04-26T10:28:15'
-- agent: PracticeAgent
   action: 'Failed portal for BOOSTXAI Artificial Intelligence Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2501,3 +2496,8 @@ logs:
     Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-26T12:25:18'
+- agent: PracticeAgent
+  action: 'Failed portal for WayUp BMW, Business Analyst Co-Op (Fall 2026) - Application
+    via WayUp: Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-26T12:25:31'
