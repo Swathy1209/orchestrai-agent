@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Verda Healthcare Business Analyst (Junior/Entry Level)
-    - no C2C: Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-25T22:14:55'
-- agent: PracticeAgent
   action: 'Failed portal for Novartis RWD Data Engineer (Pharma): Gemini failed to
     generate project recommendations'
   status: error
@@ -2504,3 +2499,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-26T00:15:03'
+- agent: PracticeAgent
+  action: 'Failed portal for Tesla Internship, Data Engineer, Fleet Analytics (Summer
+    2026): Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-26T00:15:17'
