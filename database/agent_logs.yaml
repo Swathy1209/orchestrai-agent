@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Domyn AI Engineering and Research Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-26T08:21:00'
-- agent: PracticeAgent
   action: 'Failed portal for DeepMechanix Machine Learning Intern: Gemini failed to
     generate project recommendations'
   status: error
@@ -2499,3 +2494,8 @@ logs:
     Intern: Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-26T10:50:09'
+- agent: PracticeAgent
+  action: 'Failed portal for Hubnine India Private Limited Artificial Intelligence
+    Intern: Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-26T10:50:22'
