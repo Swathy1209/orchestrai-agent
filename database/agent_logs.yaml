@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Veracode Business Analyst Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-26T08:13:29'
-- agent: PracticeAgent
   action: 'Failed portal for AMETEK Data Science and AI Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2500,3 +2495,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-26T10:38:08'
+- agent: PracticeAgent
+  action: 'Failed portal for Fractal Analytics Business Analyst: Gemini failed to
+    generate project recommendations'
+  status: error
+  timestamp: '2026-04-26T10:38:14'
