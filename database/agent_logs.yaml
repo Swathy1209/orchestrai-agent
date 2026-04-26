@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Boston Consulting Group Data Analyst: Gemini failed to
-    generate project recommendations'
-  status: error
-  timestamp: '2026-04-26T12:25:58'
-- agent: PracticeAgent
   action: 'Failed portal for Deepdive Media Private Limited Data Science Intern: Gemini
     failed to generate project recommendations'
   status: error
@@ -2456,3 +2451,7 @@ logs:
   action: Generated Portfolio
   status: success
   timestamp: '2026-04-26T18:44:28'
+- agent: CareerAgent
+  action: Fetch started
+  level: INFO
+  timestamp: '2026-04-26T19:44:42'
