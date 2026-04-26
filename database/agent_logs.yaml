@@ -1,9 +1,4 @@
 logs:
-- agent: PracticeAgent
-  action: 'Failed portal for Befach Artificial Intelligence Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-25T22:06:38'
 - agent: PortfolioBuilderAgent
   action: Generated Portfolio
   status: success
@@ -2504,3 +2499,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-26T00:06:47'
+- agent: PracticeAgent
+  action: 'Failed portal for Astra Security Machine Learning Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-26T00:07:01'
