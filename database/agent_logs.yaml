@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Everstylish Lifestyle Private Limited Data Science Intern:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-25T22:35:26'
-- agent: PracticeAgent
   action: 'Failed portal for Stackwise Data Science Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2503,3 +2498,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-26T00:35:42'
+- agent: PracticeAgent
+  action: 'Failed portal for HDR Data Science/Analysis Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-26T00:35:48'
