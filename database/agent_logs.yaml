@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Sameer Khatri Artificial Intelligence Intern: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-26T10:33:33'
-- agent: PracticeAgent
   action: 'Failed portal for Lensa Machine Learning Intern - Summer 2026: Gemini failed
     to generate project recommendations'
   status: error
@@ -2500,3 +2495,8 @@ logs:
     placeholder content. Regenerating...'
   status: error
   timestamp: '2026-04-26T12:32:42'
+- agent: PracticeAgent
+  action: 'Failed portal for Sreenandanam Data Science Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-26T12:32:45'
