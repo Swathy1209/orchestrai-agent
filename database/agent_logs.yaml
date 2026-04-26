@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Albert Einstein College of Medicine Data Analyst - Education:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-26T06:14:45'
-- agent: PracticeAgent
   action: 'Failed portal for Property Ledge (Sydney, Australia) Data Science Intern:
     Gemini failed to generate project recommendations'
   status: error
@@ -2509,3 +2504,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-26T07:49:34'
+- agent: PracticeAgent
+  action: 'Failed portal for Bumi Armada Intern - Data Analyst: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-26T07:49:38'
