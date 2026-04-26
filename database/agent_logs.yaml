@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Spotlyte Artificial Intelligence Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-26T12:12:39'
-- agent: PracticeAgent
   action: 'Failed portal for Ask First Data Science Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2474,3 +2469,7 @@ logs:
   action: 100 jobs fetched
   level: INFO
   timestamp: '2026-04-26T17:32:09'
+- agent: CareerAgent
+  action: 100 jobs fetched, 85 relevant
+  level: INFO
+  timestamp: '2026-04-26T17:32:18'
