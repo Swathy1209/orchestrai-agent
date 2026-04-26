@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Web Management Consultants Ltd Business Analyst Intern:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-26T09:31:53'
-- agent: PracticeAgent
   action: 'Failed portal for New Jersey Courts Business Analyst Intern (Hourly): Gemini
     failed to generate project recommendations'
   status: error
@@ -2496,3 +2491,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-26T11:34:37'
+- agent: PracticeAgent
+  action: 'Failed portal for California Medical Behavioral Health Data Science Intern:
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-26T11:34:50'
