@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for All-Star Sports Academy FlightScope Data Analyst Intern
-    - Spring/Summer 2026: Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-26T01:47:10'
-- agent: PracticeAgent
   action: 'Failed portal for US Modules Student Worker - Production Data Analyst:
     Gemini failed to generate project recommendations'
   status: error
@@ -2499,3 +2494,8 @@ logs:
     Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-26T03:31:58'
+- agent: PracticeAgent
+  action: 'Failed portal for SETV Global Machine Learning Intern: Gemini failed to
+    generate project recommendations'
+  status: error
+  timestamp: '2026-04-26T03:32:10'
