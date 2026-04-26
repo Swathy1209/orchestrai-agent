@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for AUMOVIO Data Analysis Intern (Yearlong): Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-26T08:48:03'
-- agent: PracticeAgent
   action: 'Failed portal for ZURU Toys Data Analyst Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2499,3 +2494,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-26T11:15:57'
+- agent: PracticeAgent
+  action: 'Failed portal for MeshyAI Machine Learning Systems Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-26T11:16:11'
