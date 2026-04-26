@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Encrobytes Technologies Private Limited Data Science
-    Intern: Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-26T06:44:05'
-- agent: PracticeAgent
   action: 'Failed portal for CarVach Data Science Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2505,3 +2500,7 @@ logs:
   action: 101 jobs fetched
   level: INFO
   timestamp: '2026-04-26T08:01:10'
+- agent: CareerAgent
+  action: 101 jobs fetched, 86 relevant
+  level: INFO
+  timestamp: '2026-04-26T08:01:16'
