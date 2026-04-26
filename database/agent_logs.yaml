@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Tailorbird Software AI Engineering Internships: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-26T06:15:37'
-- agent: PracticeAgent
   action: 'Failed portal for ForFutures Financial, Planning, a financial advisory
     practice of Ameriprise Financial Services LLC AI/Data Science Graduate Intern:
     Gemini failed to generate project recommendations'
@@ -2509,3 +2504,8 @@ logs:
     (BS/MS): Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-26T07:50:02'
+- agent: PracticeAgent
+  action: 'Failed portal for L''OCCITANE Group (B Corp) Data Analyst Intern: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-26T07:50:09'
