@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Praxis Home Retail Limited Data Science Intern: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-26T12:07:28'
-- agent: PracticeAgent
   action: 'Failed portal for SkySlope Data Analyst 3: Gemini failed to generate project
     recommendations'
   status: error
@@ -2477,3 +2472,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-26T17:18:12'
+- agent: PracticeAgent
+  action: 'Failed portal for Innoknowvex Data Science: Gemini failed to generate project
+    recommendations'
+  status: error
+  timestamp: '2026-04-26T17:18:23'
