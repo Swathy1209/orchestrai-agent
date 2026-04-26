@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Pawzz Foundation Data Science Intern: Gemini failed to
-    generate project recommendations'
-  status: error
-  timestamp: '2026-04-26T02:15:39'
-- agent: PracticeAgent
   action: 'Failed portal for Physics World Graph Machine Learning Research Intern:
     Gemini failed to generate project recommendations'
   status: error
@@ -2504,3 +2499,7 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-26T03:59:51'
+- agent: CareerAgent
+  action: Fetch started
+  level: INFO
+  timestamp: '2026-04-26T04:00:00'
