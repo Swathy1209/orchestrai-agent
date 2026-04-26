@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for apexanalytix Business Analyst Intern: Gemini failed to
-    generate project recommendations'
-  status: error
-  timestamp: '2026-04-26T07:52:05'
-- agent: PracticeAgent
   action: 'Failed portal for Jampacked Data Science Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2499,3 +2494,8 @@ logs:
   action: Fetch started
   level: INFO
   timestamp: '2026-04-26T10:00:30'
+- agent: PracticeAgent
+  action: 'Failed portal for Emoolar Technology Private Limited Machine Learning Intern:
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-26T10:00:38'
