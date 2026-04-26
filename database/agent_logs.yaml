@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Handshake AI/Machine Learning Engineer Intern: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-26T10:33:28'
-- agent: PracticeAgent
   action: 'Failed portal for Sameer Khatri Artificial Intelligence Intern: Gemini
     failed to generate project recommendations'
   status: error
@@ -2500,3 +2495,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-26T12:32:30'
+- agent: PracticeAgent
+  action: 'Failed portal for RefinedScience Data Engineering Intern: Detected incomplete
+    placeholder content. Regenerating...'
+  status: error
+  timestamp: '2026-04-26T12:32:42'
