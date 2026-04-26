@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Grivaa Consultancy Services Data Science Intern: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-26T06:12:12'
-- agent: PracticeAgent
   action: 'Failed portal for TikTok Data Science Project Intern (Advertising Team)
     - 2026 Start (BS/MS): Gemini failed to generate project recommendations'
   status: error
@@ -2508,3 +2503,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-26T07:47:54'
+- agent: PracticeAgent
+  action: 'Failed portal for RTW Institute Data Analyst Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-26T07:47:58'
