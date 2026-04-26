@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Stackwise Data Science Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-26T12:37:02'
-- agent: PracticeAgent
   action: 'Failed portal for Medius Technologies Private Limited Machine Learning
     Intern: Gemini failed to generate project recommendations'
   status: error
@@ -2419,3 +2414,8 @@ logs:
     Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-26T23:32:53'
+- agent: PracticeAgent
+  action: 'Failed portal for Wobot Intelligence Private Limited Computer Vision: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-26T23:33:04'
