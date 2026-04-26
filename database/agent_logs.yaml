@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Unnati Enterprises Data Science Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-26T06:01:27'
-- agent: PracticeAgent
   action: 'Failed portal for Preplaced Machine Learning Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2506,3 +2501,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-26T07:39:19'
+- agent: PracticeAgent
+  action: 'Failed portal for Helix DIgital Artificial Intelligence Intern: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-26T07:39:26'
