@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Rebel Athletic Ai Engineer Internship: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-26T02:18:31'
-- agent: PracticeAgent
   action: 'Failed portal for Greenlight Data Engineering Intern: Gemini failed to
     generate project recommendations'
   status: error
@@ -2499,3 +2494,8 @@ logs:
   action: Email delegation passed to ExecutionAgent
   level: INFO
   timestamp: '2026-04-26T04:01:57'
+- agent: PracticeAgent
+  action: 'Failed portal for Bio-Rad Laboratories Data Science Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-26T04:02:05'
