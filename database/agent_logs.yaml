@@ -1,9 +1,4 @@
 logs:
-- agent: PracticeAgent
-  action: 'Failed portal for SkillOrbit Data Science Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-26T08:01:34'
 - agent: CareerAgent
   action: Stored in GitHub YAML
   level: INFO
@@ -2498,3 +2493,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-26T10:21:36'
+- agent: PracticeAgent
+  action: 'Failed portal for Octave Project Accounting - Business Analyst Intern:
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-26T10:21:48'
