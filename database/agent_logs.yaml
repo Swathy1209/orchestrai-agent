@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for HealthStream Intern, Business Analyst: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-26T07:15:30'
-- agent: PracticeAgent
   action: 'Failed portal for Vite Tech IT Solutions Private Limited Machine Learning
     Intern  OCR & Document AI: Gemini failed to generate project recommendations'
   status: error
@@ -2502,3 +2497,8 @@ logs:
     Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-26T08:27:39'
+- agent: PracticeAgent
+  action: 'Failed portal for Picasso Artificial Intelligence Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-26T08:27:51'
