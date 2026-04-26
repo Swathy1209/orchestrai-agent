@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Allo Innoware Data Science Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-26T07:53:49'
-- agent: PracticeAgent
   action: 'Failed portal for Apport Software Solutions Private Limited Data Science
     Intern: Gemini failed to generate project recommendations'
   status: error
@@ -2497,3 +2492,8 @@ logs:
     generate project recommendations'
   status: error
   timestamp: '2026-04-26T10:02:28'
+- agent: PracticeAgent
+  action: 'Failed portal for CipherSchools (Chandigarh, India) Data Science Intern:
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-26T10:02:33'
