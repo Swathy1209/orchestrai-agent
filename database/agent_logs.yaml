@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Bumi Armada Intern - Data Analyst: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-26T07:49:38'
-- agent: PracticeAgent
   action: 'Failed portal for The International Council on Clean Transportation Policy
     and Data Analysis Intern (San Francisco): Gemini failed to generate project recommendations'
   status: error
@@ -2500,3 +2495,8 @@ logs:
     Intern: Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-26T09:55:26'
+- agent: PracticeAgent
+  action: 'Failed portal for Better Artificial Intelligence Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-26T09:55:39'
