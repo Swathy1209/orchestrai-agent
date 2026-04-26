@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Founding Years Learning Solutions Private Limited Data
-    Science Intern: Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-26T06:06:48'
-- agent: PracticeAgent
   action: 'Failed portal for Next Labs Data Science Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2507,3 +2502,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-26T07:44:11'
+- agent: PracticeAgent
+  action: 'Failed portal for Better Artificial Intelligence Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-26T07:44:16'
