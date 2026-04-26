@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for State of Florida DATA SCIENCE INTERNSHIP: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-26T02:19:36'
-- agent: PracticeAgent
   action: 'Failed portal for TikTok Data Engineer Project Intern (Data Governance
     Data Cycling Center) - 2026 Start (BS/MS): Gemini failed to generate project recommendations'
   status: error
@@ -2499,3 +2494,8 @@ logs:
   status: success
   timestamp: '2026-04-26T04:02:30'
   details: Analyzed 1069 jobs.
+- agent: PracticeAgent
+  action: 'Failed portal for Tesla Internship, Machine Learning Engineer, Data Engineering
+    & Analytics (Summer 2026): Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-26T04:02:35'
