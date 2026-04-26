@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Deepdive Media Private Limited Data Science Intern: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-25T22:01:54'
-- agent: PracticeAgent
   action: 'Failed portal for Athena AI Engineer Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2502,3 +2497,8 @@ logs:
   action: Email delegation passed to ExecutionAgent
   level: INFO
   timestamp: '2026-04-26T00:01:35'
+- agent: PracticeAgent
+  action: 'Failed portal for Greater New York Insurance Companies Data Science Intern
+    - Summer 2026: Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-26T00:01:41'
