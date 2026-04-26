@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Kneron ALGORITHM DEVELOPMENT INTERN (DEEP LEARNING):
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-26T08:29:37'
-- agent: PracticeAgent
   action: 'Failed portal for Novartis RWD Data Engineer (Pharma): Gemini failed to
     generate project recommendations'
   status: error
@@ -2500,3 +2495,8 @@ logs:
     generate project recommendations'
   status: error
   timestamp: '2026-04-26T11:02:59'
+- agent: PracticeAgent
+  action: 'Failed portal for AIFINSPHERE INC. Business Analysts Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-26T11:03:12'
