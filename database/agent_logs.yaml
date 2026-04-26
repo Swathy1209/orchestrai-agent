@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Handshake Spatial Data Analyst - AI Trainer: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-26T08:31:10'
-- agent: PracticeAgent
   action: 'Failed portal for Interface Design Associates Private Limited Machine Learning
     Intern: Gemini failed to generate project recommendations'
   status: error
@@ -2499,3 +2494,8 @@ logs:
   action: Generated optimizations for 1072 internships
   status: success
   timestamp: '2026-04-26T11:04:12'
+- agent: PracticeAgent
+  action: 'Failed portal for Capgemini Business Analyst-Contact Center Domain: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-26T11:04:21'
