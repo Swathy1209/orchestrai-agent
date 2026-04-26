@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Barclays Business Analyst: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-26T12:08:44'
-- agent: PracticeAgent
   action: 'Failed portal for Dunedain ML/NLP Research Engineering Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2477,3 +2472,8 @@ logs:
     Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-26T17:19:18'
+- agent: PracticeAgent
+  action: 'Failed portal for Career Solutions Data Science: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-26T17:19:30'
