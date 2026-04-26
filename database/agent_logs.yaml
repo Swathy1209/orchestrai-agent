@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Toshiba America Electronic Components, Inc. 5039 Data
-    Analyst Engineering Intern: Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-26T10:36:55'
-- agent: PracticeAgent
   action: 'Failed portal for Interface Design Associates Private Limited Data Science
     Intern: Gemini failed to generate project recommendations'
   status: error
@@ -2499,3 +2494,9 @@ logs:
     Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-26T12:35:44'
+- agent: PracticeAgent
+  action: 'Failed portal for Disruptive Consultancy Services Private Limited (Development
+    Monitors India) Artificial Intelligence Intern: Gemini failed to generate project
+    recommendations'
+  status: error
+  timestamp: '2026-04-26T12:35:52'
