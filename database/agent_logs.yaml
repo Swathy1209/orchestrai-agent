@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Arvyax Technologies Private Limited Machine Learning:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-26T02:41:36'
-- agent: PracticeAgent
   action: 'Failed portal for Career Solutions Data Science: Gemini failed to generate
     project recommendations'
   status: error
@@ -2496,3 +2491,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-26T04:11:19'
+- agent: PracticeAgent
+  action: 'Failed portal for ChatGPT Jobs SAP iXp Intern - AI Machine Learning: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-26T04:11:47'
