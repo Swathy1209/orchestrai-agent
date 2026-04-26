@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Enlight Lab Data Science Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-26T07:04:21'
-- agent: PracticeAgent
   action: 'Failed portal for Enlight Lab Machine Learning Intern: Gemini failed to
     generate project recommendations'
   status: error
@@ -2501,3 +2496,9 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-26T08:17:32'
+- agent: PracticeAgent
+  action: 'Failed portal for TikTok (General Hire) Machine Learning Engineer Intern
+    (TikTok- Video Recommendation) - 2026 Summer (BS/MS): Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-26T08:17:39'
