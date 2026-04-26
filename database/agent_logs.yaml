@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Medidata Solutions Data Science Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-26T07:52:00'
-- agent: PracticeAgent
   action: 'Failed portal for apexanalytix Business Analyst Intern: Gemini failed to
     generate project recommendations'
   status: error
@@ -2500,3 +2495,7 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-26T10:00:25'
+- agent: CareerAgent
+  action: Fetch started
+  level: INFO
+  timestamp: '2026-04-26T10:00:30'
