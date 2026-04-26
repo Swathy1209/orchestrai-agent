@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for TESK Labs Machine Learning Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-26T07:11:13'
-- agent: PracticeAgent
   action: 'Failed portal for Cyberwarfare Labs Artificial Intelligence Intern: Gemini
     failed to generate project recommendations'
   status: error
@@ -2502,3 +2497,8 @@ logs:
     Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-26T08:23:22'
+- agent: PracticeAgent
+  action: 'Failed portal for Ogmen Robotics Machine Learning Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-26T08:23:35'
