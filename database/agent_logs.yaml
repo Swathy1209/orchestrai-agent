@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Yoliday LLP Data Science Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-26T07:40:02'
-- agent: PracticeAgent
   action: 'Failed portal for The Hustle House Artificial Intelligence Intern: Gemini
     failed to generate project recommendations'
   status: error
@@ -2505,3 +2500,8 @@ logs:
     Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-26T09:31:53'
+- agent: PracticeAgent
+  action: 'Failed portal for New Jersey Courts Business Analyst Intern (Hourly): Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-26T09:32:07'
