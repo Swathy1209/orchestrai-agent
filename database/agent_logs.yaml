@@ -1,8 +1,4 @@
 logs:
-- agent: CoverLetterAgent
-  action: Generated 1072 cover letters
-  status: success
-  timestamp: '2026-04-26T08:43:05'
 - agent: PracticeAgent
   action: 'Failed portal for Motovolt Machine Learning Intern: Gemini failed to generate
     project recommendations'
@@ -2499,3 +2495,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-26T11:12:00'
+- agent: PracticeAgent
+  action: 'Failed portal for MyCloud Technology Machine Learning Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-26T11:12:14'
