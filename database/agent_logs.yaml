@@ -1,8 +1,4 @@
 logs:
-- agent: CareerAgent
-  action: 101 jobs fetched, 86 relevant
-  level: INFO
-  timestamp: '2026-04-26T08:01:16'
 - agent: PracticeAgent
   action: 'Failed portal for Udaghosh Social Welfare Society Machine Learning Intern:
     Gemini failed to generate project recommendations'
@@ -2497,3 +2493,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-26T10:21:10'
+- agent: PracticeAgent
+  action: 'Failed portal for Friendship Public Charter School Data Analyst: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-26T10:21:23'
