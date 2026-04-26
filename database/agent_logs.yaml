@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for OMR Shipping India Private Limited Machine Learning Intern:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-26T07:51:24'
-- agent: PracticeAgent
   action: 'Failed portal for VerbaFlo.AI Machine Learning Intern: Gemini failed to
     generate project recommendations'
   status: error
@@ -2500,3 +2495,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-26T09:59:10'
+- agent: PracticeAgent
+  action: 'Failed portal for Lensa AI Data Science Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-26T09:59:22'
