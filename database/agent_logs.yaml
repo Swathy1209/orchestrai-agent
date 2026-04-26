@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Berkshire Hathaway GUARD Insurance Companies Data-AI
-    Engineering Intern: Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-25T22:02:15'
-- agent: PracticeAgent
   action: 'Failed portal for Grroom Data Science Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2503,3 +2498,8 @@ logs:
   status: success
   timestamp: '2026-04-26T00:02:04'
   details: Analyzed 1069 jobs.
+- agent: PracticeAgent
+  action: 'Failed portal for Futurewei Technologies, Inc. Computer Vision Research
+    Intern: Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-26T00:02:10'
