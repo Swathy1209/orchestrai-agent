@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for US Modules Student Worker - Production Data Analyst:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-26T08:00:39'
-- agent: PracticeAgent
   action: 'Failed portal for ANZ Banking Group Data Engineer - Data Governance & Quality:
     Gemini failed to generate project recommendations'
   status: error
@@ -2496,3 +2491,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-26T10:19:41'
+- agent: PracticeAgent
+  action: 'Failed portal for AMETEK Data Science and AI Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-26T10:20:06'
