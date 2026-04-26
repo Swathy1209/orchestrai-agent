@@ -1,8 +1,4 @@
 logs:
-- agent: OpportunityMatchingAgent
-  action: Generated match scores for 1069 internships
-  status: success
-  timestamp: '2026-04-26T03:09:04'
 - agent: PracticeAgent
   action: 'Failed portal for Barclays Private Bank Processing Business Analyst: Gemini
     failed to generate project recommendations'
@@ -2500,3 +2496,8 @@ logs:
     generate project recommendations'
   status: error
   timestamp: '2026-04-26T04:51:18'
+- agent: PracticeAgent
+  action: 'Failed portal for Bombardier Data Analyst Intern (Year-Round): Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-26T04:51:24'
