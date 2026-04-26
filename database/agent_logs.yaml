@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Primetrade.ai Data Science Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-26T07:35:14'
-- agent: PracticeAgent
   action: 'Failed portal for Kumaresh Chinnaswamy Machine Learning Intern: Gemini
     failed to generate project recommendations'
   status: error
@@ -2502,3 +2497,8 @@ logs:
     Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-26T08:48:58'
+- agent: PracticeAgent
+  action: 'Failed portal for Washington Commanders Data Analyst (Intern): Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-26T08:49:12'
