@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for TikTok Data Analyst Intern (TikTok Shop AMS Data Science)
-    - 2026 Summer (BS/MS): Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-26T02:17:41'
-- agent: PracticeAgent
   action: 'Failed portal for Interface Design Associates Private Limited Machine Learning
     Intern: Gemini failed to generate project recommendations'
   status: error
@@ -2501,3 +2496,7 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-26T04:01:11'
+- agent: CareerAgent
+  action: 100 jobs fetched, 85 relevant
+  level: INFO
+  timestamp: '2026-04-26T04:01:24'
