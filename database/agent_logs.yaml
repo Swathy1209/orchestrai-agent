@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for AgZen Computer Vision ML Engineering Intern (MS/PHD Level):
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-26T12:23:52'
-- agent: PracticeAgent
   action: 'Failed portal for Futurewei Technologies, Inc. Computer Vision Research
     Intern: Gemini failed to generate project recommendations'
   status: error
@@ -2464,3 +2459,7 @@ logs:
   action: Fetch started
   level: INFO
   timestamp: '2026-04-26T18:38:01'
+- agent: CareerAgent
+  action: 100 jobs fetched
+  level: INFO
+  timestamp: '2026-04-26T18:38:24'
