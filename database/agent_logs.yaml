@@ -1,9 +1,4 @@
 logs:
-- agent: PracticeAgent
-  action: 'Failed portal for Arihant Publications Data Science Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-26T03:59:51'
 - agent: CareerAgent
   action: Fetch started
   level: INFO
@@ -2500,3 +2495,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-26T05:51:26'
+- agent: PracticeAgent
+  action: 'Failed portal for Alster IT Solutions Data Science Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-26T05:51:31'
