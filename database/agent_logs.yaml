@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for NTT Data Artificial Intelligence Associate: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-26T12:38:06'
-- agent: PracticeAgent
   action: 'Failed portal for LivNSense Data Science Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2419,3 +2414,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-26T23:34:58'
+- agent: PracticeAgent
+  action: 'Failed portal for 1stop.ai Artificial Intelligence (AI): Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-26T23:35:09'
