@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Qorvo, Inc. Data Science Engineer Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-26T12:47:49'
-- agent: PracticeAgent
   action: 'Failed portal for Tesla Internship, Data Engineer, Energy (Summer 2026):
     Gemini failed to generate project recommendations'
   status: error
@@ -2419,3 +2414,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-26T23:46:50'
+- agent: PracticeAgent
+  action: 'Failed portal for Diffzene Machine Learning: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-26T23:47:01'
