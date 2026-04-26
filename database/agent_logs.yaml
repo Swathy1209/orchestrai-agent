@@ -1,9 +1,4 @@
 logs:
-- agent: PracticeAgent
-  action: 'Failed portal for Tejate Education Private Limited Data Science Intern:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-26T09:45:17'
 - agent: OpportunityMatchingAgent
   action: Generated match scores for 1072 internships
   status: success
@@ -2496,3 +2491,8 @@ logs:
     generate project recommendations'
   status: error
   timestamp: '2026-04-26T11:44:28'
+- agent: PracticeAgent
+  action: 'Failed portal for OMR Shipping India Private Limited Machine Learning Intern:
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-26T11:44:40'
