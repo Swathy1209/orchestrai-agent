@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for MHLondon Data Science Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-26T08:17:18'
-- agent: PracticeAgent
   action: 'Failed portal for Pooja  Sharma Artificial Intelligence Intern: Gemini
     failed to generate project recommendations'
   status: error
@@ -2500,3 +2495,8 @@ logs:
     Intern: Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-26T10:43:51'
+- agent: PracticeAgent
+  action: 'Failed portal for GenPark Artificial intelligence intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-26T10:44:17'
