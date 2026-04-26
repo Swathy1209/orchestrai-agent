@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for EY Data Scientist – Machine Learning: Gemini failed to
-    generate project recommendations'
-  status: error
-  timestamp: '2026-04-26T11:14:00'
-- agent: PracticeAgent
   action: 'Failed portal for EY Machine Learning Engineer: Gemini failed to generate
     project recommendations'
   status: error
@@ -2499,3 +2494,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-26T13:05:14'
+- agent: PracticeAgent
+  action: 'Failed portal for Rebel Foods Private Limited Data Engineering: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-26T13:05:28'
