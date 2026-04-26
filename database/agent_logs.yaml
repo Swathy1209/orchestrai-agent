@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Rx One Care Private Limited Machine Learning Intern:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-26T07:14:01'
-- agent: PracticeAgent
   action: 'Failed portal for Udan Foundation Artificial Intelligence Intern: Gemini
     failed to generate project recommendations'
   status: error
@@ -2502,3 +2497,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-26T08:26:33'
+- agent: PracticeAgent
+  action: 'Failed portal for Mediosim Technology Private Limited Machine Learning
+    Intern: Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-26T08:26:52'
