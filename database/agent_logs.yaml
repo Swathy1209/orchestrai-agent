@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Anubhav Singh Machine Learning Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-26T06:08:26'
-- agent: PracticeAgent
   action: 'Failed portal for Boston Consulting Grp Lead AI Engineer: Gemini failed
     to generate project recommendations'
   status: error
@@ -2508,3 +2503,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-26T07:45:39'
+- agent: PracticeAgent
+  action: 'Failed portal for CoPatible AI/ML Engineer Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-26T07:45:45'
