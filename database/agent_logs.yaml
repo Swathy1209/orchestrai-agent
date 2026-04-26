@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for The Cincinnati Insurance Companies Student Opportunities
-    - Data Science Intern - Summer 2026 (Hybrid): Gemini failed to generate project
-    recommendations'
-  status: error
-  timestamp: '2026-04-26T07:59:36'
-- agent: PracticeAgent
   action: 'Failed portal for Arhant Solutions Artificial Intelligence Intern: Gemini
     failed to generate project recommendations'
   status: error
@@ -2496,3 +2490,8 @@ logs:
     generate project recommendations'
   status: error
   timestamp: '2026-04-26T10:16:28'
+- agent: PracticeAgent
+  action: 'Failed portal for SWOT Careers Artificial Intelligence Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-26T10:16:41'
