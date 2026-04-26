@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Awarno Data Science Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-26T05:08:21'
-- agent: PracticeAgent
   action: 'Failed portal for Unknown Company – Source Incomplete Artificial Intelligence
     Intern: Gemini failed to generate project recommendations'
   status: error
@@ -2504,3 +2499,8 @@ logs:
     Summer (BS/MS): Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-26T06:34:39'
+- agent: PracticeAgent
+  action: 'Failed portal for State of Florida DATA SCIENCE INTERNSHIP: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-26T06:34:53'
