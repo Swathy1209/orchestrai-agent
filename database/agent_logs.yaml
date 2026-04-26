@@ -1,9 +1,4 @@
 logs:
-- agent: PracticeAgent
-  action: 'Failed portal for Berkshire Hathaway GUARD Insurance Companies Data-AI
-    Engineering Intern: Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-26T02:01:04'
 - agent: CareerAgent
   action: Stored in GitHub YAML
   level: INFO
@@ -2501,3 +2496,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-26T03:46:14'
+- agent: PracticeAgent
+  action: 'Failed portal for Unnati Enterprises Data Science Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-26T03:46:26'
