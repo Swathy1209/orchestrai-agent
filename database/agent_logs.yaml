@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Hone Health Data Science Intern (Summer 2026): Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-26T05:36:13'
-- agent: PracticeAgent
   action: 'Failed portal for Raviraj Sarees Pvt Ltd Data Science Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2505,3 +2500,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-26T06:48:09'
+- agent: PracticeAgent
+  action: 'Failed portal for Twango Data Science Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-26T06:48:22'
