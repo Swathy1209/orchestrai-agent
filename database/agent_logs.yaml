@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Brain Quest Artificial Intelligence Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-26T12:39:01'
-- agent: PracticeAgent
   action: 'Failed portal for JP IT STAFFING LLC Data Science Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2419,3 +2414,8 @@ logs:
     recommendations'
   status: error
   timestamp: '2026-04-26T23:36:39'
+- agent: PracticeAgent
+  action: 'Failed portal for TikTok Business Analyst Intern (Business Integrity) -
+    2026 Summer (BS/MS): Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-26T23:36:51'
