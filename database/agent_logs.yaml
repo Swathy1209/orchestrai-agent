@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Texas Workforce Commission Data Analyst (Austin): Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-26T10:21:10'
-- agent: PracticeAgent
   action: 'Failed portal for Friendship Public Charter School Data Analyst: Gemini
     failed to generate project recommendations'
   status: error
@@ -2502,3 +2497,8 @@ logs:
     Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-26T12:18:47'
+- agent: PracticeAgent
+  action: 'Failed portal for Greater Than Educational Technologies Data Science Intern:
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-26T12:18:55'
