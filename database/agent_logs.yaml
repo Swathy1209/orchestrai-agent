@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for WayUp BMW, Business Analyst Co-Op (Fall 2026) - Application
-    via WayUp: Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-26T03:59:39'
-- agent: PracticeAgent
   action: 'Failed portal for Arihant Publications Data Science Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2500,3 +2495,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-26T05:51:20'
+- agent: PracticeAgent
+  action: 'Failed portal for Relish Artificial Intelligence Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-26T05:51:26'
