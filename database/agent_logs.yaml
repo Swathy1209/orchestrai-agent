@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for SmartLabprojects Data Science Intern: Gemini failed to
-    generate project recommendations'
-  status: error
-  timestamp: '2026-04-26T13:10:17'
-- agent: PracticeAgent
   action: 'Failed portal for SmartLabprojects Machine Learning Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2401,3 +2396,7 @@ logs:
   action: Fetch started
   level: INFO
   timestamp: '2026-04-27T08:24:37'
+- agent: CareerAgent
+  action: 102 jobs fetched
+  level: INFO
+  timestamp: '2026-04-27T08:25:04'
