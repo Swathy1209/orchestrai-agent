@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for DeepThought CultureTech Ventures Private Limited Machine
-    Learning Intern: Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-26T13:49:32'
-- agent: PracticeAgent
   action: 'Failed portal for Company 9 LLC Business Analyst Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2295,3 +2290,7 @@ logs:
   action: Generated Portfolio
   status: success
   timestamp: '2026-04-27T20:13:51'
+- agent: CareerAgent
+  action: Fetch started
+  level: INFO
+  timestamp: '2026-04-27T21:19:13'
