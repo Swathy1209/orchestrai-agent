@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Maxgen Technologies Private Limited Machine Learning
-    Intern: Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-26T13:18:10'
-- agent: PracticeAgent
   action: 'Failed portal for GenPark Data science engineer intern: Gemini failed to
     generate project recommendations'
   status: error
@@ -2374,3 +2369,7 @@ logs:
   action: Generated Portfolio
   status: success
   timestamp: '2026-04-27T10:48:46'
+- agent: CareerAgent
+  action: Fetch started
+  level: INFO
+  timestamp: '2026-04-27T11:41:54'
