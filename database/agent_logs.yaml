@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Sanatan Organic Artificial Intelligence Intern: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-26T13:25:23'
-- agent: PracticeAgent
   action: 'Failed portal for SAV (Scale Asia Ventures) AI Engineer Intern: Gemini
     failed to generate project recommendations'
   status: error
@@ -2349,3 +2344,7 @@ logs:
   action: 103 jobs fetched, 88 relevant
   level: INFO
   timestamp: '2026-04-27T14:07:29'
+- agent: CareerAgent
+  action: Stored in GitHub YAML
+  level: INFO
+  timestamp: '2026-04-27T14:07:46'
