@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for ODN Digital Services Private Limited Data Science Intern:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-26T13:35:12'
-- agent: PracticeAgent
   action: 'Failed portal for Boston Consulting Group (BCG) Business Analyst, Internship,
     Vietnam: Gemini failed to generate project recommendations'
   status: error
@@ -2326,3 +2321,7 @@ logs:
   action: Generated Portfolio
   status: success
   timestamp: '2026-04-27T16:37:47'
+- agent: CareerAgent
+  action: Fetch started
+  level: INFO
+  timestamp: '2026-04-27T17:43:17'
