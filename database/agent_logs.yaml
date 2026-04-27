@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for SmartLabprojects Artificial Intelligence Intern: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-26T13:10:48'
-- agent: PracticeAgent
   action: 'Failed portal for RAJ DRISHTI OPTICS Data Science Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2399,3 +2394,7 @@ logs:
   action: 102 jobs fetched, 87 relevant
   level: INFO
   timestamp: '2026-04-27T08:25:12'
+- agent: CareerAgent
+  action: Stored in GitHub YAML
+  level: INFO
+  timestamp: '2026-04-27T08:25:28'
