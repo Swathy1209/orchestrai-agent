@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Fintervue Artificial Intelligence (AI) Internship in
-    Bangalore, Indore (Hybrid): Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-26T13:32:46'
-- agent: PracticeAgent
   action: 'Failed portal for FlyNava Technologies Data Science Internship in Bangalore:
     Gemini failed to generate project recommendations'
   status: error
@@ -2334,3 +2329,7 @@ logs:
   action: Generated Portfolio
   status: success
   timestamp: '2026-04-27T15:25:28'
+- agent: CareerAgent
+  action: Fetch started
+  level: INFO
+  timestamp: '2026-04-27T16:31:27'
