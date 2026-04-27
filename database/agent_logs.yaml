@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for STEMpedia Data Science Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-26T13:18:38'
-- agent: PracticeAgent
   action: 'Failed portal for Sankar Group Data Science Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2372,3 +2367,7 @@ logs:
   action: 99 jobs fetched
   level: INFO
   timestamp: '2026-04-27T11:42:19'
+- agent: CareerAgent
+  action: 99 jobs fetched, 84 relevant
+  level: INFO
+  timestamp: '2026-04-27T11:42:29'
