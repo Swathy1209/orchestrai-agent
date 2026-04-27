@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for OBLYTECH INDIA PRIVATE LIMITED Data Science Intern: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-26T13:54:59'
-- agent: PracticeAgent
   action: 'Failed portal for Anurag MN Machine Learning Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2272,3 +2267,7 @@ logs:
   action: Stored in GitHub YAML
   level: INFO
   timestamp: '2026-04-27T23:37:40'
+- agent: CareerAgent
+  action: Email delegation passed to ExecutionAgent
+  level: INFO
+  timestamp: '2026-04-27T23:37:45'
