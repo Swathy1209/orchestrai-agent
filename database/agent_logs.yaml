@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for GenPark Machine Learning Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-26T13:20:50'
-- agent: PracticeAgent
   action: 'Failed portal for KAYVI BEVERAGES PRIVATE LIMITED Data Science Intern:
     Gemini failed to generate project recommendations'
   status: error
@@ -2365,3 +2360,7 @@ logs:
   action: Generated Portfolio
   status: success
   timestamp: '2026-04-27T11:48:25'
+- agent: CareerAgent
+  action: Fetch started
+  level: INFO
+  timestamp: '2026-04-27T12:00:33'
