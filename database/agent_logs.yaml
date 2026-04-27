@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Amdocs Data Engineer: Gemini failed to generate project
-    recommendations'
-  status: error
-  timestamp: '2026-04-26T13:12:38'
-- agent: PracticeAgent
   action: 'Failed portal for Zeroharm Sciences Private Limited Data Science Intern:
     Gemini failed to generate project recommendations'
   status: error
@@ -2392,3 +2387,7 @@ logs:
   action: Fetch started
   level: INFO
   timestamp: '2026-04-27T09:29:50'
+- agent: CareerAgent
+  action: 102 jobs fetched
+  level: INFO
+  timestamp: '2026-04-27T09:30:16'
