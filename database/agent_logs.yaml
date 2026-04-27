@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Innovexis Machine Learning Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-26T13:33:25'
-- agent: PracticeAgent
   action: 'Failed portal for SAP SAP iXp Intern - AI Machine Learning: Gemini failed
     to generate project recommendations'
   status: error
@@ -2332,3 +2327,7 @@ logs:
   action: 109 jobs fetched
   level: INFO
   timestamp: '2026-04-27T16:31:51'
+- agent: CareerAgent
+  action: 109 jobs fetched, 94 relevant
+  level: INFO
+  timestamp: '2026-04-27T16:31:58'
