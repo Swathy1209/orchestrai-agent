@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Ericsson Gen AI ML Engineer: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-26T13:10:03'
-- agent: PracticeAgent
   action: 'Failed portal for SmartLabprojects Data Science Intern: Gemini failed to
     generate project recommendations'
   status: error
@@ -2402,3 +2397,7 @@ logs:
   action: Generated Portfolio
   status: success
   timestamp: '2026-04-27T07:24:24'
+- agent: CareerAgent
+  action: Fetch started
+  level: INFO
+  timestamp: '2026-04-27T08:24:37'
