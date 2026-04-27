@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for TikTok Machine Learning Scientist Intern - Global E-Commerce
-    Content Recommendation - 2026 Summer (PhD): Gemini failed to generate project
-    recommendations'
-  status: error
-  timestamp: '2026-04-26T13:14:24'
-- agent: PracticeAgent
   action: 'Failed portal for Bosch USA Artificial Intelligence / Machine Learning:
     Foundation Models - Intern: Gemini failed to generate project recommendations'
   status: error
@@ -2387,3 +2381,8 @@ logs:
   action: SkillAgent run initiated
   status: success
   timestamp: '2026-04-27T09:30:54'
+- agent: SkillAgent
+  action: Skill gap analysis complete
+  status: success
+  timestamp: '2026-04-27T09:31:10'
+  details: Analyzed 1093 jobs.
