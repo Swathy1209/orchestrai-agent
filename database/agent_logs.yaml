@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Growify Digital Artificial Intelligence Intern: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-26T13:47:34'
-- agent: PracticeAgent
   action: 'Failed portal for Plymouth Rock Assurance Artificial Intelligence Intern:
     Gemini failed to generate project recommendations'
   status: error
@@ -2303,3 +2298,7 @@ logs:
   action: Fetch started
   level: INFO
   timestamp: '2026-04-27T20:07:09'
+- agent: CareerAgent
+  action: 105 jobs fetched
+  level: INFO
+  timestamp: '2026-04-27T20:07:34'
