@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Vite Tech IT Solutions Private Limited Machine Learning
-    Intern  OCR & Document AI: Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-26T23:42:41'
-- agent: PracticeAgent
   action: 'Failed portal for ARVO Internship - Computer Vision: Gemini failed to generate
     project recommendations'
   status: error
@@ -2149,3 +2144,7 @@ logs:
   action: Fetch started
   level: INFO
   timestamp: '2026-04-28T22:41:32'
+- agent: CareerAgent
+  action: 98 jobs fetched
+  level: INFO
+  timestamp: '2026-04-28T22:41:59'
