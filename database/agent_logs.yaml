@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Fractal Data Engineer: Gemini failed to generate project
-    recommendations'
-  status: error
-  timestamp: '2026-04-26T23:39:06'
-- agent: PracticeAgent
   action: 'Failed portal for HSBC Business Analyst- Transformation: Gemini failed
     to generate project recommendations'
   status: error
@@ -2166,3 +2161,7 @@ logs:
   action: 98 jobs fetched
   level: INFO
   timestamp: '2026-04-28T21:06:52'
+- agent: CareerAgent
+  action: 98 jobs fetched, 83 relevant
+  level: INFO
+  timestamp: '2026-04-28T21:07:00'
