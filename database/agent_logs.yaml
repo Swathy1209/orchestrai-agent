@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for TikTok Business Analyst Intern (Business Integrity) -
-    2026 Summer (BS/MS): Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-26T23:36:51'
-- agent: PracticeAgent
   action: 'Failed portal for Namaah Pvt Ltd AI/ML Engineer: Gemini failed to generate
     project recommendations'
   status: error
@@ -2177,3 +2172,7 @@ logs:
   action: Generated Portfolio
   status: success
   timestamp: '2026-04-28T18:59:07'
+- agent: CareerAgent
+  action: Fetch started
+  level: INFO
+  timestamp: '2026-04-28T20:05:00'
