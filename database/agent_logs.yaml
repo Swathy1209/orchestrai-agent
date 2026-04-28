@@ -1,9 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: PracticeAgent run initiated
-  status: success
-  timestamp: '2026-04-26T18:18:56'
-- agent: PracticeAgent
   action: 'Failed portal for PathAI Machine Learning Intern/Co-op (Summer/Fall 2026):
     Gemini failed to generate project recommendations'
   status: error
@@ -2243,3 +2239,7 @@ logs:
   action: 100 jobs fetched
   level: INFO
   timestamp: '2026-04-28T06:53:33'
+- agent: CareerAgent
+  action: 100 jobs fetched, 85 relevant
+  level: INFO
+  timestamp: '2026-04-28T06:53:42'
