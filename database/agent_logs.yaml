@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Namaah Pvt Ltd AI/ML Engineer: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-26T23:37:02'
-- agent: PracticeAgent
   action: 'Failed portal for Bipolar Factory Artificial Intelligence (AI): Gemini
     failed to generate project recommendations'
   status: error
@@ -2176,3 +2171,7 @@ logs:
   action: Fetch started
   level: INFO
   timestamp: '2026-04-28T20:05:00'
+- agent: CareerAgent
+  action: 98 jobs fetched
+  level: INFO
+  timestamp: '2026-04-28T20:05:27'
