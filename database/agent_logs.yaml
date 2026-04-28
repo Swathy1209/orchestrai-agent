@@ -1,9 +1,5 @@
 logs:
 - agent: CareerAgent
-  action: Fetch started
-  level: INFO
-  timestamp: '2026-04-26T20:00:30'
-- agent: CareerAgent
   action: 100 jobs fetched
   level: INFO
   timestamp: '2026-04-26T20:01:02'
@@ -2219,3 +2215,7 @@ logs:
   action: Generated Portfolio
   status: success
   timestamp: '2026-04-28T11:49:53'
+- agent: CareerAgent
+  action: Fetch started
+  level: INFO
+  timestamp: '2026-04-28T12:00:36'
