@@ -1,9 +1,5 @@
 logs:
 - agent: CareerAgent
-  action: Fetch started
-  level: INFO
-  timestamp: '2026-04-27T11:41:54'
-- agent: CareerAgent
   action: 99 jobs fetched
   level: INFO
   timestamp: '2026-04-27T11:42:19'
@@ -2139,3 +2135,8 @@ logs:
     recommendations'
   status: error
   timestamp: '2026-04-29T04:44:29'
+- agent: PracticeAgent
+  action: 'Failed portal for targetjobs UK Business Analyst Internship: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-29T04:44:40'
