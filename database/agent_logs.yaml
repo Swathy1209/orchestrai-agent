@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Syncretic Engineering Business Analyst/Data Analyst/Office
-    Executive: Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-26T23:52:42'
-- agent: PracticeAgent
   action: 'Failed portal for Talkspace Marketing Data Analyst Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2102,3 +2097,7 @@ logs:
   action: 98 jobs fetched
   level: INFO
   timestamp: '2026-04-29T04:01:31'
+- agent: CareerAgent
+  action: 98 jobs fetched, 83 relevant
+  level: INFO
+  timestamp: '2026-04-29T04:01:37'
