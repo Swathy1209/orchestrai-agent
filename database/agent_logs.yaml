@@ -1,9 +1,5 @@
 logs:
 - agent: CareerAgent
-  action: 98 jobs fetched
-  level: INFO
-  timestamp: '2026-04-28T21:06:52'
-- agent: CareerAgent
   action: 98 jobs fetched, 83 relevant
   level: INFO
   timestamp: '2026-04-28T21:07:00'
@@ -2342,3 +2338,8 @@ logs:
     generate project recommendations'
   status: error
   timestamp: '2026-04-29T16:56:54'
+- agent: PracticeAgent
+  action: 'Failed portal for Lensa Artificial Intelligence/Machine Learning - Summer
+    2026 Intern: Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-29T16:57:06'
