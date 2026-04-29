@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Xometry Machine Learning Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-26T23:47:48'
-- agent: PracticeAgent
   action: 'Failed portal for Gharpayy Artificial Intelligence (AI): Gemini failed
     to generate project recommendations'
   status: error
@@ -2125,3 +2120,7 @@ logs:
   action: Generated Portfolio
   status: success
   timestamp: '2026-04-29T00:42:57'
+- agent: CareerAgent
+  action: Fetch started
+  level: INFO
+  timestamp: '2026-04-29T01:48:49'
