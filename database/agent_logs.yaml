@@ -1,9 +1,5 @@
 logs:
 - agent: CareerAgent
-  action: Stored in GitHub YAML
-  level: INFO
-  timestamp: '2026-04-28T04:29:34'
-- agent: CareerAgent
   action: Email delegation passed to ExecutionAgent
   level: INFO
   timestamp: '2026-04-28T04:29:38'
@@ -2193,3 +2189,7 @@ logs:
   action: Generated 1136 cover letters
   status: success
   timestamp: '2026-04-29T16:22:27'
+- agent: PracticeAgent
+  action: PracticeAgent run initiated
+  status: success
+  timestamp: '2026-04-29T16:22:31'
