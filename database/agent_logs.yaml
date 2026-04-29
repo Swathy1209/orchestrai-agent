@@ -1,9 +1,5 @@
 logs:
 - agent: CareerAgent
-  action: 102 jobs fetched, 87 relevant
-  level: INFO
-  timestamp: '2026-04-27T08:25:12'
-- agent: CareerAgent
   action: Stored in GitHub YAML
   level: INFO
   timestamp: '2026-04-27T08:25:28'
@@ -2113,3 +2109,9 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-29T04:38:43'
+- agent: PracticeAgent
+  action: 'Failed portal for Apollo Mission Critical Engineering Multiple U.S Locations
+    - Business Analyst Intern (BA-I) - Summer 2026: Gemini failed to generate project
+    recommendations'
+  status: error
+  timestamp: '2026-04-29T04:38:56'
