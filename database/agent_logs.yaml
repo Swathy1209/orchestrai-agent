@@ -1,9 +1,5 @@
 logs:
 - agent: CareerAgent
-  action: 102 jobs fetched, 87 relevant
-  level: INFO
-  timestamp: '2026-04-27T09:30:25'
-- agent: CareerAgent
   action: Stored in GitHub YAML
   level: INFO
   timestamp: '2026-04-27T09:30:42'
@@ -2123,3 +2119,8 @@ logs:
     recommendations'
   status: error
   timestamp: '2026-04-29T04:40:46'
+- agent: PracticeAgent
+  action: 'Failed portal for Emoolar Technology Private Limited Artificial Intelligence
+    (AI): Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-29T04:40:59'
