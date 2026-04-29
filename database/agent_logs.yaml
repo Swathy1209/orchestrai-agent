@@ -1,8 +1,4 @@
 logs:
-- agent: PortfolioBuilderAgent
-  action: Generated Portfolio
-  status: success
-  timestamp: '2026-04-28T18:59:07'
 - agent: CareerAgent
   action: Fetch started
   level: INFO
@@ -2331,3 +2327,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-29T16:54:17'
+- agent: PracticeAgent
+  action: 'Failed portal for Neoteric Analytics Data And AI Engineer Intern: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-29T16:54:30'
