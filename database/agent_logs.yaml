@@ -1,9 +1,5 @@
 logs:
 - agent: CareerAgent
-  action: Fetch started
-  level: INFO
-  timestamp: '2026-04-28T20:05:00'
-- agent: CareerAgent
   action: 98 jobs fetched
   level: INFO
   timestamp: '2026-04-28T20:05:27'
@@ -2332,3 +2328,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-29T16:54:30'
+- agent: PracticeAgent
+  action: 'Failed portal for WeJoy Phonfix Private Limited Artificial Intelligence
+    (AI): Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-29T16:54:43'
