@@ -1,9 +1,5 @@
 logs:
 - agent: CareerAgent
-  action: 100 jobs fetched, 85 relevant
-  level: INFO
-  timestamp: '2026-04-28T10:30:44'
-- agent: CareerAgent
   action: Stored in GitHub YAML
   level: INFO
   timestamp: '2026-04-28T10:31:02'
@@ -2243,3 +2239,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-29T16:34:12'
+- agent: PracticeAgent
+  action: 'Failed portal for Primetrade.ai Data Science: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-29T16:34:25'
