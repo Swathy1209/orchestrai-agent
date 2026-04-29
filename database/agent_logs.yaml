@@ -1,8 +1,4 @@
 logs:
-- agent: CareerAgent
-  action: Email delegation passed to ExecutionAgent
-  level: INFO
-  timestamp: '2026-04-27T09:30:46'
 - agent: SkillAgent
   action: SkillAgent run initiated
   status: success
@@ -2125,3 +2121,8 @@ logs:
     Vision: Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-29T04:41:11'
+- agent: PracticeAgent
+  action: 'Failed portal for Mindenious Edutech Data Science: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-29T04:41:23'
