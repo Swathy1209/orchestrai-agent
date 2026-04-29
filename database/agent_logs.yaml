@@ -1,9 +1,5 @@
 logs:
 - agent: CareerAgent
-  action: 100 jobs fetched
-  level: INFO
-  timestamp: '2026-04-28T09:18:34'
-- agent: CareerAgent
   action: 100 jobs fetched, 85 relevant
   level: INFO
   timestamp: '2026-04-28T09:18:42'
@@ -2233,3 +2229,8 @@ logs:
     Vision: Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-29T16:31:49'
+- agent: PracticeAgent
+  action: 'Failed portal for Mindenious Edutech Data Science: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-29T16:32:02'
