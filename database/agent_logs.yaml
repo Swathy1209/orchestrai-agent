@@ -1,8 +1,4 @@
 logs:
-- agent: PortfolioBuilderAgent
-  action: Generated Portfolio
-  status: success
-  timestamp: '2026-04-27T11:48:25'
 - agent: CareerAgent
   action: Fetch started
   level: INFO
@@ -2148,3 +2144,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-29T04:46:18'
+- agent: PracticeAgent
+  action: 'Failed portal for Pacific Seafood Machine Vision & Data Science Intern:
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-29T04:46:30'
