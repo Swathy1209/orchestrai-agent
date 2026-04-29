@@ -1,9 +1,5 @@
 logs:
 - agent: CareerAgent
-  action: 101 jobs fetched
-  level: INFO
-  timestamp: '2026-04-28T15:15:44'
-- agent: CareerAgent
   action: 101 jobs fetched, 86 relevant
   level: INFO
   timestamp: '2026-04-28T15:15:54'
@@ -2286,3 +2282,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-29T16:43:50'
+- agent: PracticeAgent
+  action: 'Failed portal for Russell Rowland, Inc. Fall 2026 Business Analyst Intern:
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-29T16:44:03'
