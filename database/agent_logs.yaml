@@ -1,9 +1,4 @@
 logs:
-- agent: SkillAgent
-  action: Skill gap analysis complete
-  status: success
-  timestamp: '2026-04-28T22:42:52'
-  details: Analyzed 1118 jobs.
 - agent: RepoSecurityScannerAgent
   action: 'Scanned 48 repos, priority fix: Hardcoded API Key'
   status: completed
@@ -2349,3 +2344,7 @@ logs:
   action: Fetch started
   level: INFO
   timestamp: '2026-04-29T18:35:11'
+- agent: CareerAgent
+  action: 99 jobs fetched
+  level: INFO
+  timestamp: '2026-04-29T18:35:40'
