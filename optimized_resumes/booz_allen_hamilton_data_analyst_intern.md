@@ -1,4 +1,4 @@
-# Optimized Resume for Booz Allen Hamilton Data Analyst Intern
+# Optimized Resume for Booz Allen Hamilton Data Analyst, Intern
 
 ## Recommended Additions
 
