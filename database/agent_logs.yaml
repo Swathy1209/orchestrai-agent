@@ -1,9 +1,5 @@
 logs:
 - agent: CareerAgent
-  action: 105 jobs fetched, 90 relevant
-  level: INFO
-  timestamp: '2026-04-28T03:16:39'
-- agent: CareerAgent
   action: Stored in GitHub YAML
   level: INFO
   timestamp: '2026-04-28T03:16:50'
@@ -2184,3 +2180,8 @@ logs:
   action: Generated Portfolio
   status: success
   timestamp: '2026-04-29T15:21:56'
+- agent: PracticeAgent
+  action: 'Failed portal for AmRit Hub Private Limited Artificial Intelligence (AI):
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-29T16:17:08'
