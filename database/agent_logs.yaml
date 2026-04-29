@@ -1,9 +1,5 @@
 logs:
 - agent: CareerAgent
-  action: 98 jobs fetched
-  level: INFO
-  timestamp: '2026-04-28T18:01:11'
-- agent: CareerAgent
   action: 98 jobs fetched, 83 relevant
   level: INFO
   timestamp: '2026-04-28T18:01:16'
@@ -2319,3 +2315,8 @@ logs:
     Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-29T16:51:35'
+- agent: PracticeAgent
+  action: 'Failed portal for Quarterhill Inc. Machine Learning Engineer Intern: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-29T16:51:47'
