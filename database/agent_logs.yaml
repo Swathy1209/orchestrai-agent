@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Growth Slack Artificial Intelligence Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-27T18:48:36'
-- agent: PracticeAgent
   action: 'Failed portal for EFABLINK SYSTEMS PRIVATE LIMITED Artificial Intelligence
     Intern: Gemini failed to generate project recommendations'
   status: error
@@ -2189,3 +2184,7 @@ logs:
   action: 98 jobs fetched
   level: INFO
   timestamp: '2026-04-29T06:26:14'
+- agent: CareerAgent
+  action: 98 jobs fetched, 83 relevant
+  level: INFO
+  timestamp: '2026-04-29T06:26:22'
