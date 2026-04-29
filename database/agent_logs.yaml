@@ -1,9 +1,5 @@
 logs:
 - agent: CareerAgent
-  action: Fetch started
-  level: INFO
-  timestamp: '2026-04-28T22:41:32'
-- agent: CareerAgent
   action: 98 jobs fetched
   level: INFO
   timestamp: '2026-04-28T22:41:59'
@@ -2348,3 +2344,7 @@ logs:
   action: 99 jobs fetched
   level: INFO
   timestamp: '2026-04-29T17:52:22'
+- agent: CareerAgent
+  action: 99 jobs fetched, 84 relevant
+  level: INFO
+  timestamp: '2026-04-29T17:52:31'
