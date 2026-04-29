@@ -1,9 +1,5 @@
 logs:
 - agent: CareerAgent
-  action: Fetch started
-  level: INFO
-  timestamp: '2026-04-28T18:52:54'
-- agent: CareerAgent
   action: 98 jobs fetched
   level: INFO
   timestamp: '2026-04-28T18:53:20'
@@ -2323,3 +2319,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-29T16:52:24'
+- agent: PracticeAgent
+  action: 'Failed portal for Lensa Data Science Intern - Summer 2026 (Remote): Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-29T16:52:37'
