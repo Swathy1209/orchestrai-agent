@@ -1,9 +1,5 @@
 logs:
 - agent: CareerAgent
-  action: 109 jobs fetched, 94 relevant
-  level: INFO
-  timestamp: '2026-04-27T16:31:58'
-- agent: CareerAgent
   action: Stored in GitHub YAML
   level: INFO
   timestamp: '2026-04-27T16:32:14'
@@ -2172,3 +2168,8 @@ logs:
     Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-29T06:03:36'
+- agent: PracticeAgent
+  action: 'Failed portal for Handshake AI/Machine Learning Engineer Intern: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-29T06:03:41'
