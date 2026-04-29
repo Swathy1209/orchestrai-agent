@@ -1,9 +1,5 @@
 logs:
 - agent: CareerAgent
-  action: Fetch started
-  level: INFO
-  timestamp: '2026-04-28T04:28:52'
-- agent: CareerAgent
   action: 97 jobs fetched
   level: INFO
   timestamp: '2026-04-28T04:29:16'
@@ -2191,3 +2187,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-29T16:21:42'
+- agent: PracticeAgent
+  action: 'Failed portal for Cisco Staff Machine Learning Engineer: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-29T16:21:54'
