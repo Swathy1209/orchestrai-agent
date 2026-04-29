@@ -1,8 +1,4 @@
 logs:
-- agent: PortfolioBuilderAgent
-  action: Generated Portfolio
-  status: success
-  timestamp: '2026-04-27T23:43:05'
 - agent: CareerAgent
   action: 104 jobs fetched
   level: INFO
@@ -2184,3 +2180,7 @@ logs:
   action: 102 jobs fetched
   level: INFO
   timestamp: '2026-04-29T12:26:16'
+- agent: CareerAgent
+  action: 102 jobs fetched, 87 relevant
+  level: INFO
+  timestamp: '2026-04-29T12:26:24'
