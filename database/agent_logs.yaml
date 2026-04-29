@@ -1,9 +1,5 @@
 logs:
 - agent: CareerAgent
-  action: 100 jobs fetched
-  level: INFO
-  timestamp: '2026-04-28T06:53:33'
-- agent: CareerAgent
   action: 100 jobs fetched, 85 relevant
   level: INFO
   timestamp: '2026-04-28T06:53:42'
@@ -2215,3 +2211,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-29T16:27:33'
+- agent: PracticeAgent
+  action: 'Failed portal for Infits Machine Learning: Gemini failed to generate project
+    recommendations'
+  status: error
+  timestamp: '2026-04-29T16:27:45'
