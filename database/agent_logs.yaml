@@ -1,9 +1,5 @@
 logs:
 - agent: CareerAgent
-  action: Stored in GitHub YAML
-  level: INFO
-  timestamp: '2026-04-28T15:16:11'
-- agent: CareerAgent
   action: Email delegation passed to ExecutionAgent
   level: INFO
   timestamp: '2026-04-28T15:16:16'
@@ -2288,3 +2284,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-29T16:44:15'
+- agent: PracticeAgent
+  action: 'Failed portal for KIDLOLAND KIDS & TODDLER GAMES PRIVATE LIMITED Data Science
+    Intern: Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-29T16:44:27'
