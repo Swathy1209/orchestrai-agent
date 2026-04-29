@@ -1,9 +1,5 @@
 logs:
 - agent: CareerAgent
-  action: Fetch started
-  level: INFO
-  timestamp: '2026-04-28T09:18:09'
-- agent: CareerAgent
   action: 100 jobs fetched
   level: INFO
   timestamp: '2026-04-28T09:18:34'
@@ -2232,3 +2228,8 @@ logs:
     (AI): Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-29T16:31:36'
+- agent: PracticeAgent
+  action: 'Failed portal for Infinity Assurance Solutions Private Limited Computer
+    Vision: Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-29T16:31:49'
