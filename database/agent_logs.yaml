@@ -1,8 +1,4 @@
 logs:
-- agent: PortfolioBuilderAgent
-  action: Generated Portfolio
-  status: success
-  timestamp: '2026-04-28T09:24:25'
 - agent: CareerAgent
   action: Fetch started
   level: INFO
@@ -2240,3 +2236,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-29T16:33:35'
+- agent: PracticeAgent
+  action: 'Failed portal for METRO Regional Transit Authority Data Analyst Intern:
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-29T16:33:48'
