@@ -1,9 +1,5 @@
 logs:
 - agent: CareerAgent
-  action: Fetch started
-  level: INFO
-  timestamp: '2026-04-28T16:29:22'
-- agent: CareerAgent
   action: 101 jobs fetched
   level: INFO
   timestamp: '2026-04-28T16:29:46'
@@ -2294,3 +2290,8 @@ logs:
     Learning Intern: Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-29T16:45:38'
+- agent: PracticeAgent
+  action: 'Failed portal for Technoculture Research Machine Learning Intern: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-29T16:45:51'
