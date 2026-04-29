@@ -1,9 +1,5 @@
 logs:
 - agent: CareerAgent
-  action: 97 jobs fetched, 82 relevant
-  level: INFO
-  timestamp: '2026-04-28T04:29:24'
-- agent: CareerAgent
   action: Stored in GitHub YAML
   level: INFO
   timestamp: '2026-04-28T04:29:34'
@@ -2193,3 +2189,7 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-29T16:22:06'
+- agent: CoverLetterAgent
+  action: Generated 1136 cover letters
+  status: success
+  timestamp: '2026-04-29T16:22:27'
