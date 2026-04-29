@@ -1,9 +1,5 @@
 logs:
 - agent: CareerAgent
-  action: 100 jobs fetched
-  level: INFO
-  timestamp: '2026-04-28T10:30:36'
-- agent: CareerAgent
   action: 100 jobs fetched, 85 relevant
   level: INFO
   timestamp: '2026-04-28T10:30:44'
@@ -2242,3 +2238,8 @@ logs:
     Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-29T16:34:00'
+- agent: PracticeAgent
+  action: 'Failed portal for Primetrade.ai Artificial Intelligence (AI): Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-29T16:34:12'
