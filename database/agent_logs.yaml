@@ -1,9 +1,5 @@
 logs:
 - agent: CareerAgent
-  action: 101 jobs fetched, 86 relevant
-  level: INFO
-  timestamp: '2026-04-28T15:15:54'
-- agent: CareerAgent
   action: Stored in GitHub YAML
   level: INFO
   timestamp: '2026-04-28T15:16:11'
@@ -2287,3 +2283,8 @@ logs:
     Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-29T16:44:03'
+- agent: PracticeAgent
+  action: 'Failed portal for BNM Business Solutions LLP Data Science Intern: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-29T16:44:15'
