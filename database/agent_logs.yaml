@@ -1,8 +1,4 @@
 logs:
-- agent: PortfolioBuilderAgent
-  action: Generated Portfolio
-  status: success
-  timestamp: '2026-04-28T10:36:26'
 - agent: CareerAgent
   action: Fetch started
   level: INFO
@@ -2249,3 +2245,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-29T16:35:42'
+- agent: PracticeAgent
+  action: 'Failed portal for Aviate Manpower Data Science: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-29T16:35:55'
