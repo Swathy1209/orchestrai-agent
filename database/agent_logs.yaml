@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Lensa Business Analyst Intern Remote: Gemini failed to
-    generate project recommendations'
-  status: error
-  timestamp: '2026-04-26T23:46:27'
-- agent: PracticeAgent
   action: 'Failed portal for INDUS Technology, Inc. Business Analyst, Intern: Gemini
     failed to generate project recommendations'
   status: error
@@ -2131,3 +2126,7 @@ logs:
   action: 98 jobs fetched, 83 relevant
   level: INFO
   timestamp: '2026-04-29T00:37:26'
+- agent: CareerAgent
+  action: Stored in GitHub YAML
+  level: INFO
+  timestamp: '2026-04-29T00:37:37'
