@@ -1,9 +1,5 @@
 logs:
 - agent: CareerAgent
-  action: Fetch started
-  level: INFO
-  timestamp: '2026-04-27T15:18:54'
-- agent: CareerAgent
   action: 109 jobs fetched
   level: INFO
   timestamp: '2026-04-27T15:19:22'
@@ -2163,3 +2159,8 @@ logs:
     generate project recommendations'
   status: error
   timestamp: '2026-04-29T06:01:37'
+- agent: PracticeAgent
+  action: 'Failed portal for Ask First Machine Learning Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-29T06:02:13'
