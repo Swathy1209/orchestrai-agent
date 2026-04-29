@@ -1,8 +1,4 @@
 logs:
-- agent: AutoFixPRGeneratorAgent
-  action: Generated 3 security fix PRs
-  status: completed
-  timestamp: '2026-04-27T21:25:27'
 - agent: PortfolioBuilderAgent
   action: Generated Portfolio
   status: success
@@ -2184,3 +2180,7 @@ logs:
   action: Fetch started
   level: INFO
   timestamp: '2026-04-29T10:01:53'
+- agent: CareerAgent
+  action: 98 jobs fetched
+  level: INFO
+  timestamp: '2026-04-29T10:02:17'
