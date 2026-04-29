@@ -1,9 +1,5 @@
 logs:
 - agent: CareerAgent
-  action: Fetch started
-  level: INFO
-  timestamp: '2026-04-27T12:54:05'
-- agent: CareerAgent
   action: 102 jobs fetched
   level: INFO
   timestamp: '2026-04-27T12:54:33'
@@ -2154,3 +2150,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-29T05:01:32'
+- agent: PracticeAgent
+  action: 'Failed portal for Deloitte AWS Data Engineer: Detected incomplete placeholder
+    content. Regenerating...'
+  status: error
+  timestamp: '2026-04-29T05:01:45'
