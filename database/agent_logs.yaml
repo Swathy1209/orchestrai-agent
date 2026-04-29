@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for The Great Indian Studio Artificial Intelligence Intern:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-27T18:47:50'
-- agent: PracticeAgent
   action: 'Failed portal for GigFloww Artificial Intelligence Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2191,3 +2186,8 @@ logs:
     2026: Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-29T06:15:35'
+- agent: PracticeAgent
+  action: 'Failed portal for Product Manager Accelerator AI Engineer Intern - AI/ML/GenAI
+    Design & Development: Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-29T06:16:34'
