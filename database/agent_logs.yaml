@@ -1,9 +1,5 @@
 logs:
 - agent: CareerAgent
-  action: 101 jobs fetched, 86 relevant
-  level: INFO
-  timestamp: '2026-04-28T12:57:30'
-- agent: CareerAgent
   action: Stored in GitHub YAML
   level: INFO
   timestamp: '2026-04-28T12:57:42'
@@ -2269,3 +2265,8 @@ logs:
     Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-29T16:39:45'
+- agent: PracticeAgent
+  action: 'Failed portal for Eightfold AI Senior Machine Learning Engineer: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-29T16:40:00'
