@@ -1,8 +1,4 @@
 logs:
-- agent: PortfolioBuilderAgent
-  action: Generated Portfolio
-  status: success
-  timestamp: '2026-04-27T09:36:09'
 - agent: CareerAgent
   action: Fetch started
   level: INFO
@@ -2129,3 +2125,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-29T04:42:12'
+- agent: PracticeAgent
+  action: 'Failed portal for Symonis Machine Learning: Gemini failed to generate project
+    recommendations'
+  status: error
+  timestamp: '2026-04-29T04:42:25'
