@@ -1,9 +1,5 @@
 logs:
 - agent: CareerAgent
-  action: 97 jobs fetched
-  level: INFO
-  timestamp: '2026-04-28T04:29:16'
-- agent: CareerAgent
   action: 97 jobs fetched, 82 relevant
   level: INFO
   timestamp: '2026-04-28T04:29:24'
@@ -2192,3 +2188,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-29T16:21:54'
+- agent: PracticeAgent
+  action: 'Failed portal for 365 Retail Markets Business Analyst Intern: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-29T16:22:06'
