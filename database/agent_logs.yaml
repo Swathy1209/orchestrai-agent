@@ -1,9 +1,5 @@
 logs:
 - agent: CareerAgent
-  action: Stored in GitHub YAML
-  level: INFO
-  timestamp: '2026-04-28T03:16:50'
-- agent: CareerAgent
   action: Email delegation passed to ExecutionAgent
   level: INFO
   timestamp: '2026-04-28T03:16:54'
@@ -2185,3 +2181,8 @@ logs:
     Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-29T16:17:08'
+- agent: PracticeAgent
+  action: 'Failed portal for PRGX Global Inc. Artificial Intelligence Intern: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-29T16:18:44'
