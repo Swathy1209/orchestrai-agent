@@ -1,9 +1,4 @@
 logs:
-- agent: SkillAgent
-  action: Skill gap analysis complete
-  status: success
-  timestamp: '2026-04-27T12:02:03'
-  details: Analyzed 1100 jobs.
 - agent: PortfolioBuilderAgent
   action: Generated Portfolio
   status: success
@@ -2152,3 +2147,9 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-29T04:47:09'
+- agent: PracticeAgent
+  action: 'Failed portal for TikTok Machine Learning Engineer Intern - Global E-Commerce
+    Content Recommendation - 2026 Summer (BS/MS): Gemini failed to generate project
+    recommendations'
+  status: error
+  timestamp: '2026-04-29T04:47:22'
