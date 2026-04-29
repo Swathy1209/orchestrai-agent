@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for GCCX AI/ML Engineer: Gemini failed to generate project
-    recommendations'
-  status: error
-  timestamp: '2026-04-26T23:51:01'
-- agent: PracticeAgent
   action: 'Failed portal for MeshyAI Data Science Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2110,3 +2105,7 @@ logs:
   action: 98 jobs fetched
   level: INFO
   timestamp: '2026-04-29T03:01:57'
+- agent: CareerAgent
+  action: 98 jobs fetched, 83 relevant
+  level: INFO
+  timestamp: '2026-04-29T03:02:04'
