@@ -1,9 +1,5 @@
 logs:
 - agent: CareerAgent
-  action: 101 jobs fetched, 86 relevant
-  level: INFO
-  timestamp: '2026-04-28T17:41:36'
-- agent: CareerAgent
   action: Stored in GitHub YAML
   level: INFO
   timestamp: '2026-04-28T17:41:46'
@@ -2312,3 +2308,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-29T16:49:52'
+- agent: PracticeAgent
+  action: 'Failed portal for Bipolar Factory Artificial Intelligence (AI): Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-29T16:50:07'
