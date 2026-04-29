@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Infoware Artificial Intelligence (AI): Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-26T23:50:38'
-- agent: PracticeAgent
   action: 'Failed portal for Almost Magic Private Limited Artificial Intelligence
     (AI): Gemini failed to generate project recommendations'
   status: error
@@ -2112,3 +2107,7 @@ logs:
   action: 'Scanned 48 repos, priority fix: Hardcoded API Key'
   status: completed
   timestamp: '2026-04-29T02:07:34'
+- agent: CareerAgent
+  action: Fetch started
+  level: INFO
+  timestamp: '2026-04-29T03:01:32'
