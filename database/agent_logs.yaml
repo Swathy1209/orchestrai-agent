@@ -1,9 +1,5 @@
 logs:
 - agent: CareerAgent
-  action: 100 jobs fetched, 85 relevant
-  level: INFO
-  timestamp: '2026-04-28T06:01:15'
-- agent: CareerAgent
   action: Email delegation passed to ExecutionAgent
   level: INFO
   timestamp: '2026-04-28T06:01:37'
@@ -2209,3 +2205,8 @@ logs:
     Analyst Intern: Gemini failed to generate project recommendations'
   status: error
   timestamp: '2026-04-29T16:26:18'
+- agent: PracticeAgent
+  action: 'Failed portal for Artha Energy Projects Private Limited Data Science: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-29T16:26:31'
