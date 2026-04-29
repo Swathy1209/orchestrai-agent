@@ -1,9 +1,4 @@
 logs:
-- agent: SkillAgent
-  action: Skill gap analysis complete
-  status: success
-  timestamp: '2026-04-27T09:31:10'
-  details: Analyzed 1093 jobs.
 - agent: RepoSecurityScannerAgent
   action: 'Scanned 48 repos, priority fix: Hardcoded API Key'
   status: completed
@@ -2127,3 +2122,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-29T04:41:36'
+- agent: PracticeAgent
+  action: 'Failed portal for Arvyax Technologies Private Limited Machine Learning:
+    Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-29T04:41:48'
