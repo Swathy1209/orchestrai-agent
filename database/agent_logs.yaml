@@ -1,8 +1,4 @@
 logs:
-- agent: CareerAgent
-  action: Email delegation passed to ExecutionAgent
-  level: INFO
-  timestamp: '2026-04-28T06:01:37'
 - agent: SkillAgent
   action: SkillAgent run initiated
   status: success
@@ -2210,3 +2206,8 @@ logs:
     failed to generate project recommendations'
   status: error
   timestamp: '2026-04-29T16:26:31'
+- agent: PracticeAgent
+  action: 'Failed portal for VVP Healthcare Evolution Pvt Ltd AI/ML Engineer: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-29T16:26:43'
