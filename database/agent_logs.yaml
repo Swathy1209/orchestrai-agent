@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Veolia Intern - Business Analyst: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-29T04:38:05'
-- agent: PracticeAgent
   action: 'Failed portal for TikTok Business Analyst Project Intern (GBS SMB) - 2026
     Start (BS/MS): Gemini failed to generate project recommendations'
   status: error
@@ -2341,3 +2336,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-30T01:30:44'
+- agent: PracticeAgent
+  action: 'Failed portal for INDUS Technology, Inc. Business Analyst Intern: Gemini
+    failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-30T01:30:55'
