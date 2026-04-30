@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Alchelyst India Pvt Ltd Techno Functional Operations/Data
-    Analyst: Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-29T16:25:17'
-- agent: PracticeAgent
   action: 'Failed portal for Bharat Diamond Bourse Artificial Intelligence (AI): Gemini
     failed to generate project recommendations'
   status: error
@@ -2328,3 +2323,7 @@ logs:
   action: Fetch started
   level: INFO
   timestamp: '2026-04-30T13:58:48'
+- agent: CareerAgent
+  action: 102 jobs fetched
+  level: INFO
+  timestamp: '2026-04-30T13:59:11'
