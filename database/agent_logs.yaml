@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for VVP Healthcare Evolution Pvt Ltd AI/ML Engineer: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-29T16:26:43'
-- agent: PracticeAgent
   action: 'Failed portal for InfiVR Machine Learning Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2322,3 +2317,7 @@ logs:
   action: Fetch started
   level: INFO
   timestamp: '2026-04-30T14:00:32'
+- agent: CareerAgent
+  action: 101 jobs fetched
+  level: INFO
+  timestamp: '2026-04-30T14:01:01'
