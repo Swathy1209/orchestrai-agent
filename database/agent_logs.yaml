@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Primetrade.ai Artificial Intelligence (AI): Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-29T04:43:28'
-- agent: PracticeAgent
   action: 'Failed portal for Primetrade.ai Data Science: Gemini failed to generate
     project recommendations'
   status: error
@@ -2339,3 +2334,8 @@ logs:
     project recommendations'
   status: error
   timestamp: '2026-04-30T01:35:36'
+- agent: PracticeAgent
+  action: 'Failed portal for Interface Design Associates Private Limited Machine Learning
+    Intern: Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-30T01:35:47'
