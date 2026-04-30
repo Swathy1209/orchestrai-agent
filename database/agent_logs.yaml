@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for GreenLeaf, a Chefs'' Warehouse company Data Analyst Intern:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-29T05:02:49'
-- agent: PracticeAgent
   action: 'Failed portal for Relinns Technologies Artificial Intelligence (AI): Gemini
     failed to generate project recommendations'
   status: error
@@ -2336,3 +2331,7 @@ logs:
   action: Generated optimizations for 1138 internships
   status: success
   timestamp: '2026-04-30T01:59:42'
+- agent: CareerAgent
+  action: 99 jobs fetched
+  level: INFO
+  timestamp: '2026-04-30T02:00:55'
