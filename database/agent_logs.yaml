@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for MTX Group Business Analyst Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-29T04:39:20'
-- agent: PracticeAgent
   action: 'Failed portal for Stripe Data Analyst, Intern (Master''s degree): Detected
     incomplete placeholder content. Regenerating...'
   status: error
@@ -2339,3 +2334,8 @@ logs:
     incomplete placeholder content. Regenerating...'
   status: error
   timestamp: '2026-04-30T01:31:51'
+- agent: PracticeAgent
+  action: 'Failed portal for Stripe PhD Machine Learning Engineer, Intern: Detected
+    incomplete placeholder content. Regenerating...'
+  status: error
+  timestamp: '2026-04-30T01:32:02'
