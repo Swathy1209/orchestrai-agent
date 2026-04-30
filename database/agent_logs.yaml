@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for TikTok Machine Learning Engineer Intern - Global E-Commerce
-    Content Recommendation - 2026 Summer (BS/MS): Gemini failed to generate project
-    recommendations'
-  status: error
-  timestamp: '2026-04-29T16:38:17'
-- agent: PracticeAgent
   action: 'Failed portal for TikTok Machine Learning Engineer Intern - Data-Search-TikTok
     Recommendation Team - 2026 Summer (BS/MS): Gemini failed to generate project recommendations'
   status: error
@@ -2282,3 +2276,8 @@ logs:
     incomplete placeholder content. Regenerating...'
   status: error
   timestamp: '2026-04-30T18:38:40'
+- agent: PracticeAgent
+  action: 'Failed portal for Stripe PhD Machine Learning Engineer, Intern: Detected
+    incomplete placeholder content. Regenerating...'
+  status: error
+  timestamp: '2026-04-30T18:38:52'
