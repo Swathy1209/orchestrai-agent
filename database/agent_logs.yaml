@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Zulitech Solution Artificial Intelligence (AI): Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-29T16:36:20'
-- agent: PracticeAgent
   action: 'Failed portal for Kensho Technologies Machine Learning Intern - Summer
     2026: Gemini failed to generate project recommendations'
   status: error
@@ -2283,3 +2278,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-30T18:36:59'
+- agent: PracticeAgent
+  action: 'Failed portal for TikTok Business Analyst Project Intern (GBS SMB) - 2026
+    Start (BS/MS): Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-30T18:37:10'
