@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Fractal Data Engineer: Gemini failed to generate project
-    recommendations'
-  status: error
-  timestamp: '2026-04-29T05:01:57'
-- agent: PracticeAgent
   action: 'Failed portal for HSBC Business Analyst- Transformation: Gemini failed
     to generate project recommendations'
   status: error
@@ -2337,3 +2332,8 @@ logs:
     to generate project recommendations'
   status: error
   timestamp: '2026-04-30T01:39:43'
+- agent: PracticeAgent
+  action: 'Failed portal for EFABLINK SYSTEMS PRIVATE LIMITED Artificial Intelligence
+    Intern: Gemini failed to generate project recommendations'
+  status: error
+  timestamp: '2026-04-30T01:39:55'
