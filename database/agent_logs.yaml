@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Zulitech Solution Machine Learning: Gemini failed to
-    generate project recommendations'
-  status: error
-  timestamp: '2026-04-29T16:36:07'
-- agent: PracticeAgent
   action: 'Failed portal for Zulitech Solution Artificial Intelligence (AI): Gemini
     failed to generate project recommendations'
   status: error
@@ -2283,3 +2278,8 @@ logs:
   status: success
   timestamp: '2026-04-30T18:02:12'
   details: Analyzed 1195 jobs.
+- agent: PracticeAgent
+  action: 'Failed portal for HealthStream Intern, Business Analyst: Gemini failed
+    to generate project recommendations'
+  status: error
+  timestamp: '2026-04-30T18:36:59'
