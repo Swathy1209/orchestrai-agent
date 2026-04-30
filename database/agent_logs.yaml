@@ -1,9 +1,5 @@
 logs:
 - agent: CareerAgent
-  action: 98 jobs fetched, 83 relevant
-  level: INFO
-  timestamp: '2026-04-29T05:14:25'
-- agent: CareerAgent
   action: Stored in GitHub YAML
   level: INFO
   timestamp: '2026-04-29T05:14:36'
@@ -2333,3 +2329,8 @@ logs:
     placeholder content. Regenerating...'
   status: error
   timestamp: '2026-04-30T02:29:40'
+- agent: PracticeAgent
+  action: 'Failed portal for Cylinder Health Junior Data Engineer: Detected incomplete
+    placeholder content. Regenerating...'
+  status: error
+  timestamp: '2026-04-30T02:29:52'
