@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Artha Energy Projects Private Limited Data Science: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-29T16:26:31'
-- agent: PracticeAgent
   action: 'Failed portal for VVP Healthcare Evolution Pvt Ltd AI/ML Engineer: Gemini
     failed to generate project recommendations'
   status: error
@@ -2323,3 +2318,7 @@ logs:
   status: success
   timestamp: '2026-04-30T14:00:08'
   details: Analyzed 1187 jobs.
+- agent: CareerAgent
+  action: Fetch started
+  level: INFO
+  timestamp: '2026-04-30T14:00:32'
