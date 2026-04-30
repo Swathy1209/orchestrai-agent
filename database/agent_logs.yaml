@@ -1,9 +1,5 @@
 logs:
 - agent: CareerAgent
-  action: 98 jobs fetched, 83 relevant
-  level: INFO
-  timestamp: '2026-04-29T10:02:26'
-- agent: CareerAgent
   action: Stored in GitHub YAML
   level: INFO
   timestamp: '2026-04-29T10:02:38'
@@ -2346,3 +2342,7 @@ logs:
   action: 99 jobs fetched, 84 relevant
   level: INFO
   timestamp: '2026-04-30T06:49:26'
+- agent: CareerAgent
+  action: Stored in GitHub YAML
+  level: INFO
+  timestamp: '2026-04-30T06:49:46'
