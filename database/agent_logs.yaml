@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Matson Logistics AI & Machine Learning Intern – Operations:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-29T04:35:17'
-- agent: PracticeAgent
   action: 'Failed portal for Cohere Machine Learning Intern/Co-op  (Spring 2026):
     Gemini failed to generate project recommendations'
   status: error
@@ -2341,3 +2336,8 @@ logs:
     generate project recommendations'
   status: error
   timestamp: '2026-04-30T01:28:17'
+- agent: PracticeAgent
+  action: 'Failed portal for ZURU Toys Data Analyst Intern: Gemini failed to generate
+    project recommendations'
+  status: error
+  timestamp: '2026-04-30T01:28:29'
