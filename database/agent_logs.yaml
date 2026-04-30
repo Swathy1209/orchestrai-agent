@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Lensa Intern, Data Science and Analytics: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-29T16:24:12'
-- agent: PracticeAgent
   action: 'Failed portal for FTI Defense - Frontier Technology Inc. AI/ML Engineering
     Internship: Gemini failed to generate project recommendations'
   status: error
@@ -2332,3 +2327,8 @@ logs:
   action: SkillAgent run initiated
   status: success
   timestamp: '2026-04-30T12:48:21'
+- agent: SkillAgent
+  action: Skill gap analysis complete
+  status: success
+  timestamp: '2026-04-30T12:48:37'
+  details: Analyzed 1186 jobs.
