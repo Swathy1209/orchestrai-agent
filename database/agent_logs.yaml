@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Anton Paar India Private Limited Data Science Intern:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-30T21:23:20'
-- agent: PracticeAgent
   action: 'Failed portal for Arihant Publications Data Science Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2097,3 +2092,7 @@ logs:
   action: SkillAgent run initiated
   status: success
   timestamp: '2026-05-01T12:48:32'
+- agent: CareerAgent
+  action: Fetch started
+  level: INFO
+  timestamp: '2026-05-01T12:48:46'
