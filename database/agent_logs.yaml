@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Stripe PhD Machine Learning Engineer, Intern: Detected
-    incomplete placeholder content. Regenerating...'
-  status: error
-  timestamp: '2026-04-30T21:21:38'
-- agent: PracticeAgent
   action: 'Failed portal for InAmigos Foundation Data Science Intern: Gemini failed
     to generate project recommendations'
   status: error
@@ -2107,3 +2102,7 @@ logs:
   action: Fetch started
   level: INFO
   timestamp: '2026-05-01T12:46:14'
+- agent: CareerAgent
+  action: 97 jobs fetched
+  level: INFO
+  timestamp: '2026-05-01T12:46:39'
