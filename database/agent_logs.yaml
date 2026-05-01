@@ -1,9 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: PracticeAgent run initiated
-  status: success
-  timestamp: '2026-04-30T21:16:30'
-- agent: PracticeAgent
   action: 'Failed portal for MedPharm Artificial Intelligence (AI) Intern: Gemini
     failed to generate project recommendations'
   status: error
@@ -2137,3 +2133,7 @@ logs:
   action: 98 jobs fetched
   level: INFO
   timestamp: '2026-05-01T07:20:43'
+- agent: CareerAgent
+  action: 98 jobs fetched, 83 relevant
+  level: INFO
+  timestamp: '2026-05-01T07:20:53'
