@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Quant Singularity Machine Learning Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-30T21:24:26'
-- agent: PracticeAgent
   action: 'Failed portal for BizNeuro AI Machine Learning Intern: Gemini failed to
     generate project recommendations'
   status: error
@@ -2091,3 +2086,7 @@ logs:
   status: success
   timestamp: '2026-05-01T12:50:09'
   details: Analyzed 1231 jobs.
+- agent: CareerAgent
+  action: Fetch started
+  level: INFO
+  timestamp: '2026-05-01T12:50:26'
