@@ -1,9 +1,4 @@
 logs:
-- agent: SkillAgent
-  action: Skill gap analysis complete
-  status: success
-  timestamp: '2026-04-30T21:15:27'
-  details: Analyzed 79 jobs.
 - agent: CoverLetterAgent
   action: Generated 79 cover letters
   status: success
@@ -2138,3 +2133,7 @@ logs:
   status: success
   timestamp: '2026-05-01T07:20:00'
   details: Analyzed 1223 jobs.
+- agent: CareerAgent
+  action: Fetch started
+  level: INFO
+  timestamp: '2026-05-01T07:20:18'
