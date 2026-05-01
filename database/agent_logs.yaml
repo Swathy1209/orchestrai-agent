@@ -1,8 +1,4 @@
 logs:
-- agent: PortfolioBuilderAgent
-  action: Generated Portfolio
-  status: success
-  timestamp: '2026-04-30T23:51:00'
 - agent: CareerAgent
   action: Fetch started
   level: INFO
@@ -2067,3 +2063,8 @@ logs:
   action: SkillAgent run initiated
   status: success
   timestamp: '2026-05-01T13:03:48'
+- agent: SkillAgent
+  action: Skill gap analysis complete
+  status: success
+  timestamp: '2026-05-01T13:04:05'
+  details: Analyzed 1234 jobs.
