@@ -1,8 +1,4 @@
 logs:
-- agent: RepoSecurityScannerAgent
-  action: 'Scanned 48 repos, priority fix: Hardcoded API Key'
-  status: completed
-  timestamp: '2026-04-30T22:38:47'
 - agent: AutoFixPRGeneratorAgent
   action: Generated 3 security fix PRs
   status: completed
@@ -2067,3 +2063,7 @@ logs:
   status: success
   timestamp: '2026-05-01T13:00:44'
   details: Analyzed 1234 jobs.
+- agent: CareerAgent
+  action: 97 jobs fetched
+  level: INFO
+  timestamp: '2026-05-01T13:01:12'
