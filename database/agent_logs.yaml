@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Captain $ales Artificial Intelligence Intern: Gemini
-    failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-30T21:27:44'
-- agent: PracticeAgent
   action: 'Failed portal for SECMIT ADVISORY SERVICES LLP Artificial Intelligence
     Intern: Gemini failed to generate project recommendations'
   status: error
@@ -2073,3 +2068,7 @@ logs:
   status: success
   timestamp: '2026-05-01T12:57:37'
   details: Analyzed 1234 jobs.
+- agent: CareerAgent
+  action: 97 jobs fetched
+  level: INFO
+  timestamp: '2026-05-01T12:58:05'
