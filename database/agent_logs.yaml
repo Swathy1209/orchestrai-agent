@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Zello AI & ML Engineering Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-30T21:17:25'
-- agent: PracticeAgent
   action: 'Failed portal for Athena AI Engineer Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2131,3 +2126,7 @@ logs:
   action: 97 jobs fetched
   level: INFO
   timestamp: '2026-05-01T07:22:29'
+- agent: CareerAgent
+  action: 97 jobs fetched, 82 relevant
+  level: INFO
+  timestamp: '2026-05-01T07:22:37'
