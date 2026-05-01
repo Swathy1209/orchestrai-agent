@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for 365 Retail Markets Business Analyst Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-30T21:20:24'
-- agent: PracticeAgent
   action: 'Failed portal for CarMax Business Analyst Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2114,3 +2109,7 @@ logs:
   status: success
   timestamp: '2026-05-01T12:43:39'
   details: Analyzed 1231 jobs.
+- agent: CareerAgent
+  action: Fetch started
+  level: INFO
+  timestamp: '2026-05-01T12:43:57'
