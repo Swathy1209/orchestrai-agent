@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for VIZON Artificial Intelligence Intern: Gemini failed to
-    generate project recommendations'
-  status: error
-  timestamp: '2026-04-30T21:26:48'
-- agent: PracticeAgent
   action: 'Failed portal for Shunya Digital Artificial Intelligence Intern: Gemini
     failed to generate project recommendations'
   status: error
@@ -2078,3 +2073,7 @@ logs:
   action: Fetch started
   level: INFO
   timestamp: '2026-05-01T12:56:16'
+- agent: CareerAgent
+  action: 97 jobs fetched
+  level: INFO
+  timestamp: '2026-05-01T12:56:44'
