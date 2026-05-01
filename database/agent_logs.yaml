@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Subash Vijay Associates (SVA) Machine Learning Intern:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-30T21:24:54'
-- agent: PracticeAgent
   action: 'Failed portal for Edith Defence Systems Private Limited Machine Learning
     Intern: Gemini failed to generate project recommendations'
   status: error
@@ -2088,3 +2083,7 @@ logs:
   action: 98 jobs fetched, 83 relevant
   level: INFO
   timestamp: '2026-05-01T12:51:01'
+- agent: CareerAgent
+  action: Stored in GitHub YAML
+  level: INFO
+  timestamp: '2026-05-01T12:51:20'
