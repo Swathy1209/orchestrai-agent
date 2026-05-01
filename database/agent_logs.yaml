@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Peoplebox.ai Data Science Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-30T21:22:34'
-- agent: PracticeAgent
   action: 'Failed portal for Funnel Truffle OPC Private Limited Data Science Intern:
     Gemini failed to generate project recommendations'
   status: error
@@ -2102,3 +2097,7 @@ logs:
   status: success
   timestamp: '2026-05-01T12:47:29'
   details: Analyzed 1231 jobs.
+- agent: CareerAgent
+  action: 97 jobs fetched
+  level: INFO
+  timestamp: '2026-05-01T12:47:56'
