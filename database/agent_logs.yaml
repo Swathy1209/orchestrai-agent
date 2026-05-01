@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Booz Allen Hamilton Data Analyst Intern: Gemini failed
-    to generate project recommendations'
-  status: error
-  timestamp: '2026-04-30T21:19:21'
-- agent: PracticeAgent
   action: 'Failed portal for TikTok Data Analyst Intern (TikTok Shop AMS Data Science)
     - 2026 Summer (BS/MS): Gemini failed to generate project recommendations'
   status: error
@@ -2120,3 +2115,7 @@ logs:
   status: success
   timestamp: '2026-05-01T12:41:13'
   details: Analyzed 1231 jobs.
+- agent: CareerAgent
+  action: Fetch started
+  level: INFO
+  timestamp: '2026-05-01T12:42:27'
