@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for ZURU Toys Data Analyst Intern: Gemini failed to generate
-    project recommendations'
-  status: error
-  timestamp: '2026-04-30T21:18:37'
-- agent: PracticeAgent
   action: 'Failed portal for Aday Data Analysis Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2124,3 +2119,7 @@ logs:
   action: 97 jobs fetched
   level: INFO
   timestamp: '2026-05-01T12:40:12'
+- agent: CareerAgent
+  action: 97 jobs fetched, 82 relevant
+  level: INFO
+  timestamp: '2026-05-01T12:40:24'
