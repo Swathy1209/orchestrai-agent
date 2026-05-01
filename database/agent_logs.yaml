@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Funnel Truffle OPC Private Limited Data Science Intern:
-    Gemini failed to generate project recommendations'
-  status: error
-  timestamp: '2026-04-30T21:22:44'
-- agent: PracticeAgent
   action: 'Failed portal for Brandshark Data Science Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2101,3 +2096,7 @@ logs:
   action: 97 jobs fetched
   level: INFO
   timestamp: '2026-05-01T12:47:56'
+- agent: CareerAgent
+  action: 97 jobs fetched, 82 relevant
+  level: INFO
+  timestamp: '2026-05-01T12:48:07'
