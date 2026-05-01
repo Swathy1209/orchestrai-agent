@@ -1,10 +1,4 @@
 logs:
-- agent: PracticeAgent
-  action: 'Failed portal for Artificial limbs manufacturing corporation of india (ALIMCO)
-    Young Professional - Artificial Intelligence: Gemini failed to generate project
-    recommendations'
-  status: error
-  timestamp: '2026-04-30T21:28:31'
 - agent: CareerAgent
   action: Fetch started
   level: INFO
@@ -2068,3 +2062,8 @@ logs:
   action: SkillAgent run initiated
   status: success
   timestamp: '2026-05-01T12:58:33'
+- agent: SkillAgent
+  action: Skill gap analysis complete
+  status: success
+  timestamp: '2026-05-01T12:58:48'
+  details: Analyzed 1234 jobs.
