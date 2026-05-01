@@ -1,10 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for Stripe Data Analyst, Intern (Master''s degree): Detected
-    incomplete placeholder content. Regenerating...'
-  status: error
-  timestamp: '2026-04-30T21:21:29'
-- agent: PracticeAgent
   action: 'Failed portal for Stripe PhD Machine Learning Engineer, Intern: Detected
     incomplete placeholder content. Regenerating...'
   status: error
@@ -2108,3 +2103,7 @@ logs:
   status: success
   timestamp: '2026-05-01T12:45:13'
   details: Analyzed 1231 jobs.
+- agent: CareerAgent
+  action: Fetch started
+  level: INFO
+  timestamp: '2026-05-01T12:46:14'
