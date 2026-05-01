@@ -1,9 +1,5 @@
 logs:
 - agent: CareerAgent
-  action: Fetch started
-  level: INFO
-  timestamp: '2026-05-01T00:02:15'
-- agent: CareerAgent
   action: 101 jobs fetched
   level: INFO
   timestamp: '2026-05-01T00:02:38'
@@ -2067,3 +2063,7 @@ logs:
   action: SkillAgent run initiated
   status: success
   timestamp: '2026-05-01T13:06:00'
+- agent: CareerAgent
+  action: Fetch started
+  level: INFO
+  timestamp: '2026-05-01T13:06:15'
