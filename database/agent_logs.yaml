@@ -1,11 +1,5 @@
 logs:
 - agent: PracticeAgent
-  action: 'Failed portal for TikTok (General Hire) Machine Learning Engineer Intern
-    (TikTok-Recommendation) - 2026 Summer (BS/MS): Gemini failed to generate project
-    recommendations'
-  status: error
-  timestamp: '2026-04-30T21:17:17'
-- agent: PracticeAgent
   action: 'Failed portal for Zello AI & ML Engineering Intern: Gemini failed to generate
     project recommendations'
   status: error
@@ -2133,3 +2127,7 @@ logs:
   action: Fetch started
   level: INFO
   timestamp: '2026-05-01T07:22:03'
+- agent: CareerAgent
+  action: 97 jobs fetched
+  level: INFO
+  timestamp: '2026-05-01T07:22:29'
